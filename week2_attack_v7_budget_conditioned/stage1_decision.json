@@ -1,0 +1,82 @@
+{
+  "decision": "NO_GO_NO_COMPRESSION_CONDITIONAL_EFFECT",
+  "gates": {
+    "A_paired_delta_025": true,
+    "B_sixty_percent_positive": true,
+    "C_median_order": true,
+    "D_margin_text_consistent": false
+  },
+  "conflicts": [
+    "5615",
+    "1023",
+    "22317",
+    "51140",
+    "56084",
+    "60744"
+  ],
+  "by_r": {
+    "0.50": {
+      "n": 60,
+      "paired_mean_B_minus_noise": 2.4397581766049066,
+      "paired_bootstrap95": [
+        1.9373942837119102,
+        2.9883523042003315
+      ],
+      "frac_delta_B_positive_all": 1.0,
+      "frac_delta_B_positive_strict": 1.0,
+      "median_delta_strict": 4.257863998413086,
+      "median_delta_nonstrict": 1.6673564910888672,
+      "strict_n": 11,
+      "mean_aux_share_delta": 0.009664842482613338,
+      "mean_evidence_share_delta": -0.005976879570002721
+    },
+    "0.35": {
+      "n": 60,
+      "paired_mean_B_minus_noise": 10.458477092254906,
+      "paired_bootstrap95": [
+        8.81873206847037,
+        12.183783027653893
+      ],
+      "frac_delta_B_positive_all": 1.0,
+      "frac_delta_B_positive_strict": 1.0,
+      "median_delta_strict": 9.32343578338623,
+      "median_delta_nonstrict": 5.917478695511818,
+      "strict_n": 48,
+      "mean_aux_share_delta": 0.00825306176775125,
+      "mean_evidence_share_delta": -0.005229092772309179
+    },
+    "0.25": {
+      "n": 60,
+      "paired_mean_B_minus_noise": 17.93964791124066,
+      "paired_bootstrap95": [
+        15.763109963138898,
+        20.24220333645741
+      ],
+      "frac_delta_B_positive_all": 1.0,
+      "frac_delta_B_positive_strict": 1.0,
+      "median_delta_strict": 17.729982495307922,
+      "median_delta_nonstrict": 10.888028621673584,
+      "strict_n": 52,
+      "mean_aux_share_delta": 0.002836516408068027,
+      "mean_evidence_share_delta": -0.002483606604831325
+    },
+    "0.15": {
+      "n": 60,
+      "paired_mean_B_minus_noise": 6.251851890453448,
+      "paired_bootstrap95": [
+        5.319282382323096,
+        7.253732456639409
+      ],
+      "frac_delta_B_positive_all": 1.0,
+      "frac_delta_B_positive_strict": 1.0,
+      "median_delta_strict": 5.511856891214848,
+      "median_delta_nonstrict": 4.044065535068512,
+      "strict_n": 31,
+      "mean_aux_share_delta": 0.00730171135533912,
+      "mean_evidence_share_delta": -0.004460095516877851
+    }
+  },
+  "samples_with_monotone_stronger_compression": 0,
+  "monotone_claim_allowed": false,
+  "cohort": "existing pristine60 Variant B diagnosis; not a B+ generalization result"
+}

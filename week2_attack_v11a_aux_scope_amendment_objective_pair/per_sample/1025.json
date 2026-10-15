@@ -1,0 +1,48 @@
+{
+  "sample_id": "1025",
+  "h0_replay": "BLOCKED_H0_REPLAY_DIVERGED",
+  "earliest_mismatch_step": 10,
+  "step0_png_match": true,
+  "question": "Who is the European Medical Director?",
+  "aux_idx": 0,
+  "page_sha256": [
+    "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+    "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+    "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+  ],
+  "step10": {
+    "historical_png": "e88ee42ddf330a215432a8500eb609f8eedb2ab661ec823c9e89a67d3ce7ed9e",
+    "h0_png": "be3490715ae9cd5e8d283a0eb7499f737728cc9724093a04e9e0229450208a16",
+    "historical_full": "Dr. C. Baur MD",
+    "h0_full": "Dr. C. Baur MD",
+    "historical_fastv_0.25": "Dr. Bacharach",
+    "h0_fastv_0.25": "TAKEDA",
+    "historical_fastv_0.35": "Dr. C. B. B. MD",
+    "h0_fastv_0.35": "Dr. C. B. Baur MD",
+    "historical_keep_0.25": "71de5407c1b17debfdce943a87ed51deaba32c51b6511128fb7d1fc28ce1781c",
+    "h0_keep_0.25": "6a3faaaf415924d3927ca79bcd07a4541a7c68f435ac95e93e5e42f96d771ad7",
+    "historical_keep_0.35": "a9bfc6bb3b543c7f47e25140b6e64a0cb4a80614754766e6337451d9e15e741f",
+    "h0_keep_0.35": "49a107c10e6d609ccc8bfa863b28c220906745d41add81bad241266178c8d636",
+    "historical_margin": 0.31210900843143463,
+    "h0_margin": 1.8150593638420105,
+    "token_ids": "未测"
+  },
+  "historical_selector_step": 75,
+  "h0_selector_step": 200,
+  "train_counters": {
+    "forward": 3694,
+    "backward": 600,
+    "generate": 425,
+    "fastv": 416,
+    "generated_tokens": 3356
+  },
+  "elapsed_sec": 2101.8,
+  "peak_memory_mib": 26898.4,
+  "h1": "NOT_RUN",
+  "sealed_selector_result": "NOT_RUN",
+  "trajectory_oracle_result": "NOT_RUN",
+  "ratios_0.15_and_0.50": "NOT_RUN",
+  "noise": "NOT_RUN",
+  "pgd": "NOT_RUN",
+  "opgd": "NOT_RUN"
+}

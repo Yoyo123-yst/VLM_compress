@@ -1,0 +1,33 @@
+{
+  "decision": "GRAYBOX_CONTROL_NOT_SUPPORTED",
+  "scope": "5-sample development post-hoc control",
+  "not_unseen": true,
+  "not_budget_independent_transfer": true,
+  "not_compressor_oblivious_generalization": true,
+  "token_exact_scope": "pre-seal token exact + target-side text exact",
+  "replay_diverged": false,
+  "coverage": "4/5",
+  "overall_denominator": 5,
+  "conditional_sealed_denominator": 4,
+  "sample_39204": "NO_VALID_SEALED_CANDIDATE",
+  "sample_1025": {
+    "r025_clean_text": "Dr. C. Baur",
+    "r025_clean_anls": 0.6666666666666667,
+    "r025_attack_text": "Dr. Bacharach",
+    "r025_attack_anls": 0.0,
+    "r025_induced_versus_clean": true,
+    "r025_random_text": "Dr. Bacharach",
+    "r025_random_anls": 0.0,
+    "r025_attack_beats_matched_noise": false,
+    "r015_clean_text": "TAKEDA",
+    "r015_clean_anls": 0.0,
+    "r015_attack_text": "TAKEDA",
+    "r015_attack_anls": 0.0,
+    "r015_induced_failure": false,
+    "full_exact": true,
+    "replay": true
+  },
+  "reason": "r=0.25 sample 1025 is an induced failure relative to clean FastV, and Full text plus disk replay match. Matched uint8 noise at the same L-infinity bound produces the same FastV text and ANLS 0, so the attack does not beat the noise control.",
+  "fastv_access_count": 104,
+  "full_calls": 26
+}

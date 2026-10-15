@@ -1,0 +1,47 @@
+{
+  "sample_id": "57835",
+  "question": "What is the name of the company mentioned just below the logo?",
+  "answers": [
+    "VST Industries Limited"
+  ],
+  "clean_full_text": "VST INDUSTRIES LIMITED",
+  "clean_full_tokens": [
+    53,
+    784,
+    19317,
+    8553,
+    65549,
+    13104,
+    151645
+  ],
+  "clean_fastv_text": "VST Industries Limited",
+  "clean_fastv_tokens": [
+    53,
+    784,
+    36428,
+    18905,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "9a0652013282bdf1b2290bbe257e9afd826f32614c05e69bfefdb612f8eac844",
+  "keep_hash_repeat": "9a0652013282bdf1b2290bbe257e9afd826f32614c05e69bfefdb612f8eac844",
+  "page_sha256": [
+    "6fadc4598f435e1950c2044a05d477aefccdcb403c932e1aa816b64075aeb99d",
+    "84556994e0cfdad4bac072ae211502849eb0e3fac9a42e887c3248421129e4bd",
+    "83a5481c822d5c6a2a483573037b18bd5424696c91fe8861b558c2657c8d2b73",
+    "d432a07f46601649990eee57e5584b7f9e8f6f4f41ce0d4ced8591b96f823051"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 3,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.598
+}

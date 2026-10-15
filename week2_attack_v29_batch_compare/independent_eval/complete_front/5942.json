@@ -1,0 +1,27 @@
+{
+  "status": "EVALUATED_INDEPENDENT_PROCESS",
+  "sample_id": "5942",
+  "method": "complete_front",
+  "independent_process": true,
+  "png_path": "week2_attack_v29_batch_compare/attacks/complete_front/5942/accepted_010.png",
+  "png_sha256": "d4c6e35c3b4e8191a84c6fdde5dd0dbde811912cbaed396cfc9805fa442fee1f",
+  "uint8_linf": 8,
+  "clean_full_text": "520",
+  "full_text": "520",
+  "full_text_exact": true,
+  "full_token_exact": true,
+  "same_evaluator_process_repeat_exact": true,
+  "fastv_text": "52",
+  "fastv_anls": 0.6666666666666667,
+  "fastv_valid": true,
+  "k": 2774,
+  "expected_k": 2774,
+  "keep_hash": "6e831e31cb1d9114c5d9e550377166ad8fb8434208c670a8ff29de78bc2ff289",
+  "dataset_answers": [
+    "520"
+  ],
+  "target_text": "52 acres",
+  "target_hit_normalized_exact": false,
+  "content_status": "PENDING_QUESTION_SPECIFIC_REVIEW",
+  "semantic_review_required": true
+}

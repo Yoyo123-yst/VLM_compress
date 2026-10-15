@@ -1,0 +1,11 @@
+{
+  "tag": "differential_subspace_pilot_v1",
+  "samples": ["47450", "60700", "7006", "39204"],
+  "ratio": 0.25,
+  "directions": ["RAW", "NATIVE", "DIFF", "RANDOM"],
+  "radii_uint8": [1, 2, 4, 8],
+  "mu": 0.001,
+  "lambda_full": 2.6371882367154997,
+  "seed": 2026101411,
+  "notes": "One-step diagnostic only. Natural FastV and Full exact are measured after PNG reload; no checkpoint selection or multistep training."
+}

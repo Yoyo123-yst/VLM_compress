@@ -1,0 +1,68 @@
+{
+  "sample_id": "50779",
+  "chosen_step": 200,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "Dr. Darby",
+  "clean_text": "Dr. Darby",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 5.1163153648376465,
+  "pollution": 0,
+  "strict_train": 0,
+  "by_ratio": {
+    "0.50": {
+      "text": "Dr. Darby",
+      "anls": 1.0,
+      "margin": 1.9250739812850952,
+      "keep": {
+        "k": 5548,
+        "keep_hash": "5de9b0696c65cced1270427fbbdfb2c3cd142a816bad6b94803c5e395437e85a",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 3.1912413835525513
+    },
+    "0.35": {
+      "text": "Dr. Dan Bonyak",
+      "anls": 0.5384615384615384,
+      "margin": -0.36033400893211365,
+      "keep": {
+        "k": 3884,
+        "keep_hash": "27d04f1f3c2d7a24fd8ad0e09048cf7890ff1fb0ccb371137c08ad143b8308d2",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 5.47664937376976
+    },
+    "0.25": {
+      "text": "Dr. Dan Roney",
+      "anls": 0.5833333333333333,
+      "margin": -0.8675559759140015,
+      "keep": {
+        "k": 2774,
+        "keep_hash": "e9469d5ea8f6263dd915935db41890f2245032df4b948a7eab95a69d91cb33e8",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 5.983871340751648
+    },
+    "0.15": {
+      "text": "Dr. Darby Walters",
+      "anls": 0.0,
+      "margin": 0.08826573938131332,
+      "keep": {
+        "k": 1665,
+        "keep_hash": "9284cc352a5d771070ab4c655d81e9d7f115d757f27b390238b68a65c485c9bc",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.028049625456333
+    }
+  },
+  "selector_margin": -0.6139449924230576
+}

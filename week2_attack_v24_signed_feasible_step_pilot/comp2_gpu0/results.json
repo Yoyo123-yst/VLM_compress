@@ -1,0 +1,111 @@
+{
+  "sample_id": "47450",
+  "candidates": {
+    "5": {
+      "reference": 12375,
+      "reference_piece": " William",
+      "competitor": 2926,
+      "competitor_piece": " Dr"
+    },
+    "8": {
+      "reference": 15017,
+      "reference_piece": " Dar",
+      "competitor": 2926,
+      "competitor_piece": " Dr"
+    }
+  },
+  "rows": [
+    {
+      "step": 1,
+      "radius": 1,
+      "base_margin": 10.46875,
+      "candidate_margin": 9.46875,
+      "predicted_change": -124.46073913574219,
+      "accepted": true,
+      "full_exact": true,
+      "fast_text": "Dr. or Mrs. William J. Darby",
+      "keep_hash": "95e124978fd040ee12d43d958cca8aa02059d50de2620f9c1bfccbbeeae25a31",
+      "png_linf": 1,
+      "candidate_margins": [
+        7.5625,
+        11.375
+      ],
+      "semantic_text_change": false
+    },
+    {
+      "step": 2,
+      "radius": 1,
+      "base_margin": 9.46875,
+      "candidate_margin": 8.5,
+      "predicted_change": -53.32600021362305,
+      "accepted": true,
+      "full_exact": true,
+      "fast_text": "Dr. or Mrs. William J. Darby",
+      "keep_hash": "c9bc0041bf925c3ebd8e99f4d4987a3f7702e90e8fc05becfae4bec03c241e9c",
+      "png_linf": 1,
+      "candidate_margins": [
+        6.75,
+        10.25
+      ],
+      "semantic_text_change": false
+    },
+    {
+      "step": 3,
+      "radius": 1,
+      "base_margin": 8.5,
+      "candidate_margin": 7.375,
+      "predicted_change": -40.69562911987305,
+      "accepted": true,
+      "full_exact": true,
+      "fast_text": "Dr. or Mrs. William J. Darby",
+      "keep_hash": "76b60b961120059b16e8f567f000d47b3679b79c6340f43a4abb77b8bfcd08af",
+      "png_linf": 1,
+      "candidate_margins": [
+        6.4375,
+        8.3125
+      ],
+      "semantic_text_change": false
+    },
+    {
+      "step": 4,
+      "radius": 1,
+      "base_margin": 7.375,
+      "candidate_margin": 6.09375,
+      "predicted_change": -85.79216003417969,
+      "accepted": true,
+      "full_exact": true,
+      "fast_text": "Dr. or Mrs. William J. Darby",
+      "keep_hash": "0565235b7c5758de8681adf0327ef832d5864563f4063995ca8c9f87e194555d",
+      "png_linf": 1,
+      "candidate_margins": [
+        5.6875,
+        6.5
+      ],
+      "semantic_text_change": false
+    },
+    {
+      "step": 5,
+      "radius": 1,
+      "base_margin": 6.09375,
+      "candidate_margin": 5.625,
+      "predicted_change": -24.700742721557617,
+      "accepted": true,
+      "full_exact": true,
+      "fast_text": "Dr. or Mrs. William J. Darby",
+      "keep_hash": "78067fa1e3d1a8d4f968219348d4eb7b4d77f0312ff483a20bda2bbad4df84f4",
+      "png_linf": 1,
+      "candidate_margins": [
+        5.6875,
+        5.5625
+      ],
+      "semantic_text_change": false
+    }
+  ],
+  "accepted": 5,
+  "cost": {
+    "forward": 12,
+    "backward": 0,
+    "generate": 18
+  },
+  "final_fast_text": "Dr. or Mrs. William J. Darby"
+}

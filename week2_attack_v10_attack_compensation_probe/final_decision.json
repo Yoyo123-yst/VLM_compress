@@ -1,0 +1,244 @@
+{
+  "decision": "NO_GO_ATTACK_COMPENSATION_STRUCTURE",
+  "scope": "development constructability probe",
+  "denominator": 6,
+  "strong": "0/6",
+  "strong_or_partial": "0/6",
+  "witness_ids": [],
+  "compensation_repairs_fastv_ids": [
+    "60700",
+    "7006"
+  ],
+  "compensation_only_not_benign_ids": [
+    "1025"
+  ],
+  "missing_samples": [],
+  "parent_mismatch": [],
+  "rows": [
+    {
+      "sample_id": "1025",
+      "status": "OK",
+      "historical_native_fdp_strict": 1,
+      "accepted": 100,
+      "rejected": 0,
+      "counters": {
+        "forward": 9158,
+        "backward": 300,
+        "generate": 1092,
+        "fastv": 1054
+      },
+      "elapsed_sec": 2745.0087274389807,
+      "peak_memory_mib": 26415.0732421875,
+      "ratios": {
+        "0.25": {
+          "measured": true,
+          "attack_full_break": false,
+          "attack_fastv_failure": true,
+          "compensation_recovers_full": true,
+          "combined_fastv_failure": true,
+          "compensation_alone_benign": false,
+          "control_not_equivalent": true,
+          "strong": false,
+          "integrity": true
+        },
+        "0.35": {
+          "measured": true,
+          "attack_full_break": false,
+          "attack_fastv_failure": true,
+          "compensation_recovers_full": true,
+          "combined_fastv_failure": true,
+          "compensation_alone_benign": true,
+          "control_not_equivalent": true,
+          "strong": false,
+          "integrity": true
+        }
+      },
+      "strong": false,
+      "partial": false,
+      "integrity": true
+    },
+    {
+      "sample_id": "2008",
+      "status": "NO_VALID_COMPENSATED_CANDIDATE",
+      "historical_native_fdp_strict": 1,
+      "accepted": 100,
+      "rejected": 0,
+      "counters": {
+        "forward": 8902,
+        "backward": 300,
+        "generate": 1070,
+        "fastv": 1040
+      },
+      "elapsed_sec": 2111.209100524895,
+      "peak_memory_mib": 23100.09619140625,
+      "ratios": {
+        "0.25": {
+          "measured": false
+        },
+        "0.35": {
+          "measured": false
+        }
+      },
+      "strong": false,
+      "partial": false,
+      "integrity": true
+    },
+    {
+      "sample_id": "47450",
+      "status": "OK",
+      "historical_native_fdp_strict": 1,
+      "accepted": 100,
+      "rejected": 0,
+      "counters": {
+        "forward": 11908,
+        "backward": 300,
+        "generate": 1110,
+        "fastv": 1072
+      },
+      "elapsed_sec": 3770.3707216219045,
+      "peak_memory_mib": 30420.60986328125,
+      "ratios": {
+        "0.25": {
+          "measured": true,
+          "attack_full_break": false,
+          "attack_fastv_failure": true,
+          "compensation_recovers_full": true,
+          "combined_fastv_failure": true,
+          "compensation_alone_benign": true,
+          "control_not_equivalent": false,
+          "strong": false,
+          "integrity": true
+        },
+        "0.35": {
+          "measured": true,
+          "attack_full_break": false,
+          "attack_fastv_failure": true,
+          "compensation_recovers_full": true,
+          "combined_fastv_failure": true,
+          "compensation_alone_benign": true,
+          "control_not_equivalent": false,
+          "strong": false,
+          "integrity": true
+        }
+      },
+      "strong": false,
+      "partial": false,
+      "integrity": true
+    },
+    {
+      "sample_id": "60700",
+      "status": "OK",
+      "historical_native_fdp_strict": 1,
+      "accepted": 100,
+      "rejected": 0,
+      "counters": {
+        "forward": 5804,
+        "backward": 300,
+        "generate": 1102,
+        "fastv": 1064
+      },
+      "elapsed_sec": 2643.1612924518995,
+      "peak_memory_mib": 26928.447265625,
+      "ratios": {
+        "0.25": {
+          "measured": true,
+          "attack_full_break": true,
+          "attack_fastv_failure": true,
+          "compensation_recovers_full": true,
+          "combined_fastv_failure": false,
+          "compensation_alone_benign": true,
+          "control_not_equivalent": true,
+          "strong": false,
+          "integrity": true
+        },
+        "0.35": {
+          "measured": true,
+          "attack_full_break": true,
+          "attack_fastv_failure": true,
+          "compensation_recovers_full": true,
+          "combined_fastv_failure": false,
+          "compensation_alone_benign": true,
+          "control_not_equivalent": true,
+          "strong": false,
+          "integrity": true
+        }
+      },
+      "strong": false,
+      "partial": false,
+      "integrity": true
+    },
+    {
+      "sample_id": "7006",
+      "status": "OK",
+      "historical_native_fdp_strict": 0,
+      "accepted": 100,
+      "rejected": 0,
+      "counters": {
+        "forward": 8009,
+        "backward": 300,
+        "generate": 1110,
+        "fastv": 1072
+      },
+      "elapsed_sec": 3512.973972273059,
+      "peak_memory_mib": 30763.271484375,
+      "ratios": {
+        "0.25": {
+          "measured": true,
+          "attack_full_break": false,
+          "attack_fastv_failure": false,
+          "compensation_recovers_full": true,
+          "combined_fastv_failure": false,
+          "compensation_alone_benign": true,
+          "control_not_equivalent": true,
+          "strong": false,
+          "integrity": true
+        },
+        "0.35": {
+          "measured": true,
+          "attack_full_break": false,
+          "attack_fastv_failure": false,
+          "compensation_recovers_full": true,
+          "combined_fastv_failure": false,
+          "compensation_alone_benign": true,
+          "control_not_equivalent": true,
+          "strong": false,
+          "integrity": true
+        }
+      },
+      "strong": false,
+      "partial": false,
+      "integrity": true
+    },
+    {
+      "sample_id": "39204",
+      "status": "NO_VALID_COMPENSATED_CANDIDATE",
+      "historical_native_fdp_strict": 0,
+      "accepted": 100,
+      "rejected": 0,
+      "counters": {
+        "forward": 5913,
+        "backward": 300,
+        "generate": 1070,
+        "fastv": 1040
+      },
+      "elapsed_sec": 3280.666820114013,
+      "peak_memory_mib": 30766.55859375,
+      "ratios": {
+        "0.25": {
+          "measured": false
+        },
+        "0.35": {
+          "measured": false
+        }
+      },
+      "strong": false,
+      "partial": false,
+      "integrity": true
+    }
+  ],
+  "native_fdp_method_comparison": "NOT_RUN",
+  "dynamic_role_assignment": "NOT_RUN",
+  "fixed_weighted_dual_loss": "NOT_RUN",
+  "alternating_optimization": "NOT_RUN",
+  "generic_gradient_projection": "NOT_RUN"
+}

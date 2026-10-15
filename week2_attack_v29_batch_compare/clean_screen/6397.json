@@ -1,0 +1,39 @@
+{
+  "sample_id": "6397",
+  "question": "What is the cycle count?",
+  "answers": [
+    "12"
+  ],
+  "clean_full_text": "12",
+  "clean_full_tokens": [
+    16,
+    17,
+    151645
+  ],
+  "clean_fastv_text": "12",
+  "clean_fastv_tokens": [
+    16,
+    17,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "a2314598fd762e40cbaafa72d7d2cce8c138575c0505862915e03dd70500e106",
+  "keep_hash_repeat": "a2314598fd762e40cbaafa72d7d2cce8c138575c0505862915e03dd70500e106",
+  "page_sha256": [
+    "4c07f3c1243cea4257fda2561df548a45232c5f830920ff0dc1f9d6335cd7862",
+    "7ef9d9ac77169cc7ede3612198e18b21e3bac9fcb81f17cde19722d56efe5fe3"
+  ],
+  "layout_M": 2,
+  "aux_idx": 1,
+  "evidence_idx": 0,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 4.259
+}

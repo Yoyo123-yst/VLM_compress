@@ -1,0 +1,122 @@
+{
+  "rows": [
+    {
+      "sample_id": "47450",
+      "step": "150",
+      "pred_CC": "Dr. or Mrs. William J. Darby",
+      "pred_CA": "Dr. or Mrs. William J. Darby",
+      "pred_AC": "HILLBORD BIANCH",
+      "pred_AA": "HILLBORG BIANCH",
+      "full_clean": "Dr. or Mrs. William J. Darby",
+      "full_selected": "Dr. or Mrs. William J. Darby",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 8.43
+    },
+    {
+      "sample_id": "62941",
+      "step": "150",
+      "pred_CC": "December 19, 1979",
+      "pred_CA": "December 19, 1979",
+      "pred_AC": "12/31/79",
+      "pred_AA": "11/30/99",
+      "full_clean": "October 13-31, 1979",
+      "full_selected": "October 13-31, 1979",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 6.27
+    },
+    {
+      "sample_id": "39204",
+      "step": "200",
+      "pred_CC": "FOOD TECHNOLOGY",
+      "pred_CA": "FOOD TECHNOLOGY",
+      "pred_AC": "FOOD TECHNOLOGY",
+      "pred_AA": "Food",
+      "full_clean": "FOOD TECHNOLOGY",
+      "full_selected": "FOOD TECHNOLOGY",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 1.0,
+      "anls_AA": 0.0,
+      "mechanism": "INTERACTION_REQUIRED",
+      "output_valid": 1,
+      "pollution": 1,
+      "seconds": 6.8
+    },
+    {
+      "sample_id": "6194",
+      "step": "200",
+      "pred_CC": "0107-XX-XX-XX",
+      "pred_CA": "0107-XX-XX-XX",
+      "pred_AC": "071688",
+      "pred_AA": "771688",
+      "full_clean": "0107-XX-XX-XX",
+      "full_selected": "0107-XX-XX-XX",
+      "anls_CC": 0.8,
+      "anls_CA": 0.8,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 7.67
+    }
+  ],
+  "keeps": [
+    {
+      "sample_id": "47450",
+      "K": 3699,
+      "keep_hash_clean": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+      "keep_hash_adv": "e9ff0333b78e5f0275a4c9443874894de0e13467731ec40e2b1607cb6d43c16a",
+      "jaccard": 0.8176904176904177,
+      "evidence_share_clean": 0.2278994322789943,
+      "evidence_share_adv": 0.2216815355501487,
+      "aux_share_clean": 0.3236009732360097,
+      "aux_share_adv": 0.33955123006217897
+    },
+    {
+      "sample_id": "62941",
+      "K": 2774,
+      "keep_hash_clean": "be0564b51aa3de1eb1c849bf1f4e5fe0aff28538ac75fe8a4cc7be3e205d04fd",
+      "keep_hash_adv": "f2ee069565393805e2d98ed872263def5ab968014dfa994915a76559cb2acae1",
+      "jaccard": 0.861120429386112,
+      "evidence_share_clean": 0.4170872386445566,
+      "evidence_share_adv": 0.4131218457101658,
+      "aux_share_clean": 0.2664023071377073,
+      "aux_share_adv": 0.27505407354001443
+    },
+    {
+      "sample_id": "39204",
+      "K": 3699,
+      "keep_hash_clean": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+      "keep_hash_adv": "1854613162c6251f26908b911f5d1a7bd52aa668dd9c4ec1a27ae2f2d11e27d6",
+      "jaccard": 0.8244143033292232,
+      "evidence_share_clean": 0.17518248175182483,
+      "evidence_share_adv": 0.1730197350635307,
+      "aux_share_clean": 0.28737496620708297,
+      "aux_share_adv": 0.2946742362800757
+    },
+    {
+      "sample_id": "6194",
+      "K": 3699,
+      "keep_hash_clean": "83e36129664ec9b891fd1666751adfea06ec90adf58d0e83461dbe10b44c6340",
+      "keep_hash_adv": "7c92035e4d7993c6a0e23b69554f887575a199f0f466a7183b57d714d3c6edf3",
+      "jaccard": 0.8748099341104917,
+      "evidence_share_clean": 0.25060827250608275,
+      "evidence_share_adv": 0.2500675858340092,
+      "aux_share_clean": 0.24979724249797242,
+      "aux_share_adv": 0.24817518248175183
+    }
+  ]
+}

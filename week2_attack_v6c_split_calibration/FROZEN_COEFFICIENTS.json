@@ -1,0 +1,11 @@
+{
+  "written_at": "2026-10-08T18:33:00+08:00",
+  "lambda_soft": 2.049824826423478,
+  "lambda_source": "week2_attack_v6b_soft_full_anchor/logs/health_1025.json",
+  "lambda_numerator": 9.532242774963379,
+  "lambda_denominator": 4.650271892547607,
+  "beta": 19.954104837532157,
+  "beta_status": "FROZEN_FROM_SINGLE_PROBE",
+  "beta_rule": "On sample 1025 only, delta_ref=+1/255 on the auxiliary page, beta = L2(grad L_comp) / L2(grad L_selection). One write. No second probe.",
+  "beta_frozen_at": "2026-10-08T18:37:50+0800"
+}

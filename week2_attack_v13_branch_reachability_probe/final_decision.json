@@ -1,0 +1,21 @@
+{
+  "status": "BRANCH_CONSTRUCTION_SUPPORTED_SELECTOR_ADVANTAGE_NOT_ESTABLISHED",
+  "scope": "single discriminating development sample construction probe; not a method comparison or unseen result",
+  "tag": "construct_v1r1",
+  "ratio": 0.25,
+  "optimization_steps": 25,
+  "screened_samples": {
+    "60700": "CLEAN_AND_BRANCH_ADMITTED; NAIVE and AWARE selected different candidates",
+    "47450": "CLEAN_AND_BRANCH_ADMITTED; NAIVE and AWARE selected the same candidate, so it cannot test selector differentiation"
+  },
+  "construction_sample": "60700",
+  "fresh_replay": {
+    "SEQ_step10": "strict endpoint replayed: Full PPBS, FastV Ppbs #14, 1967, ANLS 0",
+    "NAIVE_step10": "strict endpoint replayed: Full PPBS, FastV Pages 3 and 4, ANLS 0",
+    "AWARE_step15": "strict endpoint replayed: Full PPBS, FastV PPSB, ANLS 0",
+    "NAIVE_fixed_branch_selector_step25": "strict endpoint replayed",
+    "AWARE_fixed_branch_selector_step20": "strict endpoint replayed"
+  },
+  "selector_finding": "AWARE estimated a higher Full-capacity/FastV-radius ratio but reached a strict endpoint later than SEQ and NAIVE (15 versus 10 updates). Its natural FastV output recovered at step 25. The proposed local ratio therefore has no advantage evidence in this probe.",
+  "next_authorized_experiment": "AWARE state-retention ablation on 60700: freeze the legal best branch-state after pair margin first crosses the fixed target, then test whether the recovery at step 25 disappears. Do not expand to the six-sample or unseen cohort before this causal check."
+}

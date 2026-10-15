@@ -1,0 +1,49 @@
+{
+  "sample_id": "47450",
+  "h0_replay": "BLOCKED_H0_REPLAY_DIVERGED",
+  "earliest_mismatch_step": 10,
+  "step0_png_match": true,
+  "question": "Who has made the deposit ?",
+  "aux_idx": 0,
+  "page_sha256": [
+    "7bab8be8ede326621c16376d55769d696a6a969772ab2116685a1628eba55f8d",
+    "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+    "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+    "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+  ],
+  "step10": {
+    "historical_png": "0a2cbbd9ceb601fa985c179eec3b612dd4a799bd3f4bfeb6ccd8ed61ca3280ed",
+    "h0_png": "3ca294ed4cc0605c5521ff0f5a607ed5079c7ae48abd80cd4dc1bfd0708157c6",
+    "historical_full": "Dr. or Mrs. William J. Darby",
+    "h0_full": "Dr. or Mrs. William J. Darby",
+    "historical_fastv_0.25": "Dr. or Mrs. William J. Darby",
+    "h0_fastv_0.25": "Dr. or Mrs. William J. Darby",
+    "historical_fastv_0.35": "Dr. or Mrs. William J. Darby",
+    "h0_fastv_0.35": "Dr. or Mrs. William J. Darby",
+    "historical_keep_0.25": "3ecaa35b872e175930248bf97dacf4c32c82103b7765edaf2954438aa29f3d43",
+    "h0_keep_0.25": "54df2b11ff135cbacf71b879bb002b86592873a67424cd214749ac16c0412911",
+    "historical_keep_0.35": "cf8f785a43ec025c633d5191217a4defdb7032cb82a0f3be94677171d5f2d887",
+    "h0_keep_0.35": "62a05c6b32df05a5480a8865ecfa76ad0781b5b74c6aa4900a28f914d261747b",
+    "historical_margin": 3.7983964681625366,
+    "h0_margin": 3.673202157020569,
+    "token_ids": "未测"
+  },
+  "historical_selector_step": 200,
+  "h0_selector_step": 50,
+  "train_counters": {
+    "forward": 4111,
+    "backward": 600,
+    "generate": 425,
+    "fastv": 416,
+    "generated_tokens": 3762
+  },
+  "elapsed_sec": 2794.9,
+  "peak_memory_mib": 30722.5,
+  "h1": "NOT_RUN",
+  "sealed_selector_result": "NOT_RUN",
+  "trajectory_oracle_result": "NOT_RUN",
+  "ratios_0.15_and_0.50": "NOT_RUN",
+  "noise": "NOT_RUN",
+  "pgd": "NOT_RUN",
+  "opgd": "NOT_RUN"
+}

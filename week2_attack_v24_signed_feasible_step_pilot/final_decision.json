@@ -1,0 +1,12 @@
+{
+  "status": "NO_GO_SIGNED_FEASIBLE_STEP_PILOT",
+  "samples": ["47450", "60700"],
+  "ratio": 0.25,
+  "radii_uint8": [1, 2],
+  "rows": 4,
+  "full_exact_rows": 4,
+  "content_failure_rows": 0,
+  "multistep_started": false,
+  "unseen_started": false,
+  "reason": "The signed per-token constrained step was executed after correcting its sign convention. It preserved Full exact/replay but produced no confirmed content failure; 60700 only changed casing to Ppbs and 47450 remained unchanged."
+}

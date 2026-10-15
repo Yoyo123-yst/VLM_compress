@@ -1,0 +1,68 @@
+{
+  "sample_id": "50779",
+  "chosen_step": 150,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "Dr. Darby",
+  "clean_text": "Dr. Darby",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 6.014861583709717,
+  "pollution": 0,
+  "strict_train": 0,
+  "by_ratio": {
+    "0.50": {
+      "text": "Dr. Darby",
+      "anls": 1.0,
+      "margin": 3.361715793609619,
+      "keep": {
+        "k": 5548,
+        "keep_hash": "9a62c4c0bd9e243bdb0c8cff7b6113844b4ced6c3180ed8e39cf734c47d2c555",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 2.6531457901000977
+    },
+    "0.35": {
+      "text": "Dr. Darby",
+      "anls": 1.0,
+      "margin": -0.31647035479545593,
+      "keep": {
+        "k": 3884,
+        "keep_hash": "a5184096d1a5e128e388e43ab9b3ff06ddf9130d0ad93ba19f58f50278eabc7e",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 6.331331938505173
+    },
+    "0.25": {
+      "text": "Dr. Tobornobay",
+      "anls": 0.0,
+      "margin": -0.5133761167526245,
+      "keep": {
+        "k": 2774,
+        "keep_hash": "e2ba24b32c6d08d46470258510677f49be5d9d91de17b95899b47339dabd05af",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 6.528237700462341
+    },
+    "0.15": {
+      "text": "Dr. Darby",
+      "anls": 1.0,
+      "margin": 0.6003261804580688,
+      "keep": {
+        "k": 1665,
+        "keep_hash": "f8721f995444a2d92ff315b885f5f537cf029fc02c19790e64d00fa1d1ff33ae",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 5.414535403251648
+    }
+  },
+  "selector_margin": -0.4149232357740402
+}

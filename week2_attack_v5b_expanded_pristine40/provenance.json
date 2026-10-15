@@ -1,0 +1,16 @@
+{
+  "stage": "v5b_expanded_pristine40_complete",
+  "attack_start": "2026-10-08T11:15:00+08:00",
+  "attack_end": "2026-10-08T15:00:45+08:00",
+  "replay_end": "2026-10-08T15:10:17+08:00",
+  "shards": [
+    {"shard": 0, "gpu": 0, "wrapper_pid": 4043441, "exit": 0, "end": "14:43:44"},
+    {"shard": 1, "gpu": 1, "wrapper_pid": 4043552, "exit": 0, "end": "15:00:45"},
+    {"shard": 2, "gpu": 4, "wrapper_pid": 4043754, "exit": 0, "end": "14:22:19"},
+    {"shard": 3, "gpu": 6, "wrapper_pid": 4044016, "exit": 0, "end": "14:38:19"}
+  ],
+  "noise_and_replay_exit": 0,
+  "replay_failures": 0,
+  "analysis_script_edited_after_lock": "analyze_v5b.py was adjusted after the attack to tolerate noise rows without a step field and to avoid labeling 33/40 as WEAK_SIGNAL. Attack code and frozen inputs were not changed.",
+  "unfinished_tasks": []
+}

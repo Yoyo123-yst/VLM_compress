@@ -1,0 +1,68 @@
+{
+  "sample_id": "60700",
+  "chosen_step": 200,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "PPBS",
+  "clean_text": "PPBS",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 5.011804103851318,
+  "pollution": 0,
+  "strict_train": 0,
+  "by_ratio": {
+    "0.50": {
+      "text": "PPBS",
+      "anls": 1.0,
+      "margin": 3.261781692504883,
+      "keep": {
+        "k": 5548,
+        "keep_hash": "f7998519395442812d1821ae448053f3140e9445622ee3d52280e12bc54e0f1a",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 1.7500224113464355
+    },
+    "0.35": {
+      "text": "HPBS",
+      "anls": 0.75,
+      "margin": -2.0094971656799316,
+      "keep": {
+        "k": 3884,
+        "keep_hash": "8e9ae9345720a78b56622f51b17894b72f352881aad31d2c3825b82e53bea851",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 7.02130126953125
+    },
+    "0.25": {
+      "text": "SUSPENSEFUL BULLDOGS",
+      "anls": 0.0,
+      "margin": -0.31026268005371094,
+      "keep": {
+        "k": 2774,
+        "keep_hash": "686d3c4faa87d8b2235b4bd771f623caf1332d76f66f18bb8b681fde820f8904",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.322066783905029
+    },
+    "0.15": {
+      "text": "ALL DISTRICTS",
+      "anls": 0.0,
+      "margin": 2.356813669204712,
+      "keep": {
+        "k": 1665,
+        "keep_hash": "f658cb5476ea7bdbc1d3f461a269fc7ee761565f860765f4de07ba76111bbc2a",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 2.6549904346466064
+    }
+  },
+  "selector_margin": -1.1598799228668213
+}

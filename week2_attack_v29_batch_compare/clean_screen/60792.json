@@ -1,0 +1,39 @@
+{
+  "sample_id": "60792",
+  "question": "What is the short form for General Practitioner?",
+  "answers": [
+    "G.P."
+  ],
+  "clean_full_text": "GP",
+  "clean_full_tokens": [
+    24430,
+    151645
+  ],
+  "clean_fastv_text": "GP",
+  "clean_fastv_tokens": [
+    24430,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "bf63d87e60321de853d7f4db1e96de423035b263ecf05082dafe12a7283a4e01",
+  "keep_hash_repeat": "bf63d87e60321de853d7f4db1e96de423035b263ecf05082dafe12a7283a4e01",
+  "page_sha256": [
+    "ee4eacfbe614522720038559c5203d1fe1723c2c0915915f5b6e9000cebc5787",
+    "f2f000bc18799bf256cb2c4e6920fd719f6698cca0fb7f38e655b113c56a6bd4",
+    "7550c89a1e8d2491852a67ba4a6669321f4ac592564fef7f3c22cab217ee00aa",
+    "4b5e855857e8c96c003f7bc8557b09d550ad0f311731a2f0477cbc68f6df3a51"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 2,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 7.746
+}

@@ -1,0 +1,498 @@
+{
+  "sample_id": "4449",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "54b396836549941361005fff6bba086383826a6ec87773ec92ac93ec2073dcdb",
+  "full_clean": {
+    "text_a": "Turkish Gold",
+    "text_b": "Turkish Gold",
+    "tokens_a": [
+      36962,
+      73620,
+      7421,
+      151645
+    ],
+    "tokens_b": [
+      36962,
+      73620,
+      7421,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      36962,
+      73620,
+      7421,
+      151645
+    ],
+    "text": "Turkish Gold",
+    "anls": 1.0,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "14b53091aa436ba7ad6c4ae8e1bb8af48bad2db3cc42fed7b3b2ba3d7db725f7",
+    "k": 3699,
+    "second_keep_hash": "14b53091aa436ba7ad6c4ae8e1bb8af48bad2db3cc42fed7b3b2ba3d7db725f7",
+    "second_k": 3699
+  },
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "14b53091aa436ba7ad6c4ae8e1bb8af48bad2db3cc42fed7b3b2ba3d7db725f7",
+    "reference_keep_hash": "14b53091aa436ba7ad6c4ae8e1bb8af48bad2db3cc42fed7b3b2ba3d7db725f7",
+    "fast_keep_exact": true,
+    "k": 3699,
+    "reference_k": 3699
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 0,
+      "target_id": 36962,
+      "target_piece": "Tur",
+      "candidate_id": 25406,
+      "candidate_piece": "Cam",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 0.4375,
+      "content_priority": 1,
+      "fast_gradient_l1": 36071.1640625,
+      "fast_gradient_l2": 183.1160125732422,
+      "estimated_fast_flip_linf": 1.2128801810830111e-05,
+      "full_clean_hard_min": 1.125,
+      "full_probe_hard_min": 1.0,
+      "full_local_capacity_linf": 0.03529411764705882,
+      "full_local_margin_available": true,
+      "reachability_ratio": 2909.9426470588232,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "14b53091aa436ba7ad6c4ae8e1bb8af48bad2db3cc42fed7b3b2ba3d7db725f7",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          25406,
+          301,
+          23734,
+          7421,
+          151645
+        ],
+        "text": "Camel Turkish Gold",
+        "keep_hash": "0eb0523e865add25cc83ff30344995ec68c9321dbd3e1367424b7886e7be5427",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.6666666666666667,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "camelturkishgold",
+      "complete_lexical_similarity_to_clean": 0.8148148148148148,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          25406,
+          301,
+          23734,
+          7421,
+          151645
+        ],
+        "text": "Camel Turkish Gold",
+        "keep_hash": "0eb0523e865add25cc83ff30344995ec68c9321dbd3e1367424b7886e7be5427",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 36962,
+      "target_piece": "Tur",
+      "candidate_id": 14017,
+      "candidate_piece": "LES",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 0.8125,
+      "content_priority": 1,
+      "fast_gradient_l1": 40164.36328125,
+      "fast_gradient_l2": 124.4655532836914,
+      "estimated_fast_flip_linf": 2.0229375835251964e-05,
+      "full_clean_hard_min": 1.125,
+      "full_probe_hard_min": 1.125,
+      "full_local_capacity_linf": 0.19215686274509805,
+      "full_local_margin_available": true,
+      "reachability_ratio": 9498.902205882354,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "14b53091aa436ba7ad6c4ae8e1bb8af48bad2db3cc42fed7b3b2ba3d7db725f7",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          14017,
+          784,
+          20608,
+          1706,
+          8281,
+          6126,
+          69116,
+          151645
+        ],
+        "text": "LESSTOBACCOFLAVOR",
+        "keep_hash": "395b281e8ac355d180bb079e02c07f7f4b167f18b39b06af2e9831fb2e8ba1dc",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "lesstobaccoflavor",
+      "complete_lexical_similarity_to_clean": 0.14285714285714285,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          14017,
+          784,
+          20608,
+          1706,
+          8281,
+          6126,
+          69116,
+          151645
+        ],
+        "text": "LESSTOBACCOFLAVOR",
+        "keep_hash": "395b281e8ac355d180bb079e02c07f7f4b167f18b39b06af2e9831fb2e8ba1dc",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 36962,
+      "target_piece": "Tur",
+      "candidate_id": 7661,
+      "candidate_piece": "More",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 1.875,
+      "content_priority": 1,
+      "fast_gradient_l1": 38502.890625,
+      "fast_gradient_l2": 168.24563598632812,
+      "estimated_fast_flip_linf": 4.869764242538608e-05,
+      "full_clean_hard_min": 1.125,
+      "full_probe_hard_min": 1.0,
+      "full_local_capacity_linf": 0.03529411764705882,
+      "full_local_margin_available": true,
+      "reachability_ratio": 724.760294117647,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "14b53091aa436ba7ad6c4ae8e1bb8af48bad2db3cc42fed7b3b2ba3d7db725f7",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          7661,
+          23734,
+          16194,
+          151645
+        ],
+        "text": "More Turkish Royal",
+        "keep_hash": "e879dd1bd3da02588ec061f46d20d1914db06e54d4063589aa701509fee911b1",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "moreturkishroyal",
+      "complete_lexical_similarity_to_clean": 0.6666666666666666,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          7661,
+          23734,
+          16194,
+          151645
+        ],
+        "text": "More Turkish Royal",
+        "keep_hash": "e879dd1bd3da02588ec061f46d20d1914db06e54d4063589aa701509fee911b1",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 7421,
+      "target_piece": " Gold",
+      "candidate_id": 16194,
+      "candidate_piece": " Royal",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 2.6875,
+      "content_priority": 1,
+      "fast_gradient_l1": 36611.5859375,
+      "fast_gradient_l2": 168.0628204345703,
+      "estimated_fast_flip_linf": 7.340572475029784e-05,
+      "full_clean_hard_min": 1.125,
+      "full_probe_hard_min": 1.0,
+      "full_local_capacity_linf": 0.03529411764705882,
+      "full_local_margin_available": true,
+      "reachability_ratio": 480.80878932968534,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "14b53091aa436ba7ad6c4ae8e1bb8af48bad2db3cc42fed7b3b2ba3d7db725f7",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          36962,
+          73620,
+          16194,
+          151645
+        ],
+        "text": "Turkish Royal",
+        "keep_hash": "1657da9f4100ef945aeedc2717dc6cf1d8d0f73c8a1c7ff508f8e852c60f8e19",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.6923076923076923,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "turkishroyal",
+      "complete_lexical_similarity_to_clean": 0.782608695652174,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          36962,
+          73620,
+          16194,
+          151645
+        ],
+        "text": "Turkish Royal",
+        "keep_hash": "1657da9f4100ef945aeedc2717dc6cf1d8d0f73c8a1c7ff508f8e852c60f8e19",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 36962,
+      "target_piece": "Tur",
+      "candidate_id": 72719,
+      "candidate_piece": "Turkey",
+      "candidate_rank_at_position": 9,
+      "clean_fast_gap": 3.25,
+      "content_priority": 1,
+      "fast_gradient_l1": 12294.166015625,
+      "fast_gradient_l2": 54.2556266784668,
+      "estimated_fast_flip_linf": 0.0002643530269454214,
+      "full_clean_hard_min": 1.125,
+      "full_probe_hard_min": 1.0,
+      "full_local_capacity_linf": 0.03529411764705882,
+      "full_local_margin_available": true,
+      "reachability_ratio": 133.51130514705883,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "14b53091aa436ba7ad6c4ae8e1bb8af48bad2db3cc42fed7b3b2ba3d7db725f7",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          72719,
+          151645
+        ],
+        "text": "Turkey",
+        "keep_hash": "dc9350bbfadb4dc63c85da43dd7e8891e8cc6f29572ab20f0f8ae3db1f977091",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "turkey",
+      "complete_lexical_similarity_to_clean": 0.47058823529411764,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          72719,
+          151645
+        ],
+        "text": "Turkey",
+        "keep_hash": "dc9350bbfadb4dc63c85da43dd7e8891e8cc6f29572ab20f0f8ae3db1f977091",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 7421,
+      "target_piece": " Gold",
+      "candidate_id": 1555,
+      "candidate_piece": " line",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 4.8125,
+      "content_priority": 1,
+      "fast_gradient_l1": 83465.953125,
+      "fast_gradient_l2": 504.2247619628906,
+      "estimated_fast_flip_linf": 5.765824051386222e-05,
+      "full_clean_hard_min": 1.125,
+      "full_probe_hard_min": 1.0,
+      "full_local_capacity_linf": 0.03529411764705882,
+      "full_local_margin_available": true,
+      "reachability_ratio": 612.1261650114591,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "14b53091aa436ba7ad6c4ae8e1bb8af48bad2db3cc42fed7b3b2ba3d7db725f7",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          36962,
+          73620,
+          1555,
+          151645
+        ],
+        "text": "Turkish line",
+        "keep_hash": "1e2ae3277e0cc472a30f543d95f4c3bc5b788c61de6d9b6be20ce4b39e536179",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.6666666666666667,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "turkishline",
+      "complete_lexical_similarity_to_clean": 0.7272727272727273,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          36962,
+          73620,
+          1555,
+          151645
+        ],
+        "text": "Turkish line",
+        "keep_hash": "1e2ae3277e0cc472a30f543d95f4c3bc5b788c61de6d9b6be20ce4b39e536179",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 18,
+    "screen_admitted_after_limit": 6,
+    "screen_rejected": 4,
+    "estimated": 6
+  },
+  "rejected_proposals": [
+    {
+      "position": 0,
+      "target_id": 36962,
+      "target_piece": "Tur",
+      "candidate_id": 27451,
+      "candidate_piece": "Less",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 0.9375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          27451,
+          26433,
+          17172,
+          151645
+        ],
+        "text": "Less tobacco flavor",
+        "keep_hash": "657bb7103a1e06fc5a204eb4300c98c55a85011aafda9610b375c7304c13177a",
+        "k": 3699
+      },
+      "complete_lexical_key": "lesstobaccoflavor",
+      "complete_lexical_similarity_to_clean": 0.14285714285714285,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    },
+    {
+      "position": 0,
+      "target_id": 36962,
+      "target_piece": "Tur",
+      "candidate_id": 867,
+      "candidate_piece": "LE",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 2.375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          867,
+          1220,
+          5146,
+          33,
+          1706,
+          8281,
+          12772,
+          69116,
+          151645
+        ],
+        "text": "LESS TOBACCO FLAVOR",
+        "keep_hash": "f452aabab930e7e64ac678f1172bae4dfbdcafcb2300ecf31e1eb58e21ede7d4",
+        "k": 3699
+      },
+      "complete_lexical_key": "lesstobaccoflavor",
+      "complete_lexical_similarity_to_clean": 0.14285714285714285,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    },
+    {
+      "position": 2,
+      "target_id": 7421,
+      "target_piece": " Gold",
+      "candidate_id": 29236,
+      "candidate_piece": " royal",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 2.75,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          36962,
+          73620,
+          29236,
+          151645
+        ],
+        "text": "Turkish royal",
+        "keep_hash": "29f66c38a1ca2ebddcab0aff5c86881474a9e0a08db64e8d06ff5c0ccf259dbd",
+        "k": 3699
+      },
+      "complete_lexical_key": "turkishroyal",
+      "complete_lexical_similarity_to_clean": 0.782608695652174,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    },
+    {
+      "position": 1,
+      "target_id": 73620,
+      "target_piece": "kish",
+      "candidate_id": 792,
+      "candidate_piece": "key",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 13.25,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          36962,
+          792,
+          151645
+        ],
+        "text": "Turkey",
+        "keep_hash": "d0bbb9ebec8fdc655870fcd002be58c35d35eb78ff7665f18bbcc75cd5fde9b3",
+        "k": 3699
+      },
+      "complete_lexical_key": "turkey",
+      "complete_lexical_similarity_to_clean": 0.47058823529411764,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    }
+  ],
+  "candidate_generation_wall_seconds": 84.716,
+  "candidate_generation_compute_accounting": "wall time recorded; attack-phase forward/backward/generate counters do not include this clean-only stage"
+}

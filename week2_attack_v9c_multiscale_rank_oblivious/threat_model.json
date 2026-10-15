@@ -1,0 +1,20 @@
+{
+  "training_may_use": [
+    "LLaVA-OneVision Full model, processor, question, and pages",
+    "clean Full greedy tokens",
+    "Full native-cache decoding and Native-FDP",
+    "auxiliary-page pixel gradients",
+    "compression decided only by coordinates, page structure, the fixed seed, and the pre-registered ratios"
+  ],
+  "training_must_not": [
+    "import or call FastV",
+    "read FastV attention, selector, keep-set, K, ratio, compressed logits, or compressed text",
+    "choose a surrogate or hyperparameter from historical FastV successes",
+    "rank tokens by attention, feature norm, saliency, or gradient",
+    "choose a checkpoint, loss, lambda, or surrogate from a FastV evaluation",
+    "call target FastV before training has exited"
+  ],
+  "not_an_official_compressor": true,
+  "denylist": ["adapters.runtime", "adapters.fastv_select", "any module whose name contains fastv"],
+  "violation_decision": "THREAT_MODEL_VIOLATION"
+}

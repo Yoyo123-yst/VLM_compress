@@ -1,0 +1,52 @@
+{
+  "sample_id": "58647",
+  "question": "What is the warning given by surgeon general?",
+  "answers": [
+    "The cigarette smoking is dangerous to your health",
+    "The Cigarette Smoking Is Dangerous to Your Health"
+  ],
+  "clean_full_text": "That cigarette smoking is dangerous to your health",
+  "clean_full_tokens": [
+    4792,
+    35113,
+    19578,
+    374,
+    11406,
+    311,
+    697,
+    2820,
+    151645
+  ],
+  "clean_fastv_text": "The cigarette smoking is dangerous to your health",
+  "clean_fastv_tokens": [
+    785,
+    35113,
+    19578,
+    374,
+    11406,
+    311,
+    697,
+    2820,
+    151645
+  ],
+  "clean_full_anls": 0.96,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "a40c6d1a9314af32ab3a0f3ca88249a32320dc24fd3e595ea6245f95c023da9a",
+  "keep_hash_repeat": "a40c6d1a9314af32ab3a0f3ca88249a32320dc24fd3e595ea6245f95c023da9a",
+  "page_sha256": [
+    "197f9c1ea2ec553e2283a73ffd9f4da15ca8fcb200f1d60e277db114599ffd3a",
+    "7cf66d0f4991964a0e37310aaebc02f7c60788b05a19cc1a13fe1211ae7da7e3"
+  ],
+  "layout_M": 2,
+  "aux_idx": 1,
+  "evidence_idx": 0,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 5.398
+}

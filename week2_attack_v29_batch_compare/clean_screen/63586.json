@@ -1,0 +1,45 @@
+{
+  "sample_id": "63586",
+  "question": "What is the name of the hospital?",
+  "answers": [
+    "BARNES HOSPITAL",
+    "Barnes Hospital"
+  ],
+  "clean_full_text": "Barnes Hospital",
+  "clean_full_tokens": [
+    33,
+    1885,
+    288,
+    15079,
+    151645
+  ],
+  "clean_fastv_text": "Barnes Hospital",
+  "clean_fastv_tokens": [
+    33,
+    1885,
+    288,
+    15079,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 2774,
+  "expected_k": 2774,
+  "keep_hash": "6212f23df201799294b80f7b3f1cfa312f431ed2e30f3311a94d6f6132a7bc49",
+  "keep_hash_repeat": "6212f23df201799294b80f7b3f1cfa312f431ed2e30f3311a94d6f6132a7bc49",
+  "page_sha256": [
+    "ee6953624db6e442ea6db51d10d3251aa0794607483d5954dfe4b14d27db340a",
+    "a80b116ba3e4d9e8331531b29de8ebdb95d5f3669dfc64480245cf70ad292943",
+    "1d6a7fcfe48e9efa0f883ad62877bb9a1779e4ecb77e48342e10307fdeac2f79"
+  ],
+  "layout_M": 3,
+  "aux_idx": 1,
+  "evidence_idx": 0,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 6.508
+}

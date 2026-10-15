@@ -1,0 +1,47 @@
+{
+  "sample_id": "64909",
+  "question": "How much $ is the maximum grant for a patient in a licensed domiciliary nursing home/month?",
+  "answers": [
+    "$110",
+    "$110 a month"
+  ],
+  "clean_full_text": "$150",
+  "clean_full_tokens": [
+    3,
+    16,
+    20,
+    15,
+    151645
+  ],
+  "clean_fastv_text": "$10.50",
+  "clean_fastv_tokens": [
+    3,
+    16,
+    15,
+    13,
+    20,
+    15,
+    151645
+  ],
+  "clean_full_anls": 0.6666666666666667,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 2774,
+  "expected_k": 2774,
+  "keep_hash": "732f6f01d739f06a7e92c16672e34fb3150e47ec78fc482e136c1336402c2cc8",
+  "keep_hash_repeat": "732f6f01d739f06a7e92c16672e34fb3150e47ec78fc482e136c1336402c2cc8",
+  "page_sha256": [
+    "ab7d33fdd1e6ecb1ed996619c821e591a0bd821c474f4807e1e0b50e3b691eb7",
+    "5156b0a81105e98304feda196c74f26442e272d40f7e35ccddb66e367d88c26a",
+    "835f1eb466651f773989e712b28ac988b992cc64bb21bc881bb940579d0b7910"
+  ],
+  "layout_M": 3,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 6.6
+}

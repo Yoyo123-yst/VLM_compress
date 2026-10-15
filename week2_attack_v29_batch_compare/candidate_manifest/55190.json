@@ -1,0 +1,472 @@
+{
+  "sample_id": "55190",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "463d9f8cd3e66b0a335ca88a403b8037001f3f529da3cc5dbf21e076c55f4df4",
+  "full_clean": {
+    "text_a": "Import sugar under bond",
+    "text_b": "Import sugar under bond",
+    "tokens_a": [
+      11511,
+      13163,
+      1212,
+      10815,
+      151645
+    ],
+    "tokens_b": [
+      11511,
+      13163,
+      1212,
+      10815,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      11511,
+      13163,
+      1212,
+      10815,
+      151645
+    ],
+    "text": "Import sugar under bond",
+    "anls": 0.8846153846153846,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "8db553c11cba5be730f9e5e2754bca7123faddfa32f16705a2579307ce8674dd",
+    "k": 1850,
+    "second_keep_hash": "8db553c11cba5be730f9e5e2754bca7123faddfa32f16705a2579307ce8674dd",
+    "second_k": 1850
+  },
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "8db553c11cba5be730f9e5e2754bca7123faddfa32f16705a2579307ce8674dd",
+    "reference_keep_hash": "8db553c11cba5be730f9e5e2754bca7123faddfa32f16705a2579307ce8674dd",
+    "fast_keep_exact": true,
+    "k": 1850,
+    "reference_k": 1850
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 0,
+      "target_id": 11511,
+      "target_piece": "Import",
+      "candidate_id": 83414,
+      "candidate_piece": "Sugar",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 1.3125,
+      "content_priority": 1,
+      "fast_gradient_l1": 25053.595703125,
+      "fast_gradient_l2": 63.62338638305664,
+      "estimated_fast_flip_linf": 5.238768979720897e-05,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.375,
+      "full_local_capacity_linf": 0.01568627450980392,
+      "full_local_margin_available": true,
+      "reachability_ratio": 299.4267273576097,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "8db553c11cba5be730f9e5e2754bca7123faddfa32f16705a2579307ce8674dd",
+      "clean_k": 1850,
+      "forced_continuation": {
+        "tokens": [
+          83414,
+          48012,
+          13163,
+          2053,
+          10453,
+          151645
+        ],
+        "text": "Sugar beet sugar refiner",
+        "keep_hash": "cd5c7b1e81202cd171b52f3e342f2685eb62cce53117d883eb1f235b8982bc98",
+        "k": 1850
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "sugarbeetsugarrefiner",
+      "complete_lexical_similarity_to_clean": 0.4878048780487805,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          83414,
+          48012,
+          13163,
+          2053,
+          10453,
+          151645
+        ],
+        "text": "Sugar beet sugar refiner",
+        "keep_hash": "cd5c7b1e81202cd171b52f3e342f2685eb62cce53117d883eb1f235b8982bc98",
+        "k": 1850
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 11511,
+      "target_piece": "Import",
+      "candidate_id": 3430,
+      "candidate_piece": "Be",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 1.5,
+      "content_priority": 1,
+      "fast_gradient_l1": 22722.15625,
+      "fast_gradient_l2": 58.741458892822266,
+      "estimated_fast_flip_linf": 6.601486159571674e-05,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.375,
+      "full_local_capacity_linf": 0.01568627450980392,
+      "full_local_margin_available": true,
+      "reachability_ratio": 237.6173202614379,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "8db553c11cba5be730f9e5e2754bca7123faddfa32f16705a2579307ce8674dd",
+      "clean_k": 1850,
+      "forced_continuation": {
+        "tokens": [
+          3430,
+          295,
+          13163,
+          48012,
+          7485,
+          1290,
+          151645
+        ],
+        "text": "Beet sugar beet export right",
+        "keep_hash": "09cb40b203c40838640510bcba1bfdbb2162481342a2f6773d394087251d9a60",
+        "k": 1850
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "beetsugarbeetexportright",
+      "complete_lexical_similarity_to_clean": 0.36363636363636365,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          3430,
+          295,
+          13163,
+          48012,
+          7485,
+          1290,
+          151645
+        ],
+        "text": "Beet sugar beet export right",
+        "keep_hash": "09cb40b203c40838640510bcba1bfdbb2162481342a2f6773d394087251d9a60",
+        "k": 1850
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 11511,
+      "target_piece": "Import",
+      "candidate_id": 5979,
+      "candidate_piece": "Right",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 1.625,
+      "content_priority": 1,
+      "fast_gradient_l1": 12166.0712890625,
+      "fast_gradient_l2": 32.72458267211914,
+      "estimated_fast_flip_linf": 0.000133568180013946,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.3125,
+      "full_local_capacity_linf": 0.01045751633986928,
+      "full_local_margin_available": true,
+      "reachability_ratio": 78.29347033685268,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "8db553c11cba5be730f9e5e2754bca7123faddfa32f16705a2579307ce8674dd",
+      "clean_k": 1850,
+      "forced_continuation": {
+        "tokens": [
+          5979,
+          311,
+          882,
+          2500,
+          151645
+        ],
+        "text": "Right to time available",
+        "keep_hash": "327cff73aff727c1432af75fcbe8612b55e83f20b014b19137a9b4e56901cef3",
+        "k": 1850
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "righttotimeavailable",
+      "complete_lexical_similarity_to_clean": 0.2,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          5979,
+          311,
+          882,
+          2500,
+          151645
+        ],
+        "text": "Right to time available",
+        "keep_hash": "327cff73aff727c1432af75fcbe8612b55e83f20b014b19137a9b4e56901cef3",
+        "k": 1850
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 11511,
+      "target_piece": "Import",
+      "candidate_id": 42841,
+      "candidate_piece": "Purchase",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 1.625,
+      "content_priority": 1,
+      "fast_gradient_l1": 21924.287109375,
+      "fast_gradient_l2": 75.27831268310547,
+      "estimated_fast_flip_linf": 7.411871555473004e-05,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.25,
+      "full_local_capacity_linf": 0.00784313725490196,
+      "full_local_margin_available": true,
+      "reachability_ratio": 105.81858031674207,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "8db553c11cba5be730f9e5e2754bca7123faddfa32f16705a2579307ce8674dd",
+      "clean_k": 1850,
+      "forced_continuation": {
+        "tokens": [
+          42841,
+          13163,
+          518,
+          3281,
+          3349,
+          151645
+        ],
+        "text": "Purchase sugar at special price",
+        "keep_hash": "e593c1e25b93f4b72e8a088e323255da3479830d51a5e1b9c9ec7d1dd8a99b5b",
+        "k": 1850
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "purchasesugaratspecialprice",
+      "complete_lexical_similarity_to_clean": 0.3829787234042553,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          42841,
+          13163,
+          518,
+          3281,
+          3349,
+          151645
+        ],
+        "text": "Purchase sugar at special price",
+        "keep_hash": "e593c1e25b93f4b72e8a088e323255da3479830d51a5e1b9c9ec7d1dd8a99b5b",
+        "k": 1850
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 11511,
+      "target_piece": "Import",
+      "candidate_id": 1249,
+      "candidate_piece": "To",
+      "candidate_rank_at_position": 8,
+      "clean_fast_gap": 1.8125,
+      "content_priority": 1,
+      "fast_gradient_l1": 16371.943359375,
+      "fast_gradient_l2": 64.24420928955078,
+      "estimated_fast_flip_linf": 0.00011070768815982468,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.3125,
+      "full_local_capacity_linf": 0.01045751633986928,
+      "full_local_margin_available": true,
+      "reachability_ratio": 94.460615280595,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "8db553c11cba5be730f9e5e2754bca7123faddfa32f16705a2579307ce8674dd",
+      "clean_k": 1850,
+      "forced_continuation": {
+        "tokens": [
+          1249,
+          1159,
+          13163,
+          1212,
+          279,
+          14189,
+          87520,
+          19156,
+          151645
+        ],
+        "text": "To import sugar under the duty drawback provisions",
+        "keep_hash": "65a24b5f4cd2798dd791d3614a10262491e4fd6248fea4f99ba7ab9962fb6ad3",
+        "k": 1850
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "toimportsugarunderthedutydrawbackprovisions",
+      "complete_lexical_similarity_to_clean": 0.6031746031746031,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          1249,
+          1159,
+          13163,
+          1212,
+          279,
+          14189,
+          87520,
+          19156,
+          151645
+        ],
+        "text": "To import sugar under the duty drawback provisions",
+        "keep_hash": "65a24b5f4cd2798dd791d3614a10262491e4fd6248fea4f99ba7ab9962fb6ad3",
+        "k": 1850
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 3,
+      "target_id": 10815,
+      "target_piece": " bond",
+      "candidate_id": 14189,
+      "candidate_piece": " duty",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 2.1875,
+      "content_priority": 1,
+      "fast_gradient_l1": 26531.3203125,
+      "fast_gradient_l2": 87.94992065429688,
+      "estimated_fast_flip_linf": 8.244972260085294e-05,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.4375,
+      "full_local_capacity_linf": 0.03137254901960784,
+      "full_local_margin_available": true,
+      "reachability_ratio": 380.5052100840336,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "8db553c11cba5be730f9e5e2754bca7123faddfa32f16705a2579307ce8674dd",
+      "clean_k": 1850,
+      "forced_continuation": {
+        "tokens": [
+          11511,
+          13163,
+          1212,
+          14189,
+          87520,
+          151645
+        ],
+        "text": "Import sugar under duty drawback",
+        "keep_hash": "702fd595fb749cb90c927e4395be68c9db88fe9434661d40c48a617cd5c4d351",
+        "k": 1850
+      },
+      "forced_continuation_anls_diagnostic": 0.53125,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "importsugarunderdutydrawback",
+      "complete_lexical_similarity_to_clean": 0.7083333333333334,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          11511,
+          13163,
+          1212,
+          14189,
+          87520,
+          151645
+        ],
+        "text": "Import sugar under duty drawback",
+        "keep_hash": "702fd595fb749cb90c927e4395be68c9db88fe9434661d40c48a617cd5c4d351",
+        "k": 1850
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 24,
+    "screen_admitted_after_limit": 6,
+    "screen_rejected": 2,
+    "estimated": 6
+  },
+  "rejected_proposals": [
+    {
+      "position": 0,
+      "target_id": 11511,
+      "target_piece": "Import",
+      "candidate_id": 2183,
+      "candidate_piece": "Qu",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 1.6875,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          2183,
+          53524,
+          151645
+        ],
+        "text": "Quotas",
+        "keep_hash": "f0100aa561b48babad3ba124445e33dd9a27497a9bb2e9e68dc4a64481882879",
+        "k": 1850
+      },
+      "complete_lexical_key": "quotas",
+      "complete_lexical_similarity_to_clean": 0.23076923076923078,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 2,
+      "target_id": 1212,
+      "target_piece": " under",
+      "candidate_id": 62235,
+      "candidate_piece": " cane",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 6.125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          11511,
+          13163,
+          62235,
+          151645
+        ],
+        "text": "Import sugar cane",
+        "keep_hash": "b55cf8b9aad93a49b78b10494e2c3fb159df815eb1cbdb344ff7799d48956d7b",
+        "k": 1850
+      },
+      "complete_lexical_key": "importsugarcane",
+      "complete_lexical_similarity_to_clean": 0.7428571428571429,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    }
+  ],
+  "candidate_generation_wall_seconds": 66.039,
+  "candidate_generation_compute_accounting": "wall time recorded; attack-phase forward/backward/generate counters do not include this clean-only stage"
+}

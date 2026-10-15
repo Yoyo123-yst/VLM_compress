@@ -1,0 +1,212 @@
+{
+  "scope": "5-sample development post-hoc control",
+  "rows": [
+    {
+      "sample_id": "1025",
+      "status": "OK",
+      "evaluated": true,
+      "seed": 456179370,
+      "full_text": "Dr. C. Baur MD",
+      "full_token_ids": null,
+      "full_exact_text": true,
+      "replay": true,
+      "linf": 0.03137257695198059,
+      "png_sha256": "bb510486d93ccf9a288efac7707c6a0933589bf8d86559ee3bc3dce63cd2e896",
+      "ratios": {
+        "0.15": {
+          "text": "TAKEDA",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.0,
+          "k": 1665,
+          "keep_hash": "218049698531e6de83b839ba5029dc39eb6988136538fbff6b228581eb0b34ff",
+          "strict": true
+        },
+        "0.25": {
+          "text": "Dr. Bacharach",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.0,
+          "k": 2774,
+          "keep_hash": "797a7d7535c760e8e7070e1d36265b150959b1ad4bb384514e1b50569b8ab283",
+          "strict": true
+        },
+        "0.35": {
+          "text": "Dr. C. B. M. D.",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.75,
+          "k": 3884,
+          "keep_hash": "a1a9637d8a7833ac1d738cc3d5c23152a3e36200656f4751141bbf8ad7c0c928",
+          "strict": false
+        },
+        "0.50": {
+          "text": "Dr. C. B. M.D.",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.75,
+          "k": 5548,
+          "keep_hash": "739ecea76687b6f117d721839c8f1f28a6d83dbe0a9d8909f1c1f7ba760a9445",
+          "strict": false
+        }
+      }
+    },
+    {
+      "sample_id": "2008",
+      "status": "OK",
+      "evaluated": true,
+      "seed": 2209604365,
+      "full_text": "March 1968",
+      "full_token_ids": null,
+      "full_exact_text": true,
+      "replay": true,
+      "linf": 0.03137257695198059,
+      "png_sha256": "aec4e880715e9c60f13259cec620601261940e604e649458eadf8556bf30fc75",
+      "ratios": {
+        "0.15": {
+          "text": "March 1956",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.8,
+          "k": 1110,
+          "keep_hash": "27274af48e6eaab41deab137cd8e255daebf17e8c4265f1d072b3580ec58b07e",
+          "strict": false
+        },
+        "0.25": {
+          "text": "March 1956",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.8,
+          "k": 1850,
+          "keep_hash": "62e5e5f41af48ef99ee8e2590bbf53d450ab6f85f30a996b92874eedc4b59fe8",
+          "strict": false
+        },
+        "0.35": {
+          "text": "March 1956",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.8,
+          "k": 2589,
+          "keep_hash": "ac233d45c3e5b5eb75da0d15212bc2373cf6de40b35e81a96f1cffb569ec2f63",
+          "strict": false
+        },
+        "0.50": {
+          "text": "March 1968",
+          "token_ids": null,
+          "valid": true,
+          "anls": 1.0,
+          "k": 3699,
+          "keep_hash": "5b99e11cd4387200c6e08ad627bbc27319490409dd627abdcc8bc1752a4386d1",
+          "strict": false
+        }
+      }
+    },
+    {
+      "sample_id": "7006",
+      "status": "OK",
+      "evaluated": true,
+      "seed": 3371786416,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_token_ids": null,
+      "full_exact_text": true,
+      "replay": true,
+      "linf": 0.03137257695198059,
+      "png_sha256": "9c3f839db88040accace5e2cdc593a38ae89506740326331c99695da1658ae4e",
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 2219,
+          "keep_hash": "29b6225822ab60450aedbb631ac0fc328f566de3dcdd9ceb667beaa644e55401",
+          "strict": false
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 3699,
+          "keep_hash": "945655ed59623143f8dc4c119d201d305312782eedff1046c1a839d1ad68b1d8",
+          "strict": false
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 5179,
+          "keep_hash": "89ef593a3ed5c2caebe1e4125333383c8dac57231756920eb08771d1c56c8e2f",
+          "strict": false
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 7398,
+          "keep_hash": "0c35fb6343ffcee6432cf5781eb0898db94e4c0d80dc36fc3973c5bba07d61d9",
+          "strict": false
+        }
+      }
+    },
+    {
+      "sample_id": "39204",
+      "status": "NO_VALID_SEALED_CANDIDATE",
+      "evaluated": false,
+      "ratios": null
+    },
+    {
+      "sample_id": "47450",
+      "status": "OK",
+      "evaluated": true,
+      "seed": 2687870593,
+      "full_text": "Dr. or Mrs. William J. Darby",
+      "full_token_ids": null,
+      "full_exact_text": true,
+      "replay": true,
+      "linf": 0.03137257695198059,
+      "png_sha256": "35e487cc8091c29c5f33709369978f7593c759d6d6337d20baf0af8872dc44da",
+      "ratios": {
+        "0.15": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "token_ids": null,
+          "valid": true,
+          "anls": 1.0,
+          "k": 2219,
+          "keep_hash": "2b9380d106c2f3d32acac29ccf80eb3fcf693f7d3553a826dab54efbd55d7b49",
+          "strict": false
+        },
+        "0.25": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "token_ids": null,
+          "valid": true,
+          "anls": 1.0,
+          "k": 3699,
+          "keep_hash": "16e20d0b4013b9f829d90a6bf36b8809aee8343dcdc50403172c9f318abf5674",
+          "strict": false
+        },
+        "0.35": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "token_ids": null,
+          "valid": true,
+          "anls": 1.0,
+          "k": 5179,
+          "keep_hash": "ada992d0f3571f93a64a318c291b5e7b3fd96d2859d0daa4c05b319af2ba233d",
+          "strict": false
+        },
+        "0.50": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "token_ids": null,
+          "valid": true,
+          "anls": 1.0,
+          "k": 7398,
+          "keep_hash": "0479d22ef8c039fadf24f6800b720d1822d3ddbecba957ca0d97285f730a5b34",
+          "strict": false
+        }
+      }
+    }
+  ],
+  "fastv_access_count": 104
+}

@@ -1,0 +1,517 @@
+{
+  "status": "BLOCKED_H0_REPLAY_DIVERGED",
+  "samples": [
+    {
+      "sample_id": "1025",
+      "match": false,
+      "earliest_mismatch_step": 10,
+      "mismatches": [
+        {
+          "step": 10,
+          "field": "png_sha256",
+          "historical": "e88ee42ddf330a215432a8500eb609f8eedb2ab661ec823c9e89a67d3ce7ed9e",
+          "h0": "be3490715ae9cd5e8d283a0eb7499f737728cc9724093a04e9e0229450208a16"
+        },
+        {
+          "step": 10,
+          "field": "fastv_0.25",
+          "historical": "Dr. Bacharach",
+          "h0": "TAKEDA"
+        },
+        {
+          "step": 10,
+          "field": "fastv_0.35",
+          "historical": "Dr. C. B. B. MD",
+          "h0": "Dr. C. B. Baur MD"
+        },
+        {
+          "step": 10,
+          "field": "keep_0.25",
+          "historical": "71de5407c1b17debfdce943a87ed51deaba32c51b6511128fb7d1fc28ce1781c",
+          "h0": "6a3faaaf415924d3927ca79bcd07a4541a7c68f435ac95e93e5e42f96d771ad7"
+        },
+        {
+          "step": 10,
+          "field": "keep_0.35",
+          "historical": "a9bfc6bb3b543c7f47e25140b6e64a0cb4a80614754766e6337451d9e15e741f",
+          "h0": "49a107c10e6d609ccc8bfa863b28c220906745d41add81bad241266178c8d636"
+        },
+        {
+          "step": 10,
+          "field": "margin",
+          "historical": 0.31210900843143463,
+          "h0": 1.8150593638420105
+        },
+        {
+          "step": 25,
+          "field": "png_sha256",
+          "historical": "c150d57a259b573da704e93fe7775c8f7b3442c223b2411dfe5a2c5cb92618f6",
+          "h0": "1ddc0f65f255aa53c26a1ab8bf620bfc6ff9560d64c5158b8e2f2e9fdaa0f4b0"
+        },
+        {
+          "step": 25,
+          "field": "fastv_0.25",
+          "historical": "Takeda",
+          "h0": "FUKUOKI"
+        },
+        {
+          "step": 25,
+          "field": "fastv_0.35",
+          "historical": "Dr. C. Bausch MD",
+          "h0": "Dr. C. Baur MD"
+        },
+        {
+          "step": 25,
+          "field": "keep_0.25",
+          "historical": "e2457ae8d8bd0f4ec297f995ea5c36ac7e61c0afa327ad5b48eccd0f96a1882a",
+          "h0": "4b956542bf014182ab446516670621880efb2dd88628e6055214b8b7e343c7ba"
+        },
+        {
+          "step": 25,
+          "field": "keep_0.35",
+          "historical": "9ec453d6519a8cf8197bee1df576821985753f0fee6b2c5231b000e68c1f0a0d",
+          "h0": "4acfb8f31ea0cff12baf3de836b10ce931cea256c1334c605709db8dd202696e"
+        },
+        {
+          "step": 25,
+          "field": "margin",
+          "historical": 1.1895968317985535,
+          "h0": 0.8754014074802399
+        }
+      ],
+      "question": "Who is the European Medical Director?",
+      "page_sha256": [
+        "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+        "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+        "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+      ]
+    },
+    {
+      "sample_id": "2008",
+      "match": false,
+      "earliest_mismatch_step": 10,
+      "mismatches": [
+        {
+          "step": 10,
+          "field": "png_sha256",
+          "historical": "82a3328266539030790cea543253748992352a91a7e9f5e899097f98de3e42a3",
+          "h0": "4748693319ea1d6ebc0c68f824a1e48cd9df88c95dda47e2d5144c5c9beefe9d"
+        },
+        {
+          "step": 10,
+          "field": "fastv_0.25",
+          "historical": "March 1968",
+          "h0": "March 1956"
+        },
+        {
+          "step": 10,
+          "field": "keep_0.25",
+          "historical": "7c7d0e4c5d20ce561d908f3b006c961bc9beec3b159a1f0c0ee2ea7aef760997",
+          "h0": "e7343da703ac9f314e55d27ce5e2f9efc7cac14849a444178f2e13085ab941a1"
+        },
+        {
+          "step": 10,
+          "field": "keep_0.35",
+          "historical": "653b06a310eeb0e3636f11de562b2b7237a605a17d8a97743207d7da093851c1",
+          "h0": "13d9ad2579e7f9bcc0e980942876441ee773a4acff87f64820fc5b307de2ad46"
+        },
+        {
+          "step": 10,
+          "field": "margin",
+          "historical": 3.509836792945862,
+          "h0": 3.311114549636841
+        },
+        {
+          "step": 25,
+          "field": "png_sha256",
+          "historical": "2a304bb797154424758f574ac043c0bc8d29af6e213595b74bd712f168cd70ed",
+          "h0": "50eab236665d911680a85d4ccfb6935e62c7612cd3294dbf666d0d7c971b1f97"
+        },
+        {
+          "step": 25,
+          "field": "fastv_0.25",
+          "historical": "February 1968",
+          "h0": "March 1968"
+        },
+        {
+          "step": 25,
+          "field": "fastv_0.35",
+          "historical": "February 1968",
+          "h0": "March 1968"
+        },
+        {
+          "step": 25,
+          "field": "keep_0.25",
+          "historical": "5d6cce93580d68b05a9d916c1c2ee5ec8d737536608d5d586490393483c288da",
+          "h0": "e128bae956f67a7873b4c472552b1c48a95f716e59e5fbae79a73b4b14ff6aec"
+        },
+        {
+          "step": 25,
+          "field": "keep_0.35",
+          "historical": "f4b01107aabfcb308d4e22485c9a9291bd50811184ad39627fd1f0b3b54c6928",
+          "h0": "83feb525ab74f46ffb7766289be88091d6c5b9459d6cd7bbfe488b30aee1b62e"
+        },
+        {
+          "step": 25,
+          "field": "margin",
+          "historical": 2.2448772192001343,
+          "h0": 2.9429363012313843
+        },
+        {
+          "step": 50,
+          "field": "png_sha256",
+          "historical": "1c92f536583aa9e2170af3767e18a6dcae9f8ffc312cdccb160a33c979a8c263",
+          "h0": "96700dff067bff09463f5f3716c989830714bc13643b68af9273136e45dd294a"
+        }
+      ],
+      "question": "When did the advertisement appear in Good Housekeeping?",
+      "page_sha256": [
+        "fe5a6c3c88a77ef33b42e1c45d0fe2b28b39f37be8983db7e6d753ceef12f8f4",
+        "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+      ]
+    },
+    {
+      "sample_id": "47450",
+      "match": false,
+      "earliest_mismatch_step": 10,
+      "mismatches": [
+        {
+          "step": 10,
+          "field": "png_sha256",
+          "historical": "0a2cbbd9ceb601fa985c179eec3b612dd4a799bd3f4bfeb6ccd8ed61ca3280ed",
+          "h0": "3ca294ed4cc0605c5521ff0f5a607ed5079c7ae48abd80cd4dc1bfd0708157c6"
+        },
+        {
+          "step": 10,
+          "field": "keep_0.25",
+          "historical": "3ecaa35b872e175930248bf97dacf4c32c82103b7765edaf2954438aa29f3d43",
+          "h0": "54df2b11ff135cbacf71b879bb002b86592873a67424cd214749ac16c0412911"
+        },
+        {
+          "step": 10,
+          "field": "keep_0.35",
+          "historical": "cf8f785a43ec025c633d5191217a4defdb7032cb82a0f3be94677171d5f2d887",
+          "h0": "62a05c6b32df05a5480a8865ecfa76ad0781b5b74c6aa4900a28f914d261747b"
+        },
+        {
+          "step": 10,
+          "field": "margin",
+          "historical": 3.7983964681625366,
+          "h0": 3.673202157020569
+        },
+        {
+          "step": 25,
+          "field": "png_sha256",
+          "historical": "d337c636d7de378795b7930480595248fa06c663529ed481b937b344d8667c89",
+          "h0": "af2f4ef7fe153fc967f0e92d750b42e379cf2d6ec7e531031a525c785b77d574"
+        },
+        {
+          "step": 25,
+          "field": "fastv_0.25",
+          "historical": "THE NUTRITION FOUNDATION, INC.",
+          "h0": "Nashville Clearing House"
+        },
+        {
+          "step": 25,
+          "field": "keep_0.25",
+          "historical": "20fef0ae6f2177ec4b8e774c480427a9eb422caed369589f5043f4fb280af396",
+          "h0": "b10c58e884ed76ed2b8e76c207333e82c2d515a7b127420de7ea31cfd3ee4769"
+        },
+        {
+          "step": 25,
+          "field": "keep_0.35",
+          "historical": "a13dbb33ea3c1f8bc2fb9fa334484a8f2d84d49374fb86ba8f80c316aa9d7a69",
+          "h0": "566e41ca5e16068d0c9f752d2260516c5fd1961f82c0a678516b9b0f13f17339"
+        },
+        {
+          "step": 25,
+          "field": "margin",
+          "historical": 4.561231374740601,
+          "h0": 2.682054281234741
+        },
+        {
+          "step": 50,
+          "field": "png_sha256",
+          "historical": "c09fcd495b8c4aac589e8471d27727de2c41e0b95cea4afe0410da364dd63d40",
+          "h0": "de0c9bb09f48ef18d019caf5243ed9da41f0d5bba8302e2662281542be80bb90"
+        },
+        {
+          "step": 50,
+          "field": "fastv_0.25",
+          "historical": "TAYLOR, WESLEY",
+          "h0": "FIRE DEPT."
+        },
+        {
+          "step": 50,
+          "field": "fastv_0.35",
+          "historical": "THE NUTRITION FOUNDATION, INC.",
+          "h0": "CREDIT"
+        }
+      ],
+      "question": "Who has made the deposit ?",
+      "page_sha256": [
+        "7bab8be8ede326621c16376d55769d696a6a969772ab2116685a1628eba55f8d",
+        "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+        "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+        "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+      ]
+    },
+    {
+      "sample_id": "60700",
+      "match": false,
+      "earliest_mismatch_step": 10,
+      "mismatches": [
+        {
+          "step": 10,
+          "field": "png_sha256",
+          "historical": "588ef799cb006422d9369c4ce884d3eb8d486b372fee7277cdeecdecf89d0c77",
+          "h0": "d996289f611b53e9ef128a43d26ac0bbfab75d99dca853223169fbaaa84577e7"
+        },
+        {
+          "step": 10,
+          "field": "fastv_0.25",
+          "historical": "PPBS 14, 1967",
+          "h0": "PPBS 14, 1567"
+        },
+        {
+          "step": 10,
+          "field": "fastv_0.35",
+          "historical": "PPBS #14, 1967",
+          "h0": "PPBS"
+        },
+        {
+          "step": 10,
+          "field": "keep_0.25",
+          "historical": "5ae2440c7c2eb0e9d45623220e105679fc25b87d5f5daca1d9d296499548d621",
+          "h0": "9d554e940cba54589eb8458d465996e4d990399ac095c81171874698d6495ff0"
+        },
+        {
+          "step": 10,
+          "field": "keep_0.35",
+          "historical": "0551a46f49dba40c27cb86cd548dfc759e7c395142c409b106b086a99dc5cbe1",
+          "h0": "2d4f76f61c3e4f1f3feb13cf1b2fc3c0415f7cfaf3d2254a524018ec7f713ffb"
+        },
+        {
+          "step": 10,
+          "field": "margin",
+          "historical": 3.1558797359466553,
+          "h0": 2.2040621042251587
+        },
+        {
+          "step": 25,
+          "field": "png_sha256",
+          "historical": "4c368d50033569f2aacb10981f85ae062863b13bdbd1100a8c8dfe4def463772",
+          "h0": "63209f726e76e755f54ed23c4befe1c173874922dc2949fece79fdba182a6aab"
+        },
+        {
+          "step": 25,
+          "field": "fastv_0.25",
+          "historical": "Ppjs 14, 15, 16",
+          "h0": "PBPBS 1-1 BELLAS"
+        },
+        {
+          "step": 25,
+          "field": "fastv_0.35",
+          "historical": "Ppjs 14, 15, 16",
+          "h0": "PPBS 14, 1, 1 Bellas"
+        },
+        {
+          "step": 25,
+          "field": "keep_0.25",
+          "historical": "352dee08d8be05b76c59a06abcba65bea7ad73fe6267e794faf2d38c84f411db",
+          "h0": "243dc52c4f8c7dabd4aa2e66a0d6641024049645f6a569a3e285160a27020960"
+        },
+        {
+          "step": 25,
+          "field": "keep_0.35",
+          "historical": "abaed87fce0d3a810232852882f51fb4fe6226dcde34ad6104d2571af1bf9973",
+          "h0": "96cc58d3685176d1f0608de048a79957815cecdca649dbd5084823d4ed1f1e8e"
+        },
+        {
+          "step": 25,
+          "field": "margin",
+          "historical": 1.4264340996742249,
+          "h0": 0.8641909509897232
+        }
+      ],
+      "question": "What is the subject?",
+      "page_sha256": [
+        "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131",
+        "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+        "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+      ]
+    },
+    {
+      "sample_id": "7006",
+      "match": false,
+      "earliest_mismatch_step": 10,
+      "mismatches": [
+        {
+          "step": 10,
+          "field": "png_sha256",
+          "historical": "99a7267b69d67b430bdc5b2be730e9b41c442b3b499c904b0deacb1fc3afb54f",
+          "h0": "5264086d770303a25a4aa13671e313ea7ef4a13c03648e7885f87379396c9bdc"
+        },
+        {
+          "step": 10,
+          "field": "keep_0.25",
+          "historical": "edc6fecfe3285fe3db90acbe0aecf240be84bf1aba0f22b1e207f3b5f105efb6",
+          "h0": "17974cde276c75ca5b9c6b9cd9ccb21e8ee27e7504bfe5b5406da95f9fbb4d01"
+        },
+        {
+          "step": 10,
+          "field": "keep_0.35",
+          "historical": "35a75b8d929a0abf97377c27ab7b8d12da0c3300cf0d8e7b893f4daa1173a1cb",
+          "h0": "50ebc2299a889114f09ee54e943d2ab210332245484a60599a31a906242bcaa8"
+        },
+        {
+          "step": 10,
+          "field": "margin",
+          "historical": 2.6831183433532715,
+          "h0": 2.889931797981262
+        },
+        {
+          "step": 25,
+          "field": "png_sha256",
+          "historical": "66f4baf1dea2c5e30881b9ca841d94922b4ad4258a3873848e8ac7fd80220583",
+          "h0": "2367d22d69282982441822aea4a59ddc964f5f5b43daf5a6865ef21f091fc471"
+        },
+        {
+          "step": 25,
+          "field": "fastv_0.25",
+          "historical": "RJ Reynolds Tobacco Company",
+          "h0": "TOBACCO COMPANY"
+        },
+        {
+          "step": 25,
+          "field": "keep_0.25",
+          "historical": "f69b6ec7d08c5f1317e7a4ab71c393e8435b8a302679f9c91672b3a4360f8ae3",
+          "h0": "61c4064491bf521a48ae9b931360388b0cdaad6a7f7f718069ecae7ccb23a07c"
+        },
+        {
+          "step": 25,
+          "field": "keep_0.35",
+          "historical": "8acf2c6fa30cac0cc5bc2244024ee133967bbb29be459023402cb74d5531a683",
+          "h0": "11585548de7d925dcb6cf05de7f8a9f8340c056d5ca3ee153ed90cd094082369"
+        },
+        {
+          "step": 25,
+          "field": "margin",
+          "historical": 2.286589026451111,
+          "h0": 3.5383238792419434
+        },
+        {
+          "step": 50,
+          "field": "png_sha256",
+          "historical": "8b827e3375cd24bfa92869f8c9ea1d5db7ecf40a42369ddc0f38a94e93b79df8",
+          "h0": "23f0cb1308b740a96466571f53588018fe5a6f7cbe27d2098371bab3c925f65f"
+        },
+        {
+          "step": 50,
+          "field": "fastv_0.25",
+          "historical": "TOBACCO COMPANY",
+          "h0": "RJ Reynolds Tobacco Company"
+        },
+        {
+          "step": 50,
+          "field": "fastv_0.35",
+          "historical": "RJ Reynolds Tobacco Co.",
+          "h0": "RJ Reynolds Tobacco Company"
+        }
+      ],
+      "question": "What is the Company Name ?",
+      "page_sha256": [
+        "c3c0eabac78241156d37bd11f9c5c72c8b5a3a13060c3f0ce4f6ad36d4d7fa16",
+        "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+        "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+        "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+      ]
+    },
+    {
+      "sample_id": "39204",
+      "match": false,
+      "earliest_mismatch_step": 10,
+      "mismatches": [
+        {
+          "step": 10,
+          "field": "png_sha256",
+          "historical": "3724e56f15b6c00f705782b0eec900eff5e84e1568fbb57d45cb9fc6a2cacf27",
+          "h0": "6a2cc0e0ed69c4b11b900675aacb4bc9f52219f718b46ce6b0f22cb1a4d1b2b4"
+        },
+        {
+          "step": 10,
+          "field": "fastv_0.25",
+          "historical": "FOOD TECHNOLOGY",
+          "h0": "Food technology"
+        },
+        {
+          "step": 10,
+          "field": "keep_0.25",
+          "historical": "d052e1a86535010cd5b78db3b43cef27100c554c2381933401e65796dae10b56",
+          "h0": "fb2999151000c9ff51fcf60d7cce5a0fdc3b5b695c7b58738baa15abcdfbc080"
+        },
+        {
+          "step": 10,
+          "field": "keep_0.35",
+          "historical": "ca4e03486128d70e962e0f16a84d509d0edf94207a767a88652f0f0a9c8d3022",
+          "h0": "ba821004d56e6940b83b40b70b29dc9a1b3b351866aa56b189957d37cf339df7"
+        },
+        {
+          "step": 10,
+          "field": "margin",
+          "historical": 5.4968085289001465,
+          "h0": 3.8733975887298584
+        },
+        {
+          "step": 25,
+          "field": "png_sha256",
+          "historical": "2f85462f89ede1dba6b992ab12c5fe09708c46a6a7f5d9622cda85d57885227f",
+          "h0": "60706c304efd56cc21381325b87ee462b31c19cd3421d33001436d9b249dfc81"
+        },
+        {
+          "step": 25,
+          "field": "keep_0.25",
+          "historical": "43b4084929917f5f83c37b85285695827ff6360b78e8f1f9485cb873fdac01b5",
+          "h0": "bab4724ad9186f1a0fd82a850e74d28b466e5815b752809ccabebec6f8e1a266"
+        },
+        {
+          "step": 25,
+          "field": "keep_0.35",
+          "historical": "9aff6c6ed210598843a7ff2fb439944818d6f1fdc8aa1ead25b1fddefcaefd0b",
+          "h0": "1fae456fb3dbc8c05d7131b0287f7128cd6870dddcbc41719b1094b0b2e13603"
+        },
+        {
+          "step": 25,
+          "field": "margin",
+          "historical": 3.341910481452942,
+          "h0": 3.6900434494018555
+        },
+        {
+          "step": 50,
+          "field": "png_sha256",
+          "historical": "d4da583df2797c3216814ffc6c04a0e2e15af00f6e9a3a07777f9b8fc071f613",
+          "h0": "70c3887d75e814463178e2688169a34fbe439794629ccb2e842c2cc8b1d3075e"
+        },
+        {
+          "step": 50,
+          "field": "fastv_0.25",
+          "historical": "food technology",
+          "h0": "FOOD"
+        },
+        {
+          "step": 50,
+          "field": "fastv_0.35",
+          "historical": "food technology",
+          "h0": "FOOD TECHNOLOGY"
+        }
+      ],
+      "question": "On what subject are the critical reviews on?",
+      "page_sha256": [
+        "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a",
+        "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+        "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+        "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+      ]
+    }
+  ]
+}

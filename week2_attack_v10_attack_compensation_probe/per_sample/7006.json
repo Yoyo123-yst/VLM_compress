@@ -1,0 +1,696 @@
+{
+  "sample_id": "7006",
+  "clean_text": "RJ Reynolds Tobacco Company",
+  "attack_chosen": {
+    "step": 25,
+    "nonzero": 1,
+    "output_valid": 1,
+    "linf_ok": 1,
+    "pixel_linf_uint8": 0.03137254901960784,
+    "margin": 1.5209595561027527,
+    "replay": 1
+  },
+  "status": "OK",
+  "comp_chosen": {
+    "step": 0,
+    "nonzero": 1,
+    "output_valid": 1,
+    "linf_ok": 1,
+    "pixel_linf_uint8": 0.03137254901960784,
+    "full_exact": 1,
+    "margin": 1.5209595561027527,
+    "replay": 1
+  },
+  "comp_accepted": 100,
+  "comp_rejected": 0,
+  "attack_ref_margin": 1.5209595561027527,
+  "endpoints": {
+    "CLEAN": {
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 3.7291667461395264,
+      "full_soft": 2.877140760421753,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 7398,
+          "keep_hash": "745f8756ce8ee5d56b41d6fa3a2ca4179d5bd7e1eeabcbabe60fe1441f7f2ab6",
+          "hook_match": 1,
+          "hard": 3.78125,
+          "soft": 2.898502826690674,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 5179,
+          "keep_hash": "88e3f77de0bf0783e16c9700bc1c23f613e367ae9b8f7cf67a305321abe38c89",
+          "hook_match": 1,
+          "hard": 3.9375,
+          "soft": 2.9899044036865234,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 3699,
+          "keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+          "hook_match": 1,
+          "hard": 3.9166667461395264,
+          "soft": 3.0595030784606934,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 2219,
+          "keep_hash": "d841bc6ceb64c43490d8e7cd487b74cf2ba14c824c21f5806e16c26677a6aea6",
+          "hook_match": 1,
+          "hard": 3.4583334922790527,
+          "soft": 2.7614212036132812,
+          "replay": true,
+          "endpoint_failure": false
+        }
+      },
+      "aux_sha256": "c3c0eabac78241156d37bd11f9c5c72c8b5a3a13060c3f0ce4f6ad36d4d7fa16",
+      "other_page_sha256": [
+        "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+        "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+        "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+      ],
+      "norms": {
+        "linf_uint8": 0,
+        "linf": 0.0,
+        "l1": 0.0,
+        "l2": 0.0
+      }
+    },
+    "ATTACK_ONLY": {
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 2.6875,
+      "full_soft": 1.954787254333496,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 7398,
+          "keep_hash": "e4a9aa383203d2cc187d09d2f82335b11c06cb4388faa3dc71bf7f3d5caefd6c",
+          "hook_match": 1,
+          "hard": 2.5625,
+          "soft": 1.8760972023010254,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 5179,
+          "keep_hash": "0f366b93c87a65c8afb222f756db2fc7c3ef3b57cd45381dce3620753b717b36",
+          "hook_match": 1,
+          "hard": 2.09375,
+          "soft": 1.458145022392273,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 3699,
+          "keep_hash": "986cfa12912a8a1549717dbc28552ac6f1967663a3e58a87ad3c192ca5b34591",
+          "hook_match": 1,
+          "hard": 2.125,
+          "soft": 1.552961826324463,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.15": {
+          "text": "Tobacco Co. Company",
+          "tokens": [
+            51,
+            674,
+            19500,
+            3539,
+            13,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 2219,
+          "keep_hash": "3a868bd857b7a14e9085216d00758ee22853d215a37d518ffee64b83e4e14b7e",
+          "hook_match": 1,
+          "hard": 2.9464287757873535,
+          "soft": 1.9602328538894653,
+          "replay": true,
+          "endpoint_failure": true
+        }
+      },
+      "aux_sha256": "6d18f355d32883e1bab6cb2e1a18b046290fa98e69a0549ba52cad2e2feccfed",
+      "other_page_sha256": [
+        "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+        "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+        "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 6465119.0,
+        "l2": 6639.98064756216
+      }
+    },
+    "COMPENSATION_ONLY": {
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 3.7291667461395264,
+      "full_soft": 2.877140760421753,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 7398,
+          "keep_hash": "745f8756ce8ee5d56b41d6fa3a2ca4179d5bd7e1eeabcbabe60fe1441f7f2ab6",
+          "hook_match": 1,
+          "hard": 3.78125,
+          "soft": 2.898502826690674,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 5179,
+          "keep_hash": "88e3f77de0bf0783e16c9700bc1c23f613e367ae9b8f7cf67a305321abe38c89",
+          "hook_match": 1,
+          "hard": 3.9375,
+          "soft": 2.9899044036865234,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 3699,
+          "keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+          "hook_match": 1,
+          "hard": 3.9166667461395264,
+          "soft": 3.0595030784606934,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 2219,
+          "keep_hash": "d841bc6ceb64c43490d8e7cd487b74cf2ba14c824c21f5806e16c26677a6aea6",
+          "hook_match": 1,
+          "hard": 3.4583334922790527,
+          "soft": 2.7614212036132812,
+          "replay": true,
+          "endpoint_failure": false
+        }
+      },
+      "aux_sha256": "c3c0eabac78241156d37bd11f9c5c72c8b5a3a13060c3f0ce4f6ad36d4d7fa16",
+      "other_page_sha256": [
+        "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+        "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+        "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+      ],
+      "norms": {
+        "linf_uint8": 0,
+        "linf": 0.0,
+        "l1": 0.0,
+        "l2": 0.0
+      }
+    },
+    "ATTACK_PLUS_COMPENSATION": {
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 2.6875,
+      "full_soft": 1.954787254333496,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 7398,
+          "keep_hash": "e4a9aa383203d2cc187d09d2f82335b11c06cb4388faa3dc71bf7f3d5caefd6c",
+          "hook_match": 1,
+          "hard": 2.5625,
+          "soft": 1.8760972023010254,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 5179,
+          "keep_hash": "0f366b93c87a65c8afb222f756db2fc7c3ef3b57cd45381dce3620753b717b36",
+          "hook_match": 1,
+          "hard": 2.09375,
+          "soft": 1.458145022392273,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 3699,
+          "keep_hash": "986cfa12912a8a1549717dbc28552ac6f1967663a3e58a87ad3c192ca5b34591",
+          "hook_match": 1,
+          "hard": 2.125,
+          "soft": 1.552961826324463,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.15": {
+          "text": "Tobacco Co. Company",
+          "tokens": [
+            51,
+            674,
+            19500,
+            3539,
+            13,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 2219,
+          "keep_hash": "3a868bd857b7a14e9085216d00758ee22853d215a37d518ffee64b83e4e14b7e",
+          "hook_match": 1,
+          "hard": 2.9464287757873535,
+          "soft": 1.9602328538894653,
+          "replay": true,
+          "endpoint_failure": true
+        }
+      },
+      "aux_sha256": "6d18f355d32883e1bab6cb2e1a18b046290fa98e69a0549ba52cad2e2feccfed",
+      "other_page_sha256": [
+        "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+        "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+        "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 6465119.0,
+        "l2": 6639.98064756216
+      }
+    },
+    "SIGN_FLIP_CONTROL": {
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 2.6875,
+      "full_soft": 1.954787254333496,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 7398,
+          "keep_hash": "e4a9aa383203d2cc187d09d2f82335b11c06cb4388faa3dc71bf7f3d5caefd6c",
+          "hook_match": 1,
+          "hard": 2.5625,
+          "soft": 1.8760972023010254,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 5179,
+          "keep_hash": "0f366b93c87a65c8afb222f756db2fc7c3ef3b57cd45381dce3620753b717b36",
+          "hook_match": 1,
+          "hard": 2.09375,
+          "soft": 1.458145022392273,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 3699,
+          "keep_hash": "986cfa12912a8a1549717dbc28552ac6f1967663a3e58a87ad3c192ca5b34591",
+          "hook_match": 1,
+          "hard": 2.125,
+          "soft": 1.552961826324463,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.15": {
+          "text": "Tobacco Co. Company",
+          "tokens": [
+            51,
+            674,
+            19500,
+            3539,
+            13,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 2219,
+          "keep_hash": "3a868bd857b7a14e9085216d00758ee22853d215a37d518ffee64b83e4e14b7e",
+          "hook_match": 1,
+          "hard": 2.9464287757873535,
+          "soft": 1.9602328538894653,
+          "replay": true,
+          "endpoint_failure": true
+        }
+      },
+      "aux_sha256": "6d18f355d32883e1bab6cb2e1a18b046290fa98e69a0549ba52cad2e2feccfed",
+      "other_page_sha256": [
+        "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+        "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+        "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 6465119.0,
+        "l2": 6639.98064756216
+      }
+    },
+    "ROLL_CONTROL": {
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 2.6875,
+      "full_soft": 1.954787254333496,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 7398,
+          "keep_hash": "e4a9aa383203d2cc187d09d2f82335b11c06cb4388faa3dc71bf7f3d5caefd6c",
+          "hook_match": 1,
+          "hard": 2.5625,
+          "soft": 1.8760972023010254,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 5179,
+          "keep_hash": "0f366b93c87a65c8afb222f756db2fc7c3ef3b57cd45381dce3620753b717b36",
+          "hook_match": 1,
+          "hard": 2.09375,
+          "soft": 1.458145022392273,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 3699,
+          "keep_hash": "986cfa12912a8a1549717dbc28552ac6f1967663a3e58a87ad3c192ca5b34591",
+          "hook_match": 1,
+          "hard": 2.125,
+          "soft": 1.552961826324463,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.15": {
+          "text": "Tobacco Co. Company",
+          "tokens": [
+            51,
+            674,
+            19500,
+            3539,
+            13,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 2219,
+          "keep_hash": "3a868bd857b7a14e9085216d00758ee22853d215a37d518ffee64b83e4e14b7e",
+          "hook_match": 1,
+          "hard": 2.9464287757873535,
+          "soft": 1.9602328538894653,
+          "replay": true,
+          "endpoint_failure": true
+        }
+      },
+      "aux_sha256": "6d18f355d32883e1bab6cb2e1a18b046290fa98e69a0549ba52cad2e2feccfed",
+      "other_page_sha256": [
+        "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+        "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+        "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 6465119.0,
+        "l2": 6639.98064756216
+      }
+    }
+  },
+  "control_norms_not_equalized": true,
+  "counters": {
+    "forward": 8009,
+    "backward": 300,
+    "generate": 1110,
+    "fastv": 1072
+  },
+  "elapsed_sec": 3512.973972273059,
+  "peak_memory_mib": 30763.271484375
+}

@@ -1,0 +1,744 @@
+{
+  "sample_id": "7006",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "db81e4ac8be57093922b2ce1da54ae2816be7ea40dc7f6cff5a9931f84515d5a",
+  "full_clean": {
+    "text_a": "RJ Reynolds Tobacco Company",
+    "text_b": "RJ Reynolds Tobacco Company",
+    "tokens_a": [
+      49,
+      41,
+      45072,
+      65110,
+      8188,
+      151645
+    ],
+    "tokens_b": [
+      49,
+      41,
+      45072,
+      65110,
+      8188,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      49,
+      41,
+      45072,
+      65110,
+      8188,
+      151645
+    ],
+    "text": "RJ Reynolds Tobacco Company",
+    "anls": 0.962962962962963,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+    "k": 3699,
+    "second_keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+    "second_k": 3699
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 0,
+      "target_id": 49,
+      "target_piece": "R",
+      "candidate_id": 5207,
+      "candidate_piece": "TO",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 0.875,
+      "content_priority": 1,
+      "fast_gradient_l1": 16246.4052734375,
+      "fast_gradient_l2": 42.062591552734375,
+      "estimated_fast_flip_linf": 5.385806800170158e-05,
+      "full_clean_hard_min": 1.375,
+      "full_probe_hard_min": 1.0625,
+      "full_local_capacity_linf": 0.017254901960784313,
+      "full_local_margin_available": true,
+      "reachability_ratio": 320.3772916666666,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "8397369675e706f21bf426fb9371333f27aa077fa0c50b820e453394ea60a5f6",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          5207,
+          33,
+          1706,
+          8281,
+          65448,
+          151645
+        ],
+        "text": "TOBACCO COMPANY",
+        "keep_hash": "593c17245ac0bd4e5dcf39429c0db3dc1c7aeeefa8997b72774bf3d05aa72886",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.5769230769230769,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "complete_lexical_key": "tobaccocompany",
+      "complete_lexical_similarity_to_clean": 0.7368421052631579,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          5207,
+          33,
+          1706,
+          8281,
+          65448,
+          151645
+        ],
+        "text": "TOBACCO COMPANY",
+        "keep_hash": "593c17245ac0bd4e5dcf39429c0db3dc1c7aeeefa8997b72774bf3d05aa72886",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 49,
+      "target_piece": "R",
+      "candidate_id": 12676,
+      "candidate_piece": "Public",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 2.1875,
+      "content_priority": 1,
+      "fast_gradient_l1": 12329.224609375,
+      "fast_gradient_l2": 41.37211227416992,
+      "estimated_fast_flip_linf": 0.00017742397184788492,
+      "full_clean_hard_min": 1.375,
+      "full_probe_hard_min": 1.375,
+      "full_local_capacity_linf": 0.20784313725490197,
+      "full_local_margin_available": true,
+      "reachability_ratio": 1171.4490161064427,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "8397369675e706f21bf426fb9371333f27aa077fa0c50b820e453394ea60a5f6",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          12676,
+          31367,
+          50221,
+          13,
+          151645
+        ],
+        "text": "Public Relations Dept.",
+        "keep_hash": "28189ce3e1cfa217cf69a75beb94d735a6739ff2c9423f77443854d1d4dd2725",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "complete_lexical_key": "publicrelationsdept",
+      "complete_lexical_similarity_to_clean": 0.23255813953488372,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          12676,
+          31367,
+          50221,
+          13,
+          151645
+        ],
+        "text": "Public Relations Dept.",
+        "keep_hash": "28189ce3e1cfa217cf69a75beb94d735a6739ff2c9423f77443854d1d4dd2725",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 3,
+      "target_id": 65110,
+      "target_piece": " Tobacco",
+      "candidate_id": 31756,
+      "candidate_piece": " Tob",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 4.4375,
+      "content_priority": 1,
+      "fast_gradient_l1": 7180.919921875,
+      "fast_gradient_l2": 25.474437713623047,
+      "estimated_fast_flip_linf": 0.0006179570372985486,
+      "full_clean_hard_min": 1.375,
+      "full_probe_hard_min": 1.375,
+      "full_local_capacity_linf": 0.047058823529411764,
+      "full_local_margin_available": true,
+      "reachability_ratio": 76.15225766362883,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "8397369675e706f21bf426fb9371333f27aa077fa0c50b820e453394ea60a5f6",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          49,
+          41,
+          45072,
+          31756,
+          4475,
+          509,
+          8188,
+          151645
+        ],
+        "text": "RJ Reynolds Tobaccoc Company",
+        "keep_hash": "7db98aa81d89deff75a3d470d50a7ba6ab4692157f42fbf2f4f519598bd6a92e",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.9285714285714286,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "complete_lexical_key": "rjreynoldstobaccoccompany",
+      "complete_lexical_similarity_to_clean": 0.9795918367346939,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          49,
+          41,
+          45072,
+          31756,
+          4475,
+          509,
+          8188,
+          151645
+        ],
+        "text": "RJ Reynolds Tobaccoc Company",
+        "keep_hash": "7db98aa81d89deff75a3d470d50a7ba6ab4692157f42fbf2f4f519598bd6a92e",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 4,
+      "target_id": 8188,
+      "target_piece": " Company",
+      "candidate_id": 3539,
+      "candidate_piece": " Co",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 4.875,
+      "content_priority": 1,
+      "fast_gradient_l1": 8627.314453125,
+      "fast_gradient_l2": 24.162498474121094,
+      "estimated_fast_flip_linf": 0.0005650657602070097,
+      "full_clean_hard_min": 1.375,
+      "full_probe_hard_min": 1.25,
+      "full_local_capacity_linf": 0.043137254901960784,
+      "full_local_margin_available": true,
+      "reachability_ratio": 76.34023849924586,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "8397369675e706f21bf426fb9371333f27aa077fa0c50b820e453394ea60a5f6",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          3539,
+          151645
+        ],
+        "text": "RJ Reynolds Tobacco Co",
+        "keep_hash": "7db77d647cd41bed438d6947c87861f42076f6203f00b2e28975f8d7f7de5a10",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.7692307692307692,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "complete_lexical_key": "rjreynoldstobaccoco",
+      "complete_lexical_similarity_to_clean": 0.8837209302325582,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          3539,
+          151645
+        ],
+        "text": "RJ Reynolds Tobacco Co",
+        "keep_hash": "7db77d647cd41bed438d6947c87861f42076f6203f00b2e28975f8d7f7de5a10",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 49,
+      "target_piece": "R",
+      "candidate_id": 787,
+      "candidate_piece": "RE",
+      "candidate_rank_at_position": 9,
+      "clean_fast_gap": 4.9375,
+      "content_priority": 1,
+      "fast_gradient_l1": 12524.1923828125,
+      "fast_gradient_l2": 34.00703811645508,
+      "estimated_fast_flip_linf": 0.00039423699741118225,
+      "full_clean_hard_min": 1.375,
+      "full_probe_hard_min": 1.3125,
+      "full_local_capacity_linf": 0.08627450980392157,
+      "full_local_margin_available": true,
+      "reachability_ratio": 218.83920172499379,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "8397369675e706f21bf426fb9371333f27aa077fa0c50b820e453394ea60a5f6",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          787,
+          24273,
+          1930,
+          5936,
+          5146,
+          33,
+          1706,
+          8281,
+          65448,
+          151645
+        ],
+        "text": "REYNOLDS TOBACCO COMPANY",
+        "keep_hash": "9343d39ee8098c3055c34291e9af77066262e4d488e32e420ef48742067e4aeb",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.9230769230769231,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "complete_lexical_key": "reynoldstobaccocompany",
+      "complete_lexical_similarity_to_clean": 0.9565217391304348,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          787,
+          24273,
+          1930,
+          5936,
+          5146,
+          33,
+          1706,
+          8281,
+          65448,
+          151645
+        ],
+        "text": "REYNOLDS TOBACCO COMPANY",
+        "keep_hash": "9343d39ee8098c3055c34291e9af77066262e4d488e32e420ef48742067e4aeb",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 3,
+      "target_id": 65110,
+      "target_piece": " Tobacco",
+      "candidate_id": 2014,
+      "candidate_piece": " To",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 5.375,
+      "content_priority": 1,
+      "fast_gradient_l1": 8225.189453125,
+      "fast_gradient_l2": 25.96677017211914,
+      "estimated_fast_flip_linf": 0.0006534803885833747,
+      "full_clean_hard_min": 1.375,
+      "full_probe_hard_min": 1.1875,
+      "full_local_capacity_linf": 0.023529411764705882,
+      "full_local_margin_available": true,
+      "reachability_ratio": 36.0063012995896,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "8397369675e706f21bf426fb9371333f27aa077fa0c50b820e453394ea60a5f6",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          49,
+          41,
+          45072,
+          2014,
+          370,
+          19500,
+          8188,
+          151645
+        ],
+        "text": "RJ Reynolds Toabacco Company",
+        "keep_hash": "a99e81ce50feea355fc1a2465a596505202c0d283142bfad04062b5c5b811147",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.9285714285714286,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "complete_lexical_key": "rjreynoldstoabaccocompany",
+      "complete_lexical_similarity_to_clean": 0.9795918367346939,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          49,
+          41,
+          45072,
+          2014,
+          370,
+          19500,
+          8188,
+          151645
+        ],
+        "text": "RJ Reynolds Toabacco Company",
+        "keep_hash": "a99e81ce50feea355fc1a2465a596505202c0d283142bfad04062b5c5b811147",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 24,
+    "screen_admitted_before_limit": 6,
+    "screen_rejected": 12,
+    "estimated": 6
+  },
+  "rejected_proposals": [
+    {
+      "position": 0,
+      "target_id": 49,
+      "target_piece": "R",
+      "candidate_id": 1249,
+      "candidate_piece": "To",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 2.5625,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          1249,
+          33,
+          19500,
+          8188,
+          151645
+        ],
+        "text": "ToBacco Company",
+        "keep_hash": "8a72ab92f8fd2fd38e5258cff76b460819f0d0b68f0a2a9d875e38b900c099cd",
+        "k": 3699
+      },
+      "complete_lexical_key": "tobaccocompany",
+      "complete_lexical_similarity_to_clean": 0.7368421052631579,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    },
+    {
+      "position": 0,
+      "target_id": 49,
+      "target_piece": "R",
+      "candidate_id": 983,
+      "candidate_piece": "to",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 3.75,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          983,
+          151645
+        ],
+        "text": "to",
+        "keep_hash": "92d2c7b04202fa2cc1a54d7cc9e00b7c0b48bedc6e8c4bcc3ff17cc1afc84bb3",
+        "k": 3699
+      },
+      "complete_lexical_key": "to",
+      "complete_lexical_similarity_to_clean": 0.15384615384615385,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 2,
+      "target_id": 45072,
+      "target_piece": " Reynolds",
+      "candidate_id": 3596,
+      "candidate_piece": " RE",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 3.875,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          49,
+          41,
+          3596,
+          24273,
+          1930,
+          5936,
+          65110,
+          8188,
+          151645
+        ],
+        "text": "RJ REYNOLDS Tobacco Company",
+        "keep_hash": "9e586c50423591e8ebc5b8da2b86ae1cd7aa035e83b0f28b4651a827d60e3caf",
+        "k": 3699
+      },
+      "complete_lexical_key": "rjreynoldstobaccocompany",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 0,
+      "target_id": 49,
+      "target_piece": "R",
+      "candidate_id": 888,
+      "candidate_piece": "public",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 3.9375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          888,
+          4300,
+          44593,
+          13,
+          151645
+        ],
+        "text": "public relations dept.",
+        "keep_hash": "52cb5afa769f93372d796e83baeac08ed7c2b120ee8dcb618e1aec39ae3e0027",
+        "k": 3699
+      },
+      "complete_lexical_key": "publicrelationsdept",
+      "complete_lexical_similarity_to_clean": 0.23255813953488372,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    },
+    {
+      "position": 2,
+      "target_id": 45072,
+      "target_piece": " Reynolds",
+      "candidate_id": 693,
+      "candidate_piece": "Re",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 4.1875,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          49,
+          41,
+          693,
+          1872,
+          18431,
+          65110,
+          8188,
+          151645
+        ],
+        "text": "RJReynolds Tobacco Company",
+        "keep_hash": "95a930af541df1a75b575824b25a50a6e9f9d9e37055374ad7465bf7b9708336",
+        "k": 3699
+      },
+      "complete_lexical_key": "rjreynoldstobaccocompany",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 3,
+      "target_id": 65110,
+      "target_piece": " Tobacco",
+      "candidate_id": 5146,
+      "candidate_piece": " TO",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 4.4375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          49,
+          41,
+          45072,
+          5146,
+          33,
+          1706,
+          8281,
+          65448,
+          151645
+        ],
+        "text": "RJ Reynolds TOBACCO COMPANY",
+        "keep_hash": "ae3db437b26818ea533ea05fae1f830effb50105fa66532d47c4d5c424f4972c",
+        "k": 3699
+      },
+      "complete_lexical_key": "rjreynoldstobaccocompany",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 2,
+      "target_id": 45072,
+      "target_piece": " Reynolds",
+      "candidate_id": 787,
+      "candidate_piece": "RE",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 5.625,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          49,
+          41,
+          787,
+          24273,
+          1930,
+          5936,
+          5146,
+          33,
+          1706,
+          8281,
+          65448,
+          151645
+        ],
+        "text": "RJREYNOLDS TOBACCO COMPANY",
+        "keep_hash": "6a0e43513309095ea218585f8547657c2acd59cd89b3eb2e34a4ea17222645fd",
+        "k": 3699
+      },
+      "complete_lexical_key": "rjreynoldstobaccocompany",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 3,
+      "target_id": 65110,
+      "target_piece": " Tobacco",
+      "candidate_id": 24406,
+      "candidate_piece": " tob",
+      "candidate_rank_at_position": 9,
+      "clean_fast_gap": 7.3125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          49,
+          41,
+          45072,
+          24406,
+          19500,
+          2813,
+          151645
+        ],
+        "text": "RJ Reynolds tobacco company",
+        "keep_hash": "2b5607f7ba286146dd6c10d9227ec2c1f2a9d072fc3983800576f0d8f85b883b",
+        "k": 3699
+      },
+      "complete_lexical_key": "rjreynoldstobaccocompany",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 2,
+      "target_id": 45072,
+      "target_piece": " Reynolds",
+      "candidate_id": 39083,
+      "candidate_piece": " Reyn",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 7.4375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          49,
+          41,
+          39083,
+          813,
+          151645
+        ],
+        "text": "RJ Reynold",
+        "keep_hash": "b45525eb1c1cb4082998039474617799f2319038334af920914fe485989c3dd1",
+        "k": 3699
+      },
+      "complete_lexical_key": "rjreynold",
+      "complete_lexical_similarity_to_clean": 0.5454545454545454,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 2,
+      "target_id": 45072,
+      "target_piece": " Reynolds",
+      "candidate_id": 11242,
+      "candidate_piece": "RY",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 7.75,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          49,
+          41,
+          11242,
+          1093,
+          1930,
+          5936,
+          151645
+        ],
+        "text": "RJRYANOLDS",
+        "keep_hash": "bab7e71529325066c6ffe67cb7cea3514f31aaede057bbd68b7d25652394e047",
+        "k": 3699
+      },
+      "complete_lexical_key": "rjryanolds",
+      "complete_lexical_similarity_to_clean": 0.5294117647058824,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 2,
+      "target_id": 45072,
+      "target_piece": " Reynolds",
+      "candidate_id": 312,
+      "candidate_piece": " re",
+      "candidate_rank_at_position": 8,
+      "clean_fast_gap": 7.9375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          49,
+          41,
+          312,
+          1872,
+          18431,
+          26433,
+          2813,
+          151645
+        ],
+        "text": "RJ reynolds tobacco company",
+        "keep_hash": "8d360dd4e35638222b65df8619f704c647184ff343800fb680b3b800d309326e",
+        "k": 3699
+      },
+      "complete_lexical_key": "rjreynoldstobaccocompany",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 3,
+      "target_id": 65110,
+      "target_piece": " Tobacco",
+      "candidate_id": 58308,
+      "candidate_piece": "-To",
+      "candidate_rank_at_position": 10,
+      "clean_fast_gap": 8.4375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          49,
+          41,
+          45072,
+          58308,
+          65,
+          19500,
+          8188,
+          151645
+        ],
+        "text": "RJ Reynolds-Tobacco Company",
+        "keep_hash": "0cc2ed1fe09d56f9e8fac05ea2a9e36998c00b411567280c7632a367a1ff09da",
+        "k": 3699
+      },
+      "complete_lexical_key": "rjreynoldstobaccocompany",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    }
+  ]
+}

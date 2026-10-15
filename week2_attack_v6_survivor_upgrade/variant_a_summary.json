@@ -1,0 +1,11 @@
+{
+  "selector": "prospective_feasible_min_compressed_margin",
+  "reads": ["step>0", "nonzero_png", "output_valid", "full_text_exact", "uint8_linf", "replay"],
+  "does_not_read_for_selection": ["anls", "fastv_text", "ground_truth", "strict_label"],
+  "feasible": "40/40",
+  "no_feasible": "0/40",
+  "replay_non_200": "8/8",
+  "step_200_already_replayed": "32/32",
+  "strict_after_selector": "35/40",
+  "note": "60700 is selected at step 100, where Full text is still PPBS. This count uses checkpoint ANLS only after the text-locked selection and after disk replay of the eight non-200 images."
+}

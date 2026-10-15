@@ -1,0 +1,99 @@
+{
+  "rows": [
+    {
+      "sample_id": "7006",
+      "step": "150",
+      "pred_CC": "RJ Reynolds Tobacco Company",
+      "pred_CA": "RJ Reynolds Tobacco Company",
+      "pred_AC": "Tobacco Company",
+      "pred_AA": "Tobacco Company",
+      "full_clean": "RJ Reynolds Tobacco Company",
+      "full_selected": "RJ Reynolds Tobacco Company",
+      "anls_CC": 0.962962962962963,
+      "anls_CA": 0.962962962962963,
+      "anls_AC": 0.5769230769230769,
+      "anls_AA": 0.5769230769230769,
+      "mechanism": "UNEXPLAINED_OR_INVALID",
+      "output_valid": 1,
+      "seconds": 8.09
+    },
+    {
+      "sample_id": "50779",
+      "step": "200",
+      "pred_CC": "Dr. Darby",
+      "pred_CA": "Dr. Darby",
+      "pred_AC": "Dr Donex",
+      "pred_AA": "Dr Donkey",
+      "full_clean": "Dr. Darby",
+      "full_selected": "Dr. Darby",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.5555555555555556,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "seconds": 5.17
+    },
+    {
+      "sample_id": "62941",
+      "step": "200",
+      "pred_CC": "December 19, 1979",
+      "pred_CA": "December 19, 1979",
+      "pred_AC": "December 19, 1979",
+      "pred_AA": "December 19, 1979",
+      "full_clean": "October 13-31, 1979",
+      "full_selected": "October 13-31, 1979",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 1.0,
+      "anls_AA": 1.0,
+      "mechanism": "UNEXPLAINED_OR_INVALID",
+      "output_valid": 1,
+      "seconds": 6.44
+    }
+  ],
+  "keeps": [
+    {
+      "sample_id": "7006",
+      "K": 3699,
+      "keep_hash_clean": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+      "keep_hash_adv": "c6bbb86d0f3aa31a0b0de68749c2f761cea17783b4eec689d44dc7b074097eac",
+      "jaccard": 0.8518147684605757,
+      "symmetric_difference": 592,
+      "evidence_share_clean": 0.2865639361989727,
+      "evidence_share_adv": 0.28304947283049475,
+      "aux_share_clean": 0.28602324952689917,
+      "aux_share_adv": 0.2984590429845904,
+      "per_page_clean": "[1058, 777, 804, 1060]",
+      "per_page_adv": "[1104, 763, 785, 1047]"
+    },
+    {
+      "sample_id": "50779",
+      "K": 2774,
+      "keep_hash_clean": "3f70ff102105e1aad5366e038afcbd666862dea7e6829801287c57526d56693e",
+      "keep_hash_adv": "3c3c7a7488556b0e988db4df0b025b0d61358c733bec9859635d17e5c7a3ddad",
+      "jaccard": 0.8794037940379403,
+      "symmetric_difference": 356,
+      "evidence_share_clean": 0.25522710886806055,
+      "evidence_share_adv": 0.25378514780100936,
+      "aux_share_clean": 0.2761355443403028,
+      "aux_share_adv": 0.2790194664744052,
+      "per_page_clean": "[766, 708, 1300]",
+      "per_page_adv": "[774, 704, 1296]"
+    },
+    {
+      "sample_id": "62941",
+      "K": 2774,
+      "keep_hash_clean": "be0564b51aa3de1eb1c849bf1f4e5fe0aff28538ac75fe8a4cc7be3e205d04fd",
+      "keep_hash_adv": "dcee0e07fee9e57a443cbd63763837a2ec7c8910f73fda93086717bf7ddd8fe3",
+      "jaccard": 0.8555183946488294,
+      "symmetric_difference": 432,
+      "evidence_share_clean": 0.4170872386445566,
+      "evidence_share_adv": 0.40843547224224946,
+      "aux_share_clean": 0.2664023071377073,
+      "aux_share_adv": 0.2815428983417448,
+      "per_page_clean": "[739, 878, 1157]",
+      "per_page_adv": "[781, 860, 1133]"
+    }
+  ]
+}

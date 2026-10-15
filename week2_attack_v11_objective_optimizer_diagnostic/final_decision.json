@@ -1,0 +1,15 @@
+{
+  "decision": "PHASE_A_FAIL_NON_AUX_GRADIENT",
+  "stage_b": "NOT_RUN",
+  "stage_c": "NOT_RUN",
+  "stage_d": "NOT_RUN",
+  "section_9": "not triggered; no trajectory exists",
+  "denominator": 6,
+  "failed_check": "non-auxiliary page gradients are not identically zero when those pages are differentiable leaves",
+  "passed_checks": [
+    "clean fixed reference matches dynamic reference",
+    "clean teacher-forcing prefix matches generate",
+    "keep-set comes from the current perturbed FastV selection",
+    "saved PNG uint8 Linf is 2 and does not exceed 8"
+  ]
+}

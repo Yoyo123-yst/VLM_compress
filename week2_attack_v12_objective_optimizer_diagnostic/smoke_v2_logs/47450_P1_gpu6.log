@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v12_objective_optimizer_diagnostic/run_deterministic.py", line 13, in <module>
+    import torch
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/__init__.py", line 57, in <module>
+    from torch._utils_internal import (
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/_utils_internal.py", line 11, in <module>
+    from torch._strobelight.compile_time_profiler import StrobelightCompileTimeProfiler
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/_strobelight/compile_time_profiler.py", line 8, in <module>
+    from socket import gethostname
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/socket.py", line 85, in <module>
+    IntFlag._convert_(
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/enum.py", line 563, in _convert_
+    cls = cls(name, members, module=module)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/enum.py", line 387, in __call__
+    return cls._create_(
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/enum.py", line 517, in _create_
+    classdict[member_name] = member_value
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/enum.py", line 98, in __setitem__
+    if _is_private(self._cls_name, key):
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/enum.py", line 47, in _is_private
+    pat_len = len(pattern)
+KeyboardInterrupt

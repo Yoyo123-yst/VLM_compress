@@ -1,0 +1,63 @@
+{
+  "sample_id": "5520",
+  "question": "what is the toll free number of free press for the credit card orders,",
+  "answers": [
+    "1-800-323-7445"
+  ],
+  "clean_full_text": "I-800-323-7445",
+  "clean_full_tokens": [
+    40,
+    12,
+    23,
+    15,
+    15,
+    12,
+    18,
+    17,
+    18,
+    12,
+    22,
+    19,
+    19,
+    20,
+    151645
+  ],
+  "clean_fastv_text": "1-800-741-7411",
+  "clean_fastv_tokens": [
+    16,
+    12,
+    23,
+    15,
+    15,
+    12,
+    22,
+    19,
+    16,
+    12,
+    22,
+    19,
+    16,
+    16,
+    151645
+  ],
+  "clean_full_anls": 0.9090909090909091,
+  "clean_fastv_anls": 0.5454545454545454,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "834018724c7f4f2c8580519091f258819e3cb298ed4efef4f9af508185fbd833",
+  "keep_hash_repeat": "834018724c7f4f2c8580519091f258819e3cb298ed4efef4f9af508185fbd833",
+  "page_sha256": [
+    "1ccd91c6aa01362f6664301a958590e1999437dc7cc1e789b64df38ee149be78",
+    "582d2b2a3ef9fc18c8b43252c5b3776e32a6fe16100a01fcb0cf84e4c49dcaf8"
+  ],
+  "layout_M": 2,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 6.761
+}

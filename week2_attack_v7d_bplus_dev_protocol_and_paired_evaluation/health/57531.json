@@ -1,0 +1,25 @@
+{
+  "sample_id": "57531",
+  "full_argmax_match": true,
+  "fastv": {
+    "0.25": {
+      "k": 3699,
+      "keep_hash": "08603f470ac576d0e5c17182245c2eb999e55e58bfc1fe2f0616bef75dfef8ff",
+      "n_tokens": 4
+    },
+    "0.35": {
+      "k": 5179,
+      "keep_hash": "02cabe2e7e2df7560e9446f26419c43cfd941bb3ed8c9e1fa3e42e2becac31a1",
+      "n_tokens": 4
+    }
+  },
+  "grad_l2": {
+    "L_compressed": 24.32417869567871,
+    "L_FDP": 11.914276123046875,
+    "L_conditional_gap": 17.293262481689453,
+    "L_native_soft_anchor": 8.5283842086792
+  },
+  "evidence_grad_l2": 0.0,
+  "aux_grad_nonzero": true,
+  "pass": true
+}

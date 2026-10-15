@@ -1,0 +1,68 @@
+{
+  "sample_id": "62941",
+  "chosen_step": 150,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "October 13-31, 1979",
+  "clean_text": "October 13-31, 1979",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 6.387006759643555,
+  "pollution": 0,
+  "strict_train": 1,
+  "by_ratio": {
+    "0.50": {
+      "text": "October 13, 1979",
+      "anls": 0.6875,
+      "margin": 4.59896183013916,
+      "keep": {
+        "k": 5548,
+        "keep_hash": "fbd5cb0d0be73c6471c4dd9dc04744040d7ca3fe2d255d5d33b4c7de905f479e",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 1.7880449295043945
+    },
+    "0.35": {
+      "text": "1/7/87",
+      "anls": 0.0,
+      "margin": 1.5074526071548462,
+      "keep": {
+        "k": 3884,
+        "keep_hash": "c3ab659d873e30d534d1d7db0f7a5ece71503b9176608180ceea92412959d519",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 4.8795541524887085
+    },
+    "0.25": {
+      "text": "1/7/80",
+      "anls": 0.0,
+      "margin": 1.3763989210128784,
+      "keep": {
+        "k": 2774,
+        "keep_hash": "a3fdddd54a558b5912127775708b28a1c2fcb7b16a15ed7f633c29a250b0f2ca",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.010607838630676
+    },
+    "0.15": {
+      "text": "Dec 19 1979",
+      "anls": 0.6875,
+      "margin": 2.9290881156921387,
+      "keep": {
+        "k": 1665,
+        "keep_hash": "f76ec383c998c165ab7909847c775661498c64fd8b2380a1fb0bbb9a8f92e8f7",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 3.457918643951416
+    }
+  },
+  "selector_margin": 1.4419257640838623
+}

@@ -1,0 +1,13 @@
+{
+  "status": "AUDIT_COMPLETE_NO_GO_FOR_COMPLETE_FRONT",
+  "cohort": "15 valid-target development samples",
+  "cost": {
+    "native_fdp": {"attempts": 300, "accepted": 300, "wall_seconds": 3878.8},
+    "complete_target": {"attempts": 195, "accepted": 195, "wall_seconds": 3061.0},
+    "complete_front": {"attempts": 150, "accepted": 146, "wall_seconds": 2655.3}
+  },
+  "target_hits": {"complete_target": "7/15", "complete_front": "6/15"},
+  "anls_strict_failures": {"native_fdp": "7/15", "complete_target": "6/15", "complete_front": "6/15"},
+  "full_exact": "45/45",
+  "decision": "Freeze complete-target as a directional baseline only; do not promote complete-front or open unseen from this run."
+}

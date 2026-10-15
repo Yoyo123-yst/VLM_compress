@@ -1,0 +1,155 @@
+{
+  "stage": "B",
+  "health": "PASS",
+  "completed_samples": 6,
+  "invalid_outputs": 0,
+  "replay_pass": 6,
+  "strict_csfr": 0.6666666666666666,
+  "full_error_rate": 0.0,
+  "fastv_error_rate": 0.6666666666666666,
+  "error_rate_gap": 0.6666666666666666,
+  "mean_DF": 0.0,
+  "mean_DC": 0.7199188104360518,
+  "mean_G": 0.7199188104360518,
+  "decision": "RELAXED_GO_TO_HOLDOUT",
+  "evidence": [
+    "lambda1 strict CSFR 0.5",
+    "lambda0.25 strict CSFR 0.6666666666666666",
+    "mean G 0.5393264143264144 -> 0.7199188104360518",
+    "gap 0.5 -> 0.6666666666666666",
+    "kept 3/3 new 1",
+    "best checkpoints with full grad L2 > comp grad L2: 4/6"
+  ],
+  "next_action": "freeze holdout seed 20261008 and run lambda=1 against lambda=0.25",
+  "next_command": "week2_attack_v4_relaxed_full/run_lambda.py --lambda-full 0.25 --steps 200 --tag holdout_lambda025 --manifest week2_attack_v4_relaxed_full/holdout/frozen_manifest.json --shard N --nshards 2",
+  "summary": {
+    "lambda_1": {
+      "final_step": {
+        "n": 6,
+        "strict_csfr": 0.5,
+        "reverse_failure": 0.0,
+        "both_wrong": 0.0,
+        "both_right": 0.5,
+        "full_error_rate": 0.0,
+        "fastv_error_rate": 0.5,
+        "error_rate_gap": 0.5,
+        "mean_DF": 0.0,
+        "mean_DC": 0.5217678858983207,
+        "mean_G": 0.5217678858983207,
+        "invalid": 0,
+        "ids_strict": [
+          "50743",
+          "33923",
+          "5169"
+        ]
+      },
+      "best_strict": {
+        "n": 6,
+        "strict_csfr": 0.5,
+        "reverse_failure": 0.0,
+        "both_wrong": 0.0,
+        "both_right": 0.5,
+        "full_error_rate": 0.0,
+        "fastv_error_rate": 0.5,
+        "error_rate_gap": 0.5,
+        "mean_DF": 0.0,
+        "mean_DC": 0.5393264143264144,
+        "mean_G": 0.5393264143264144,
+        "invalid": 0,
+        "ids_strict": [
+          "50743",
+          "33923",
+          "5169"
+        ]
+      },
+      "best_gap_diagnostic": {
+        "n": 6,
+        "strict_csfr": 0.5,
+        "reverse_failure": 0.0,
+        "both_wrong": 0.0,
+        "both_right": 0.5,
+        "full_error_rate": 0.0,
+        "fastv_error_rate": 0.5,
+        "error_rate_gap": 0.5,
+        "mean_DF": 0.0,
+        "mean_DC": 0.5393264143264144,
+        "mean_G": 0.5393264143264144,
+        "invalid": 0,
+        "ids_strict": [
+          "50743",
+          "33923",
+          "5169"
+        ]
+      }
+    },
+    "lambda_0_25": {
+      "final_step": {
+        "n": 6,
+        "strict_csfr": 0.6666666666666666,
+        "reverse_failure": 0.0,
+        "both_wrong": 0.0,
+        "both_right": 0.3333333333333333,
+        "full_error_rate": 0.0,
+        "fastv_error_rate": 0.6666666666666666,
+        "error_rate_gap": 0.6666666666666666,
+        "mean_DF": 0.0,
+        "mean_DC": 0.6815175565175565,
+        "mean_G": 0.6815175565175565,
+        "invalid": 0,
+        "ids_strict": [
+          "50743",
+          "33923",
+          "4912",
+          "5169"
+        ]
+      },
+      "best_strict": {
+        "n": 6,
+        "strict_csfr": 0.6666666666666666,
+        "reverse_failure": 0.0,
+        "both_wrong": 0.0,
+        "both_right": 0.3333333333333333,
+        "full_error_rate": 0.0,
+        "fastv_error_rate": 0.6666666666666666,
+        "error_rate_gap": 0.6666666666666666,
+        "mean_DF": 0.0,
+        "mean_DC": 0.7199188104360518,
+        "mean_G": 0.7199188104360518,
+        "invalid": 0,
+        "ids_strict": [
+          "50743",
+          "33923",
+          "4912",
+          "5169"
+        ]
+      },
+      "best_gap_diagnostic": {
+        "n": 6,
+        "strict_csfr": 0.6666666666666666,
+        "reverse_failure": 0.0,
+        "both_wrong": 0.0,
+        "both_right": 0.3333333333333333,
+        "full_error_rate": 0.0,
+        "fastv_error_rate": 0.6666666666666666,
+        "error_rate_gap": 0.6666666666666666,
+        "mean_DF": 0.0,
+        "mean_DC": 0.7199188104360518,
+        "mean_G": 0.7199188104360518,
+        "invalid": 0,
+        "ids_strict": [
+          "50743",
+          "33923",
+          "4912",
+          "5169"
+        ]
+      }
+    }
+  },
+  "verdict": {
+    "decision": "RELAXED_GO_TO_HOLDOUT",
+    "next_action": "freeze holdout and run the paired comparison",
+    "kept_of_three": 3,
+    "new_strict": 1,
+    "grad_full_dominates": true
+  }
+}

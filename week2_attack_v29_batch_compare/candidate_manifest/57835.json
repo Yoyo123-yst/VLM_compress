@@ -1,0 +1,781 @@
+{
+  "sample_id": "57835",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "dda4f170d8ec4a0de5b4ed52bcf5993eee66242165294751b779738dff2c4255",
+  "full_clean": {
+    "text_a": "VST INDUSTRIES LIMITED",
+    "text_b": "VST INDUSTRIES LIMITED",
+    "tokens_a": [
+      53,
+      784,
+      19317,
+      8553,
+      65549,
+      13104,
+      151645
+    ],
+    "tokens_b": [
+      53,
+      784,
+      19317,
+      8553,
+      65549,
+      13104,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      53,
+      784,
+      36428,
+      18905,
+      151645
+    ],
+    "text": "VST Industries Limited",
+    "anls": 1.0,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "9a0652013282bdf1b2290bbe257e9afd826f32614c05e69bfefdb612f8eac844",
+    "k": 3699,
+    "second_keep_hash": "9a0652013282bdf1b2290bbe257e9afd826f32614c05e69bfefdb612f8eac844",
+    "second_k": 3699
+  },
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "9a0652013282bdf1b2290bbe257e9afd826f32614c05e69bfefdb612f8eac844",
+    "reference_keep_hash": "9a0652013282bdf1b2290bbe257e9afd826f32614c05e69bfefdb612f8eac844",
+    "fast_keep_exact": true,
+    "k": 3699,
+    "reference_k": 3699
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 2,
+      "target_id": 36428,
+      "target_piece": " Industries",
+      "candidate_id": 2263,
+      "candidate_piece": " Ind",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 2.8125,
+      "content_priority": 1,
+      "fast_gradient_l1": 10665.759765625,
+      "fast_gradient_l2": 49.23684310913086,
+      "estimated_fast_flip_linf": 0.0002636942948091229,
+      "full_clean_hard_min": 0.1875,
+      "full_probe_hard_min": 0.375,
+      "full_local_capacity_linf": 0.058823529411764705,
+      "full_local_margin_available": true,
+      "reachability_ratio": 223.07471405228756,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "9a0652013282bdf1b2290bbe257e9afd826f32614c05e69bfefdb612f8eac844",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          53,
+          784,
+          2263,
+          3414,
+          604,
+          18905,
+          151645
+        ],
+        "text": "VST Industrail Limited",
+        "keep_hash": "75e956b870505932fc0d879e32bc635adea8b6b95f78a330f155bf3467337f8d",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.8636363636363636,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "vstindustraillimited",
+      "complete_lexical_similarity_to_clean": 0.9,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          53,
+          784,
+          2263,
+          3414,
+          604,
+          18905,
+          151645
+        ],
+        "text": "VST Industrail Limited",
+        "keep_hash": "75e956b870505932fc0d879e32bc635adea8b6b95f78a330f155bf3467337f8d",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 36428,
+      "target_piece": " Industries",
+      "candidate_id": 24545,
+      "candidate_piece": " Industrial",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 3.1875,
+      "content_priority": 1,
+      "fast_gradient_l1": 14858.7265625,
+      "fast_gradient_l2": 79.14519500732422,
+      "estimated_fast_flip_linf": 0.00021452040230988,
+      "full_clean_hard_min": 0.1875,
+      "full_probe_hard_min": 0.4375,
+      "full_local_capacity_linf": 0.058823529411764705,
+      "full_local_margin_available": true,
+      "reachability_ratio": 274.2094867358708,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "9a0652013282bdf1b2290bbe257e9afd826f32614c05e69bfefdb612f8eac844",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          53,
+          784,
+          24545,
+          52667,
+          18905,
+          151645
+        ],
+        "text": "VST Industrial Township Limited",
+        "keep_hash": "d8703fca1c9aa7ddadb95857eab3608e61050daa65c38ebb8064a8b38a705e2f",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.6774193548387097,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "vstindustrialtownshiplimited",
+      "complete_lexical_similarity_to_clean": 0.7916666666666666,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          53,
+          784,
+          24545,
+          52667,
+          18905,
+          151645
+        ],
+        "text": "VST Industrial Township Limited",
+        "keep_hash": "d8703fca1c9aa7ddadb95857eab3608e61050daa65c38ebb8064a8b38a705e2f",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 36428,
+      "target_piece": " Industries",
+      "candidate_id": 1964,
+      "candidate_piece": " IN",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 3.4375,
+      "content_priority": 1,
+      "fast_gradient_l1": 15467.36328125,
+      "fast_gradient_l2": 76.78982543945312,
+      "estimated_fast_flip_linf": 0.0002222421454448568,
+      "full_clean_hard_min": 0.1875,
+      "full_probe_hard_min": 0.25,
+      "full_local_capacity_linf": 0.0,
+      "full_local_margin_available": false,
+      "reachability_ratio": 0.0,
+      "estimated_feasible_at_eps": false,
+      "clean_keep_hash": "9a0652013282bdf1b2290bbe257e9afd826f32614c05e69bfefdb612f8eac844",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          53,
+          784,
+          1964,
+          17625,
+          11692,
+          13104,
+          151645
+        ],
+        "text": "VST INDIANS LIMITED",
+        "keep_hash": "7f2e7aa297edce90523039049cc3668b23f3824c45b740d19c8b0c326aa63cb3",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.7272727272727273,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "vstindianslimited",
+      "complete_lexical_similarity_to_clean": 0.8108108108108109,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          53,
+          784,
+          1964,
+          17625,
+          11692,
+          13104,
+          151645
+        ],
+        "text": "VST INDIANS LIMITED",
+        "keep_hash": "7f2e7aa297edce90523039049cc3668b23f3824c45b740d19c8b0c326aa63cb3",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 36428,
+      "target_piece": " Industries",
+      "candidate_id": 12785,
+      "candidate_piece": " industrial",
+      "candidate_rank_at_position": 8,
+      "clean_fast_gap": 3.6875,
+      "content_priority": 1,
+      "fast_gradient_l1": 17726.3359375,
+      "fast_gradient_l2": 80.93904876708984,
+      "estimated_fast_flip_linf": 0.00020802381343789763,
+      "full_clean_hard_min": 0.1875,
+      "full_probe_hard_min": 0.5,
+      "full_local_capacity_linf": 0.0392156862745098,
+      "full_local_margin_available": true,
+      "reachability_ratio": 188.51537055500165,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "9a0652013282bdf1b2290bbe257e9afd826f32614c05e69bfefdb612f8eac844",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          53,
+          784,
+          12785,
+          7199,
+          151645
+        ],
+        "text": "VST industrial limited",
+        "keep_hash": "d0ca0d2a1a09f96f6979396736e79eb82b81380762ecf96d6fd498698dd8e670",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.9090909090909091,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "vstindustriallimited",
+      "complete_lexical_similarity_to_clean": 0.9,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          53,
+          784,
+          12785,
+          7199,
+          151645
+        ],
+        "text": "VST industrial limited",
+        "keep_hash": "d0ca0d2a1a09f96f6979396736e79eb82b81380762ecf96d6fd498698dd8e670",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 3,
+      "target_id": 18905,
+      "target_piece": " Limited",
+      "candidate_id": 12324,
+      "candidate_piece": " Ltd",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 4.125,
+      "content_priority": 1,
+      "fast_gradient_l1": 7742.5703125,
+      "fast_gradient_l2": 32.92022705078125,
+      "estimated_fast_flip_linf": 0.00053276881365099,
+      "full_clean_hard_min": 0.1875,
+      "full_probe_hard_min": 0.25,
+      "full_local_capacity_linf": 0.0392156862745098,
+      "full_local_margin_available": true,
+      "reachability_ratio": 73.60732323232324,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "9a0652013282bdf1b2290bbe257e9afd826f32614c05e69bfefdb612f8eac844",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          53,
+          784,
+          36428,
+          12324,
+          151645
+        ],
+        "text": "VST Industries Ltd",
+        "keep_hash": "1736a17cce0655835096f565a5a994a1e7097c799afb66a20bef94aede8579f1",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.8181818181818181,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "vstindustriesltd",
+      "complete_lexical_similarity_to_clean": 0.8888888888888888,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          53,
+          784,
+          36428,
+          12324,
+          151645
+        ],
+        "text": "VST Industries Ltd",
+        "keep_hash": "1736a17cce0655835096f565a5a994a1e7097c799afb66a20bef94aede8579f1",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 53,
+      "target_piece": "V",
+      "candidate_id": 75520,
+      "candidate_piece": "GST",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 6.625,
+      "content_priority": 1,
+      "fast_gradient_l1": 9108.595703125,
+      "fast_gradient_l2": 41.154197692871094,
+      "estimated_fast_flip_linf": 0.0007273349499667746,
+      "full_clean_hard_min": 0.1875,
+      "full_probe_hard_min": 0.1875,
+      "full_local_capacity_linf": 0.0,
+      "full_local_margin_available": false,
+      "reachability_ratio": 0.0,
+      "estimated_feasible_at_eps": false,
+      "clean_keep_hash": "9a0652013282bdf1b2290bbe257e9afd826f32614c05e69bfefdb612f8eac844",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          75520,
+          19317,
+          8553,
+          65549,
+          13104,
+          151645
+        ],
+        "text": "GST INDUSTRIES LIMITED",
+        "keep_hash": "8c067ce149f4c050c617be3c23d74b5eb120bbd3891e18d638a62f1da051be2d",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.9545454545454546,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "gstindustrieslimited",
+      "complete_lexical_similarity_to_clean": 0.95,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          75520,
+          19317,
+          8553,
+          65549,
+          13104,
+          151645
+        ],
+        "text": "GST INDUSTRIES LIMITED",
+        "keep_hash": "8c067ce149f4c050c617be3c23d74b5eb120bbd3891e18d638a62f1da051be2d",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 24,
+    "screen_admitted_after_limit": 6,
+    "screen_rejected": 15,
+    "estimated": 6
+  },
+  "rejected_proposals": [
+    {
+      "position": 2,
+      "target_id": 36428,
+      "target_piece": " Industries",
+      "candidate_id": 19317,
+      "candidate_piece": " IND",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 0.375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          53,
+          784,
+          19317,
+          8553,
+          65549,
+          13104,
+          151645
+        ],
+        "text": "VST INDUSTRIES LIMITED",
+        "keep_hash": "37ee39894016ba273fd5b22bc921d2129f9ff1a45fddfbfb369e20223b97472b",
+        "k": 3699
+      },
+      "complete_lexical_key": "vstindustrieslimited",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 2,
+      "target_id": 36428,
+      "target_piece": " Industries",
+      "candidate_id": 1257,
+      "candidate_piece": " ind",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 2.75,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          53,
+          784,
+          1257,
+          590,
+          4019,
+          7199,
+          151645
+        ],
+        "text": "VST industries limited",
+        "keep_hash": "a9831845cb6f3646ac2d6cbe9d146d28ac6d17cc00ebfae23118c9c4ff1ad3de",
+        "k": 3699
+      },
+      "complete_lexical_key": "vstindustrieslimited",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 0,
+      "target_id": 53,
+      "target_piece": "V",
+      "candidate_id": 20457,
+      "candidate_piece": "VT",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 4.3125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          20457,
+          784,
+          151645
+        ],
+        "text": "VTST",
+        "keep_hash": "f9dc3c3abd8864146b3b3c53b720e52021eea51f825e588ffc47b472c0a821d7",
+        "k": 3699
+      },
+      "complete_lexical_key": "vtst",
+      "complete_lexical_similarity_to_clean": 0.25,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 53,
+      "target_piece": "V",
+      "candidate_id": 26050,
+      "candidate_piece": "VS",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 6.0,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          26050,
+          952,
+          151645
+        ],
+        "text": "VSIT",
+        "keep_hash": "c2a535cd054826183ea8e76eda34229fbe52981565ac883f4412ef80879990aa",
+        "k": 3699
+      },
+      "complete_lexical_key": "vsit",
+      "complete_lexical_similarity_to_clean": 0.3333333333333333,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 53,
+      "target_piece": "V",
+      "candidate_id": 9708,
+      "candidate_piece": "vt",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 6.0625,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          9708,
+          267,
+          151645
+        ],
+        "text": "vtst",
+        "keep_hash": "6f9c4af4ec34f861234e61a91345e05e0cdba280f1f1c5a24a00e0aecaac73f9",
+        "k": 3699
+      },
+      "complete_lexical_key": "vtst",
+      "complete_lexical_similarity_to_clean": 0.25,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 53,
+      "target_piece": "V",
+      "candidate_id": 11562,
+      "candidate_piece": "vs",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 6.4375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          11562,
+          267,
+          151645
+        ],
+        "text": "vsst",
+        "keep_hash": "8e949d8a9091e7452cb08e078c055a8ace840b054d19a66959c5d11d44f703d8",
+        "k": 3699
+      },
+      "complete_lexical_key": "vsst",
+      "complete_lexical_similarity_to_clean": 0.3333333333333333,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 1,
+      "target_id": 784,
+      "target_piece": "ST",
+      "candidate_id": 477,
+      "candidate_piece": "est",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 6.5,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          53,
+          477,
+          151645
+        ],
+        "text": "Vest",
+        "keep_hash": "afe8b6f31fe816f050cb54207d4c2804c3030ff52a30105e925afc44c00ac4d5",
+        "k": 3699
+      },
+      "complete_lexical_key": "vest",
+      "complete_lexical_similarity_to_clean": 0.25,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 1,
+      "target_id": 784,
+      "target_piece": "ST",
+      "candidate_id": 35849,
+      "candidate_piece": "STM",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 6.8125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          53,
+          35849,
+          151645
+        ],
+        "text": "VSTM",
+        "keep_hash": "918d85eeb0a88f0152c9b78e30438a1dfb33c34c7bcc7bce9c3ab4e8d8db6f8a",
+        "k": 3699
+      },
+      "complete_lexical_key": "vstm",
+      "complete_lexical_similarity_to_clean": 0.3333333333333333,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 1,
+      "target_id": 784,
+      "target_piece": "ST",
+      "candidate_id": 6321,
+      "candidate_piece": "si",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 7.0625,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          53,
+          6321,
+          259,
+          151645
+        ],
+        "text": "Vsi t",
+        "keep_hash": "923344755c07f229c886e1a8c8a484149967697bfe38550da3205d6ca8cf4f2d",
+        "k": 3699
+      },
+      "complete_lexical_key": "vsit",
+      "complete_lexical_similarity_to_clean": 0.3333333333333333,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 1,
+      "target_id": 784,
+      "target_piece": "ST",
+      "candidate_id": 3846,
+      "candidate_piece": "IST",
+      "candidate_rank_at_position": 8,
+      "clean_fast_gap": 7.3125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          53,
+          3846,
+          151645
+        ],
+        "text": "VIST",
+        "keep_hash": "215ed73c4739846c50388697607eacef3c2f5a6f6ce6bb1793a433d9717e9e39",
+        "k": 3699
+      },
+      "complete_lexical_key": "vist",
+      "complete_lexical_similarity_to_clean": 0.25,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 1,
+      "target_id": 784,
+      "target_piece": "ST",
+      "candidate_id": 36279,
+      "candidate_piece": "sts",
+      "candidate_rank_at_position": 9,
+      "clean_fast_gap": 7.5625,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          53,
+          36279,
+          151645
+        ],
+        "text": "Vsts",
+        "keep_hash": "5f7932f02d44653bdf40e5143994ed510676cdcb1c622485fb0da2473519f9c2",
+        "k": 3699
+      },
+      "complete_lexical_key": "vsts",
+      "complete_lexical_similarity_to_clean": 0.3333333333333333,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 53,
+      "target_piece": "V",
+      "candidate_id": 51737,
+      "candidate_piece": "Vs",
+      "candidate_rank_at_position": 8,
+      "clean_fast_gap": 7.6875,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          51737,
+          267,
+          151645
+        ],
+        "text": "Vsst",
+        "keep_hash": "fda4988307a81d86aacc89e1eedf0242251068c5c5a45d0d45dde782cc97e8d8",
+        "k": 3699
+      },
+      "complete_lexical_key": "vsst",
+      "complete_lexical_similarity_to_clean": 0.3333333333333333,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 1,
+      "target_id": 784,
+      "target_piece": "ST",
+      "candidate_id": 80878,
+      "candidate_piece": "STA",
+      "candidate_rank_at_position": 10,
+      "clean_fast_gap": 7.6875,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          53,
+          80878,
+          151645
+        ],
+        "text": "VSTA",
+        "keep_hash": "979d217824b9513068a2da296a4e7aff0c2fa6208c7fd4045310f699fed60d34",
+        "k": 3699
+      },
+      "complete_lexical_key": "vsta",
+      "complete_lexical_similarity_to_clean": 0.25,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 3,
+      "target_id": 18905,
+      "target_piece": " Limited",
+      "candidate_id": 50185,
+      "candidate_piece": " LTD",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 8.25,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          53,
+          784,
+          36428,
+          50185,
+          151645
+        ],
+        "text": "VST Industries LTD",
+        "keep_hash": "348bc9991c196da28c82178f6fc81c87d75b6428588d828fb017187ad4f85459",
+        "k": 3699
+      },
+      "complete_lexical_key": "vstindustriesltd",
+      "complete_lexical_similarity_to_clean": 0.8888888888888888,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    },
+    {
+      "position": 3,
+      "target_id": 18905,
+      "target_piece": " Limited",
+      "candidate_id": 70893,
+      "candidate_piece": " ltd",
+      "candidate_rank_at_position": 8,
+      "clean_fast_gap": 9.125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          53,
+          784,
+          36428,
+          70893,
+          151645
+        ],
+        "text": "VST Industries ltd",
+        "keep_hash": "b8a5335fb0b8b47e73362d267014dd3ead4ab7b84b6d70dfdcfd9f5d7144ffd5",
+        "k": 3699
+      },
+      "complete_lexical_key": "vstindustriesltd",
+      "complete_lexical_similarity_to_clean": 0.8888888888888888,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    }
+  ],
+  "candidate_generation_wall_seconds": 104.399,
+  "candidate_generation_compute_accounting": "wall time recorded; attack-phase forward/backward/generate counters do not include this clean-only stage"
+}

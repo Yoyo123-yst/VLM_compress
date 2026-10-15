@@ -1,0 +1,88 @@
+{
+  "status": "DONE",
+  "sample_id": "1025",
+  "group": "P1",
+  "tag": "smoke_frozen_v2",
+  "step": 3,
+  "png": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v12_objective_optimizer_diagnostic/runs/smoke_frozen_v2/P1/1025/step_003.png",
+  "png_sha256": "605c4c76d576dbf229596ea224b26f6619e57d5a548add7814cc80f233f9dfa0",
+  "full_text": "Dr. C. Baur MD",
+  "full_text_replay": "Dr. C. Baur MD",
+  "full_text_exact": 1,
+  "full_token_exact": 1,
+  "full_replay": 1,
+  "linf_uint8": 3,
+  "ratios": {
+    "0.15": {
+      "text": "TAKEDA",
+      "tokens": [
+        51,
+        11907,
+        86761,
+        151645
+      ],
+      "anls": 0.0,
+      "valid": true,
+      "k": 1665,
+      "keep_hash": "b04eedda201dd230964c8a21f3308d6443e5974c890249867b8a746129112cda",
+      "endpoint_failure": true
+    },
+    "0.25": {
+      "text": "Dr. Bach Bauer MD",
+      "tokens": [
+        8847,
+        13,
+        41158,
+        78601,
+        13979,
+        151645
+      ],
+      "anls": 0.6875,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "741ca1ce7bdc70be061520d2eb99b0b376c6f433bb45df8920a3e5dff7da14ef",
+      "endpoint_failure": false
+    },
+    "0.35": {
+      "text": "Dr. C. B. M. D.",
+      "tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        13,
+        386,
+        13,
+        422,
+        13,
+        151645
+      ],
+      "anls": 0.75,
+      "valid": true,
+      "k": 3884,
+      "keep_hash": "443e6646b91c9d6a20c4fe409c1a14e31f84833247f66f58ab11b488513a8519",
+      "endpoint_failure": false
+    },
+    "0.50": {
+      "text": "Dr. C. B. M.D.",
+      "tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        13,
+        386,
+        909,
+        13,
+        151645
+      ],
+      "anls": 0.75,
+      "valid": true,
+      "k": 5548,
+      "keep_hash": "9aa41669c050292ddbb785180294947d053b5258c3c1bbd75c465d4a10f3c1b1",
+      "endpoint_failure": false
+    }
+  }
+}

@@ -1,0 +1,1003 @@
+{
+  "status": "BATCH_SCREEN_QUEUE_FROZEN",
+  "date": "2026-10-15",
+  "seed": 2026101502,
+  "selection_unit": "sample_id and document ID only; no question, answer, clean output, or attack result used",
+  "candidate_pool": {
+    "path": "week2_attack_v5b_expanded_pristine40/pool/unseen_multipage_candidates.csv",
+    "sha256": "89f71b5c7120b6a3fed2cc23852ac7fe55e44238f649b6ffb8aa129d34a39756",
+    "rows": 3274
+  },
+  "exclusion": {
+    "prior_exposed_ids": 1190,
+    "prior_exposed_docs": 496,
+    "reserved_ids": [
+      "10303",
+      "1625",
+      "37463",
+      "43115",
+      "43133",
+      "452",
+      "4958",
+      "50960",
+      "51704",
+      "5820",
+      "58542",
+      "59467",
+      "60406",
+      "60697",
+      "63770",
+      "64171",
+      "64465",
+      "64900",
+      "65158",
+      "6785"
+    ],
+    "document_disjoint": true
+  },
+  "screen_cap": 120,
+  "target_clean_eligible": 30,
+  "frozen_order": [
+    {
+      "sample_id": "5184",
+      "M_raw": 2,
+      "answer_page_idx": 1,
+      "shard": "val-00005-of-00029.parquet",
+      "row": 18,
+      "doc_id": "grlh0227"
+    },
+    {
+      "sample_id": "60144",
+      "M_raw": 18,
+      "answer_page_idx": 10,
+      "shard": "val-00010-of-00029.parquet",
+      "row": 25,
+      "doc_id": "pxyk0226"
+    },
+    {
+      "sample_id": "55341",
+      "M_raw": 12,
+      "answer_page_idx": 6,
+      "shard": "val-00021-of-00029.parquet",
+      "row": 47,
+      "doc_id": "gnhm0227"
+    },
+    {
+      "sample_id": "62507",
+      "M_raw": 4,
+      "answer_page_idx": 3,
+      "shard": "val-00017-of-00029.parquet",
+      "row": 37,
+      "doc_id": "fybg0227"
+    },
+    {
+      "sample_id": "55192",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00020-of-00029.parquet",
+      "row": 105,
+      "doc_id": "yqxv0228"
+    },
+    {
+      "sample_id": "6966",
+      "M_raw": 6,
+      "answer_page_idx": 0,
+      "shard": "val-00011-of-00029.parquet",
+      "row": 54,
+      "doc_id": "khcw0004"
+    },
+    {
+      "sample_id": "62282",
+      "M_raw": 8,
+      "answer_page_idx": 2,
+      "shard": "val-00016-of-00029.parquet",
+      "row": 90,
+      "doc_id": "nhkw0227"
+    },
+    {
+      "sample_id": "5529",
+      "M_raw": 2,
+      "answer_page_idx": 1,
+      "shard": "val-00018-of-00029.parquet",
+      "row": 94,
+      "doc_id": "jmhk0228"
+    },
+    {
+      "sample_id": "54933",
+      "M_raw": 10,
+      "answer_page_idx": 9,
+      "shard": "val-00019-of-00029.parquet",
+      "row": 83,
+      "doc_id": "fqdg0072"
+    },
+    {
+      "sample_id": "64203",
+      "M_raw": 11,
+      "answer_page_idx": 9,
+      "shard": "val-00023-of-00029.parquet",
+      "row": 83,
+      "doc_id": "pxhd0227"
+    },
+    {
+      "sample_id": "50778",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00005-of-00029.parquet",
+      "row": 97,
+      "doc_id": "nxnw0228"
+    },
+    {
+      "sample_id": "5663",
+      "M_raw": 5,
+      "answer_page_idx": 0,
+      "shard": "val-00013-of-00029.parquet",
+      "row": 21,
+      "doc_id": "qzlj0226"
+    },
+    {
+      "sample_id": "56619",
+      "M_raw": 7,
+      "answer_page_idx": 0,
+      "shard": "val-00026-of-00029.parquet",
+      "row": 19,
+      "doc_id": "yjww0228"
+    },
+    {
+      "sample_id": "52256",
+      "M_raw": 5,
+      "answer_page_idx": 0,
+      "shard": "val-00010-of-00029.parquet",
+      "row": 157,
+      "doc_id": "ypgl0228"
+    },
+    {
+      "sample_id": "65399",
+      "M_raw": 2,
+      "answer_page_idx": 1,
+      "shard": "val-00028-of-00029.parquet",
+      "row": 68,
+      "doc_id": "ypnf0227"
+    },
+    {
+      "sample_id": "63843",
+      "M_raw": 11,
+      "answer_page_idx": 4,
+      "shard": "val-00022-of-00029.parquet",
+      "row": 64,
+      "doc_id": "xjhl0226"
+    },
+    {
+      "sample_id": "5651",
+      "M_raw": 5,
+      "answer_page_idx": 0,
+      "shard": "val-00018-of-00029.parquet",
+      "row": 178,
+      "doc_id": "qzlj0226"
+    },
+    {
+      "sample_id": "56687",
+      "M_raw": 5,
+      "answer_page_idx": 4,
+      "shard": "val-00026-of-00029.parquet",
+      "row": 47,
+      "doc_id": "zxfk0226"
+    },
+    {
+      "sample_id": "51359",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00007-of-00029.parquet",
+      "row": 106,
+      "doc_id": "thhb0228"
+    },
+    {
+      "sample_id": "2193",
+      "M_raw": 2,
+      "answer_page_idx": 1,
+      "shard": "val-00007-of-00029.parquet",
+      "row": 92,
+      "doc_id": "gsxk0226"
+    },
+    {
+      "sample_id": "56688",
+      "M_raw": 5,
+      "answer_page_idx": 4,
+      "shard": "val-00026-of-00029.parquet",
+      "row": 48,
+      "doc_id": "zxfk0226"
+    },
+    {
+      "sample_id": "56601",
+      "M_raw": 2,
+      "answer_page_idx": 1,
+      "shard": "val-00026-of-00029.parquet",
+      "row": 9,
+      "doc_id": "nqnn0081"
+    },
+    {
+      "sample_id": "4953",
+      "M_raw": 5,
+      "answer_page_idx": 0,
+      "shard": "val-00016-of-00029.parquet",
+      "row": 105,
+      "doc_id": "qymj0226"
+    },
+    {
+      "sample_id": "47430",
+      "M_raw": 5,
+      "answer_page_idx": 1,
+      "shard": "val-00022-of-00029.parquet",
+      "row": 45,
+      "doc_id": "grmp0227"
+    },
+    {
+      "sample_id": "57069",
+      "M_raw": 3,
+      "answer_page_idx": 2,
+      "shard": "val-00027-of-00029.parquet",
+      "row": 136,
+      "doc_id": "lybx0223"
+    },
+    {
+      "sample_id": "55190",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00020-of-00029.parquet",
+      "row": 103,
+      "doc_id": "yqxv0228"
+    },
+    {
+      "sample_id": "4952",
+      "M_raw": 5,
+      "answer_page_idx": 0,
+      "shard": "val-00016-of-00029.parquet",
+      "row": 103,
+      "doc_id": "qymj0226"
+    },
+    {
+      "sample_id": "4415",
+      "M_raw": 8,
+      "answer_page_idx": 1,
+      "shard": "val-00014-of-00029.parquet",
+      "row": 130,
+      "doc_id": "fpmx0225"
+    },
+    {
+      "sample_id": "65311",
+      "M_raw": 20,
+      "answer_page_idx": 16,
+      "shard": "val-00027-of-00029.parquet",
+      "row": 156,
+      "doc_id": "nxyc0227"
+    },
+    {
+      "sample_id": "56441",
+      "M_raw": 4,
+      "answer_page_idx": 0,
+      "shard": "val-00025-of-00029.parquet",
+      "row": 64,
+      "doc_id": "jnmw0228"
+    },
+    {
+      "sample_id": "6787",
+      "M_raw": 3,
+      "answer_page_idx": 2,
+      "shard": "val-00023-of-00029.parquet",
+      "row": 124,
+      "doc_id": "jygp0000"
+    },
+    {
+      "sample_id": "6620",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00022-of-00029.parquet",
+      "row": 141,
+      "doc_id": "rpmy0000"
+    },
+    {
+      "sample_id": "56842",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00026-of-00029.parquet",
+      "row": 166,
+      "doc_id": "rkbd0228"
+    },
+    {
+      "sample_id": "59042",
+      "M_raw": 4,
+      "answer_page_idx": 2,
+      "shard": "val-00005-of-00029.parquet",
+      "row": 151,
+      "doc_id": "qzcc0228"
+    },
+    {
+      "sample_id": "55335",
+      "M_raw": 12,
+      "answer_page_idx": 6,
+      "shard": "val-00021-of-00029.parquet",
+      "row": 36,
+      "doc_id": "gnhm0227"
+    },
+    {
+      "sample_id": "46708",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00019-of-00029.parquet",
+      "row": 61,
+      "doc_id": "rkcw0217"
+    },
+    {
+      "sample_id": "63488",
+      "M_raw": 8,
+      "answer_page_idx": 0,
+      "shard": "val-00021-of-00029.parquet",
+      "row": 12,
+      "doc_id": "kjkg0227"
+    },
+    {
+      "sample_id": "53605",
+      "M_raw": 3,
+      "answer_page_idx": 0,
+      "shard": "val-00014-of-00029.parquet",
+      "row": 167,
+      "doc_id": "klxk0225"
+    },
+    {
+      "sample_id": "5650",
+      "M_raw": 9,
+      "answer_page_idx": 6,
+      "shard": "val-00018-of-00029.parquet",
+      "row": 176,
+      "doc_id": "ltlj0226"
+    },
+    {
+      "sample_id": "5662",
+      "M_raw": 5,
+      "answer_page_idx": 0,
+      "shard": "val-00013-of-00029.parquet",
+      "row": 20,
+      "doc_id": "qzlj0226"
+    },
+    {
+      "sample_id": "54935",
+      "M_raw": 10,
+      "answer_page_idx": 9,
+      "shard": "val-00019-of-00029.parquet",
+      "row": 84,
+      "doc_id": "fqdg0072"
+    },
+    {
+      "sample_id": "57835",
+      "M_raw": 15,
+      "answer_page_idx": 12,
+      "shard": "val-00001-of-00029.parquet",
+      "row": 132,
+      "doc_id": "sybx0223"
+    },
+    {
+      "sample_id": "58647",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00004-of-00029.parquet",
+      "row": 75,
+      "doc_id": "fxjp0080"
+    },
+    {
+      "sample_id": "45817",
+      "M_raw": 4,
+      "answer_page_idx": 0,
+      "shard": "val-00016-of-00029.parquet",
+      "row": 44,
+      "doc_id": "gncw0217"
+    },
+    {
+      "sample_id": "56301",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00024-of-00029.parquet",
+      "row": 127,
+      "doc_id": "rrxm0081"
+    },
+    {
+      "sample_id": "61166",
+      "M_raw": 10,
+      "answer_page_idx": 6,
+      "shard": "val-00012-of-00029.parquet",
+      "row": 131,
+      "doc_id": "jldg0227"
+    },
+    {
+      "sample_id": "53730",
+      "M_raw": 3,
+      "answer_page_idx": 1,
+      "shard": "val-00015-of-00029.parquet",
+      "row": 45,
+      "doc_id": "hhnf0094"
+    },
+    {
+      "sample_id": "4956",
+      "M_raw": 5,
+      "answer_page_idx": 0,
+      "shard": "val-00016-of-00029.parquet",
+      "row": 108,
+      "doc_id": "qymj0226"
+    },
+    {
+      "sample_id": "21048",
+      "M_raw": 9,
+      "answer_page_idx": 8,
+      "shard": "val-00015-of-00029.parquet",
+      "row": 86,
+      "doc_id": "plwm0227"
+    },
+    {
+      "sample_id": "5591",
+      "M_raw": 14,
+      "answer_page_idx": 6,
+      "shard": "val-00018-of-00029.parquet",
+      "row": 136,
+      "doc_id": "gpfl0225"
+    },
+    {
+      "sample_id": "62271",
+      "M_raw": 8,
+      "answer_page_idx": 2,
+      "shard": "val-00016-of-00029.parquet",
+      "row": 79,
+      "doc_id": "nhkw0227"
+    },
+    {
+      "sample_id": "5824",
+      "M_raw": 10,
+      "answer_page_idx": 0,
+      "shard": "val-00019-of-00029.parquet",
+      "row": 128,
+      "doc_id": "zqdj0224"
+    },
+    {
+      "sample_id": "54915",
+      "M_raw": 20,
+      "answer_page_idx": 0,
+      "shard": "val-00019-of-00029.parquet",
+      "row": 69,
+      "doc_id": "mlgh0077"
+    },
+    {
+      "sample_id": "57836",
+      "M_raw": 15,
+      "answer_page_idx": 12,
+      "shard": "val-00001-of-00029.parquet",
+      "row": 133,
+      "doc_id": "sybx0223"
+    },
+    {
+      "sample_id": "5942",
+      "M_raw": 3,
+      "answer_page_idx": 1,
+      "shard": "val-00017-of-00029.parquet",
+      "row": 143,
+      "doc_id": "hzjg0224"
+    },
+    {
+      "sample_id": "52274",
+      "M_raw": 5,
+      "answer_page_idx": 0,
+      "shard": "val-00010-of-00029.parquet",
+      "row": 167,
+      "doc_id": "ypgl0228"
+    },
+    {
+      "sample_id": "50763",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00005-of-00029.parquet",
+      "row": 77,
+      "doc_id": "ykpj0226"
+    },
+    {
+      "sample_id": "55132",
+      "M_raw": 4,
+      "answer_page_idx": 0,
+      "shard": "val-00020-of-00029.parquet",
+      "row": 67,
+      "doc_id": "tnjw0228"
+    },
+    {
+      "sample_id": "56299",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00024-of-00029.parquet",
+      "row": 125,
+      "doc_id": "rrxm0081"
+    },
+    {
+      "sample_id": "4449",
+      "M_raw": 4,
+      "answer_page_idx": 3,
+      "shard": "val-00014-of-00029.parquet",
+      "row": 163,
+      "doc_id": "ptvp0225"
+    },
+    {
+      "sample_id": "60143",
+      "M_raw": 18,
+      "answer_page_idx": 10,
+      "shard": "val-00010-of-00029.parquet",
+      "row": 24,
+      "doc_id": "pxyk0226"
+    },
+    {
+      "sample_id": "4412",
+      "M_raw": 2,
+      "answer_page_idx": 1,
+      "shard": "val-00014-of-00029.parquet",
+      "row": 129,
+      "doc_id": "txpn0095"
+    },
+    {
+      "sample_id": "63586",
+      "M_raw": 3,
+      "answer_page_idx": 0,
+      "shard": "val-00021-of-00029.parquet",
+      "row": 82,
+      "doc_id": "jycf0227"
+    },
+    {
+      "sample_id": "8560",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00001-of-00029.parquet",
+      "row": 29,
+      "doc_id": "nnhk0228"
+    },
+    {
+      "sample_id": "51024",
+      "M_raw": 5,
+      "answer_page_idx": 2,
+      "shard": "val-00006-of-00029.parquet",
+      "row": 41,
+      "doc_id": "fqpb0228"
+    },
+    {
+      "sample_id": "64202",
+      "M_raw": 11,
+      "answer_page_idx": 9,
+      "shard": "val-00023-of-00029.parquet",
+      "row": 82,
+      "doc_id": "pxhd0227"
+    },
+    {
+      "sample_id": "63839",
+      "M_raw": 5,
+      "answer_page_idx": 1,
+      "shard": "val-00022-of-00029.parquet",
+      "row": 60,
+      "doc_id": "thxl0226"
+    },
+    {
+      "sample_id": "6963",
+      "M_raw": 6,
+      "answer_page_idx": 0,
+      "shard": "val-00026-of-00029.parquet",
+      "row": 43,
+      "doc_id": "khcw0004"
+    },
+    {
+      "sample_id": "62131",
+      "M_raw": 2,
+      "answer_page_idx": 1,
+      "shard": "val-00015-of-00029.parquet",
+      "row": 172,
+      "doc_id": "ljgf0227"
+    },
+    {
+      "sample_id": "58830",
+      "M_raw": 5,
+      "answer_page_idx": 1,
+      "shard": "val-00005-of-00029.parquet",
+      "row": 10,
+      "doc_id": "qpbx0227"
+    },
+    {
+      "sample_id": "27859",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00011-of-00029.parquet",
+      "row": 72,
+      "doc_id": "fpkm0227"
+    },
+    {
+      "sample_id": "5962",
+      "M_raw": 14,
+      "answer_page_idx": 12,
+      "shard": "val-00018-of-00029.parquet",
+      "row": 16,
+      "doc_id": "nnfg0224"
+    },
+    {
+      "sample_id": "56640",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00026-of-00029.parquet",
+      "row": 32,
+      "doc_id": "fzkc0228"
+    },
+    {
+      "sample_id": "64885",
+      "M_raw": 9,
+      "answer_page_idx": 8,
+      "shard": "val-00026-of-00029.parquet",
+      "row": 51,
+      "doc_id": "szpg0227"
+    },
+    {
+      "sample_id": "56839",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00026-of-00029.parquet",
+      "row": 163,
+      "doc_id": "rkbd0228"
+    },
+    {
+      "sample_id": "5786",
+      "M_raw": 10,
+      "answer_page_idx": 0,
+      "shard": "val-00019-of-00029.parquet",
+      "row": 89,
+      "doc_id": "zqdj0224"
+    },
+    {
+      "sample_id": "385",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00001-of-00029.parquet",
+      "row": 43,
+      "doc_id": "phxj0037"
+    },
+    {
+      "sample_id": "60793",
+      "M_raw": 6,
+      "answer_page_idx": 5,
+      "shard": "val-00011-of-00029.parquet",
+      "row": 145,
+      "doc_id": "nlcf0227"
+    },
+    {
+      "sample_id": "60792",
+      "M_raw": 6,
+      "answer_page_idx": 5,
+      "shard": "val-00011-of-00029.parquet",
+      "row": 140,
+      "doc_id": "nlcf0227"
+    },
+    {
+      "sample_id": "63663",
+      "M_raw": 14,
+      "answer_page_idx": 11,
+      "shard": "val-00021-of-00029.parquet",
+      "row": 132,
+      "doc_id": "fsbf0227"
+    },
+    {
+      "sample_id": "51508",
+      "M_raw": 10,
+      "answer_page_idx": 0,
+      "shard": "val-00008-of-00029.parquet",
+      "row": 39,
+      "doc_id": "fgyh0227"
+    },
+    {
+      "sample_id": "64590",
+      "M_raw": 3,
+      "answer_page_idx": 2,
+      "shard": "val-00025-of-00029.parquet",
+      "row": 21,
+      "doc_id": "mqgl0226"
+    },
+    {
+      "sample_id": "32883",
+      "M_raw": 6,
+      "answer_page_idx": 0,
+      "shard": "val-00000-of-00029.parquet",
+      "row": 72,
+      "doc_id": "kgvg0227"
+    },
+    {
+      "sample_id": "47374",
+      "M_raw": 6,
+      "answer_page_idx": 0,
+      "shard": "val-00022-of-00029.parquet",
+      "row": 12,
+      "doc_id": "nsnm0227"
+    },
+    {
+      "sample_id": "234",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00000-of-00029.parquet",
+      "row": 145,
+      "doc_id": "ljxj0037"
+    },
+    {
+      "sample_id": "56412",
+      "M_raw": 20,
+      "answer_page_idx": 1,
+      "shard": "val-00025-of-00029.parquet",
+      "row": 35,
+      "doc_id": "mqvv0228"
+    },
+    {
+      "sample_id": "64909",
+      "M_raw": 3,
+      "answer_page_idx": 1,
+      "shard": "val-00026-of-00029.parquet",
+      "row": 71,
+      "doc_id": "mjvg0227"
+    },
+    {
+      "sample_id": "5525",
+      "M_raw": 3,
+      "answer_page_idx": 1,
+      "shard": "val-00018-of-00029.parquet",
+      "row": 93,
+      "doc_id": "jxpj0226"
+    },
+    {
+      "sample_id": "52191",
+      "M_raw": 5,
+      "answer_page_idx": 0,
+      "shard": "val-00010-of-00029.parquet",
+      "row": 95,
+      "doc_id": "ypgl0228"
+    },
+    {
+      "sample_id": "384",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00001-of-00029.parquet",
+      "row": 42,
+      "doc_id": "phxj0037"
+    },
+    {
+      "sample_id": "5520",
+      "M_raw": 2,
+      "answer_page_idx": 1,
+      "shard": "val-00018-of-00029.parquet",
+      "row": 91,
+      "doc_id": "jmhk0228"
+    },
+    {
+      "sample_id": "50799",
+      "M_raw": 20,
+      "answer_page_idx": 14,
+      "shard": "val-00005-of-00029.parquet",
+      "row": 108,
+      "doc_id": "zqcy0227"
+    },
+    {
+      "sample_id": "58782",
+      "M_raw": 2,
+      "answer_page_idx": 1,
+      "shard": "val-00004-of-00029.parquet",
+      "row": 158,
+      "doc_id": "khmk0079"
+    },
+    {
+      "sample_id": "63837",
+      "M_raw": 5,
+      "answer_page_idx": 1,
+      "shard": "val-00022-of-00029.parquet",
+      "row": 58,
+      "doc_id": "thxl0226"
+    },
+    {
+      "sample_id": "58416",
+      "M_raw": 13,
+      "answer_page_idx": 12,
+      "shard": "val-00003-of-00029.parquet",
+      "row": 73,
+      "doc_id": "xqdw0217"
+    },
+    {
+      "sample_id": "59459",
+      "M_raw": 20,
+      "answer_page_idx": 7,
+      "shard": "val-00007-of-00029.parquet",
+      "row": 18,
+      "doc_id": "tybx0223"
+    },
+    {
+      "sample_id": "8565",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00001-of-00029.parquet",
+      "row": 31,
+      "doc_id": "nnhk0228"
+    },
+    {
+      "sample_id": "62510",
+      "M_raw": 4,
+      "answer_page_idx": 3,
+      "shard": "val-00017-of-00029.parquet",
+      "row": 41,
+      "doc_id": "fybg0227"
+    },
+    {
+      "sample_id": "613",
+      "M_raw": 16,
+      "answer_page_idx": 1,
+      "shard": "val-00002-of-00029.parquet",
+      "row": 15,
+      "doc_id": "yhpj0226"
+    },
+    {
+      "sample_id": "59041",
+      "M_raw": 4,
+      "answer_page_idx": 2,
+      "shard": "val-00005-of-00029.parquet",
+      "row": 150,
+      "doc_id": "qzcc0228"
+    },
+    {
+      "sample_id": "6866",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00006-of-00029.parquet",
+      "row": 8,
+      "doc_id": "rpmy0000"
+    },
+    {
+      "sample_id": "5999",
+      "M_raw": 3,
+      "answer_page_idx": 2,
+      "shard": "val-00020-of-00029.parquet",
+      "row": 79,
+      "doc_id": "gghh0224"
+    },
+    {
+      "sample_id": "44930",
+      "M_raw": 3,
+      "answer_page_idx": 0,
+      "shard": "val-00013-of-00029.parquet",
+      "row": 52,
+      "doc_id": "pmyl0226"
+    },
+    {
+      "sample_id": "56411",
+      "M_raw": 20,
+      "answer_page_idx": 1,
+      "shard": "val-00025-of-00029.parquet",
+      "row": 34,
+      "doc_id": "mqvv0228"
+    },
+    {
+      "sample_id": "64910",
+      "M_raw": 2,
+      "answer_page_idx": 1,
+      "shard": "val-00026-of-00029.parquet",
+      "row": 72,
+      "doc_id": "yrmg0227"
+    },
+    {
+      "sample_id": "6397",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00021-of-00029.parquet",
+      "row": 173,
+      "doc_id": "jkcn0000"
+    },
+    {
+      "sample_id": "59461",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00007-of-00029.parquet",
+      "row": 20,
+      "doc_id": "kmcj0227"
+    },
+    {
+      "sample_id": "62325",
+      "M_raw": 5,
+      "answer_page_idx": 0,
+      "shard": "val-00016-of-00029.parquet",
+      "row": 128,
+      "doc_id": "pfkw0227"
+    },
+    {
+      "sample_id": "62118",
+      "M_raw": 4,
+      "answer_page_idx": 0,
+      "shard": "val-00015-of-00029.parquet",
+      "row": 162,
+      "doc_id": "hjgw0228"
+    },
+    {
+      "sample_id": "6399",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00021-of-00029.parquet",
+      "row": 174,
+      "doc_id": "jkcn0000"
+    },
+    {
+      "sample_id": "64887",
+      "M_raw": 9,
+      "answer_page_idx": 8,
+      "shard": "val-00026-of-00029.parquet",
+      "row": 53,
+      "doc_id": "szpg0227"
+    },
+    {
+      "sample_id": "23830",
+      "M_raw": 17,
+      "answer_page_idx": 0,
+      "shard": "val-00026-of-00029.parquet",
+      "row": 8,
+      "doc_id": "hldw0228"
+    },
+    {
+      "sample_id": "58591",
+      "M_raw": 3,
+      "answer_page_idx": 1,
+      "shard": "val-00004-of-00029.parquet",
+      "row": 44,
+      "doc_id": "hkvd0079"
+    },
+    {
+      "sample_id": "4409",
+      "M_raw": 2,
+      "answer_page_idx": 1,
+      "shard": "val-00014-of-00029.parquet",
+      "row": 125,
+      "doc_id": "txpn0095"
+    },
+    {
+      "sample_id": "55191",
+      "M_raw": 2,
+      "answer_page_idx": 0,
+      "shard": "val-00020-of-00029.parquet",
+      "row": 104,
+      "doc_id": "yqxv0228"
+    },
+    {
+      "sample_id": "64250",
+      "M_raw": 4,
+      "answer_page_idx": 1,
+      "shard": "val-00023-of-00029.parquet",
+      "row": 123,
+      "doc_id": "fmjm0223"
+    },
+    {
+      "sample_id": "51324",
+      "M_raw": 20,
+      "answer_page_idx": 0,
+      "shard": "val-00007-of-00029.parquet",
+      "row": 73,
+      "doc_id": "qlhv0228"
+    },
+    {
+      "sample_id": "6975",
+      "M_raw": 6,
+      "answer_page_idx": 0,
+      "shard": "val-00008-of-00029.parquet",
+      "row": 23,
+      "doc_id": "khcw0004"
+    },
+    {
+      "sample_id": "6967",
+      "M_raw": 6,
+      "answer_page_idx": 0,
+      "shard": "val-00011-of-00029.parquet",
+      "row": 60,
+      "doc_id": "khcw0004"
+    },
+    {
+      "sample_id": "5594",
+      "M_raw": 14,
+      "answer_page_idx": 6,
+      "shard": "val-00018-of-00029.parquet",
+      "row": 138,
+      "doc_id": "gpfl0225"
+    }
+  ],
+  "stop_rule": "screen all 120 in order; attack first 30 clean-eligible only; fewer than 30 is reported, never replaced"
+}

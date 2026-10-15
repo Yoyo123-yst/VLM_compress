@@ -1,0 +1,258 @@
+[
+  {
+    "step": 0,
+    "png_sha256": "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "Dr. C. Baur",
+      "fastv_0.35": "Dr. C. B. B. M.D."
+    },
+    "margins": {
+      "0.25": 0.7863425016403198,
+      "0.35": 1.563478708267212
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "ecefcd69ddc95ba41453e8f3d0107d0549d98a02f357965c7e98f8d24698c95e"
+      }
+    },
+    "selector": {
+      "step": 0,
+      "nonzero": 0,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 0,
+      "pixel_linf_uint8": 0.0,
+      "margin": 1.1749106049537659
+    }
+  },
+  {
+    "step": 10,
+    "png_sha256": "4f5ac3b97323dd13098acfcb74f05854616fe382a276c096b4e3c272840d6dea",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "Dr. C. Baur",
+      "fastv_0.35": "Dr. C. B. B. MD"
+    },
+    "margins": {
+      "0.25": 0.3504262864589691,
+      "0.35": 1.1678498983383179
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "f0d1efde5a1432c7e0712cb505c8b980d53c2fca75c107cb28df97ef7daa977f"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "8b93cb7c9be3c5d4ff1e55ff065ab44a3a19689a92193b3039751030336393e0"
+      }
+    },
+    "selector": {
+      "step": 10,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.7591380923986435
+    }
+  },
+  {
+    "step": 25,
+    "png_sha256": "39ebb38da55084ecb8b968c04163ed271552d2ad24f4b647d62aa18ac442f12b",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "TAKEDA",
+      "fastv_0.35": "Dr. C. B. M. D."
+    },
+    "margins": {
+      "0.25": 0.9135243892669678,
+      "0.35": 0.2631698250770569
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "2153e44db1555b2eeac324a494ddd910431436570d5d8e18a5047c5c768d504e"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "7df73fc6f14f981c6a3014b772a7a92837f6929d74300d9ec72c266efabb7838"
+      }
+    },
+    "selector": {
+      "step": 25,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.5883471071720123
+    }
+  },
+  {
+    "step": 50,
+    "png_sha256": "32ce260415d9ee4c6d6ba644860fbdae966f44d2068237c93303c84291bc32cb",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "Dr. Chakravarti MD",
+      "fastv_0.35": "Compendium"
+    },
+    "margins": {
+      "0.25": -0.11086877435445786,
+      "0.35": 0.8122286796569824
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "143452c04f614802902b392834ae9874837e2efaaab4daaa92f2ec009f5af230"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "75491a33d936d2310ac956b035b3302711129a2515f463b917dfa8e8659d1eef"
+      }
+    },
+    "selector": {
+      "step": 50,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.3506799526512623
+    }
+  },
+  {
+    "step": 75,
+    "png_sha256": "95d5a088d9cc700a4ea6b28a254b016f463b696b71ff09e153c96cb9f7aa083f",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "Dr. C. Pugh",
+      "fastv_0.35": "Dr. C. Bausch MD"
+    },
+    "margins": {
+      "0.25": -0.7338698506355286,
+      "0.35": 1.051464319229126
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "3328df60654ab5ce8826831122953e4e70a00aa7ed79cb2d38baf928282318b8"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "82350c5acbae89c16f385be973f824620588f67c1f313adbc4942bc0f46691f6"
+      }
+    },
+    "selector": {
+      "step": 75,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.1587972342967987
+    }
+  },
+  {
+    "step": 100,
+    "png_sha256": "1bb90f696e6a4daf7976e6f3a259fa277fc8c0803d7e642b297c99bdeeba63df",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "F. M. J. F.",
+      "fastv_0.35": "Takeda"
+    },
+    "margins": {
+      "0.25": -1.422428846359253,
+      "0.35": 0.9497005939483643
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "e9070842006f0bcda773727dc152cf94c43a6f300a835a1fe386182f95ddf1c5"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "24c188ce6e34f58aa25ff9f0fc783432e8e673f0c958df3ba56f9471ca49e249"
+      }
+    },
+    "selector": {
+      "step": 100,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.23636412620544434
+    }
+  },
+  {
+    "step": 150,
+    "png_sha256": "cc3c980a53d76d82684a7955186a099280662e432b74ccc5d1ca4d8e9a75fc60",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "Stephen J. Burris",
+      "fastv_0.35": "Prof. Dr. Peter J. Schmidt"
+    },
+    "margins": {
+      "0.25": -0.8681730031967163,
+      "0.35": -0.7225988507270813
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "2ca241b898e6ee265cbba78d7bd8e706ce1571339b7c0dff5972a72c7260ccf3"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "96282bdfe00deec2fd1bd4a33266d27250e706bc51bd5aa3204fdf6c81c2d6f6"
+      }
+    },
+    "selector": {
+      "step": 150,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.7953859269618988
+    }
+  },
+  {
+    "step": 200,
+    "png_sha256": "e199acb51380efe88d41c47473ca7ee9ecb8179f81d7f43387ef6e09635e8e2c",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "Prof. Dr. Peter Tscherning",
+      "fastv_0.35": "Prof. Dr. Peter Tscherning"
+    },
+    "margins": {
+      "0.25": 0.335642546415329,
+      "0.35": 0.33542224764823914
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "c01b792f783bded94b9ae3186fa3cfd4ee034002a624c1da255c5bd42f15bc39"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "6b6068ddd9afb825cc7b8454c4086267cd7d541955b98cbb828c473878c80637"
+      }
+    },
+    "selector": {
+      "step": 200,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.33553239703178406
+    }
+  }
+]

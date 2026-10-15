@@ -1,0 +1,561 @@
+{
+  "sample_id": "63586",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "5ad6b8d4ed6b74ed3c063473eea5581807a81882338ba0110b6d5324607cfafc",
+  "full_clean": {
+    "text_a": "Barnes Hospital",
+    "text_b": "Barnes Hospital",
+    "tokens_a": [
+      33,
+      1885,
+      288,
+      15079,
+      151645
+    ],
+    "tokens_b": [
+      33,
+      1885,
+      288,
+      15079,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      33,
+      1885,
+      288,
+      15079,
+      151645
+    ],
+    "text": "Barnes Hospital",
+    "anls": 1.0,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "6212f23df201799294b80f7b3f1cfa312f431ed2e30f3311a94d6f6132a7bc49",
+    "k": 2774,
+    "second_keep_hash": "6212f23df201799294b80f7b3f1cfa312f431ed2e30f3311a94d6f6132a7bc49",
+    "second_k": 2774
+  },
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "6212f23df201799294b80f7b3f1cfa312f431ed2e30f3311a94d6f6132a7bc49",
+    "reference_keep_hash": "6212f23df201799294b80f7b3f1cfa312f431ed2e30f3311a94d6f6132a7bc49",
+    "fast_keep_exact": true,
+    "k": 2774,
+    "reference_k": 2774
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 0,
+      "target_id": 33,
+      "target_piece": "B",
+      "candidate_id": 3428,
+      "candidate_piece": "Bar",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 0.75,
+      "content_priority": 1,
+      "fast_gradient_l1": 8892.982421875,
+      "fast_gradient_l2": 59.708927154541016,
+      "estimated_fast_flip_linf": 8.433616130345051e-05,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.375,
+      "full_local_capacity_linf": 0.01568627450980392,
+      "full_local_margin_available": true,
+      "reachability_ratio": 185.9970179738562,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "6212f23df201799294b80f7b3f1cfa312f431ed2e30f3311a94d6f6132a7bc49",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          3428,
+          3437,
+          15079,
+          151645
+        ],
+        "text": "Barney Hospital",
+        "keep_hash": "ab12358b9903c10ac427099ede745aca61971afb46f0f41370ce61706385c966",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.9333333333333333,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "barneyhospital",
+      "complete_lexical_similarity_to_clean": 0.9285714285714286,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          3428,
+          3437,
+          15079,
+          151645
+        ],
+        "text": "Barney Hospital",
+        "keep_hash": "ab12358b9903c10ac427099ede745aca61971afb46f0f41370ce61706385c966",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 33,
+      "target_piece": "B",
+      "candidate_id": 2257,
+      "candidate_piece": "bar",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 3.125,
+      "content_priority": 1,
+      "fast_gradient_l1": 7719.310546875,
+      "fast_gradient_l2": 38.796539306640625,
+      "estimated_fast_flip_linf": 0.0004048289003303657,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.375,
+      "full_local_capacity_linf": 0.01568627450980392,
+      "full_local_margin_available": true,
+      "reachability_ratio": 38.74791176470588,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "6212f23df201799294b80f7b3f1cfa312f431ed2e30f3311a94d6f6132a7bc49",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          2257,
+          35271,
+          8777,
+          151645
+        ],
+        "text": "barneys hospital",
+        "keep_hash": "3c344ce966ff4acfb3276e2336e5a19eb9af4a7e551aaa76d38bb498f5697bc1",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.9375,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "barneyshospital",
+      "complete_lexical_similarity_to_clean": 0.9655172413793104,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          2257,
+          35271,
+          8777,
+          151645
+        ],
+        "text": "barneys hospital",
+        "keep_hash": "3c344ce966ff4acfb3276e2336e5a19eb9af4a7e551aaa76d38bb498f5697bc1",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 33,
+      "target_piece": "B",
+      "candidate_id": 33065,
+      "candidate_piece": "BAR",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 3.4375,
+      "content_priority": 1,
+      "fast_gradient_l1": 16373.4052734375,
+      "fast_gradient_l2": 119.84264373779297,
+      "estimated_fast_flip_linf": 0.00020994411013429445,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.375,
+      "full_local_capacity_linf": 0.01568627450980392,
+      "full_local_margin_available": true,
+      "reachability_ratio": 74.71643048128342,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "6212f23df201799294b80f7b3f1cfa312f431ed2e30f3311a94d6f6132a7bc49",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          33065,
+          3944,
+          39,
+          77816,
+          33188,
+          151645
+        ],
+        "text": "BARNEHOSPITAL",
+        "keep_hash": "4bd9edb91ede789c1728e4d2b373ce41e73dd04fddc489a4104fe887526de40a",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.8666666666666667,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "barnehospital",
+      "complete_lexical_similarity_to_clean": 0.9629629629629629,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          33065,
+          3944,
+          39,
+          77816,
+          33188,
+          151645
+        ],
+        "text": "BARNEHOSPITAL",
+        "keep_hash": "4bd9edb91ede789c1728e4d2b373ce41e73dd04fddc489a4104fe887526de40a",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 3,
+      "target_id": 15079,
+      "target_piece": " Hospital",
+      "candidate_id": 26774,
+      "candidate_piece": " Memorial",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 4.5,
+      "content_priority": 1,
+      "fast_gradient_l1": 9631.5791015625,
+      "fast_gradient_l2": 63.156028747558594,
+      "estimated_fast_flip_linf": 0.0004672131072743803,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.625,
+      "full_local_capacity_linf": 0.0784313725490196,
+      "full_local_margin_available": true,
+      "reachability_ratio": 167.87065972222223,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "6212f23df201799294b80f7b3f1cfa312f431ed2e30f3311a94d6f6132a7bc49",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          33,
+          1885,
+          288,
+          26774,
+          15079,
+          151645
+        ],
+        "text": "Barnes Memorial Hospital",
+        "keep_hash": "1b53c10e0821fd9554951f11fb4cac3f73359ef3e71ef1d2cde6851aa4fae927",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.625,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "barnesmemorialhospital",
+      "complete_lexical_similarity_to_clean": 0.7777777777777778,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          33,
+          1885,
+          288,
+          26774,
+          15079,
+          151645
+        ],
+        "text": "Barnes Memorial Hospital",
+        "keep_hash": "1b53c10e0821fd9554951f11fb4cac3f73359ef3e71ef1d2cde6851aa4fae927",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 3,
+      "target_id": 15079,
+      "target_piece": " Hospital",
+      "candidate_id": 56933,
+      "candidate_piece": " Hosp",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 5.5,
+      "content_priority": 1,
+      "fast_gradient_l1": 7463.76220703125,
+      "fast_gradient_l2": 38.09288787841797,
+      "estimated_fast_flip_linf": 0.0007368937872670589,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.625,
+      "full_local_capacity_linf": 0.03137254901960784,
+      "full_local_margin_available": true,
+      "reachability_ratio": 42.574044674688054,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "6212f23df201799294b80f7b3f1cfa312f431ed2e30f3311a94d6f6132a7bc49",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          33,
+          1885,
+          288,
+          56933,
+          151645
+        ],
+        "text": "Barnes Hosp",
+        "keep_hash": "1be9386a81d030c7aa7cde0924306a088938fdb67f07801652f551994b76fab2",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.7333333333333334,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "barneshosp",
+      "complete_lexical_similarity_to_clean": 0.8333333333333334,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          33,
+          1885,
+          288,
+          56933,
+          151645
+        ],
+        "text": "Barnes Hosp",
+        "keep_hash": "1be9386a81d030c7aa7cde0924306a088938fdb67f07801652f551994b76fab2",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 1,
+      "target_id": 1885,
+      "target_piece": "arn",
+      "candidate_id": 1118,
+      "candidate_piece": "arr",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 6.875,
+      "content_priority": 1,
+      "fast_gradient_l1": 8982.37109375,
+      "fast_gradient_l2": 41.79962921142578,
+      "estimated_fast_flip_linf": 0.0007653881061297585,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.5,
+      "full_local_capacity_linf": 0.03137254901960784,
+      "full_local_margin_available": true,
+      "reachability_ratio": 40.98907308377897,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "6212f23df201799294b80f7b3f1cfa312f431ed2e30f3311a94d6f6132a7bc49",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          33,
+          1118,
+          77,
+          15079,
+          151645
+        ],
+        "text": "Barrn Hospital",
+        "keep_hash": "11aebb7ef9d71900faecc793d286f931d0967bdd2e7977200386a0e77a37aa8b",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.8,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "barrnhospital",
+      "complete_lexical_similarity_to_clean": 0.8888888888888888,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          33,
+          1118,
+          77,
+          15079,
+          151645
+        ],
+        "text": "Barrn Hospital",
+        "keep_hash": "11aebb7ef9d71900faecc793d286f931d0967bdd2e7977200386a0e77a37aa8b",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 24,
+    "screen_admitted_after_limit": 6,
+    "screen_rejected": 6,
+    "estimated": 6
+  },
+  "rejected_proposals": [
+    {
+      "position": 0,
+      "target_id": 33,
+      "target_piece": "B",
+      "candidate_id": 43854,
+      "candidate_piece": " Barnes",
+      "candidate_rank_at_position": 8,
+      "clean_fast_gap": 7.125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          43854,
+          8777,
+          151645
+        ],
+        "text": "Barnes hospital",
+        "keep_hash": "038ac6cd937858c4c1ab77d1ef2113a49763ead1e506b36ff0047672db706591",
+        "k": 2774
+      },
+      "complete_lexical_key": "barneshospital",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 3,
+      "target_id": 15079,
+      "target_piece": " Hospital",
+      "candidate_id": 20407,
+      "candidate_piece": " hosp",
+      "candidate_rank_at_position": 8,
+      "clean_fast_gap": 7.5625,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          33,
+          1885,
+          288,
+          20407,
+          2174,
+          151645
+        ],
+        "text": "Barnes hospital",
+        "keep_hash": "7147a8d75b857babe9493f26055bf767c9bb971998b3c1e90611633d9272cad0",
+        "k": 2774
+      },
+      "complete_lexical_key": "barneshospital",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 3,
+      "target_id": 15079,
+      "target_piece": " Hospital",
+      "candidate_id": 37917,
+      "candidate_piece": " memorial",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 7.5625,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          33,
+          1885,
+          288,
+          37917,
+          8777,
+          151645
+        ],
+        "text": "Barnes memorial hospital",
+        "keep_hash": "dbfba9ffd8847122a4d9e0497d7a0a10470891f3e8d20fa2e431bfe4b0244874",
+        "k": 2774
+      },
+      "complete_lexical_key": "barnesmemorialhospital",
+      "complete_lexical_similarity_to_clean": 0.7777777777777778,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    },
+    {
+      "position": 1,
+      "target_id": 1885,
+      "target_piece": "arn",
+      "candidate_id": 934,
+      "candidate_piece": "AR",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 8.0,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          33,
+          934,
+          3944,
+          13272,
+          472,
+          77816,
+          33188,
+          151645
+        ],
+        "text": "BARNE'S HOSPITAL",
+        "keep_hash": "e3fdc7d634d306c178c7cd9883fdd952def7a3b1e04fe12172095665a5a40ee0",
+        "k": 2774
+      },
+      "complete_lexical_key": "barneshospital",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 2,
+      "target_id": 288,
+      "target_piece": "es",
+      "candidate_id": 4288,
+      "candidate_piece": "esh",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 9.9375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          33,
+          1885,
+          4288,
+          6298,
+          151645
+        ],
+        "text": "Barneshospital",
+        "keep_hash": "9b0a59c0e540b8bb5c1c60f67398d88ee0d627344ce82f183bd85acab0557604",
+        "k": 2774
+      },
+      "complete_lexical_key": "barneshospital",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 2,
+      "target_id": 288,
+      "target_piece": "es",
+      "candidate_id": 645,
+      "candidate_piece": "ie",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 11.1875,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          33,
+          1885,
+          645,
+          594,
+          15079,
+          151645
+        ],
+        "text": "Barnie's Hospital",
+        "keep_hash": "c4659aa59443a76be81a3be68266de31152818a89712149f5ab6a2dee1ddda8f",
+        "k": 2774
+      },
+      "complete_lexical_key": "barnieshospital",
+      "complete_lexical_similarity_to_clean": 0.9655172413793104,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    }
+  ],
+  "candidate_generation_wall_seconds": 73.428,
+  "candidate_generation_compute_accounting": "wall time recorded; attack-phase forward/backward/generate counters do not include this clean-only stage"
+}

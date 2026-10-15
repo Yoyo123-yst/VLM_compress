@@ -1,0 +1,13 @@
+{
+  "decision": "BLOCKED_NO_ADMISSIBLE_SURROGATE",
+  "identity_verdict": "MATERIALLY_DIFFERENT",
+  "admitted_surrogate_count": 0,
+  "candidate_count": 12,
+  "isolation_auditable": true,
+  "isolation_implemented": false,
+  "pixel_optimization_run": false,
+  "target_fastv_called": false,
+  "new_strict_rate": null,
+  "future_3_to_5_admission_allowed": false,
+  "reason": "Native-FDP is a distinct white-box objective, but every local compressor is either the target FastV path, a same-family Top-K without a clean gate, or a different mechanism that has no LLaVA-OneVision multi-page generate path, clean gate, and replay. No surrogate is admitted, so training does not start."
+}

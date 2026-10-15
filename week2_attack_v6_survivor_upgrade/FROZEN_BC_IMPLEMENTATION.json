@@ -1,0 +1,32 @@
+{
+  "written_at": "2026-10-08T18:02:00+08:00",
+  "decision": "BLOCKED_BC_IMPLEMENTATION_PREREQUISITE",
+  "training_started": false,
+  "prerequisites": {
+    "full_sequence_margin_differentiable": true,
+    "full_margin_grad_l2_at_delta0": 9.179786682128906,
+    "fastv_last_query_score_matches_real_hook": true,
+    "fastv_score_max_abs_diff": 0.0,
+    "page_soft_mass_grad_after_one_shift": 0.4349193274974823,
+    "evidence_pixel_grad_l2": 0.0,
+    "controlled_page": "aux_idx only",
+    "compression_path": "real FastV hook, detached hard keep",
+    "eos_included": true,
+    "answer_len_with_eos": 8
+  },
+  "why_blocked": "L_full_seq is the frozen hinge relu(kappa_t - m_t) with kappa_t = min(max(m_clean_t, 0), 1). On sample 1025 every clean Full margin is above 1, so every kappa is 1 and every hinge term is 0. The hinge gradient L2 is 0 at delta=0 and remains 0 after the one allowed +1/255 shift. The scale rule therefore has no legal lambda_seq. The raw Full margin itself has a nonzero gradient, so this is not a disconnected backward. No second probe and no hand-set coefficient were used.",
+  "calibration_sample": "1025",
+  "coefficients": null,
+  "measured_grad_l2": {
+    "comp": 9.472586631774902,
+    "seq_hinge_after_fallback": 0.0,
+    "selection_after_fallback": 0.4349193274974823
+  },
+  "clean_margins": [3.4375, 3.0, 4.75, 4.75, 1.75, 1.125, 2.875, 8.125],
+  "kappa": [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0],
+  "loss": {
+    "B": "L_comp + lambda_seq * mean_t relu(kappa_t - m_adv_t)",
+    "C": "B plus beta * L1(page_soft_mass, clean_page_soft_mass)",
+    "page_soft_mass": "sum of real FastV last-query attention over each page's visual tokens"
+  }
+}

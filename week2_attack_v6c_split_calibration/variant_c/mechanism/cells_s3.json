@@ -1,0 +1,93 @@
+{
+  "rows": [
+    {
+      "sample_id": "60700",
+      "step": "200",
+      "pred_CC": "PPBS",
+      "pred_CA": "PPBS",
+      "pred_AC": "Ppbi 2021",
+      "pred_AA": "P32012 Disasters",
+      "full_clean": "PPBS",
+      "full_selected": "PPBS",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 6.02
+    },
+    {
+      "sample_id": "39204",
+      "step": "200",
+      "pred_CC": "FOOD TECHNOLOGY",
+      "pred_CA": "FOOD TECHNOLOGY",
+      "pred_AC": "FOOD TECHNOLOGY",
+      "pred_AA": "Food",
+      "full_clean": "FOOD TECHNOLOGY",
+      "full_selected": "FOOD TECHNOLOGY",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 1.0,
+      "anls_AA": 0.0,
+      "mechanism": "INTERACTION_REQUIRED",
+      "output_valid": 1,
+      "pollution": 1,
+      "seconds": 6.91
+    },
+    {
+      "sample_id": "64506",
+      "step": "200",
+      "pred_CC": "E",
+      "pred_CA": "E",
+      "pred_AC": "Neat",
+      "pred_AA": "Neat",
+      "full_clean": "E",
+      "full_selected": "E",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 1,
+      "seconds": 6.53
+    }
+  ],
+  "keeps": [
+    {
+      "sample_id": "60700",
+      "K": 2774,
+      "keep_hash_clean": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca",
+      "keep_hash_adv": "720790010e0f8b47012f53588bfbdf549c20d0dd5573c41f62f06f157e4588dc",
+      "jaccard": 0.8316275998679432,
+      "evidence_share_clean": 0.3795962509012257,
+      "evidence_share_adv": 0.3864455659697188,
+      "aux_share_clean": 0.2732516222062004,
+      "aux_share_adv": 0.25739005046863733
+    },
+    {
+      "sample_id": "39204",
+      "K": 3699,
+      "keep_hash_clean": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+      "keep_hash_adv": "8cd21c672f4553d24fc1673cddc8a4ae24e3c25b5ef31a22bb7be7dfff3fe727",
+      "jaccard": 0.8190312269486107,
+      "evidence_share_clean": 0.17518248175182483,
+      "evidence_share_adv": 0.17437145174371452,
+      "aux_share_clean": 0.28737496620708297,
+      "aux_share_adv": 0.28737496620708297
+    },
+    {
+      "sample_id": "64506",
+      "K": 3699,
+      "keep_hash_clean": "d555629f324c97af573633ab6e4c3790248b36c0c3f9fb8ade1f5c2fe9c536c1",
+      "keep_hash_adv": "d9cbef32be9bf932302e3338fbca1f7731c6944afe57ba166985eb598fbc26a8",
+      "jaccard": 0.8752851711026616,
+      "evidence_share_clean": 0.2725060827250608,
+      "evidence_share_adv": 0.2738577994052447,
+      "aux_share_clean": 0.1924844552581779,
+      "aux_share_adv": 0.18869964855366314
+    }
+  ]
+}

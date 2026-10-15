@@ -1,0 +1,43 @@
+{
+  "status": "HISTORICAL_SOURCE_PROVENANCE_INCOMPLETE",
+  "reason": "The historical Native-FDP run did not save source, package, or GPU provenance hashes. The current command is not claimed to be the historical command.",
+  "historical_hash_files": [
+    "week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/PARENT_HASHES_BEFORE.json",
+    "week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/PARENT_HASHES_AFTER.json",
+    "week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/PARENT_HASHES.json"
+  ],
+  "source_sha256": {
+    "week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/run_v7d.py": "0a7a6eac148c773625762e40a2056862ec0a0d760c7c00a22696eed82672a7a8",
+    "week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/native_grad.py": "8d5ba3f2f22df4a20a6349b5133bd6fcff3fa19256bc89be09120f8459c6fd02",
+    "week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/losses.py": "f8db4338c239c6709c93582365c0ff444f8565a0d8f402e908921c96eae7e835",
+    "week2_attack_v4_answer_aligned/forward.py": "c073f21026f0ae1c9f130dcafba708c14f44422a07b06f3442c5578458c5eee8",
+    "week2_attack_v4_answer_aligned/run_smoke.py": "1942e30a08d512f1c02e0d3a421e72735d8f5b8d35db49094bf402420a2aaf0e",
+    "week2_attack_v7b_native_cache_margin_admission/native_cache_margin.py": "fdd9cc96609ef60ab17bd58d6dc13fd47afe5e5c6bc7d483eae9ff00c9ee0daa",
+    "week2_attack_v7_pristine60/run_v7.py": "15c3eebc677122a38bd4efe5e9be23bc0494bd70eb063b96d164d6f74228ee65",
+    "gate_experiment/run_causal_v2.py": "15f0534422227f1d041d89e05188688be8f10c54a982bc0bc9d7a95b14b43fab",
+    "week1_mechanism/adapters/runtime.py": "f3d784514d60938966dc64f8be64819e9a0e0ce8c698b08345abdfe7762a82d0",
+    "week1_mechanism/adapters/fastv_select.py": "b0653b9b94ffad80271022c3c6dd4a19c613fbd1e4852e2be59a18a6a1d95a76",
+    "week2_attack_v11a_aux_scope_amendment_objective_pair/run_v11a.py": "19e1f0640d1c672136858f7acaee57da39336f329b083871b669c2fab5e843e0"
+  },
+  "v11a_h0_process": "The v11a H0 train process called install_counters and then v7d.attack. Phase A was a separate process and was not executed inside that H0 process.",
+  "model_loader": "week2_attack_v7_pristine60/run_v7.py:load_model_frozen -> gate_experiment/run_causal_v2.py:load_model",
+  "processor": "AutoProcessor.from_pretrained(LLAVA) with image_grid_pinpoints [[768, 768]]",
+  "environment": {
+    "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+    "platform": "Linux-5.15.0-185-generic-x86_64-with-glibc2.35",
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "cudnn": 90100,
+    "transformers": "4.57.0",
+    "cuda_visible_devices": "6",
+    "gpu_name": "NVIDIA A100-PCIE-40GB",
+    "gpu_id": 0,
+    "deterministic_algorithms": false,
+    "cudnn_deterministic": false,
+    "cudnn_benchmark": false,
+    "matmul_tf32": false,
+    "cudnn_tf32": true,
+    "cublas_workspace": null,
+    "process_id": 3918884
+  }
+}

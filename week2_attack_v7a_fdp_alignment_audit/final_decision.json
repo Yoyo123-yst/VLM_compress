@@ -1,0 +1,12 @@
+{
+  "decision": "BLOCKED_MANUAL_FORWARD_MISMATCH",
+  "v7_decision_unchanged": "NO_GO_NO_COMPRESSION_CONDITIONAL_EFFECT",
+  "stage3": "DONE",
+  "stage4_full_recompute": "NOT_RUN",
+  "bplus": "NOT_RUN",
+  "g_matches_t_argmax": true,
+  "m_matches_t_argmax": false,
+  "true_certificate_violations_in_audit": 0,
+  "fdp_usable_as_strict_guard": false,
+  "reason": "Cache teacher-forcing matches generate. full_answer_logits does not, and the gap flips an argmax when the true margin is one quantization step."
+}

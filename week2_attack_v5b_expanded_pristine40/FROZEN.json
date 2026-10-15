@@ -1,0 +1,67 @@
+{
+  "stage": "v5b_expanded_pristine40",
+  "verify_only_after_write": true,
+  "manifest_sha256": "785761407e53fe9329866faa9d74063cdee31dc9531ce8527ee5a9a77fa88161",
+  "screen_manifest_sha256": "fb9bc10901cf8e2dcd8b9a6b769f1a391b86840d614d2ddee061a08615cc57fd",
+  "historical_union_sha256": "cab0138e6de07433288e0f15fa428efabcf2362aadc3c28693889ef29b19918a",
+  "screen_seed": 2026100802,
+  "final_sample_seed": 2026100803,
+  "noise_seed": 2026100804,
+  "lambda_full": 0.25,
+  "steps": 200,
+  "eps": 0.03137254901960784,
+  "optimizer": "Adam",
+  "lr": 0.00784313725490196,
+  "scales_path": "week2_attack_v4_answer_aligned/results/lambda_scale.json",
+  "scales_sha256": "a42c86e98c5b909178e3da749c322d976a33f997d37ca86e2853e7934a31d2d4",
+  "scales": {
+    "sample_id": "50743",
+    "lambda_full": 1.0,
+    "scale_comp_l2": 20.854320526123047,
+    "scale_full_l2": 0.028150565922260284,
+    "scale_full_source": "shift_1_over_255",
+    "delta0_comp_loss": 5.734375,
+    "delta0_full_loss": 0.0,
+    "delta0_margin": 5.734375,
+    "delta0_grad": {
+      "comp": {
+        "l1": 4929.1015625,
+        "l2": 20.854320526123047,
+        "linf": 2.5157270431518555
+      },
+      "full": {
+        "l1": 0.00143390242010355,
+        "l2": 1.6582263924647123e-05,
+        "linf": 2.8312103950156597e-06
+      },
+      "cosine": -0.722684919834137,
+      "combined": {
+        "l1": 4929.1005859375,
+        "l2": 20.85430908203125,
+        "linf": 2.5157241821289062
+      }
+    },
+    "rule": "Divide each term by its L2 pixel-gradient norm, then set lambda_full=1. L_full is flat at \u03b4=0, so its norm is taken from a fixed +1/255 shift when the \u03b4=0 norm is below 0.1% of the compression gradient. Scales are frozen from sample 50743."
+  },
+  "model": {
+    "model_path": "/home/yuesiting/autodl-tmp/models/llava-onevision-qwen2-7b-ov-hf",
+    "config_sha256": "69277c2c9ba8a4f61d2e72f79fbe02e043b8c3af670858a606818527f971a0c2"
+  },
+  "code_hashes": {
+    "week2_attack_v5b_expanded_pristine40/audit_universe.py": "4ab00c693b17bfa2871996a5643b38e1393ac9458312151cdc1347dcaf4861f7",
+    "week2_attack_v4_answer_aligned/loss.py": "1654d81d496819fd9e49a646b7b38b1f733ec02c4e29a8c377c2b8bf76e04792",
+    "week2_attack_v4_answer_aligned/forward.py": "c073f21026f0ae1c9f130dcafba708c14f44422a07b06f3442c5578458c5eee8",
+    "week2_attack_v4_answer_aligned/run_smoke.py": "1942e30a08d512f1c02e0d3a421e72735d8f5b8d35db49094bf402420a2aaf0e",
+    "week2_attack_v4_relaxed_full/run_lambda.py": "2a8f81b8934e3227decfe07e5f9ad33038e35d00d684391f560bc3f886197eb9",
+    "gate_experiment/run_step0_v2.py": "7c00966aaff1a25e8cf97769e2e35be520d890a1ec2b55c7d9a5aa3ca66cc29f",
+    "week1_mechanism/data_mpdoc.py": "b573dbcdf69d3a0c8ae679c37b2ea991712fcc80cd3e6138615497b6f398c6ae"
+  },
+  "attack_code_sha256": {
+    "run_smoke.py": "1942e30a08d512f1c02e0d3a421e72735d8f5b8d35db49094bf402420a2aaf0e",
+    "loss.py": "1654d81d496819fd9e49a646b7b38b1f733ec02c4e29a8c377c2b8bf76e04792",
+    "forward.py": "c073f21026f0ae1c9f130dcafba708c14f44422a07b06f3442c5578458c5eee8",
+    "run_lambda.py": "2a8f81b8934e3227decfe07e5f9ad33038e35d00d684391f560bc3f886197eb9"
+  },
+  "primary_selector": "fixed_step_200",
+  "gpu_formal_attack_allowed": true
+}

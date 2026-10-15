@@ -1,0 +1,771 @@
+{
+  "status": "TRANSFER_EVALUATED",
+  "protocol": "independent disk-reloaded clean/attack/matched-noise FastV replay",
+  "attn_implementation": "sdpa",
+  "samples": {
+    "1025": {
+      "status": "OK",
+      "clean_text": "Dr. C. Baur MD",
+      "full": {
+        "clean": "Dr. C. Baur MD",
+        "attack": "Dr. C. Baur MD",
+        "noise": "Dr. C. Baur MD"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "TAKEDA",
+            "valid": true,
+            "anls": 0.0,
+            "k": 1665,
+            "keep_hash": "bb02409869b495f342461077cacff2a4fcefc459f4bd5cb9b12a74e6dfff8735"
+          },
+          "attack": {
+            "text": "Takeda",
+            "valid": true,
+            "anls": 0.0,
+            "k": 1665,
+            "keep_hash": "3abf5bf9f171a5e2907548851da49a27e599d6fb8a2cb1024a03f84fcf781753"
+          },
+          "noise": {
+            "text": "TAKEDA",
+            "valid": true,
+            "anls": 0.0,
+            "k": 1665,
+            "keep_hash": "268e304c9c801b84f0e999f329ea1446afa729c94faef649ec7e5f6c8c83a24c"
+          },
+          "attack_strict": true,
+          "noise_strict": true,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.25": {
+          "clean": {
+            "text": "Dr. C. Baur",
+            "valid": true,
+            "anls": 0.6666666666666667,
+            "k": 2774,
+            "keep_hash": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5"
+          },
+          "attack": {
+            "text": "Stephen J. Burris",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2774,
+            "keep_hash": "2ca241b898e6ee265cbba78d7bd8e706ce1571339b7c0dff5972a72c7260ccf3"
+          },
+          "noise": {
+            "text": "Dr. Bacharach",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2774,
+            "keep_hash": "b3b74ed5ecb7e67d3b4b4d7bddfcdc23ddcef875306636e07f30d50c62b9ce81"
+          },
+          "attack_strict": true,
+          "noise_strict": true,
+          "induced": true,
+          "beats_noise": false
+        },
+        "0.35": {
+          "clean": {
+            "text": "Dr. C. B. B. M.D.",
+            "valid": true,
+            "anls": 0.75,
+            "k": 3884,
+            "keep_hash": "ecefcd69ddc95ba41453e8f3d0107d0549d98a02f357965c7e98f8d24698c95e"
+          },
+          "attack": {
+            "text": "Prof. Dr. Peter J. Schmidt",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3884,
+            "keep_hash": "96282bdfe00deec2fd1bd4a33266d27250e706bc51bd5aa3204fdf6c81c2d6f6"
+          },
+          "noise": {
+            "text": "Dr. C. B. M. D.",
+            "valid": true,
+            "anls": 0.75,
+            "k": 3884,
+            "keep_hash": "0677357bb03d438c851b436822d8c36eb8e24f393d6e34076d793ffb487cd33f"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "Dr. C. B. M.D.",
+            "valid": true,
+            "anls": 0.75,
+            "k": 5548,
+            "keep_hash": "681f35604119683283817a48e38a8ec0c87aaacb864107dac0ba96c1d7e955a4"
+          },
+          "attack": {
+            "text": "Dr. C. Baur MD",
+            "valid": true,
+            "anls": 0.9166666666666666,
+            "k": 5548,
+            "keep_hash": "6fa628a0609baa25a778c0dc187f9256cbb812f9166531e5b370d9a2a484acbe"
+          },
+          "noise": {
+            "text": "Dr. C. B. M.D.",
+            "valid": true,
+            "anls": 0.75,
+            "k": 5548,
+            "keep_hash": "89e15e83d8e456bc365c2de88f125b4d00756dfaf97e0b1ded887785b4053bdb"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "2008": {
+      "status": "OK",
+      "clean_text": "March 1968",
+      "full": {
+        "clean": "March 1968",
+        "attack": "March 1968",
+        "noise": "March 1968"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "March 1956",
+            "valid": true,
+            "anls": 0.8,
+            "k": 1110,
+            "keep_hash": "6e7739c0a695daf17ecdfb87ef17a62e14b447af240b2b5a349b83025bb33825"
+          },
+          "attack": {
+            "text": "March 1956",
+            "valid": true,
+            "anls": 0.8,
+            "k": 1110,
+            "keep_hash": "27324296bfc7dba8db3ee215479b1604e86f4b8d75d2ed26747cf5a6dbbe2fca"
+          },
+          "noise": {
+            "text": "March 1956",
+            "valid": true,
+            "anls": 0.8,
+            "k": 1110,
+            "keep_hash": "1f2d8e984ef7ae548dbe4006d39fc2abc2d5c298f8ef4b4c715a1dca22258364"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.25": {
+          "clean": {
+            "text": "March 1956",
+            "valid": true,
+            "anls": 0.8,
+            "k": 1850,
+            "keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c"
+          },
+          "attack": {
+            "text": "March 23, 1986",
+            "valid": true,
+            "anls": 0.6153846153846154,
+            "k": 1850,
+            "keep_hash": "397b657ab18519adbe31762717c14654080cdccd475d52b5701aac0cf38c72e6"
+          },
+          "noise": {
+            "text": "March 1956",
+            "valid": true,
+            "anls": 0.8,
+            "k": 1850,
+            "keep_hash": "29ac7d000735ae0c4a813609ce94589677ea1d7ad395f824eccf8c12c825ffa4"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "March 1956",
+            "valid": true,
+            "anls": 0.8,
+            "k": 2589,
+            "keep_hash": "83204a20618bee809000a0265c2bccdf9597fb274ab9de01dc9c69fd602453b0"
+          },
+          "attack": {
+            "text": "March 27, 22, Issue 1",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2589,
+            "keep_hash": "a22c080704efe5fc0a0ee706ed509657ec99bd673ad609cc88771a8f76b610bf"
+          },
+          "noise": {
+            "text": "March 1956",
+            "valid": true,
+            "anls": 0.8,
+            "k": 2589,
+            "keep_hash": "c6d1a644bcbe15291f6426e7b1d2fc2b7405469e36a9fc0b9c544f1f63647cd3"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "March 1968",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "b3801ea0907e520af7f41e295783f92dc937f5d711c95a60b39fa5779c5d15f3"
+          },
+          "attack": {
+            "text": "March 1968",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "410faa55d2956d7516c89547976e68f5ffade4f23a0a7a0b087a6db772ebdc86"
+          },
+          "noise": {
+            "text": "March 1968",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "3fa009dd1d98dcf033483b32b1dcbfe7b13918397da051c7a1853cf46100ba8a"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "47450": {
+      "status": "OK",
+      "clean_text": "Dr. or Mrs. William J. Darby",
+      "full": {
+        "clean": "Dr. or Mrs. William J. Darby",
+        "attack": "Dr. or Mrs. William J. Darby",
+        "noise": "Dr. or Mrs. William J. Darby"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "Dr. or Mrs. William J. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2219,
+            "keep_hash": "86ec916f60c3dca5dbf500488cc575fc238749e31bd42aa15ec710cec5f04867"
+          },
+          "attack": {
+            "text": "Dr. or Mrs. William J. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2219,
+            "keep_hash": "6032c85fde0b386d635fea2e304c27664b223bc9ca2d6d78cdec446de1b94ca2"
+          },
+          "noise": {
+            "text": "Dr. or Mrs. William J. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2219,
+            "keep_hash": "3cd966a83df44fc47c780870f35a1c923063faf5da0fe2bfdc1740c7eeccb02c"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.25": {
+          "clean": {
+            "text": "Dr. or Mrs. William J. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2"
+          },
+          "attack": {
+            "text": "Chase",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3699,
+            "keep_hash": "8e0e88322a4a21d96e252bf0f22fd0df7e605dcee4f63630e183adf71e5b4fee"
+          },
+          "noise": {
+            "text": "Dr. or Mrs. William J. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "91aa2fe0cc24f4a99ba6d9dbd16be2886d033c4293b6ca9575c339d3011d0a03"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "Dr. or Mrs. William J. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "b2ecfdbd4d10c62b812330e4d10e9b9d5ae04ff427476c9ea44e8dba03608cde"
+          },
+          "attack": {
+            "text": "CASHIER",
+            "valid": true,
+            "anls": 0.0,
+            "k": 5179,
+            "keep_hash": "778025d3a7cd3db088162099e7e3a828985e06156faac11d4b91492098235370"
+          },
+          "noise": {
+            "text": "Dr. or Mrs. William J. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "d5e1edb65b6656ae49aef6cac83537970d7d6c003d8ab593896f9d1f0caaf70a"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "Dr. or Mrs. William J. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "00b4ddfbeb35dc77bce04a72ab19bec2f3edb4e9e8ea9da8ddcacddeae1928f5"
+          },
+          "attack": {
+            "text": "Dr. or Mrs. William J. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "8c0c61d724192eea146dede3542c5b89544ac2e5b9da950803a0855d857efc1b"
+          },
+          "noise": {
+            "text": "Dr. or Mrs. William J. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "4721186b4d2b488fea1d2b5e6d5b12823cba3b95383e5e8128abb9a0b9455ca0"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "60700": {
+      "status": "OK",
+      "clean_text": "PPBS",
+      "full": {
+        "clean": "PPBS",
+        "attack": "PPBS",
+        "noise": "PPBS"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "PPBS",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1665,
+            "keep_hash": "f8d6878164274904d472a9f382c4ebd69f91ec6576c2424e0cf51dff8f625e20"
+          },
+          "attack": {
+            "text": "PPBS",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1665,
+            "keep_hash": "15265d4e419b52307d66ae172d2ce44a6ed227f114ab905c7036e13d346dfa11"
+          },
+          "noise": {
+            "text": "PPBS",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1665,
+            "keep_hash": "691522231898fb2daa3bd791509ba4826622ca41b696072687d81b5ba6cc6b46"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.25": {
+          "clean": {
+            "text": "PPBS",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2774,
+            "keep_hash": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca"
+          },
+          "attack": {
+            "text": "Health",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2774,
+            "keep_hash": "3bbf3946a6b39311acaedc8d6357bf05815d9447ee9127513908ac5f478dc0ff"
+          },
+          "noise": {
+            "text": "PPBS",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2774,
+            "keep_hash": "25d86127425f78c2d543dce3ec482d8f36c6a26c646bcedbd905a326428aa147"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "PPBS",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3884,
+            "keep_hash": "8cbb13cbbf41286c5c9df264088743c40cdfbe138a54d5057c581915326f6d71"
+          },
+          "attack": {
+            "text": "PPGS 14, 1967",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3884,
+            "keep_hash": "eb8be186d8db7661479a219889e6d571efb8f45539f37ddbdade1a345f9960aa"
+          },
+          "noise": {
+            "text": "PPBS",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3884,
+            "keep_hash": "ad36182f50ddec12983c3b966ce197ca94def2a5f4622173a0213942b63f461c"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "PPBS",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "42e507099b702444f387bae15cd2845522aceeb5d46aa3cbc4ec12ca7e058ad3"
+          },
+          "attack": {
+            "text": "PPBS",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "68df3a4e6c643479888098a6dc37ec902dd658fccce5d5164928f9ec6cd46e96"
+          },
+          "noise": {
+            "text": "PPBS",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "1cd1100ab1123bf5b1c399fb999aea4185173103e7174cd13f201851966fba12"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "7006": {
+      "status": "OK",
+      "clean_text": "RJ Reynolds Tobacco Company",
+      "full": {
+        "clean": "RJ Reynolds Tobacco Company",
+        "attack": "RJ Reynolds Tobacco Company",
+        "noise": "RJ Reynolds Tobacco Company"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "RJ Reynolds Tobacco Company",
+            "valid": true,
+            "anls": 0.962962962962963,
+            "k": 2219,
+            "keep_hash": "d841bc6ceb64c43490d8e7cd487b74cf2ba14c824c21f5806e16c26677a6aea6"
+          },
+          "attack": {
+            "text": "RJ Reynolds Tobacco Co.",
+            "valid": true,
+            "anls": 0.7692307692307692,
+            "k": 2219,
+            "keep_hash": "9e0ab90c77c9826024c12bbb8ce7b2ef4db2a609823e42879e0cc6943b46bd23"
+          },
+          "noise": {
+            "text": "RJ Reynolds Tobacco Company",
+            "valid": true,
+            "anls": 0.962962962962963,
+            "k": 2219,
+            "keep_hash": "3ca15c080d8b92f1185d0c008d11e30c7c0ba786bf610248d02dba9c266d62d2"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": true
+        },
+        "0.25": {
+          "clean": {
+            "text": "RJ Reynolds Tobacco Company",
+            "valid": true,
+            "anls": 0.962962962962963,
+            "k": 3699,
+            "keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178"
+          },
+          "attack": {
+            "text": "TOBACCO COMPANY WINSTON-Salem, NC",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3699,
+            "keep_hash": "19afd3e2801623619d25b9c4cd9a22b71432964c372d2d3558f44a68bda82336"
+          },
+          "noise": {
+            "text": "RJ Reynolds Tobacco Company",
+            "valid": true,
+            "anls": 0.962962962962963,
+            "k": 3699,
+            "keep_hash": "c79a16d97ab4ce3dbb22d5b488a8a021f9433fda7953a9bccfaa547777404421"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "RJ Reynolds Tobacco Company",
+            "valid": true,
+            "anls": 0.962962962962963,
+            "k": 5179,
+            "keep_hash": "88e3f77de0bf0783e16c9700bc1c23f613e367ae9b8f7cf67a305321abe38c89"
+          },
+          "attack": {
+            "text": "RJ Reynolds Tobacco Co.",
+            "valid": true,
+            "anls": 0.7692307692307692,
+            "k": 5179,
+            "keep_hash": "6adea90f8f1df7d48e8491378372679b5f1bf80aed1bfea2a7899b5c99477bc7"
+          },
+          "noise": {
+            "text": "RJ Reynolds Tobacco Company",
+            "valid": true,
+            "anls": 0.962962962962963,
+            "k": 5179,
+            "keep_hash": "4e1164fd69cfc191f0e3daafe8840d6d1a4e9466b78871dc6dc239ba12d69c27"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "RJ Reynolds Tobacco Company",
+            "valid": true,
+            "anls": 0.962962962962963,
+            "k": 7398,
+            "keep_hash": "745f8756ce8ee5d56b41d6fa3a2ca4179d5bd7e1eeabcbabe60fe1441f7f2ab6"
+          },
+          "attack": {
+            "text": "RJ Reynolds Tobacco Company",
+            "valid": true,
+            "anls": 0.962962962962963,
+            "k": 7398,
+            "keep_hash": "c2f2b5ec13f5e02a290594f96584e13485d4ae08ec3fdea8085f0d8a2b68eb2c"
+          },
+          "noise": {
+            "text": "RJ Reynolds Tobacco Company",
+            "valid": true,
+            "anls": 0.962962962962963,
+            "k": 7398,
+            "keep_hash": "90b31eb021a97b34754b76a24a9ed21c205ad351a16a267f1e445d09d3ae2c16"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "39204": {
+      "status": "OK",
+      "clean_text": "FOOD TECHNOLOGY",
+      "full": {
+        "clean": "FOOD TECHNOLOGY",
+        "attack": "FOOD TECHNOLOGY",
+        "noise": "FOOD TECHNOLOGY"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "Food technology",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2219,
+            "keep_hash": "7145daa03b4ab725f43b05c25b61d7b7e285177aa1aa6e0bcfb026640f4f5b5a"
+          },
+          "attack": {
+            "text": "Food Technology",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2219,
+            "keep_hash": "1e5aa3abb00129024c7773829c35d7b79e7933d2a616f2650af2257726a9f0d8"
+          },
+          "noise": {
+            "text": "Food technology",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2219,
+            "keep_hash": "51111548f5df0866254461f3840a9c5fd7429621c377ed2b1c9c8ba10c04d865"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.25": {
+          "clean": {
+            "text": "FOOD TECHNOLOGY",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338"
+          },
+          "attack": {
+            "text": "Food technology",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "d622626e55810a4f79380b7c3761499a9aa2257eebda0c4c6166cca21ca8e14f"
+          },
+          "noise": {
+            "text": "FOOD TECHNOLOGY",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "9ce83f9658e36acad65832951911cb810967e70d2426f15e60ab03afd1057239"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.35": {
+          "clean": {
+            "text": "FOOD TECHNOLOGY",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "3c9b77cad13aef3a48de1d67ec6602bc374e46642c135657d49022b6d06df560"
+          },
+          "attack": {
+            "text": "FOOD TECHNOLOGY JAC",
+            "valid": true,
+            "anls": 0.7894736842105263,
+            "k": 5179,
+            "keep_hash": "aa07f782e4adda82d18696965e8690ec6bab45263d8acafac96049b6ef3a9b91"
+          },
+          "noise": {
+            "text": "FOOD TECHNOLOGY",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "7540428c0eb7b7a8ccd3df791c7aac8330fc147133afcb1d598d93d139f09393"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "FOOD TECHNOLOGY",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "de6a8bc0fd6716061f25e0b8dec889849ef321f783065f8ca07a03d9fe5f3afc"
+          },
+          "attack": {
+            "text": "FOOD TECHNOLOGY",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "86fd874c8154a78c00e10e5b03bd985864b60048c8c23d152812121f7ed40afc"
+          },
+          "noise": {
+            "text": "FOOD TECHNOLOGY",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "d438edd66d59cbf047d646d42266bbfba59e4b949e3439eefa922ee3ce0d0f4c"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    }
+  },
+  "summary": {
+    "samples_measured": 6,
+    "all_replay_pass": true,
+    "induced_cells": 8,
+    "attack_strict_cells": 9,
+    "noise_strict_cells": 2,
+    "attack_beats_noise_cells": 11
+  }
+}

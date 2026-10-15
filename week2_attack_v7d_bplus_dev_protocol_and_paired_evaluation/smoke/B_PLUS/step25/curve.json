@@ -1,0 +1,98 @@
+[
+  {
+    "step": 0,
+    "png_sha256": "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "Dr. C. Baur",
+      "fastv_0.35": "Dr. C. B. B. M.D."
+    },
+    "margins": {
+      "0.25": 0.7863425016403198,
+      "0.35": 1.563478708267212
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "ecefcd69ddc95ba41453e8f3d0107d0549d98a02f357965c7e98f8d24698c95e"
+      }
+    },
+    "selector": {
+      "step": 0,
+      "nonzero": 0,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 0,
+      "pixel_linf_uint8": 0.0,
+      "margin": 1.1749106049537659
+    }
+  },
+  {
+    "step": 10,
+    "png_sha256": "03fe0579f0efc76a8ed3aceb8fb69a11ed78d8eb1411f20f24c97e1c2f760804",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "Dr. Chakravarthi M. Rao",
+      "fastv_0.35": "Dr. C. B. M. MD"
+    },
+    "margins": {
+      "0.25": 0.3155454993247986,
+      "0.35": 1.3854845762252808
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "b306f8248756ec8308d46b3f30820ce2fea994d0c80d84f4e666c38ec8d72e24"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "2678fb1b65cdcc57902590f453db65d3a965f6e57c8a1e7969dd78e015df86af"
+      }
+    },
+    "selector": {
+      "step": 10,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.8505150377750397
+    }
+  },
+  {
+    "step": 25,
+    "png_sha256": "62d359dabe2ee7f6f450640e611a3fe9efbad6d6ccc41817ab25934ed3da95ae",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "Dr. Bausch",
+      "fastv_0.35": "Dr. C. Bausch MD"
+    },
+    "margins": {
+      "0.25": -0.4911479949951172,
+      "0.35": 1.481877326965332
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "e1984682db95b5fcf0acb10d2ed7d1ff4db93fc57285830463fcd290440a8e03"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "3720f3d9d9135720e933e3589b815fc1990cb47f5b388c92c0ad63e3e0d4817f"
+      }
+    },
+    "selector": {
+      "step": 25,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.4953646659851074
+    }
+  }
+]

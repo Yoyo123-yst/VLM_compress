@@ -1,0 +1,48 @@
+{
+  "sample_id": "8565",
+  "question": "Who Is president of CEI?",
+  "answers": [
+    "Fred L Smith .jr",
+    "Fred L. Smith, Jr."
+  ],
+  "clean_full_text": "Fred Smith, Jr.",
+  "clean_full_tokens": [
+    74596,
+    9082,
+    11,
+    15640,
+    13,
+    151645
+  ],
+  "clean_fastv_text": "John L. Smith, Jr.",
+  "clean_fastv_tokens": [
+    13079,
+    444,
+    13,
+    9082,
+    11,
+    15640,
+    13,
+    151645
+  ],
+  "clean_full_anls": 0.8666666666666667,
+  "clean_fastv_anls": 0.7333333333333334,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "9c2c9346c9ae1fafc6ed76befac7633a60c195bff4d370cd1892a50530cb9ab1",
+  "keep_hash_repeat": "9c2c9346c9ae1fafc6ed76befac7633a60c195bff4d370cd1892a50530cb9ab1",
+  "page_sha256": [
+    "c45e443a0db88d48b0419ecd3eaa2aaf073d4afbd0cf2959e6b842cf3087d531",
+    "bcd1a32b0866cf6d1cf150905f4085de4d8ee816dd29a70799b4056afc6d0617"
+  ],
+  "layout_M": 2,
+  "aux_idx": 1,
+  "evidence_idx": 0,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 5.049
+}

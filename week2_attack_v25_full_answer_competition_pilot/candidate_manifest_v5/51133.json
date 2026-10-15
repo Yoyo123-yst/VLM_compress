@@ -1,0 +1,268 @@
+{
+  "sample_id": "51133",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "f86786ec43b8853b93c3d19e67f1792c389828a0e53fdd9b8f34b9ca9983b8ae",
+  "full_clean": {
+    "text_a": "two",
+    "text_b": "two",
+    "tokens_a": [
+      19789,
+      151645
+    ],
+    "tokens_b": [
+      19789,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      19789,
+      151645
+    ],
+    "text": "two",
+    "anls": 1.0,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "9dc1ec87ff056f5cefa28eb2c859a46186913d1ce8fd1b6f50f07cabc9ebbd9d",
+    "k": 1850,
+    "second_keep_hash": "9dc1ec87ff056f5cefa28eb2c859a46186913d1ce8fd1b6f50f07cabc9ebbd9d",
+    "second_k": 1850
+  },
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "9dc1ec87ff056f5cefa28eb2c859a46186913d1ce8fd1b6f50f07cabc9ebbd9d",
+    "reference_keep_hash": "9dc1ec87ff056f5cefa28eb2c859a46186913d1ce8fd1b6f50f07cabc9ebbd9d",
+    "fast_keep_exact": true,
+    "k": 1850,
+    "reference_k": 1850
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 0,
+      "target_id": 19789,
+      "target_piece": "two",
+      "candidate_id": 21,
+      "candidate_piece": "6",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 1.25,
+      "content_priority": 1,
+      "fast_gradient_l1": 36641.16015625,
+      "fast_gradient_l2": 136.46615600585938,
+      "estimated_fast_flip_linf": 3.411464032988004e-05,
+      "full_clean_hard_min": 0.625,
+      "full_probe_hard_min": 0.375,
+      "full_local_capacity_linf": 0.00980392156862745,
+      "full_local_margin_available": true,
+      "reachability_ratio": 287.38164828431377,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "9dc1ec87ff056f5cefa28eb2c859a46186913d1ce8fd1b6f50f07cabc9ebbd9d",
+      "clean_k": 1850,
+      "forced_continuation": {
+        "tokens": [
+          21,
+          15,
+          13168,
+          2849,
+          151645
+        ],
+        "text": "60 calendar days",
+        "keep_hash": "6e5dce422bfcb83fd14ddae13215f3fe974bee39dfe1c27aedca2f82834cdf44",
+        "k": 1850
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "60calendardays",
+      "complete_lexical_similarity_to_clean": 0.0,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          21,
+          15,
+          13168,
+          2849,
+          151645
+        ],
+        "text": "60 calendar days",
+        "keep_hash": "6e5dce422bfcb83fd14ddae13215f3fe974bee39dfe1c27aedca2f82834cdf44",
+        "k": 1850
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 19789,
+      "target_piece": "two",
+      "candidate_id": 454,
+      "candidate_piece": "up",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 4.1875,
+      "content_priority": 1,
+      "fast_gradient_l1": 29650.73046875,
+      "fast_gradient_l2": 110.61685180664062,
+      "estimated_fast_flip_linf": 0.00014122754933182374,
+      "full_clean_hard_min": 0.625,
+      "full_probe_hard_min": 0.25,
+      "full_local_capacity_linf": 0.006535947712418301,
+      "full_local_margin_available": true,
+      "reachability_ratio": 46.279551994927324,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "9dc1ec87ff056f5cefa28eb2c859a46186913d1ce8fd1b6f50f07cabc9ebbd9d",
+      "clean_k": 1850,
+      "forced_continuation": {
+        "tokens": [
+          454,
+          311,
+          220,
+          18,
+          15,
+          151645
+        ],
+        "text": "up to 30",
+        "keep_hash": "f753fb07c4625a61533b6af803292a3295731d9bf7c87ec46bdf49c9393abeb6",
+        "k": 1850
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "upto30",
+      "complete_lexical_similarity_to_clean": 0.4444444444444444,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          454,
+          311,
+          220,
+          18,
+          15,
+          151645
+        ],
+        "text": "up to 30",
+        "keep_hash": "f753fb07c4625a61533b6af803292a3295731d9bf7c87ec46bdf49c9393abeb6",
+        "k": 1850
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 6,
+    "screen_admitted_after_limit": 2,
+    "screen_rejected": 4,
+    "estimated": 2
+  },
+  "rejected_proposals": [
+    {
+      "position": 0,
+      "target_id": 19789,
+      "target_piece": "two",
+      "candidate_id": 17,
+      "candidate_piece": "2",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 0.25,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          17,
+          151645
+        ],
+        "text": "2",
+        "keep_hash": "ae7afa3d597268f265073cf52a83c4c369e16f3fe70fe1ffa83af411f398e065",
+        "k": 1850
+      },
+      "complete_lexical_key": "2",
+      "complete_lexical_similarity_to_clean": 0.0,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 19789,
+      "target_piece": "two",
+      "candidate_id": 18,
+      "candidate_piece": "3",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 0.375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          18,
+          15,
+          151645
+        ],
+        "text": "30",
+        "keep_hash": "be00bf1be4d51f38ae4bc73de54db40155df4ac613d54e01d6e2e5202b7a5e01",
+        "k": 1850
+      },
+      "complete_lexical_key": "30",
+      "complete_lexical_similarity_to_clean": 0.0,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 19789,
+      "target_piece": "two",
+      "candidate_id": 20,
+      "candidate_piece": "5",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 0.625,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          20,
+          151645
+        ],
+        "text": "5",
+        "keep_hash": "1e96f8a398c5b57ebcffaee2b013a636ee55d355dc6b06164e2b3a89cd0bc3d6",
+        "k": 1850
+      },
+      "complete_lexical_key": "5",
+      "complete_lexical_similarity_to_clean": 0.0,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 19789,
+      "target_piece": "two",
+      "candidate_id": 16,
+      "candidate_piece": "1",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 2.3125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          16,
+          15,
+          151645
+        ],
+        "text": "10",
+        "keep_hash": "4e72a9e527fa64d6cd8faa9ec8f745726572391ff2497b01222e66d7dc05f0df",
+        "k": 1850
+      },
+      "complete_lexical_key": "10",
+      "complete_lexical_similarity_to_clean": 0.0,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    }
+  ]
+}

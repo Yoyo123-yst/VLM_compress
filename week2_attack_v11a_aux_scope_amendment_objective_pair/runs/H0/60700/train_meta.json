@@ -1,0 +1,30 @@
+{
+  "sample_id": "60700",
+  "group": "H0",
+  "aux_idx": 0,
+  "question": "What is the subject?",
+  "page_sha256": [
+    "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131",
+    "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+    "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+  ],
+  "counters": {
+    "forward": 3924,
+    "backward": 600,
+    "generate": 425,
+    "fastv": 416,
+    "generated_tokens": 3566
+  },
+  "elapsed_sec": 2196.716923736036,
+  "peak_memory_mib": 26896.21240234375,
+  "historical_selector": {
+    "step": 200,
+    "nonzero": 1,
+    "output_valid": 1,
+    "full_exact": 1,
+    "linf_ok": 1,
+    "pixel_linf_uint8": 0.03137257695198059,
+    "margin": -1.8226823210716248
+  },
+  "clean_text": "PPBS"
+}

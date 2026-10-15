@@ -1,0 +1,181 @@
+{
+  "status": "PASS",
+  "problems": [],
+  "sample_id": "47450",
+  "clean_full_text": "Dr. or Mrs. William J. Darby",
+  "clean_fastv_text": "Dr. or Mrs. William J. Darby",
+  "clean_fastv_k": 3699,
+  "clean_fastv_keep_hash": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "order": [
+    1,
+    4,
+    3,
+    2
+  ],
+  "tokens": [
+    {
+      "position": 0,
+      "token_id": 8847,
+      "decoded_piece": "Dr",
+      "special_or_control_or_eos": false,
+      "group": "S_context"
+    },
+    {
+      "position": 1,
+      "token_id": 13,
+      "decoded_piece": ".",
+      "special_or_control_or_eos": false,
+      "group": "S_context"
+    },
+    {
+      "position": 2,
+      "token_id": 476,
+      "decoded_piece": " or",
+      "special_or_control_or_eos": false,
+      "group": "S_context"
+    },
+    {
+      "position": 3,
+      "token_id": 17618,
+      "decoded_piece": " Mrs",
+      "special_or_control_or_eos": false,
+      "group": "S_context"
+    },
+    {
+      "position": 4,
+      "token_id": 13,
+      "decoded_piece": ".",
+      "special_or_control_or_eos": false,
+      "group": "S_context"
+    },
+    {
+      "position": 5,
+      "token_id": 12375,
+      "decoded_piece": " William",
+      "special_or_control_or_eos": false,
+      "group": "S_core"
+    },
+    {
+      "position": 6,
+      "token_id": 619,
+      "decoded_piece": " J",
+      "special_or_control_or_eos": false,
+      "group": "S_core"
+    },
+    {
+      "position": 7,
+      "token_id": 13,
+      "decoded_piece": ".",
+      "special_or_control_or_eos": false,
+      "group": "S_core"
+    },
+    {
+      "position": 8,
+      "token_id": 15017,
+      "decoded_piece": " Dar",
+      "special_or_control_or_eos": false,
+      "group": "S_core"
+    },
+    {
+      "position": 9,
+      "token_id": 1694,
+      "decoded_piece": "by",
+      "special_or_control_or_eos": false,
+      "group": "S_core"
+    },
+    {
+      "position": 10,
+      "token_id": 151645,
+      "decoded_piece": "<|im_end|>",
+      "special_or_control_or_eos": true,
+      "group": "control"
+    }
+  ],
+  "s_all": {
+    "positions": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "token_ids": [
+      8847,
+      13,
+      476,
+      17618,
+      13,
+      12375,
+      619,
+      13,
+      15017,
+      1694
+    ],
+    "pieces": [
+      "Dr",
+      ".",
+      " or",
+      " Mrs",
+      ".",
+      " William",
+      " J",
+      ".",
+      " Dar",
+      "by"
+    ]
+  },
+  "s_core": {
+    "positions": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "token_ids": [
+      12375,
+      619,
+      13,
+      15017,
+      1694
+    ],
+    "pieces": [
+      " William",
+      " J",
+      ".",
+      " Dar",
+      "by"
+    ]
+  },
+  "s_context": {
+    "positions": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "token_ids": [
+      8847,
+      13,
+      476,
+      17618,
+      13
+    ],
+    "pieces": [
+      "Dr",
+      ".",
+      " or",
+      " Mrs",
+      "."
+    ]
+  },
+  "self_patch": "SELF_PATCH_NOT_APPLICABLE_PIXEL_OBJECTIVE"
+}

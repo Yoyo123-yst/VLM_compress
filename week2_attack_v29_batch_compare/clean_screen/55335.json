@@ -1,0 +1,52 @@
+{
+  "sample_id": "55335",
+  "question": "What is the ‘crude rate ‘ during the year 1861 according to the table?",
+  "answers": [
+    "0.00022",
+    "Deaths per year per mid year population"
+  ],
+  "clean_full_text": "0.00022",
+  "clean_full_tokens": [
+    15,
+    13,
+    15,
+    15,
+    15,
+    17,
+    17,
+    151645
+  ],
+  "clean_fastv_text": "0.00222",
+  "clean_fastv_tokens": [
+    15,
+    13,
+    15,
+    15,
+    17,
+    17,
+    17,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 0.8333333333333334,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "d2c243d41cca7a102aab2a9bd7625a50592f724e1890749cf4c472f67bb04fe6",
+  "keep_hash_repeat": "d2c243d41cca7a102aab2a9bd7625a50592f724e1890749cf4c472f67bb04fe6",
+  "page_sha256": [
+    "bbcd4af70d33c03518876f75047338a49fe2bdee78f0c4c2e87445a82e3d0423",
+    "1a00fffcfaddcdf08539e44be46ebf7abab4e1f36f6340cc1e4e2904e22da722",
+    "a12bfe8e8e30c4f107787b862b9e2d2b6feb9acff8fa35d4133f68fbbca46c94",
+    "4e4d6402bddead74e9deead32b684f2c9319a82fece678385d3cc9aecf6395b4"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 9.155
+}

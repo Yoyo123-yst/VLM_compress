@@ -1,0 +1,49 @@
+{
+  "sample_id": "54935",
+  "question": "What is the last ‘guidelines’ mentioned?",
+  "answers": [
+    "Label areas you could not observe"
+  ],
+  "clean_full_text": "o Label areas you could not observe.",
+  "clean_full_tokens": [
+    78,
+    9402,
+    5671,
+    498,
+    1410,
+    537,
+    22986,
+    13,
+    151645
+  ],
+  "clean_fastv_text": "O, TILES",
+  "clean_fastv_tokens": [
+    46,
+    11,
+    350,
+    45978,
+    151645
+  ],
+  "clean_full_anls": 0.9428571428571428,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "1c48701b90c941b9d81043ed03d7f32bb0983ff0062330e7c50c45a1e2141140",
+  "keep_hash_repeat": "1c48701b90c941b9d81043ed03d7f32bb0983ff0062330e7c50c45a1e2141140",
+  "page_sha256": [
+    "86d43672c0dbfe0bef8294c4dd92cb179c20a045cdceda5446732c9bb02b3254",
+    "76c34fd26603e5c7ab462b2c17e97550bf38e300f5cddb6e20760d15a51520f0",
+    "30a009564ac9e1da293d76cc4cf34540db63550a85f804c960db2fe95d21dde8",
+    "35593839a4ddf740e45d14adab0c1fb76ed2117b638d097a97ed3ac57a15ada5"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 3,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.195
+}

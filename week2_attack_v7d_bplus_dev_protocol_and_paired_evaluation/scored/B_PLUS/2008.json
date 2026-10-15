@@ -1,0 +1,68 @@
+{
+  "sample_id": "2008",
+  "chosen_step": 100,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "March 1968",
+  "clean_text": "March 1968",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 7.015103816986084,
+  "pollution": 0,
+  "strict_train": 1,
+  "by_ratio": {
+    "0.50": {
+      "text": "February 1, 1968",
+      "anls": 0.0,
+      "margin": 3.0406453609466553,
+      "keep": {
+        "k": 3699,
+        "keep_hash": "9e0777e76c1991015bf5229d63cb2616a3030b185a3e7b0979c7b510ed4557eb",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 3.9744584560394287
+    },
+    "0.35": {
+      "text": "January, February, March",
+      "anls": 0.0,
+      "margin": 0.2578074336051941,
+      "keep": {
+        "k": 2589,
+        "keep_hash": "d7b8391c46a0e90494c3a4c46da9581d9587093445701166cc27ac3945aa3675",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 6.75729638338089
+    },
+    "0.25": {
+      "text": "February 1, 1968",
+      "anls": 0.0,
+      "margin": 1.4249778985977173,
+      "keep": {
+        "k": 1850,
+        "keep_hash": "640cd6be40b1a6deac675c3fdd30031804460261fae68fa6a847e52de6a2f5ed",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.590125918388367
+    },
+    "0.15": {
+      "text": "March 1986",
+      "anls": 0.8,
+      "margin": 3.295851230621338,
+      "keep": {
+        "k": 1110,
+        "keep_hash": "5015356cf0ab24921931c669741b7525d3dc44d44274ec86ad1c8678c94df495",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 3.719252586364746
+    }
+  },
+  "selector_margin": 0.8413926661014557
+}

@@ -1,0 +1,15 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.46it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.63it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  1.72it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.50it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.09it/s]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"calibrated": true, "scale_full_source": "delta0", "scale_comp": 20.39771270751953, "scale_full": 1.660989801166579e-05}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "50743", "step": 0, "fastv": 1.0, "full": 1.0, "margin": 5.671875, "label": "NO_EFFECT", "jaccard": 1.0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "50743", "step": 2, "fastv": 1.0, "full": 1.0, "margin": 5.390625, "label": "NO_EFFECT", "jaccard": 0.940713536201469}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"done": "50743", "label": "NO_EFFECT", "sec": 47.3}

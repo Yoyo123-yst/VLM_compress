@@ -1,0 +1,43 @@
+{
+  "sample_id": "56601",
+  "question": "What is the year mentioned on the page?",
+  "answers": [
+    "1985"
+  ],
+  "clean_full_text": "1985",
+  "clean_full_tokens": [
+    16,
+    24,
+    23,
+    20,
+    151645
+  ],
+  "clean_fastv_text": "1985",
+  "clean_fastv_tokens": [
+    16,
+    24,
+    23,
+    20,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "4eb2bb56b7d1392cd4b6a28966f700342e3c02a64a0d4d907b8f67c6aa119802",
+  "keep_hash_repeat": "4eb2bb56b7d1392cd4b6a28966f700342e3c02a64a0d4d907b8f67c6aa119802",
+  "page_sha256": [
+    "d024e19a80ead52e4e06b2a22cd2a3ae2fc620cd957d798028eb7a87c4687347",
+    "384f5858dbbb84b1d24b1a816b39654661e7bd528a08bdfc9b0ae3daf639cd3a"
+  ],
+  "layout_M": 2,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 4.466
+}

@@ -1,0 +1,68 @@
+{
+  "sample_id": "1025",
+  "chosen_step": 25,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "Dr. C. Baur MD",
+  "clean_text": "Dr. C. Baur MD",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 4.394186973571777,
+  "pollution": 0,
+  "strict_train": 1,
+  "by_ratio": {
+    "0.50": {
+      "text": "Dr. C. Baur MD",
+      "anls": 0.9166666666666666,
+      "margin": 3.3579347133636475,
+      "keep": {
+        "k": 5548,
+        "keep_hash": "3ae54235297ab3acb3d800cb6ac88e80921df6f4c58370262441586acfebb8f9",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 1.0362522602081299
+    },
+    "0.35": {
+      "text": "Cherles Boun",
+      "anls": 0.0,
+      "margin": -0.6832445859909058,
+      "keep": {
+        "k": 3884,
+        "keep_hash": "7339167bf3457d8302c952a6a6b1bf2fe27862cb7eef61221554c697486465d8",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.077431559562683
+    },
+    "0.25": {
+      "text": "Chedie Baur",
+      "anls": 0.0,
+      "margin": -1.554409384727478,
+      "keep": {
+        "k": 2774,
+        "keep_hash": "f9456be48aaecfd7ad13a4db4808906f832a01883a49c9731063c5791c7fc5d8",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.948596358299255
+    },
+    "0.15": {
+      "text": "CHRISSIE CHILDS",
+      "anls": 0.0,
+      "margin": -0.343145489692688,
+      "keep": {
+        "k": 1665,
+        "keep_hash": "33f27c415a7c02965b46f2f78d74e0dd97985177134dbd41d2823ce75b96e7d7",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 4.737332463264465
+    }
+  },
+  "selector_margin": -1.118826985359192
+}

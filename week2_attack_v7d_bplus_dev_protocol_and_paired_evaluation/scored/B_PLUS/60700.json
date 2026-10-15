@@ -1,0 +1,68 @@
+{
+  "sample_id": "60700",
+  "chosen_step": 150,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "PPBS",
+  "clean_text": "PPBS",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 11.72706127166748,
+  "pollution": 0,
+  "strict_train": 1,
+  "by_ratio": {
+    "0.50": {
+      "text": "PPBS",
+      "anls": 1.0,
+      "margin": 9.412349700927734,
+      "keep": {
+        "k": 5548,
+        "keep_hash": "857ab9eddbd0867155733d948b66efef277b903bf5ad918b990a89ccf6500d81",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 2.314711570739746
+    },
+    "0.35": {
+      "text": "PPBS #246, Long Beach Lung Cancer Project",
+      "anls": 0.0,
+      "margin": -0.5546696186065674,
+      "keep": {
+        "k": 3884,
+        "keep_hash": "4f945f17c63656a1d45db1b6263553ae3bb15ae223a348b7b8e4aba127f47f5e",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 12.281730890274048
+    },
+    "0.25": {
+      "text": "HPQS",
+      "anls": 0.0,
+      "margin": -1.4898898601531982,
+      "keep": {
+        "k": 2774,
+        "keep_hash": "af094c18daba439c95f5526b41e1db211fe91150fa9002b3ae8670fefe436111",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 13.216951131820679
+    },
+    "0.15": {
+      "text": "SHP",
+      "anls": 0.0,
+      "margin": -1.8807897567749023,
+      "keep": {
+        "k": 1665,
+        "keep_hash": "79251cc0c9e7e0e2f4963342a88763931d31b4e497fffc08931028cd29dd3aca",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 13.607851028442383
+    }
+  },
+  "selector_margin": -1.0222797393798828
+}

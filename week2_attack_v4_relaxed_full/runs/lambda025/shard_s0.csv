@@ -1,0 +1,4 @@
+sample_id,group,best_step,label,replay_ok,anls_full,anls_fastv,pred_full,pred_fastv,margin,margin_start,full_kl,aux_share,evidence_share,evidence_keep,linf_uint8,keep_hash,eps_ok,lambda_full,seconds
+50743,oracle_reachable_current_fail,150,SUCCESS_COMP_ONLY,1,1.0000,0.0000,10-K,59,-12.804688,5.671875,0.000333,0.281157,0.185996,0.185996,0.03137258,945de5c2419b6cd33a46fa7f1ead30676632e6a33012bab9c0ef4c46a35845a5,1,0.2500,1470.3
+56776,oracle_reachable_current_fail,200,SURROGATE_NONFLIP,1,1.0000,0.6667,Mar,May,-8.406250,3.156250,0.001085,0.407678,0.213031,0.213031,0.03137258,59ac646cdc77904191c8fd2938253438ac445aa0a72b5009ff1939a18d3da7a5,1,0.2500,1470.0
+33923,historical_success,200,SUCCESS_COMP_ONLY,1,1.0000,0.0000,REGIONAL BUREAU ACTIVITIES IN NCF,PROGRAM MONITORDA,-18.791668,5.010417,0.001533,0.329549,0.138686,0.138686,0.03137258,7eaf9b147e4297235350952fbac6f5754a6fc9ad9efabc5e74f36494e6b64f7a,1,0.2500,1473.7

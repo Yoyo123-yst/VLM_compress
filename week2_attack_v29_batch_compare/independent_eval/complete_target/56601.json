@@ -1,0 +1,27 @@
+{
+  "status": "EVALUATED_INDEPENDENT_PROCESS",
+  "sample_id": "56601",
+  "method": "complete_target",
+  "independent_process": true,
+  "png_path": "week2_attack_v29_batch_compare/attacks/complete_target/56601/accepted_013.png",
+  "png_sha256": "2986bb78126919c73d08d4cea0c74f116a854e8d4fa03cc3921130eaad188bab",
+  "uint8_linf": 8,
+  "clean_full_text": "1985",
+  "full_text": "1985",
+  "full_text_exact": true,
+  "full_token_exact": true,
+  "same_evaluator_process_repeat_exact": true,
+  "fastv_text": "1988",
+  "fastv_anls": 0.75,
+  "fastv_valid": true,
+  "k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "49e268c068180f3fcc7f4f22af3cc12c6ebec877e480271cc87727bbac967312",
+  "dataset_answers": [
+    "1985"
+  ],
+  "target_text": "1988",
+  "target_hit_normalized_exact": true,
+  "content_status": "PENDING_QUESTION_SPECIFIC_REVIEW",
+  "semantic_review_required": true
+}

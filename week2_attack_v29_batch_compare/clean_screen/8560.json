@@ -1,0 +1,53 @@
+{
+  "sample_id": "8560",
+  "question": "Who is the founder of CEI?",
+  "answers": [
+    "Fred L Smith jr.",
+    "Fred L. Smith, Jr."
+  ],
+  "clean_full_text": "FRED L. SMITH, JR.",
+  "clean_full_tokens": [
+    37,
+    6504,
+    444,
+    13,
+    13716,
+    4150,
+    11,
+    52566,
+    13,
+    151645
+  ],
+  "clean_fastv_text": "F. L. Smith, Jr.",
+  "clean_fastv_tokens": [
+    37,
+    13,
+    444,
+    13,
+    9082,
+    11,
+    15640,
+    13,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 0.8,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "904dd8ed0d1219bf332237d82f4cf3abb5d91ba2beb78724bfd489199e9cb8bc",
+  "keep_hash_repeat": "904dd8ed0d1219bf332237d82f4cf3abb5d91ba2beb78724bfd489199e9cb8bc",
+  "page_sha256": [
+    "c45e443a0db88d48b0419ecd3eaa2aaf073d4afbd0cf2959e6b842cf3087d531",
+    "bcd1a32b0866cf6d1cf150905f4085de4d8ee816dd29a70799b4056afc6d0617"
+  ],
+  "layout_M": 2,
+  "aux_idx": 1,
+  "evidence_idx": 0,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 5.907
+}

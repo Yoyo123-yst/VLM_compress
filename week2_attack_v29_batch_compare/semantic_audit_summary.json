@@ -1,0 +1,11 @@
+{
+  "status": "SEMANTIC_AUDIT_COMPLETE_DEVELOPMENT_SIGNAL",
+  "rubric": "question-specific content correctness; invalid or ambiguous answers separated from content failures; Full exact and independent replay are required for all rows",
+  "cohort_n": 15,
+  "semantic_counts": {
+    "native_fdp": {"content_failure": 6, "answer_preserved": 6, "invalid_or_ambiguous": 3},
+    "complete_target": {"content_failure": 8, "answer_preserved": 5, "invalid_or_ambiguous": 2, "target_hit": 7},
+    "complete_front": {"content_failure": 9, "answer_preserved": 5, "invalid_or_ambiguous": 1, "target_hit": 6}
+  },
+  "decision": "Complete-front has a development-only semantic signal. Freeze its current protocol and validate on a newly frozen, non-overlapping development cohort before unseen evaluation."
+}

@@ -1,0 +1,99 @@
+{
+  "rows": [
+    {
+      "sample_id": "1025",
+      "step": "200",
+      "pred_CC": "Dr. C. Baur",
+      "pred_CA": "Dr. C. Baur",
+      "pred_AC": "Tanis Tanis",
+      "pred_AA": "Tanis Tanemar",
+      "full_clean": "Dr. C. Baur MD",
+      "full_selected": "Dr. C. Baur MD",
+      "anls_CC": 0.6666666666666667,
+      "anls_CA": 0.6666666666666667,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "seconds": 6.28
+    },
+    {
+      "sample_id": "47450",
+      "step": "200",
+      "pred_CC": "Dr. or Mrs. William J. Darby",
+      "pred_CA": "Dr. or Mrs. William J. Darby",
+      "pred_AC": "Dr Or MsR.WilciclanJ.Daaby",
+      "pred_AA": "DR OR, MS&WICLACJ, J DAARABY",
+      "full_clean": "Dr. or Mrs. William J. Darby",
+      "full_selected": "Dr. or Mrs. William J. Darby",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 0.64,
+      "anls_AA": 0.6799999999999999,
+      "mechanism": "UNEXPLAINED_OR_INVALID",
+      "output_valid": 1,
+      "seconds": 8.04
+    },
+    {
+      "sample_id": "60700",
+      "step": "100",
+      "pred_CC": "PPBS",
+      "pred_CA": "PPBS",
+      "pred_AC": "Ppbs 14, 1967",
+      "pred_AA": "Ppbs 14, 15c, d",
+      "full_clean": "PPBS",
+      "full_selected": "PPBS",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "seconds": 5.4
+    }
+  ],
+  "keeps": [
+    {
+      "sample_id": "1025",
+      "K": 2774,
+      "keep_hash_clean": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5",
+      "keep_hash_adv": "a325a53bbf5af287606c778de839ca883f9c7607e53da50e62608dcd3333a44e",
+      "jaccard": 0.8389128273118992,
+      "symmetric_difference": 486,
+      "evidence_share_clean": 0.24116798846431145,
+      "evidence_share_adv": 0.24441240086517663,
+      "aux_share_clean": 0.31002162941600575,
+      "aux_share_adv": 0.30100937274693584,
+      "per_page_clean": "[860, 669, 1245]",
+      "per_page_adv": "[835, 678, 1261]"
+    },
+    {
+      "sample_id": "47450",
+      "K": 3699,
+      "keep_hash_clean": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+      "keep_hash_adv": "1966f064c34ad4e6f888260da6133a6431e618b76baadd33b6fa4c2c4743bbbc",
+      "jaccard": 0.80615234375,
+      "symmetric_difference": 794,
+      "evidence_share_clean": 0.2278994322789943,
+      "evidence_share_adv": 0.22032981886996486,
+      "aux_share_clean": 0.3236009732360097,
+      "aux_share_adv": 0.3433360367666937,
+      "per_page_clean": "[1197, 843, 785, 874]",
+      "per_page_adv": "[1270, 815, 760, 854]"
+    },
+    {
+      "sample_id": "60700",
+      "K": 2774,
+      "keep_hash_clean": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca",
+      "keep_hash_adv": "b04cd50120d89554106cb379ee7090aba203e57dfb4e1b85a6b3fdf27b75109b",
+      "jaccard": 0.8322324966974901,
+      "symmetric_difference": 508,
+      "evidence_share_clean": 0.3795962509012257,
+      "evidence_share_adv": 0.3774333093006489,
+      "aux_share_clean": 0.2732516222062004,
+      "aux_share_adv": 0.277577505407354,
+      "per_page_clean": "[758, 963, 1053]",
+      "per_page_adv": "[770, 957, 1047]"
+    }
+  ]
+}

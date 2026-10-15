@@ -1,0 +1,99 @@
+{
+  "rows": [
+    {
+      "sample_id": "39204",
+      "step": "200",
+      "pred_CC": "FOOD TECHNOLOGY",
+      "pred_CA": "FOOD TECHNOLOGY",
+      "pred_AC": "Food technology",
+      "pred_AA": "Food technology",
+      "full_clean": "FOOD TECHNOLOGY",
+      "full_selected": "FOOD TECHNOLOGY",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 1.0,
+      "anls_AA": 1.0,
+      "mechanism": "UNEXPLAINED_OR_INVALID",
+      "output_valid": 1,
+      "seconds": 7.86
+    },
+    {
+      "sample_id": "51133",
+      "step": "200",
+      "pred_CC": "two",
+      "pred_CA": "30",
+      "pred_AC": "30 days",
+      "pred_AA": "30 calendar days",
+      "full_clean": "two",
+      "full_selected": "two",
+      "anls_CC": 1.0,
+      "anls_CA": 0.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "BOTH_INDEPENDENTLY_SUFFICIENT",
+      "output_valid": 1,
+      "seconds": 3.39
+    },
+    {
+      "sample_id": "64506",
+      "step": "150",
+      "pred_CC": "E",
+      "pred_CA": "E",
+      "pred_AC": "T",
+      "pred_AA": "Teo",
+      "full_clean": "E",
+      "full_selected": "E",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "seconds": 6.56
+    }
+  ],
+  "keeps": [
+    {
+      "sample_id": "39204",
+      "K": 3699,
+      "keep_hash_clean": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+      "keep_hash_adv": "3577c9d6ca20392e47e2df01a4b20e88e3711260a58df1168cf0d7eca31ba3b6",
+      "jaccard": 0.8043902439024391,
+      "symmetric_difference": 802,
+      "evidence_share_clean": 0.17518248175182483,
+      "evidence_share_adv": 0.1681535550148689,
+      "aux_share_clean": 0.28737496620708297,
+      "aux_share_adv": 0.30656934306569344,
+      "per_page_clean": "[1063, 648, 678, 1310]",
+      "per_page_adv": "[1134, 622, 668, 1275]"
+    },
+    {
+      "sample_id": "51133",
+      "K": 1850,
+      "keep_hash_clean": "9dc1ec87ff056f5cefa28eb2c859a46186913d1ce8fd1b6f50f07cabc9ebbd9d",
+      "keep_hash_adv": "facf2351de9c11a6a238d39186b9358a42f9a9123d1b860f00106faa6a1bfb30",
+      "jaccard": 0.7952450266860748,
+      "symmetric_difference": 422,
+      "evidence_share_clean": 0.4221621621621622,
+      "evidence_share_adv": 0.42162162162162165,
+      "aux_share_clean": 0.5778378378378378,
+      "aux_share_adv": 0.5783783783783784,
+      "per_page_clean": "[781, 1069]",
+      "per_page_adv": "[780, 1070]"
+    },
+    {
+      "sample_id": "64506",
+      "K": 3699,
+      "keep_hash_clean": "d555629f324c97af573633ab6e4c3790248b36c0c3f9fb8ade1f5c2fe9c536c1",
+      "keep_hash_adv": "bbeee020618278fc8187a66a968db83f23d49093c89c7d07a01e7c4dc8b5a3a3",
+      "jaccard": 0.867238768298839,
+      "symmetric_difference": 526,
+      "evidence_share_clean": 0.2725060827250608,
+      "evidence_share_adv": 0.2703433360367667,
+      "aux_share_clean": 0.1924844552581779,
+      "aux_share_adv": 0.20221681535550148,
+      "per_page_clean": "[1008, 712, 840, 1139]",
+      "per_page_adv": "[1000, 748, 829, 1122]"
+    }
+  ]
+}

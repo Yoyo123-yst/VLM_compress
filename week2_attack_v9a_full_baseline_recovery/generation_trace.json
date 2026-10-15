@@ -1,0 +1,25 @@
+{
+  "per_step_trace": "not run",
+  "reason": "step 0 logits already differ, so later-token comparison was stopped",
+  "full_greedy": {
+    "original": {
+      "ids": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        4110,
+        13979,
+        151645
+      ],
+      "text": "Dr. C. Baur MD"
+    },
+    "v9": {
+      "ids": [
+        151645
+      ],
+      "text": ""
+    }
+  }
+}

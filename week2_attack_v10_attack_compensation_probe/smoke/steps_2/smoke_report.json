@@ -1,0 +1,24 @@
+{
+  "sample": "2008",
+  "steps": 2,
+  "attack_chosen": {
+    "step": 2,
+    "nonzero": 1,
+    "output_valid": 1,
+    "linf_ok": 1,
+    "pixel_linf_uint8": 0.01568627450980392,
+    "margin": 3.228857159614563,
+    "replay": 1
+  },
+  "comp_accepted": 2,
+  "comp_rejected": 0,
+  "counters": {
+    "forward": 313,
+    "backward": 6,
+    "generate": 37,
+    "fastv": 28
+  },
+  "elapsed_sec": 56.57780143409036,
+  "peak_memory_mib": 22211.5625,
+  "scientific_evidence": false
+}

@@ -1,0 +1,29 @@
+{
+  "lambda_fdp": 0.2486486700704209,
+  "lambda_reg": 2062.940181825187,
+  "admitted_families": [
+    "BasePreservingAdaptivePool"
+  ],
+  "ratios": [
+    0.25,
+    0.35,
+    0.5
+  ],
+  "offset_ids": [
+    0,
+    1,
+    2
+  ],
+  "steps": 200,
+  "seed": 2026101117,
+  "optimizer": "Adam",
+  "lr": 0.00784313725490196,
+  "eps": 0.03137254901960784,
+  "grad_l2": {
+    "ce": 1.4210937023162842,
+    "fdp": 5.715267658233643,
+    "reg": 0.0006888681091368198,
+    "evidence": 0.0
+  },
+  "frozen_before_fastv": true
+}

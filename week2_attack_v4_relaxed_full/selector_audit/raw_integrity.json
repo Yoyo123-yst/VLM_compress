@@ -1,0 +1,317 @@
+{
+  "status": "PASS",
+  "manifest_ids": [
+    "51484",
+    "255",
+    "57250",
+    "50516",
+    "46631",
+    "50873",
+    "37246",
+    "64999",
+    "4932",
+    "51717",
+    "63118",
+    "63816",
+    "56850",
+    "43222",
+    "59628",
+    "6713",
+    "57418",
+    "1695",
+    "56833",
+    "56034"
+  ],
+  "k_audit": {
+    "derivation": "expected_k = official_keep_count(M * 3699, keep_ratio=RATIO); M=2->1850, M=3->2774, M=4->3699 at r=0.25",
+    "per_sample": {
+      "1695": {
+        "M": 3,
+        "expected_k": 2774,
+        "observed_k_values": [
+          2774
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "255": {
+        "M": 2,
+        "expected_k": 1850,
+        "observed_k_values": [
+          1850
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "37246": {
+        "M": 2,
+        "expected_k": 1850,
+        "observed_k_values": [
+          1850
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "43222": {
+        "M": 2,
+        "expected_k": 1850,
+        "observed_k_values": [
+          1850
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "46631": {
+        "M": 4,
+        "expected_k": 3699,
+        "observed_k_values": [
+          3699
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "4932": {
+        "M": 4,
+        "expected_k": 3699,
+        "observed_k_values": [
+          3699
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "50516": {
+        "M": 4,
+        "expected_k": 3699,
+        "observed_k_values": [
+          3699
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "50873": {
+        "M": 3,
+        "expected_k": 2774,
+        "observed_k_values": [
+          2774
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "51484": {
+        "M": 4,
+        "expected_k": 3699,
+        "observed_k_values": [
+          3699
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "51717": {
+        "M": 4,
+        "expected_k": 3699,
+        "observed_k_values": [
+          3699
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "56034": {
+        "M": 4,
+        "expected_k": 3699,
+        "observed_k_values": [
+          3699
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "56833": {
+        "M": 4,
+        "expected_k": 3699,
+        "observed_k_values": [
+          3699
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "56850": {
+        "M": 4,
+        "expected_k": 3699,
+        "observed_k_values": [
+          3699
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "57250": {
+        "M": 4,
+        "expected_k": 3699,
+        "observed_k_values": [
+          3699
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "57418": {
+        "M": 4,
+        "expected_k": 3699,
+        "observed_k_values": [
+          3699
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "59628": {
+        "M": 4,
+        "expected_k": 3699,
+        "observed_k_values": [
+          3699
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "63118": {
+        "M": 4,
+        "expected_k": 3699,
+        "observed_k_values": [
+          3699
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "63816": {
+        "M": 4,
+        "expected_k": 3699,
+        "observed_k_values": [
+          3699
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "64999": {
+        "M": 3,
+        "expected_k": 2774,
+        "observed_k_values": [
+          2774
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      },
+      "6713": {
+        "M": 2,
+        "expected_k": 1850,
+        "observed_k_values": [
+          1850
+        ],
+        "k_matches_expected": true,
+        "k_constant_across_checkpoints": true,
+        "k_consistent_across_lambda": true
+      }
+    },
+    "mismatches": [],
+    "status": "PASS"
+  },
+  "methods": {
+    "lambda_1": {
+      "n_samples": 20,
+      "sample_ids": [
+        "1695",
+        "255",
+        "37246",
+        "43222",
+        "46631",
+        "4932",
+        "50516",
+        "50873",
+        "51484",
+        "51717",
+        "56034",
+        "56833",
+        "56850",
+        "57250",
+        "57418",
+        "59628",
+        "63118",
+        "63816",
+        "64999",
+        "6713"
+      ],
+      "steps": [
+        0,
+        10,
+        25,
+        50,
+        75,
+        100,
+        150,
+        200
+      ],
+      "dup_steps": [],
+      "field_missing": [],
+      "nan_rows": [],
+      "linf_violations": [],
+      "issues": []
+    },
+    "lambda_0_25": {
+      "n_samples": 20,
+      "sample_ids": [
+        "1695",
+        "255",
+        "37246",
+        "43222",
+        "46631",
+        "4932",
+        "50516",
+        "50873",
+        "51484",
+        "51717",
+        "56034",
+        "56833",
+        "56850",
+        "57250",
+        "57418",
+        "59628",
+        "63118",
+        "63816",
+        "64999",
+        "6713"
+      ],
+      "steps": [
+        0,
+        10,
+        25,
+        50,
+        75,
+        100,
+        150,
+        200
+      ],
+      "dup_steps": [],
+      "field_missing": [],
+      "nan_rows": [],
+      "linf_violations": [],
+      "issues": []
+    }
+  },
+  "cross_method_issues": [],
+  "paired_csv_oracle_check": [],
+  "blockers": []
+}

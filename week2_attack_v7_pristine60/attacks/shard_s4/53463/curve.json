@@ -1,0 +1,241 @@
+[
+  {
+    "sample_id": "53463",
+    "step": 0,
+    "seed": 3543722381,
+    "pred_full": "CRIS CASE SUMMARY",
+    "pred_fastv": "CRIS",
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": 3.049999952316284,
+    "L_comp": 3.1000001430511475,
+    "L_soft_full": 0.69140625,
+    "keep_hash": "5e60c68f653ce40bc228f1a2cb4b3e000a5cfd1bf369075fddaf212af91a8541",
+    "k": 1850,
+    "aux_share": 0.32972972972972975,
+    "evidence_share": 0.6702702702702703,
+    "page_keep_counts": [
+      1240,
+      610
+    ],
+    "page_shares": [
+      0.6702702702702703,
+      0.32972972972972975
+    ],
+    "linf": 0.0,
+    "png": "checkpoints/step_000.png",
+    "png_sha256": "279348d9cbcfbdf0e12103aa057dd0f90a36bdd24b2a9368788bf3bceb6ac29c",
+    "protected_ok": true,
+    "grad_norm": 27.074865341186523
+  },
+  {
+    "sample_id": "53463",
+    "step": 10,
+    "seed": 3543722381,
+    "pred_full": "CRIS CASE SUMMARY",
+    "pred_fastv": "CRIS",
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": 2.75,
+    "L_comp": 2.75,
+    "L_soft_full": 0.71875,
+    "keep_hash": "8c89a336540d87400449153aa02a2978a3c386740f4f9cb3cd36447dc8524765",
+    "k": 1850,
+    "aux_share": 0.3324324324324324,
+    "evidence_share": 0.6675675675675675,
+    "page_keep_counts": [
+      1235,
+      615
+    ],
+    "page_shares": [
+      0.6675675675675675,
+      0.3324324324324324
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_010.png",
+    "png_sha256": "4faef5897d00cf948d0dbbef1e6b3caa8a7bedbdc9458f214ba878900dfcf65c",
+    "protected_ok": true,
+    "grad_norm": 9.10136890411377
+  },
+  {
+    "sample_id": "53463",
+    "step": 25,
+    "seed": 3543722381,
+    "pred_full": "CRIS CASE SUMMARY",
+    "pred_fastv": "Cris",
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": 2.2750000953674316,
+    "L_comp": 2.299999952316284,
+    "L_soft_full": 0.69921875,
+    "keep_hash": "d10a1be1f76280d97d11a7a67810d1b0ca2abc424c36858a02e7803d784a36b3",
+    "k": 1850,
+    "aux_share": 0.35243243243243244,
+    "evidence_share": 0.6475675675675676,
+    "page_keep_counts": [
+      1198,
+      652
+    ],
+    "page_shares": [
+      0.6475675675675676,
+      0.35243243243243244
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_025.png",
+    "png_sha256": "49eb76d6f781f96e21da7298f62fb79530fb0a6381d1fe5dc69109a1e4a6af5f",
+    "protected_ok": true,
+    "grad_norm": 23.794851303100586
+  },
+  {
+    "sample_id": "53463",
+    "step": 50,
+    "seed": 3543722381,
+    "pred_full": "CRIS CASE SUMMARY",
+    "pred_fastv": "Cris",
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": 1.9250000715255737,
+    "L_comp": 1.899999976158142,
+    "L_soft_full": 0.58203125,
+    "keep_hash": "73af317136dc8e4f233ae688e52d038a846efced942dec4a71054f9eed1fc278",
+    "k": 1850,
+    "aux_share": 0.36108108108108106,
+    "evidence_share": 0.6389189189189189,
+    "page_keep_counts": [
+      1182,
+      668
+    ],
+    "page_shares": [
+      0.6389189189189189,
+      0.36108108108108106
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_050.png",
+    "png_sha256": "8f7dc9bc1748be01ecd74246a67e7979fe8e0ff96119bfc174481c05d5e548d4",
+    "protected_ok": true,
+    "grad_norm": 10.228897094726562
+  },
+  {
+    "sample_id": "53463",
+    "step": 75,
+    "seed": 3543722381,
+    "pred_full": "CRIS CASE SUMMARY",
+    "pred_fastv": "Cris",
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": 1.524999976158142,
+    "L_comp": 1.5500000715255737,
+    "L_soft_full": 0.640625,
+    "keep_hash": "78b12df9d4fc4dc280b5c07d394d1b89af440748e05a8a80e53c4bc13fa0dc03",
+    "k": 1850,
+    "aux_share": 0.36,
+    "evidence_share": 0.64,
+    "page_keep_counts": [
+      1184,
+      666
+    ],
+    "page_shares": [
+      0.64,
+      0.36
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_075.png",
+    "png_sha256": "af6ee661712334068547768a3bba4c08ecf1123e931a6ab7f4d6244791fa470c",
+    "protected_ok": true,
+    "grad_norm": 19.71319007873535
+  },
+  {
+    "sample_id": "53463",
+    "step": 100,
+    "seed": 3543722381,
+    "pred_full": "CRIS CASE SUMMARY",
+    "pred_fastv": "Cris",
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": 1.212499976158142,
+    "L_comp": 1.350000023841858,
+    "L_soft_full": 0.62109375,
+    "keep_hash": "d9397d4bc968b71762ee164f0c9de9a8a58e257846941a6f8ebbedc82f41f1de",
+    "k": 1850,
+    "aux_share": 0.36162162162162165,
+    "evidence_share": 0.6383783783783784,
+    "page_keep_counts": [
+      1181,
+      669
+    ],
+    "page_shares": [
+      0.6383783783783784,
+      0.36162162162162165
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_100.png",
+    "png_sha256": "0c96ca367d84bec8ca8810f72698df3c5994eda5ff880e8fc7dac5f981702178",
+    "protected_ok": true,
+    "grad_norm": 11.939220428466797
+  },
+  {
+    "sample_id": "53463",
+    "step": 150,
+    "seed": 3543722381,
+    "pred_full": "CRIS CASE SUMMARY",
+    "pred_fastv": "Esophagus",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -0.17499999701976776,
+    "L_comp": 0.0625,
+    "L_soft_full": 0.59375,
+    "keep_hash": "5673908fd86aaa58c806d8e08603438287d42e64e1a3d157f8e0864ccfda1aea",
+    "k": 1850,
+    "aux_share": 0.3637837837837838,
+    "evidence_share": 0.6362162162162163,
+    "page_keep_counts": [
+      1177,
+      673
+    ],
+    "page_shares": [
+      0.6362162162162163,
+      0.3637837837837838
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_150.png",
+    "png_sha256": "0331a48e6725bbca3b9f5755fed1df0ad54c858e4cd8180a1e1d0bb75f56a2fa",
+    "protected_ok": true,
+    "grad_norm": 96.06806182861328
+  },
+  {
+    "sample_id": "53463",
+    "step": 200,
+    "seed": 3543722381,
+    "pred_full": "CRIS CASE SUMMARY",
+    "pred_fastv": "Esophagus",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -1.818750023841858,
+    "L_comp": -1.493749976158142,
+    "L_soft_full": 0.5390625,
+    "keep_hash": "b85130c4983633f49224e5957b75892d3fbabf6931c97a6d313542455a57dcb4",
+    "k": 1850,
+    "aux_share": 0.3627027027027027,
+    "evidence_share": 0.6372972972972973,
+    "page_keep_counts": [
+      1179,
+      671
+    ],
+    "page_shares": [
+      0.6372972972972973,
+      0.3627027027027027
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_200.png",
+    "png_sha256": "812661caf71e6ff0c5165e13f915ecaea3ba3c80a4b0805b2bd4ac8db29ecc10",
+    "protected_ok": true
+  }
+]

@@ -1,0 +1,413 @@
+{
+  "sample_id": "5962",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "259db74ce2e3afd1da96ca64b003f7dc9c57880fdcc65e43b80f01035470a7d2",
+  "full_clean": {
+    "text_a": "Alvin rice",
+    "text_b": "Alvin rice",
+    "tokens_a": [
+      2101,
+      9603,
+      19653,
+      151645
+    ],
+    "tokens_b": [
+      2101,
+      9603,
+      19653,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      2101,
+      9603,
+      19653,
+      151645
+    ],
+    "text": "Alvin rice",
+    "anls": 0.7692307692307692,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "357045672f02b96b6b17b6be3cea54d3409112eb16f3eca56c8f4be30e6fd153",
+    "k": 3699,
+    "second_keep_hash": "357045672f02b96b6b17b6be3cea54d3409112eb16f3eca56c8f4be30e6fd153",
+    "second_k": 3699
+  },
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "357045672f02b96b6b17b6be3cea54d3409112eb16f3eca56c8f4be30e6fd153",
+    "reference_keep_hash": "357045672f02b96b6b17b6be3cea54d3409112eb16f3eca56c8f4be30e6fd153",
+    "fast_keep_exact": true,
+    "k": 3699,
+    "reference_k": 3699
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 2,
+      "target_id": 19653,
+      "target_piece": " rice",
+      "candidate_id": 46835,
+      "candidate_piece": " Riley",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 4.0625,
+      "content_priority": 1,
+      "fast_gradient_l1": 4144.58203125,
+      "fast_gradient_l2": 11.72765064239502,
+      "estimated_fast_flip_linf": 0.0009801953416216389,
+      "full_clean_hard_min": 0.0,
+      "full_probe_hard_min": -0.0625,
+      "full_local_capacity_linf": 0.0,
+      "full_local_margin_available": false,
+      "reachability_ratio": 0.0,
+      "estimated_feasible_at_eps": false,
+      "clean_keep_hash": "357045672f02b96b6b17b6be3cea54d3409112eb16f3eca56c8f4be30e6fd153",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          2101,
+          9603,
+          46835,
+          15640,
+          13,
+          151645
+        ],
+        "text": "Alvin Riley Jr.",
+        "keep_hash": "92d349f323915ab254b51a8138d99e09a7debe1fa4f8ea581b1c29a5a02d9925",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.8571428571428572,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "alvinrileyjr",
+      "complete_lexical_similarity_to_clean": 0.7619047619047619,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          2101,
+          9603,
+          46835,
+          15640,
+          13,
+          151645
+        ],
+        "text": "Alvin Riley Jr.",
+        "keep_hash": "92d349f323915ab254b51a8138d99e09a7debe1fa4f8ea581b1c29a5a02d9925",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 19653,
+      "target_piece": " rice",
+      "candidate_id": 12066,
+      "candidate_piece": " Lee",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 4.1875,
+      "content_priority": 1,
+      "fast_gradient_l1": 4359.37646484375,
+      "fast_gradient_l2": 11.8169584274292,
+      "estimated_fast_flip_linf": 0.0009605731539292717,
+      "full_clean_hard_min": 0.0,
+      "full_probe_hard_min": 0.0625,
+      "full_local_capacity_linf": 0.0,
+      "full_local_margin_available": false,
+      "reachability_ratio": 0.0,
+      "estimated_feasible_at_eps": false,
+      "clean_keep_hash": "357045672f02b96b6b17b6be3cea54d3409112eb16f3eca56c8f4be30e6fd153",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          2101,
+          9603,
+          12066,
+          29516,
+          15640,
+          13,
+          151645
+        ],
+        "text": "Alvin Lee Rice Jr.",
+        "keep_hash": "319474456cb2ded76b7c701545694a9f6c50b3b50026d084a0d0df425806af54",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.7647058823529411,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "alvinleericejr",
+      "complete_lexical_similarity_to_clean": 0.782608695652174,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          2101,
+          9603,
+          12066,
+          29516,
+          15640,
+          13,
+          151645
+        ],
+        "text": "Alvin Lee Rice Jr.",
+        "keep_hash": "319474456cb2ded76b7c701545694a9f6c50b3b50026d084a0d0df425806af54",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 2101,
+      "target_piece": "Al",
+      "candidate_id": 66622,
+      "candidate_piece": "Albert",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 4.5,
+      "content_priority": 1,
+      "fast_gradient_l1": 4970.9619140625,
+      "fast_gradient_l2": 16.560245513916016,
+      "estimated_fast_flip_linf": 0.0009052573883677962,
+      "full_clean_hard_min": 0.0,
+      "full_probe_hard_min": 0.0625,
+      "full_local_capacity_linf": 0.0,
+      "full_local_margin_available": false,
+      "reachability_ratio": 0.0,
+      "estimated_feasible_at_eps": false,
+      "clean_keep_hash": "357045672f02b96b6b17b6be3cea54d3409112eb16f3eca56c8f4be30e6fd153",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          66622,
+          19653,
+          151645
+        ],
+        "text": "Albert rice",
+        "keep_hash": "fb966394d2144a6c1903eb31f0920cff54af180b180de5972fe0e2ad49e51eec",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "albertrice",
+      "complete_lexical_similarity_to_clean": 0.631578947368421,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          66622,
+          19653,
+          151645
+        ],
+        "text": "Albert rice",
+        "keep_hash": "fb966394d2144a6c1903eb31f0920cff54af180b180de5972fe0e2ad49e51eec",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 2101,
+      "target_piece": "Al",
+      "candidate_id": 19,
+      "candidate_piece": "4",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 4.5625,
+      "content_priority": 1,
+      "fast_gradient_l1": 4116.384765625,
+      "fast_gradient_l2": 10.389439582824707,
+      "estimated_fast_flip_linf": 0.0011083754944631046,
+      "full_clean_hard_min": 0.0,
+      "full_probe_hard_min": 0.125,
+      "full_local_capacity_linf": 0.0,
+      "full_local_margin_available": false,
+      "reachability_ratio": 0.0,
+      "estimated_feasible_at_eps": false,
+      "clean_keep_hash": "357045672f02b96b6b17b6be3cea54d3409112eb16f3eca56c8f4be30e6fd153",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          19,
+          425,
+          220,
+          22,
+          1863,
+          425,
+          506,
+          328,
+          468,
+          451,
+          328,
+          151645
+        ],
+        "text": "4 B 7 Z B O S E N S",
+        "keep_hash": "0dd9ac832d0eb8d3254e890675a734f9cab1c238993901d791abb0367502dfd2",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "4b7zbosens",
+      "complete_lexical_similarity_to_clean": 0.10526315789473684,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          19,
+          425,
+          220,
+          22,
+          1863,
+          425,
+          506,
+          328,
+          468,
+          451,
+          328,
+          151645
+        ],
+        "text": "4 B 7 Z B O S E N S",
+        "keep_hash": "0dd9ac832d0eb8d3254e890675a734f9cab1c238993901d791abb0367502dfd2",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 2101,
+      "target_piece": "Al",
+      "candidate_id": 67624,
+      "candidate_piece": "Alan",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 4.625,
+      "content_priority": 1,
+      "fast_gradient_l1": 3395.63720703125,
+      "fast_gradient_l2": 11.434008598327637,
+      "estimated_fast_flip_linf": 0.001362041854890488,
+      "full_clean_hard_min": 0.0,
+      "full_probe_hard_min": 0.0625,
+      "full_local_capacity_linf": 0.0,
+      "full_local_margin_available": false,
+      "reachability_ratio": 0.0,
+      "estimated_feasible_at_eps": false,
+      "clean_keep_hash": "357045672f02b96b6b17b6be3cea54d3409112eb16f3eca56c8f4be30e6fd153",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          67624,
+          19653,
+          151645
+        ],
+        "text": "Alan rice",
+        "keep_hash": "bba447908232f983e69f11729a63bd765ed2279a4167b13b60bf529c3ee0187f",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.6153846153846154,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "alanrice",
+      "complete_lexical_similarity_to_clean": 0.8235294117647058,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          67624,
+          19653,
+          151645
+        ],
+        "text": "Alan rice",
+        "keep_hash": "bba447908232f983e69f11729a63bd765ed2279a4167b13b60bf529c3ee0187f",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 2101,
+      "target_piece": "Al",
+      "candidate_id": 27387,
+      "candidate_piece": "Alex",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 4.625,
+      "content_priority": 1,
+      "fast_gradient_l1": 5872.71728515625,
+      "fast_gradient_l2": 20.370647430419922,
+      "estimated_fast_flip_linf": 0.0007875400390361116,
+      "full_clean_hard_min": 0.0,
+      "full_probe_hard_min": 0.0,
+      "full_local_capacity_linf": 0.0,
+      "full_local_margin_available": false,
+      "reachability_ratio": 0.0,
+      "estimated_feasible_at_eps": false,
+      "clean_keep_hash": "357045672f02b96b6b17b6be3cea54d3409112eb16f3eca56c8f4be30e6fd153",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          27387,
+          258,
+          19653,
+          151645
+        ],
+        "text": "Alexin rice",
+        "keep_hash": "b21d7b3aff6397638ef877f727dfab2d864495bf72711fbebae93066af19002a",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.6153846153846154,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "alexinrice",
+      "complete_lexical_similarity_to_clean": 0.8421052631578947,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          27387,
+          258,
+          19653,
+          151645
+        ],
+        "text": "Alexin rice",
+        "keep_hash": "b21d7b3aff6397638ef877f727dfab2d864495bf72711fbebae93066af19002a",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 18,
+    "screen_admitted_after_limit": 6,
+    "screen_rejected": 0,
+    "estimated": 6
+  },
+  "rejected_proposals": [],
+  "candidate_generation_wall_seconds": 83.255,
+  "candidate_generation_compute_accounting": "wall time recorded; attack-phase forward/backward/generate counters do not include this clean-only stage"
+}

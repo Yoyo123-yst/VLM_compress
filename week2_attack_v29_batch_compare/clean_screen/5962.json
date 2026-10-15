@@ -1,0 +1,43 @@
+{
+  "sample_id": "5962",
+  "question": "What is the name mentioned?",
+  "answers": [
+    "Alvin Rice, Jr"
+  ],
+  "clean_full_text": "Alvin rice",
+  "clean_full_tokens": [
+    2101,
+    9603,
+    19653,
+    151645
+  ],
+  "clean_fastv_text": "Alvin rice",
+  "clean_fastv_tokens": [
+    2101,
+    9603,
+    19653,
+    151645
+  ],
+  "clean_full_anls": 0.7692307692307692,
+  "clean_fastv_anls": 0.7692307692307692,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "357045672f02b96b6b17b6be3cea54d3409112eb16f3eca56c8f4be30e6fd153",
+  "keep_hash_repeat": "357045672f02b96b6b17b6be3cea54d3409112eb16f3eca56c8f4be30e6fd153",
+  "page_sha256": [
+    "6371f9d65919c3386c07cc28ae6a6d4b085f60d282c3067e6399a21c3298e02a",
+    "01c3f0b7b5c738528fe59aaec99d234daf1d7922abcd3099598a367337ebdf91",
+    "f9bda4bced10a49336e11663963b811aed86d985a54f5f13ff32a4fbc91c5496",
+    "37657acbd7db67e9baa7a3372592feedcfad277e494e0c7ba61a662414b456f9"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 3,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.076
+}

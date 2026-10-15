@@ -1,0 +1,92 @@
+{
+  "status": "COMPLETE",
+  "n_conditions": 600,
+  "alignment": "600/600",
+  "historical_b_strict_r025": "52/60",
+  "historical_strict_replaced": false,
+  "by_budget": {
+    "0.5": {
+      "b_strict": "11/60",
+      "noise_strict": "0/60",
+      "attack_only": 11,
+      "noise_only": 0,
+      "mcnemar_p": 0.0009765625,
+      "delta_mean": 1.8817903686946582,
+      "delta_median": 1.8186914920806885,
+      "delta_stdev": 1.80325093675644,
+      "delta_ci95": [
+        1.4151965317340816,
+        2.3210411645421822
+      ],
+      "delta_positive_fraction": 0.95
+    },
+    "0.35": {
+      "b_strict": "48/60",
+      "noise_strict": "0/60",
+      "attack_only": 48,
+      "noise_only": 0,
+      "mcnemar_p": 7.105427357601002e-15,
+      "delta_mean": 2.712757544251284,
+      "delta_median": 2.888147538900375,
+      "delta_stdev": 2.094714692756134,
+      "delta_ci95": [
+        2.152287914381487,
+        3.224956684949445
+      ],
+      "delta_positive_fraction": 0.9
+    },
+    "0.25": {
+      "b_strict": "52/60",
+      "noise_strict": "1/60",
+      "attack_only": 51,
+      "noise_only": 0,
+      "mcnemar_p": 8.881784197001252e-16,
+      "delta_mean": 2.3897961873921316,
+      "delta_median": 2.6409363879097834,
+      "delta_stdev": 2.2249899065955083,
+      "delta_ci95": [
+        1.803415420325492,
+        2.9331822013404314
+      ],
+      "delta_positive_fraction": 0.9
+    },
+    "0.15": {
+      "b_strict": "45/60",
+      "noise_strict": "13/60",
+      "attack_only": 33,
+      "noise_only": 1,
+      "mcnemar_p": 4.0745362639427185e-09,
+      "delta_mean": 2.227313182319989,
+      "delta_median": 1.8530589898427334,
+      "delta_stdev": 2.1273743586850595,
+      "delta_ci95": [
+        1.6828051181132109,
+        2.758236202161903
+      ],
+      "delta_positive_fraction": 0.8166666666666667
+    }
+  },
+  "sweet_versus_outer": {
+    "sweet_mean": 2.551276865821707,
+    "outer_mean": 2.0545517755073233,
+    "paired_diff_mean": 0.49672509031438444,
+    "paired_diff_ci95": [
+      0.10238903773316363,
+      0.8880113772196924
+    ],
+    "sign_test": {
+      "n_nonzero": 60,
+      "n_positive": 34,
+      "n_negative": 26,
+      "n_zero_excluded": 0,
+      "p_two_sided": 0.36629400670329104
+    }
+  },
+  "remeasured_b_strict_counts": {
+    "0.5": 11,
+    "0.35": 48,
+    "0.25": 52,
+    "0.15": 45
+  },
+  "decision": "PASS_NATIVE60_SWEET_SPOT_AND_DIFFERENTIAL_SUPPORTED"
+}

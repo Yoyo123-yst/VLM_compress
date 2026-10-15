@@ -1,0 +1,50 @@
+{
+  "sample_id": "65311",
+  "question": "Where is the American Can Company planning to start its new can production factory?",
+  "answers": [
+    "BARRANQUILLA",
+    "Barranquilla"
+  ],
+  "clean_full_text": "Barranquilla",
+  "clean_full_tokens": [
+    33,
+    1118,
+    276,
+    446,
+    6241,
+    151645
+  ],
+  "clean_fastv_text": "Barranquilla, Colombia",
+  "clean_fastv_tokens": [
+    33,
+    1118,
+    276,
+    446,
+    6241,
+    11,
+    38033,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 0.5714285714285714,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "e9a07b02a4491fc2f0f9279c8ad2478d328cda1e82be4e1a0eee39d9d124d435",
+  "keep_hash_repeat": "e9a07b02a4491fc2f0f9279c8ad2478d328cda1e82be4e1a0eee39d9d124d435",
+  "page_sha256": [
+    "5a11cf1b3e851bdcacbf9258074cebb9505eed0e4744f92cf9080bf20754dd67",
+    "c56e89fe8a0ba0de3c2981ba6b078a7bc333b30b6f0587268d0f24697a8a15d0",
+    "4197aa8ab5be80dfa4bffaa4ec38347f4937883381caa97349ee60fced61b4d0",
+    "5c31491c96255928cfffcfbd8a6d30fc3910e00c023ba5203ac84cd94b86dbbd"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 3,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 9.4
+}

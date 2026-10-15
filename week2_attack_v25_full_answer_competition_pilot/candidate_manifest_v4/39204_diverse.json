@@ -1,0 +1,35 @@
+{
+  "sample_id": "39204",
+  "ratio": 0.25,
+  "clean_fastv_text": "FOOD TECHNOLOGY",
+  "clean_fastv_tokens": [
+    3788,
+    2069,
+    87534,
+    51432,
+    151645
+  ],
+  "clean_keep_hash": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+  "candidate_selection_uses_labels": false,
+  "attacked_png_used": false,
+  "status": "DIVERSE_CLEAN_CANDIDATES_PENDING_SEMANTIC_REVIEW",
+  "candidates": [
+    {
+      "seed": 2026101500,
+      "tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "text": "FOOD TECHNOLOGY",
+      "keep_hash": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+      "k": 3699
+    }
+  ],
+  "seed_range": [
+    2026101500,
+    2026101519
+  ]
+}

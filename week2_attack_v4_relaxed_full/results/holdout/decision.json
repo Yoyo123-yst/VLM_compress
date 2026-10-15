@@ -1,0 +1,64 @@
+{
+  "stage": "D",
+  "health": "complete",
+  "completed_samples": 20,
+  "baseline_completed": 20,
+  "candidate_completed": 20,
+  "invalid_outputs": 0,
+  "strict_csfr": 0.85,
+  "full_error_rate": 0.0,
+  "fastv_error_rate": 0.85,
+  "error_rate_gap": 0.85,
+  "mean_DF": 0.0,
+  "mean_DC": 0.7329957860337118,
+  "mean_G": 0.7329957860337118,
+  "baseline": {
+    "n": 20,
+    "strict_csfr": 0.7,
+    "reverse_failure": 0.0,
+    "both_wrong": 0.0,
+    "both_right": 0.3,
+    "full_error_rate": 0.0,
+    "fastv_error_rate": 0.7,
+    "error_rate_gap": 0.7,
+    "mean_DF": 0.0,
+    "mean_DC": 0.6290469842907924,
+    "mean_G": 0.6290469842907924,
+    "invalid": 0,
+    "ids_strict": [
+      "1695",
+      "255",
+      "37246",
+      "43222",
+      "46631",
+      "50516",
+      "50873",
+      "51717",
+      "56034",
+      "56833",
+      "56850",
+      "57418",
+      "59628",
+      "63118"
+    ]
+  },
+  "wilson_strict_csfr": [
+    0.6395767041130426,
+    0.9476322080405041
+  ],
+  "mcnemar_p_exact": 0.25,
+  "discordant_candidate_only": 3,
+  "discordant_baseline_only": 0,
+  "mean_G_difference_ci95_normal": [
+    -0.0080644757236355,
+    0.21596207920947427
+  ],
+  "decision": "HOLDOUT_SUPPORTS_STRICT_COMP_ONLY",
+  "evidence": [
+    "paired n=20",
+    "candidate strict 17/20",
+    "McNemar discordant candidate-only 3, baseline-only 0"
+  ],
+  "next_action": "write final report",
+  "next_command": ""
+}

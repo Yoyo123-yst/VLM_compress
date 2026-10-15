@@ -1,0 +1,68 @@
+{
+  "sample_id": "47450",
+  "chosen_step": 100,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "Dr. or Mrs. William J. Darby",
+  "clean_text": "Dr. or Mrs. William J. Darby",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 6.253439426422119,
+  "pollution": 0,
+  "strict_train": 1,
+  "by_ratio": {
+    "0.50": {
+      "text": "Dr. or Mrs. William J. Darby",
+      "anls": 1.0,
+      "margin": 5.591222763061523,
+      "keep": {
+        "k": 7398,
+        "keep_hash": "0d9752a58c408f512e44ebfc56bc9d6e7235d3116fc6269a0085466f6ae1758c",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 0.6622166633605957
+    },
+    "0.35": {
+      "text": "Wells Fargo",
+      "anls": 0.0,
+      "margin": -0.8499271869659424,
+      "keep": {
+        "k": 5179,
+        "keep_hash": "64ec0625f005581f6acd129302b0801f1af7f6389407a09cc026a525650a5168",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 7.1033666133880615
+    },
+    "0.25": {
+      "text": "THE NESTLETTLE CEDONS HAC",
+      "anls": 0.0,
+      "margin": -0.17415913939476013,
+      "keep": {
+        "k": 3699,
+        "keep_hash": "18bc57d5ae538ddf64ca437d3818e5c742618e210e9ea27de45b9a4bc92d1e33",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 6.427598565816879
+    },
+    "0.15": {
+      "text": "Dr. or Mrs. William J. Darby",
+      "anls": 1.0,
+      "margin": 4.505669593811035,
+      "keep": {
+        "k": 2219,
+        "keep_hash": "01a7324533f3a0a1f32bd37d08eb287fb1c5cae3265fc5c1b863b7da5dccd7a1",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 1.747769832611084
+    }
+  },
+  "selector_margin": -0.5120431631803513
+}

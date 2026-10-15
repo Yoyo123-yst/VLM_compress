@@ -1,0 +1,83 @@
+{
+  "decision": "SELECT_NATIVE_FDP",
+  "selected_method": "NATIVE_FDP",
+  "reason": "NATIVE_FDP cleared the hard gates and ranks above B_NATIVE and B_PLUS on strict count.",
+  "eligible_pool": [
+    "B_NATIVE",
+    "NATIVE_FDP",
+    "B_PLUS"
+  ],
+  "bplus_eligible": true,
+  "transitions_vs_b_native": {
+    "B_NATIVE": {
+      "gains": [],
+      "losses": [],
+      "net": 0
+    },
+    "NATIVE_FDP": {
+      "gains": [
+        "2008",
+        "50779",
+        "51133",
+        "60700"
+      ],
+      "losses": [],
+      "net": 4
+    },
+    "B_PLUS": {
+      "gains": [
+        "2008",
+        "51133",
+        "60700"
+      ],
+      "losses": [],
+      "net": 3
+    }
+  },
+  "scope": "12-question development selection only; not a generalization result",
+  "canonical_strict": "valid AND nonzero AND uint8 Linf<=8/255 AND Full text exact AND FastV ANLS<0.5 at both r=0.25 and r=0.35 AND disk replay",
+  "historical_b_52_of_60": "unchanged; this run does not rewrite it",
+  "r015_31_vs_45": "definition drift; the two historical predicates are not interchangeable",
+  "unseen_cohort_started": false,
+  "summaries": {
+    "B_NATIVE": {
+      "method": "B_NATIVE",
+      "status": "RUN",
+      "n": 12,
+      "full_exact": 12,
+      "replay": 12,
+      "nonzero_linf": 12,
+      "invalid": 0,
+      "strict": 6,
+      "pollution": 0,
+      "mean_delta": 5.810831843720128,
+      "hard_pass": true
+    },
+    "NATIVE_FDP": {
+      "method": "NATIVE_FDP",
+      "status": "RUN",
+      "n": 12,
+      "full_exact": 12,
+      "replay": 12,
+      "nonzero_linf": 12,
+      "invalid": 0,
+      "strict": 10,
+      "pollution": 0,
+      "mean_delta": 5.714846881106496,
+      "hard_pass": true
+    },
+    "B_PLUS": {
+      "method": "B_PLUS",
+      "status": "RUN",
+      "n": 12,
+      "full_exact": 12,
+      "replay": 12,
+      "nonzero_linf": 12,
+      "invalid": 0,
+      "strict": 9,
+      "pollution": 0,
+      "mean_delta": 9.160916277517876,
+      "hard_pass": true
+    }
+  }
+}

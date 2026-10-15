@@ -1,0 +1,53 @@
+{
+  "sample_id": "5663",
+  "question": "what is the venue address?",
+  "answers": [
+    "1123 decatur street",
+    "1123 Decatur Street"
+  ],
+  "clean_full_text": "1170 DECATUR STREET",
+  "clean_full_tokens": [
+    16,
+    16,
+    22,
+    15,
+    3385,
+    28196,
+    1511,
+    84561,
+    151645
+  ],
+  "clean_fastv_text": "117 DEEDER ST",
+  "clean_fastv_tokens": [
+    16,
+    16,
+    22,
+    3385,
+    1479,
+    640,
+    3928,
+    151645
+  ],
+  "clean_full_anls": 0.8947368421052632,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "f614c3f70de75868e9e7e5115536f1e935a6a1a2289f7d6d94501c49063363ee",
+  "keep_hash_repeat": "f614c3f70de75868e9e7e5115536f1e935a6a1a2289f7d6d94501c49063363ee",
+  "page_sha256": [
+    "05e2dbc45f2086460ff7259c067673c8ec7ee1b41282b866e431a0de9fdc98cb",
+    "7daab9de87a9fb2efa05bf895c26c4e0f6cb0890d6fe63a6c08314a2a73b8151",
+    "a9edca6652c79bce03309311b7912159ce5f4b6949b848a87f0d71c2f175368f",
+    "c4ef884086b1e0ad3c8dd4e89f3546dbf75af90418b999237044f291de86336d"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 2,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.992
+}

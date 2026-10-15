@@ -1,0 +1,25 @@
+{
+  "status": "DEV_STEP3_LOCAL_WITNESS_STEP4_REQUIRED_NO_UNSEEN",
+  "unseen_opened": false,
+  "samples": [
+    "47567",
+    "50779",
+    "51133",
+    "6194",
+    "62941",
+    "64506"
+  ],
+  "n_trajectories": 18,
+  "fixed_target_exact_by_method": {
+    "native_fdp": 0,
+    "complete_target": 0,
+    "complete_front": 2
+  },
+  "all_guards_pass": true,
+  "reports": [
+    "v26_step1_endpoint_reconciliation.md",
+    "v26_step2_equal_compute_report.md",
+    "v26_step3_fixed_dev_report.md",
+    "v26_step4_first_token_audit.json"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "env": {
+    "cublas": ":4096:8",
+    "attn": "sdpa",
+    "resize": "bilinear",
+    "deterministic": true
+  },
+  "sample": "1025",
+  "group": "O1",
+  "steps": 3,
+  "checkpoint_mode": "dense",
+  "checkpoints": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "status": "DONE"
+}

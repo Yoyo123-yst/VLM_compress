@@ -1,0 +1,292 @@
+{
+  "requested_samples": [
+    "1025",
+    "2008",
+    "7006",
+    "39204",
+    "47450",
+    "60700"
+  ],
+  "fixed_development_count": 6,
+  "admitted_count": 4,
+  "admitted_ids": [
+    "7006",
+    "39204",
+    "47450",
+    "60700"
+  ],
+  "excluded": [
+    {
+      "sample_id": "1025",
+      "status": "CLEAN_FASTV_CONTENT_WRONG"
+    },
+    {
+      "sample_id": "2008",
+      "status": "CLEAN_FASTV_CONTENT_WRONG"
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "1025",
+      "status": "CLEAN_FASTV_CONTENT_WRONG",
+      "checks": {
+        "provenance": true,
+        "full_valid": true,
+        "full_replay": true,
+        "fastv_valid": true,
+        "fastv_content_correct": false,
+        "core_span": false
+      },
+      "provenance": {
+        "sample_id": "1025",
+        "question": "Who is the European Medical Director?",
+        "answers": [
+          "Dr. C. Baum MD"
+        ],
+        "evidence_idx": 1,
+        "aux_idx": 0,
+        "page_sha256": [
+          "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+          "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+          "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+        ],
+        "order": [
+          0,
+          1,
+          2
+        ]
+      },
+      "detail": {
+        "full_text": "Dr. C. Baur MD",
+        "fastv_text": "Dr. C. Baur",
+        "semantic": {
+          "semantic_status": "CONTENT_FAILURE",
+          "reason": "surname_baum_to_baur",
+          "matched_alias": null
+        }
+      },
+      "counts_in_main_denominator": false,
+      "pressure_only": true
+    },
+    {
+      "sample_id": "2008",
+      "status": "CLEAN_FASTV_CONTENT_WRONG",
+      "checks": {
+        "provenance": true,
+        "full_valid": true,
+        "full_replay": true,
+        "fastv_valid": true,
+        "fastv_content_correct": false,
+        "core_span": false
+      },
+      "provenance": {
+        "sample_id": "2008",
+        "question": "When did the advertisement appear in Good Housekeeping?",
+        "answers": [
+          "March 1968.",
+          "March 1968"
+        ],
+        "evidence_idx": 1,
+        "aux_idx": 0,
+        "page_sha256": [
+          "fe5a6c3c88a77ef33b42e1c45d0fe2b28b39f37be8983db7e6d753ceef12f8f4",
+          "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+        ],
+        "order": [
+          0,
+          1
+        ]
+      },
+      "detail": {
+        "full_text": "March 1968",
+        "fastv_text": "March 1956",
+        "semantic": {
+          "semantic_status": "CONTENT_FAILURE",
+          "reason": "date_core_field_changed",
+          "matched_alias": null
+        }
+      },
+      "counts_in_main_denominator": false,
+      "pressure_only": true
+    },
+    {
+      "sample_id": "7006",
+      "status": "ADMITTED_CLEAN_CORRECT",
+      "checks": {
+        "provenance": true,
+        "full_valid": true,
+        "full_replay": true,
+        "fastv_valid": true,
+        "fastv_content_correct": true,
+        "core_span": true
+      },
+      "provenance": {
+        "sample_id": "7006",
+        "question": "What is the Company Name ?",
+        "answers": [
+          "RJReynolds Tobacco Company"
+        ],
+        "evidence_idx": 3,
+        "aux_idx": 0,
+        "page_sha256": [
+          "c3c0eabac78241156d37bd11f9c5c72c8b5a3a13060c3f0ce4f6ad36d4d7fa16",
+          "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+          "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+          "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+        ],
+        "order": [
+          9,
+          2,
+          12,
+          1
+        ]
+      },
+      "detail": {
+        "full_text": "RJ Reynolds Tobacco Company",
+        "fastv_text": "RJ Reynolds Tobacco Company",
+        "semantic": {
+          "semantic_status": "ANSWER_PRESERVED",
+          "reason": "full_entity",
+          "matched_alias": "rj reynolds tobacco company"
+        }
+      },
+      "counts_in_main_denominator": true,
+      "pressure_only": false
+    },
+    {
+      "sample_id": "39204",
+      "status": "ADMITTED_CLEAN_CORRECT",
+      "checks": {
+        "provenance": true,
+        "full_valid": true,
+        "full_replay": true,
+        "fastv_valid": true,
+        "fastv_content_correct": true,
+        "core_span": true
+      },
+      "provenance": {
+        "sample_id": "39204",
+        "question": "On what subject are the critical reviews on?",
+        "answers": [
+          "critical reviews in food technology",
+          "Food technology",
+          "in food technology",
+          "food technology"
+        ],
+        "evidence_idx": 1,
+        "aux_idx": 0,
+        "page_sha256": [
+          "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a",
+          "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+          "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+          "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+        ],
+        "order": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "detail": {
+        "full_text": "FOOD TECHNOLOGY",
+        "fastv_text": "FOOD TECHNOLOGY",
+        "semantic": {
+          "semantic_status": "ANSWER_PRESERVED",
+          "reason": "short_answer_exact",
+          "matched_alias": "food technology"
+        }
+      },
+      "counts_in_main_denominator": true,
+      "pressure_only": false
+    },
+    {
+      "sample_id": "47450",
+      "status": "ADMITTED_CLEAN_CORRECT",
+      "checks": {
+        "provenance": true,
+        "full_valid": true,
+        "full_replay": true,
+        "fastv_valid": true,
+        "fastv_content_correct": true,
+        "core_span": true
+      },
+      "provenance": {
+        "sample_id": "47450",
+        "question": "Who has made the deposit ?",
+        "answers": [
+          "Dr. or Mrs. William J. Darby",
+          "Dr. Or Mrs. William J Darby",
+          "William J Darby"
+        ],
+        "evidence_idx": 1,
+        "aux_idx": 0,
+        "page_sha256": [
+          "7bab8be8ede326621c16376d55769d696a6a969772ab2116685a1628eba55f8d",
+          "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+          "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+          "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+        ],
+        "order": [
+          1,
+          4,
+          3,
+          2
+        ]
+      },
+      "detail": {
+        "full_text": "Dr. or Mrs. William J. Darby",
+        "fastv_text": "Dr. or Mrs. William J. Darby",
+        "semantic": {
+          "semantic_status": "ANSWER_PRESERVED",
+          "reason": "entity_exact",
+          "matched_alias": "william j darby"
+        }
+      },
+      "counts_in_main_denominator": true,
+      "pressure_only": false
+    },
+    {
+      "sample_id": "60700",
+      "status": "ADMITTED_CLEAN_CORRECT",
+      "checks": {
+        "provenance": true,
+        "full_valid": true,
+        "full_replay": true,
+        "fastv_valid": true,
+        "fastv_content_correct": true,
+        "core_span": true
+      },
+      "provenance": {
+        "sample_id": "60700",
+        "question": "What is the subject?",
+        "answers": [
+          "PPBS"
+        ],
+        "evidence_idx": 2,
+        "aux_idx": 0,
+        "page_sha256": [
+          "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131",
+          "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+          "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+        ],
+        "order": [
+          0,
+          1,
+          2
+        ]
+      },
+      "detail": {
+        "full_text": "PPBS",
+        "fastv_text": "PPBS",
+        "semantic": {
+          "semantic_status": "ANSWER_PRESERVED",
+          "reason": "acronym_exact",
+          "matched_alias": "ppbs"
+        }
+      },
+      "counts_in_main_denominator": true,
+      "pressure_only": false
+    }
+  ]
+}

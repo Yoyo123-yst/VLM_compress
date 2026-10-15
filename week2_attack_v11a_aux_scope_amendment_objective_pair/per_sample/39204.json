@@ -1,0 +1,49 @@
+{
+  "sample_id": "39204",
+  "h0_replay": "BLOCKED_H0_REPLAY_DIVERGED",
+  "earliest_mismatch_step": 10,
+  "step0_png_match": true,
+  "question": "On what subject are the critical reviews on?",
+  "aux_idx": 0,
+  "page_sha256": [
+    "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a",
+    "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+    "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+    "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+  ],
+  "step10": {
+    "historical_png": "3724e56f15b6c00f705782b0eec900eff5e84e1568fbb57d45cb9fc6a2cacf27",
+    "h0_png": "6a2cc0e0ed69c4b11b900675aacb4bc9f52219f718b46ce6b0f22cb1a4d1b2b4",
+    "historical_full": "FOOD TECHNOLOGY",
+    "h0_full": "FOOD TECHNOLOGY",
+    "historical_fastv_0.25": "FOOD TECHNOLOGY",
+    "h0_fastv_0.25": "Food technology",
+    "historical_fastv_0.35": "FOOD TECHNOLOGY",
+    "h0_fastv_0.35": "FOOD TECHNOLOGY",
+    "historical_keep_0.25": "d052e1a86535010cd5b78db3b43cef27100c554c2381933401e65796dae10b56",
+    "h0_keep_0.25": "fb2999151000c9ff51fcf60d7cce5a0fdc3b5b695c7b58738baa15abcdfbc080",
+    "historical_keep_0.35": "ca4e03486128d70e962e0f16a84d509d0edf94207a767a88652f0f0a9c8d3022",
+    "h0_keep_0.35": "ba821004d56e6940b83b40b70b29dc9a1b3b351866aa56b189957d37cf339df7",
+    "historical_margin": 5.4968085289001465,
+    "h0_margin": 3.8733975887298584,
+    "token_ids": "未测"
+  },
+  "historical_selector_step": 100,
+  "h0_selector_step": 100,
+  "train_counters": {
+    "forward": 2705,
+    "backward": 600,
+    "generate": 425,
+    "fastv": 416,
+    "generated_tokens": 2410
+  },
+  "elapsed_sec": 2579.4,
+  "peak_memory_mib": 30725.8,
+  "h1": "NOT_RUN",
+  "sealed_selector_result": "NOT_RUN",
+  "trajectory_oracle_result": "NOT_RUN",
+  "ratios_0.15_and_0.50": "NOT_RUN",
+  "noise": "NOT_RUN",
+  "pgd": "NOT_RUN",
+  "opgd": "NOT_RUN"
+}

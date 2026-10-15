@@ -1,0 +1,177 @@
+{
+  "samples": [
+    {
+      "sample_id": "1025",
+      "sealed": true,
+      "pages": [
+        {
+          "index": 0,
+          "sha256": "60e2e48a9b255721bd7ab78b18bc05fc6cd4f5aed6a1c5a6b7a67293988b4daa",
+          "aux": true
+        },
+        {
+          "index": 1,
+          "sha256": "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+          "aux": false
+        },
+        {
+          "index": 2,
+          "sha256": "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f",
+          "aux": false
+        }
+      ],
+      "checkpoint": 150,
+      "family": "BasePreservingAdaptivePool",
+      "seed": 2026101117,
+      "nonzero": true,
+      "linf": 0.03137257695198059,
+      "png_sha256": "60e2e48a9b255721bd7ab78b18bc05fc6cd4f5aed6a1c5a6b7a67293988b4daa",
+      "clean_text": "Dr. C. Baur MD",
+      "clean_tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        4110,
+        13979,
+        151645
+      ],
+      "aux_idx": 0,
+      "evidence_idx": 1
+    },
+    {
+      "sample_id": "2008",
+      "sealed": true,
+      "pages": [
+        {
+          "index": 0,
+          "sha256": "6f8070150d450656ec4b123b60ede8b59b6b3fdca34d36290bba0d92cf811a9b",
+          "aux": true
+        },
+        {
+          "index": 1,
+          "sha256": "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24",
+          "aux": false
+        }
+      ],
+      "checkpoint": 100,
+      "family": "BasePreservingAdaptivePool",
+      "seed": 2026101117,
+      "nonzero": true,
+      "linf": 0.03137257695198059,
+      "png_sha256": "6f8070150d450656ec4b123b60ede8b59b6b3fdca34d36290bba0d92cf811a9b",
+      "clean_text": "March 1968",
+      "clean_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        23,
+        151645
+      ],
+      "aux_idx": 0,
+      "evidence_idx": 1
+    },
+    {
+      "sample_id": "7006",
+      "sealed": true,
+      "pages": [
+        {
+          "index": 0,
+          "sha256": "1af6a0f9581600d4c8f073024a764cb68f8007451ea607f58adeaab8fce5167e",
+          "aux": true
+        },
+        {
+          "index": 1,
+          "sha256": "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+          "aux": false
+        },
+        {
+          "index": 2,
+          "sha256": "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+          "aux": false
+        },
+        {
+          "index": 3,
+          "sha256": "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284",
+          "aux": false
+        }
+      ],
+      "checkpoint": 50,
+      "family": "BasePreservingAdaptivePool",
+      "seed": 2026101117,
+      "nonzero": true,
+      "linf": 0.03137257695198059,
+      "png_sha256": "1af6a0f9581600d4c8f073024a764cb68f8007451ea607f58adeaab8fce5167e",
+      "clean_text": "RJ Reynolds Tobacco Company",
+      "clean_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "aux_idx": 0,
+      "evidence_idx": 3
+    },
+    {
+      "sample_id": "39204",
+      "sealed": false,
+      "status": "NO_VALID_SEALED_CANDIDATE"
+    },
+    {
+      "sample_id": "47450",
+      "sealed": true,
+      "pages": [
+        {
+          "index": 0,
+          "sha256": "fef49d7ae22ce8a9b8e9143fa108d558add04ae0b0cafb41c3fd68e6eaace7d0",
+          "aux": true
+        },
+        {
+          "index": 1,
+          "sha256": "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+          "aux": false
+        },
+        {
+          "index": 2,
+          "sha256": "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+          "aux": false
+        },
+        {
+          "index": 3,
+          "sha256": "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517",
+          "aux": false
+        }
+      ],
+      "checkpoint": 25,
+      "family": "BasePreservingAdaptivePool",
+      "seed": 2026101117,
+      "nonzero": true,
+      "linf": 0.03137257695198059,
+      "png_sha256": "fef49d7ae22ce8a9b8e9143fa108d558add04ae0b0cafb41c3fd68e6eaace7d0",
+      "clean_text": "Dr. or Mrs. William J. Darby",
+      "clean_tokens": [
+        8847,
+        13,
+        476,
+        17618,
+        13,
+        12375,
+        619,
+        13,
+        15017,
+        1694,
+        151645
+      ],
+      "aux_idx": 0,
+      "evidence_idx": 1
+    }
+  ],
+  "sealed_count": 4,
+  "fastv_access_count": 0,
+  "fastv_modules": []
+}

@@ -1,0 +1,27 @@
+{
+  "status": "EVALUATED_INDEPENDENT_PROCESS",
+  "sample_id": "4449",
+  "method": "native_fdp",
+  "independent_process": true,
+  "png_path": "week2_attack_v29_batch_compare/attacks/native_fdp/4449/accepted_020.png",
+  "png_sha256": "6c935074b1d817d0ab67875ff15b2e78a26235c22e6794486e701f893cf619c8",
+  "uint8_linf": 8,
+  "clean_full_text": "Turkish Gold",
+  "full_text": "Turkish Gold",
+  "full_text_exact": true,
+  "full_token_exact": true,
+  "same_evaluator_process_repeat_exact": true,
+  "fastv_text": "CAMEL TURKISH FAMILY",
+  "fastv_anls": 0.0,
+  "fastv_valid": true,
+  "k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "17cd137af753209c6eb241246c1d66238a119113d5f75eb36a3401e96886ff86",
+  "dataset_answers": [
+    "Turkish Gold"
+  ],
+  "target_text": null,
+  "target_hit_normalized_exact": false,
+  "content_status": "PENDING_QUESTION_SPECIFIC_REVIEW",
+  "semantic_review_required": true
+}

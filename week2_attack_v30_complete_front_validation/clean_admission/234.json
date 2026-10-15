@@ -1,0 +1,26 @@
+{
+  "status": "CLEAN_ADMISSION_COMPLETE",
+  "sample_id": "234",
+  "question": "What kind of a communication/letter  is this?",
+  "dataset_answers": [
+    "INTER-OFFICE CORRESPONDENCE",
+    "Inter-office correspondence"
+  ],
+  "full_text": "INTER-OFFICE CORRESPONDENCE",
+  "full_tokens_sha256": "dbf4532ef6a74bd4a8659e278b2001ac4875257eb9242ef0b50d5f1a236d8f70",
+  "fastv_text": "inter-office correspondence",
+  "fastv_tokens_sha256": "2bd67a2aa2020a61bd27293b0e81f376b8ece95cb93561b4a9091e722b035964",
+  "full_anls": 1.0,
+  "fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_repeat_exact": true,
+  "fastv_repeat_exact": true,
+  "K": 1850,
+  "expected_K": 1850,
+  "keep_hash": "7cb84ba5a0284e43d6fa23e89e174aaef994ff23b96b03f93d379a6184768bd5",
+  "keep_hash_repeat": "7cb84ba5a0284e43d6fa23e89e174aaef994ff23b96b03f93d379a6184768bd5",
+  "clean_gate_eligible": true,
+  "semantic_clean_review": "PENDING_MANUAL_REVIEW",
+  "seconds": 6.284
+}

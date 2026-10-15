@@ -1,0 +1,27 @@
+{
+  "status": "EVALUATED_INDEPENDENT_PROCESS",
+  "sample_id": "4449",
+  "method": "complete_front",
+  "independent_process": true,
+  "png_path": "week2_attack_v29_batch_compare/attacks/complete_front/4449/accepted_010.png",
+  "png_sha256": "f27fc966a9e0933ac985a4531db50cd8eb29f868bb231a2145d8a61f3152bc26",
+  "uint8_linf": 8,
+  "clean_full_text": "Turkish Gold",
+  "full_text": "Turkish Gold",
+  "full_text_exact": true,
+  "full_token_exact": true,
+  "same_evaluator_process_repeat_exact": true,
+  "fastv_text": "Less tobacco flavor",
+  "fastv_anls": 0.0,
+  "fastv_valid": true,
+  "k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "436234f366defe12dbb89bbb07ce2c079c0784aa68b387132e38beb73fe22d74",
+  "dataset_answers": [
+    "Turkish Gold"
+  ],
+  "target_text": "More Turkish Royal",
+  "target_hit_normalized_exact": false,
+  "content_status": "PENDING_QUESTION_SPECIFIC_REVIEW",
+  "semantic_review_required": true
+}

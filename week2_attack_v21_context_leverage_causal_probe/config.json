@@ -1,0 +1,15 @@
+{
+  "sample_id": "47450",
+  "train_ratio": 0.25,
+  "epsilon_uint8": 8,
+  "step_alpha": 0.00392156862745098,
+  "local_scales": [0.25, 0.5, 1.0, 2.0],
+  "decision_margin": "mean hard margin of the frozen S_core tokens after PNG reload, using the keep-set generated from that PNG",
+  "random_seeds": [1701, 1702, 1703],
+  "max_accepted": 25,
+  "max_attempts": 40,
+  "checkpoints": [0, 1, 5, 10, 15, 20, 25],
+  "self_patch": "SELF_PATCH_NOT_APPLICABLE_PIXEL_OBJECTIVE",
+  "unseen": "NOT_OPENED",
+  "v20_read_only": true
+}

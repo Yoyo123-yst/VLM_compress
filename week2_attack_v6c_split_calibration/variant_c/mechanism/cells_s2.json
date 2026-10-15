@@ -1,0 +1,93 @@
+{
+  "rows": [
+    {
+      "sample_id": "50779",
+      "step": "200",
+      "pred_CC": "Dr. Darby",
+      "pred_CA": "Dr. Darby",
+      "pred_AC": "Dr Donex",
+      "pred_AA": "Dr Donkey",
+      "full_clean": "Dr. Darby",
+      "full_selected": "Dr. Darby",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.5555555555555556,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 5.98
+    },
+    {
+      "sample_id": "2008",
+      "step": "200",
+      "pred_CC": "March 1956",
+      "pred_CA": "February 23, 1968",
+      "pred_AC": "February 23, 1956",
+      "pred_AA": "February, 23, 1956",
+      "full_clean": "March 1968",
+      "full_selected": "March 1968",
+      "anls_CC": 0.8,
+      "anls_CA": 0.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "BOTH_INDEPENDENTLY_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 4.38
+    },
+    {
+      "sample_id": "6194",
+      "step": "200",
+      "pred_CC": "0107-XX-XX-XX",
+      "pred_CA": "0107-XX-XX-XX",
+      "pred_AC": "7161888888",
+      "pred_AA": "711688888",
+      "full_clean": "0107-XX-XX-XX",
+      "full_selected": "0107-XX-XX-XX",
+      "anls_CC": 0.8,
+      "anls_CA": 0.8,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 7.85
+    }
+  ],
+  "keeps": [
+    {
+      "sample_id": "50779",
+      "K": 2774,
+      "keep_hash_clean": "3f70ff102105e1aad5366e038afcbd666862dea7e6829801287c57526d56693e",
+      "keep_hash_adv": "93711d44efd4ab17807451075cd4a12b105a27820b6892efd4dc6dbd1289d5c5",
+      "jaccard": 0.8755916159567275,
+      "evidence_share_clean": 0.25522710886806055,
+      "evidence_share_adv": 0.2534246575342466,
+      "aux_share_clean": 0.2761355443403028,
+      "aux_share_adv": 0.2786589762076424
+    },
+    {
+      "sample_id": "2008",
+      "K": 1850,
+      "keep_hash_clean": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+      "keep_hash_adv": "c9e772ae6b525f669492cd18fc1d0b0bffe8ce4876e308c0d24f59a9f820d3e2",
+      "jaccard": 0.805758906783797,
+      "evidence_share_clean": 0.6097297297297297,
+      "evidence_share_adv": 0.6189189189189189,
+      "aux_share_clean": 0.3902702702702703,
+      "aux_share_adv": 0.3810810810810811
+    },
+    {
+      "sample_id": "6194",
+      "K": 3699,
+      "keep_hash_clean": "83e36129664ec9b891fd1666751adfea06ec90adf58d0e83461dbe10b44c6340",
+      "keep_hash_adv": "57673087bb9bf5920d8e9b6e9a9402524833c27a656031349cec721fbc32acf9",
+      "jaccard": 0.8662966700302724,
+      "evidence_share_clean": 0.25060827250608275,
+      "evidence_share_adv": 0.25601513922681807,
+      "aux_share_clean": 0.24979724249797242,
+      "aux_share_adv": 0.2384428223844282
+    }
+  ]
+}

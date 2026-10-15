@@ -1,0 +1,70 @@
+{
+  "sample": "60700",
+  "ratio": 0.25,
+  "reference": [
+    4406,
+    16680,
+    151645
+  ],
+  "start_png": "week2_attack_v13_branch_reachability_probe/runs/state_retention_v1/60700/AWARE_FREEZE/step_011.png",
+  "steps": [
+    {
+      "step": 0,
+      "fast_text": "PPSB",
+      "fast_tokens": [
+        4406,
+        16680,
+        151645
+      ],
+      "fast_anls": 0.0,
+      "full_exact": true,
+      "keep_hash": "94ff151373a7c919c6b8f008d043d8ee925a3eb9ea680aef2e55c61f01d70508",
+      "png_sha256": "9fa86ee802bd22064f6503ceed9b512b5fd0464022da66be3df73d3189f0a367",
+      "linf_uint8": 8
+    },
+    {
+      "step": 1,
+      "fast_text": "PPBS",
+      "fast_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "fast_anls": 1.0,
+      "full_exact": true,
+      "keep_hash": "0aec19a8a23ca6a11ae5e8cf0673b54177fe2fa8261625420cf3c037b816ab87",
+      "png_sha256": "784c94000f7b5dee1b48536753a0ec6241ba60fbb467ad0ec5abd6012d754a30",
+      "linf_uint8": 8
+    },
+    {
+      "step": 2,
+      "fast_text": "PPBS",
+      "fast_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "fast_anls": 1.0,
+      "full_exact": true,
+      "keep_hash": "f55c8a12213d232c0fb009eb00002f0bc5261d51329f73aad5783bbaeaf9b51b",
+      "png_sha256": "088acb1e6b47d3d2dcb6c8b2add1db1a3da21455451b3d7c55e5a9306f83edbc",
+      "linf_uint8": 8
+    },
+    {
+      "step": 3,
+      "fast_text": "PPBS",
+      "fast_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "fast_anls": 1.0,
+      "full_exact": true,
+      "keep_hash": "087ecb4d0cedc7ef3e5062ec9584040dc980584329c911011ed9b03d2a133b40",
+      "png_sha256": "e081e1a2a1bf97b0c3df32422dda259cf5bc4cd839b05e1ee834771b368425b1",
+      "linf_uint8": 8
+    }
+  ],
+  "objective": "-mean_soft(reference)+lambda*full_fdp",
+  "same_gradient_and_png_point": true
+}

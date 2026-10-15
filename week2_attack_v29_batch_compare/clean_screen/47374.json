@@ -1,0 +1,54 @@
+{
+  "sample_id": "47374",
+  "question": "Who is the Executive director of the Nutrition foundation, Inc.?",
+  "answers": [
+    "William J. Darby",
+    "William J. Darby, Jr. M.D., Ph.D."
+  ],
+  "clean_full_text": "Dr. J. Darby",
+  "clean_full_tokens": [
+    8847,
+    13,
+    619,
+    13,
+    15017,
+    1694,
+    151645
+  ],
+  "clean_fastv_text": "Dr. J. Darby, Ph.D.",
+  "clean_fastv_tokens": [
+    8847,
+    13,
+    619,
+    13,
+    15017,
+    1694,
+    11,
+    2350,
+    909,
+    13,
+    151645
+  ],
+  "clean_full_anls": 0.5333333333333333,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "8c73db36bbb23086a62a9c666a4841651b5ecc8f7fd8a2ab4cf77366123138ff",
+  "keep_hash_repeat": "8c73db36bbb23086a62a9c666a4841651b5ecc8f7fd8a2ab4cf77366123138ff",
+  "page_sha256": [
+    "7fc031ed5e703e563bb7895f11101582736b233499cffbff03d7728f58cd0b5a",
+    "abb037185e2cdcc617964a326ccddd92fccb4df6cf4e7805309dcabab516f949",
+    "ccc21e7ce5df17d2a84bf1896d305ad6e8c322e9ada98aac71c2d7d6d7f081a3",
+    "34d42e16ee1acb288ebc970e32f301d15b02b445843ce1dac39f215e1b981261"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 9.308
+}

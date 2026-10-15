@@ -1,0 +1,65 @@
+[
+  {
+    "sample_id": "1025",
+    "step": 0,
+    "seed": 4266262696,
+    "pred_full": "Dr. C. Baur MD",
+    "pred_fastv": "Dr. C. Baur",
+    "anls_full": 0.9166666666666666,
+    "anls_fastv": 0.6666666666666667,
+    "output_valid": true,
+    "margin": 2.046875,
+    "L_comp": 0.96484375,
+    "L_soft_full": 0.69140625,
+    "keep_hash": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5",
+    "k": 2774,
+    "aux_share": 0.31002162941600575,
+    "evidence_share": 0.24116798846431145,
+    "page_keep_counts": [
+      860,
+      669,
+      1245
+    ],
+    "page_shares": [
+      0.31002162941600575,
+      0.24116798846431145,
+      0.44881038211968277
+    ],
+    "linf": 0.0,
+    "png": "checkpoints/step_000.png",
+    "png_sha256": "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+    "protected_ok": true,
+    "grad_norm": 13.476911544799805
+  },
+  {
+    "sample_id": "1025",
+    "step": 2,
+    "seed": 4266262696,
+    "pred_full": "Dr. C. Baur MD",
+    "pred_fastv": "Dr. Bacharach",
+    "anls_full": 0.9166666666666666,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": 0.05859375,
+    "L_comp": 0.0859375,
+    "L_soft_full": 0.6015625,
+    "keep_hash": "9ddff67d9b3930bacdb0425f2b20ab26c16e57c2fdb069db145715cb504cff4f",
+    "k": 2774,
+    "aux_share": 0.31074260994953135,
+    "evidence_share": 0.24008651766402306,
+    "page_keep_counts": [
+      862,
+      666,
+      1246
+    ],
+    "page_shares": [
+      0.31074260994953135,
+      0.24008651766402306,
+      0.44917087238644554
+    ],
+    "linf": 0.01568630337715149,
+    "png": "checkpoints/step_002.png",
+    "png_sha256": "50d2e12078f804ad6c74886121b57f0f591ec489022e64d30b9949df3a07f2c3",
+    "protected_ok": true
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "health": {
+    "sample_id": "1025",
+    "ends_with_eos": true,
+    "k": 2774,
+    "k_generate": 2774,
+    "keep_match": true,
+    "clean_full_match": true,
+    "clean_fastv_match": true,
+    "uint8_reload_match": true,
+    "uint8_reload_linf": 0.0,
+    "fastv_score_max_abs_diff": 0.0,
+    "aux_grad_comp": 9.423653602600098,
+    "aux_grad_soft": 4.608314037322998,
+    "aux_grad_sel": 0.0,
+    "clean_selection_grad_zero_expected": true,
+    "losses_finite": true,
+    "evidence_pixel_grad_l2": 0.0,
+    "lambda_soft": 2.049824826423478,
+    "b_health_pass": true
+  },
+  "probe": {
+    "sample_id": "1025",
+    "delta_ref": 0.00392156862745098,
+    "probe_png": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v6c_split_calibration/probe_aux_1025.png",
+    "probe_sha256": "51ca715f5f15a9793d0fe5424adaddf5c6e4d426c2269eb7ae6ef939d24c1af6",
+    "probe_uint8_linf": 0.00392156862745098,
+    "g_comp_ref": 8.68726634979248,
+    "g_sel_ref": 0.4353623688220978,
+    "beta": 19.954104837532157,
+    "ok": true,
+    "code_sha256": "0a447e15dde0577c2d1b24934dbb8056f617c4776ab6a936a61f3f4e80838e58",
+    "protected_pages_not_in_delta": true
+  }
+}

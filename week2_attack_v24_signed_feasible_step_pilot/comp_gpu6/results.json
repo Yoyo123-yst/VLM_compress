@@ -1,0 +1,43 @@
+{
+  "sample_id": "60700",
+  "candidates": {
+    "0": {
+      "reference": 4406,
+      "reference_piece": "PP",
+      "competitor": 47,
+      "competitor_piece": "P"
+    },
+    "1": {
+      "reference": 7347,
+      "reference_piece": "BS",
+      "competitor": 33,
+      "competitor_piece": "B"
+    }
+  },
+  "rows": [
+    {
+      "step": 1,
+      "radius": 1,
+      "base_margin": 3.46875,
+      "candidate_margin": 2.875,
+      "predicted_change": -19.700775146484375,
+      "accepted": true,
+      "full_exact": true,
+      "fast_text": "Ppbs",
+      "keep_hash": "a4fefe901bcb445ededa43bb7f0dea3b908a3e054dc8dc5fa26eafc3a3c7c08c",
+      "png_linf": 1,
+      "candidate_margins": [
+        -0.5,
+        6.25
+      ],
+      "semantic_text_change": true
+    }
+  ],
+  "accepted": 1,
+  "cost": {
+    "forward": 4,
+    "backward": 0,
+    "generate": 6
+  },
+  "final_fast_text": "Ppbs"
+}

@@ -1,0 +1,247 @@
+{
+  "scope": "diagnostic_only",
+  "rows": [
+    {
+      "sample_id": "1025",
+      "full_clean": "Dr. C. Baur MD",
+      "full_attack": "Dr. C. Baur MD",
+      "layers": {
+        "1": {
+          "clean": "Dr. C. Baur",
+          "attack": "Tanis Tanemar",
+          "repair": "Dr. Bacharach",
+          "k_clean": 2774,
+          "k_attack": 2774,
+          "k_repair": 2774,
+          "repair_anls": 0.0,
+          "repair_tokens": [
+            8847,
+            13,
+            41158,
+            277,
+            610,
+            151645
+          ],
+          "keep_hash_repair": "bbc8b1625c3e757cfc3d5248aa7b5d9a5328b3bd5603841cf4c87d747e49ae73"
+        },
+        "2": {
+          "clean": "Dr. C. Baur",
+          "attack": "Tanis Tanemar",
+          "repair": "Dr. Bacharach",
+          "k_clean": 2774,
+          "k_attack": 2774,
+          "k_repair": 2774,
+          "repair_anls": 0.0,
+          "repair_tokens": [
+            8847,
+            13,
+            41158,
+            277,
+            610,
+            151645
+          ],
+          "keep_hash_repair": "ad7096dd3ecaf3b4a56376c6a8d0bbb422d146f9b8c3232b1c2aab3b34b32c2d"
+        },
+        "3": {
+          "clean": "Dr. C. Baur",
+          "attack": "Tanis Tanemar",
+          "repair": "Dr. C. Baur",
+          "k_clean": 2774,
+          "k_attack": 2774,
+          "k_repair": 2774,
+          "repair_anls": 0.6666666666666667,
+          "repair_tokens": [
+            8847,
+            13,
+            356,
+            13,
+            425,
+            4110,
+            151645
+          ],
+          "keep_hash_repair": "73fc935f1fd5327313ec9de706bd82a2c1c45270071edeef95407940a76b1830"
+        }
+      }
+    },
+    {
+      "sample_id": "2008",
+      "full_clean": "March 1968",
+      "full_attack": "March 1968",
+      "layers": {
+        "1": {
+          "clean": "March 1956",
+          "attack": "February 23, 1966",
+          "repair": "March 1956",
+          "k_clean": 1850,
+          "k_attack": 1850,
+          "k_repair": 1850,
+          "repair_anls": 0.8,
+          "repair_tokens": [
+            27523,
+            220,
+            16,
+            24,
+            20,
+            21,
+            151645
+          ],
+          "keep_hash_repair": "2ef249c88c29f6b7b24d3f4daaf3b6738b53378a543d0041cf5e7df68917ea90"
+        },
+        "2": {
+          "clean": "March 1956",
+          "attack": "February 23, 1966",
+          "repair": "March 1956",
+          "k_clean": 1850,
+          "k_attack": 1850,
+          "k_repair": 1850,
+          "repair_anls": 0.8,
+          "repair_tokens": [
+            27523,
+            220,
+            16,
+            24,
+            20,
+            21,
+            151645
+          ],
+          "keep_hash_repair": "ff5fb621737ca036287cbf83909e09f5cc6f40944530520242d5572a69da45ce"
+        },
+        "3": {
+          "clean": "March 1956",
+          "attack": "February 23, 1966",
+          "repair": "March 1956",
+          "k_clean": 1850,
+          "k_attack": 1850,
+          "k_repair": 1850,
+          "repair_anls": 0.8,
+          "repair_tokens": [
+            27523,
+            220,
+            16,
+            24,
+            20,
+            21,
+            151645
+          ],
+          "keep_hash_repair": "df5aa5709bde44d269e862cb313610359c8849988f8bd19b383e5e21ef468fae"
+        }
+      }
+    },
+    {
+      "sample_id": "7006",
+      "full_clean": "RJ Reynolds Tobacco Company",
+      "full_attack": "RJ Reynolds Tobacco Company",
+      "layers": {
+        "1": {
+          "clean": "RJ Reynolds Tobacco Company",
+          "attack": "Tobacco Company",
+          "repair": "RJ Reynolds Tobacco Company",
+          "k_clean": 3699,
+          "k_attack": 3699,
+          "k_repair": 3699,
+          "repair_anls": 0.962962962962963,
+          "repair_tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "keep_hash_repair": "43c9080a5144c51fb94edcfb041d1a721c967e802f3d79811d17a4dbab4bfca0"
+        },
+        "2": {
+          "clean": "RJ Reynolds Tobacco Company",
+          "attack": "Tobacco Company",
+          "repair": "RJ Reynolds Tobacco Company",
+          "k_clean": 3699,
+          "k_attack": 3699,
+          "k_repair": 3699,
+          "repair_anls": 0.962962962962963,
+          "repair_tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "keep_hash_repair": "c89b5d9fb3634173b86900c1c258b107c517a7f9c7b9b79675f8951bb7960c21"
+        },
+        "3": {
+          "clean": "RJ Reynolds Tobacco Company",
+          "attack": "Tobacco Company",
+          "repair": "RJ Reynolds Tobacco Company",
+          "k_clean": 3699,
+          "k_attack": 3699,
+          "k_repair": 3699,
+          "repair_anls": 0.962962962962963,
+          "repair_tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "keep_hash_repair": "f95bcccd0b22d85859bd2e24fa1b2d04c55c48e6e25270edca26b22448e0b10f"
+        }
+      }
+    },
+    {
+      "sample_id": "39196",
+      "full_clean": "Technical Development Manager",
+      "full_attack": "Technical Development Manager",
+      "layers": {
+        "1": {
+          "clean": "Technical Development Manager",
+          "attack": "Chaplain, New Jersey",
+          "repair": "Technical Development Manager",
+          "k_clean": 3699,
+          "k_attack": 3699,
+          "k_repair": 3699,
+          "repair_anls": 1.0,
+          "repair_tokens": [
+            62226,
+            10816,
+            10567,
+            151645
+          ],
+          "keep_hash_repair": "7144f5cdd0560ffed14dddd8b118dcaf555e4922f4ae69f5e38c93c46c60a8f4"
+        },
+        "2": {
+          "clean": "Technical Development Manager",
+          "attack": "Chaplain, New Jersey",
+          "repair": "Technical Development Manager",
+          "k_clean": 3699,
+          "k_attack": 3699,
+          "k_repair": 3699,
+          "repair_anls": 1.0,
+          "repair_tokens": [
+            62226,
+            10816,
+            10567,
+            151645
+          ],
+          "keep_hash_repair": "84234b41d2dfd56a999cb5cae3dc1d1d7436a3b1f2017d73db68561a85c47f4b"
+        },
+        "3": {
+          "clean": "Technical Development Manager",
+          "attack": "Chaplain, New Jersey",
+          "repair": "Technical Development Manager",
+          "k_clean": 3699,
+          "k_attack": 3699,
+          "k_repair": 3699,
+          "repair_anls": 1.0,
+          "repair_tokens": [
+            62226,
+            10816,
+            10567,
+            151645
+          ],
+          "keep_hash_repair": "201228905ef4b822d1b722a68e2166439cd1d50c426e4069e78c26768323fc0f"
+        }
+      }
+    }
+  ]
+}

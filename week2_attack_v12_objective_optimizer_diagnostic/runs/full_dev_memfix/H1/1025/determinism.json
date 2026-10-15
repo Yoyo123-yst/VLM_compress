@@ -1,0 +1,12 @@
+{
+  "env": {
+    "cublas": ":4096:8",
+    "attn": "sdpa",
+    "resize": "bilinear",
+    "deterministic": true
+  },
+  "sample": "1025",
+  "group": "H1",
+  "steps": 200,
+  "status": "DONE"
+}

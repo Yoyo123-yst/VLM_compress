@@ -1,0 +1,60 @@
+{
+  "python": "3.10.21",
+  "torch": "2.6.0+cu124",
+  "transformers": "4.57.0",
+  "cuda": "12.4",
+  "cudnn": 90100,
+  "gpu": [
+    "0, NVIDIA A100-PCIE-40GB, 570.133.20, 0 MiB",
+    "1, NVIDIA A100-PCIE-40GB, 570.133.20, 0 MiB",
+    "2, NVIDIA A100-PCIE-40GB, 570.133.20, 0 MiB",
+    "3, NVIDIA A100-PCIE-40GB, 570.133.20, 0 MiB",
+    "4, NVIDIA A100-PCIE-40GB, 570.133.20, 0 MiB",
+    "5, NVIDIA A100-PCIE-40GB, 570.133.20, 39243 MiB",
+    "6, NVIDIA A100-PCIE-40GB, 570.133.20, 0 MiB",
+    "7, NVIDIA A100-PCIE-40GB, 570.133.20, 39243 MiB"
+  ],
+  "seed": 2026101102,
+  "determinism_env": "CUBLAS_WORKSPACE_CONFIG=:4096:8",
+  "config": {
+    "sample_id": "47450",
+    "train_ratio": 0.25,
+    "diagnostic_ratios": [
+      0.15,
+      0.35,
+      0.5
+    ],
+    "epsilon_uint8": 8,
+    "step_alpha": 0.00392156862745098,
+    "lambda_full": 2.6371882367154997,
+    "tau_rule": "max(0.125, 0.5 * clean_full_hard_margin)",
+    "optimizer": "sign_pgd",
+    "optimizer_note": "Frozen sign-PGD has no exp_avg. CPU tests still cover the Adam rollback helper. The run restores delta on every rejected update.",
+    "max_accepted": 25,
+    "max_attempts": 40,
+    "checkpoints": [
+      0,
+      1,
+      2,
+      5,
+      10,
+      15,
+      20,
+      25
+    ],
+    "seed": 2026101102,
+    "gpus": {
+      "T0": "0",
+      "T1": "1",
+      "T2": "4"
+    },
+    "t3": "NOT_RUN_UNVERIFIED_CONSTRAINED_BASELINE",
+    "selector": "lowest L_core among legal checkpoints; tie breaks to the smaller accepted step",
+    "replay_match": "exact keep hash, processor hash, and core margin hash",
+    "unseen": "NOT_OPENED",
+    "second_sample": false,
+    "image_path": "processor.prepare forward; normalized_tiles supplies backward only through a straight-through estimator whose forward value equals the prepared pixels"
+  },
+  "t3": "NOT_RUN_UNVERIFIED_CONSTRAINED_BASELINE",
+  "reason_t3": "No checked-in Orthogonal PGD or ALMA implementation has a verified projection and rollback test."
+}

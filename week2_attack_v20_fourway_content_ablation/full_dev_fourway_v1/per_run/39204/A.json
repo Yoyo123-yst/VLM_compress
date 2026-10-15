@@ -1,0 +1,2907 @@
+{
+  "status": "DONE",
+  "sample_id": "39204",
+  "method": "A",
+  "method_name": "dynamic_sequence",
+  "optimizer": "sign_pgd",
+  "step_alpha": 0.00392156862745098,
+  "lambda_full": 2.6371882367154997,
+  "train_ratio": 0.25,
+  "max_accepted": 25,
+  "max_attempts": 40,
+  "accepted": 25,
+  "attempts": 25,
+  "frozen_reference_ids": [
+    3788,
+    2069,
+    87534,
+    51432,
+    151645
+  ],
+  "selection_b": {
+    "name": "fixed_all",
+    "positions": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "token_ids": [
+      3788,
+      2069,
+      87534,
+      51432,
+      151645
+    ],
+    "pieces": [
+      "FO",
+      "OD",
+      " TECHNO",
+      "LOGY",
+      "<|im_end|>"
+    ],
+    "reason": "frozen_clean_fastv_all_tokens_including_eos",
+    "same_positions_as_noeos": false,
+    "available": true
+  },
+  "selection_c": {
+    "name": "fixed_noeos",
+    "positions": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "token_ids": [
+      3788,
+      2069,
+      87534,
+      51432
+    ],
+    "pieces": [
+      "FO",
+      "OD",
+      " TECHNO",
+      "LOGY"
+    ],
+    "reason": "frozen_clean_fastv_excluding_eos_pad_and_control",
+    "same_positions_as_noeos": false,
+    "available": true
+  },
+  "selection_d": {
+    "name": "core_content",
+    "positions": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "token_ids": [
+      3788,
+      2069,
+      87534,
+      51432
+    ],
+    "pieces": [
+      "FO",
+      "OD",
+      " TECHNO",
+      "LOGY"
+    ],
+    "reason": "preregistered_core_phrase:FOOD TECHNOLOGY:token_id_contiguous",
+    "same_positions_as_noeos": true,
+    "available": true
+  },
+  "same_positions_as_noeos": true,
+  "updates": [
+    {
+      "attempt": 1,
+      "accepted_after": 1,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 7.946393426581767,
+      "attack_loss": 6.132599830627441,
+      "fdp_loss": 0.6877755522727966,
+      "full_token_hard_margins": [
+        0.25,
+        6.375,
+        4.375,
+        12.875,
+        8.8125
+      ],
+      "selected_token_margins": [
+        0.5,
+        6.5,
+        3.625,
+        12.125,
+        9.5625
+      ],
+      "grad_hash": "e690ef0c0f0d123590cdbf22a547288e8ccf1a01368171a7f1e4473685041dbc",
+      "grad_l2": 23.082223892211914,
+      "grad_linf": 1.7001113891601562,
+      "candidate_delta_hash": "d67845e4aafeedce3c9621360818a6d5095aa373f2e7f810e524c678e34cd6d9",
+      "delta_hash": "d67845e4aafeedce3c9621360818a6d5095aa373f2e7f810e524c678e34cd6d9",
+      "float_projection_hash": "4e2a08d5e78c021a1af1cfd4bb99758478fb3023add0427a5a8265ec1893d169",
+      "png_page_hash": "dc4b407bca6aee99f9d6eed74293200a984b5f2e6a0acb70058d587e2e345dff",
+      "candidate_png_sha256": "661e81709092b05339c76fc736a09d076f4d6fb48aa728ba3af314411b44c6d9",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "f24d02d4e363776dd3553803301f2dcbbfaf89ad23acde73e270835faeffae73",
+      "keep_jaccard_vs_clean": 0.9940700808625337,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 1,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.367905761813745,
+      "counters": {
+        "forward": 11,
+        "backward": 2,
+        "generate": 7
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 2,
+      "accepted_after": 2,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 7.899660933838529,
+      "attack_loss": 6.112665176391602,
+      "fdp_loss": 0.6776140332221985,
+      "full_token_hard_margins": [
+        0.25,
+        6.5,
+        4.5,
+        12.625,
+        8.9375
+      ],
+      "selected_token_margins": [
+        0.375,
+        6.25,
+        3.875,
+        12.125,
+        9.5
+      ],
+      "grad_hash": "f89195919ec1e0fd40b3e6c9ca32fe5247eba4de575ba0aac9913c57877bf8d8",
+      "grad_l2": 28.970504760742188,
+      "grad_linf": 2.2955322265625,
+      "candidate_delta_hash": "8224d5f272127d2c346fc10b9106c5039b59858ba41c9ed7e5a6f23fa447f088",
+      "delta_hash": "8224d5f272127d2c346fc10b9106c5039b59858ba41c9ed7e5a6f23fa447f088",
+      "float_projection_hash": "e2383f09138f263f06d8df78c2435483ab34e23fcb3708c292367692f1c31c69",
+      "png_page_hash": "6724de31545e854f5df32968029d95d19282148d0c8b35eb4e09970b5a0fac7d",
+      "candidate_png_sha256": "864226947a77864aa2d4ed587f4f6b13df1f39179d7fd99a4e7f40112dcd36a7",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "c4f35a2284c5a5ac9c5fbc01124b1703c8101f596d51dd0279d8e414d19a0e25",
+      "keep_jaccard_vs_clean": 0.8786185881157949,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 2,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.509491201024503,
+      "counters": {
+        "forward": 22,
+        "backward": 4,
+        "generate": 14
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 3,
+      "accepted_after": 3,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 7.608472740699183,
+      "attack_loss": 5.997931480407715,
+      "fdp_loss": 0.6107039451599121,
+      "full_token_hard_margins": [
+        0.25,
+        6.625,
+        4.5,
+        13.0,
+        9.125
+      ],
+      "selected_token_margins": [
+        0.375,
+        6.125,
+        3.75,
+        12.0,
+        9.375
+      ],
+      "grad_hash": "f093848ff5c3a137a9b6a1ffd351f993262c757a24b610e8b229e3b84226677e",
+      "grad_l2": 119.98088836669922,
+      "grad_linf": 14.19805908203125,
+      "candidate_delta_hash": "c7fe217d8ef18ffd5b9b66105f2fb3ab381bb475232d3d9bfe45d523409f2d03",
+      "delta_hash": "c7fe217d8ef18ffd5b9b66105f2fb3ab381bb475232d3d9bfe45d523409f2d03",
+      "float_projection_hash": "55aa80e3ce71897073518c62e4773b326ff024ba3e583f3133172a5398f10161",
+      "png_page_hash": "ec0ef6e46e871cfee548ba4649e8c16e92866e2708ace181cc287065516ad32c",
+      "candidate_png_sha256": "b1055cb0fdae0c24e635b448bf29aa4f70102c93e3915f179a5cce0610b2178a",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "0b6677d8a84b8af60fa709ecf8dd0da8d0acb55618296a9ef992e434928dd431",
+      "keep_jaccard_vs_clean": 0.8724373576309795,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 3,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.70973590388894,
+      "counters": {
+        "forward": 27,
+        "backward": 6,
+        "generate": 17
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 4,
+      "accepted_after": 4,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 7.356005138038759,
+      "attack_loss": 5.818412780761719,
+      "fdp_loss": 0.583042323589325,
+      "full_token_hard_margins": [
+        0.25,
+        6.625,
+        4.625,
+        13.125,
+        9.1875
+      ],
+      "selected_token_margins": [
+        0.375,
+        6.0,
+        3.5,
+        11.625,
+        9.25
+      ],
+      "grad_hash": "d1a7a3be6c76ef7fbf76eec43bb600179d57bc1e600842282e0f6eac6ee812d7",
+      "grad_l2": 9.413114547729492,
+      "grad_linf": 0.7320175170898438,
+      "candidate_delta_hash": "b8b6e0f5e4d3639229546fa4c28e79340fd2adf7b6fd44a21a288d91dd05738a",
+      "delta_hash": "b8b6e0f5e4d3639229546fa4c28e79340fd2adf7b6fd44a21a288d91dd05738a",
+      "float_projection_hash": "83071517e18e5992eea7b29d2834834235d3909f9604e44f3ff6759cc86a7224",
+      "png_page_hash": "1d877fb1364ab4f86e7b5bb85510d9dd6fdae4f8b5564eec79e02dfa1dc5c40f",
+      "candidate_png_sha256": "e56254ce33509cdbe8ec77a15bcd42e3d082ff484260d79915d059cb20dc187a",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "bcd98bf43bd7e7dfd0413e1b05a1fe7d60972d9eedc2465dc8a3e220cdc38a72",
+      "keep_jaccard_vs_clean": 0.8681818181818182,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 4,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.45065529202111,
+      "counters": {
+        "forward": 32,
+        "backward": 8,
+        "generate": 20
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 5,
+      "accepted_after": 5,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 7.210010758436587,
+      "attack_loss": 5.665376663208008,
+      "fdp_loss": 0.5857124924659729,
+      "full_token_hard_margins": [
+        0.125,
+        6.625,
+        4.625,
+        13.125,
+        9.3125
+      ],
+      "selected_token_margins": [
+        0.0,
+        5.875,
+        3.5,
+        11.375,
+        9.1875
+      ],
+      "grad_hash": "998842e7bce49a30ff962b49c7289de606912245bcf49dd03b79f4a1cb0443d0",
+      "grad_l2": 10.77512264251709,
+      "grad_linf": 0.8379660844802856,
+      "candidate_delta_hash": "8e25f0d0c774a52695c8e52efe0cf2a4c0530fb2485219b8c75256a7e16fb477",
+      "delta_hash": "8e25f0d0c774a52695c8e52efe0cf2a4c0530fb2485219b8c75256a7e16fb477",
+      "float_projection_hash": "6f277c5793c95e70bfe9a0c79f9b9a80d3e53bfcd64c7dfc7c44169be7c042a3",
+      "png_page_hash": "709d2b49868869ed828ba2305a7de6c547eb9b2834f7f47af30a42e8b35a61fd",
+      "candidate_png_sha256": "9aba3576da37d569285ca3497bcae09d159b5dc87a13ea6150743b1518afb641",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "d221f7d30b056c59b70f5c467ad73c0a0c713219903b3c4e978b04f2b747d553",
+      "keep_jaccard_vs_clean": 0.8532064128256514,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 5,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.471285284962505,
+      "counters": {
+        "forward": 37,
+        "backward": 10,
+        "generate": 23
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 6,
+      "accepted_after": 6,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 7.2396462039305804,
+      "attack_loss": 5.705080986022949,
+      "fdp_loss": 0.5818944573402405,
+      "full_token_hard_margins": [
+        0.375,
+        6.75,
+        4.625,
+        13.0,
+        9.0625
+      ],
+      "selected_token_margins": [
+        0.125,
+        6.0,
+        3.625,
+        11.0,
+        9.4375
+      ],
+      "grad_hash": "d390353230220ffb251c6fb5da327f5d71ab8589deb76de90ebc65e583aaa7d4",
+      "grad_l2": 9.468445777893066,
+      "grad_linf": 0.5435066223144531,
+      "candidate_delta_hash": "c6dd0f5c13b4a336c0dad43e556e4bbffe8005042e3a63b3fb06c81555895c9a",
+      "delta_hash": "c6dd0f5c13b4a336c0dad43e556e4bbffe8005042e3a63b3fb06c81555895c9a",
+      "float_projection_hash": "9ddb25dda0811bc847ab9f20bd6f00d1ba81450cd973537a1f1e6e7443583af4",
+      "png_page_hash": "e392937fad792b6cfe1e3ca928f1d4f44cb3a1b19deca41f71ecee0e33ead6a8",
+      "candidate_png_sha256": "aae3b0ebcfb805177c1f6ec6374465b22dc64bcfc2803a2862d2719cf2a30eec",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "a3ce8add90385f427620e192e2293a21a245ddf959b844a40b33de039ce1c8ee",
+      "keep_jaccard_vs_clean": 0.8536707592082184,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 6,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.363579679047689,
+      "counters": {
+        "forward": 48,
+        "backward": 12,
+        "generate": 30
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 7,
+      "accepted_after": 7,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 7.1764253199139825,
+      "attack_loss": 5.61958646774292,
+      "fdp_loss": 0.5903404355049133,
+      "full_token_hard_margins": [
+        0.375,
+        6.75,
+        4.5,
+        12.875,
+        9.25
+      ],
+      "selected_token_margins": [
+        0.0,
+        5.875,
+        3.625,
+        11.125,
+        9.125
+      ],
+      "grad_hash": "ca064172786f66f7005934065652754a0ac390765921e984f84de7768fa66499",
+      "grad_l2": 10.24655532836914,
+      "grad_linf": 0.5338802337646484,
+      "candidate_delta_hash": "43335cfda9bb691fec42a1dbf22bad6e6455762998cbe9f9c656857da3009022",
+      "delta_hash": "43335cfda9bb691fec42a1dbf22bad6e6455762998cbe9f9c656857da3009022",
+      "float_projection_hash": "a477543c442768cdc24592b72383432949cfb5882fc13c27719b3e68ba6e227c",
+      "png_page_hash": "1bf7b20b978041cae0dcb3a31803cc9a5045f3542b5706563353916c6a5200c5",
+      "candidate_png_sha256": "ad0f6066d81322aa1ec57274d2a4839a111d7523a4fce8da5222c9cb3007502d",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "fc71dfd03d16c9fd4b998085247a4d640ffc5f6de14eaeb7fa143772e3a29a6f",
+      "keep_jaccard_vs_clean": 0.8481139145640769,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 7,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.390925263985991,
+      "counters": {
+        "forward": 53,
+        "backward": 14,
+        "generate": 33
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 8,
+      "accepted_after": 8,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 7.0253342921529836,
+      "attack_loss": 5.639847278594971,
+      "fdp_loss": 0.5253652334213257,
+      "full_token_hard_margins": [
+        0.375,
+        6.875,
+        4.625,
+        13.25,
+        9.375
+      ],
+      "selected_token_margins": [
+        0.125,
+        6.0,
+        3.625,
+        11.0,
+        9.25
+      ],
+      "grad_hash": "e9c1fb99b2e4ad1a2cc267fee087f2f577410555c14490e3252477835f3f7ea2",
+      "grad_l2": 19.325225830078125,
+      "grad_linf": 1.6540679931640625,
+      "candidate_delta_hash": "3440e8841db5a042eda8fe5055c31a17b7d41edbc17aef2097684b6621e7da92",
+      "delta_hash": "3440e8841db5a042eda8fe5055c31a17b7d41edbc17aef2097684b6621e7da92",
+      "float_projection_hash": "055859da6b27946b213dbcca921b3b1cd3bf8170c74e0a9dae554c0121ed8212",
+      "png_page_hash": "134c134d4ef01cd1d1b04cb8191957ddd1ca790b0ba5c14d0147940f07167931",
+      "candidate_png_sha256": "7106761f49cb815fb084f5d552b7b18020a14a96b2e0d2953048af3ce7f978c1",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "c682c7397f1442b8872ed12c616b38db5f236cd4f9d8464b9324c7b55fbc6663",
+      "keep_jaccard_vs_clean": 0.8370995778495157,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.369905858999118,
+      "counters": {
+        "forward": 58,
+        "backward": 16,
+        "generate": 36
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 9,
+      "accepted_after": 9,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 6.926166339375434,
+      "attack_loss": 5.494198322296143,
+      "fdp_loss": 0.5429904460906982,
+      "full_token_hard_margins": [
+        0.375,
+        6.875,
+        4.625,
+        13.0,
+        9.4375
+      ],
+      "selected_token_margins": [
+        0.0,
+        5.75,
+        3.375,
+        10.75,
+        9.3125
+      ],
+      "grad_hash": "d4746a313405f16bc1fe26871d62512397427d630fdd5ee15b1a992c9bf64040",
+      "grad_l2": 15.55196762084961,
+      "grad_linf": 1.128936767578125,
+      "candidate_delta_hash": "38332065045b04cb30ef720a485e99c00550ff5555bcd136f7dfc7038acf79e8",
+      "delta_hash": "38332065045b04cb30ef720a485e99c00550ff5555bcd136f7dfc7038acf79e8",
+      "float_projection_hash": "6e7e8b3a68a2d1e703a636f112856efaaf4115b9a1e85d6c8a5e6a83a070750f",
+      "png_page_hash": "a7a28aba886da0e6a7585027174aa364080e725c5897c1cec93079ff3fe3f2be",
+      "candidate_png_sha256": "db696e90629d72b01b9086b01e4f00956cd2616c5588d85753ea665e81171bc3",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "3580cc5c42ac026044808fbd4a115b581ffe0c297a0556f6f795cf4ad38ac1e0",
+      "keep_jaccard_vs_clean": 0.8316414954196584,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.430416767019778,
+      "counters": {
+        "forward": 63,
+        "backward": 18,
+        "generate": 39
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 10,
+      "accepted_after": 10,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 4.339128019103805,
+      "attack_loss": 2.92578387260437,
+      "fdp_loss": 0.5359284281730652,
+      "full_token_hard_margins": [
+        0.375,
+        6.875,
+        4.625,
+        13.125,
+        9.375
+      ],
+      "selected_token_margins": [
+        0.0,
+        2.875,
+        8.625
+      ],
+      "grad_hash": "3b14c70a228c29f35eed504ee60c6adcce165520db8857c2f7427dc2636a7883",
+      "grad_l2": 18.527463912963867,
+      "grad_linf": 0.9995784759521484,
+      "candidate_delta_hash": "d4b0fc5ed624020a476a29d34f8e1ee0a536e1b2daa3b695c14df67cdf441919",
+      "delta_hash": "d4b0fc5ed624020a476a29d34f8e1ee0a536e1b2daa3b695c14df67cdf441919",
+      "float_projection_hash": "9d1fe39aaab1ea970bda6b3828e08c24120e0fe5ccb89f7ab3cb8ec2f9871f9e",
+      "png_page_hash": "54e8b9f13ffdd2ff010ac55330fdede461e6ff771724d4d954b41e65eb4ee9fc",
+      "candidate_png_sha256": "19fe40b9f1d68e7c3797345a9e488d036949a05267d2da5f26c959687e5edcc6",
+      "fastv_text": "food technology",
+      "fastv_tokens": [
+        13915,
+        5440,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "13213e6a1a0b7a2314d2a7da93567327fe97c269b11f40f2f641d9d6586cb5fc",
+      "keep_jaccard_vs_clean": 0.833457249070632,
+      "positions": [
+        0,
+        1,
+        2
+      ],
+      "selected_token_ids": [
+        13915,
+        5440,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.000014514895156,
+      "counters": {
+        "forward": 68,
+        "backward": 20,
+        "generate": 42
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2
+        ],
+        "token_ids": [
+          13915,
+          5440,
+          151645
+        ],
+        "pieces": [
+          "food",
+          " technology",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 11,
+      "accepted_after": 11,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 6.801735463136572,
+      "attack_loss": 5.493934154510498,
+      "fdp_loss": 0.4959074556827545,
+      "full_token_hard_margins": [
+        0.625,
+        6.875,
+        4.625,
+        13.125,
+        9.6875
+      ],
+      "selected_token_margins": [
+        0.25,
+        5.875,
+        3.375,
+        10.75,
+        9.0625
+      ],
+      "grad_hash": "5ac3d9f28db3dcbf20c8e41cbfa39d04f2e490712a680ce39e102009f3be6574",
+      "grad_l2": 9.433747291564941,
+      "grad_linf": 0.6347098350524902,
+      "candidate_delta_hash": "c82edafed03d8c57e6df52e7fa66c007af0d317ae0bf07c5dfbeabde02c50b3f",
+      "delta_hash": "c82edafed03d8c57e6df52e7fa66c007af0d317ae0bf07c5dfbeabde02c50b3f",
+      "float_projection_hash": "a76f141baf8c4779a06b9e3b10cf8152a61a98127f62d182fa7bcf5048265e14",
+      "png_page_hash": "87408742f9106049c62fc37bb746cdd1c8f409f745d435747df28de370f6d428",
+      "candidate_png_sha256": "5a0418db10faac6b042032e8171c915cd4b7c05d207603461df2ab3d0f5cc657",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "c7095b2c4b350c0babe9c4393002f14193101890a80b0352693263a850ee762b",
+      "keep_jaccard_vs_clean": 0.833457249070632,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.305345102911815,
+      "counters": {
+        "forward": 79,
+        "backward": 22,
+        "generate": 49
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 12,
+      "accepted_after": 12,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 6.533794907177755,
+      "attack_loss": 5.294166088104248,
+      "fdp_loss": 0.47005701065063477,
+      "full_token_hard_margins": [
+        0.625,
+        7.125,
+        4.75,
+        13.125,
+        9.625
+      ],
+      "selected_token_margins": [
+        0.25,
+        5.875,
+        3.25,
+        10.0,
+        9.1875
+      ],
+      "grad_hash": "a3db0cf68e1d324578705c4880ee7b74a97fa1615d4c9c56a21be7b0c841cfac",
+      "grad_l2": 11.23603630065918,
+      "grad_linf": 1.0240707397460938,
+      "candidate_delta_hash": "6ae988b5b404521853cab8d1ea4bb8b327781cd8f4cf7a33494e9e570cad8210",
+      "delta_hash": "6ae988b5b404521853cab8d1ea4bb8b327781cd8f4cf7a33494e9e570cad8210",
+      "float_projection_hash": "fdf44402c911916a60938b6e97f51b6183ebd9ead28596f8f90a41d712c398cf",
+      "png_page_hash": "a3bee5e9f10fafa4fb622e93e6144389f5e949e2b8996da3f3ad053547b39ddb",
+      "candidate_png_sha256": "587eb9a29f57c1b9c865d9dbe4f8bc19c23204da127729df820b1f9f24b4f30c",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "4ea5e1bf3cb5d61aa7a2ffd71e84a0b89646c12ba087e834bf0b5d188cf4d079",
+      "keep_jaccard_vs_clean": 0.8284725654967869,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.332549770828336,
+      "counters": {
+        "forward": 84,
+        "backward": 24,
+        "generate": 52
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 13,
+      "accepted_after": 13,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 3.0456659747504276,
+      "attack_loss": 1.7618364095687866,
+      "fdp_loss": 0.4868175685405731,
+      "full_token_hard_margins": [
+        0.625,
+        7.0,
+        4.75,
+        13.125,
+        9.5
+      ],
+      "selected_token_margins": [
+        0.125,
+        0.0,
+        7.375
+      ],
+      "grad_hash": "1f6b76679d481cad4ff589798756d42c266f633b2bdcff9b7247edc74be020b9",
+      "grad_l2": 8.58508586883545,
+      "grad_linf": 0.3542900085449219,
+      "candidate_delta_hash": "3c5fac544436c27641e5037de96259786f367a137cf63cc4bc07f67b89a9cf9c",
+      "delta_hash": "3c5fac544436c27641e5037de96259786f367a137cf63cc4bc07f67b89a9cf9c",
+      "float_projection_hash": "8337b01a14064063e872a2c419b1fe5a8501c05a1725af5b2df7d29b93ebf492",
+      "png_page_hash": "76aa72958917269c0fe289e11fc4b4bfe0f7117ba7951c909631feb197022efe",
+      "candidate_png_sha256": "36396f37b058476794f1dd176f89a87b12622afb51442383af705cdbec0e9ac4",
+      "fastv_text": "Food technology",
+      "fastv_tokens": [
+        26746,
+        5440,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "4468d2914c3bd2d6b0ddda8354c3a1e021832d838e7ebf044c9626970ef18f26",
+      "keep_jaccard_vs_clean": 0.8289245982694685,
+      "positions": [
+        0,
+        1,
+        2
+      ],
+      "selected_token_ids": [
+        26746,
+        5440,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 12.73127989913337,
+      "counters": {
+        "forward": 89,
+        "backward": 26,
+        "generate": 55
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2
+        ],
+        "token_ids": [
+          26746,
+          5440,
+          151645
+        ],
+        "pieces": [
+          "Food",
+          " technology",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 14,
+      "accepted_after": 14,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 6.801435511981227,
+      "attack_loss": 5.643157958984375,
+      "fdp_loss": 0.4392092823982239,
+      "full_token_hard_margins": [
+        0.75,
+        7.25,
+        4.625,
+        13.375,
+        9.6875
+      ],
+      "selected_token_margins": [
+        0.625,
+        6.25,
+        3.375,
+        10.875,
+        9.0625
+      ],
+      "grad_hash": "c2f783682fc8648124228bff595d386ab0c1b2d453bd2c1005711e15e3c97f44",
+      "grad_l2": 43.10285186767578,
+      "grad_linf": 6.099514007568359,
+      "candidate_delta_hash": "f648fc39b94fc32be9b2bc692c4a509c01d74506f7d3f969d153991b4b33f2b4",
+      "delta_hash": "f648fc39b94fc32be9b2bc692c4a509c01d74506f7d3f969d153991b4b33f2b4",
+      "float_projection_hash": "a8c273ea7d5df67627e33f5e3d00877a6614962800ddbc4aff08c60bf0d2917c",
+      "png_page_hash": "8ce5d4bb216120c19433a8459ddaa67d193a6e04c0af14171937ff0f2e633f3f",
+      "candidate_png_sha256": "8d4a3cf68286a9c1800618ec04f1ac2d58b3369f59881434475a0a9d184b97ba",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "31aac4ac0dac27e5dcb157b7ec5fbd7b7e44e24842d013f237b0f0a0f129428e",
+      "keep_jaccard_vs_clean": 0.8320950965824666,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.576209091115743,
+      "counters": {
+        "forward": 94,
+        "backward": 28,
+        "generate": 58
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 15,
+      "accepted_after": 15,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 6.528500665483252,
+      "attack_loss": 5.2277421951293945,
+      "fdp_loss": 0.49323686957359314,
+      "full_token_hard_margins": [
+        0.5,
+        7.0,
+        4.5,
+        13.25,
+        9.75
+      ],
+      "selected_token_margins": [
+        0.125,
+        5.75,
+        3.0,
+        10.25,
+        8.9375
+      ],
+      "grad_hash": "e0cae0bd8c086a3d1fdb05700904ff04e08741fba5107edb79fd81e7fb12cc04",
+      "grad_l2": 17.718975067138672,
+      "grad_linf": 1.3325061798095703,
+      "candidate_delta_hash": "6ba2fa6c8c745f12d5d2507d5660d365389635c330203d4692d6e418d3993d6e",
+      "delta_hash": "6ba2fa6c8c745f12d5d2507d5660d365389635c330203d4692d6e418d3993d6e",
+      "float_projection_hash": "f6e2f8fc9ec3763122c0ace5a00e384485fee973bdfccfc16593bbc4006e4faf",
+      "png_page_hash": "2140b27c6dc5ede71a0ac415ddd1c2acdb9aa7a66a23d1e7103e627bbbf66f6e",
+      "candidate_png_sha256": "a7b4351fe18431ada535da383f891561bd04a4847eb53b8777200d2176868932",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "77c2fcd3da8a73478edc51073f0821650b1e2cd584d1d69ea789171c5877cb32",
+      "keep_jaccard_vs_clean": 0.830282038594755,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.308908618986607,
+      "counters": {
+        "forward": 99,
+        "backward": 30,
+        "generate": 61
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 16,
+      "accepted_after": 16,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 6.329774968418162,
+      "attack_loss": 5.02249002456665,
+      "fdp_loss": 0.49571165442466736,
+      "full_token_hard_margins": [
+        0.625,
+        7.125,
+        4.5,
+        13.125,
+        9.5625
+      ],
+      "selected_token_margins": [
+        0.125,
+        5.875,
+        3.0,
+        9.375,
+        8.8125
+      ],
+      "grad_hash": "26db5864bfe7fff0301e7683247c435780fc059c3be3224cc52d6a03ae544fa6",
+      "grad_l2": 46.22355270385742,
+      "grad_linf": 5.624229431152344,
+      "candidate_delta_hash": "a1a7ffd5d4f50adaac2526175ed88b896e523011d6adaafe2b6d0cce81f026a8",
+      "delta_hash": "a1a7ffd5d4f50adaac2526175ed88b896e523011d6adaafe2b6d0cce81f026a8",
+      "float_projection_hash": "7338dbb0376aec265a2304d4171502c3bf5a22776bf1d086d4751f5c2bad3327",
+      "png_page_hash": "82c72412363fb8e39453027d35c5289497cfdf321f90e7147968d71af5a18200",
+      "candidate_png_sha256": "2d8968a144045c08027845e42eba17fcf06b57ebb8d5a2e2e46ddfa707a0f1f0",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "6765768bb03940fd7ea8a08bd04ca9155873dd1caec4c9286628cc386b421de2",
+      "keep_jaccard_vs_clean": 0.8289245982694685,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.29645680799149,
+      "counters": {
+        "forward": 110,
+        "backward": 32,
+        "generate": 68
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 17,
+      "accepted_after": 17,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 6.0361611358806275,
+      "attack_loss": 4.74638032913208,
+      "fdp_loss": 0.4890742301940918,
+      "full_token_hard_margins": [
+        0.625,
+        7.125,
+        4.5,
+        13.25,
+        9.5
+      ],
+      "selected_token_margins": [
+        0.0,
+        5.5,
+        2.875,
+        8.875,
+        8.6875
+      ],
+      "grad_hash": "098137f029f51d3d9f0d8ab6d86a25744d2004a99290eb7c6cee1f8f58ed8540",
+      "grad_l2": 20.62529945373535,
+      "grad_linf": 0.9767656326293945,
+      "candidate_delta_hash": "68123f9ab04df100895fe035b17fa0683fbac2eeda6df987dd721b8a293f8d7c",
+      "delta_hash": "68123f9ab04df100895fe035b17fa0683fbac2eeda6df987dd721b8a293f8d7c",
+      "float_projection_hash": "b60390d1f3288d3185dff15648492ff84f6f59bc8654c595d6bad676df0b3a12",
+      "png_page_hash": "5e261b79121d50c39d6910a27a91ed22cc4965cdef07546a636b49f4e86f1a89",
+      "candidate_png_sha256": "710eafa3f459bdd1da612a228ef7fcbd1fdffb4b43953e6131baa06513f1c512",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "22c2a872567307ae372109c47e6e435336c244688375dcb3dca7a7de1e60010b",
+      "keep_jaccard_vs_clean": 0.8266666666666667,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.545423018978909,
+      "counters": {
+        "forward": 115,
+        "backward": 34,
+        "generate": 71
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 18,
+      "accepted_after": 18,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 5.992232998247292,
+      "attack_loss": 4.840929985046387,
+      "fdp_loss": 0.4365645945072174,
+      "full_token_hard_margins": [
+        0.875,
+        7.375,
+        4.625,
+        13.25,
+        9.625
+      ],
+      "selected_token_margins": [
+        0.125,
+        5.5,
+        2.875,
+        9.125,
+        8.6875
+      ],
+      "grad_hash": "bdf4ca75e57ad23c15471616840e306062d1979c3b7e1fa82c19e0e6b2bf2851",
+      "grad_l2": 11.255497932434082,
+      "grad_linf": 0.8139076232910156,
+      "candidate_delta_hash": "4564d6ecb63f80273b82a3f85a30887c9743b7f2ef2d10057884f8a82933e3b6",
+      "delta_hash": "4564d6ecb63f80273b82a3f85a30887c9743b7f2ef2d10057884f8a82933e3b6",
+      "float_projection_hash": "d4b76bd812f02af0817a0545909cc8cb7e5452642a26bc93bfee81d9fd6c4988",
+      "png_page_hash": "0a2f62315a938f64b9935ed7e89580a68dd9639e00d3f20aaa257de21c93a17c",
+      "candidate_png_sha256": "671a128cdfca1140d39c65055a4d1c04cda225017bba73b5e994184e1f71321a",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "63cc829044af1339eadabe8a47cf4cacdeda79f9e6a9c197d13626c8daed3295",
+      "keep_jaccard_vs_clean": 0.8226164079822617,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.292975679971278,
+      "counters": {
+        "forward": 120,
+        "backward": 36,
+        "generate": 74
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 19,
+      "accepted_after": 19,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 3.8307977406425495,
+      "attack_loss": 2.335739850997925,
+      "fdp_loss": 0.5669136047363281,
+      "full_token_hard_margins": [
+        0.5,
+        6.875,
+        4.5,
+        13.0,
+        9.125
+      ],
+      "selected_token_margins": [
+        0.125,
+        1.625,
+        7.875
+      ],
+      "grad_hash": "b3c7ee02b8175450521f40b90af2126a861affb0a09bf764c320d1b97c684206",
+      "grad_l2": 11.06187629699707,
+      "grad_linf": 1.1089210510253906,
+      "candidate_delta_hash": "087d05370a93f5034ef850988a5403704d810dd0b67c7e013cf49c178f67872b",
+      "delta_hash": "087d05370a93f5034ef850988a5403704d810dd0b67c7e013cf49c178f67872b",
+      "float_projection_hash": "fc76f4a4f41311eeb0fe294ffc22c4387e36b72d971f470fbf64e9605473ab70",
+      "png_page_hash": "1e2d6ea2c00430a73e39b3d7cc052248cbe74394944ebe4cec70b5c655e2db3a",
+      "candidate_png_sha256": "10eb0f117227acb78d4566f4faa6aabaeecf2c724c7c70d2b928ff90c45d9fd8",
+      "fastv_text": "food technology",
+      "fastv_tokens": [
+        13915,
+        5440,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "7fc64ef260a8f78ef4ae121bc7045c5724122f5558e56667f2c7787e5067ef68",
+      "keep_jaccard_vs_clean": 0.8284725654967869,
+      "positions": [
+        0,
+        1,
+        2
+      ],
+      "selected_token_ids": [
+        13915,
+        5440,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 12.703654740005732,
+      "counters": {
+        "forward": 125,
+        "backward": 38,
+        "generate": 77
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2
+        ],
+        "token_ids": [
+          13915,
+          5440,
+          151645
+        ],
+        "pieces": [
+          "food",
+          " technology",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 20,
+      "accepted_after": 20,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 6.605450543329998,
+      "attack_loss": 5.509969234466553,
+      "fdp_loss": 0.4153974652290344,
+      "full_token_hard_margins": [
+        0.625,
+        7.5,
+        4.875,
+        13.5,
+        9.5
+      ],
+      "selected_token_margins": [
+        0.25,
+        5.875,
+        3.5,
+        10.625,
+        9.375
+      ],
+      "grad_hash": "29d7e1158c6bffc1238e19fc10f9fe5027cfb08c2e3077eacfa4d0f541043be8",
+      "grad_l2": 9.103524208068848,
+      "grad_linf": 0.4321880340576172,
+      "candidate_delta_hash": "9a5836790828837a0f875a79685f718f220640dac4a3f47e2cff5d8ee33d1c1c",
+      "delta_hash": "9a5836790828837a0f875a79685f718f220640dac4a3f47e2cff5d8ee33d1c1c",
+      "float_projection_hash": "0f20e20e24b3d0639c49066ee9b1e7c3f3b91728da0b8a7610d4918bce1379cb",
+      "png_page_hash": "bb0bf8bde855c4ef54417dd28350f04716791e35a2ba32cb2a73cd75d019d4ed",
+      "candidate_png_sha256": "67f8dcc39e01b68a070ecce47c41320fbcb817b6c8a8ef30f87c064b34d47b9c",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "6cdb38f4366b79708465262cd009a3e97dbf090b28e6107cfd7e678b9982b958",
+      "keep_jaccard_vs_clean": 0.8266666666666667,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.27749049803242,
+      "counters": {
+        "forward": 130,
+        "backward": 40,
+        "generate": 80
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 21,
+      "accepted_after": 21,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 2.7752131613302122,
+      "attack_loss": 1.5349490642547607,
+      "fdp_loss": 0.4702979028224945,
+      "full_token_hard_margins": [
+        0.625,
+        7.125,
+        4.625,
+        13.125,
+        9.8125
+      ],
+      "selected_token_margins": [
+        0.125,
+        0.0,
+        6.875
+      ],
+      "grad_hash": "a2dd32b82eb49ec250df4ec783e43c3f7e7ead40c3dd9f9e3465c460f0bb0b48",
+      "grad_l2": 13.873722076416016,
+      "grad_linf": 1.089564323425293,
+      "candidate_delta_hash": "2b278339d6bf53794f9c6cb558781fbf729782a7812935df7865264a1fd270c1",
+      "delta_hash": "2b278339d6bf53794f9c6cb558781fbf729782a7812935df7865264a1fd270c1",
+      "float_projection_hash": "462681428c87239a741f5d4b561e6323ad2b6e6d6d9ed4f0600b0e161b6deb1a",
+      "png_page_hash": "20f477b749786a3759dc24beb6bec13d56d70cfd2dbc190f49f2654a455078cd",
+      "candidate_png_sha256": "e0b6efdde09387d4e5e8d837cb8032cb8f0f52bff424f3d15d7a1786a46d13f5",
+      "fastv_text": "Food technology",
+      "fastv_tokens": [
+        26746,
+        5440,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "ce61baab57882546b4931b684e0bb5fa521db3faf25013fab85d95ca1cb1cec8",
+      "keep_jaccard_vs_clean": 0.8257650542941757,
+      "positions": [
+        0,
+        1,
+        2
+      ],
+      "selected_token_ids": [
+        26746,
+        5440,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 12.926842665998265,
+      "counters": {
+        "forward": 141,
+        "backward": 42,
+        "generate": 87
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2
+        ],
+        "token_ids": [
+          26746,
+          5440,
+          151645
+        ],
+        "pieces": [
+          "Food",
+          " technology",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 22,
+      "accepted_after": 22,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 5.978328113372445,
+      "attack_loss": 4.996209621429443,
+      "fdp_loss": 0.37241122126579285,
+      "full_token_hard_margins": [
+        1.125,
+        7.75,
+        4.75,
+        13.625,
+        9.5
+      ],
+      "selected_token_margins": [
+        0.25,
+        5.625,
+        2.75,
+        10.0,
+        8.75
+      ],
+      "grad_hash": "a730538b21660cda59b1ef00004909e49eb8ab4f7eb34b35326bd8c042a5bc79",
+      "grad_l2": 14.28007984161377,
+      "grad_linf": 1.15869140625,
+      "candidate_delta_hash": "f092cf3d51665face9200cc2b892b1da226d75289f626bfc1f817bc8224db87e",
+      "delta_hash": "f092cf3d51665face9200cc2b892b1da226d75289f626bfc1f817bc8224db87e",
+      "float_projection_hash": "b0edbe53e9ef42a361a15930d692cd5d24706dea64623a9fa2c442239367793d",
+      "png_page_hash": "3e26dc8bfb02f89f241deb4553ff57bc9f30f29cc72ebd138e0a61982d4fde73",
+      "candidate_png_sha256": "ad7dc3769219ea774ebfe1b455b4829d4fc5a354dbfc450d99d7ee2378fecac3",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "9d73484f9849ef0c13e3c94c1b061e053cbc528d27669cda0edafbf2dec6782f",
+      "keep_jaccard_vs_clean": 0.8253145817912657,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.260971700074151,
+      "counters": {
+        "forward": 146,
+        "backward": 44,
+        "generate": 90
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 23,
+      "accepted_after": 23,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 5.772795901532147,
+      "attack_loss": 4.822822570800781,
+      "fdp_loss": 0.3602220416069031,
+      "full_token_hard_margins": [
+        1.25,
+        7.625,
+        4.75,
+        13.75,
+        9.5625
+      ],
+      "selected_token_margins": [
+        0.375,
+        5.375,
+        2.75,
+        9.375,
+        8.8125
+      ],
+      "grad_hash": "274a41ef0f4869879d19b164c679e94b9203d68cac9cf78b1b9d3c262d30ed31",
+      "grad_l2": 7.249090671539307,
+      "grad_linf": 0.32436931133270264,
+      "candidate_delta_hash": "4422c19b11003f7f2df183d80fa5bbba3396a0f4cf40e85f10a29f78d0191e83",
+      "delta_hash": "4422c19b11003f7f2df183d80fa5bbba3396a0f4cf40e85f10a29f78d0191e83",
+      "float_projection_hash": "15029f8ba5805b21cf3964684575fbdaa429e570c19944596accddef1e203f14",
+      "png_page_hash": "1bc9a8443276bee458a0d45b0c939e3b3e8e3f42f4a2a6680bf6680f54df58d9",
+      "candidate_png_sha256": "bdb9d1d1c1b9ce5c854c26a173bf3696f659d8a403a159a873d93bca5b4c5428",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "58519a1c942e4523dfccc03a2073b4c492c26aa74006d0750da1d5b5d253ae2b",
+      "keep_jaccard_vs_clean": 0.8194786030496802,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.200413758866489,
+      "counters": {
+        "forward": 151,
+        "backward": 46,
+        "generate": 93
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 24,
+      "accepted_after": 24,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 3.422751161066491,
+      "attack_loss": 2.2155380249023438,
+      "fdp_loss": 0.45776525139808655,
+      "full_token_hard_margins": [
+        0.625,
+        7.375,
+        4.75,
+        13.125,
+        9.5625
+      ],
+      "selected_token_margins": [
+        0.0,
+        1.75,
+        7.625
+      ],
+      "grad_hash": "1448a3ae3f66df0f547d4109dc6b4bbd116296d4548ed29056e310992eb2cdff",
+      "grad_l2": 18.347314834594727,
+      "grad_linf": 1.820141315460205,
+      "candidate_delta_hash": "6000809dc16f108fb34ef60c8b5bdf4a81c0b58e0229aaf788e510d2ac335b19",
+      "delta_hash": "6000809dc16f108fb34ef60c8b5bdf4a81c0b58e0229aaf788e510d2ac335b19",
+      "float_projection_hash": "1a17899f7de0d8faa94be50d9e474ab21dadf5c519e261a79f71a52e492e563b",
+      "png_page_hash": "2ea706088251cd1d39a8c48d8e8bbf9b15e47d0bed05beacda09bd31395c518f",
+      "candidate_png_sha256": "48088e9214525eaea022afda9c627994d81b7f41ceece3e331aa97790d671ed6",
+      "fastv_text": "food technology",
+      "fastv_tokens": [
+        13915,
+        5440,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "ef573fc8877733d12fb2e9ca53eb28fd1359a299eb00ba48f15fdc44a79ecf7f",
+      "keep_jaccard_vs_clean": 0.8244143033292232,
+      "positions": [
+        0,
+        1,
+        2
+      ],
+      "selected_token_ids": [
+        13915,
+        5440,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 12.648059010971338,
+      "counters": {
+        "forward": 156,
+        "backward": 48,
+        "generate": 96
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2
+        ],
+        "token_ids": [
+          13915,
+          5440,
+          151645
+        ],
+        "pieces": [
+          "food",
+          " technology",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    },
+    {
+      "attempt": 25,
+      "accepted_after": 25,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 5.774612839353623,
+      "attack_loss": 4.801734447479248,
+      "fdp_loss": 0.36890745162963867,
+      "full_token_hard_margins": [
+        1.125,
+        7.5,
+        4.75,
+        13.5,
+        9.9375
+      ],
+      "selected_token_margins": [
+        0.125,
+        5.625,
+        2.5,
+        9.625,
+        8.8125
+      ],
+      "grad_hash": "60db1be6cdbf7f85bdd93b0085c0111c1d74092cf0510d75e8ee5e8c69a1ebe6",
+      "grad_l2": 10.739062309265137,
+      "grad_linf": 0.8138666152954102,
+      "candidate_delta_hash": "c67576f2a6bc9a6c14a2af1cd0e18f3fea1ea09d69c708209280b20606199551",
+      "delta_hash": "c67576f2a6bc9a6c14a2af1cd0e18f3fea1ea09d69c708209280b20606199551",
+      "float_projection_hash": "3d8536416043afc5f53aa2e57fbf9a18378f47fb324ac503b79a2584c83d7946",
+      "png_page_hash": "52b3bf562a5e8ba167480ae58c4fd738a1ae45c975af1ade1feb0ab3490251f8",
+      "candidate_png_sha256": "323c0d95f4bf049cb54e881e94049821d85ceb0ed3cc8319b6ad6d283b0bc1e2",
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "119479734b88970f93cf513f14681b0b3e418d20835c7b81a7c914140b57ff52",
+      "keep_jaccard_vs_clean": 0.8176904176904177,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 13.438396099954844,
+      "counters": {
+        "forward": 161,
+        "backward": 50,
+        "generate": 99
+      },
+      "dynamic_selection": {
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "token_ids": [
+          3788,
+          2069,
+          87534,
+          51432,
+          151645
+        ],
+        "pieces": [
+          "FO",
+          "OD",
+          " TECHNO",
+          "LOGY",
+          "<|im_end|>"
+        ],
+        "reason": "current_perturbed_natural_fastv_sequence"
+      }
+    }
+  ],
+  "checkpoints": [
+    {
+      "checkpoint": 0,
+      "nonzero": false,
+      "output_valid": true,
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "linf_ok": true,
+      "png_reloadable": true,
+      "attack_surrogate": 6.132599830627441,
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/A/checkpoints/accepted_000.png",
+      "png_sha256": "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a",
+      "uint8_linf": 0,
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+      "keep_jaccard_vs_clean": 1.0,
+      "attack_loss": 6.132599830627441,
+      "fdp_loss": 0.6877755522727966,
+      "total_loss": 7.946393426581767,
+      "selected_margins": [
+        0.5,
+        6.5,
+        3.625,
+        12.125,
+        9.5625
+      ],
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM"
+    },
+    {
+      "checkpoint": 1,
+      "nonzero": true,
+      "output_valid": true,
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "linf_ok": true,
+      "png_reloadable": true,
+      "attack_surrogate": 6.035139560699463,
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/A/checkpoints/accepted_001.png",
+      "png_sha256": "661e81709092b05339c76fc736a09d076f4d6fb48aa728ba3af314411b44c6d9",
+      "uint8_linf": 1,
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "e4ac7e80f2731f74037f8befa5ea40f8d59f4123b619c20b5773be422d45c4b4",
+      "keep_jaccard_vs_clean": 0.8795731707317073,
+      "attack_loss": 6.035139560699463,
+      "fdp_loss": 0.6651094555854797,
+      "total_loss": 7.78915839309774,
+      "selected_margins": [
+        0.375,
+        6.125,
+        3.75,
+        12.0,
+        9.5
+      ],
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM"
+    },
+    {
+      "checkpoint": 5,
+      "nonzero": true,
+      "output_valid": true,
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "linf_ok": true,
+      "png_reloadable": true,
+      "attack_surrogate": 5.7248616218566895,
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/A/checkpoints/accepted_005.png",
+      "png_sha256": "9aba3576da37d569285ca3497bcae09d159b5dc87a13ea6150743b1518afb641",
+      "uint8_linf": 5,
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "e038d7344e946822ec36d24e3be8e55071d2e8da55ac89a5d49dda7c1e677060",
+      "keep_jaccard_vs_clean": 0.8527422990232908,
+      "attack_loss": 5.7248616218566895,
+      "fdp_loss": 0.5818944573402405,
+      "total_loss": 7.259426839764321,
+      "selected_margins": [
+        0.125,
+        6.0,
+        3.625,
+        11.125,
+        9.4375
+      ],
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM"
+    },
+    {
+      "checkpoint": 10,
+      "nonzero": true,
+      "output_valid": true,
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "linf_ok": true,
+      "png_reloadable": true,
+      "attack_surrogate": 5.517860412597656,
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/A/checkpoints/accepted_010.png",
+      "png_sha256": "19fe40b9f1d68e7c3797345a9e488d036949a05267d2da5f26c959687e5edcc6",
+      "uint8_linf": 8,
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "ceba0518ab5f43bfeda5536f709ea02b68178666d865ad6274d71e7997b92a56",
+      "keep_jaccard_vs_clean": 0.8343664765683114,
+      "attack_loss": 5.517860412597656,
+      "fdp_loss": 0.4966268241405487,
+      "total_loss": 6.8275588312584885,
+      "selected_margins": [
+        0.375,
+        5.875,
+        3.375,
+        10.875,
+        9.0
+      ],
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM"
+    },
+    {
+      "checkpoint": 15,
+      "nonzero": true,
+      "output_valid": true,
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "linf_ok": true,
+      "png_reloadable": true,
+      "attack_surrogate": 5.057040691375732,
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/A/checkpoints/accepted_015.png",
+      "png_sha256": "a7b4351fe18431ada535da383f891561bd04a4847eb53b8777200d2176868932",
+      "uint8_linf": 8,
+      "fastv_text": "FOOD TECHNOLOGY",
+      "fastv_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "3bde80678eaaab17f05ca6528ff63edbcd8c25581e66d9ea5b5b6da6cd57c97b",
+      "keep_jaccard_vs_clean": 0.8239644970414202,
+      "attack_loss": 5.057040691375732,
+      "fdp_loss": 0.4753044545650482,
+      "total_loss": 6.310508007813154,
+      "selected_margins": [
+        0.125,
+        5.75,
+        3.0,
+        9.5,
+        9.0
+      ],
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "selected_token_ids": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM"
+    },
+    {
+      "checkpoint": 20,
+      "nonzero": true,
+      "output_valid": true,
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "linf_ok": true,
+      "png_reloadable": true,
+      "attack_surrogate": 1.5237592458724976,
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/A/checkpoints/accepted_020.png",
+      "png_sha256": "67f8dcc39e01b68a070ecce47c41320fbcb817b6c8a8ef30f87c064b34d47b9c",
+      "uint8_linf": 8,
+      "fastv_text": "Food technology",
+      "fastv_tokens": [
+        26746,
+        5440,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "b8a66c847650825c03fa513e12f250acf63ea811c83d6e5478650065dd4f5b0e",
+      "keep_jaccard_vs_clean": 0.8257650542941757,
+      "attack_loss": 1.5237592458724976,
+      "fdp_loss": 0.466459721326828,
+      "total_loss": 2.7539013358571984,
+      "selected_margins": [
+        0.125,
+        0.0,
+        6.75
+      ],
+      "positions": [
+        0,
+        1,
+        2
+      ],
+      "selected_token_ids": [
+        26746,
+        5440,
+        151645
+      ],
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM"
+    },
+    {
+      "checkpoint": 25,
+      "nonzero": true,
+      "output_valid": true,
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "linf_ok": true,
+      "png_reloadable": true,
+      "attack_surrogate": 1.576926589012146,
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/A/checkpoints/accepted_025.png",
+      "png_sha256": "323c0d95f4bf049cb54e881e94049821d85ceb0ed3cc8319b6ad6d283b0bc1e2",
+      "uint8_linf": 8,
+      "fastv_text": "food technology",
+      "fastv_tokens": [
+        13915,
+        5440,
+        151645
+      ],
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "k": 3699,
+      "keep_hash": "6e1787e88a8b31984ad9d9e2b5d9a050ec47a3e94e9af3140a4aece4aabe4daa",
+      "keep_jaccard_vs_clean": 0.8199261992619926,
+      "attack_loss": 1.576926589012146,
+      "fdp_loss": 0.3939933478832245,
+      "total_loss": 2.615961211393943,
+      "selected_margins": [
+        0.125,
+        0.25,
+        7.0
+      ],
+      "positions": [
+        0,
+        1,
+        2
+      ],
+      "selected_token_ids": [
+        26746,
+        11791,
+        151645
+      ],
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM"
+    }
+  ],
+  "fixed_selector": {
+    "checkpoint": 20,
+    "attack_surrogate": 1.5237592458724976
+  },
+  "counters": {
+    "forward": 167,
+    "backward": 50,
+    "generate": 103
+  },
+  "wall_seconds": 389.6837386568077,
+  "semantic_manifest_sha256": "ac60d7887066f655e21b914167b4999cad66273e333b988d0a9fec0eea78b704"
+}

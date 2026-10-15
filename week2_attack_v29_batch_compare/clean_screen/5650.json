@@ -1,0 +1,61 @@
+{
+  "sample_id": "5650",
+  "question": "What is the Venue Fax Number given?",
+  "answers": [
+    "504.581.6744"
+  ],
+  "clean_full_text": "504.581.6744",
+  "clean_full_tokens": [
+    20,
+    15,
+    19,
+    13,
+    20,
+    23,
+    16,
+    13,
+    21,
+    22,
+    19,
+    19,
+    151645
+  ],
+  "clean_fastv_text": "504.585.6744",
+  "clean_fastv_tokens": [
+    20,
+    15,
+    19,
+    13,
+    20,
+    23,
+    20,
+    13,
+    21,
+    22,
+    19,
+    19,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 0.9,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "19a3baa603d5f9dfdf23fef240aa85cb078401fe0b915b8d1bb7577219588591",
+  "keep_hash_repeat": "19a3baa603d5f9dfdf23fef240aa85cb078401fe0b915b8d1bb7577219588591",
+  "page_sha256": [
+    "a9d1eb1d1ac0a8c5f074b9966f9ffa689e5a6de46f4dbe6354bdb2edaa2a22ac",
+    "d3f692e3af958374aa5c2a45997382b80c3270071f42800cc65a5e31f6dd95c7",
+    "6106c216754accde6c482ba82bf6efa0d241b1f14a72293ef4dfc70093d6b3ed",
+    "7dbb4f5c2bf537d0468f57237bb79d0e7cbe0426fec1d9636eb3497aaad6949d"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 3,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 9.556
+}

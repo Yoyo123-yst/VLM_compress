@@ -1,0 +1,98 @@
+[
+  {
+    "step": 0,
+    "png_sha256": "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "Dr. C. Baur",
+      "fastv_0.35": "Dr. C. B. B. M.D."
+    },
+    "margins": {
+      "0.25": 0.7863425016403198,
+      "0.35": 1.563478708267212
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "ecefcd69ddc95ba41453e8f3d0107d0549d98a02f357965c7e98f8d24698c95e"
+      }
+    },
+    "selector": {
+      "step": 0,
+      "nonzero": 0,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 0,
+      "pixel_linf_uint8": 0.0,
+      "margin": 1.1749106049537659
+    }
+  },
+  {
+    "step": 10,
+    "png_sha256": "cd0de1ae7cda48f903228c95e9da7ed36c0a29eae833e81c5057a10910b432b0",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "Dr. B. B. B.",
+      "fastv_0.35": "Dr. C. B. B. MD"
+    },
+    "margins": {
+      "0.25": -1.358925461769104,
+      "0.35": 1.0399547815322876
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "1fa22a0bc93aa6d282e0e1051e0eb59b028b8851dc6645846153fc3650c2c566"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "d7511657d5643750b8621c669954e66813da03f0cfc951b57a6d3734abcb1c20"
+      }
+    },
+    "selector": {
+      "step": 10,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.1594853401184082
+    }
+  },
+  {
+    "step": 25,
+    "png_sha256": "cca5f6ad9a94edeeeb37e761a7867644e8d0143e3ea2af9b93895c3c3357f406",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "Dr. C. B. B.",
+      "fastv_0.35": "Dr. C. B. B. MD"
+    },
+    "margins": {
+      "0.25": -1.0799931287765503,
+      "0.35": 0.19092436134815216
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "f1d49717f379b166542aa1b59bb7eae98afacf449d796eeeb5a4133383a0865d"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "2ab9b49b4a130d89210710db7ae9570ff121fd39a4f6d7baa69485a00e9121bc"
+      }
+    },
+    "selector": {
+      "step": 25,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.44453438371419907
+    }
+  }
+]

@@ -1,0 +1,142 @@
+{
+  "scope": "5-sample development post-hoc control",
+  "precheck_pass": true,
+  "token_exact_scope": "pre-seal token exact + target-side text exact",
+  "target_evaluator": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/target_eval/evaluate_fastv.py",
+  "generate": {
+    "do_sample": false,
+    "max_new_tokens": 16,
+    "use_cache": true,
+    "caller": "run_causal_v2.generate"
+  },
+  "prompt": "week1_mechanism/run_eval.py build_prompt template A",
+  "ratios": [
+    0.15,
+    0.25,
+    0.35,
+    0.5
+  ],
+  "noise": {
+    "rule": "uint8 uniform integer noise in [-8, 8] on the auxiliary page only, then clip to [0, 255]",
+    "linf_bound_uint8": 8,
+    "seed_rule": "sha256('v9c-control-noise-2026101121|' + sample_id)[:8] as uint32",
+    "does_not_read_fastv": true,
+    "does_not_copy_attack_residual": true
+  },
+  "samples": [
+    {
+      "sample_id": "1025",
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "M": 3,
+      "clean_page_sha256": [
+        "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+        "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+        "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+      ],
+      "manifest_page_sha256_match": true,
+      "sealed": true,
+      "sealed_png_match": true,
+      "historical_clean_fastv_r025": {
+        "source": "DEV_MANIFEST_COPY clean_fastv_pred from the r=0.25 clean screen",
+        "text": "Dr. C. Baur",
+        "anls": 0.6667,
+        "k": 2774,
+        "keep_hash": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5"
+      },
+      "noise_seed": 456179370
+    },
+    {
+      "sample_id": "2008",
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "M": 2,
+      "clean_page_sha256": [
+        "fe5a6c3c88a77ef33b42e1c45d0fe2b28b39f37be8983db7e6d753ceef12f8f4",
+        "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+      ],
+      "manifest_page_sha256_match": true,
+      "sealed": true,
+      "sealed_png_match": true,
+      "historical_clean_fastv_r025": {
+        "source": "DEV_MANIFEST_COPY clean_fastv_pred from the r=0.25 clean screen",
+        "text": "March 1956",
+        "anls": 0.8,
+        "k": 1850,
+        "keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c"
+      },
+      "noise_seed": 2209604365
+    },
+    {
+      "sample_id": "7006",
+      "aux_idx": 0,
+      "evidence_idx": 3,
+      "M": 4,
+      "clean_page_sha256": [
+        "c3c0eabac78241156d37bd11f9c5c72c8b5a3a13060c3f0ce4f6ad36d4d7fa16",
+        "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+        "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+        "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+      ],
+      "manifest_page_sha256_match": true,
+      "sealed": true,
+      "sealed_png_match": true,
+      "historical_clean_fastv_r025": {
+        "source": "DEV_MANIFEST_COPY clean_fastv_pred from the r=0.25 clean screen",
+        "text": "RJ Reynolds Tobacco Company",
+        "anls": 0.963,
+        "k": 3699,
+        "keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178"
+      },
+      "noise_seed": 3371786416
+    },
+    {
+      "sample_id": "39204",
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "M": 4,
+      "clean_page_sha256": [
+        "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a",
+        "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+        "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+        "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+      ],
+      "manifest_page_sha256_match": true,
+      "sealed": false,
+      "sealed_png_match": true,
+      "historical_clean_fastv_r025": {
+        "source": "DEV_MANIFEST_COPY clean_fastv_pred from the r=0.25 clean screen",
+        "text": "FOOD TECHNOLOGY",
+        "anls": 1.0,
+        "k": 3699,
+        "keep_hash": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338"
+      },
+      "noise_seed": null
+    },
+    {
+      "sample_id": "47450",
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "M": 4,
+      "clean_page_sha256": [
+        "7bab8be8ede326621c16376d55769d696a6a969772ab2116685a1628eba55f8d",
+        "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+        "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+        "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+      ],
+      "manifest_page_sha256_match": true,
+      "sealed": true,
+      "sealed_png_match": true,
+      "historical_clean_fastv_r025": {
+        "source": "DEV_MANIFEST_COPY clean_fastv_pred from the r=0.25 clean screen",
+        "text": "Dr. or Mrs. William J. Darby",
+        "anls": 1.0,
+        "k": 3699,
+        "keep_hash": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2"
+      },
+      "noise_seed": 2687870593
+    }
+  ],
+  "historical_attack_source": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/target_eval/fastv_transfer.json",
+  "historical_attack_unchanged": true
+}

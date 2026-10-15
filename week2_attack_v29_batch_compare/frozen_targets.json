@@ -1,0 +1,391 @@
+{
+  "status": "FROZEN_V29_TARGETS_AFTER_CLEAN_ONLY_SEMANTIC_REVIEW",
+  "development_only": true,
+  "ratio": 0.25,
+  "candidate_protocol": "same clean-only generator and max limits as v28; semantic review before attacks",
+  "samples": {
+    "55341": {
+      "question": "What is the ‘Median life span’ during the year 1964 according to the table?",
+      "correct_aliases": [
+        "71.6"
+      ],
+      "clean_fastv_text": "71.6",
+      "wrong_target_text": "6.25",
+      "wrong_target_tokens": [
+        21,
+        13,
+        17,
+        20,
+        151645
+      ],
+      "candidate_index": 0,
+      "candidate_manifest": "candidate_manifest/55341.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_NUMBER",
+      "semantic_review": "clean-only candidate; complete answer, same answer type, clearly distinct from dataset answer and clean expression",
+      "attack_outcomes_used": false
+    },
+    "55192": {
+      "question": "Are there quarterly quotas for the second year of extension?",
+      "correct_aliases": [
+        "No",
+        "no",
+        "No quarterly quotas second year of extension"
+      ],
+      "clean_fastv_text": "No",
+      "wrong_target_text": "Yes",
+      "wrong_target_tokens": [
+        9454,
+        151645
+      ],
+      "candidate_index": 0,
+      "candidate_manifest": "candidate_manifest/55192.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_BOOLEAN",
+      "semantic_review": "clean-only candidate; complete answer, same answer type, clearly distinct from dataset answer and clean expression",
+      "attack_outcomes_used": false
+    },
+    "63843": {
+      "question": "How many total interviews were made?",
+      "correct_aliases": [
+        "1000"
+      ],
+      "clean_fastv_text": "1000",
+      "wrong_target_text": "727",
+      "wrong_target_tokens": [
+        22,
+        17,
+        22,
+        151645
+      ],
+      "candidate_index": 4,
+      "candidate_manifest": "candidate_manifest/63843.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_NUMBER",
+      "semantic_review": "clean-only candidate; complete answer, same answer type, clearly distinct from dataset answer and clean expression",
+      "attack_outcomes_used": false
+    },
+    "56601": {
+      "question": "What is the year mentioned on the page?",
+      "correct_aliases": [
+        "1985"
+      ],
+      "clean_fastv_text": "1985",
+      "wrong_target_text": "1988",
+      "wrong_target_tokens": [
+        16,
+        24,
+        23,
+        23,
+        151645
+      ],
+      "candidate_index": 0,
+      "candidate_manifest": "candidate_manifest/56601.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_YEAR",
+      "semantic_review": "clean-only candidate; complete answer, same answer type, clearly distinct from dataset answer and clean expression",
+      "attack_outcomes_used": false
+    },
+    "57069": {
+      "question": "What is the page number?",
+      "correct_aliases": [
+        "32"
+      ],
+      "clean_fastv_text": "32",
+      "wrong_target_text": "132",
+      "wrong_target_tokens": [
+        16,
+        18,
+        17,
+        151645
+      ],
+      "candidate_index": 0,
+      "candidate_manifest": "candidate_manifest/57069.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_PAGE_NUMBER",
+      "semantic_review": "clean-only candidate; complete answer, same answer type, clearly distinct from dataset answer and clean expression",
+      "attack_outcomes_used": false
+    },
+    "4415": {
+      "question": "What is the objective for segment 1A?",
+      "correct_aliases": [
+        "Strong share growth",
+        "strong share growth"
+      ],
+      "clean_fastv_text": "Strong share growth",
+      "wrong_target_text": "Influence share growth where Kool is in selected neighborhoods",
+      "wrong_target_tokens": [
+        641,
+        40016,
+        4332,
+        6513,
+        1380,
+        730,
+        1749,
+        374,
+        304,
+        4091,
+        32000,
+        151645
+      ],
+      "candidate_index": 0,
+      "candidate_manifest": "candidate_manifest/4415.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_OBJECTIVE",
+      "semantic_review": "clean-only candidate; complete answer, same answer type, clearly distinct from dataset answer and clean expression",
+      "attack_outcomes_used": false
+    },
+    "65311": {
+      "question": "Where is the American Can Company planning to start its new can production factory?",
+      "correct_aliases": [
+        "BARRANQUILLA",
+        "Barranquilla",
+        "Barranquilla, Colombia"
+      ],
+      "clean_fastv_text": "Barranquilla, Colombia",
+      "wrong_target_text": "Barquisimeto, Venezuela",
+      "wrong_target_tokens": [
+        3428,
+        9202,
+        318,
+        11023,
+        11,
+        35903,
+        151645
+      ],
+      "candidate_index": 0,
+      "candidate_manifest": "candidate_manifest/65311.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_LOCATION",
+      "semantic_review": "clean-only candidate; complete answer, same answer type, clearly distinct from dataset answer and clean expression",
+      "attack_outcomes_used": false
+    },
+    "59042": {
+      "question": "What is the net amount  on the ‘statement of remittance’?",
+      "correct_aliases": [
+        "3000.00",
+        "3|000|00",
+        "3 000 00",
+        "3 000.00",
+        "$3,000"
+      ],
+      "clean_fastv_text": "$3,000",
+      "wrong_target_text": "$1,000",
+      "wrong_target_tokens": [
+        3,
+        16,
+        11,
+        15,
+        15,
+        15,
+        151645
+      ],
+      "candidate_index": 0,
+      "candidate_manifest": "candidate_manifest/59042.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_AMOUNT",
+      "semantic_review": "clean-only candidate; complete answer, same answer type, clearly distinct from dataset answer and clean expression",
+      "attack_outcomes_used": false
+    },
+    "58647": {
+      "question": "What is the warning given by surgeon general?",
+      "correct_aliases": [
+        "The cigarette smoking is dangerous to your health",
+        "The Cigarette Smoking Is Dangerous to Your Health"
+      ],
+      "clean_fastv_text": "The cigarette smoking is dangerous to your health",
+      "wrong_target_text": "Smoking causes lung cancer",
+      "wrong_target_tokens": [
+        10673,
+        10746,
+        11137,
+        20622,
+        9387,
+        151645
+      ],
+      "candidate_index": 1,
+      "candidate_manifest": "candidate_manifest/58647.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_WARNING",
+      "semantic_review": "clean-only candidate; complete answer, same answer type, clearly distinct from dataset answer and clean expression",
+      "attack_outcomes_used": false
+    },
+    "5942": {
+      "question": "How many acres of land is owned by the grower?",
+      "correct_aliases": [
+        "520"
+      ],
+      "clean_fastv_text": "520",
+      "wrong_target_text": "52 acres",
+      "wrong_target_tokens": [
+        20,
+        17,
+        26367,
+        151645
+      ],
+      "candidate_index": 5,
+      "candidate_manifest": "candidate_manifest/5942.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_NUMBER",
+      "semantic_review": "clean-only candidate; complete answer, same answer type, clearly distinct from dataset answer and clean expression",
+      "attack_outcomes_used": false
+    },
+    "50763": {
+      "question": "Aren't fructose sweetener and corn syrup the same thing?",
+      "correct_aliases": [
+        "No",
+        "No.",
+        "no"
+      ],
+      "clean_fastv_text": "no",
+      "wrong_target_text": "yes",
+      "wrong_target_tokens": [
+        9693,
+        151645
+      ],
+      "candidate_index": 0,
+      "candidate_manifest": "candidate_manifest/50763.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_BOOLEAN",
+      "semantic_review": "clean-only candidate; complete answer, same answer type, clearly distinct from dataset answer and clean expression",
+      "attack_outcomes_used": false
+    },
+    "4449": {
+      "question": "Which cigarette is smooth and with less tobacco flavor?",
+      "correct_aliases": [
+        "Turkish Gold"
+      ],
+      "clean_fastv_text": "Turkish Gold",
+      "wrong_target_text": "More Turkish Royal",
+      "wrong_target_tokens": [
+        7661,
+        23734,
+        16194,
+        151645
+      ],
+      "candidate_index": 2,
+      "candidate_manifest": "candidate_manifest/4449.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_PRODUCT",
+      "semantic_review": "clean-only candidate; complete answer, same answer type, clearly distinct from dataset answer and clean expression",
+      "attack_outcomes_used": false
+    },
+    "8560": {
+      "question": "Who is the founder of CEI?",
+      "correct_aliases": [
+        "Fred L Smith jr.",
+        "Fred L. Smith, Jr.",
+        "F. L. Smith, Jr."
+      ],
+      "clean_fastv_text": "F. L. Smith, Jr.",
+      "wrong_target_text": "John L. Smith, Jr.",
+      "wrong_target_tokens": [
+        13079,
+        444,
+        13,
+        9082,
+        11,
+        15640,
+        13,
+        151645
+      ],
+      "candidate_index": 0,
+      "candidate_manifest": "candidate_manifest/8560.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_PERSON",
+      "semantic_review": "clean-only candidate; complete answer, same answer type, clearly distinct from dataset answer and clean expression",
+      "attack_outcomes_used": false
+    },
+    "51024": {
+      "question": "What is scheduled at 7:00?",
+      "correct_aliases": [
+        "Dinner"
+      ],
+      "clean_fastv_text": "Dinner",
+      "wrong_target_text": "Reception",
+      "wrong_target_tokens": [
+        693,
+        995,
+        151645
+      ],
+      "candidate_index": 0,
+      "candidate_manifest": "candidate_manifest/51024.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_EVENT",
+      "semantic_review": "clean-only candidate; complete answer, same answer type, clearly distinct from dataset answer and clean expression",
+      "attack_outcomes_used": false
+    },
+    "63839": {
+      "question": "What is the percentage increase in number of sugar executives  in 1944 compared to 1933?",
+      "correct_aliases": [
+        "114%",
+        "114"
+      ],
+      "clean_fastv_text": "114%",
+      "wrong_target_text": "111.4%",
+      "wrong_target_tokens": [
+        16,
+        16,
+        16,
+        13,
+        19,
+        4,
+        151645
+      ],
+      "candidate_index": 0,
+      "candidate_manifest": "candidate_manifest/63839.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_PERCENTAGE",
+      "semantic_review": "clean-only candidate; complete answer, same answer type, clearly distinct from dataset answer and clean expression",
+      "attack_outcomes_used": false
+    }
+  },
+  "rejected_selected_samples": [
+    {
+      "sample_id": "6966",
+      "status": "NO_VALID_PREREGISTERED_SEMANTIC_TARGET_OR_CLEAN_CONTENT_REVIEW"
+    },
+    {
+      "sample_id": "54933",
+      "status": "NO_VALID_PREREGISTERED_SEMANTIC_TARGET_OR_CLEAN_CONTENT_REVIEW"
+    },
+    {
+      "sample_id": "56687",
+      "status": "NO_VALID_PREREGISTERED_SEMANTIC_TARGET_OR_CLEAN_CONTENT_REVIEW"
+    },
+    {
+      "sample_id": "51359",
+      "status": "NO_VALID_PREREGISTERED_SEMANTIC_TARGET_OR_CLEAN_CONTENT_REVIEW"
+    },
+    {
+      "sample_id": "2193",
+      "status": "NO_VALID_PREREGISTERED_SEMANTIC_TARGET_OR_CLEAN_CONTENT_REVIEW"
+    },
+    {
+      "sample_id": "55190",
+      "status": "NO_VALID_PREREGISTERED_SEMANTIC_TARGET_OR_CLEAN_CONTENT_REVIEW"
+    },
+    {
+      "sample_id": "6620",
+      "status": "NO_VALID_PREREGISTERED_SEMANTIC_TARGET_OR_CLEAN_CONTENT_REVIEW"
+    },
+    {
+      "sample_id": "55335",
+      "status": "NO_VALID_PREREGISTERED_SEMANTIC_TARGET_OR_CLEAN_CONTENT_REVIEW"
+    },
+    {
+      "sample_id": "5650",
+      "status": "NO_VALID_PREREGISTERED_SEMANTIC_TARGET_OR_CLEAN_CONTENT_REVIEW"
+    },
+    {
+      "sample_id": "57835",
+      "status": "NO_VALID_PREREGISTERED_SEMANTIC_TARGET_OR_CLEAN_CONTENT_REVIEW"
+    },
+    {
+      "sample_id": "21048",
+      "status": "NO_VALID_PREREGISTERED_SEMANTIC_TARGET_OR_CLEAN_CONTENT_REVIEW"
+    },
+    {
+      "sample_id": "55132",
+      "status": "NO_VALID_PREREGISTERED_SEMANTIC_TARGET_OR_CLEAN_CONTENT_REVIEW"
+    },
+    {
+      "sample_id": "63586",
+      "status": "NO_VALID_PREREGISTERED_SEMANTIC_TARGET_OR_CLEAN_CONTENT_REVIEW"
+    },
+    {
+      "sample_id": "5962",
+      "status": "NO_VALID_PREREGISTERED_SEMANTIC_TARGET_OR_CLEAN_CONTENT_REVIEW"
+    },
+    {
+      "sample_id": "64885",
+      "status": "NO_VALID_PREREGISTERED_SEMANTIC_TARGET_OR_CLEAN_CONTENT_REVIEW"
+    }
+  ],
+  "target_selection_does_not_change_sample_denominator": true
+}

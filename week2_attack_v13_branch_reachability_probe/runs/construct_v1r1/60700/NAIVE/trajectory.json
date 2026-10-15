@@ -1,0 +1,876 @@
+{
+  "status": "DONE",
+  "sample_id": "60700",
+  "variant": "NAIVE",
+  "ratio": 0.25,
+  "steps": 25,
+  "choice": {
+    "position": 0,
+    "target_id": 4406,
+    "target_piece": "PP",
+    "candidate_id": 17713,
+    "candidate_piece": "Pages",
+    "candidate_rank_at_position": 4,
+    "clean_fast_gap": 5.125,
+    "content_priority": 1,
+    "fast_gradient_l1": 16894.453125,
+    "fast_gradient_l2": 45.97576141357422,
+    "estimated_fast_flip_linf": 0.0003033540039491512,
+    "full_clean_hard_min": 0.25,
+    "full_probe_hard_min": 0.375,
+    "full_local_capacity_linf": 0.03333333333333333,
+    "full_local_margin_available": true,
+    "reachability_ratio": 109.8826219512195,
+    "estimated_feasible_at_eps": true,
+    "clean_keep_hash": "9ee935326eac4dc0687e3d8153e3eb074db87628e98294c48aa4768cc2f3ffdc",
+    "clean_k": 2774,
+    "forced_continuation": {
+      "tokens": [
+        17713,
+        220,
+        18,
+        323,
+        220,
+        19,
+        151645
+      ],
+      "text": "Pages 3 and 4",
+      "keep_hash": "72eaa0ce68e11e4c94c2a8e2ee581a9293f265ee3d0a842e91d946a89d56f4b3",
+      "k": 2774
+    },
+    "forced_continuation_anls_diagnostic": 0.0,
+    "continuation_lexically_equivalent_to_clean": false,
+    "selection_uses_anls": false
+  },
+  "selector": "lowest estimated FastV flip radius",
+  "strict_success_any": true,
+  "first_strict_success_step": 10,
+  "curve": [
+    {
+      "full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "fast": {
+        "tokens": [
+          4406,
+          7347,
+          151645
+        ],
+        "text": "PPBS",
+        "anls": 1.0,
+        "valid": true,
+        "k": 2774,
+        "keep_hash": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca",
+        "endpoint_failure": false
+      },
+      "nonzero": false,
+      "linf_uint8": 0,
+      "linf_ok": false,
+      "selected_pair_gap": 5.125,
+      "step": 0,
+      "png_sha256": "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131",
+      "strict_success": false
+    },
+    {
+      "full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "fast": {
+        "tokens": [
+          4406,
+          7347,
+          151645
+        ],
+        "text": "PPBS",
+        "anls": 1.0,
+        "valid": true,
+        "k": 2774,
+        "keep_hash": "c1b0267333bfe49545cfc58379d3c52928dadb70d13124d8483514436e5de748",
+        "endpoint_failure": false
+      },
+      "nonzero": true,
+      "linf_uint8": 8,
+      "linf_ok": true,
+      "selected_pair_gap": -0.375,
+      "step": 5,
+      "png_sha256": "d88c2b51acd4a1d97cb99f4b35b323deff204008da8f59322ec97de14c1d1395",
+      "strict_success": false
+    },
+    {
+      "full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "fast": {
+        "tokens": [
+          17713,
+          220,
+          18,
+          323,
+          220,
+          19,
+          151645
+        ],
+        "text": "Pages 3 and 4",
+        "anls": 0.0,
+        "valid": true,
+        "k": 2774,
+        "keep_hash": "c9a90f249041dc998ad3e4f241a44218d42e8f2ef6524cbecb9d1963464e7c74",
+        "endpoint_failure": true
+      },
+      "nonzero": true,
+      "linf_uint8": 8,
+      "linf_ok": true,
+      "selected_pair_gap": -0.6875,
+      "step": 10,
+      "png_sha256": "bbe3033d1ba5f7c562b4d41e709ae7eda0ab1e78276a5b35c1c891a4db90c987",
+      "strict_success": true
+    },
+    {
+      "full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "fast": {
+        "tokens": [
+          17713,
+          220,
+          18,
+          609,
+          220,
+          19,
+          151645
+        ],
+        "text": "Pages 3 & 4",
+        "anls": 0.0,
+        "valid": true,
+        "k": 2774,
+        "keep_hash": "13f46003c2c50019a253e94096842a95fd8599b8194d72d320b5448fa77317e4",
+        "endpoint_failure": true
+      },
+      "nonzero": true,
+      "linf_uint8": 8,
+      "linf_ok": true,
+      "selected_pair_gap": -1.1875,
+      "step": 15,
+      "png_sha256": "c1791113360c48ec94e5eecb082159c4469a8bfe0d87c83a42ba2ab8dd434fd0",
+      "strict_success": true
+    },
+    {
+      "full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "fast": {
+        "tokens": [
+          17713,
+          220,
+          18,
+          323,
+          220,
+          19,
+          151645
+        ],
+        "text": "Pages 3 and 4",
+        "anls": 0.0,
+        "valid": true,
+        "k": 2774,
+        "keep_hash": "4d023bf9aa6b1dd325439dbf0e760f4191be065f76878e35991305a7e6222c27",
+        "endpoint_failure": true
+      },
+      "nonzero": true,
+      "linf_uint8": 8,
+      "linf_ok": true,
+      "selected_pair_gap": 0.0,
+      "step": 20,
+      "png_sha256": "083b1437ded86ec6128cfdf51dcdb5643b5e5259b93d639c53a610a199208bc7",
+      "strict_success": true
+    },
+    {
+      "full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "fast": {
+        "tokens": [
+          17713,
+          220,
+          18,
+          323,
+          220,
+          19,
+          151645
+        ],
+        "text": "Pages 3 and 4",
+        "anls": 0.0,
+        "valid": true,
+        "k": 2774,
+        "keep_hash": "87eb95aaef7f9d80c531d64ab786ca5128f89505b5b7393b1e2db433c53681d5",
+        "endpoint_failure": true
+      },
+      "nonzero": true,
+      "linf_uint8": 8,
+      "linf_ok": true,
+      "selected_pair_gap": -2.1875,
+      "step": 25,
+      "png_sha256": "8ed496d51074dcebd91ebb9e39c86ee6fadda23c76e207a602dec26d5c4ecb10",
+      "strict_success": true
+    }
+  ],
+  "updates": [
+    {
+      "step": 0,
+      "pair_gap": 5.125,
+      "branch_loss": 5.125,
+      "fdp": 0.6729645133018494,
+      "attack_l2": 45.97576141357422,
+      "full_l2": 128.77786254882812,
+      "full_proxy_violated": false,
+      "current_keep_hash": "9ee935326eac4dc0687e3d8153e3eb074db87628e98294c48aa4768cc2f3ffdc",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 1,
+      "pair_gap": 3.625,
+      "branch_loss": 3.625,
+      "fdp": 0.5178983211517334,
+      "attack_l2": 155.3300018310547,
+      "full_l2": 63.935970306396484,
+      "full_proxy_violated": false,
+      "current_keep_hash": "efb8f08111347be3e8b699060e557ccacf4265dedc9af949bfe041b046b1fac5",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 2,
+      "pair_gap": 3.375,
+      "branch_loss": 3.375,
+      "fdp": 0.37802672386169434,
+      "attack_l2": 34.12508773803711,
+      "full_l2": 21.84706687927246,
+      "full_proxy_violated": false,
+      "current_keep_hash": "124da3c2a329e54b55dd871b664cab54adc81660fd1bc788b45e66ea171148e6",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        47,
+        79,
+        1279,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 3,
+      "pair_gap": 1.125,
+      "branch_loss": 1.125,
+      "fdp": 0.2753888666629791,
+      "attack_l2": 21.754364013671875,
+      "full_l2": 5.955860137939453,
+      "full_proxy_violated": false,
+      "current_keep_hash": "0f3576665613ad1dbc74a1bdf8ec12715ea6ea03573751075f3d6b5269c2a7d6",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        47,
+        79,
+        1279,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 4,
+      "pair_gap": -0.875,
+      "branch_loss": 0.0,
+      "fdp": 0.22334003448486328,
+      "attack_l2": 0.0,
+      "full_l2": 21.806501388549805,
+      "full_proxy_violated": false,
+      "current_keep_hash": "28963b9a8a12d5779b44ef058fe9372951a8c73a80bf5290a1472f8dc927870f",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 5,
+      "pair_gap": -0.4375,
+      "branch_loss": 0.0,
+      "fdp": 0.1776210069656372,
+      "attack_l2": 0.0,
+      "full_l2": 3.8892762660980225,
+      "full_proxy_violated": false,
+      "current_keep_hash": "e61eb526d16b933c644498e56ed07620a0c763b2240ed3b6aecbed1190e19a33",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 6,
+      "pair_gap": -0.1875,
+      "branch_loss": 0.0,
+      "fdp": 0.16335245966911316,
+      "attack_l2": 0.0,
+      "full_l2": 3.064085006713867,
+      "full_proxy_violated": false,
+      "current_keep_hash": "8f62a38e5943e8cb46eaa2f0298078d9213d83affa77b9b4668806b5e5138847",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        47,
+        79,
+        1279,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 7,
+      "pair_gap": 0.0625,
+      "branch_loss": 0.0625,
+      "fdp": 0.13700154423713684,
+      "attack_l2": 14.875755310058594,
+      "full_l2": 2.4070141315460205,
+      "full_proxy_violated": false,
+      "current_keep_hash": "9898d56d1cc631445744593dede1702273c889d69f65790c6e2febcdd1af238a",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        47,
+        79,
+        1279,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 8,
+      "pair_gap": -0.8125,
+      "branch_loss": 0.0,
+      "fdp": 0.12659989297389984,
+      "attack_l2": 0.0,
+      "full_l2": 2.471457004547119,
+      "full_proxy_violated": false,
+      "current_keep_hash": "84c20b38149c0d6df870e2c1e3370c923c86a8d7063d92ebb718dac50b1ed0e9",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 9,
+      "pair_gap": -1.5625,
+      "branch_loss": 0.0,
+      "fdp": 0.11467398703098297,
+      "attack_l2": 0.0,
+      "full_l2": 3.720731735229492,
+      "full_proxy_violated": false,
+      "current_keep_hash": "a91ddb9f0395b80f7a59f1e69e3220e0593360f6d137cf27be4a480222067d50",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 10,
+      "pair_gap": -0.4375,
+      "branch_loss": 0.0,
+      "fdp": 0.11319103091955185,
+      "attack_l2": 0.0,
+      "full_l2": 2.009018898010254,
+      "full_proxy_violated": false,
+      "current_keep_hash": "2a1f22ec82914ea5bfcfca9e0c86cb18518acc5bba53fa65e86d00f9c1edf523",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 11,
+      "pair_gap": -0.625,
+      "branch_loss": 0.0,
+      "fdp": 0.09858888387680054,
+      "attack_l2": 0.0,
+      "full_l2": 3.0285091400146484,
+      "full_proxy_violated": false,
+      "current_keep_hash": "76bfbcd99abd748bb060459fca08f564e17e5011b0860646292ee8c208246113",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        323,
+        220,
+        19,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 12,
+      "pair_gap": -0.625,
+      "branch_loss": 0.0,
+      "fdp": 0.08787064999341965,
+      "attack_l2": 0.0,
+      "full_l2": 3.175525665283203,
+      "full_proxy_violated": false,
+      "current_keep_hash": "4f4c443bec8fc9caf8c91167311845ce127cdec42b19f4d140285af12e815fca",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        323,
+        220,
+        19,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 13,
+      "pair_gap": -1.625,
+      "branch_loss": 0.0,
+      "fdp": 0.08673160523176193,
+      "attack_l2": 0.0,
+      "full_l2": 1.8276551961898804,
+      "full_proxy_violated": false,
+      "current_keep_hash": "9274464a26655a9b5895d3751f7ac52a73c514ef3311bfc0f39050f672c7ad66",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        323,
+        220,
+        19,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 14,
+      "pair_gap": -1.3125,
+      "branch_loss": 0.0,
+      "fdp": 0.07105459272861481,
+      "attack_l2": 0.0,
+      "full_l2": 2.196641445159912,
+      "full_proxy_violated": false,
+      "current_keep_hash": "b80b5e0ccee45300d52b9a7e1d3f7b76e6435b82802e48ecd733b291ce8c8d51",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        12,
+        20,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 15,
+      "pair_gap": -0.1875,
+      "branch_loss": 0.0,
+      "fdp": 0.0630936548113823,
+      "attack_l2": 0.0,
+      "full_l2": 1.2615007162094116,
+      "full_proxy_violated": false,
+      "current_keep_hash": "d30c842e20d9b9fa4a381304e98a61752acb53f6a811ed0c184c205fb60a37bd",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        323,
+        220,
+        19,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 16,
+      "pair_gap": -0.3125,
+      "branch_loss": 0.0,
+      "fdp": 0.05748314782977104,
+      "attack_l2": 0.0,
+      "full_l2": 0.9767968654632568,
+      "full_proxy_violated": false,
+      "current_keep_hash": "fe1ea31df47f4d0be4495e9a29e66e175467fbc8ebe0bef3b63e8bd62da344ec",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        323,
+        220,
+        19,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 17,
+      "pair_gap": -1.1875,
+      "branch_loss": 0.0,
+      "fdp": 0.05225764960050583,
+      "attack_l2": 0.0,
+      "full_l2": 1.3446569442749023,
+      "full_proxy_violated": false,
+      "current_keep_hash": "87e93c405f3fac6afd2aa3d65c5a09ea5b8e1a1e3aee263316626d1236341556",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        323,
+        220,
+        19,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 18,
+      "pair_gap": -0.25,
+      "branch_loss": 0.0,
+      "fdp": 0.04274476319551468,
+      "attack_l2": 0.0,
+      "full_l2": 1.8450027704238892,
+      "full_proxy_violated": false,
+      "current_keep_hash": "6a393403641bced4320a0f2b32192d4eaa38c608c7af56000359c5092e66b397",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        323,
+        220,
+        19,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 19,
+      "pair_gap": -0.8125,
+      "branch_loss": 0.0,
+      "fdp": 0.04237096756696701,
+      "attack_l2": 0.0,
+      "full_l2": 3.567049026489258,
+      "full_proxy_violated": false,
+      "current_keep_hash": "9924e7c70ea1f44fd688754039089e606ede17160c4b43a4cc3ca17983da0aec",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        323,
+        220,
+        19,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 20,
+      "pair_gap": -0.25,
+      "branch_loss": 0.0,
+      "fdp": 0.03972521424293518,
+      "attack_l2": 0.0,
+      "full_l2": 1.4288103580474854,
+      "full_proxy_violated": false,
+      "current_keep_hash": "749debccf91b15462e5fb7d56355b3a934d6129d712cdfff9c3b302b8f63f247",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        323,
+        220,
+        19,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 21,
+      "pair_gap": 0.0,
+      "branch_loss": 0.0,
+      "fdp": 0.03627881035208702,
+      "attack_l2": 0.0,
+      "full_l2": 0.8434642553329468,
+      "full_proxy_violated": false,
+      "current_keep_hash": "8456f5875afeb251dee39a581dcfb7dbf81d67be7102fe39706d0613df2a3e54",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 22,
+      "pair_gap": -1.1875,
+      "branch_loss": 0.0,
+      "fdp": 0.03338535875082016,
+      "attack_l2": 0.0,
+      "full_l2": 0.6903223991394043,
+      "full_proxy_violated": false,
+      "current_keep_hash": "29a2c18d238e12baaa20cfa6b41d51b788ab29b43f49f6fe98eb150964931331",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        323,
+        220,
+        19,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 23,
+      "pair_gap": 0.4375,
+      "branch_loss": 0.4375,
+      "fdp": 0.02698715776205063,
+      "attack_l2": 26.318578720092773,
+      "full_l2": 0.6439928412437439,
+      "full_proxy_violated": false,
+      "current_keep_hash": "b938f6f33294c730dd4d8e831d27fc77e389cab7b21d4ada4eea1a438e25075c",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    },
+    {
+      "step": 24,
+      "pair_gap": -1.4375,
+      "branch_loss": 0.0,
+      "fdp": 0.03255130350589752,
+      "attack_l2": 0.0,
+      "full_l2": 3.1654281616210938,
+      "full_proxy_violated": false,
+      "current_keep_hash": "4a2f0a9c87bf0cad9b1764c0bd6a7ce721b2ad5a45d5cb96ad58cd49c9c15be8",
+      "current_k": 2774,
+      "current_fast_tokens": [
+        17713,
+        220,
+        18,
+        323,
+        220,
+        19,
+        151645
+      ],
+      "post_update_full": {
+        "full_text_exact": 1,
+        "full_token_exact": 1,
+        "full_replay": 1,
+        "full_text": "PPBS"
+      },
+      "rolled_back": false
+    }
+  ],
+  "counters": {
+    "forward": 407,
+    "backward": 50,
+    "generate": 99,
+    "fastv": 37,
+    "generated_tokens": 382
+  },
+  "elapsed_sec": 247.2563681351021,
+  "full_guard": "two real Full generate calls after every update; rejected update restores delta and Adam state"
+}

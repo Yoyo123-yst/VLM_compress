@@ -1,0 +1,509 @@
+{
+  "sample_id": "65311",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "6a3fcd51848864254375e919e2ec20294b84d7a2a30060783e1c20a7ec7a0f6f",
+  "full_clean": {
+    "text_a": "Barranquilla",
+    "text_b": "Barranquilla",
+    "tokens_a": [
+      33,
+      1118,
+      276,
+      446,
+      6241,
+      151645
+    ],
+    "tokens_b": [
+      33,
+      1118,
+      276,
+      446,
+      6241,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      33,
+      1118,
+      276,
+      446,
+      6241,
+      11,
+      38033,
+      151645
+    ],
+    "text": "Barranquilla, Colombia",
+    "anls": 0.5714285714285714,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "e9a07b02a4491fc2f0f9279c8ad2478d328cda1e82be4e1a0eee39d9d124d435",
+    "k": 3699,
+    "second_keep_hash": "e9a07b02a4491fc2f0f9279c8ad2478d328cda1e82be4e1a0eee39d9d124d435",
+    "second_k": 3699
+  },
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "e9a07b02a4491fc2f0f9279c8ad2478d328cda1e82be4e1a0eee39d9d124d435",
+    "reference_keep_hash": "e9a07b02a4491fc2f0f9279c8ad2478d328cda1e82be4e1a0eee39d9d124d435",
+    "fast_keep_exact": true,
+    "k": 3699,
+    "reference_k": 3699
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 0,
+      "target_id": 33,
+      "target_piece": "B",
+      "candidate_id": 3428,
+      "candidate_piece": "Bar",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 1.125,
+      "content_priority": 1,
+      "fast_gradient_l1": 2383.053466796875,
+      "fast_gradient_l2": 13.047114372253418,
+      "estimated_fast_flip_linf": 0.00047208340713905266,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.5,
+      "full_local_capacity_linf": 0.14901960784313725,
+      "full_local_margin_available": true,
+      "reachability_ratio": 315.66372719226575,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "e9a07b02a4491fc2f0f9279c8ad2478d328cda1e82be4e1a0eee39d9d124d435",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          3428,
+          9202,
+          318,
+          11023,
+          11,
+          35903,
+          151645
+        ],
+        "text": "Barquisimeto, Venezuela",
+        "keep_hash": "65e82af575c48f193b08cadcad897bb1ca7e9d78b0183f246d6346485a4c1bae",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "barquisimetovenezuela",
+      "complete_lexical_similarity_to_clean": 0.3902439024390244,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          3428,
+          9202,
+          318,
+          11023,
+          11,
+          35903,
+          151645
+        ],
+        "text": "Barquisimeto, Venezuela",
+        "keep_hash": "65e82af575c48f193b08cadcad897bb1ca7e9d78b0183f246d6346485a4c1bae",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 276,
+      "target_piece": "an",
+      "candidate_id": 446,
+      "candidate_piece": "qu",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 2.1875,
+      "content_priority": 1,
+      "fast_gradient_l1": 8546.68359375,
+      "fast_gradient_l2": 60.73894500732422,
+      "estimated_fast_flip_linf": 0.0002559472309937471,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.5,
+      "full_local_capacity_linf": 0.14901960784313725,
+      "full_local_margin_available": true,
+      "reachability_ratio": 582.2278571428571,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "e9a07b02a4491fc2f0f9279c8ad2478d328cda1e82be4e1a0eee39d9d124d435",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          33,
+          1118,
+          446,
+          6241,
+          151645
+        ],
+        "text": "Barrquilla",
+        "keep_hash": "01f69b822703e0b42c7f8ea2d3600d0880551c19cf8725ffabbb8e6c931e129b",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.8333333333333334,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "barrquilla",
+      "complete_lexical_similarity_to_clean": 0.6666666666666666,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          33,
+          1118,
+          446,
+          6241,
+          151645
+        ],
+        "text": "Barrquilla",
+        "keep_hash": "01f69b822703e0b42c7f8ea2d3600d0880551c19cf8725ffabbb8e6c931e129b",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 276,
+      "target_piece": "an",
+      "candidate_id": 2969,
+      "candidate_piece": "amb",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 2.625,
+      "content_priority": 1,
+      "fast_gradient_l1": 9031.330078125,
+      "fast_gradient_l2": 60.57066345214844,
+      "estimated_fast_flip_linf": 0.00029065486227306377,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.375,
+      "full_local_capacity_linf": 0.01568627450980392,
+      "full_local_margin_available": true,
+      "reachability_ratio": 53.9687324929972,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "e9a07b02a4491fc2f0f9279c8ad2478d328cda1e82be4e1a0eee39d9d124d435",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          33,
+          1118,
+          2969,
+          6241,
+          151645
+        ],
+        "text": "Barrambilla",
+        "keep_hash": "a0cb40021457fb59f6e0f1af7c73cbbd087c8ff2e52cc6ed84b9b57f707cd8ef",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.75,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "barrambilla",
+      "complete_lexical_similarity_to_clean": 0.5806451612903226,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          33,
+          1118,
+          2969,
+          6241,
+          151645
+        ],
+        "text": "Barrambilla",
+        "keep_hash": "a0cb40021457fb59f6e0f1af7c73cbbd087c8ff2e52cc6ed84b9b57f707cd8ef",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 276,
+      "target_piece": "an",
+      "candidate_id": 591,
+      "candidate_piece": "que",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 2.8125,
+      "content_priority": 1,
+      "fast_gradient_l1": 9130.7744140625,
+      "fast_gradient_l2": 59.475826263427734,
+      "estimated_fast_flip_linf": 0.0003080242564823865,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.5,
+      "full_local_capacity_linf": 0.050980392156862744,
+      "full_local_margin_available": true,
+      "reachability_ratio": 165.50771922657952,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "e9a07b02a4491fc2f0f9279c8ad2478d328cda1e82be4e1a0eee39d9d124d435",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          33,
+          1118,
+          591,
+          6241,
+          151645
+        ],
+        "text": "Barrqueilla",
+        "keep_hash": "8c5b5c7690950ee34fda9b19ece1630f1652a0b2360ae0516661de63b1aeb815",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.75,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "barrqueilla",
+      "complete_lexical_similarity_to_clean": 0.6451612903225806,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          33,
+          1118,
+          591,
+          6241,
+          151645
+        ],
+        "text": "Barrqueilla",
+        "keep_hash": "8c5b5c7690950ee34fda9b19ece1630f1652a0b2360ae0516661de63b1aeb815",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 33,
+      "target_piece": "B",
+      "candidate_id": 641,
+      "candidate_piece": "In",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 3.1875,
+      "content_priority": 1,
+      "fast_gradient_l1": 5015.7998046875,
+      "fast_gradient_l2": 64.81739044189453,
+      "estimated_fast_flip_linf": 0.0006354918705130799,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.5,
+      "full_local_capacity_linf": 0.050980392156862744,
+      "full_local_margin_available": true,
+      "reachability_ratio": 80.22194228181468,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "e9a07b02a4491fc2f0f9279c8ad2478d328cda1e82be4e1a0eee39d9d124d435",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          641,
+          31717,
+          276,
+          446,
+          6241,
+          11,
+          38033,
+          151645
+        ],
+        "text": "In Barranquilla, Colombia",
+        "keep_hash": "2bd8589e5e27291d89e9e66d15b74fedcbfd2c068e8872980c1ff15a979c0de4",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "inbarranquillacolombia",
+      "complete_lexical_similarity_to_clean": 0.9523809523809523,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          641,
+          31717,
+          276,
+          446,
+          6241,
+          11,
+          38033,
+          151645
+        ],
+        "text": "In Barranquilla, Colombia",
+        "keep_hash": "2bd8589e5e27291d89e9e66d15b74fedcbfd2c068e8872980c1ff15a979c0de4",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 6,
+      "target_id": 38033,
+      "target_piece": " Colombia",
+      "candidate_id": 18796,
+      "candidate_piece": " Columbia",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 3.25,
+      "content_priority": 1,
+      "fast_gradient_l1": 2499.11474609375,
+      "fast_gradient_l2": 8.01783561706543,
+      "estimated_fast_flip_linf": 0.0013004604950932822,
+      "full_clean_hard_min": 0.5,
+      "full_probe_hard_min": 0.5,
+      "full_local_capacity_linf": 0.14901960784313725,
+      "full_local_margin_available": true,
+      "reachability_ratio": 114.58987674396681,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "e9a07b02a4491fc2f0f9279c8ad2478d328cda1e82be4e1a0eee39d9d124d435",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          33,
+          1118,
+          276,
+          446,
+          6241,
+          11,
+          18796,
+          151645
+        ],
+        "text": "Barranquilla, Columbia",
+        "keep_hash": "5e743bfd2556b86fc9cd96f8c4b8175b2864988139cdee41f39f015954de03ce",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.5714285714285714,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "barranquillacolumbia",
+      "complete_lexical_similarity_to_clean": 0.95,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          33,
+          1118,
+          276,
+          446,
+          6241,
+          11,
+          18796,
+          151645
+        ],
+        "text": "Barranquilla, Columbia",
+        "keep_hash": "5e743bfd2556b86fc9cd96f8c4b8175b2864988139cdee41f39f015954de03ce",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 24,
+    "screen_admitted_after_limit": 6,
+    "screen_rejected": 3,
+    "estimated": 6
+  },
+  "rejected_proposals": [
+    {
+      "position": 0,
+      "target_id": 33,
+      "target_piece": "B",
+      "candidate_id": 258,
+      "candidate_piece": "in",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 3.5,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          258,
+          31717,
+          276,
+          446,
+          6241,
+          11,
+          38033,
+          151645
+        ],
+        "text": "in Barranquilla, Colombia",
+        "keep_hash": "4d5f20de363efb15e1edaaef28c0543e5189e76b26f5ac8482b850a0b007f480",
+        "k": 3699
+      },
+      "complete_lexical_key": "inbarranquillacolombia",
+      "complete_lexical_similarity_to_clean": 0.9523809523809523,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    },
+    {
+      "position": 0,
+      "target_id": 33,
+      "target_piece": "B",
+      "candidate_id": 3889,
+      "candidate_piece": "Per",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 4.625,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          3889,
+          84,
+          151645
+        ],
+        "text": "Peru",
+        "keep_hash": "678869a4798bff34088b8f4a3b3d605a23bbfe2f539c929f214c69da992f3e9f",
+        "k": 3699
+      },
+      "complete_lexical_key": "peru",
+      "complete_lexical_similarity_to_clean": 0.16666666666666666,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 6,
+      "target_id": 38033,
+      "target_piece": " Colombia",
+      "candidate_id": 6127,
+      "candidate_piece": "Col",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 6.9375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          33,
+          1118,
+          276,
+          446,
+          6241,
+          11,
+          6127,
+          2855,
+          685,
+          151645
+        ],
+        "text": "Barranquilla,Colombia",
+        "keep_hash": "eff9898529a0b88107dd8cc9d5c6c285a3b448abc2713d5372cdfa0b132cc6bc",
+        "k": 3699
+      },
+      "complete_lexical_key": "barranquillacolombia",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    }
+  ],
+  "candidate_generation_wall_seconds": 99.665,
+  "candidate_generation_compute_accounting": "wall time recorded; attack-phase forward/backward/generate counters do not include this clean-only stage"
+}

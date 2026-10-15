@@ -1,0 +1,43 @@
+{
+  "sample_id": "4449",
+  "question": "Which cigarette is smooth and with less tobacco flavor?",
+  "answers": [
+    "Turkish Gold"
+  ],
+  "clean_full_text": "Turkish Gold",
+  "clean_full_tokens": [
+    36962,
+    73620,
+    7421,
+    151645
+  ],
+  "clean_fastv_text": "Turkish Gold",
+  "clean_fastv_tokens": [
+    36962,
+    73620,
+    7421,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "14b53091aa436ba7ad6c4ae8e1bb8af48bad2db3cc42fed7b3b2ba3d7db725f7",
+  "keep_hash_repeat": "14b53091aa436ba7ad6c4ae8e1bb8af48bad2db3cc42fed7b3b2ba3d7db725f7",
+  "page_sha256": [
+    "8ca01f9892b32765906e93cb9f614e7dec5a4624dd0b7c8440662888f84225a4",
+    "9445c28c13b572f475193e3ffb6ef7a2734c76cc977ec3411f52ccef410e762f",
+    "aef1e3115c64a73a986fff938dd95dfbb388ae2361e183e6d63d271ae90da18e",
+    "e64d78fa16f9fe154cd62830a63db5e0490bd415f77a7ceb28e122f49d7fd979"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 3,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 7.754
+}

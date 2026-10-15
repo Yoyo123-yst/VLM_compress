@@ -1,0 +1,68 @@
+{
+  "sample_id": "47450",
+  "chosen_step": 100,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "Dr. or Mrs. William J. Darby",
+  "clean_text": "Dr. or Mrs. William J. Darby",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 5.322308540344238,
+  "pollution": 0,
+  "strict_train": 1,
+  "by_ratio": {
+    "0.50": {
+      "text": "Dr. or Mrs. William J. Darby",
+      "anls": 1.0,
+      "margin": 4.657167434692383,
+      "keep": {
+        "k": 7398,
+        "keep_hash": "eab798e002f9ac24b7c4caa45df39f1eec8012aa175587cdf90451cd2b0c400d",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 0.6651411056518555
+    },
+    "0.35": {
+      "text": "Nashville Tennessee",
+      "anls": 0.0,
+      "margin": 0.05957451090216637,
+      "keep": {
+        "k": 5179,
+        "keep_hash": "fdbf4d0d51bf8ffbbacae3fc62baac9577479bf82e632ed9b022826335554299",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.262734029442072
+    },
+    "0.25": {
+      "text": "First American National Bank",
+      "anls": 0.0,
+      "margin": 0.19078007340431213,
+      "keep": {
+        "k": 3699,
+        "keep_hash": "49d56b2e61a82c97da3a1b6e1332de5daea36809cdfbec2ed19beaad20f3443a",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.131528466939926
+    },
+    "0.15": {
+      "text": "Dr. or Mrs. William J. Darby",
+      "anls": 1.0,
+      "margin": 3.4320902824401855,
+      "keep": {
+        "k": 2219,
+        "keep_hash": "371d3aa93a72cfae174208811921ae997d17b5c058d9f9e4fd86b7b963138280",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 1.8902182579040527
+    }
+  },
+  "selector_margin": 0.12517729215323925
+}

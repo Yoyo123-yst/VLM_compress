@@ -1,0 +1,31 @@
+{
+  "sample_id": "39204",
+  "group": "H0",
+  "aux_idx": 0,
+  "question": "On what subject are the critical reviews on?",
+  "page_sha256": [
+    "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a",
+    "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+    "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+    "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+  ],
+  "counters": {
+    "forward": 2705,
+    "backward": 600,
+    "generate": 425,
+    "fastv": 416,
+    "generated_tokens": 2410
+  },
+  "elapsed_sec": 2579.3954215638805,
+  "peak_memory_mib": 30725.82958984375,
+  "historical_selector": {
+    "step": 100,
+    "nonzero": 1,
+    "output_valid": 1,
+    "full_exact": 1,
+    "linf_ok": 1,
+    "pixel_linf_uint8": 0.03137257695198059,
+    "margin": 1.1259661316871643
+  },
+  "clean_text": "FOOD TECHNOLOGY"
+}

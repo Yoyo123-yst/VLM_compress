@@ -1,0 +1,68 @@
+{
+  "sample_id": "47567",
+  "chosen_step": 200,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "600",
+  "clean_text": "600",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 5.512849807739258,
+  "pollution": 0,
+  "strict_train": 1,
+  "by_ratio": {
+    "0.50": {
+      "text": "605",
+      "anls": 0.6666666666666667,
+      "margin": -0.024730920791625977,
+      "keep": {
+        "k": 3699,
+        "keep_hash": "822a2399dedab11201f2d08f077d526abb9b5d577e13c2ccffa6578650a28eae",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 5.537580728530884
+    },
+    "0.35": {
+      "text": "601w",
+      "anls": 0.0,
+      "margin": -1.8553394079208374,
+      "keep": {
+        "k": 2589,
+        "keep_hash": "380ec94569af753f7ce49d3b0c959cfb53501b88d30465a8b8712abaaf5fce11",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 7.368189215660095
+    },
+    "0.25": {
+      "text": "Wynnewyf, New, Conn",
+      "anls": 0.0,
+      "margin": -0.14603100717067719,
+      "keep": {
+        "k": 1850,
+        "keep_hash": "9964ebcc4cc5a1617b0507f85dcc4c99f1ae48a2a18b8f6b080b38e28d1739ba",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.658880814909935
+    },
+    "0.15": {
+      "text": "2006",
+      "anls": 0.0,
+      "margin": 0.7130018472671509,
+      "keep": {
+        "k": 1110,
+        "keep_hash": "1d28889a6626473580cf6b0180ebd3acd3677d66f173cc36d354ecb1d60a70ce",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 4.799847960472107
+    }
+  },
+  "selector_margin": -1.0006852075457573
+}

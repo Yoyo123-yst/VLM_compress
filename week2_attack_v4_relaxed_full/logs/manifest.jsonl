@@ -1,0 +1,10 @@
+{"event":"v4_health_rerun","gpu":"4","start":"2026-10-08T01:30:52+08:00","cmd":"week2_attack_v4_answer_aligned/run_health.py"}
+{"event":"stage_a","gpu":"4","pid_note":"python below","start":"2026-10-08T01:34:13+08:00","log":"week2_attack_v4_relaxed_full/logs/stage_a.log"}
+{"event":"smoke2","gpu":"4","start":"2026-10-08T01:46:04+08:00","cmd":"run_lambda.py --lambda-full 0.25 --steps 2 --ids 50743 --tag smoke2"}
+{"event":"smoke2_rerun_then_25","gpu":"4","start":"2026-10-08T01:48:07+08:00"}
+{"event":"lambda025_200","gpu":"4","shard":0,"start":"2026-10-08T01:53:07+08:00","log":"week2_attack_v4_relaxed_full/logs/lambda025_s0.log"}
+{"event":"lambda025_200","gpu":"6","shard":1,"start":"2026-10-08T01:53:08+08:00","log":"week2_attack_v4_relaxed_full/logs/lambda025_s1.log"}
+{"event":"holdout","method":"lambda025","gpu":"4","shard":0,"start":"2026-10-08T03:11:22+08:00"}
+{"event":"holdout","method":"lambda025","gpu":"6","shard":1,"start":"2026-10-08T03:11:22+08:00"}
+{"event":"holdout","method":"lambda1","gpu":"0","shard":0,"start":"2026-10-08T03:11:23+08:00"}
+{"event":"holdout","method":"lambda1","gpu":"1","shard":1,"start":"2026-10-08T03:11:25+08:00"}

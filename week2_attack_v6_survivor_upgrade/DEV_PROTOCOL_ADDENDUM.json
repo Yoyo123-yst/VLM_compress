@@ -1,0 +1,94 @@
+{
+  "written_at": "2026-10-08T17:40:00+08:00",
+  "parent_protocol": "week2_attack_v6_survivor_upgrade/FROZEN_DEV_PROTOCOL.json",
+  "parent_protocol_sha256": "2e9a05f5d1be778de6321f783a99c790d85f75eae37e17e1370805fb66de0c87",
+  "v5b_raw_immutability": "PASS",
+  "v5b_raw_hash_source": "week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/raw_before.sha256",
+  "v5b_raw_files_checked": 212,
+  "v5b_raw_changed": 0,
+  "bc_not_run_before_this_addendum": true,
+  "dev_ids": ["1025", "2008", "7006", "39204", "47450", "47567", "50779", "51133", "60700", "6194", "62941", "64506"],
+  "variants": {
+    "A": "Read-only prospective selector on saved v5b checkpoints. No new PGD.",
+    "B": "Compressed answer-aligned margin plus Full sequence-margin protection. Same selector.",
+    "C": "Variant B plus one page-level soft selection-stability term from the real FastV last-query score. Same selector."
+  },
+  "eps": 0.03137254901960784,
+  "steps": 200,
+  "optimizer": "Adam",
+  "lr": 0.00784313725490196,
+  "checkpoints": [0, 10, 25, 50, 75, 100, 150, 200],
+  "missing_checkpoints_not_invented": [125, 175],
+  "selector": {
+    "eligible_if": ["step>0", "uint8 pixel Linf > 0", "output_valid", "full decoded text equals clean full text", "uint8 pixel Linf <= 8/255"],
+    "rank": "ascending compressed margin, then earlier step",
+    "forbidden": ["ground truth", "ANLS", "fastv text", "fastv correctness", "strict label", "replay result"],
+    "replay": "mandatory after selection; failure does not trigger a new pick"
+  },
+  "variant_b_loss": {
+    "L": "L_comp + lambda_seq * L_full_seq",
+    "L_comp": "untruncated mean token margin of the clean Full answer on the real FastV path",
+    "m_t": "logit(clean_full_token_t) - max logit of any other token, including EOS",
+    "kappa_t": "max(0, min(m_clean_t, 1.0)), frozen from the clean Full teacher-forced state",
+    "L_full_seq": "mean over tokens of relu(kappa_t - m_adv_t)"
+  },
+  "variant_c_loss": {
+    "L": "L_comp + lambda_seq * L_full_seq + beta * L_selection",
+    "L_selection": "L1 distance between page-level softmax masses of the real FastV last-query attention scores and the same masses at the clean image",
+    "hard_keep_not_a_training_constraint": true
+  },
+  "scale_rule": {
+    "calibration_sample": "1025",
+    "state": "delta=0 on the clean aux page",
+    "lambda_seq": "L2(grad L_comp) / L2(grad L_full_seq)",
+    "beta": "L2(grad L_comp) / L2(grad L_selection)",
+    "one_fallback": "if a calibration gradient L2 is below 1e-6, recompute that term at a fixed +1/255 shift and use that L2; no second fallback and no result-based retune"
+  },
+  "gates": {
+    "stage_I_dev12": {
+      "full_exact": "12/12",
+      "replay": "12/12",
+      "nonzero": "12/12",
+      "linf": "12/12",
+      "invalid": 0,
+      "strict": "7/12"
+    },
+    "bc_common": {
+      "full_exact": "12/12",
+      "replay": "12/12",
+      "nonzero": "12/12",
+      "linf": "12/12",
+      "invalid": 0,
+      "strict_at_least": "7/12",
+      "pollution_not_above_A": true
+    },
+    "c_extra": {
+      "median_abs_evidence_share_delta_max": 0.01,
+      "median_abs_aux_share_delta_max": 0.01,
+      "p90_abs_share_delta_max": 0.03,
+      "median_jaccard_at_least_A": true,
+      "content_count_gt_selection_plus_interaction": true
+    },
+    "full40_for_pristine60": {
+      "strict_at_least": "33/40",
+      "full_exact": "40/40",
+      "replay": "40/40",
+      "nonzero": "40/40",
+      "linf": "40/40",
+      "invalid": 0,
+      "beats_matched_noise": true
+    }
+  },
+  "version_choice": [
+    "drop variants that miss the common gate",
+    "higher strict count",
+    "then full exact, replay, nonzero",
+    "then content sufficiency",
+    "then page-level stability",
+    "then token Jaccard",
+    "then runtime",
+    "C is chosen only if it passes its stability gate and its strict count is at least B",
+    "otherwise B if it passes and strict is at least A",
+    "otherwise keep A"
+  ]
+}

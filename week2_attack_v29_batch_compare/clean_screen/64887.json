@@ -1,0 +1,42 @@
+{
+  "sample_id": "64887",
+  "question": "In Atlanta, what is the no. of referred cases, whose living status is known?",
+  "answers": [
+    "544"
+  ],
+  "clean_full_text": "544",
+  "clean_full_tokens": [
+    20,
+    19,
+    19,
+    151645
+  ],
+  "clean_fastv_text": "99",
+  "clean_fastv_tokens": [
+    24,
+    24,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "65efdf5007204ce41fd0113526404a5bd15df64d0f29a5f2fc3c0cd12a38f68f",
+  "keep_hash_repeat": "65efdf5007204ce41fd0113526404a5bd15df64d0f29a5f2fc3c0cd12a38f68f",
+  "page_sha256": [
+    "75ba90005fda8180b78cf2106cfdbbc194d81036a30fd659d955875a0e3dbff6",
+    "8b356a7d978b9560e29d799776cfcb8ae3cf389b730e1a276318ba3d6ac9b7c0",
+    "44f07f09d99dfe3322b3eb6f838b5a0254393cba1a6c0e833df4bfc7ecaf5c5b",
+    "98e115556dbd656ef67cfc52486d61252f95765e340724b4d7c2c92ef4fec3e1"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.162
+}

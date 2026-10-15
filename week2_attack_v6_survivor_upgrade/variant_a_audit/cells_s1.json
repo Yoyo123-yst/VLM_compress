@@ -1,0 +1,99 @@
+{
+  "rows": [
+    {
+      "sample_id": "2008",
+      "step": "200",
+      "pred_CC": "March 1956",
+      "pred_CA": "March 1956",
+      "pred_AC": "February 23, 1966",
+      "pred_AA": "February 23, 1966",
+      "full_clean": "March 1968",
+      "full_selected": "March 1968",
+      "anls_CC": 0.8,
+      "anls_CA": 0.8,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "seconds": 5.26
+    },
+    {
+      "sample_id": "47567",
+      "step": "200",
+      "pred_CC": "600",
+      "pred_CA": "2006",
+      "pred_AC": "2",
+      "pred_AA": "9906 PO",
+      "full_clean": "600",
+      "full_selected": "600",
+      "anls_CC": 1.0,
+      "anls_CA": 0.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "BOTH_INDEPENDENTLY_SUFFICIENT",
+      "output_valid": 1,
+      "seconds": 3.52
+    },
+    {
+      "sample_id": "6194",
+      "step": "200",
+      "pred_CC": "0107-XX-XX-XX",
+      "pred_CA": "0107-XX-XX-XX",
+      "pred_AC": "010178XX",
+      "pred_AA": "71618988",
+      "full_clean": "0107-XX-XX-XX",
+      "full_selected": "0107-XX-XX-XX",
+      "anls_CC": 0.8,
+      "anls_CA": 0.8,
+      "anls_AC": 0.625,
+      "anls_AA": 0.0,
+      "mechanism": "INTERACTION_REQUIRED",
+      "output_valid": 1,
+      "seconds": 7.78
+    }
+  ],
+  "keeps": [
+    {
+      "sample_id": "2008",
+      "K": 1850,
+      "keep_hash_clean": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+      "keep_hash_adv": "0522948c4fd136b0adae33da38ba9acd6ccfc82e9a4e0eb02d7acda462f6a01e",
+      "jaccard": 0.811949069539667,
+      "symmetric_difference": 384,
+      "evidence_share_clean": 0.6097297297297297,
+      "evidence_share_adv": 0.6113513513513513,
+      "aux_share_clean": 0.3902702702702703,
+      "aux_share_adv": 0.3886486486486487,
+      "per_page_clean": "[722, 1128]",
+      "per_page_adv": "[719, 1131]"
+    },
+    {
+      "sample_id": "47567",
+      "K": 1850,
+      "keep_hash_clean": "14d825573c3f0d3040500bd91d4d529a5fa51ba4b7d9a21c54f296dcf1f5b7db",
+      "keep_hash_adv": "bcf13ad2ccf8993a36893c099090931d3ca2af7788dd662f9a71c20b38959ee3",
+      "jaccard": 0.6848816029143898,
+      "symmetric_difference": 692,
+      "evidence_share_clean": 0.5994594594594594,
+      "evidence_share_adv": 0.5356756756756756,
+      "aux_share_clean": 0.40054054054054056,
+      "aux_share_adv": 0.4643243243243243,
+      "per_page_clean": "[1109, 741]",
+      "per_page_adv": "[991, 859]"
+    },
+    {
+      "sample_id": "6194",
+      "K": 3699,
+      "keep_hash_clean": "83e36129664ec9b891fd1666751adfea06ec90adf58d0e83461dbe10b44c6340",
+      "keep_hash_adv": "9646694f9ebc224f71704be6e13cae3d1ba92341d566c38905d356e2618972e5",
+      "jaccard": 0.8681818181818182,
+      "symmetric_difference": 522,
+      "evidence_share_clean": 0.25060827250608275,
+      "evidence_share_adv": 0.24709380913760476,
+      "aux_share_clean": 0.24979724249797242,
+      "aux_share_adv": 0.25682616923492835,
+      "per_page_clean": "[924, 927, 610, 1238]",
+      "per_page_adv": "[950, 914, 604, 1231]"
+    }
+  ]
+}

@@ -1,0 +1,2877 @@
+{
+  "status": "DONE",
+  "sample_id": "60700",
+  "method": "C",
+  "method_name": "fixed_noeos",
+  "optimizer": "sign_pgd",
+  "step_alpha": 0.00392156862745098,
+  "lambda_full": 2.6371882367154997,
+  "train_ratio": 0.25,
+  "max_accepted": 25,
+  "max_attempts": 40,
+  "accepted": 15,
+  "attempts": 40,
+  "frozen_reference_ids": [
+    4406,
+    7347,
+    151645
+  ],
+  "selection_b": {
+    "name": "fixed_all",
+    "positions": [
+      0,
+      1,
+      2
+    ],
+    "token_ids": [
+      4406,
+      7347,
+      151645
+    ],
+    "pieces": [
+      "PP",
+      "BS",
+      "<|im_end|>"
+    ],
+    "reason": "frozen_clean_fastv_all_tokens_including_eos",
+    "same_positions_as_noeos": false,
+    "available": true
+  },
+  "selection_c": {
+    "name": "fixed_noeos",
+    "positions": [
+      0,
+      1
+    ],
+    "token_ids": [
+      4406,
+      7347
+    ],
+    "pieces": [
+      "PP",
+      "BS"
+    ],
+    "reason": "frozen_clean_fastv_excluding_eos_pad_and_control",
+    "same_positions_as_noeos": false,
+    "available": true
+  },
+  "selection_d": {
+    "name": "core_content",
+    "positions": [
+      0,
+      1
+    ],
+    "token_ids": [
+      4406,
+      7347
+    ],
+    "pieces": [
+      "PP",
+      "BS"
+    ],
+    "reason": "preregistered_core_phrase:PPBS:token_id_contiguous",
+    "same_positions_as_noeos": true,
+    "available": true
+  },
+  "same_positions_as_noeos": true,
+  "updates": [
+    {
+      "attempt": 1,
+      "accepted_after": 1,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 4.416299897919743,
+      "attack_loss": 2.6415657997131348,
+      "fdp_loss": 0.6729645133018494,
+      "full_token_hard_margins": [
+        0.25,
+        7.0,
+        2.0
+      ],
+      "selected_token_margins": [
+        0.125,
+        6.75
+      ],
+      "grad_hash": "9138da25e320f2699d165a2815e646737274c2a149d13ebdf87a588ed05beaf6",
+      "grad_l2": 132.87594604492188,
+      "grad_linf": 11.693077087402344,
+      "candidate_delta_hash": "58c7e3c78015de2a6a43557bb9409c9faf04f51ed0fb54c90accf672be55d57e",
+      "delta_hash": "58c7e3c78015de2a6a43557bb9409c9faf04f51ed0fb54c90accf672be55d57e",
+      "float_projection_hash": "0d388f6cf60cf22660f2b829f97cfa0d134e4eabc3ad77893fd7874bc99c9ae5",
+      "png_page_hash": "aedd01a498b6f9ce428eb565c7c614d1a156539d574b3111dd544d98945c92a7",
+      "candidate_png_sha256": "0ad8ee198086bd14a63f357223a75506faa8b5f28d29fca03462f3f39e46a048",
+      "fastv_text": "PPBS",
+      "fastv_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "9ee935326eac4dc0687e3d8153e3eb074db87628e98294c48aa4768cc2f3ffdc",
+      "keep_jaccard_vs_clean": 0.9885304659498207,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 1,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.204994176980108,
+      "counters": {
+        "forward": 11,
+        "backward": 2,
+        "generate": 7
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 2,
+      "accepted_after": 2,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 3.8971149863250263,
+      "attack_loss": 2.6227164268493652,
+      "fdp_loss": 0.48324140906333923,
+      "full_token_hard_margins": [
+        0.625,
+        7.0625,
+        3.0
+      ],
+      "selected_token_margins": [
+        0.25,
+        6.75
+      ],
+      "grad_hash": "2c85cac0f9a84aa36154cad04e285eb67406b99fb4507997cc1b4f9448925645",
+      "grad_l2": 54.10076904296875,
+      "grad_linf": 5.335797309875488,
+      "candidate_delta_hash": "408d71522614dccfc3663e00cda4f42af384ce131ab683b4a44d036f95fd5b00",
+      "delta_hash": "408d71522614dccfc3663e00cda4f42af384ce131ab683b4a44d036f95fd5b00",
+      "float_projection_hash": "3cb08e0c2e231e2b41960b4525c21edd94783ee0b7715679db7975275155c12a",
+      "png_page_hash": "ec4bdc25318cce2df7d902e1e8c88fdd996d2e5e8126398b9f47f3164afff583",
+      "candidate_png_sha256": "adebec01e53bf4d60c2c69b0d4bafbb804c5214c1628e5ff10e5adeacba65ee5",
+      "fastv_text": "PPBS",
+      "fastv_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "71a15af210328645759fde78e1700825ab467cb6b73aa98095f45cb1827fdc5e",
+      "keep_jaccard_vs_clean": 0.9065292096219931,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 2,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.4250056152232,
+      "counters": {
+        "forward": 22,
+        "backward": 4,
+        "generate": 14
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 3,
+      "accepted_after": 3,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 3.2712917229460565,
+      "attack_loss": 2.4761695861816406,
+      "fdp_loss": 0.3015037477016449,
+      "full_token_hard_margins": [
+        0.875,
+        7.625,
+        4.375
+      ],
+      "selected_token_margins": [
+        -0.25,
+        7.0
+      ],
+      "grad_hash": "16ac2cd3c4e91fafd81fc3c5b8efb4749e2ea75dba86df788192c1a33441bb5c",
+      "grad_l2": 36.45792007446289,
+      "grad_linf": 4.421375274658203,
+      "candidate_delta_hash": "ea01ee898e825bf3ef7a2e4583a3e0b4f1c3e27beec9ff68650b134dd3b4f8af",
+      "delta_hash": "ea01ee898e825bf3ef7a2e4583a3e0b4f1c3e27beec9ff68650b134dd3b4f8af",
+      "float_projection_hash": "6e98577518e70d8e1158cc8483593b310896fb4fa752a9ba59631eb0f006874d",
+      "png_page_hash": "1f73bc21afec5d4972a89a089d3805a342ca11a117aa446852251d8a238b8acc",
+      "candidate_png_sha256": "147aa4064f3f66fe618783dec1fa61e53842aba780f280f71a19c3c610cec843",
+      "fastv_text": "Ppbs",
+      "fastv_tokens": [
+        47,
+        79,
+        1279,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "d634db15f6462c09dca6055e0091022e0e0927e0bef2a16a8d8a650c4b7ee02a",
+      "keep_jaccard_vs_clean": 0.8877169105137802,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 3,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.306292694061995,
+      "counters": {
+        "forward": 27,
+        "backward": 6,
+        "generate": 17
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 4,
+      "accepted_after": 4,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 2.999512800937109,
+      "attack_loss": 2.1897640228271484,
+      "fdp_loss": 0.30705004930496216,
+      "full_token_hard_margins": [
+        0.875,
+        7.6875,
+        4.0
+      ],
+      "selected_token_margins": [
+        -0.6875,
+        6.875
+      ],
+      "grad_hash": "7a5e2c52e2a34677c1b9da0a7504c19d759b0e07b777d1b8b084701e51dd00d8",
+      "grad_l2": 66.18914794921875,
+      "grad_linf": 9.517009735107422,
+      "candidate_delta_hash": "27fd63647beb84f3423b134bd0776449006f4aa03d0cdaf78d67b4aaf02e5cc2",
+      "delta_hash": "27fd63647beb84f3423b134bd0776449006f4aa03d0cdaf78d67b4aaf02e5cc2",
+      "float_projection_hash": "41a2da09c6bfb556bcead00a382b897850ee8d8f664bc8b9b3caa460b7ba5e62",
+      "png_page_hash": "686c1564eadfa39916fa64fdf8d10a3feec54fa200a7d1fe5717cd9bd1c26ec5",
+      "candidate_png_sha256": "061c242866d0ffda3e78e696ce3ee2a27827fd1807905618df8b28043a5bbe23",
+      "fastv_text": "Ppbs",
+      "fastv_tokens": [
+        47,
+        79,
+        1279,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "a9b4b4dc0ae366911cc82f3bfa0d02339d09f0ea81c8059872d1af576b34df3d",
+      "keep_jaccard_vs_clean": 0.8857919782460911,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 4,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.31402461300604,
+      "counters": {
+        "forward": 32,
+        "backward": 8,
+        "generate": 20
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 5,
+      "accepted_after": 5,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 2.7053106466543078,
+      "attack_loss": 2.0188608169555664,
+      "fdp_loss": 0.260296106338501,
+      "full_token_hard_margins": [
+        1.375,
+        7.5,
+        4.875
+      ],
+      "selected_token_margins": [
+        -0.875,
+        6.625
+      ],
+      "grad_hash": "5f24c8c5035989e7f56b1dc314b21da3bdce25612ea66f62757bb4fa4377b044",
+      "grad_l2": 65.65008544921875,
+      "grad_linf": 7.274043083190918,
+      "candidate_delta_hash": "ba3cdc1ad63f2bc4d7a158d710d866f2f293f821a5f2c4ceb666a3675ae7dc66",
+      "delta_hash": "ba3cdc1ad63f2bc4d7a158d710d866f2f293f821a5f2c4ceb666a3675ae7dc66",
+      "float_projection_hash": "04ee9b8a8f52b83c812dfe47b800e5f3d5c3bb9751fc44c4356e45d47cf96a87",
+      "png_page_hash": "ab77d7ec5dd13cce6304360910eceac77bbecf74b613b82c84f6a76c8fe545a9",
+      "candidate_png_sha256": "85313b5553f629b0ef195426ce96dbd881e718e58c78115f9ffe76faf207f9f0",
+      "fastv_text": "Ppbs",
+      "fastv_tokens": [
+        47,
+        79,
+        1279,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "f4bd6968770e81c71be422eb4f3313faeb5bfbff7fbd9576ac44e0bb73ecac1a",
+      "keep_jaccard_vs_clean": 0.8838709677419355,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 5,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.366976683959365,
+      "counters": {
+        "forward": 37,
+        "backward": 10,
+        "generate": 23
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 6,
+      "accepted_after": 6,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 2.4404708426498405,
+      "attack_loss": 1.9424800872802734,
+      "fdp_loss": 0.18883398175239563,
+      "full_token_hard_margins": [
+        1.4375,
+        8.1875,
+        4.75
+      ],
+      "selected_token_margins": [
+        -0.875,
+        6.25
+      ],
+      "grad_hash": "0ffca240f84413e1f63a5f417ac8b032da8bb83ac225726a65fe6658f4f7f39e",
+      "grad_l2": 14.005507469177246,
+      "grad_linf": 1.0523970127105713,
+      "candidate_delta_hash": "bd491f4795fb83e977d057ebcbd9c8366a18796222ac9dcb4730de2e575ec4d1",
+      "delta_hash": "bd491f4795fb83e977d057ebcbd9c8366a18796222ac9dcb4730de2e575ec4d1",
+      "float_projection_hash": "55f171e39e7ac570a44bdaec1b17d404c646ac37f26004213766cd5edff16267",
+      "png_page_hash": "547c2acf4cbae44f3d59b58ccf4870322fcb7d1fb8ade8723e15592c9a4752e5",
+      "candidate_png_sha256": "5d7097bfe4d899c044d80649d8cdce0ad30e4134a2e819dd5293321cbbfcf59d",
+      "fastv_text": "Ppjs",
+      "fastv_tokens": [
+        47,
+        79,
+        2519,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "88808181ff3b2e97d803f084c1e6bb05e7cef1b688eb3f93a3eb116d17e39fd4",
+      "keep_jaccard_vs_clean": 0.8673847189498486,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 6,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.297585070831701,
+      "counters": {
+        "forward": 48,
+        "backward": 12,
+        "generate": 30
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 7,
+      "accepted_after": 7,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 2.40501236521152,
+      "attack_loss": 1.918959617614746,
+      "fdp_loss": 0.18430718779563904,
+      "full_token_hard_margins": [
+        1.3125,
+        8.1875,
+        5.875
+      ],
+      "selected_token_margins": [
+        -0.9375,
+        6.1875
+      ],
+      "grad_hash": "1377e97e20d2a8248b3de19e29edc812c9c3db94cd3ac1b8074b81fbee4d505b",
+      "grad_l2": 13.712443351745605,
+      "grad_linf": 0.9572979211807251,
+      "candidate_delta_hash": "9fe76a66a92826a9bb1215639ced24eb1518c2f85c01c9b154bd26a0b8e0fd0f",
+      "delta_hash": "9fe76a66a92826a9bb1215639ced24eb1518c2f85c01c9b154bd26a0b8e0fd0f",
+      "float_projection_hash": "98d77ab8c257af6e578c40c88e6edaa3765e2242bc7155d521404a93af9819b4",
+      "png_page_hash": "340623f10f82c3da7d18c7b2928233df212bda9ac551e073e1b211743bc7e1c1",
+      "candidate_png_sha256": "419943d3c72a4c018195105ac86c2898cc0b3725681ead44179a882c97f0113a",
+      "fastv_text": "Ppjs",
+      "fastv_tokens": [
+        47,
+        79,
+        2519,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "9c71a34615180e8875a742720d5ab5f388b39cfd521ba6057de12694550fc23d",
+      "keep_jaccard_vs_clean": 0.8555183946488294,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 7,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.49689968698658,
+      "counters": {
+        "forward": 53,
+        "backward": 14,
+        "generate": 33
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 8,
+      "accepted_after": 8,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 2.1220164609117838,
+      "attack_loss": 1.6280536651611328,
+      "fdp_loss": 0.18730661273002625,
+      "full_token_hard_margins": [
+        1.5,
+        8.0,
+        5.75
+      ],
+      "selected_token_margins": [
+        -1.125,
+        5.75
+      ],
+      "grad_hash": "206ec33c6b09248e659d1e9056d9f454e82da29610314ca22141c9001bf8dc39",
+      "grad_l2": 10.981775283813477,
+      "grad_linf": 0.5027661323547363,
+      "candidate_delta_hash": "899a04d73e1c03d384528813548ecb93a95a116757caa326caa18d460842b524",
+      "delta_hash": "899a04d73e1c03d384528813548ecb93a95a116757caa326caa18d460842b524",
+      "float_projection_hash": "5d4c1c4c9ffeefff14959d2c2c352999d22d3197a568f6595c539de2ed3af48b",
+      "png_page_hash": "25071821639473a9e24f55ecbbe5901fc36aece0bccd25166667057b850cb46d",
+      "candidate_png_sha256": "e86090ce0c5f0446e4de1a8287a858b403ea5068cb9166c98affd8703bf489d0",
+      "fastv_text": "Ppjs",
+      "fastv_tokens": [
+        47,
+        79,
+        2519,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "831f43ba0b1dd73425a1ef10f8fc6f7e5a5509f6ac03a7dfa6328e09718122f6",
+      "keep_jaccard_vs_clean": 0.8655010087424344,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.272772556869313,
+      "counters": {
+        "forward": 58,
+        "backward": 16,
+        "generate": 36
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 9,
+      "accepted_after": 9,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 1.8546680994052904,
+      "attack_loss": 1.2666330337524414,
+      "fdp_loss": 0.22297804057598114,
+      "full_token_hard_margins": [
+        1.25,
+        7.8125,
+        5.875
+      ],
+      "selected_token_margins": [
+        -1.6875,
+        5.6875
+      ],
+      "grad_hash": "b46e40a4da9743000b0577d5887227a53ed7a2fc98369a382e918f73bb95aca3",
+      "grad_l2": 28.51979637145996,
+      "grad_linf": 2.813131809234619,
+      "candidate_delta_hash": "f856382466d375a7a0a9f8ae53966367838f69a380e572138282f42e6851627f",
+      "delta_hash": "f856382466d375a7a0a9f8ae53966367838f69a380e572138282f42e6851627f",
+      "float_projection_hash": "823b57c3146bd6e3cdccdc9e5410c9039dc8c2f6926b610a99f8fcef8188de67",
+      "png_page_hash": "70d39ce7abcb4a08efea9075feba792ee828e407ea6ad30cd2b66a36df29fd3a",
+      "candidate_png_sha256": "d84168502617bbf58a85a434c48ec967868e8eddbc51fd2dda829de1156fe390",
+      "fastv_text": "Ppjs",
+      "fastv_tokens": [
+        47,
+        79,
+        2519,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "0cfd4b2f02724e7c81f6ea91f02bc9a7b6ce1baa517d6ad7f791d93975ff3a3a",
+      "keep_jaccard_vs_clean": 0.8592493297587132,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.243746681138873,
+      "counters": {
+        "forward": 63,
+        "backward": 18,
+        "generate": 39
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 10,
+      "accepted_after": 10,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 1.5323043990572107,
+      "attack_loss": 1.1149210929870605,
+      "fdp_loss": 0.1582683026790619,
+      "full_token_hard_margins": [
+        1.5,
+        8.3125,
+        6.5
+      ],
+      "selected_token_margins": [
+        -1.6875,
+        5.3125
+      ],
+      "grad_hash": "fd00feeee6a1c74ac99dca6e36e5214d62cd6bd63f93c105195ae3fac8f6ecc6",
+      "grad_l2": 18.981355667114258,
+      "grad_linf": 1.7881031036376953,
+      "candidate_delta_hash": "5469ba1da2b74b46ee0e5aefc6ad1307b267d700c7832625d830f488fdf1607e",
+      "delta_hash": "5469ba1da2b74b46ee0e5aefc6ad1307b267d700c7832625d830f488fdf1607e",
+      "float_projection_hash": "bedcb736a01007e4e76d2ce9bf7537933ecc596051ba0495b39eaf7cf55a0888",
+      "png_page_hash": "2d01c3376b10ac41ba2815677196deebd63e5cf1620a327c936a5319254d780c",
+      "candidate_png_sha256": "a955b88208696d4f893cfbb9982472d76404efca9ccf643c5f75776e9a8efe2f",
+      "fastv_text": "Ppjs",
+      "fastv_tokens": [
+        47,
+        79,
+        2519,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "1b3d035f772fcfd04e81f2a1a5106837cf9d4dc1ae7ad0eb6657fee8788bdb72",
+      "keep_jaccard_vs_clean": 0.8636210950621431,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.228730376111344,
+      "counters": {
+        "forward": 68,
+        "backward": 20,
+        "generate": 42
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 11,
+      "accepted_after": 11,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 0.6388992958226467,
+      "attack_loss": 0.18128681182861328,
+      "fdp_loss": 0.17352287471294403,
+      "full_token_hard_margins": [
+        1.4375,
+        8.1875,
+        6.125
+      ],
+      "selected_token_margins": [
+        -2.5,
+        4.9375
+      ],
+      "grad_hash": "f24aa1846447d908aa40f54721749009ac8d6f9a2d4d90d5364084c1192f5307",
+      "grad_l2": 21.761375427246094,
+      "grad_linf": 1.9533414840698242,
+      "candidate_delta_hash": "e14756cb9ea028662b37dcb0f9da57facf93202253165c329b0ee0ed47ad2076",
+      "delta_hash": "e14756cb9ea028662b37dcb0f9da57facf93202253165c329b0ee0ed47ad2076",
+      "float_projection_hash": "a255946ee16952f49e59dd06b7fa5854d7010cfa9342a54579299d1341b70078",
+      "png_page_hash": "4cb3a09f887f7a707ded0055b24752d180aca6204d799fc90794cbc66ee351f7",
+      "candidate_png_sha256": "1b6165b662aaab8d8c7568a0717ad22e0ab516c69bffd0f00389f644ffac7d0a",
+      "fastv_text": "Ppjs",
+      "fastv_tokens": [
+        47,
+        79,
+        2519,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "21f711969f5f14747b106e771167ae44e0759af4daddf56b8d9f34e32e37a184",
+      "keep_jaccard_vs_clean": 0.861120429386112,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.247867739992216,
+      "counters": {
+        "forward": 79,
+        "backward": 22,
+        "generate": 49
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 12,
+      "accepted_after": 12,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 1.1804340587784998,
+      "attack_loss": 0.5531949996948242,
+      "fdp_loss": 0.23784387111663818,
+      "full_token_hard_margins": [
+        1.625,
+        7.5,
+        5.25
+      ],
+      "selected_token_margins": [
+        -1.875,
+        4.875
+      ],
+      "grad_hash": "7672d9086ac5c1fde2e4d378190d44462d5e55e9e88071e4e37573439e71b601",
+      "grad_l2": 16.083024978637695,
+      "grad_linf": 0.8040428161621094,
+      "candidate_delta_hash": "5d0afc9f2cb2d90ee91c285d28fe8527ccf0dc8a2d0a0bb84a70050a3dae751b",
+      "delta_hash": "5d0afc9f2cb2d90ee91c285d28fe8527ccf0dc8a2d0a0bb84a70050a3dae751b",
+      "float_projection_hash": "e55134c4c70c0ca3ae6d5024ba68f0e62b749bfe9d5c9d51f6f3977a4882d5ee",
+      "png_page_hash": "e8fac282547aea02a0589716fb7e35997628f94971c5589b1f208d84f57ec002",
+      "candidate_png_sha256": "f9fd665e8eba7e670e6856ca8bf5a71ee59c0f864936626e3d61594a9add1029",
+      "fastv_text": "Ppjs",
+      "fastv_tokens": [
+        47,
+        79,
+        2519,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "f62980a68426915d10e356b315cb51d33fb8ae467fa5d786e2a7e300868c5b2f",
+      "keep_jaccard_vs_clean": 0.8561391769822683,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.477048432920128,
+      "counters": {
+        "forward": 84,
+        "backward": 24,
+        "generate": 52
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 13,
+      "accepted_after": 13,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 1.0441147109374913,
+      "attack_loss": 0.041079044342041016,
+      "fdp_loss": 0.38034284114837646,
+      "full_token_hard_margins": [
+        0.375,
+        7.3125,
+        6.125
+      ],
+      "selected_token_margins": [
+        -3.0,
+        4.6875
+      ],
+      "grad_hash": "a1ec26b12c9abef9ccca08a884d7ca9bc50dafa96117627fed54f22d99b2f60f",
+      "grad_l2": 73.9568862915039,
+      "grad_linf": 7.220909118652344,
+      "candidate_delta_hash": "312b737454b410d82db54705490f19e652f557c725292812be2522bd3cbc8325",
+      "delta_hash": "312b737454b410d82db54705490f19e652f557c725292812be2522bd3cbc8325",
+      "float_projection_hash": "df3c794cb69fa7dd6fbf3e1efe17a1d30ec308cf3eca33fc092875023f0db864",
+      "png_page_hash": "93f340e0e855e7cd5071af4b96b26935999bee58fdef37f55e0f2a75ad45f1a9",
+      "candidate_png_sha256": "282759c8370a3f9ad96e245d0083524fc55c7a8d2f0c6f9785bd80269c3e0fe7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "36f3f05a90ee401b1762354bd50831ca413c4efeea5ad236a8660db215035eb5",
+      "keep_jaccard_vs_clean": 0.8524207011686143,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.26331255491823,
+      "counters": {
+        "forward": 89,
+        "backward": 26,
+        "generate": 55
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 14,
+      "accepted_after": 14,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": 0.6478384861679259,
+      "attack_loss": -0.018875598907470703,
+      "fdp_loss": 0.2528124749660492,
+      "full_token_hard_margins": [
+        0.8125,
+        8.125,
+        4.625
+      ],
+      "selected_token_margins": [
+        -3.625,
+        5.0
+      ],
+      "grad_hash": "99b58ac675ca616e2a3a98d9577d47c3f3617693ebc5588e975b0406e9f445d7",
+      "grad_l2": 39.904571533203125,
+      "grad_linf": 4.7408447265625,
+      "candidate_delta_hash": "87df22b4b482727cd9065e1f975a4de8d0e1a9bfcd355ab6c1b321e73169c676",
+      "delta_hash": "87df22b4b482727cd9065e1f975a4de8d0e1a9bfcd355ab6c1b321e73169c676",
+      "float_projection_hash": "21e4707b2a1527724073375fdd2840fddb29400e2b19ea8987459956e79d8895",
+      "png_page_hash": "9d5fc5e688c3824ed828609b5a274b21c9f593c1cb6705cb80cab058074baa6e",
+      "candidate_png_sha256": "90697f68dfffe0279229b5f20befa57aeae459f5ebd74ab74444eedc86983496",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "8ae63e6c6bbe4dbb4a93dc2fb56f4275d3aa5b7a3e7886086c8b594c4c5fb59a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.264376305043697,
+      "counters": {
+        "forward": 94,
+        "backward": 28,
+        "generate": 58
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 15,
+      "accepted_after": 15,
+      "accepted": true,
+      "rejection_reason": null,
+      "total_loss": -0.1816624259489399,
+      "attack_loss": -1.363664150238037,
+      "fdp_loss": 0.44820529222488403,
+      "full_token_hard_margins": [
+        -0.125,
+        7.4375,
+        5.875
+      ],
+      "selected_token_margins": [
+        -5.9375,
+        4.0625
+      ],
+      "grad_hash": "c99742ddd0b7624c40ebdfc39b38158885e80d569413c2685994ed4b0ac4ca0d",
+      "grad_l2": 45.232730865478516,
+      "grad_linf": 3.406890869140625,
+      "candidate_delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "6e514989801dc851934098f37a685d8a572a923ed969f64c154f0ebce112b5dd",
+      "png_page_hash": "d49e1e2d0ec93f7c3a79038730db75b484b20f8c0027c0af907a9a8900e1e133",
+      "candidate_png_sha256": "3538b7b46bd85601c255d3fe82e17faecae21fccac11296c72b08e4e142da423",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "c267fe0fc79bac804d5b43408c261c9022e1dd11832274ccc44b1e46ad42da38",
+      "keep_jaccard_vs_clean": 0.8598726114649682,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.271245071897283,
+      "counters": {
+        "forward": 99,
+        "backward": 30,
+        "generate": 61
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 16,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.532312127994373,
+      "counters": {
+        "forward": 110,
+        "backward": 32,
+        "generate": 68
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 17,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.684873192105442,
+      "counters": {
+        "forward": 115,
+        "backward": 34,
+        "generate": 71
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 18,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.511188840027899,
+      "counters": {
+        "forward": 120,
+        "backward": 36,
+        "generate": 74
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 19,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.495993226999417,
+      "counters": {
+        "forward": 125,
+        "backward": 38,
+        "generate": 77
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 20,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.52192319999449,
+      "counters": {
+        "forward": 130,
+        "backward": 40,
+        "generate": 80
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 21,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.465990109136328,
+      "counters": {
+        "forward": 135,
+        "backward": 42,
+        "generate": 83
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 22,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.49244119785726,
+      "counters": {
+        "forward": 140,
+        "backward": 44,
+        "generate": 86
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 23,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.486788970883936,
+      "counters": {
+        "forward": 145,
+        "backward": 46,
+        "generate": 89
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 24,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.45632396498695,
+      "counters": {
+        "forward": 150,
+        "backward": 48,
+        "generate": 92
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 25,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.438097117003053,
+      "counters": {
+        "forward": 155,
+        "backward": 50,
+        "generate": 95
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 26,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.466325419954956,
+      "counters": {
+        "forward": 160,
+        "backward": 52,
+        "generate": 98
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 27,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.465256039984524,
+      "counters": {
+        "forward": 165,
+        "backward": 54,
+        "generate": 101
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 28,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.656920893816277,
+      "counters": {
+        "forward": 170,
+        "backward": 56,
+        "generate": 104
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 29,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.482388615142554,
+      "counters": {
+        "forward": 175,
+        "backward": 58,
+        "generate": 107
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 30,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.658476860029623,
+      "counters": {
+        "forward": 180,
+        "backward": 60,
+        "generate": 110
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 31,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.47706506610848,
+      "counters": {
+        "forward": 185,
+        "backward": 62,
+        "generate": 113
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 32,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.459002966992557,
+      "counters": {
+        "forward": 190,
+        "backward": 64,
+        "generate": 116
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 33,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.697659836150706,
+      "counters": {
+        "forward": 195,
+        "backward": 66,
+        "generate": 119
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 34,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.457805638900027,
+      "counters": {
+        "forward": 200,
+        "backward": 68,
+        "generate": 122
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 35,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.479926343075931,
+      "counters": {
+        "forward": 205,
+        "backward": 70,
+        "generate": 125
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 36,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.449491153936833,
+      "counters": {
+        "forward": 210,
+        "backward": 72,
+        "generate": 128
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 37,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.448439921019599,
+      "counters": {
+        "forward": 215,
+        "backward": 74,
+        "generate": 131
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 38,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.651057713897899,
+      "counters": {
+        "forward": 220,
+        "backward": 76,
+        "generate": 134
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 39,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.440208030864596,
+      "counters": {
+        "forward": 225,
+        "backward": 78,
+        "generate": 137
+      },
+      "dynamic_selection": null
+    },
+    {
+      "attempt": 40,
+      "accepted_after": 15,
+      "accepted": false,
+      "rejection_reason": "FULL_GUARD",
+      "total_loss": -0.9764000847857893,
+      "attack_loss": -1.698598861694336,
+      "fdp_loss": 0.27385181188583374,
+      "full_token_hard_margins": [
+        1.5625,
+        7.625,
+        3.625
+      ],
+      "selected_token_margins": [
+        -6.25,
+        3.6875
+      ],
+      "grad_hash": "42210fdfa8028b84145d71d75ba4458e5725c6ec45ffe809ff73f56722f778c6",
+      "grad_l2": 35.12604522705078,
+      "grad_linf": 2.9826765060424805,
+      "candidate_delta_hash": "1e06bacd85e869e7391b59dbc2e0790af7b005e6ea0b18b17da06848a7a13700",
+      "delta_hash": "e1522599b5438b03688e2e5f13dd59c757005bc18e6975faa63732c4e5b2a090",
+      "float_projection_hash": "f83f90168c240549b63b4e82121c697a09a02ef0d194ed0baf94ddcbdfdec94c",
+      "png_page_hash": "37980e10aff2c04f7d5c6adedbeaf32de8fc3ceef79ea71e9f477bca177e628e",
+      "candidate_png_sha256": "b50b78c5dc252bf6210121012df65bbc7a59778811cf886621da5f6b0189cbc7",
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "56b006c6e66f595da345e8362dc4be42e3980b782e5b46da82f943d7bc8fc42a",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_text_exact": false,
+      "full_token_exact": false,
+      "full_replay": true,
+      "uint8_linf": 8,
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM",
+      "wall_seconds": 9.507963106036186,
+      "counters": {
+        "forward": 230,
+        "backward": 80,
+        "generate": 140
+      },
+      "dynamic_selection": null
+    }
+  ],
+  "checkpoints": [
+    {
+      "checkpoint": 0,
+      "nonzero": false,
+      "output_valid": true,
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "linf_ok": true,
+      "png_reloadable": true,
+      "attack_surrogate": 2.6415657997131348,
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/C/checkpoints/accepted_000.png",
+      "png_sha256": "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131",
+      "uint8_linf": 0,
+      "fastv_text": "PPBS",
+      "fastv_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca",
+      "keep_jaccard_vs_clean": 1.0,
+      "attack_loss": 2.6415657997131348,
+      "fdp_loss": 0.6729645133018494,
+      "total_loss": 4.416299897919743,
+      "selected_margins": [
+        0.125,
+        6.75
+      ],
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM"
+    },
+    {
+      "checkpoint": 1,
+      "nonzero": true,
+      "output_valid": true,
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "linf_ok": true,
+      "png_reloadable": true,
+      "attack_surrogate": 2.586860179901123,
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/C/checkpoints/accepted_001.png",
+      "png_sha256": "0ad8ee198086bd14a63f357223a75506faa8b5f28d29fca03462f3f39e46a048",
+      "uint8_linf": 1,
+      "fastv_text": "PPBS",
+      "fastv_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "a1192de1ef428f5d0de7f9fd30bfe5dd878d238bd21d0e090a118f1329301b4a",
+      "keep_jaccard_vs_clean": 0.904565739787161,
+      "attack_loss": 2.586860179901123,
+      "fdp_loss": 0.49349531531333923,
+      "total_loss": 3.8883002203196675,
+      "selected_margins": [
+        0.0,
+        6.875
+      ],
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM"
+    },
+    {
+      "checkpoint": 5,
+      "nonzero": true,
+      "output_valid": true,
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "linf_ok": true,
+      "png_reloadable": true,
+      "attack_surrogate": 2.0929431915283203,
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/C/checkpoints/accepted_005.png",
+      "png_sha256": "85313b5553f629b0ef195426ce96dbd881e718e58c78115f9ffe76faf207f9f0",
+      "uint8_linf": 5,
+      "fastv_text": "Ppjs",
+      "fastv_tokens": [
+        47,
+        79,
+        2519,
+        151645
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "49578d539bdd8ef0637cadbe14673fd6a754c456f8292759de8bbe5bc8902921",
+      "keep_jaccard_vs_clean": 0.8692722371967655,
+      "attack_loss": 2.0929431915283203,
+      "fdp_loss": 0.18216155469417572,
+      "total_loss": 2.5733375007496075,
+      "selected_margins": [
+        -0.5625,
+        6.3125
+      ],
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM"
+    },
+    {
+      "checkpoint": 10,
+      "nonzero": true,
+      "output_valid": true,
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "linf_ok": true,
+      "png_reloadable": true,
+      "attack_surrogate": 0.38364648818969727,
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/C/checkpoints/accepted_010.png",
+      "png_sha256": "a955b88208696d4f893cfbb9982472d76404efca9ccf643c5f75776e9a8efe2f",
+      "uint8_linf": 8,
+      "fastv_text": "Ppjs",
+      "fastv_tokens": [
+        47,
+        79,
+        2519,
+        151645
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "cc99924485eda49318594afd1877e772c874d474cab0baf72edc1f5d71a13426",
+      "keep_jaccard_vs_clean": 0.8580040187541862,
+      "attack_loss": 0.38364648818969727,
+      "fdp_loss": 0.1657436341047287,
+      "total_loss": 0.8207436503611657,
+      "selected_margins": [
+        -2.4375,
+        5.0
+      ],
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM"
+    },
+    {
+      "checkpoint": 15,
+      "nonzero": true,
+      "output_valid": true,
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "linf_ok": true,
+      "png_reloadable": true,
+      "attack_surrogate": -1.8595576286315918,
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/C/checkpoints/accepted_015.png",
+      "png_sha256": "3538b7b46bd85601c255d3fe82e17faecae21fccac11296c72b08e4e142da423",
+      "uint8_linf": 8,
+      "fastv_text": "HEALTH OBJECTIVES",
+      "fastv_tokens": [
+        1799,
+        43149,
+        39786,
+        48760,
+        151645
+      ],
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "k": 2774,
+      "keep_hash": "fbf4dd4c9f527dc8179dd6719a89a0718920c67dab59637a6cffdf930a9bafe1",
+      "keep_jaccard_vs_clean": 0.8586264656616416,
+      "attack_loss": -1.8595576286315918,
+      "fdp_loss": 0.29620012640953064,
+      "total_loss": -1.0784221395507334,
+      "selected_margins": [
+        -6.5625,
+        3.6875
+      ],
+      "positions": [
+        0,
+        1
+      ],
+      "selected_token_ids": [
+        4406,
+        7347
+      ],
+      "optimizer_state_hash": "SIGN_PGD_NO_MOMENTUM"
+    }
+  ],
+  "fixed_selector": {
+    "checkpoint": 15,
+    "attack_surrogate": -1.8595576286315918
+  },
+  "counters": {
+    "forward": 230,
+    "backward": 80,
+    "generate": 140
+  },
+  "wall_seconds": 408.27666675508954,
+  "semantic_manifest_sha256": "ac60d7887066f655e21b914167b4999cad66273e333b988d0a9fec0eea78b704"
+}

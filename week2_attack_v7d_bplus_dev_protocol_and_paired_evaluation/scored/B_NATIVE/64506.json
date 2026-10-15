@@ -1,0 +1,68 @@
+{
+  "sample_id": "64506",
+  "chosen_step": 100,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "E",
+  "clean_text": "E",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 6.483676910400391,
+  "pollution": 0,
+  "strict_train": 1,
+  "by_ratio": {
+    "0.50": {
+      "text": "E",
+      "anls": 1.0,
+      "margin": 2.642409324645996,
+      "keep": {
+        "k": 7398,
+        "keep_hash": "f10eb90171c64ce418081a4b388e734da24305535fe6f701ce209fcdd33227ca",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 3.8412675857543945
+    },
+    "0.35": {
+      "text": "BEPOV CD",
+      "anls": 0.0,
+      "margin": -1.6577342748641968,
+      "keep": {
+        "k": 5179,
+        "keep_hash": "8d1ce654c131f167a2ffd40d85efb8d1af55474c41e4fc4157f6ccf9b26ce870",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 8.141411185264587
+    },
+    "0.25": {
+      "text": "BEACH",
+      "anls": 0.0,
+      "margin": -2.296670436859131,
+      "keep": {
+        "k": 3699,
+        "keep_hash": "89bd65d16b9363527b3c48e3bea3c1f721e7f74cbfaddf758904314fe82f6334",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 8.780347347259521
+    },
+    "0.15": {
+      "text": "A",
+      "anls": 0.0,
+      "margin": -0.4600825309753418,
+      "keep": {
+        "k": 2219,
+        "keep_hash": "953b9c22976a614bcda5c323aae5854b507e9120ca192e65d3c157634511a6a9",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 6.943759441375732
+    }
+  },
+  "selector_margin": -1.9772023558616638
+}

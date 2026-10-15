@@ -1,0 +1,68 @@
+{
+  "sample_id": "47450",
+  "chosen_step": 200,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "Dr. or Mrs. William J. Darby",
+  "clean_text": "Dr. or Mrs. William J. Darby",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 5.4025397300720215,
+  "pollution": 0,
+  "strict_train": 1,
+  "by_ratio": {
+    "0.50": {
+      "text": "Dr. or Mrs. William J. Darby",
+      "anls": 1.0,
+      "margin": 3.65063738822937,
+      "keep": {
+        "k": 7398,
+        "keep_hash": "3ec07a881f6aef4d6381b08f226282a54ed09442353c6ae71fee93997f5403d2",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 1.7519023418426514
+    },
+    "0.35": {
+      "text": "NUTRITION FOUNDATION INC.",
+      "anls": 0.0,
+      "margin": 1.8949486017227173,
+      "keep": {
+        "k": 5179,
+        "keep_hash": "85e45707abb97c4a4dd6922e75464a1b7db6234eb50d012831ee80d9354605ad",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 3.507591128349304
+    },
+    "0.25": {
+      "text": "Chase",
+      "anls": 0.0,
+      "margin": -0.14064249396324158,
+      "keep": {
+        "k": 3699,
+        "keep_hash": "0d284cb207a0073298a32e1e0ad6b45f9f33a323c4a019edb6516fa147c2702c",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.543182224035263
+    },
+    "0.15": {
+      "text": "Dr. or Mrs. William J. I. J. Darby",
+      "anls": 0.8620689655172413,
+      "margin": 2.373769998550415,
+      "keep": {
+        "k": 2219,
+        "keep_hash": "1122c1e482b81e0424a7952d8a5888d496467bc9159002a3241402cce2fa46aa",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 3.0287697315216064
+    }
+  },
+  "selector_margin": 0.8771530538797379
+}

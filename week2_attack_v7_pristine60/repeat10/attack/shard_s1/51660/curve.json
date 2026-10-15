@@ -1,0 +1,257 @@
+[
+  {
+    "sample_id": "51660",
+    "step": 0,
+    "seed": 3041464438,
+    "pred_full": "May 4, 1960",
+    "pred_fastv": "May 4, 1960",
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": 5.787499904632568,
+    "L_comp": 5.825000286102295,
+    "L_soft_full": 0.69140625,
+    "keep_hash": "bf1ef566579260228f12e19a065d21feca47976aa5fba7c3cd616d618e6be135",
+    "k": 2774,
+    "aux_share": 0.2649603460706561,
+    "evidence_share": 0.2862292718096611,
+    "page_keep_counts": [
+      735,
+      794,
+      1245
+    ],
+    "page_shares": [
+      0.2649603460706561,
+      0.2862292718096611,
+      0.44881038211968277
+    ],
+    "linf": 0.0,
+    "png": "checkpoints/step_000.png",
+    "png_sha256": "65486b3c8b625da9fa0104d33113f70f4a2903f8e059a66d5e076d0bf2c89f95",
+    "protected_ok": true,
+    "grad_norm": 541.67822265625
+  },
+  {
+    "sample_id": "51660",
+    "step": 10,
+    "seed": 3041464438,
+    "pred_full": "May 4, 1960",
+    "pred_fastv": "May 4, 1960",
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": 4.412499904632568,
+    "L_comp": 4.412499904632568,
+    "L_soft_full": 0.46484375,
+    "keep_hash": "bc2886940b8b569c9dcde46bd81d6ed747707b44562a3194ca20d2eedf375ee4",
+    "k": 2774,
+    "aux_share": 0.25522710886806055,
+    "evidence_share": 0.2912761355443403,
+    "page_keep_counts": [
+      708,
+      808,
+      1258
+    ],
+    "page_shares": [
+      0.25522710886806055,
+      0.2912761355443403,
+      0.4534967555875991
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_010.png",
+    "png_sha256": "d57c0767c18bd4f0398f6afff7f905a4809f926ef1be14923d5d2ea4aba8a336",
+    "protected_ok": true,
+    "grad_norm": 3.389716386795044
+  },
+  {
+    "sample_id": "51660",
+    "step": 25,
+    "seed": 3041464438,
+    "pred_full": "May 4, 1960",
+    "pred_fastv": "May 19, 1970",
+    "anls_full": 1.0,
+    "anls_fastv": 0.7272727272727273,
+    "output_valid": true,
+    "margin": 1.5125000476837158,
+    "L_comp": 1.7625000476837158,
+    "L_soft_full": 0.353515625,
+    "keep_hash": "b146f12702bea8acfb7c3ab6f7ed2524351c845cd977e319ebb4973941812496",
+    "k": 2774,
+    "aux_share": 0.25991348233597694,
+    "evidence_share": 0.28803172314347514,
+    "page_keep_counts": [
+      721,
+      799,
+      1254
+    ],
+    "page_shares": [
+      0.25991348233597694,
+      0.28803172314347514,
+      0.4520547945205479
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_025.png",
+    "png_sha256": "7ea407082d57b540a9bf93cdf7918e5c6f7faccdb2b40f4b73b6a4862af9ce1f",
+    "protected_ok": true,
+    "grad_norm": 10.392789840698242
+  },
+  {
+    "sample_id": "51660",
+    "step": 50,
+    "seed": 3041464438,
+    "pred_full": "May 4, 1960",
+    "pred_fastv": "May, 19, 71",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -1.7312500476837158,
+    "L_comp": -1.9562500715255737,
+    "L_soft_full": 0.142578125,
+    "keep_hash": "4070c7f347706a2029ff5896894037a541489209686afad265224c8c441f3291",
+    "k": 2774,
+    "aux_share": 0.2620764239365537,
+    "evidence_share": 0.2869502523431867,
+    "page_keep_counts": [
+      727,
+      796,
+      1251
+    ],
+    "page_shares": [
+      0.2620764239365537,
+      0.2869502523431867,
+      0.45097332372025956
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_050.png",
+    "png_sha256": "05eff20d89b950b387d820f56e28add4f43649dd3cb7ca50fb96dd8d07589207",
+    "protected_ok": true,
+    "grad_norm": 4.939352989196777
+  },
+  {
+    "sample_id": "51660",
+    "step": 75,
+    "seed": 3041464438,
+    "pred_full": "May 4, 1960",
+    "pred_fastv": "1875",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -1.243749976158142,
+    "L_comp": -1.2062500715255737,
+    "L_soft_full": 0.2138671875,
+    "keep_hash": "fe90d53e1dcc279eff8d707898319f9b219c6f1e7130239b5fbda9bc82809b95",
+    "k": 2774,
+    "aux_share": 0.2627974044700793,
+    "evidence_share": 0.2894736842105263,
+    "page_keep_counts": [
+      729,
+      803,
+      1242
+    ],
+    "page_shares": [
+      0.2627974044700793,
+      0.2894736842105263,
+      0.44772891131939435
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_075.png",
+    "png_sha256": "cd5c2586e7bc2d43f8520fc6efb25a4d96469231929b3ad42f705ecb90c548fa",
+    "protected_ok": true,
+    "grad_norm": 10.397849082946777
+  },
+  {
+    "sample_id": "51660",
+    "step": 100,
+    "seed": 3041464438,
+    "pred_full": "May 4, 1960",
+    "pred_fastv": "18C",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -3.293750047683716,
+    "L_comp": -3.2562501430511475,
+    "L_soft_full": 0.138671875,
+    "keep_hash": "3bd75437d29b2a55da1973c98654ebfda26c4fc20de231eef910d96c1d8f43da",
+    "k": 2774,
+    "aux_share": 0.2645998558038933,
+    "evidence_share": 0.28658976207642395,
+    "page_keep_counts": [
+      734,
+      795,
+      1245
+    ],
+    "page_shares": [
+      0.2645998558038933,
+      0.28658976207642395,
+      0.44881038211968277
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_100.png",
+    "png_sha256": "62698e5f11e7c6dd845e843cdc050cd20f6ec24ac64b12cfca740286000e0b3f",
+    "protected_ok": true,
+    "grad_norm": 9.629721641540527
+  },
+  {
+    "sample_id": "51660",
+    "step": 150,
+    "seed": 3041464438,
+    "pred_full": "May 4, 1960",
+    "pred_fastv": "1877/7/18",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -6.5,
+    "L_comp": -6.412499904632568,
+    "L_soft_full": 0.058349609375,
+    "keep_hash": "f4e0d78f7ed649a35701e7e7a1a64ff84ada612e880e574f1454853a37b9be2e",
+    "k": 2774,
+    "aux_share": 0.25378514780100936,
+    "evidence_share": 0.2923576063446287,
+    "page_keep_counts": [
+      704,
+      811,
+      1259
+    ],
+    "page_shares": [
+      0.25378514780100936,
+      0.2923576063446287,
+      0.45385724585436193
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_150.png",
+    "png_sha256": "86638db66b430150de6f81756426eb299c73a6fe772ed1ff501126094242c6ec",
+    "protected_ok": true,
+    "grad_norm": 9.709814071655273
+  },
+  {
+    "sample_id": "51660",
+    "step": 200,
+    "seed": 3041464438,
+    "pred_full": "May 4, 1960",
+    "pred_fastv": "1975, 1975, 1975",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -7.28125,
+    "L_comp": -7.243750095367432,
+    "L_soft_full": 0.1318359375,
+    "keep_hash": "43580d2c8cafcae015924ba3606a5a5fad4bd3086d421cb4f7e0d23bd09578ba",
+    "k": 2774,
+    "aux_share": 0.2548666186012978,
+    "evidence_share": 0.2923576063446287,
+    "page_keep_counts": [
+      707,
+      811,
+      1256
+    ],
+    "page_shares": [
+      0.2548666186012978,
+      0.2923576063446287,
+      0.4527757750540735
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_200.png",
+    "png_sha256": "841f54407b606a1da8a2511fa524cdf4699106804a9c81db1111ed4e09082d4a",
+    "protected_ok": true
+  }
+]

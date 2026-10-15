@@ -1,0 +1,241 @@
+[
+  {
+    "sample_id": "5615",
+    "step": 0,
+    "seed": 2591148332,
+    "pred_full": "(202) 662-8500",
+    "pred_fastv": "(202) 662-8000",
+    "anls_full": 0.8181818181818181,
+    "anls_fastv": 0.8181818181818181,
+    "output_valid": true,
+    "margin": 4.929166793823242,
+    "L_comp": 4.950000286102295,
+    "L_soft_full": 0.69140625,
+    "keep_hash": "4bf3a4919630e84ba6d81c7f00bcb209cdeaf4d6f38e6a2a4be8ee42b348c4f2",
+    "k": 1850,
+    "aux_share": 0.4362162162162162,
+    "evidence_share": 0.5637837837837838,
+    "page_keep_counts": [
+      807,
+      1043
+    ],
+    "page_shares": [
+      0.4362162162162162,
+      0.5637837837837838
+    ],
+    "linf": 0.0,
+    "png": "checkpoints/step_000.png",
+    "png_sha256": "a17b9fe856256a74e01f366b23f9dac3f3b5369f374936601d812c9889457e12",
+    "protected_ok": true,
+    "grad_norm": 223.6173095703125
+  },
+  {
+    "sample_id": "5615",
+    "step": 10,
+    "seed": 2591148332,
+    "pred_full": "(202) 662-8500",
+    "pred_fastv": "(202) 882-7382",
+    "anls_full": 0.8181818181818181,
+    "anls_fastv": 0.5454545454545454,
+    "output_valid": true,
+    "margin": 2.641666889190674,
+    "L_comp": 2.741666793823242,
+    "L_soft_full": 0.228515625,
+    "keep_hash": "bf3dfe56fb8200274f11584d6d3b75a03164ed8e0a769abeda552ca1d288e9aa",
+    "k": 1850,
+    "aux_share": 0.4308108108108108,
+    "evidence_share": 0.5691891891891891,
+    "page_keep_counts": [
+      797,
+      1053
+    ],
+    "page_shares": [
+      0.4308108108108108,
+      0.5691891891891891
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_010.png",
+    "png_sha256": "63e5dc11133f59cbb2468370b300e52021743a556bcf6024bb0b40205a661bd9",
+    "protected_ok": true,
+    "grad_norm": 5.401793956756592
+  },
+  {
+    "sample_id": "5615",
+    "step": 25,
+    "seed": 2591148332,
+    "pred_full": "(202) 662-8500",
+    "pred_fastv": "(202) 889-7322",
+    "anls_full": 0.8181818181818181,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": 1.1916667222976685,
+    "L_comp": 1.1791666746139526,
+    "L_soft_full": 0.169921875,
+    "keep_hash": "fbcd0cfb51b12f1ab40dfdcea9cd234668fcd4aa49f965931a323775e5f63c77",
+    "k": 1850,
+    "aux_share": 0.43243243243243246,
+    "evidence_share": 0.5675675675675675,
+    "page_keep_counts": [
+      800,
+      1050
+    ],
+    "page_shares": [
+      0.43243243243243246,
+      0.5675675675675675
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_025.png",
+    "png_sha256": "4275a64b66c7c7792c5907d7584decdb8e0aaeb0ea708cc10ff647b58a9c9da4",
+    "protected_ok": true,
+    "grad_norm": 13.536566734313965
+  },
+  {
+    "sample_id": "5615",
+    "step": 50,
+    "seed": 2591148332,
+    "pred_full": "(202) 662-8500",
+    "pred_fastv": "206) 888-7362",
+    "anls_full": 0.8181818181818181,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": 0.01666666753590107,
+    "L_comp": -0.04583333432674408,
+    "L_soft_full": 0.1611328125,
+    "keep_hash": "244b068b4c2ef0d5439b6ad06124265d8d9d33c8369cf63cad0fc8d075532b2d",
+    "k": 1850,
+    "aux_share": 0.4281081081081081,
+    "evidence_share": 0.5718918918918919,
+    "page_keep_counts": [
+      792,
+      1058
+    ],
+    "page_shares": [
+      0.4281081081081081,
+      0.5718918918918919
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_050.png",
+    "png_sha256": "6ce5c8ca1b3c57a9d6456abec58dca0bdcb2792cc81d248518c3d472b7a90690",
+    "protected_ok": true,
+    "grad_norm": 4.100590705871582
+  },
+  {
+    "sample_id": "5615",
+    "step": 75,
+    "seed": 2591148332,
+    "pred_full": "(202) 662-8500",
+    "pred_fastv": "206 888 2222",
+    "anls_full": 0.8181818181818181,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -0.9791667461395264,
+    "L_comp": -0.8291667103767395,
+    "L_soft_full": 0.13671875,
+    "keep_hash": "cfe684134be59f8b95d566ce251370ccc2aab502e080cdfdc2ed15a8bd35049d",
+    "k": 1850,
+    "aux_share": 0.42486486486486486,
+    "evidence_share": 0.5751351351351351,
+    "page_keep_counts": [
+      786,
+      1064
+    ],
+    "page_shares": [
+      0.42486486486486486,
+      0.5751351351351351
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_075.png",
+    "png_sha256": "35e17cdb0b8755c8780d44a7eea716c7b1ff89bc689e9a07504429e1ced72088",
+    "protected_ok": true,
+    "grad_norm": 8.43234634399414
+  },
+  {
+    "sample_id": "5615",
+    "step": 100,
+    "seed": 2591148332,
+    "pred_full": "(202) 662-8500",
+    "pred_fastv": "206 888 2222",
+    "anls_full": 0.8181818181818181,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -2.0875000953674316,
+    "L_comp": -2.054166793823242,
+    "L_soft_full": 0.158203125,
+    "keep_hash": "a5e0b0c40e6100db6337ab1cc2b245bc521cdb4c60566f4a767c30261d72d286",
+    "k": 1850,
+    "aux_share": 0.4308108108108108,
+    "evidence_share": 0.5691891891891891,
+    "page_keep_counts": [
+      797,
+      1053
+    ],
+    "page_shares": [
+      0.4308108108108108,
+      0.5691891891891891
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_100.png",
+    "png_sha256": "8ee982703240b4a52941ca7f97929b6024baa63b3b226232f522032a476cbcbd",
+    "protected_ok": true,
+    "grad_norm": 6.822799205780029
+  },
+  {
+    "sample_id": "5615",
+    "step": 150,
+    "seed": 2591148332,
+    "pred_full": "(202) 662-8500",
+    "pred_fastv": "206-880-2222",
+    "anls_full": 0.8181818181818181,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -2.7291667461395264,
+    "L_comp": -3.004166841506958,
+    "L_soft_full": 0.1181640625,
+    "keep_hash": "ca99969afdab0ec8fdc1eed3eee6d259d8039ddf3f3f94cbc6f76e9eea94d695",
+    "k": 1850,
+    "aux_share": 0.42324324324324325,
+    "evidence_share": 0.5767567567567567,
+    "page_keep_counts": [
+      783,
+      1067
+    ],
+    "page_shares": [
+      0.42324324324324325,
+      0.5767567567567567
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_150.png",
+    "png_sha256": "ce7c1f654cd24bfba81b32be20f510dfdfee237f3c89e946c2085a4b947e80b7",
+    "protected_ok": true,
+    "grad_norm": 5.558609485626221
+  },
+  {
+    "sample_id": "5615",
+    "step": 200,
+    "seed": 2591148332,
+    "pred_full": "(202) 662-8500",
+    "pred_fastv": "212-888-2080",
+    "anls_full": 0.8181818181818181,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -4.512500286102295,
+    "L_comp": -5.085416793823242,
+    "L_soft_full": 0.1064453125,
+    "keep_hash": "43456f8a90110300fda9c908133ee1be4ea755132fe69f0bd9ea3c535a5270da",
+    "k": 1850,
+    "aux_share": 0.43135135135135133,
+    "evidence_share": 0.5686486486486486,
+    "page_keep_counts": [
+      798,
+      1052
+    ],
+    "page_shares": [
+      0.43135135135135133,
+      0.5686486486486486
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_200.png",
+    "png_sha256": "904856af5207e069b94543b86c0e8f22c48575d86513384c702d6791acf984af",
+    "protected_ok": true
+  }
+]

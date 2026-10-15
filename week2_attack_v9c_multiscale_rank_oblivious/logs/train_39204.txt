@@ -1,0 +1,21 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.35s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.87s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:06<00:02,  2.39s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.71s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.89s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "step": 0, "exact": true, "objective": -0.1904531158321451}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "step": 10, "exact": false, "objective": 17.337959084772606}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "step": 25, "exact": false, "objective": 11.021100103374112}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "step": 50, "exact": false, "objective": 8.927289699709885}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "step": 75, "exact": false, "objective": 13.004868853102483}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "step": 100, "exact": false, "objective": 14.514491633290824}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "step": 150, "exact": false, "objective": 16.544323357077886}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "step": 200, "exact": false, "objective": 20.78948807895609}
+{"sample": "39204", "status": "NO_VALID_SEALED_CANDIDATE"}

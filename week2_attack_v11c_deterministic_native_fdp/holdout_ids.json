@@ -1,0 +1,16 @@
+{
+  "status": "FROZEN_BEFORE_HOLDOUT_RUN",
+  "selection_rule": "First 20 candidates after calibration id 51070 in the frozen pristine60 calibration order, excluding the six v11c development samples; no holdout outcomes were inspected.",
+  "excluded_v11c_development": ["1025", "2008", "47450", "60700", "7006", "39204"],
+  "ids": [
+    "53993", "57531", "51660", "50906", "51140",
+    "15282", "51702", "1170", "790", "49432",
+    "58827", "58421", "57887", "62321", "25716",
+    "55463", "64689", "50312", "47572", "49123"
+  ],
+  "steps": 200,
+  "train_ratios": [0.25, 0.35],
+  "eval_ratios": [0.15, 0.25, 0.35, 0.5],
+  "epsilon": 0.03137254901960784,
+  "noise_control": "independent uint8 noise in [-8,8] per channel on the selected auxiliary page"
+}

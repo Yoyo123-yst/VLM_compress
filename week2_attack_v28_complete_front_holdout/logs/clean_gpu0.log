@@ -1,0 +1,13 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:08<00:25,  8.40s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:14<00:13,  6.89s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:18<00:05,  5.91s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  4.15s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  5.11s/it]
+Traceback (most recent call last):
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v28_complete_front_holdout/clean_screen.py", line 89, in <module>
+    main()
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v28_complete_front_holdout/clean_screen.py", line 44, in main
+    item = load_item(spec["sample_id"])
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v28_complete_front_holdout/load_samples.py", line 27, in load_item
+    return load_formal_items([manifest[sample_id]])[0]
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v5b_expanded_pristine40/load_samples.py", line 57, in load_formal_items
+    "baseline_full": {"anls": spec["clean_full_anls"], "pred": spec["clean_full_pred"]},
+KeyError: 'clean_full_anls'

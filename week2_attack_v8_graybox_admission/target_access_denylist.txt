@@ -1,0 +1,34 @@
+# Import and attribute denylist for a future gray-box trainer.
+# A hit on any line is target FastV access. This file is a specification, not a running hook.
+
+week1_mechanism/adapters/runtime.py:_install_fastv
+week1_mechanism/adapters/runtime.py:install:method=fastv
+week1_mechanism/adapters/fastv_select.py
+week1_mechanism/third_party/LightCompress/llmc/compression/token_reduction/fastv.py
+week2_attack_v4_answer_aligned/forward.py:hook_kept
+week2_attack_v4_answer_aligned/forward.py:keep_index_from_kept
+week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/native_grad.py:fastv_rows
+week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/native_grad.py:fastv_keep
+week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/run_v7d.py:soft_fast
+week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/run_v7d.py:generate_tokens:ratio_not_none
+week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/run_v7d.py:fast_grad
+week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/score_selected.py:fastv
+gate_experiment/run_causal_v2.py:run_fastv
+gate_experiment/run_gate.py:method=fastv
+
+# Indirect loaders. Importing these modules executes or re-exports the target path.
+week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/run_v7d.py
+week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/native_grad.py
+week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/admit_seq.py
+week2_attack_v7c_native60_readonly_remeasurement/run_shard.py
+week2_attack_v7b_native_cache_margin_admission/tests/test_native_margin_gpu.py
+
+# Attributes that count even if the import path was aliased.
+install(..., "fastv", ...)
+state.kept_visual when the hook method is fastv
+FastV K
+FastV keep hash
+compressed FastV logits
+compressed FastV gradients
+target FastV decoded text
+target selector fields that read FastV text, FastV ANLS, or strict

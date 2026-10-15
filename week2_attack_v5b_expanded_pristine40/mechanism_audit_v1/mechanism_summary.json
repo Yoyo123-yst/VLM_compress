@@ -1,0 +1,29 @@
+{
+  "n_samples": 40,
+  "strict_denominator": 33,
+  "mechanism_counts": {
+    "CONTENT_SUFFICIENT": 21,
+    "INTERACTION_REQUIRED": 7,
+    "BOTH_INDEPENDENTLY_SUFFICIENT": 5
+  },
+  "content_sufficient": "21/33",
+  "content_wilson95": [
+    0.46615872621534094,
+    0.7781303383204013
+  ],
+  "content_plus_both": "26/33",
+  "content_plus_both_wilson95": [
+    0.6224802241287064,
+    0.8932411343356381
+  ],
+  "cc_aa_mismatches": 0,
+  "taxonomy_counts": {
+    "UNRELATED_ANSWER_REPLACEMENT": 11,
+    "CORE_ANSWER_CHANGED": 19,
+    "AMBIGUOUS_NEEDS_REVIEW": 1,
+    "TRUNCATION_OR_EOS": 1,
+    "EXTRA_TEXT_POLLUTION": 1
+  },
+  "pollution_cases": 2,
+  "decision": "GO_SURVIVOR_UPGRADE"
+}

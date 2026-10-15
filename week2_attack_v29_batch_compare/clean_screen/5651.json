@@ -1,0 +1,45 @@
+{
+  "sample_id": "5651",
+  "question": "what is the name of venue ?",
+  "answers": [
+    "Abbey",
+    "abbey"
+  ],
+  "clean_full_text": "kba marketing group",
+  "clean_full_tokens": [
+    74,
+    4645,
+    8493,
+    1874,
+    151645
+  ],
+  "clean_fastv_text": "kansas city",
+  "clean_fastv_tokens": [
+    74,
+    13805,
+    3283,
+    151645
+  ],
+  "clean_full_anls": 0.0,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "166a01d614651fbafb9d96e0e3831718da327a0db85841182106fb82ebcbd17c",
+  "keep_hash_repeat": "166a01d614651fbafb9d96e0e3831718da327a0db85841182106fb82ebcbd17c",
+  "page_sha256": [
+    "7daab9de87a9fb2efa05bf895c26c4e0f6cb0890d6fe63a6c08314a2a73b8151",
+    "f736b4666cf3b1e2e6b3671d4997b580498dab43c76098d7be295e4636ebef46",
+    "a9edca6652c79bce03309311b7912159ce5f4b6949b848a87f0d71c2f175368f",
+    "05e2dbc45f2086460ff7259c067673c8ec7ee1b41282b866e431a0de9fdc98cb"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 2,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 7.541
+}

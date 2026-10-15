@@ -1,0 +1,59 @@
+{
+  "sample_id": "62131",
+  "question": "Who is the moderator?",
+  "answers": [
+    "fredrick j. stare, m.d.",
+    "fredrick j. stare",
+    "Fredrick J. Stare"
+  ],
+  "clean_full_text": "Frederick J. Stare, M.D., M.D.",
+  "clean_full_tokens": [
+    36731,
+    1107,
+    865,
+    619,
+    13,
+    794,
+    546,
+    11,
+    386,
+    909,
+    2572,
+    386,
+    909,
+    13,
+    151645
+  ],
+  "clean_fastv_text": "Herbert Pollock, M.D.",
+  "clean_fastv_tokens": [
+    20705,
+    9160,
+    3651,
+    1023,
+    11,
+    386,
+    909,
+    13,
+    151645
+  ],
+  "clean_full_anls": 0.8260869565217391,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "8bac3d77bbbcf38d329621530ba3ec273cb6bb4e272956a8e257357eb6509be3",
+  "keep_hash_repeat": "8bac3d77bbbcf38d329621530ba3ec273cb6bb4e272956a8e257357eb6509be3",
+  "page_sha256": [
+    "f80848bc8bb0a6de92dec075b1f8a46851a8a58143833db2d0329f6d9810701a",
+    "99fd1a3078bd5e854ad05c95de3fc272a54c3091d967d5d21df5989f433ebe7b"
+  ],
+  "layout_M": 2,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 6.043
+}

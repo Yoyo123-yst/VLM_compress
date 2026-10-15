@@ -1,0 +1,41 @@
+{
+  "sample_id": "21048",
+  "question": "Which committee is this",
+  "answers": [
+    "THE FOOD PROTECTION COMMITTEE"
+  ],
+  "clean_full_text": "food protection",
+  "clean_full_tokens": [
+    13915,
+    9135,
+    151645
+  ],
+  "clean_fastv_text": "food protection",
+  "clean_fastv_tokens": [
+    13915,
+    9135,
+    151645
+  ],
+  "clean_full_anls": 0.5172413793103448,
+  "clean_fastv_anls": 0.5172413793103448,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "a13dbdbf234057038a196561c51c7f6c685a47bc44d7f3dd192871b9a0cc6a5d",
+  "keep_hash_repeat": "a13dbdbf234057038a196561c51c7f6c685a47bc44d7f3dd192871b9a0cc6a5d",
+  "page_sha256": [
+    "fd691dcfc02f0031f16237cece8655b6681ce4b4f2c0ec6ddbd904ae910fe434",
+    "40963f48d60419efaee9d6a9ea7626a0ae8c5dc438c9b716249292783deb7dc6",
+    "f52e70e08db457d040c020977fbe670369174245f0d83e5d4f2e8c86b7b2a1fa",
+    "fb1d5eda4676e9911366dff5ba88b2aa2397834eed6fd3ae4f1b97017e16991c"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 3,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 7.97
+}

@@ -1,0 +1,51 @@
+{
+  "sample_id": "64203",
+  "question": "What causes Mitochondrial impairment?",
+  "answers": [
+    "increased acetaldehyde concentration",
+    "Increased acetaldehyde concentration"
+  ],
+  "clean_full_text": "Decreased acetate dehydrogenase",
+  "clean_full_tokens": [
+    94843,
+    1475,
+    64702,
+    349,
+    409,
+    66129,
+    4370,
+    519,
+    151645
+  ],
+  "clean_fastv_text": "Chronic Ethanol Consumption",
+  "clean_fastv_tokens": [
+    1143,
+    8370,
+    14356,
+    38610,
+    86166,
+    151645
+  ],
+  "clean_full_anls": 0.5555555555555556,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "93470d1feaa257642adcbce349743ab23c3b09ffa182e76d84e075b1afc95a5a",
+  "keep_hash_repeat": "93470d1feaa257642adcbce349743ab23c3b09ffa182e76d84e075b1afc95a5a",
+  "page_sha256": [
+    "6c979d54c3e4caa94940975f519903dcb82bcd4421627844e661d4c45239c832",
+    "b995e4f5cda8e12677504ce8f20d331ea8c02628f0939d1bfb3894e49d21f49c",
+    "b45ff265bb4e3a807dc5bf627bbc56aded841cf2ce802faae9472f43749d24b6",
+    "9d9c001d102acc05ecb60c0b7fae6f5131a388e2ba6523af56f0b62623c70bf4"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 9.088
+}

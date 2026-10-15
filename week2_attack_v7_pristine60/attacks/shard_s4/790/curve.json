@@ -1,0 +1,257 @@
+[
+  {
+    "sample_id": "790",
+    "step": 0,
+    "seed": 74345049,
+    "pred_full": "Michael F. Jacobson, Ph.D.",
+    "pred_fastv": "Michael F. Jacobson, Ph.D.",
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": 4.568749904632568,
+    "L_comp": 4.525000095367432,
+    "L_soft_full": 0.69140625,
+    "keep_hash": "c3d6801408faec5fa78d8b6fd5203d17e6fb94b941dfc9596c9b3edb327c0469",
+    "k": 2774,
+    "aux_share": 0.33741888968997835,
+    "evidence_share": 0.22999279019466473,
+    "page_keep_counts": [
+      936,
+      638,
+      1200
+    ],
+    "page_shares": [
+      0.33741888968997835,
+      0.22999279019466473,
+      0.43258832011535686
+    ],
+    "linf": 0.0,
+    "png": "checkpoints/step_000.png",
+    "png_sha256": "7ff1fe8cfe36027296c215c0afb2c3b4f305c6f84fc2e658a65c99996b17f29c",
+    "protected_ok": true,
+    "grad_norm": 21.321121215820312
+  },
+  {
+    "sample_id": "790",
+    "step": 10,
+    "seed": 74345049,
+    "pred_full": "Michael F. Jacobson, Ph.D.",
+    "pred_fastv": "J. Alexander M. Jacobson, Jr.",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": 3.375,
+    "L_comp": 3.450000047683716,
+    "L_soft_full": 0.5703125,
+    "keep_hash": "40566ada981f43d7ddd27d0a1cd8d718680aa45f8f2276c0e78fbc12e563e692",
+    "k": 2774,
+    "aux_share": 0.3280461427541456,
+    "evidence_share": 0.2343186733958183,
+    "page_keep_counts": [
+      910,
+      650,
+      1214
+    ],
+    "page_shares": [
+      0.3280461427541456,
+      0.2343186733958183,
+      0.437635183850036
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_010.png",
+    "png_sha256": "8a6391b0d212529695fd868e654e4bb7f565b2f4b171afdf2a838f327f464352",
+    "protected_ok": true,
+    "grad_norm": 10.125750541687012
+  },
+  {
+    "sample_id": "790",
+    "step": 25,
+    "seed": 74345049,
+    "pred_full": "Michael F. Jacobson, Ph.D.",
+    "pred_fastv": "J. Michael F. Jacobson, Jr.",
+    "anls_full": 1.0,
+    "anls_fastv": 0.782608695652174,
+    "output_valid": true,
+    "margin": 2.84375,
+    "L_comp": 2.862499952316284,
+    "L_soft_full": 0.46875,
+    "keep_hash": "6ea2f824f34003a05c78a2b75d58f95c0b98e36a5afa549664822258fa6f2ec4",
+    "k": 2774,
+    "aux_share": 0.332732516222062,
+    "evidence_share": 0.23035328046142753,
+    "page_keep_counts": [
+      923,
+      639,
+      1212
+    ],
+    "page_shares": [
+      0.332732516222062,
+      0.23035328046142753,
+      0.43691420331651043
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_025.png",
+    "png_sha256": "4fc5d0758423c21d8927ce4ef669a4b7cb982771398006870c4447a26b3c61bb",
+    "protected_ok": true,
+    "grad_norm": 11.002172470092773
+  },
+  {
+    "sample_id": "790",
+    "step": 50,
+    "seed": 74345049,
+    "pred_full": "Michael F. Jacobson, Ph.D.",
+    "pred_fastv": "J. Alexander M. Jr.",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": 1.662500023841858,
+    "L_comp": 1.6750000715255737,
+    "L_soft_full": 0.40625,
+    "keep_hash": "daf993cfe316e7681d7eeddd7625157ec5d963491ecffb64e482755734a1eb87",
+    "k": 2774,
+    "aux_share": 0.3312905551550108,
+    "evidence_share": 0.23179524152847872,
+    "page_keep_counts": [
+      919,
+      643,
+      1212
+    ],
+    "page_shares": [
+      0.3312905551550108,
+      0.23179524152847872,
+      0.43691420331651043
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_050.png",
+    "png_sha256": "bcedac0bb6acd3772d2d89aaaa60929c29850dbe342b8c7caa97767f4ffd6478",
+    "protected_ok": true,
+    "grad_norm": 6.986479759216309
+  },
+  {
+    "sample_id": "790",
+    "step": 75,
+    "seed": 74345049,
+    "pred_full": "Michael F. Jacobson, Ph.D.",
+    "pred_fastv": "J. Alexander M. Jr.",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": 0.4937500059604645,
+    "L_comp": 0.53125,
+    "L_soft_full": 0.32421875,
+    "keep_hash": "7d133f263ab78a94e8bd166d08f9962a2c56ea19e42826587bf25200db3a01ab",
+    "k": 2774,
+    "aux_share": 0.33741888968997835,
+    "evidence_share": 0.22855082912761354,
+    "page_keep_counts": [
+      936,
+      634,
+      1204
+    ],
+    "page_shares": [
+      0.33741888968997835,
+      0.22855082912761354,
+      0.43403028118240805
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_075.png",
+    "png_sha256": "4552b08936440e0907ad544c11a696d7ba0bb719b978aef8307448b0000be4f4",
+    "protected_ok": true,
+    "grad_norm": 13.816561698913574
+  },
+  {
+    "sample_id": "790",
+    "step": 100,
+    "seed": 74345049,
+    "pred_full": "Michael F. Jacobson, Ph.D.",
+    "pred_fastv": "J. Alexander M. Jr.",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -0.11250000447034836,
+    "L_comp": -0.01875000074505806,
+    "L_soft_full": 0.40625,
+    "keep_hash": "a74008d7be5982a68db176445e403860d7859de44b146ee1bac6f423e5d74e9a",
+    "k": 2774,
+    "aux_share": 0.33669790915645276,
+    "evidence_share": 0.22999279019466473,
+    "page_keep_counts": [
+      934,
+      638,
+      1202
+    ],
+    "page_shares": [
+      0.33669790915645276,
+      0.22999279019466473,
+      0.43330930064888246
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_100.png",
+    "png_sha256": "4232cfe1cb43506d9f7659a6b7711f381cf53330f9436f22d7aa7c65c04a2b81",
+    "protected_ok": true,
+    "grad_norm": 23.053255081176758
+  },
+  {
+    "sample_id": "790",
+    "step": 150,
+    "seed": 74345049,
+    "pred_full": "Michael F. Jacobson, Ph.D.",
+    "pred_fastv": "J. Alexander M. Jr.",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -0.4312500059604645,
+    "L_comp": -0.4124999940395355,
+    "L_soft_full": 0.435546875,
+    "keep_hash": "bc5495787a2cd27a171cceb3679a92f9ddbbe8edaa17dcf2d7301047a1ac6475",
+    "k": 2774,
+    "aux_share": 0.32912761355443404,
+    "evidence_share": 0.23215573179524152,
+    "page_keep_counts": [
+      913,
+      644,
+      1217
+    ],
+    "page_shares": [
+      0.32912761355443404,
+      0.23215573179524152,
+      0.43871665465032444
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_150.png",
+    "png_sha256": "e7b69d9d217815cdcf53ee126d5acfb9df32c8059cd9eeca8a718dbbcb8f16f6",
+    "protected_ok": true,
+    "grad_norm": 14.765191078186035
+  },
+  {
+    "sample_id": "790",
+    "step": 200,
+    "seed": 74345049,
+    "pred_full": "Michael F. Jacobson, Ph.D.",
+    "pred_fastv": "J. Alexander Downer",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -2.8125,
+    "L_comp": -2.9390625953674316,
+    "L_soft_full": 0.33984375,
+    "keep_hash": "60bdd95ae0955c2b3bfbf1573315bf479c879b0675bd6e0e52a458c93c39a776",
+    "k": 2774,
+    "aux_share": 0.32984859408795963,
+    "evidence_share": 0.2325162220620043,
+    "page_keep_counts": [
+      915,
+      645,
+      1214
+    ],
+    "page_shares": [
+      0.32984859408795963,
+      0.2325162220620043,
+      0.437635183850036
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_200.png",
+    "png_sha256": "c3ee0599ca96d554b1d41a3a9edcc79709cb326557837dc6ea962037168833f8",
+    "protected_ok": true
+  }
+]

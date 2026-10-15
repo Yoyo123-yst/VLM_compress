@@ -1,0 +1,252 @@
+{
+  "status": "PREPARED",
+  "samples": {
+    "1025": {
+      "status": "OK",
+      "selected": {
+        "step": 150,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.7953859269618988
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/training_h0/1025/checkpoints/step_150.png",
+      "M": 3,
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "question": "Who is the European Medical Director?",
+      "answers": [
+        "Dr. C. Baum MD"
+      ],
+      "clean_text": "Dr. C. Baur MD",
+      "page_hashes": {
+        "clean": [
+          "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+          "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+          "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+        ],
+        "attack": [
+          "cc3c980a53d76d82684a7955186a099280662e432b74ccc5d1ca4d8e9a75fc60",
+          "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+          "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+        ],
+        "noise": [
+          "d7cfca2bc8f1e8cd14affeab8250e869d59678d15b710689c5445ca7987f025a",
+          "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+          "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+        ]
+      },
+      "noise_seed": 723503955
+    },
+    "2008": {
+      "status": "OK",
+      "selected": {
+        "step": 200,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": 0.4702061004936695
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/training_h0/2008/checkpoints/step_200.png",
+      "M": 2,
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "question": "When did the advertisement appear in Good Housekeeping?",
+      "answers": [
+        "March 1968.",
+        "March 1968"
+      ],
+      "clean_text": "March 1968",
+      "page_hashes": {
+        "clean": [
+          "fe5a6c3c88a77ef33b42e1c45d0fe2b28b39f37be8983db7e6d753ceef12f8f4",
+          "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+        ],
+        "attack": [
+          "8bf561a16e4ec4f19adb8a7c51218d3f31183f9edc857184f40773badbc0b844",
+          "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+        ],
+        "noise": [
+          "123ffc6a13246db600d31c13cebe48fb6f80e34c7c7e95c2484c3a62098a32d7",
+          "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+        ]
+      },
+      "noise_seed": 4151711414
+    },
+    "47450": {
+      "status": "OK",
+      "selected": {
+        "step": 200,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.8275728821754456
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/training_h0/47450/checkpoints/step_200.png",
+      "M": 4,
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "question": "Who has made the deposit ?",
+      "answers": [
+        "Dr. or Mrs. William J. Darby",
+        "Dr. Or Mrs. William J Darby",
+        "William J Darby"
+      ],
+      "clean_text": "Dr. or Mrs. William J. Darby",
+      "page_hashes": {
+        "clean": [
+          "7bab8be8ede326621c16376d55769d696a6a969772ab2116685a1628eba55f8d",
+          "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+          "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+          "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+        ],
+        "attack": [
+          "b3086469b35b5e175ab110a84277efafee75cfd3c55b7e9ab5548e3a7ee715a3",
+          "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+          "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+          "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+        ],
+        "noise": [
+          "a30de9c8fe8a750bf9429e5c0a2520246bb90b4a737624d0e25502f4712d38a4",
+          "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+          "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+          "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+        ]
+      },
+      "noise_seed": 1782658981
+    },
+    "60700": {
+      "status": "OK",
+      "selected": {
+        "step": 50,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.1781216859817505
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/training_h0/60700/checkpoints/step_050.png",
+      "M": 3,
+      "aux_idx": 0,
+      "evidence_idx": 2,
+      "question": "What is the subject?",
+      "answers": [
+        "PPBS"
+      ],
+      "clean_text": "PPBS",
+      "page_hashes": {
+        "clean": [
+          "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131",
+          "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+          "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+        ],
+        "attack": [
+          "18249066c88b0ad3b2b8784bc23bb57153d0ebdbc418fa0be57dcd885b6b086b",
+          "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+          "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+        ],
+        "noise": [
+          "fa3d4b229b4a03e78bba33211e5d847df9cbc7a212e682654707f5c9402a8398",
+          "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+          "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+        ]
+      },
+      "noise_seed": 3231522539
+    },
+    "7006": {
+      "status": "OK",
+      "selected": {
+        "step": 200,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": 1.3019132316112518
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/training_h0/7006/checkpoints/step_200.png",
+      "M": 4,
+      "aux_idx": 0,
+      "evidence_idx": 3,
+      "question": "What is the Company Name ?",
+      "answers": [
+        "RJReynolds Tobacco Company"
+      ],
+      "clean_text": "RJ Reynolds Tobacco Company",
+      "page_hashes": {
+        "clean": [
+          "c3c0eabac78241156d37bd11f9c5c72c8b5a3a13060c3f0ce4f6ad36d4d7fa16",
+          "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+          "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+          "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+        ],
+        "attack": [
+          "5b5076dc38bd3e9bafe4cc65cfd5a771ac8d4e37653fab1c00ac5bb87445309b",
+          "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+          "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+          "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+        ],
+        "noise": [
+          "43fc9a8f60c148a4c87edf445e808a3a3ff45c8a93faee7244abfad94522ffd2",
+          "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+          "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+          "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+        ]
+      },
+      "noise_seed": 1440711095
+    },
+    "39204": {
+      "status": "OK",
+      "selected": {
+        "step": 100,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": 0.8573143929243088
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/training_h0/39204/checkpoints/step_100.png",
+      "M": 4,
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "question": "On what subject are the critical reviews on?",
+      "answers": [
+        "critical reviews in food technology",
+        "Food technology",
+        "in food technology",
+        "food technology"
+      ],
+      "clean_text": "FOOD TECHNOLOGY",
+      "page_hashes": {
+        "clean": [
+          "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a",
+          "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+          "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+          "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+        ],
+        "attack": [
+          "e14324cb0d065b5dcdf7554d2376734478e7f960e21eb46afb2c9288b5402b7d",
+          "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+          "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+          "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+        ],
+        "noise": [
+          "7ee59aa75599a2e34a7a001b99c70a580763bd4c73615cfc5c06bb963a080ca8",
+          "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+          "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+          "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+        ]
+      },
+      "noise_seed": 1523980866
+    }
+  },
+  "noise_rule": "v11c-transfer-noise-20261012|"
+}

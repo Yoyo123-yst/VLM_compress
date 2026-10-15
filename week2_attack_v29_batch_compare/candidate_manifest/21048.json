@@ -1,0 +1,472 @@
+{
+  "sample_id": "21048",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "d2799f24fc166087f1c93217022cfc5072b057e627767171686f8e26ebf47566",
+  "full_clean": {
+    "text_a": "food protection",
+    "text_b": "food protection",
+    "tokens_a": [
+      13915,
+      9135,
+      151645
+    ],
+    "tokens_b": [
+      13915,
+      9135,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      13915,
+      9135,
+      151645
+    ],
+    "text": "food protection",
+    "anls": 0.5172413793103448,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "a13dbdbf234057038a196561c51c7f6c685a47bc44d7f3dd192871b9a0cc6a5d",
+    "k": 3699,
+    "second_keep_hash": "a13dbdbf234057038a196561c51c7f6c685a47bc44d7f3dd192871b9a0cc6a5d",
+    "second_k": 3699
+  },
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "a13dbdbf234057038a196561c51c7f6c685a47bc44d7f3dd192871b9a0cc6a5d",
+    "reference_keep_hash": "a13dbdbf234057038a196561c51c7f6c685a47bc44d7f3dd192871b9a0cc6a5d",
+    "fast_keep_exact": true,
+    "k": 3699,
+    "reference_k": 3699
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 0,
+      "target_id": 13915,
+      "target_piece": "food",
+      "candidate_id": 30812,
+      "candidate_piece": "National",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 1.75,
+      "content_priority": 1,
+      "fast_gradient_l1": 10718.84765625,
+      "fast_gradient_l2": 31.66634178161621,
+      "estimated_fast_flip_linf": 0.00016326381866054427,
+      "full_clean_hard_min": 1.375,
+      "full_probe_hard_min": 1.125,
+      "full_local_capacity_linf": 0.021568627450980392,
+      "full_local_margin_available": true,
+      "reachability_ratio": 132.1090467436975,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "a13dbdbf234057038a196561c51c7f6c685a47bc44d7f3dd192871b9a0cc6a5d",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          30812,
+          43345,
+          315,
+          35688,
+          151645
+        ],
+        "text": "National academy of sciences",
+        "keep_hash": "0b3840f937fd5cbd3c535a2474c6bc1b10d3cbcebac54cce5abfdddf4089bf35",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "nationalacademyofsciences",
+      "complete_lexical_similarity_to_clean": 0.20512820512820512,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          30812,
+          43345,
+          315,
+          35688,
+          151645
+        ],
+        "text": "National academy of sciences",
+        "keep_hash": "0b3840f937fd5cbd3c535a2474c6bc1b10d3cbcebac54cce5abfdddf4089bf35",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 13915,
+      "target_piece": "food",
+      "candidate_id": 785,
+      "candidate_piece": "The",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 2.125,
+      "content_priority": 1,
+      "fast_gradient_l1": 8819.587890625,
+      "fast_gradient_l2": 25.53548812866211,
+      "estimated_fast_flip_linf": 0.0002409409630419151,
+      "full_clean_hard_min": 1.375,
+      "full_probe_hard_min": 1.25,
+      "full_local_capacity_linf": 0.043137254901960784,
+      "full_local_margin_available": true,
+      "reachability_ratio": 179.03661692618223,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "a13dbdbf234057038a196561c51c7f6c685a47bc44d7f3dd192871b9a0cc6a5d",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          785,
+          3607,
+          9135,
+          12801,
+          151645
+        ],
+        "text": "The food protection committee",
+        "keep_hash": "b3b14acb1350f486a37e19c4bfca8f57095d513698199d7cfd85d13fbed26b48",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 1.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "thefoodprotectioncommittee",
+      "complete_lexical_similarity_to_clean": 0.7,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          785,
+          3607,
+          9135,
+          12801,
+          151645
+        ],
+        "text": "The food protection committee",
+        "keep_hash": "b3b14acb1350f486a37e19c4bfca8f57095d513698199d7cfd85d13fbed26b48",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 13915,
+      "target_piece": "food",
+      "candidate_id": 19432,
+      "candidate_piece": "Review",
+      "candidate_rank_at_position": 9,
+      "clean_fast_gap": 4.0,
+      "content_priority": 1,
+      "fast_gradient_l1": 12050.1953125,
+      "fast_gradient_l2": 35.387577056884766,
+      "estimated_fast_flip_linf": 0.00033194482713908295,
+      "full_clean_hard_min": 1.375,
+      "full_probe_hard_min": 1.25,
+      "full_local_capacity_linf": 0.043137254901960784,
+      "full_local_margin_available": true,
+      "reachability_ratio": 129.95308670343135,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "a13dbdbf234057038a196561c51c7f6c685a47bc44d7f3dd192871b9a0cc6a5d",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          19432,
+          315,
+          12098,
+          19171,
+          10341,
+          151645
+        ],
+        "text": "Review of Food Protection Committee",
+        "keep_hash": "0484ebfd2bf8d104b7036d690ae5f836ee3c3e7eed6186c5f5c109134fbcae6b",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.7714285714285715,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "reviewoffoodprotectioncommittee",
+      "complete_lexical_similarity_to_clean": 0.6222222222222222,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          19432,
+          315,
+          12098,
+          19171,
+          10341,
+          151645
+        ],
+        "text": "Review of Food Protection Committee",
+        "keep_hash": "0484ebfd2bf8d104b7036d690ae5f836ee3c3e7eed6186c5f5c109134fbcae6b",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 1,
+      "target_id": 9135,
+      "target_piece": " protection",
+      "candidate_id": 5425,
+      "candidate_piece": " prote",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 5.0625,
+      "content_priority": 1,
+      "fast_gradient_l1": 8113.31982421875,
+      "fast_gradient_l2": 23.212013244628906,
+      "estimated_fast_flip_linf": 0.0006239739230897975,
+      "full_clean_hard_min": 1.375,
+      "full_probe_hard_min": 1.25,
+      "full_local_capacity_linf": 0.043137254901960784,
+      "full_local_margin_available": true,
+      "reachability_ratio": 69.13310525599128,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "a13dbdbf234057038a196561c51c7f6c685a47bc44d7f3dd192871b9a0cc6a5d",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          13915,
+          5425,
+          66,
+          151645
+        ],
+        "text": "food protec",
+        "keep_hash": "f561f6c5362d2d9ed7cd36087332c9fc4dc2d493cb0f2211762f86dfa10cd931",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "foodprotec",
+      "complete_lexical_similarity_to_clean": 0.8333333333333334,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          13915,
+          5425,
+          66,
+          151645
+        ],
+        "text": "food protec",
+        "keep_hash": "f561f6c5362d2d9ed7cd36087332c9fc4dc2d493cb0f2211762f86dfa10cd931",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 1,
+      "target_id": 9135,
+      "target_piece": " protection",
+      "candidate_id": 6016,
+      "candidate_piece": " protect",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 5.5,
+      "content_priority": 1,
+      "fast_gradient_l1": 5531.84814453125,
+      "fast_gradient_l2": 14.55707836151123,
+      "estimated_fast_flip_linf": 0.0009942427659438311,
+      "full_clean_hard_min": 1.375,
+      "full_probe_hard_min": 1.125,
+      "full_local_capacity_linf": 0.021568627450980392,
+      "full_local_margin_available": true,
+      "reachability_ratio": 21.693522135416664,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "a13dbdbf234057038a196561c51c7f6c685a47bc44d7f3dd192871b9a0cc6a5d",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          13915,
+          6016,
+          151645
+        ],
+        "text": "food protect",
+        "keep_hash": "eaab552d6168e13e395c53a134e1d3c6da187ceb40115303c061bbf69e58291e",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "foodprotect",
+      "complete_lexical_similarity_to_clean": 0.88,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          13915,
+          6016,
+          151645
+        ],
+        "text": "food protect",
+        "keep_hash": "eaab552d6168e13e395c53a134e1d3c6da187ceb40115303c061bbf69e58291e",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 1,
+      "target_id": 9135,
+      "target_piece": " protection",
+      "candidate_id": 7149,
+      "candidate_piece": " safety",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 5.6875,
+      "content_priority": 1,
+      "fast_gradient_l1": 11430.240234375,
+      "fast_gradient_l2": 31.878475189208984,
+      "estimated_fast_flip_linf": 0.0004975835925911307,
+      "full_clean_hard_min": 1.375,
+      "full_probe_hard_min": 1.5,
+      "full_local_capacity_linf": 0.3568627450980392,
+      "full_local_margin_available": true,
+      "reachability_ratio": 717.191544117647,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "a13dbdbf234057038a196561c51c7f6c685a47bc44d7f3dd192871b9a0cc6a5d",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          13915,
+          7149,
+          9135,
+          151645
+        ],
+        "text": "food safety protection",
+        "keep_hash": "40529390a44a07974d1fb5c6c311c88da1561e066eb5420d4230bc181db09e4c",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "foodsafetyprotection",
+      "complete_lexical_similarity_to_clean": 0.8235294117647058,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          13915,
+          7149,
+          9135,
+          151645
+        ],
+        "text": "food safety protection",
+        "keep_hash": "40529390a44a07974d1fb5c6c311c88da1561e066eb5420d4230bc181db09e4c",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 12,
+    "screen_admitted_after_limit": 6,
+    "screen_rejected": 3,
+    "estimated": 6
+  },
+  "rejected_proposals": [
+    {
+      "position": 0,
+      "target_id": 13915,
+      "target_piece": "food",
+      "candidate_id": 41140,
+      "candidate_piece": "national",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 2.625,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          41140,
+          43345,
+          315,
+          35688,
+          151645
+        ],
+        "text": "national academy of sciences",
+        "keep_hash": "633348f657659c6233c32c6c7ca1f989b29232b86d380508c3ba02677c238ecf",
+        "k": 3699
+      },
+      "complete_lexical_key": "nationalacademyofsciences",
+      "complete_lexical_similarity_to_clean": 0.20512820512820512,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    },
+    {
+      "position": 0,
+      "target_id": 13915,
+      "target_piece": "food",
+      "candidate_id": 17229,
+      "candidate_piece": "THE",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 3.25,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          17229,
+          87127,
+          5308,
+          75703,
+          83230,
+          58979,
+          151645
+        ],
+        "text": "THE FOOD PROTECTION COMMITTEE",
+        "keep_hash": "254ecade0d915fb35d24afaa68256fdbf9ea5995600b7db83944e90bfcceb388",
+        "k": 3699
+      },
+      "complete_lexical_key": "thefoodprotectioncommittee",
+      "complete_lexical_similarity_to_clean": 0.7,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    },
+    {
+      "position": 0,
+      "target_id": 13915,
+      "target_piece": "food",
+      "candidate_id": 1782,
+      "candidate_piece": "the",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 3.75,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          1782,
+          3607,
+          9135,
+          12801,
+          151645
+        ],
+        "text": "the food protection committee",
+        "keep_hash": "4ceaeb212ccd70907cf40938155eb7d1cd76e5f7b4dddac68ad003b64c68fde7",
+        "k": 3699
+      },
+      "complete_lexical_key": "thefoodprotectioncommittee",
+      "complete_lexical_similarity_to_clean": 0.7,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    }
+  ],
+  "candidate_generation_wall_seconds": 80.796,
+  "candidate_generation_compute_accounting": "wall time recorded; attack-phase forward/backward/generate counters do not include this clean-only stage"
+}

@@ -1,0 +1,16 @@
+{
+  "sample_id": "47450",
+  "train_ratio": 0.25,
+  "gpu": "0",
+  "radii": [1, 2, 4, 6, 8],
+  "directions": ["CORE", "ALL"],
+  "s_core": [5, 6, 7, 8, 9],
+  "s_all": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "core_text": "William J. Darby",
+  "expected_keep_hash": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+  "expected_k": 3699,
+  "multi_step": false,
+  "full_fdp_in_scan": false,
+  "unseen": "NOT_OPENED",
+  "v20_v21_v21a_read_only": true
+}

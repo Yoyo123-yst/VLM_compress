@@ -1,0 +1,13 @@
+{
+  "sources": [
+    "week2_attack_v7_pristine60/run_clean_screen.py sets WRONG = 0.5 and eligible requires output_valid plus ANLS >= 0.5",
+    "week2_attack_v4_answer_aligned/loss.py output_valid is nonempty stripped text",
+    "week2_attack_v7d DEV_MANIFEST_COPY clean_full_pred is the frozen Full generate string"
+  ],
+  "full_baseline": "decoded Full generate text must equal the frozen clean_full_pred. A mismatch is FAIL_FULL_BASELINE_REPLAY.",
+  "validity": "output_valid(text)",
+  "clean_correctness": "ANLS >= 0.5 against the manifest answers. The numeric threshold is the frozen WRONG = 0.5.",
+  "not_executed": "The clean screen also requires FastV ANLS, FastV K, and the FastV hook hash. Those clauses are not run and are not replaced by a new threshold.",
+  "replay": "Reload the same PNG pages from disk and require the same token ids, the same text, and the same source-index hash.",
+  "samples": ["1025", "2008", "7006", "39204", "47450", "47567", "50779", "51133", "60700", "6194", "62941", "64506"]
+}

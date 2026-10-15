@@ -1,0 +1,19 @@
+{
+  "scan_roots": [
+    "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_pilot",
+    "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v2",
+    "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v3",
+    "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v3_quick",
+    "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v4_answer_aligned",
+    "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v4_relaxed_full"
+  ],
+  "n_unique": 280,
+  "union_sha256": "84095f32aafc1f76d93b2b11f7c418c4c055650afc9feb286dc2c8c6e97d1e29",
+  "covers_v4_dev": true,
+  "holdout_covered": 20,
+  "source_category_unique_ids": {
+    "adversarial_run": 73,
+    "oracle_inspection": 280,
+    "other": 6
+  }
+}

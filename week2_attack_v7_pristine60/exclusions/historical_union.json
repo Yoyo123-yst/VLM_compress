@@ -1,0 +1,4032 @@
+{
+  "n_unique": 320,
+  "v5_union_n": 280,
+  "v5_rescan_matches": true,
+  "extra_new_ids_by_root": {
+    "week2_attack_v5_pristine40": 0,
+    "week2_attack_v5b_expanded_pristine40": 40,
+    "week2_attack_v6_survivor_upgrade": 0,
+    "week2_attack_v6b_soft_full_anchor": 0,
+    "week2_attack_v6c_split_calibration": 0
+  },
+  "source": "v5 historical union plus later attack/health/probe/smoke/mechanism artifacts",
+  "samples": [
+    {
+      "sample_id": "255",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/255",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/255",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/255/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/255/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "359",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "360",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "396",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "637",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "892",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "1025",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/1025",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s0.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s0.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s0/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/keep_metrics_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/error_taxonomy_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_2x2_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "json:week2_attack_v6_survivor_upgrade/logs/health_1025.json",
+        "json:week2_attack_v6b_soft_full_anchor/logs/health_1025.json",
+        "csv:week2_attack_v6c_split_calibration/variant_b/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b/shard_s0/1025",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b/shard_s0/1025/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/smoke/B_25/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/smoke/B_25/1025",
+        "jsonl:week2_attack_v6c_split_calibration/smoke/B_25/1025/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/smoke/B_2/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/smoke/B_2/1025",
+        "jsonl:week2_attack_v6c_split_calibration/smoke/B_2/1025/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/smoke/C_25/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/smoke/C_25/1025",
+        "jsonl:week2_attack_v6c_split_calibration/smoke/C_25/1025/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/smoke/C_2/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/smoke/C_2/1025",
+        "jsonl:week2_attack_v6c_split_calibration/smoke/C_2/1025/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/development_comparison/paired_per_sample.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/1025",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/1025/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/variant_c/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_c/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_c/shard_s0/1025",
+        "jsonl:week2_attack_v6c_split_calibration/variant_c/shard_s0/1025/checkpoints.jsonl",
+        "hardcoded:v6b_v6c_health_probe_smoke"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "1164",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "1193",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "1695",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/1695",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/1695",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/1695/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/1695/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "1696",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "1834",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "1843",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "1891",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "1900",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/1900",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s1.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s1.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s1/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/1900",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/1900/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "2006",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "2008",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/2008",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s2.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s2.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s2/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/keep_metrics_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/error_taxonomy_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_2x2_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b/shard_s1/2008",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b/shard_s1/2008/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/development_comparison/paired_per_sample.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/2008",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/2008/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/variant_c/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_c/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_c/shard_s1/2008",
+        "jsonl:week2_attack_v6c_split_calibration/variant_c/shard_s1/2008/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "2215",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "4461",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "4524",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "4912",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s1.jsonl",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "artifact_dir:week2_attack_v4_answer_aligned/artifacts/4912",
+        "json:week2_attack_v4_answer_aligned/FROZEN.json",
+        "csv:week2_attack_v4_answer_aligned/results/smoke.csv",
+        "jsonl:week2_attack_v4_answer_aligned/results/checkpoints.jsonl",
+        "provenance:week2_attack_v4_answer_aligned/artifacts/4912/provenance.json",
+        "hardcoded:v4_dev_IDS",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/lambda025/4912",
+        "csv:week2_attack_v4_relaxed_full/runs/lambda025/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/lambda025/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/lambda025/4912/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/results/lambda025/per_sample.csv",
+        "csv:week2_attack_v4_relaxed_full/results/lambda025/checkpoints.csv",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json:excluded_dev",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "4917",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "4932",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/4932",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/4932",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/4932/provenance.json",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/4932/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "4969",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "5169",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v2/results/attack_v2.csv",
+        "csv:week2_attack_v2/results/lambda_sweep.csv",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s0.jsonl",
+        "artifact_dir:week2_attack_v4_answer_aligned/artifacts/5169",
+        "json:week2_attack_v4_answer_aligned/FROZEN.json",
+        "csv:week2_attack_v4_answer_aligned/results/smoke.csv",
+        "jsonl:week2_attack_v4_answer_aligned/results/checkpoints.jsonl",
+        "provenance:week2_attack_v4_answer_aligned/artifacts/5169/provenance.json",
+        "hardcoded:v4_dev_IDS",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/lambda025/5169",
+        "csv:week2_attack_v4_relaxed_full/runs/lambda025/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/lambda025/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/lambda025/5169/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/results/lambda025/per_sample.csv",
+        "csv:week2_attack_v4_relaxed_full/results/lambda025/checkpoints.csv",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json:excluded_dev",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "5170",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "5276",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s1.jsonl",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "5561",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "5667",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "5669",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "5675",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "6027",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s0.jsonl",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "6194",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/6194",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s3.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s3.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s3/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/keep_metrics_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/error_taxonomy_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_2x2_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "json:week2_attack_v6b_soft_full_anchor/logs/health_6194.json",
+        "csv:week2_attack_v6c_split_calibration/variant_b/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b/shard_s1/6194",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b/shard_s1/6194/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/development_comparison/paired_per_sample.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/6194",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/6194/checkpoints.jsonl",
+        "json:week2_attack_v6c_split_calibration/logs/health_6194.json",
+        "csv:week2_attack_v6c_split_calibration/variant_c/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_c/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_c/shard_s1/6194",
+        "jsonl:week2_attack_v6c_split_calibration/variant_c/shard_s1/6194/checkpoints.jsonl",
+        "hardcoded:v6b_v6c_health_probe_smoke"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "6351",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "6713",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/6713",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/6713",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/6713/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/6713/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "6855",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "6859",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "7006",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/7006",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s0.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s0.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s0/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/keep_metrics_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/error_taxonomy_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_2x2_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "json:week2_attack_v6b_soft_full_anchor/logs/health_7006.json",
+        "csv:week2_attack_v6c_split_calibration/variant_b/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b/shard_s0/7006",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b/shard_s0/7006/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/development_comparison/paired_per_sample.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/7006",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/7006/checkpoints.jsonl",
+        "json:week2_attack_v6c_split_calibration/logs/health_7006.json",
+        "csv:week2_attack_v6c_split_calibration/variant_c/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_c/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_c/shard_s0/7006",
+        "jsonl:week2_attack_v6c_split_calibration/variant_c/shard_s0/7006/checkpoints.jsonl",
+        "hardcoded:v6b_v6c_health_probe_smoke"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "7224",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "8047",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "8073",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "8119",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v2/results/attack_v2.csv",
+        "csv:week2_attack_v2/results/lambda_sweep.csv",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "jsonl:week2_attack_v3_quick/results/convergence.jsonl",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "8121",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "8128",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "9297",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "10269",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "11319",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "15277",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/15277",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s1.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s1.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s1/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/15277",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/15277/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "15321",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v2/results/attack_v2.csv",
+        "csv:week2_attack_v2/results/lambda_sweep.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "15383",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "16609",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "16981",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "16990",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "18512",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "18564",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "19243",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "25720",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "25736",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "26167",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "28306",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "32156",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/32156",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s2.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s2.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s2/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/32156",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/32156/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "32157",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s1.jsonl",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "32337",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "32348",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "32872",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "32886",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "32889",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "32998",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "33005",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "33923",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s0.jsonl",
+        "artifact_dir:week2_attack_v4_answer_aligned/artifacts/33923",
+        "json:week2_attack_v4_answer_aligned/FROZEN.json",
+        "csv:week2_attack_v4_answer_aligned/results/smoke.csv",
+        "jsonl:week2_attack_v4_answer_aligned/results/checkpoints.jsonl",
+        "provenance:week2_attack_v4_answer_aligned/artifacts/33923/provenance.json",
+        "hardcoded:v4_dev_IDS",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/lambda025/33923",
+        "jsonl:week2_attack_v4_relaxed_full/runs/lambda025/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/lambda025/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/lambda025/33923/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/results/lambda025/per_sample.csv",
+        "csv:week2_attack_v4_relaxed_full/results/lambda025/checkpoints.csv",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json:excluded_dev",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "34128",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "36591",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "36593",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "37246",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/37246",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/37246",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/37246/provenance.json",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/37246/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "37478",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "37484",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v2/results/attack_v2.csv",
+        "csv:week2_attack_v2/results/lambda_sweep.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "38941",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "38991",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "39012",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "39196",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/39196",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s3.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s3.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s3/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/39196",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/39196/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "39204",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/39204",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s0.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s0.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s0/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/keep_metrics_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/error_taxonomy_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_2x2_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b/shard_s1/39204",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b/shard_s1/39204/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/development_comparison/paired_per_sample.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/39204",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/39204/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/variant_c/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_c/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_c/shard_s1/39204",
+        "jsonl:week2_attack_v6c_split_calibration/variant_c/shard_s1/39204/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "39874",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "41693",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "42041",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "43070",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "43131",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "43222",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/43222",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/43222",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/43222/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/43222/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "43477",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "43600",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "44141",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "44811",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "45099",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "45669",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "45763",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "45769",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "45771",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "45773",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "45799",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "45800",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "46110",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "46496",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "46619",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "46631",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v2/results/attack_v2.csv",
+        "csv:week2_attack_v2/results/lambda_sweep.csv",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s0.jsonl",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/46631",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/46631",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/46631/provenance.json",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/46631/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "46667",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "46805",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "47368",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "47450",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/47450",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s1.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s1.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s1/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/keep_metrics_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/error_taxonomy_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_2x2_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b/shard_s0/47450",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b/shard_s0/47450/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/development_comparison/paired_per_sample.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/47450",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/47450/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/variant_c/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_c/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_c/shard_s0/47450",
+        "jsonl:week2_attack_v6c_split_calibration/variant_c/shard_s0/47450/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "47458",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "47496",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "47543",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "jsonl:week2_attack_v3_quick/results/convergence.jsonl",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "47559",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/47559",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s2.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s2.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s2/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/47559",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/47559/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "47561",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s1.jsonl",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "47567",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/47567",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s3.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s3.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s3/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/keep_metrics_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/error_taxonomy_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_2x2_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b/shard_s1/47567",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b/shard_s1/47567/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/development_comparison/paired_per_sample.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/47567",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/47567/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/variant_c/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_c/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_c/shard_s1/47567",
+        "jsonl:week2_attack_v6c_split_calibration/variant_c/shard_s1/47567/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "47740",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "47744",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "47825",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "47874",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "49055",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "49076",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/49076",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s0.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s0.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s0/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/49076",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/49076/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "49080",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "49124",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "49127",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "49172",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "49242",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s1.jsonl",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "artifact_dir:week2_attack_v4_answer_aligned/artifacts/49242",
+        "json:week2_attack_v4_answer_aligned/FROZEN.json",
+        "csv:week2_attack_v4_answer_aligned/results/smoke.csv",
+        "jsonl:week2_attack_v4_answer_aligned/results/checkpoints.jsonl",
+        "provenance:week2_attack_v4_answer_aligned/artifacts/49242/provenance.json",
+        "hardcoded:v4_dev_IDS",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/lambda025/49242",
+        "csv:week2_attack_v4_relaxed_full/runs/lambda025/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/lambda025/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/lambda025/49242/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/results/lambda025/per_sample.csv",
+        "csv:week2_attack_v4_relaxed_full/results/lambda025/checkpoints.csv",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json:excluded_dev",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "49376",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "49396",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "49404",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "49449",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "49465",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "49560",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v2/results/attack_v2.csv",
+        "csv:week2_attack_v2/results/lambda_sweep.csv",
+        "csv:week2_attack_v3/results/attack_v3.csv",
+        "jsonl:week2_attack_v3/results/convergence.jsonl",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50123",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50210",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/50210",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s1.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s1.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s1/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/50210",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/50210/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50260",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50274",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/50274",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s2.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s2.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s2/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/50274",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/50274/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50509",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50512",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/50512",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s3.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s3.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s3/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/50512",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/50512/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50516",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/50516",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/50516",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/50516/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/50516/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50743",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "jsonl:week2_attack_v3_quick/results/convergence.jsonl",
+        "artifact_dir:week2_attack_v4_answer_aligned/artifacts/50743",
+        "artifact_dir:week2_attack_v4_answer_aligned/artifacts/step2/50743",
+        "artifact_dir:week2_attack_v4_answer_aligned/artifacts/step5/50743",
+        "artifact_dir:week2_attack_v4_answer_aligned/artifacts/step25/50743",
+        "json:week2_attack_v4_answer_aligned/FROZEN.json",
+        "csv:week2_attack_v4_answer_aligned/results/smoke.csv",
+        "jsonl:week2_attack_v4_answer_aligned/results/grad_probe.jsonl",
+        "jsonl:week2_attack_v4_answer_aligned/results/checkpoints_step2.jsonl",
+        "csv:week2_attack_v4_answer_aligned/results/smoke_step25.csv",
+        "jsonl:week2_attack_v4_answer_aligned/results/grad_probe_badscale.jsonl",
+        "csv:week2_attack_v4_answer_aligned/results/smoke_step2.csv",
+        "jsonl:week2_attack_v4_answer_aligned/results/checkpoints_step5.jsonl",
+        "jsonl:week2_attack_v4_answer_aligned/results/checkpoints.jsonl",
+        "jsonl:week2_attack_v4_answer_aligned/results/checkpoints_step25.jsonl",
+        "csv:week2_attack_v4_answer_aligned/results/smoke_step5.csv",
+        "provenance:week2_attack_v4_answer_aligned/artifacts/step2/50743/provenance.json",
+        "provenance:week2_attack_v4_answer_aligned/artifacts/50743/provenance.json",
+        "provenance:week2_attack_v4_answer_aligned/artifacts/step5/50743/provenance.json",
+        "provenance:week2_attack_v4_answer_aligned/artifacts/step25/50743/provenance.json",
+        "hardcoded:v4_dev_IDS",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/smoke2/50743",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/lambda025/50743",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/smoke25/50743",
+        "jsonl:week2_attack_v4_relaxed_full/runs/smoke2/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/smoke2/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/smoke2/50743/provenance.json",
+        "jsonl:week2_attack_v4_relaxed_full/runs/lambda025/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/lambda025/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/lambda025/50743/provenance.json",
+        "jsonl:week2_attack_v4_relaxed_full/runs/smoke25/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/smoke25/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/smoke25/50743/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/results/lambda025/per_sample.csv",
+        "csv:week2_attack_v4_relaxed_full/results/lambda025/checkpoints.csv",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json:excluded_dev",
+        "v5_historical_union",
+        "artifact_dir:week2_attack_v5_pristine40/tests/smoke_25/50743",
+        "jsonl:week2_attack_v5_pristine40/tests/smoke_25/checkpoints.jsonl",
+        "json:week2_attack_v5_pristine40/tests/smoke_25/50743/provenance.json",
+        "artifact_dir:week2_attack_v5_pristine40/tests/smoke_2/50743",
+        "jsonl:week2_attack_v5_pristine40/tests/smoke_2/checkpoints.jsonl",
+        "json:week2_attack_v5_pristine40/tests/smoke_2/50743/provenance.json"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50752",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50768",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50779",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/50779",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s0.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s0.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s0/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/keep_metrics_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/error_taxonomy_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_2x2_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b/shard_s0/50779",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b/shard_s0/50779/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/development_comparison/paired_per_sample.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/50779",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/50779/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/variant_c/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_c/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_c/shard_s0/50779",
+        "jsonl:week2_attack_v6c_split_calibration/variant_c/shard_s0/50779/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50791",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50838",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50848",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50860",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50865",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50873",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/50873",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/50873",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/50873/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/50873/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "50962",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s0.jsonl",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "51133",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/51133",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s1.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s1.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s1/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/keep_metrics_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/error_taxonomy_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_2x2_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b/shard_s1/51133",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b/shard_s1/51133/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/development_comparison/paired_per_sample.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/51133",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/51133/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/variant_c/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_c/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_c/shard_s1/51133",
+        "jsonl:week2_attack_v6c_split_calibration/variant_c/shard_s1/51133/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "51160",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "51232",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "51484",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/51484",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/51484",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/51484/provenance.json",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/51484/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "51543",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "51617",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "51683",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "51715",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "51717",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/51717",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/51717",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/51717/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/51717/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "51741",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "51818",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "52243",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "52248",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/52248",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s2.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s2.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s2/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/52248",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/52248/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "52300",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "52387",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/52387",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s3.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s3.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s3/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/52387",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/52387/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "52463",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "52467",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "52522",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v2/results/attack_v2.csv",
+        "csv:week2_attack_v2/results/lambda_sweep.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "52608",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "53515",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/53515",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s0.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s0.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s0/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/53515",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/53515/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "53538",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "53990",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "54168",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "54193",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "55085",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "55096",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "55100",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s1.jsonl",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "55109",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "55117",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "55281",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "55407",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/55407",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s1.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s1.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s1/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/55407",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/55407/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56034",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v2/results/attack_v2.csv",
+        "csv:week2_attack_v2/results/lambda_sweep.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/56034",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/56034",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/56034/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/56034/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56077",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56081",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56365",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56386",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56387",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56407",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56408",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56467",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56528",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56547",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56552",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56579",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56776",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s1.jsonl",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "artifact_dir:week2_attack_v4_answer_aligned/artifacts/56776",
+        "json:week2_attack_v4_answer_aligned/FROZEN.json",
+        "csv:week2_attack_v4_answer_aligned/results/smoke.csv",
+        "jsonl:week2_attack_v4_answer_aligned/results/checkpoints.jsonl",
+        "provenance:week2_attack_v4_answer_aligned/artifacts/56776/provenance.json",
+        "hardcoded:v4_dev_IDS",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/lambda025/56776",
+        "jsonl:week2_attack_v4_relaxed_full/runs/lambda025/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/lambda025/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/lambda025/56776/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/results/lambda025/per_sample.csv",
+        "csv:week2_attack_v4_relaxed_full/results/lambda025/checkpoints.csv",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json:excluded_dev",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56788",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56833",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/56833",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/56833",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/56833/provenance.json",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/56833/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56850",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/56850",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/56850",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/56850/provenance.json",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/56850/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56908",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "56951",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/56951",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s2.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s2.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s2/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/56951",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/56951/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57087",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57163",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57242",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57246",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57250",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/57250",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/57250",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/57250/provenance.json",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/57250/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57252",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57256",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57304",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57315",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57318",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57370",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v2/results/smoke.csv",
+        "csv:week2_attack_v2/results/attack_v2.csv",
+        "csv:week2_attack_v2/results/lambda_sweep.csv",
+        "csv:week2_attack_v3/results/smoke.csv",
+        "csv:week2_attack_v3/results/attack_v3.csv",
+        "csv:week2_attack_v3/results/oracle_r035.csv",
+        "jsonl:week2_attack_v3/results/convergence.jsonl",
+        "jsonl:week2_attack_v3/results/smoke_curve.jsonl",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57404",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57413",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57418",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/57418",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/57418",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/57418/provenance.json",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/57418/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57449",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57452",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57475",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57805",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57817",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57827",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57884",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57975",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "57978",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58009",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58021",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58056",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58108",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58289",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58330",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/58330",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s3.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s3.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s3/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/58330",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/58330/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58346",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/58346",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s0.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s0.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s0/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/58346",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/58346/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58387",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58441",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58451",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58454",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58507",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58530",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58544",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58545",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58547",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/58547",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s1.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s1.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s1/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/58547",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/58547/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58660",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58685",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58726",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58813",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58826",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "58893",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59265",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59308",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/59308",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s2.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s2.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s2/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/59308",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/59308/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59353",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59410",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59423",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v2/results/attack_v2.csv",
+        "csv:week2_attack_v2/results/lambda_sweep.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59441",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59471",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/59471",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s3.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s3.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s3/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/59471",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/59471/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59496",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59600",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59628",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s1.jsonl",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/59628",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/59628",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/59628/provenance.json",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/59628/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59681",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59799",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59804",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59915",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59979",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v2/results/attack_v2.csv",
+        "csv:week2_attack_v2/results/lambda_sweep.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "59991",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/59991",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s0.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s0.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s0/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/59991",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/59991/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "60404",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "60500",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/60500",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s1.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s1.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s1/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/60500",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/60500/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "60503",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "60598",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "60696",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/60696",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s2.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s2.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s2/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/60696",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/60696/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "60700",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/60700",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s3.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s3.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s3/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/keep_metrics_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/error_taxonomy_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_2x2_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b/shard_s0/60700",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b/shard_s0/60700/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/development_comparison/paired_per_sample.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/60700",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/60700/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/variant_c/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_c/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_c/shard_s0/60700",
+        "jsonl:week2_attack_v6c_split_calibration/variant_c/shard_s0/60700/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "60701",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s0.jsonl",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "60743",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "60746",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "60748",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/60748",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s0.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s0.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s0/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/60748",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/60748/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "60861",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "60877",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "60928",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/60928",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s1.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s1.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s1/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/60928",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/60928/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "61159",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s0.jsonl",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "61236",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "61299",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "61389",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "61639",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "61648",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "62110",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "62318",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "62324",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "62401",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "62473",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "62524",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/62524",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s2.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s2.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s2/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/62524",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/62524/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "62645",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "62649",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/62649",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s3.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s3.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s3/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/62649",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/62649/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "62798",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "62799",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "62802",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s0/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/62802",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s0.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s0.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s0/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/62802",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s0/62802/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "62827",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "62923",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s0.jsonl",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "62941",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s1/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/62941",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s1.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s1.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s1/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/keep_metrics_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/error_taxonomy_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_2x2_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b/shard_s0/62941",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b/shard_s0/62941/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/development_comparison/paired_per_sample.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/62941",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s1/62941/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/variant_c/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_c/shard_s0/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_c/shard_s0/62941",
+        "jsonl:week2_attack_v6c_split_calibration/variant_c/shard_s0/62941/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "62951",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "63118",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/63118",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/63118",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/63118/provenance.json",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s0.jsonl",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s0.csv",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/63118/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "63181",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "63293",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "63494",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "63533",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "63569",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "63711",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "63754",
+      "sources": [
+        "csv:week2_pilot/results/attack_pilot.csv",
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "63816",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/63816",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/63816",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/63816/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/63816/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "63876",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "64172",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "64192",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "64271",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "64273",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "64278",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "64506",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s2/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/64506",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s2.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s2.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s2/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/keep_metrics_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/error_taxonomy_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_2x2_dev12.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b/shard_s1/64506",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b/shard_s1/64506/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/development_comparison/paired_per_sample.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/64506",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s2/64506/checkpoints.jsonl",
+        "csv:week2_attack_v6c_split_calibration/variant_c/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_c/shard_s1/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_c/shard_s1/64506",
+        "jsonl:week2_attack_v6c_split_calibration/variant_c/shard_s1/64506/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "64545",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "64588",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "64636",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "64831",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "64927",
+      "sources": [
+        "json:week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+        "csv:week2_attack_v5b_expanded_pristine40/frozen_manifest.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/samples.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/attacks/shard_s3/checkpoints.jsonl",
+        "artifact_dir:week2_attack_v5b_expanded_pristine40/attacks/artifacts/64927",
+        "csv:week2_attack_v5b_expanded_pristine40/results/min_margin.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/random_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/oracle_diagnostic.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/results/fixed_step200.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/analysis/paired_attack_vs_noise.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/keep_set_metrics.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_sample_mechanism.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/error_taxonomy.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/per_cell.csv",
+        "jsonl:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/keeps_s3.jsonl",
+        "csv:week2_attack_v5b_expanded_pristine40/mechanism_audit_v1/shards/cells_s3.csv",
+        "csv:week2_attack_v5b_expanded_pristine40/random_control/shard_s3/noise.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_selector.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/candidate_table.csv",
+        "csv:week2_attack_v6_survivor_upgrade/variant_a_audit/per_sample_selector.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/selector/selected.csv",
+        "csv:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/samples.csv",
+        "artifact_dir:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/64927",
+        "jsonl:week2_attack_v6c_split_calibration/variant_b_full40/shard_s3/64927/checkpoints.jsonl"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "64999",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda025/64999",
+        "artifact_dir:week2_attack_v4_relaxed_full/runs/holdout_lambda1/64999",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda025/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda025/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda025/64999/provenance.json",
+        "csv:week2_attack_v4_relaxed_full/runs/holdout_lambda1/shard_s1.csv",
+        "jsonl:week2_attack_v4_relaxed_full/runs/holdout_lambda1/checkpoints_s1.jsonl",
+        "provenance:week2_attack_v4_relaxed_full/runs/holdout_lambda1/64999/provenance.json",
+        "json:week2_attack_v4_relaxed_full/holdout/frozen_manifest.json",
+        "csv:week2_attack_v4_relaxed_full/holdout/frozen_manifest.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "65010",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "65024",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "65057",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "65066",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    },
+    {
+      "sample_id": "65331",
+      "sources": [
+        "csv:week2_pilot/results/oracle_hijack_r050.csv",
+        "csv:week2_attack_v2/results/attack_v2.csv",
+        "csv:week2_attack_v2/results/lambda_sweep.csv",
+        "jsonl:week2_attack_v3_quick/results/curve_s1.jsonl",
+        "csv:week2_attack_v3_quick/results/attack_v3_quick.csv",
+        "v5_historical_union"
+      ],
+      "reason": "historically_attacked_or_inspected"
+    }
+  ],
+  "union_sha256": "207a671a0ade27d0cd85eb6d0c6e02f9f5062476ae9b510b117aa48ade81277a"
+}

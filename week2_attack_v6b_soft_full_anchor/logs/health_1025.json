@@ -1,0 +1,33 @@
+{
+  "sample_id": "1025",
+  "answer_len_with_eos": 8,
+  "ends_with_eos": true,
+  "k": 2774,
+  "k_generate": 2774,
+  "keep_match": true,
+  "clean_full_match": true,
+  "clean_fastv_match": true,
+  "uint8_reload_full_match": true,
+  "uint8_reload_fastv_match": true,
+  "uint8_reload_linf": 0.0,
+  "output_valid": true,
+  "fastv_score_max_abs_diff": 0.0,
+  "aux_grad_comp": 9.532242774963379,
+  "aux_grad_soft": 4.650271892547607,
+  "aux_grad_sel": 0.0,
+  "losses_finite": true,
+  "grads_finite": true,
+  "soft_anchor_nonzero": true,
+  "evidence_pixel_grad_l2": 0.0,
+  "clean_margin": [
+    3.4375,
+    3.0,
+    4.75,
+    4.75,
+    1.75,
+    1.125,
+    2.875,
+    8.125
+  ],
+  "health_pass": true
+}

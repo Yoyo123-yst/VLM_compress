@@ -1,0 +1,26 @@
+{
+  "status": "STATE_GATE_NO_ADDED_ENDPOINT",
+  "sample_id": "60700",
+  "branch": "AWARE BS -> SB",
+  "held_budget": 0.25,
+  "scheduled_budget": 0.35,
+  "accepted_updates": 0,
+  "attempted_updates": 15,
+  "png_unchanged": true,
+  "png_sha256": "9fa86ee802bd22064f6503ceed9b512b5fd0464022da66be3df73d3189f0a367",
+  "fresh_replay": {
+    "match": true,
+    "full": "PPBS",
+    "fast_0.25": "PPSB",
+    "fast_0.35": "PPBS"
+  },
+  "checkpoint_natural_endpoint_failure": {
+    "0.15": false,
+    "0.25": true,
+    "0.35": false,
+    "0.50": false
+  },
+  "first_rejected_step": "r=0.35 branch step moved the r=0.25 pair gap from -0.125 to 2.5 while Full stayed PPBS; the hold guard rolled it back",
+  "sample_expansion": "NOT_RUN",
+  "next": "Do not continue cross-budget scheduling or expand samples. The finished r=0.25 branch and the unfinished r=0.35 branch conflict on the first accepted-pixel test."
+}

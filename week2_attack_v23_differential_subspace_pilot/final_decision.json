@@ -1,0 +1,10 @@
+{
+  "status": "NO_GO_DIFFERENTIAL_SUBSPACE_PILOT",
+  "samples": ["47450", "60700", "7006", "39204"],
+  "ratio": 0.25,
+  "directions": ["RAW", "NATIVE", "DIFF", "RANDOM"],
+  "radii_uint8": [1, 2, 4, 8],
+  "multistep_started": false,
+  "unseen_started": false,
+  "reason": "DIFF did not beat RAW/NATIVE on a fixed Full-safe endpoint and did not produce a confirmed content failure; several DIFF/RAW radii failed Full exact."
+}

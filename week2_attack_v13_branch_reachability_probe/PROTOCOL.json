@@ -1,0 +1,23 @@
+{
+  "status": "CONSTRUCTION_PROBE_NOT_METHOD_RESULT",
+  "tag": "construct_v1r1",
+  "samples": [
+    "60700"
+  ],
+  "ratio": 0.25,
+  "steps": 25,
+  "epsilon_uint8": 8,
+  "max_candidates_per_sample": 3,
+  "variants": {
+    "SEQ": "fixed whole clean FastV sequence plus Native-FDP",
+    "NAIVE": "same candidate pool; choose minimum estimated FastV flip radius",
+    "AWARE": "same candidate pool; choose maximum Full local capacity divided by FastV flip radius"
+  },
+  "candidate_filter": "lexical content tokens only; excludes special tokens, punctuation-only pieces, and EOS; no labels",
+  "continuation": "forced continuation is screening diagnostic only and cannot be an endpoint",
+  "full_capacity": "one-sided local cache-margin estimate along negative FastV pair-gradient sign; unavailable if any clean Full cache margin is nonpositive",
+  "endpoint": "unforced saved/reloaded PNG must yield Full text/token exact and replay plus valid FastV ANLS<0.5",
+  "selector_uses_answer_labels": false,
+  "equality": "same r=0.25, epsilon, Adam, lambda_full, Full guard, update count, and checkpoint schedule across three variants; screening compute is logged separately",
+  "stop_condition": "If either clean gate or branch-admission fails, record BLOCKED and do not invent a substitute candidate."
+}

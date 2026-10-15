@@ -1,0 +1,33 @@
+{
+  "status": "NO_GO_BRANCH_SELECTION_AND_CROSS_BUDGET",
+  "scope": "single development sample 60700; target-internal white-box; no unseen",
+  "branch_construction": "SUPPORTED",
+  "aware_selector_advantage": "NOT_ESTABLISHED",
+  "freeze_causal_check": {
+    "status": "RECOVERY_REMOVED",
+    "freeze_state_step": 11,
+    "fixed_pair_gap": -0.25,
+    "full_exact": true,
+    "step25_fast_text": "PPSB",
+    "step25_fast_anls": 0.0,
+    "fresh_replay_step11": true,
+    "fresh_replay_step25": true,
+    "png_sha256": "9fa86ee802bd22064f6503ceed9b512b5fd0464022da66be3df73d3189f0a367"
+  },
+  "selector_comparison": {
+    "SEQ_first_strict_step": 10,
+    "NAIVE_first_strict_step": 10,
+    "AWARE_first_strict_step": 15,
+    "aware_recovery_at_step25": true
+  },
+  "cross_budget": {
+    "status": "STATE_GATE_NO_ADDED_ENDPOINT",
+    "held_ratio": 0.25,
+    "scheduled_ratio": 0.35,
+    "attempted_updates": 15,
+    "accepted_updates": 0,
+    "new_ratio035_endpoint": false,
+    "sample_expansion": "NOT_RUN"
+  },
+  "next": "Stop this branch-selection and cross-budget innovation route; do not expand samples."
+}

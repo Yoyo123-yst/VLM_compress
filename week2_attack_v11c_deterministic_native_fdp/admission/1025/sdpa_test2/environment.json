@@ -1,0 +1,17 @@
+{
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "platform": "Linux-5.15.0-185-generic-x86_64-with-glibc2.35",
+  "torch": "2.6.0+cu124",
+  "cuda": "12.4",
+  "cuda_visible_devices": "0",
+  "gpu_name": "NVIDIA A100-PCIE-40GB",
+  "gpu_id": 0,
+  "attn_implementation": "sdpa",
+  "deterministic_resize": "1",
+  "cublas_workspace": ":4096:8",
+  "deterministic_algorithms": true,
+  "cudnn_deterministic": true,
+  "cudnn_benchmark": false,
+  "matmul_tf32": false,
+  "cudnn_tf32": false
+}

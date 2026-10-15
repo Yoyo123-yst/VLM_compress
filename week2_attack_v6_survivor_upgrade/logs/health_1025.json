@@ -1,0 +1,21 @@
+{
+  "sample_id": "1025",
+  "answer_len_with_eos": 8,
+  "ends_with_eos": true,
+  "k": 2774,
+  "clean_full_match": true,
+  "clean_fastv_match": true,
+  "pred_full": "Dr. C. Baur MD",
+  "pred_fastv": "Dr. C. Baur",
+  "output_valid": true,
+  "keep_match_len": true,
+  "fastv_score_max_abs_diff": 0.0,
+  "aux_grad_comp": 9.458656311035156,
+  "aux_grad_seq": 0.0,
+  "aux_grad_sel": 0.0,
+  "losses_finite": true,
+  "grads_finite": true,
+  "evidence_pixel_grad_l2": 0.0,
+  "aux_embed_grad_l2": 810070.625,
+  "uint8_reload_linf": 0.0
+}

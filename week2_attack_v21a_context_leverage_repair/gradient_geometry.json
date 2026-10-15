@@ -1,0 +1,77 @@
+{
+  "losses": {
+    "g_core": 6.058230876922607,
+    "g_context": 2.370192766189575,
+    "g_all": 4.214211940765381
+  },
+  "fdp_loss": 0.6855561137199402,
+  "lambda_full": 2.6371882367154997,
+  "grads": {
+    "g_core": {
+      "hash": "ee415200ee139c609cdea195e787929ee6b32312fa68897fda3a0a2c500f3a44",
+      "l1": 7367.099609375,
+      "l2": 24.022838592529297,
+      "linf": 2.0790252685546875,
+      "finite": true
+    },
+    "g_context": {
+      "hash": "eb1cd01ef87245270772f7fd1dc02f9c1d537d64e2d8b79f3a16c845fd0881c0",
+      "l1": 9338.349609375,
+      "l2": 48.292362213134766,
+      "linf": 6.905284881591797,
+      "finite": true
+    },
+    "g_all": {
+      "hash": "87ea0860cbc1c88cc312fb2a1d531785f964f59bd4eafdb704a689f4f4842da8",
+      "l1": 7211.10205078125,
+      "l2": 31.981101989746094,
+      "linf": 4.43747615814209,
+      "finite": true
+    },
+    "g_fdp": {
+      "hash": "fe0791ffdf41b3da76ef5d658b8931938438a70fecc145877c9f5adffd7e902f",
+      "l1": 3582.021240234375,
+      "l2": 11.586869239807129,
+      "linf": 0.8253631591796875,
+      "finite": true
+    }
+  },
+  "pairs": {
+    "g_core__g_context": {
+      "cosine": 0.534563422203064,
+      "element_agreement": 0.61570143699646,
+      "element_conflict": 0.38429856300354004,
+      "pixel_conflict": 0.3514406085014343
+    },
+    "g_core__g_all": {
+      "cosine": 0.7713748812675476,
+      "element_agreement": 0.8122507929801941,
+      "element_conflict": 0.1877492070198059,
+      "pixel_conflict": 0.12451960146427155
+    },
+    "g_core__g_fdp": {
+      "cosine": -0.3480093777179718,
+      "element_agreement": 0.368268758058548,
+      "element_conflict": 0.631731241941452,
+      "pixel_conflict": 0.6653150916099548
+    },
+    "g_context__g_all": {
+      "cosine": 0.9500100612640381,
+      "element_agreement": 0.8037936091423035,
+      "element_conflict": 0.19620639085769653,
+      "pixel_conflict": 0.1337088644504547
+    },
+    "g_context__g_fdp": {
+      "cosine": -0.06746935099363327,
+      "element_agreement": 0.4823762774467468,
+      "element_conflict": 0.5176237225532532,
+      "pixel_conflict": 0.5239993333816528
+    },
+    "g_all__g_fdp": {
+      "cosine": -0.17323096096515656,
+      "element_agreement": 0.40349510312080383,
+      "element_conflict": 0.5965048968791962,
+      "pixel_conflict": 0.6214954257011414
+    }
+  }
+}

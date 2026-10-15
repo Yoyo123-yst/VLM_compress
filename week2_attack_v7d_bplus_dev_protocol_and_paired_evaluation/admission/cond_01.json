@@ -1,0 +1,97 @@
+{
+  "index": 1,
+  "sample_id": "60744",
+  "image_kind": "clean",
+  "ratio": 0.25,
+  "full_argmax_match": true,
+  "full_text": "Simon Fraser University",
+  "fast_argmax_match": true,
+  "fast_text": "SIMON FRASER UNIVERSITY",
+  "k": 2774,
+  "keep_hash": "d67930a7189bb128d142e86154361a21789457df28ae05b3a36fa743225b2adf",
+  "termination": "EOS_GENERATED",
+  "appended_eos": false,
+  "steps": [
+    {
+      "step": 0,
+      "cache_len_layer0": 11125,
+      "cache_len_layer3": 2802,
+      "position_id": 11124,
+      "token_id": 46616,
+      "argmax": 46616,
+      "soft_margin": -0.5990219116210938
+    },
+    {
+      "step": 1,
+      "cache_len_layer0": 11126,
+      "cache_len_layer3": 2803,
+      "position_id": 11125,
+      "token_id": 711,
+      "argmax": 711,
+      "soft_margin": 4.772043228149414
+    },
+    {
+      "step": 2,
+      "cache_len_layer0": 11127,
+      "cache_len_layer3": 2804,
+      "position_id": 11126,
+      "token_id": 16654,
+      "argmax": 16654,
+      "soft_margin": 2.9037113189697266
+    },
+    {
+      "step": 3,
+      "cache_len_layer0": 11128,
+      "cache_len_layer3": 2805,
+      "position_id": 11127,
+      "token_id": 1911,
+      "argmax": 1911,
+      "soft_margin": 6.252347946166992
+    },
+    {
+      "step": 4,
+      "cache_len_layer0": 11129,
+      "cache_len_layer3": 2806,
+      "position_id": 11128,
+      "token_id": 640,
+      "argmax": 640,
+      "soft_margin": 7.942268371582031
+    },
+    {
+      "step": 5,
+      "cache_len_layer0": 11130,
+      "cache_len_layer3": 2807,
+      "position_id": 11129,
+      "token_id": 81273,
+      "argmax": 81273,
+      "soft_margin": 3.2500267028808594
+    },
+    {
+      "step": 6,
+      "cache_len_layer0": 11131,
+      "cache_len_layer3": 2808,
+      "position_id": 11130,
+      "token_id": 151645,
+      "argmax": 151645,
+      "soft_margin": 6.3303680419921875
+    }
+  ],
+  "grad_l2": {
+    "full_soft": 98.75971221923828,
+    "fast_0.25": 30.51408576965332,
+    "fast_0.35": 44.92569351196289,
+    "fdp": 74.35015106201172,
+    "conditional_gap": 71.0926742553711
+  },
+  "per_token_aux_grad_l2": [
+    86.70645141601562,
+    40.4099006652832,
+    169.17759704589844,
+    282.6622009277344,
+    16.75014877319336,
+    47.54298400878906,
+    84.88374328613281
+  ],
+  "evidence_grad_l2": 0.0,
+  "pass": true
+}

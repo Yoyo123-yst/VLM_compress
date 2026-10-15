@@ -1,0 +1,18 @@
+{
+  "stage": "A",
+  "health": "PASS",
+  "completed_samples": 6,
+  "invalid_outputs": 0,
+  "replay_pass": 6,
+  "decision": "STAGE_A_PASS",
+  "evidence": [
+    "50743:content",
+    "4912:unexplained",
+    "56776:unexplained",
+    "49242:unexplained",
+    "33923:content",
+    "5169:content"
+  ],
+  "next_action": "run lambda_full=0.25",
+  "next_command": "run_lambda.py --lambda-full 0.25 --steps 2 --ids 50743 --tag smoke2"
+}

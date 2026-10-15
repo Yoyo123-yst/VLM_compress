@@ -1,0 +1,223 @@
+{
+  "scope": "5-sample development post-hoc control",
+  "token_exact_scope": "pre-seal token exact + target-side text exact",
+  "decision": "GRAYBOX_CONTROL_NOT_SUPPORTED",
+  "coverage": "4/5",
+  "overall_attack_strict": {
+    "0.15": "1/5",
+    "0.25": "1/5",
+    "0.35": "0/5",
+    "0.50": "0/5"
+  },
+  "conditional_sealed_strict": {
+    "0.15": "1/4",
+    "0.25": "1/4",
+    "0.35": "0/4",
+    "0.50": "0/4"
+  },
+  "per_ratio": {
+    "0.15": {
+      "clean_strict": "1/5",
+      "attack_strict": "1/5",
+      "random_strict": "1/5",
+      "attack_minus_clean_anls": [
+        {
+          "sample_id": "1025",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "2008",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "7006",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "47450",
+          "delta": -0.07999999999999996
+        }
+      ],
+      "attack_minus_random_anls": [
+        {
+          "sample_id": "1025",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "2008",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "7006",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "47450",
+          "delta": -0.07999999999999996
+        }
+      ],
+      "induced_failure_ids": [],
+      "induced_failure_count": 0,
+      "induced_unmeasured": [
+        "39204"
+      ]
+    },
+    "0.25": {
+      "clean_strict": "0/5",
+      "attack_strict": "1/5",
+      "random_strict": "1/5",
+      "attack_minus_clean_anls": [
+        {
+          "sample_id": "1025",
+          "delta": -0.6666666666666667
+        },
+        {
+          "sample_id": "2008",
+          "delta": 0.19999999999999996
+        },
+        {
+          "sample_id": "7006",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "47450",
+          "delta": 0.0
+        }
+      ],
+      "attack_minus_random_anls": [
+        {
+          "sample_id": "1025",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "2008",
+          "delta": 0.19999999999999996
+        },
+        {
+          "sample_id": "7006",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "47450",
+          "delta": 0.0
+        }
+      ],
+      "induced_failure_ids": [
+        "1025"
+      ],
+      "induced_failure_count": 1,
+      "induced_unmeasured": [
+        "39204"
+      ]
+    },
+    "0.35": {
+      "clean_strict": "0/5",
+      "attack_strict": "0/5",
+      "random_strict": "0/5",
+      "attack_minus_clean_anls": [
+        {
+          "sample_id": "1025",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "2008",
+          "delta": 0.19999999999999996
+        },
+        {
+          "sample_id": "7006",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "47450",
+          "delta": 0.0
+        }
+      ],
+      "attack_minus_random_anls": [
+        {
+          "sample_id": "1025",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "2008",
+          "delta": 0.19999999999999996
+        },
+        {
+          "sample_id": "7006",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "47450",
+          "delta": 0.0
+        }
+      ],
+      "induced_failure_ids": [],
+      "induced_failure_count": 0,
+      "induced_unmeasured": [
+        "39204"
+      ]
+    },
+    "0.50": {
+      "clean_strict": "0/5",
+      "attack_strict": "0/5",
+      "random_strict": "0/5",
+      "attack_minus_clean_anls": [
+        {
+          "sample_id": "1025",
+          "delta": 0.16666666666666663
+        },
+        {
+          "sample_id": "2008",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "7006",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "47450",
+          "delta": 0.0
+        }
+      ],
+      "attack_minus_random_anls": [
+        {
+          "sample_id": "1025",
+          "delta": 0.16666666666666663
+        },
+        {
+          "sample_id": "2008",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "7006",
+          "delta": 0.0
+        },
+        {
+          "sample_id": "47450",
+          "delta": 0.0
+        }
+      ],
+      "induced_failure_ids": [],
+      "induced_failure_count": 0,
+      "induced_unmeasured": [
+        "39204"
+      ]
+    }
+  },
+  "sample_1025": {
+    "r025": {
+      "clean_text": "Dr. C. Baur",
+      "clean_anls": 0.6666666666666667,
+      "attack_text": "Dr. Bacharach",
+      "attack_anls": 0.0,
+      "induced": true,
+      "full_exact": true,
+      "replay": true,
+      "random_anls": 0.0,
+      "random_text": "Dr. Bacharach"
+    },
+    "r015_induced_failure": false,
+    "r015_rule": "induced only if clean r=0.15 ANLS>=0.5 and attack r=0.15 ANLS<0.5"
+  },
+  "fastv_access_count": 104,
+  "full_calls": 26
+}

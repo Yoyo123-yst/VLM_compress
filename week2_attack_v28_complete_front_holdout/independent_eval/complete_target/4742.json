@@ -1,0 +1,27 @@
+{
+  "status": "EVALUATED_INDEPENDENT_PROCESS",
+  "sample_id": "4742",
+  "method": "complete_target",
+  "independent_process": true,
+  "png_path": "week2_attack_v28_complete_front_holdout/attacks/complete_target/4742/accepted_013.png",
+  "png_sha256": "6f4986b2958708c22fd1a86af459bf78db995ecab9d2c6a322380733233255ad",
+  "uint8_linf": 8,
+  "clean_full_text": "Marehead Ky",
+  "full_text": "Marehead Ky",
+  "full_text_exact": true,
+  "full_token_exact": true,
+  "same_evaluator_process_repeat_exact": true,
+  "fastv_text": "Marehead Ky",
+  "fastv_anls": 0.9090909090909091,
+  "fastv_valid": true,
+  "k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "668e860b47ae88a44b758fe8c8568e912121f1e7a9f4ce805f0de50bc9a1d4e8",
+  "dataset_answers": [
+    "Morehead, Ky"
+  ],
+  "target_text": "Marshall, KY",
+  "target_hit_normalized_exact": false,
+  "content_status": "PENDING_QUESTION_SPECIFIC_REVIEW",
+  "semantic_review_required": true
+}

@@ -1,0 +1,247 @@
+{
+  "status": "GRAYBOX_TRANSFER_EVALUATED",
+  "rows": [
+    {
+      "sample_id": "1025",
+      "evaluated": true,
+      "clean_full_text": "Dr. C. Baur MD",
+      "clean_full_tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        4110,
+        13979,
+        151645
+      ],
+      "attacked_full_text": "Dr. C. Baur MD",
+      "full_exact": true,
+      "valid": true,
+      "replay": true,
+      "nonzero": true,
+      "linf": 0.03137257695198059,
+      "png_sha256": "60e2e48a9b255721bd7ab78b18bc05fc6cd4f5aed6a1c5a6b7a67293988b4daa",
+      "fastv": {
+        "0.15": {
+          "text": "TAKEDA",
+          "anls": 0.0,
+          "valid": true,
+          "k": 1665
+        },
+        "0.25": {
+          "text": "Dr. Bacharach",
+          "anls": 0.0,
+          "valid": true,
+          "k": 2774
+        },
+        "0.35": {
+          "text": "Dr. C. B. M. D.",
+          "anls": 0.75,
+          "valid": true,
+          "k": 3884
+        },
+        "0.50": {
+          "text": "Dr. C. Baur MD",
+          "anls": 0.9166666666666666,
+          "valid": true,
+          "k": 5548
+        }
+      },
+      "strict": {
+        "0.15": true,
+        "0.25": true,
+        "0.35": false,
+        "0.50": false
+      },
+      "target_access_count": 8
+    },
+    {
+      "sample_id": "2008",
+      "evaluated": true,
+      "clean_full_text": "March 1968",
+      "clean_full_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        23,
+        151645
+      ],
+      "attacked_full_text": "March 1968",
+      "full_exact": true,
+      "valid": true,
+      "replay": true,
+      "nonzero": true,
+      "linf": 0.03137257695198059,
+      "png_sha256": "6f8070150d450656ec4b123b60ede8b59b6b3fdca34d36290bba0d92cf811a9b",
+      "fastv": {
+        "0.15": {
+          "text": "March 1956",
+          "anls": 0.8,
+          "valid": true,
+          "k": 1110
+        },
+        "0.25": {
+          "text": "March 1968",
+          "anls": 1.0,
+          "valid": true,
+          "k": 1850
+        },
+        "0.35": {
+          "text": "March 1968",
+          "anls": 1.0,
+          "valid": true,
+          "k": 2589
+        },
+        "0.50": {
+          "text": "March 1968",
+          "anls": 1.0,
+          "valid": true,
+          "k": 3699
+        }
+      },
+      "strict": {
+        "0.15": false,
+        "0.25": false,
+        "0.35": false,
+        "0.50": false
+      },
+      "target_access_count": 8
+    },
+    {
+      "sample_id": "7006",
+      "evaluated": true,
+      "clean_full_text": "RJ Reynolds Tobacco Company",
+      "clean_full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "attacked_full_text": "RJ Reynolds Tobacco Company",
+      "full_exact": true,
+      "valid": true,
+      "replay": true,
+      "nonzero": true,
+      "linf": 0.03137257695198059,
+      "png_sha256": "1af6a0f9581600d4c8f073024a764cb68f8007451ea607f58adeaab8fce5167e",
+      "fastv": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "anls": 0.962962962962963,
+          "valid": true,
+          "k": 2219
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "anls": 0.962962962962963,
+          "valid": true,
+          "k": 3699
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "anls": 0.962962962962963,
+          "valid": true,
+          "k": 5179
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "anls": 0.962962962962963,
+          "valid": true,
+          "k": 7398
+        }
+      },
+      "strict": {
+        "0.15": false,
+        "0.25": false,
+        "0.35": false,
+        "0.50": false
+      },
+      "target_access_count": 8
+    },
+    {
+      "sample_id": "39204",
+      "evaluated": false,
+      "status": "NO_VALID_SEALED_CANDIDATE",
+      "strict": {
+        "0.15": false,
+        "0.25": false,
+        "0.35": false,
+        "0.50": false
+      }
+    },
+    {
+      "sample_id": "47450",
+      "evaluated": true,
+      "clean_full_text": "Dr. or Mrs. William J. Darby",
+      "clean_full_tokens": [
+        8847,
+        13,
+        476,
+        17618,
+        13,
+        12375,
+        619,
+        13,
+        15017,
+        1694,
+        151645
+      ],
+      "attacked_full_text": "Dr. or Mrs. William J. Darby",
+      "full_exact": true,
+      "valid": true,
+      "replay": true,
+      "nonzero": true,
+      "linf": 0.03137257695198059,
+      "png_sha256": "fef49d7ae22ce8a9b8e9143fa108d558add04ae0b0cafb41c3fd68e6eaace7d0",
+      "fastv": {
+        "0.15": {
+          "text": "Dr. Cr. Mos. William J. Darby",
+          "anls": 0.92,
+          "valid": true,
+          "k": 2219
+        },
+        "0.25": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "anls": 1.0,
+          "valid": true,
+          "k": 3699
+        },
+        "0.35": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "anls": 1.0,
+          "valid": true,
+          "k": 5179
+        },
+        "0.50": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "anls": 1.0,
+          "valid": true,
+          "k": 7398
+        }
+      },
+      "strict": {
+        "0.15": false,
+        "0.25": false,
+        "0.35": false,
+        "0.50": false
+      },
+      "target_access_count": 8
+    }
+  ],
+  "strict": {
+    "0.15": "1/5",
+    "0.25": "1/5",
+    "0.35": "0/5",
+    "0.50": "0/5"
+  },
+  "full_exact": "4/5",
+  "valid": "4/5",
+  "replay": "4/5",
+  "linf_ok": "4/5",
+  "evaluated": "4/5"
+}

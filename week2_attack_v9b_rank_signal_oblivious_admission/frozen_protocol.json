@@ -1,0 +1,47 @@
+{
+  "stage": "v9b_rank_signal_oblivious_graybox_admission",
+  "scope": "development admission on five pre-registered ids; not unseen and not generalization",
+  "admission_ids": ["1025", "2008", "7006", "39204", "47450"],
+  "admission_id_source": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v8_graybox_admission/future_transfer_admission_protocol.md",
+  "admission_id_source_sha256": "73d347355c8653664816bffbc553dcfca82988c34b795408505638468a5a452b",
+  "id_rule": "first five ids of the published v7d development list, in that list's order; not chosen from FastV successes",
+  "prompt": "week1_mechanism/run_eval.py build_prompt template A, executed from that file",
+  "generate": {"do_sample": false, "max_new_tokens": 16, "use_cache": true},
+  "model": {
+    "path": "/home/yuesiting/autodl-tmp/models/llava-onevision-qwen2-7b-ov-hf",
+    "dtype": "bfloat16",
+    "attn_implementation": "sdpa",
+    "image_grid_pinpoints": [[768, 768]]
+  },
+  "surrogates": {
+    "name": "target-independent stochastic bottleneck surrogate",
+    "not_an_official_compressor": true,
+    "families": ["SpatialStridedDrop", "LocalSpatialMerge"],
+    "retention_distribution": "Uniform(0.10, 0.60)",
+    "offset_inputs": ["global_seed", "sample_id", "step"],
+    "no_feature_attention_norm_or_gradient_selection": true,
+    "diagnostic_ratios": [0.25, 0.35, 0.5],
+    "clean_anls_minimum": 0.5
+  },
+  "loss": {
+    "formula": "L_gray = -E[CE_surrogate(clean_full_tokens)] + lambda_fdp * L_NativeFDP + lambda_reg * L_pixel_reg",
+    "CE_surrogate": "teacher-forced cross entropy of the bottleneck path on the real clean Full token ids, including a generated EOS and no extra EOS",
+    "L_NativeFDP": "mean softplus(clean_hard_margin - attack_hard_margin) on the real Full native forward; the clean hard margin is the floor, and no extra EOS is appended",
+    "xi_eta_not_used_in_this_loss": {"xi": 1.0, "eta": 0.001},
+    "L_pixel_reg": "mean(delta^2) + mean(abs horizontal difference) + mean(abs vertical difference)",
+    "lambda_fdp": "PENDING_ONE_SHOT_GRAD_RATIO_BEFORE_TRAINING",
+    "lambda_reg": "PENDING_ONE_SHOT_GRAD_RATIO_BEFORE_TRAINING",
+    "lambda_rule": "lambda_fdp = ||grad CE|| / ||grad FDP|| and lambda_reg = ||grad CE|| / ||grad reg|| at +1/255 on sample 1025; written once and not changed after FastV"
+  },
+  "optimizer": {"name": "Adam", "lr": 0.00784313725490196, "steps": 200, "eps": 0.03137254901960784, "projection": "every step, Linf and box"},
+  "seed": 2026101115,
+  "checkpoints": [0, 10, 25, 50, 75, 100, 150, 200],
+  "checkpoint_rule": [
+    "Full native generate text and token ids equal the clean Full generate",
+    "every real clean token hard margin on that generate is positive",
+    "uint8 perturbation is nonzero and Linf <= 8/255 + 1e-6",
+    "among those, the smallest recorded surrogate objective, then the later step"
+  ],
+  "checkpoint_forbidden": "FastV text, ANLS, keep-set, or any target result",
+  "gpus": [0, 1, 4, 6]
+}

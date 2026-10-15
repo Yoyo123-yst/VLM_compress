@@ -1,0 +1,46 @@
+{
+  "status": "PASS_PROCESS_LEVEL",
+  "tag": "smoke_frozen_v2_repeat",
+  "samples": [
+    "1025",
+    "60700",
+    "47450"
+  ],
+  "groups": [
+    "H0",
+    "H1",
+    "P0",
+    "P1",
+    "O0",
+    "O1"
+  ],
+  "gpus": [
+    "0",
+    "1",
+    "4",
+    "6"
+  ],
+  "jobs": {
+    "1025/H0": "DONE",
+    "1025/H1": "DONE",
+    "1025/P0": "DONE",
+    "1025/P1": "DONE",
+    "1025/O0": "DONE",
+    "1025/O1": "DONE",
+    "60700/H0": "DONE",
+    "60700/H1": "DONE",
+    "60700/P0": "DONE",
+    "60700/P1": "DONE",
+    "60700/O0": "DONE",
+    "60700/O1": "DONE",
+    "47450/H0": "DONE",
+    "47450/H1": "DONE",
+    "47450/P0": "DONE",
+    "47450/P1": "DONE",
+    "47450/O0": "DONE",
+    "47450/O1": "DONE"
+  },
+  "pending": 0,
+  "running": 0,
+  "failed": []
+}

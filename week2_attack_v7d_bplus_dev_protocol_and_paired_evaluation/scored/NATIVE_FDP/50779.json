@@ -1,0 +1,68 @@
+{
+  "sample_id": "50779",
+  "chosen_step": 200,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "Dr. Darby",
+  "clean_text": "Dr. Darby",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 4.293786525726318,
+  "pollution": 0,
+  "strict_train": 1,
+  "by_ratio": {
+    "0.50": {
+      "text": "Dr. Darby",
+      "anls": 1.0,
+      "margin": 2.4901840686798096,
+      "keep": {
+        "k": 5548,
+        "keep_hash": "ac4dc9bb1bdcc57d695ea51701c0b86acaaf516a69efb3c8f963d85b822b3a63",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 1.8036024570465088
+    },
+    "0.35": {
+      "text": "Donny statites",
+      "anls": 0.0,
+      "margin": -1.0323749780654907,
+      "keep": {
+        "k": 3884,
+        "keep_hash": "28c5c0c83c3ca54c00331041f113733c0601371b11e162efcde998ffd8cd06ba",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.326161503791809
+    },
+    "0.25": {
+      "text": "Donny Spates",
+      "anls": 0.0,
+      "margin": -0.7832916378974915,
+      "keep": {
+        "k": 2774,
+        "keep_hash": "30c7091d98adc00a2ee63f3c26e59d3ce91fb0a3ed59680821f7aa64610740ba",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.07707816362381
+    },
+    "0.15": {
+      "text": "Dr. Don Darby",
+      "anls": 0.6666666666666667,
+      "margin": 0.9732159376144409,
+      "keep": {
+        "k": 1665,
+        "keep_hash": "423bafb0fbacdcf3bc37c6fc3182c2494a2eb0fb85ec71f9b35dc3c725343459",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 3.3205705881118774
+    }
+  },
+  "selector_margin": -0.9078333079814911
+}

@@ -1,0 +1,170 @@
+{
+  "trajectory": "T1",
+  "accepted_after": 1,
+  "attempts": 1,
+  "l_core": 6.185642242431641,
+  "full_hard_min": 1.0,
+  "weakest_full_token": {
+    "position": 2,
+    "token_id": 476,
+    "piece": " or",
+    "hard_margin": 1.0,
+    "soft_margin": 0.7928619384765625
+  },
+  "full_margins": [
+    {
+      "position": 0,
+      "token_id": 8847,
+      "piece": "Dr",
+      "hard_margin": 1.8125,
+      "soft_margin": 1.504415512084961
+    },
+    {
+      "position": 1,
+      "token_id": 13,
+      "piece": ".",
+      "hard_margin": 2.875,
+      "soft_margin": 2.0749130249023438
+    },
+    {
+      "position": 2,
+      "token_id": 476,
+      "piece": " or",
+      "hard_margin": 1.0,
+      "soft_margin": 0.7928619384765625
+    },
+    {
+      "position": 3,
+      "token_id": 17618,
+      "piece": " Mrs",
+      "hard_margin": 5.0,
+      "soft_margin": 4.36491584777832
+    },
+    {
+      "position": 4,
+      "token_id": 13,
+      "piece": ".",
+      "hard_margin": 5.25,
+      "soft_margin": 4.37968635559082
+    },
+    {
+      "position": 5,
+      "token_id": 12375,
+      "piece": " William",
+      "hard_margin": 5.25,
+      "soft_margin": 4.31578254699707
+    },
+    {
+      "position": 6,
+      "token_id": 619,
+      "piece": " J",
+      "hard_margin": 5.75,
+      "soft_margin": 5.582395553588867
+    },
+    {
+      "position": 7,
+      "token_id": 13,
+      "piece": ".",
+      "hard_margin": 6.125,
+      "soft_margin": 5.392551422119141
+    },
+    {
+      "position": 8,
+      "token_id": 15017,
+      "piece": " Dar",
+      "hard_margin": 6.375,
+      "soft_margin": 6.2265167236328125
+    },
+    {
+      "position": 9,
+      "token_id": 1694,
+      "piece": "by",
+      "hard_margin": 11.125,
+      "soft_margin": 9.978631973266602
+    },
+    {
+      "position": 10,
+      "token_id": 151645,
+      "piece": "<|im_end|>",
+      "hard_margin": 7.0,
+      "soft_margin": 6.038928985595703
+    }
+  ],
+  "core_margins": [
+    {
+      "position": 5,
+      "token_id": 12375,
+      "piece": " William",
+      "hard_margin": 5.0,
+      "soft_margin": 4.204792022705078
+    },
+    {
+      "position": 6,
+      "token_id": 619,
+      "piece": " J",
+      "hard_margin": 5.5,
+      "soft_margin": 5.360126495361328
+    },
+    {
+      "position": 7,
+      "token_id": 13,
+      "piece": ".",
+      "hard_margin": 5.75,
+      "soft_margin": 5.123058319091797
+    },
+    {
+      "position": 8,
+      "token_id": 15017,
+      "piece": " Dar",
+      "hard_margin": 6.25,
+      "soft_margin": 6.1307220458984375
+    },
+    {
+      "position": 9,
+      "token_id": 1694,
+      "piece": "by",
+      "hard_margin": 11.25,
+      "soft_margin": 10.109512329101562
+    }
+  ],
+  "core_hard_mean": 6.75,
+  "full_text_exact": true,
+  "full_token_exact": true,
+  "full_replay": true,
+  "full_text": "Dr. or Mrs. William J. Darby",
+  "full_tokens": [
+    8847,
+    13,
+    476,
+    17618,
+    13,
+    12375,
+    619,
+    13,
+    15017,
+    1694,
+    151645
+  ],
+  "fast_text": "Dr. or Mrs. William J. Darby",
+  "fast_tokens": [
+    8847,
+    13,
+    476,
+    17618,
+    13,
+    12375,
+    619,
+    13,
+    15017,
+    1694,
+    151645
+  ],
+  "fast_valid": true,
+  "k": 3699,
+  "keep_hash": "81583da9d6f41bd26605fd098660bfb227392a7822dfaf5ab260ef9b546d8411",
+  "uint8_linf": 1,
+  "png_sha256": "ed57c4f8cb8528e99f0e389919eed1b69c58b7e61db5cc69d8ac077a7febdb34",
+  "semantic_status_diagnostic": "ANSWER_PRESERVED",
+  "checkpoint_step": 1,
+  "checkpoint_saved": true
+}

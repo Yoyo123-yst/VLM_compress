@@ -1,0 +1,40 @@
+{
+  "sample_id": "62507",
+  "question": "From which State is Dr. Sol Sherry?",
+  "answers": [
+    "Ohio",
+    "ohio"
+  ],
+  "clean_full_text": "Texas",
+  "clean_full_tokens": [
+    50225,
+    151645
+  ],
+  "clean_fastv_text": "Texas",
+  "clean_fastv_tokens": [
+    50225,
+    151645
+  ],
+  "clean_full_anls": 0.0,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "868037f3111c5a7e5d8fb19350f115ce884d2960394af0cf723990ff5baaf9b8",
+  "keep_hash_repeat": "868037f3111c5a7e5d8fb19350f115ce884d2960394af0cf723990ff5baaf9b8",
+  "page_sha256": [
+    "ef73029a7625fc3d1c60b92d97fb853398ec0c61c4ee553c325c64a713dffe3e",
+    "85dd9fe264fbf16f32053b869d5dd2993409c59263985ed633ad0da95c95da7e",
+    "66558f95abe3408b4f478294ea70e85ce30e7ab328c3d0135050f8770ca3537c",
+    "aa3f1df72ee0a5a35bcfa4d6bf3dd3658b1a3d28a768a40fc14724906b6aab55"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 3,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.424
+}

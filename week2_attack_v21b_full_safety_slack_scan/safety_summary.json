@@ -1,0 +1,103 @@
+{
+  "directions": {
+    "CORE": {
+      "legal": {
+        "1": true,
+        "2": true,
+        "4": true,
+        "6": true,
+        "8": true
+      },
+      "largest_tested_legal_radius": 8,
+      "prefix_safe_radius": 8,
+      "nonmonotonic_full_behavior": false,
+      "attack_progress_on_legal_points": true,
+      "quantization_mismatches": [],
+      "minimum_full_margin_at_prefix_safe_radius": 0.375,
+      "FastV_content_status_at_prefix_safe_radius": {
+        "text": "Dr. or Mrs. William J. Darby",
+        "semantic_status": "ANSWER_PRESERVED",
+        "core_hard_mean": 5.225,
+        "core_name_intact": true
+      },
+      "exact_with_small_full_margin": [
+        {
+          "radius": 1,
+          "full_hard_min": 0.5,
+          "piece": " or"
+        },
+        {
+          "radius": 2,
+          "full_hard_min": 0.5,
+          "piece": " or"
+        },
+        {
+          "radius": 4,
+          "full_hard_min": 0.375,
+          "piece": " or"
+        },
+        {
+          "radius": 6,
+          "full_hard_min": 0.375,
+          "piece": " or"
+        },
+        {
+          "radius": 8,
+          "full_hard_min": 0.375,
+          "piece": " or"
+        }
+      ]
+    },
+    "ALL": {
+      "legal": {
+        "1": true,
+        "2": true,
+        "4": true,
+        "6": true,
+        "8": true
+      },
+      "largest_tested_legal_radius": 8,
+      "prefix_safe_radius": 8,
+      "nonmonotonic_full_behavior": false,
+      "attack_progress_on_legal_points": true,
+      "quantization_mismatches": [],
+      "minimum_full_margin_at_prefix_safe_radius": 0.25,
+      "FastV_content_status_at_prefix_safe_radius": {
+        "text": "Dr. or Mrs. William J. Darby",
+        "semantic_status": "ANSWER_PRESERVED",
+        "core_hard_mean": 5.325,
+        "core_name_intact": true
+      },
+      "exact_with_small_full_margin": [
+        {
+          "radius": 1,
+          "full_hard_min": 0.5,
+          "piece": " or"
+        },
+        {
+          "radius": 2,
+          "full_hard_min": 0.375,
+          "piece": " or"
+        },
+        {
+          "radius": 4,
+          "full_hard_min": 0.25,
+          "piece": " or"
+        },
+        {
+          "radius": 6,
+          "full_hard_min": 0.25,
+          "piece": " or"
+        },
+        {
+          "radius": 8,
+          "full_hard_min": 0.25,
+          "piece": " or"
+        }
+      ]
+    }
+  },
+  "status": "FULL_SAFETY_SLACK_CONFIRMED",
+  "next_step": "SMALL_CONSTRAINED_COMPARISON_MAY_BE_DISCUSSED_LATER",
+  "comparison_started": false
+}

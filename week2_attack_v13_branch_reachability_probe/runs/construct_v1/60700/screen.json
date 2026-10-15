@@ -1,0 +1,186 @@
+{
+  "sample_id": "60700",
+  "ratio": 0.25,
+  "full_clean": {
+    "text_a": "PPBS",
+    "text_b": "PPBS",
+    "tokens_a": [
+      4406,
+      7347,
+      151645
+    ],
+    "tokens_b": [
+      4406,
+      7347,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      4406,
+      7347,
+      151645
+    ],
+    "text": "PPBS",
+    "anls": 1.0,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca",
+    "k": 2774,
+    "second_keep_hash": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca",
+    "second_k": 2774
+  },
+  "clean_admitted": true,
+  "candidate_limit": 3,
+  "candidate_selector_uses_labels": false,
+  "candidates": [
+    {
+      "position": 0,
+      "target_id": 4406,
+      "target_piece": "PP",
+      "candidate_id": 47,
+      "candidate_piece": "P",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 0.125,
+      "content_priority": 1,
+      "fast_gradient_l1": 8836.599609375,
+      "fast_gradient_l2": 24.26214599609375,
+      "estimated_fast_flip_linf": 1.4145712777048758e-05,
+      "full_clean_hard_min": 0.25,
+      "full_probe_hard_min": 0.125,
+      "full_local_capacity_linf": 0.00784313725490196,
+      "full_local_margin_available": true,
+      "reachability_ratio": 554.4533088235294,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "9ee935326eac4dc0687e3d8153e3eb074db87628e98294c48aa4768cc2f3ffdc",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          47,
+          79,
+          1279,
+          151645
+        ],
+        "text": "Ppbs",
+        "keep_hash": "cc74f22b949248b51c8386f9344ede194dafd2d67d0499524e20a86c41f537ba",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 1.0,
+      "selection_uses_anls": false
+    },
+    {
+      "position": 1,
+      "target_id": 7347,
+      "target_piece": "BS",
+      "candidate_id": 33,
+      "candidate_piece": "B",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 6.75,
+      "content_priority": 1,
+      "fast_gradient_l1": 8000.55908203125,
+      "fast_gradient_l2": 25.390274047851562,
+      "estimated_fast_flip_linf": 0.0008436910384375604,
+      "full_clean_hard_min": 0.25,
+      "full_probe_hard_min": 0.5,
+      "full_local_capacity_linf": 0.009523809523809525,
+      "full_local_margin_available": true,
+      "reachability_ratio": 11.288266782407408,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "9ee935326eac4dc0687e3d8153e3eb074db87628e98294c48aa4768cc2f3ffdc",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          4406,
+          33,
+          20,
+          151645
+        ],
+        "text": "PPB5",
+        "keep_hash": "72848fd2e282ad1cc079f0e0a2e141d48f0bc5532818e05988ca4052cab50a8c",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.75,
+      "selection_uses_anls": false
+    }
+  ],
+  "naive_choice": {
+    "position": 0,
+    "target_id": 4406,
+    "target_piece": "PP",
+    "candidate_id": 47,
+    "candidate_piece": "P",
+    "candidate_rank_at_position": 1,
+    "clean_fast_gap": 0.125,
+    "content_priority": 1,
+    "fast_gradient_l1": 8836.599609375,
+    "fast_gradient_l2": 24.26214599609375,
+    "estimated_fast_flip_linf": 1.4145712777048758e-05,
+    "full_clean_hard_min": 0.25,
+    "full_probe_hard_min": 0.125,
+    "full_local_capacity_linf": 0.00784313725490196,
+    "full_local_margin_available": true,
+    "reachability_ratio": 554.4533088235294,
+    "estimated_feasible_at_eps": true,
+    "clean_keep_hash": "9ee935326eac4dc0687e3d8153e3eb074db87628e98294c48aa4768cc2f3ffdc",
+    "clean_k": 2774,
+    "forced_continuation": {
+      "tokens": [
+        47,
+        79,
+        1279,
+        151645
+      ],
+      "text": "Ppbs",
+      "keep_hash": "cc74f22b949248b51c8386f9344ede194dafd2d67d0499524e20a86c41f537ba",
+      "k": 2774
+    },
+    "forced_continuation_anls_diagnostic": 1.0,
+    "selection_uses_anls": false
+  },
+  "aware_choice": {
+    "position": 0,
+    "target_id": 4406,
+    "target_piece": "PP",
+    "candidate_id": 47,
+    "candidate_piece": "P",
+    "candidate_rank_at_position": 1,
+    "clean_fast_gap": 0.125,
+    "content_priority": 1,
+    "fast_gradient_l1": 8836.599609375,
+    "fast_gradient_l2": 24.26214599609375,
+    "estimated_fast_flip_linf": 1.4145712777048758e-05,
+    "full_clean_hard_min": 0.25,
+    "full_probe_hard_min": 0.125,
+    "full_local_capacity_linf": 0.00784313725490196,
+    "full_local_margin_available": true,
+    "reachability_ratio": 554.4533088235294,
+    "estimated_feasible_at_eps": true,
+    "clean_keep_hash": "9ee935326eac4dc0687e3d8153e3eb074db87628e98294c48aa4768cc2f3ffdc",
+    "clean_k": 2774,
+    "forced_continuation": {
+      "tokens": [
+        47,
+        79,
+        1279,
+        151645
+      ],
+      "text": "Ppbs",
+      "keep_hash": "cc74f22b949248b51c8386f9344ede194dafd2d67d0499524e20a86c41f537ba",
+      "k": 2774
+    },
+    "forced_continuation_anls_diagnostic": 1.0,
+    "selection_uses_anls": false
+  },
+  "branch_admitted": true,
+  "screen_counters": {
+    "forward": 42,
+    "backward": 2,
+    "generate": 10,
+    "fastv": 5,
+    "generated_tokens": 21
+  },
+  "screen_elapsed_sec": 19.52426941692829
+}

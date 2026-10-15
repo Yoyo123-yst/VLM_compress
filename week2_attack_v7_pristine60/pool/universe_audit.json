@@ -1,0 +1,23 @@
+{
+  "val_unique": 5187,
+  "multipage": 3554,
+  "bad_evidence": 0,
+  "duplicate_ids": 0,
+  "exclusion_union": 320,
+  "excluded_multipage": 320,
+  "excluded_not_in_val": [],
+  "unseen_multipage": 3234,
+  "v5_union_n": 280,
+  "parquet_dir": "/home/yuesiting/.cache/huggingface/hub/datasets--lmms-lab-encoder--MP-DocVQA/snapshots/e776eeade5a631d9ae18230ed3ab6213cd063dac/data",
+  "extra_new_ids_by_root": {
+    "week2_attack_v5_pristine40": 0,
+    "week2_attack_v5b_expanded_pristine40": 40,
+    "week2_attack_v6_survivor_upgrade": 0,
+    "week2_attack_v6b_soft_full_anchor": 0,
+    "week2_attack_v6c_split_calibration": 0
+  },
+  "decision": "UNIVERSE_AUDIT_PASS",
+  "screen_n": 400,
+  "screen_manifest_sha256": "52094a25b6e9e74e165fb150e4c01464faaca046eeb05f3ba8abd4985c04d794",
+  "union_sha256": "207a671a0ade27d0cd85eb6d0c6e02f9f5062476ae9b510b117aa48ade81277a"
+}

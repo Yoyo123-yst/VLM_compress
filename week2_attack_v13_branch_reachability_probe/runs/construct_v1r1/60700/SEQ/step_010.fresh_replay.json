@@ -1,0 +1,79 @@
+{
+  "status": "DONE",
+  "scope": "fresh-process replay; endpoint verification only, no selector",
+  "sample_id": "60700",
+  "variant": "SEQ",
+  "step": 10,
+  "png": "week2_attack_v13_branch_reachability_probe/runs/construct_v1r1/60700/SEQ/step_010.png",
+  "png_sha256": "766297ef31a62c25fd510529893d07ddd1f277066be9cce120e2a986363eafe3",
+  "first": {
+    "full": {
+      "full_text_exact": 1,
+      "full_token_exact": 1,
+      "full_replay": 1,
+      "full_text": "PPBS"
+    },
+    "fast": {
+      "tokens": [
+        47,
+        79,
+        1279,
+        671,
+        16,
+        19,
+        11,
+        220,
+        16,
+        24,
+        21,
+        22,
+        151645
+      ],
+      "text": "Ppbs #14, 1967",
+      "anls": 0.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "5175056ada989d2752e09dd56c319feb486b785cefb5b4281bb98050f96816c0",
+      "endpoint_failure": true
+    },
+    "nonzero": true,
+    "linf_uint8": 8,
+    "linf_ok": true
+  },
+  "second": {
+    "full": {
+      "full_text_exact": 1,
+      "full_token_exact": 1,
+      "full_replay": 1,
+      "full_text": "PPBS"
+    },
+    "fast": {
+      "tokens": [
+        47,
+        79,
+        1279,
+        671,
+        16,
+        19,
+        11,
+        220,
+        16,
+        24,
+        21,
+        22,
+        151645
+      ],
+      "text": "Ppbs #14, 1967",
+      "anls": 0.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "5175056ada989d2752e09dd56c319feb486b785cefb5b4281bb98050f96816c0",
+      "endpoint_failure": true
+    },
+    "nonzero": true,
+    "linf_uint8": 8,
+    "linf_ok": true
+  },
+  "fast_replay": true,
+  "strict_endpoint_replayed": true
+}

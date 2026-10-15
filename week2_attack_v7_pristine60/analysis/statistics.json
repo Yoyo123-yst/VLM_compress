@@ -1,0 +1,73 @@
+{
+  "n": 60,
+  "primary_strict": 52,
+  "wilson95": [
+    0.7583460540992789,
+    0.9308597302169036
+  ],
+  "full_exact": 60,
+  "replay": 60,
+  "nonzero": 60,
+  "linf": 60,
+  "invalid": 0,
+  "full_text_change": 0,
+  "trajectory_attack_only": 51,
+  "trajectory_noise_only": 0,
+  "trajectory_mcnemar_p": 8.881784197001252e-16,
+  "single_attack_only": 51,
+  "single_noise_only": 0,
+  "single_mcnemar_p": 8.881784197001252e-16,
+  "mean_G_diff_vs_trajectory": 0.7800037288281596,
+  "bootstrap_ci95_G_diff": [
+    0.6885046838920122,
+    0.8635644053218167
+  ],
+  "fixed_step200_saved_generation": 53,
+  "oracle_upper_bound_count": 55,
+  "oracle_label": "GROUND_TRUTH_ORACLE_UPPER_BOUND",
+  "mechanism_among_strict": {
+    "n": 52,
+    "content_sufficient_inclusive": 40,
+    "content_wilson95": [
+      0.6386595708887027,
+      0.8627587265812838
+    ],
+    "selection_sufficient": 0,
+    "selection_wilson95": [
+      0.0,
+      0.06879459041288215
+    ],
+    "interaction": 12,
+    "interaction_wilson95": [
+      0.13724127341871611,
+      0.3613404291112973
+    ],
+    "counts": {
+      "INTERACTION_REQUIRED": 12,
+      "CONTENT_SUFFICIENT": 40
+    }
+  },
+  "repeatability": {
+    "label": "REPEATABILITY_DIAGNOSTIC_PASS",
+    "strict_agree": 8,
+    "n": 10,
+    "both_strict": 7,
+    "first_only": 0,
+    "second_only": 2,
+    "neither": 1
+  },
+  "gates": {
+    "strict": true,
+    "wilson_lower_gt_0.5": true,
+    "full_exact": true,
+    "replay": true,
+    "nonzero": true,
+    "linf": true,
+    "invalid0": true,
+    "mcnemar_direction": true,
+    "mcnemar_p": true
+  },
+  "decision": "PRISTINE60_SUPPORTS_SOURCE_BOUNDED_COMP_ONLY_ATTACK",
+  "claim_allowed": "source-bounded compression-only attack",
+  "selection_stable_claim": false
+}

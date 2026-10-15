@@ -1,0 +1,58 @@
+{
+  "stage": "final_after_selector_audit",
+  "health": "PASS",
+  "raw_integrity": "PASS",
+  "raw_immutability": "PASS",
+  "decision": "HOLDOUT_SUPPORTS_STRICT_COMP_ONLY_AT_FIXED_ENDPOINT",
+  "primary_selector": "fixed_step_200",
+  "primary_n": 20,
+  "primary_strict_successes": 15,
+  "primary_strict_csfr": 0.75,
+  "primary_wilson_strict_csfr_95": [0.5312949900419365, 0.888139947210597],
+  "primary_full_errors": 0,
+  "primary_full_error_rate": 0.0,
+  "primary_fastv_errors": 15,
+  "primary_fastv_error_rate": 0.75,
+  "primary_both_wrong": 0,
+  "primary_full_text_unchanged": "20/20",
+  "primary_full_anls_unchanged": "20/20",
+  "primary_mean_G": 0.6498456028835286,
+  "posthoc_min_margin": {
+    "strict_successes": 16,
+    "strict_csfr": 0.8,
+    "status": "POST_HOC_SELECTOR_AUDIT_NOT_PROSPECTIVE_EVIDENCE"
+  },
+  "oracle_upper_bound": {
+    "strict_successes": 17,
+    "strict_csfr": 0.85,
+    "status": "GROUND_TRUTH_ORACLE_UPPER_BOUND"
+  },
+  "lambda_comparison": {
+    "selector": "primary_fixed_step200",
+    "lambda_025_strict": 15,
+    "lambda_1_strict": 12,
+    "candidate_only": 3,
+    "baseline_only": 0,
+    "mcnemar_p_exact": 0.25,
+    "mean_G_difference": 0.12805352055352057,
+    "t_ci95": [-0.023398516171420497, 0.2795055572784616],
+    "bootstrap_ci95": [0.003886853886853886, 0.27965201465201467],
+    "nonzero_pair_count": 6,
+    "exact_signflip_p": 0.125,
+    "conclusion": "NOT_ESTABLISHED"
+  },
+  "evidence_boundary": {
+    "fixed_endpoint_checkpoint_records_complete": true,
+    "all_fixed_endpoint_images_saved_and_replayed": false,
+    "oracle_best_images_replayed": true,
+    "note": "Holdout fixed-step metrics come from online checkpoint JSONL; per-sample best.png was not saved for all holdout IDs. Shard CSV replay_ok applies to attack best_strict selection, not separately to every step-200 uint8 image."
+  },
+  "dev_set_note": "Development 6-question RELAXED_GO_TO_HOLDOUT unchanged; holdout formal claim uses fixed step 200 only.",
+  "evidence": [
+    "selector_audit PASS: integrity, K-by-M, raw immutability",
+    "primary lambda=0.25 strict 15/20, Full 0/20, Full text 20/20 unchanged at step 200",
+    "post-hoc min-margin 16/20; oracle best_strict 17/20 not a deployment success rate",
+    "lambda advantage NOT_ESTABLISHED: McNemar p=0.25, sign-flip p=0.125, t-CI includes 0, bootstrap-CI excludes 0"
+  ],
+  "next_action": "freeze a genuinely unseen validation set before any prospective selector or lambda superiority claim"
+}

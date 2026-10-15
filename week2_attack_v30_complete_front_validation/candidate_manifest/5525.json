@@ -1,0 +1,717 @@
+{
+  "sample_id": "5525",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "06bd56836dd5ec32a28b266d478aeee701f38df09109d9da5b033b67e609a0af",
+  "full_clean": {
+    "text_a": "The Coca-Cola Company",
+    "text_b": "The Coca-Cola Company",
+    "tokens_a": [
+      785,
+      62854,
+      65177,
+      8188,
+      151645
+    ],
+    "tokens_b": [
+      785,
+      62854,
+      65177,
+      8188,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      785,
+      62854,
+      65177,
+      8188,
+      151645
+    ],
+    "text": "The Coca-Cola Company",
+    "anls": 1.0,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "fc12d5bf671c98af5a9b024221c40b6e948f2ded619ea62776aba235162a8630",
+    "k": 2774,
+    "second_keep_hash": "fc12d5bf671c98af5a9b024221c40b6e948f2ded619ea62776aba235162a8630",
+    "second_k": 2774
+  },
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "fc12d5bf671c98af5a9b024221c40b6e948f2ded619ea62776aba235162a8630",
+    "reference_keep_hash": "fc12d5bf671c98af5a9b024221c40b6e948f2ded619ea62776aba235162a8630",
+    "fast_keep_exact": true,
+    "k": 2774,
+    "reference_k": 2774
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 1,
+      "target_id": 62854,
+      "target_piece": " Coca",
+      "candidate_id": 73262,
+      "candidate_piece": " Coke",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 4.5,
+      "content_priority": 1,
+      "fast_gradient_l1": 3063.197509765625,
+      "fast_gradient_l2": 12.824624061584473,
+      "estimated_fast_flip_linf": 0.0014690531660638197,
+      "full_clean_hard_min": 1.625,
+      "full_probe_hard_min": 1.625,
+      "full_local_capacity_linf": 0.054901960784313725,
+      "full_local_margin_available": true,
+      "reachability_ratio": 37.3723443457244,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "fc12d5bf671c98af5a9b024221c40b6e948f2ded619ea62776aba235162a8630",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          785,
+          73262,
+          4254,
+          64,
+          8188,
+          151645
+        ],
+        "text": "The Coke Cola Company",
+        "keep_hash": "350d4a0d58a7d863cbceec3f347ad971a45ab61d3ba99d51927965d76c4cd2c1",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.9047619047619048,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "thecokecolacompany",
+      "complete_lexical_similarity_to_clean": 0.8888888888888888,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          785,
+          73262,
+          4254,
+          64,
+          8188,
+          151645
+        ],
+        "text": "The Coke Cola Company",
+        "keep_hash": "350d4a0d58a7d863cbceec3f347ad971a45ab61d3ba99d51927965d76c4cd2c1",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 65177,
+      "target_piece": "-Cola",
+      "candidate_id": 62854,
+      "candidate_piece": " Coca",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 4.875,
+      "content_priority": 1,
+      "fast_gradient_l1": 2312.59814453125,
+      "fast_gradient_l2": 9.169322967529297,
+      "estimated_fast_flip_linf": 0.002108018641945306,
+      "full_clean_hard_min": 1.625,
+      "full_probe_hard_min": 1.625,
+      "full_local_capacity_linf": 0.054901960784313725,
+      "full_local_margin_available": true,
+      "reachability_ratio": 26.044343105832073,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "fc12d5bf671c98af5a9b024221c40b6e948f2ded619ea62776aba235162a8630",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          785,
+          62854,
+          62854,
+          8188,
+          151645
+        ],
+        "text": "The Coca Coca Company",
+        "keep_hash": "318e954b9a54fc0291cd01d1e5c94c3c2bfa01fcdc72fddc545c53bbf14d39b0",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.9047619047619048,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "thecocacocacompany",
+      "complete_lexical_similarity_to_clean": 0.9444444444444444,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          785,
+          62854,
+          62854,
+          8188,
+          151645
+        ],
+        "text": "The Coca Coca Company",
+        "keep_hash": "318e954b9a54fc0291cd01d1e5c94c3c2bfa01fcdc72fddc545c53bbf14d39b0",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 65177,
+      "target_piece": "-Cola",
+      "candidate_id": 73262,
+      "candidate_piece": " Coke",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 6.0,
+      "content_priority": 1,
+      "fast_gradient_l1": 2178.563232421875,
+      "fast_gradient_l2": 7.426713466644287,
+      "estimated_fast_flip_linf": 0.002754108722072709,
+      "full_clean_hard_min": 1.625,
+      "full_probe_hard_min": 1.625,
+      "full_local_capacity_linf": 0.054901960784313725,
+      "full_local_margin_available": true,
+      "reachability_ratio": 19.934565525428923,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "fc12d5bf671c98af5a9b024221c40b6e948f2ded619ea62776aba235162a8630",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          785,
+          62854,
+          73262,
+          8188,
+          151645
+        ],
+        "text": "The Coca Coke Company",
+        "keep_hash": "7a00eff4a211db1f5e6f5cb99e0b2df2dd82753524c0ffd4ba7eb41576a7aa58",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.8571428571428572,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "thecocacokecompany",
+      "complete_lexical_similarity_to_clean": 0.8888888888888888,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          785,
+          62854,
+          73262,
+          8188,
+          151645
+        ],
+        "text": "The Coca Coke Company",
+        "keep_hash": "7a00eff4a211db1f5e6f5cb99e0b2df2dd82753524c0ffd4ba7eb41576a7aa58",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 3,
+      "target_id": 8188,
+      "target_piece": " Company",
+      "candidate_id": 3539,
+      "candidate_piece": " Co",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 6.25,
+      "content_priority": 1,
+      "fast_gradient_l1": 2808.19970703125,
+      "fast_gradient_l2": 10.845224380493164,
+      "estimated_fast_flip_linf": 0.002225625187678452,
+      "full_clean_hard_min": 1.625,
+      "full_probe_hard_min": 1.625,
+      "full_local_capacity_linf": 0.054901960784313725,
+      "full_local_margin_available": true,
+      "reachability_ratio": 24.66810723039216,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "fc12d5bf671c98af5a9b024221c40b6e948f2ded619ea62776aba235162a8630",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          785,
+          62854,
+          65177,
+          3539,
+          151645
+        ],
+        "text": "The Coca-Cola Co",
+        "keep_hash": "6df8ac6b36c2ecdfb4971c78e57874271b237f9233c74bafa849168e2274b9d4",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.75,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "thecocacolaco",
+      "complete_lexical_similarity_to_clean": 0.8387096774193549,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          785,
+          62854,
+          65177,
+          3539,
+          151645
+        ],
+        "text": "The Coca-Cola Co",
+        "keep_hash": "6df8ac6b36c2ecdfb4971c78e57874271b237f9233c74bafa849168e2274b9d4",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 1,
+      "target_id": 62854,
+      "target_piece": " Coca",
+      "candidate_id": 83667,
+      "candidate_piece": " cola",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 7.125,
+      "content_priority": 1,
+      "fast_gradient_l1": 3101.246337890625,
+      "fast_gradient_l2": 9.819427490234375,
+      "estimated_fast_flip_linf": 0.0022974634142885315,
+      "full_clean_hard_min": 1.625,
+      "full_probe_hard_min": 1.625,
+      "full_local_capacity_linf": 0.054901960784313725,
+      "full_local_margin_available": true,
+      "reachability_ratio": 23.896772607069142,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "fc12d5bf671c98af5a9b024221c40b6e948f2ded619ea62776aba235162a8630",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          785,
+          83667,
+          83667,
+          2813,
+          151645
+        ],
+        "text": "The cola cola company",
+        "keep_hash": "8d530a0b3c7bd40d3d297c6bfac2fce91ee6e61b214fb3462ea011c6b7532d30",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.9047619047619048,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "thecolacolacompany",
+      "complete_lexical_similarity_to_clean": 0.9444444444444444,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          785,
+          83667,
+          83667,
+          2813,
+          151645
+        ],
+        "text": "The cola cola company",
+        "keep_hash": "8d530a0b3c7bd40d3d297c6bfac2fce91ee6e61b214fb3462ea011c6b7532d30",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 1,
+      "target_id": 62854,
+      "target_piece": " Coca",
+      "candidate_id": 61788,
+      "candidate_piece": " cocoa",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 7.25,
+      "content_priority": 1,
+      "fast_gradient_l1": 2791.818115234375,
+      "fast_gradient_l2": 15.321969032287598,
+      "estimated_fast_flip_linf": 0.002596874044350614,
+      "full_clean_hard_min": 1.625,
+      "full_probe_hard_min": 1.625,
+      "full_local_capacity_linf": 0.09019607843137255,
+      "full_local_margin_available": true,
+      "reachability_ratio": 34.732558025904325,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "fc12d5bf671c98af5a9b024221c40b6e948f2ded619ea62776aba235162a8630",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          785,
+          61788,
+          83667,
+          2813,
+          151645
+        ],
+        "text": "The cocoa cola company",
+        "keep_hash": "e7022af4df4e3c9b97612703a862ff575b887dfc80ace5d43e707d0b4260f435",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.9545454545454546,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "thecocoacolacompany",
+      "complete_lexical_similarity_to_clean": 0.972972972972973,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          785,
+          61788,
+          83667,
+          2813,
+          151645
+        ],
+        "text": "The cocoa cola company",
+        "keep_hash": "e7022af4df4e3c9b97612703a862ff575b887dfc80ace5d43e707d0b4260f435",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 24,
+    "screen_admitted_after_limit": 6,
+    "screen_rejected": 12,
+    "estimated": 6
+  },
+  "rejected_proposals": [
+    {
+      "position": 2,
+      "target_id": 65177,
+      "target_piece": "-Cola",
+      "candidate_id": 4254,
+      "candidate_piece": " Col",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 1.0,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          785,
+          62854,
+          4254,
+          64,
+          8188,
+          151645
+        ],
+        "text": "The Coca Cola Company",
+        "keep_hash": "7147ba4e2adedbb5e3b7aa858748a82acb45d5579366a78d84db990f5c342468",
+        "k": 2774
+      },
+      "complete_lexical_key": "thecocacolacompany",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 1,
+      "target_id": 62854,
+      "target_piece": " Coca",
+      "candidate_id": 83323,
+      "candidate_piece": " coke",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 4.5,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          785,
+          83323,
+          83667,
+          2813,
+          151645
+        ],
+        "text": "The coke cola company",
+        "keep_hash": "0319bda4b2be226698bda9f22aa9f70033d0c5ea74718544132104da3338dc7c",
+        "k": 2774
+      },
+      "complete_lexical_key": "thecokecolacompany",
+      "complete_lexical_similarity_to_clean": 0.8888888888888888,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    },
+    {
+      "position": 2,
+      "target_id": 65177,
+      "target_piece": "-Cola",
+      "candidate_id": 6127,
+      "candidate_piece": "Col",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 5.125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          785,
+          62854,
+          6127,
+          64,
+          8188,
+          151645
+        ],
+        "text": "The CocaCola Company",
+        "keep_hash": "f1c17891a6847f076a9fe58dcad01f6fd1c9a7ebc132873f114d4544ac66a35a",
+        "k": 2774
+      },
+      "complete_lexical_key": "thecocacolacompany",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 1,
+      "target_id": 62854,
+      "target_piece": " Coca",
+      "candidate_id": 76388,
+      "candidate_piece": " Coc",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 6.5,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          785,
+          76388,
+          580,
+          7924,
+          8188,
+          151645
+        ],
+        "text": "The Cocacola Company",
+        "keep_hash": "8e236607aa9c16abfb5a4c57938f203128a8ed3fef4457cb4205b4a348b2bba2",
+        "k": 2774
+      },
+      "complete_lexical_key": "thecocacolacompany",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 1,
+      "target_id": 62854,
+      "target_piece": " Coca",
+      "candidate_id": 7284,
+      "candidate_piece": " CO",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 6.6875,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          785,
+          7284,
+          5049,
+          25578,
+          32,
+          65448,
+          151645
+        ],
+        "text": "The COCA COLA COMPANY",
+        "keep_hash": "b8b705bddad946d725a8e0490e3149eb8d22c37f6eba579d8788f56d7611fffb",
+        "k": 2774
+      },
+      "complete_lexical_key": "thecocacolacompany",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 2,
+      "target_id": 65177,
+      "target_piece": "-Cola",
+      "candidate_id": 25578,
+      "candidate_piece": " COL",
+      "candidate_rank_at_position": 9,
+      "clean_fast_gap": 7.3125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          785,
+          62854,
+          25578,
+          32,
+          8188,
+          151645
+        ],
+        "text": "The Coca COLA Company",
+        "keep_hash": "c8c104fb8249ea6b06425f8ffa087970d972168b3173d13e378f102e0e755592",
+        "k": 2774
+      },
+      "complete_lexical_key": "thecocacolacompany",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 0,
+      "target_id": 785,
+      "target_piece": "The",
+      "candidate_id": 3617,
+      "candidate_piece": "TH",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 7.75,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          3617,
+          68,
+          62854,
+          4254,
+          64,
+          8188,
+          151645
+        ],
+        "text": "THe Coca Cola Company",
+        "keep_hash": "7c408a8d210e42f159e2ee8d8ffd4be70cc67769dd88a316351fa885b0a890e0",
+        "k": 2774
+      },
+      "complete_lexical_key": "thecocacolacompany",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 0,
+      "target_id": 785,
+      "target_piece": "The",
+      "candidate_id": 339,
+      "candidate_piece": "th",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 7.8125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          339,
+          757,
+          16846,
+          83667,
+          2813,
+          151645
+        ],
+        "text": "thecoca cola company",
+        "keep_hash": "ef69f306693548d5137fa0193d2b244ee55ed4ad06f8697985d99caad8faea17",
+        "k": 2774
+      },
+      "complete_lexical_key": "thecocacolacompany",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 0,
+      "target_id": 785,
+      "target_piece": "The",
+      "candidate_id": 8281,
+      "candidate_piece": "CO",
+      "candidate_rank_at_position": 8,
+      "clean_fast_gap": 8.25,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          8281,
+          5049,
+          25578,
+          32,
+          151645
+        ],
+        "text": "COCA COLA",
+        "keep_hash": "f58ec51c7231a756d59ab3aa1c869ac971a90cbb03eb4adde92b774c7606cdb0",
+        "k": 2774
+      },
+      "complete_lexical_key": "cocacola",
+      "complete_lexical_similarity_to_clean": 0.6153846153846154,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 785,
+      "target_piece": "The",
+      "candidate_id": 62854,
+      "candidate_piece": " Coca",
+      "candidate_rank_at_position": 12,
+      "clean_fast_gap": 8.75,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          62854,
+          4254,
+          64,
+          151645
+        ],
+        "text": "Coca Cola",
+        "keep_hash": "e481efef16deca8c997e2e085f526d5bfb6499c4ca016643e278b35f892bbfd9",
+        "k": 2774
+      },
+      "complete_lexical_key": "cocacola",
+      "complete_lexical_similarity_to_clean": 0.6153846153846154,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 785,
+      "target_piece": "The",
+      "candidate_id": 1015,
+      "candidate_piece": "co",
+      "candidate_rank_at_position": 13,
+      "clean_fast_gap": 8.8125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          1015,
+          440,
+          151645
+        ],
+        "text": "coke",
+        "keep_hash": "2d873f392dc4d4ea79000e4ec68b9e45751511bab07c17373d5f21510ec9ab96",
+        "k": 2774
+      },
+      "complete_lexical_key": "coke",
+      "complete_lexical_similarity_to_clean": 0.18181818181818182,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 3,
+      "target_id": 8188,
+      "target_piece": " Company",
+      "candidate_id": 7284,
+      "candidate_piece": " CO",
+      "candidate_rank_at_position": 12,
+      "clean_fast_gap": 10.4375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          785,
+          62854,
+          65177,
+          7284,
+          76,
+          1981,
+          151645
+        ],
+        "text": "The Coca-Cola COmpany",
+        "keep_hash": "a7f7f59e2c17aac08f9bf365f6dfdb83ab930312b990b27c913ac677b44df9a9",
+        "k": 2774
+      },
+      "complete_lexical_key": "thecocacolacompany",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    }
+  ],
+  "candidate_generation_wall_seconds": 77.139,
+  "candidate_generation_protocol": "v29 clean-only cap: at most 24 raw branches and 6 complete continuations"
+}

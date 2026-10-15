@@ -1,0 +1,68 @@
+{
+  "sample_id": "7006",
+  "chosen_step": 150,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "RJ Reynolds Tobacco Company",
+  "clean_text": "RJ Reynolds Tobacco Company",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 5.146518707275391,
+  "pollution": 0,
+  "strict_train": 0,
+  "by_ratio": {
+    "0.50": {
+      "text": "RJ Reynolds Tobacco Company",
+      "anls": 0.962962962962963,
+      "margin": 4.147468090057373,
+      "keep": {
+        "k": 7398,
+        "keep_hash": "affb2ee712f35066b000905b01d39ae949b8bdcf4441591f35e09b3ff4cbe227",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 0.9990506172180176
+    },
+    "0.35": {
+      "text": "RJ Reynolds Tobacco Company",
+      "anls": 0.962962962962963,
+      "margin": 1.6872228384017944,
+      "keep": {
+        "k": 5179,
+        "keep_hash": "bd748c4c6b2b437d648a4184364210e21c46087193a035203c6803069996dd2e",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 3.459295868873596
+    },
+    "0.25": {
+      "text": "Winston-Salem Tobaccogold Company",
+      "anls": 0.5625,
+      "margin": 0.822210431098938,
+      "keep": {
+        "k": 3699,
+        "keep_hash": "2a97aab0b1165b6d6991a7e7969097a70ee210511bc2f61d1cc33a00fa72e50e",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 4.324308276176453
+    },
+    "0.15": {
+      "text": "RJ Reynolds Tobacco Company",
+      "anls": 0.962962962962963,
+      "margin": 2.178211212158203,
+      "keep": {
+        "k": 2219,
+        "keep_hash": "a7653302431515bbfaedaf36acbc6c5c541bfe919e687de0ff60ec02a30b96d7",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 2.9683074951171875
+    }
+  },
+  "selector_margin": 1.2547166347503662
+}

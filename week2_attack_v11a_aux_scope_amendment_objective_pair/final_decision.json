@@ -1,0 +1,23 @@
+{
+  "decision": "BLOCKED_H0_REPLAY_DIVERGED",
+  "phase_a": "PASS",
+  "h0": "RUN",
+  "h1": "NOT_RUN",
+  "earliest_mismatch_step": 10,
+  "step0_png_match": true,
+  "samples": [
+    "1025",
+    "2008",
+    "47450",
+    "60700",
+    "7006",
+    "39204"
+  ],
+  "paired_h0_h1": "NOT_RUN",
+  "pgd": "NOT_RUN",
+  "opgd": "NOT_RUN",
+  "noise": "NOT_RUN",
+  "unseen": "NOT_RUN",
+  "stage_c": "NOT_RUN",
+  "parent_raw": "PASS"
+}

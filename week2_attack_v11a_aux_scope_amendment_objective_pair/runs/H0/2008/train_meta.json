@@ -1,0 +1,29 @@
+{
+  "sample_id": "2008",
+  "group": "H0",
+  "aux_idx": 0,
+  "question": "When did the advertisement appear in Good Housekeeping?",
+  "page_sha256": [
+    "fe5a6c3c88a77ef33b42e1c45d0fe2b28b39f37be8983db7e6d753ceef12f8f4",
+    "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+  ],
+  "counters": {
+    "forward": 4043,
+    "backward": 600,
+    "generate": 425,
+    "fastv": 416,
+    "generated_tokens": 3702
+  },
+  "elapsed_sec": 1625.6447873050347,
+  "peak_memory_mib": 22903.28662109375,
+  "historical_selector": {
+    "step": 200,
+    "nonzero": 1,
+    "output_valid": 1,
+    "full_exact": 1,
+    "linf_ok": 1,
+    "pixel_linf_uint8": 0.03137257695198059,
+    "margin": 0.7726145088672638
+  },
+  "clean_text": "March 1968"
+}

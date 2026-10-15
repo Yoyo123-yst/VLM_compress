@@ -1,0 +1,34 @@
+{
+  "sample_id": "60700",
+  "reference_tokens": [
+    4406,
+    7347,
+    151645
+  ],
+  "reference_pieces": [
+    "PP",
+    "BS",
+    "<|im_end|>"
+  ],
+  "core_positions": [
+    0,
+    1
+  ],
+  "base_fast_text": "PPBS",
+  "base_full_text": "PPBS",
+  "base_keep_hash": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca",
+  "base_processor_hash": "2bae9dddf130398078c90808ee4393d6c9d03f324c2033ce85ae3d58b5fe6a6b",
+  "base_full_exact": true,
+  "gradient_prepared_hash": "2bae9dddf130398078c90808ee4393d6c9d03f324c2033ce85ae3d58b5fe6a6b",
+  "diff_meta": {
+    "eigenvalue": 637153.0,
+    "basis_rank": 5,
+    "core_response": 1530.282958984375
+  },
+  "direction_hashes": {
+    "RAW": "0983c05eab9660d7d6c388751788d396657423f40195fea2a7a6c80cfd861532",
+    "NATIVE": "cd34f6843df22d4b2acd81b818e24a790905f2c10031d8707a88a981d53e57dd",
+    "DIFF": "f4fd217b9fd7b17c18acef8b7b00d8b4a0f4f9ce18db895a9954c07800a6a4a8",
+    "RANDOM": "ac933c9cc98ee67246af27b1e75970a885182771139ecafd057279c860241cad"
+  }
+}

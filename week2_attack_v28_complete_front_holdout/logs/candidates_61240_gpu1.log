@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v28_complete_front_holdout/generate_candidates.py", line 39, in <module>
+    main()
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v28_complete_front_holdout/generate_candidates.py", line 27, in main
+    torch.cuda.set_device(args.device)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/cuda/__init__.py", line 476, in set_device
+    torch._C._cuda_setDevice(device)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

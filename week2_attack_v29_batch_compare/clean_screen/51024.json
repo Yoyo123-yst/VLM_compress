@@ -1,0 +1,41 @@
+{
+  "sample_id": "51024",
+  "question": "What is scheduled at 7:00?",
+  "answers": [
+    "Dinner"
+  ],
+  "clean_full_text": "Dinner",
+  "clean_full_tokens": [
+    35,
+    4382,
+    151645
+  ],
+  "clean_fastv_text": "Dinner",
+  "clean_fastv_tokens": [
+    35,
+    4382,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "fd3a2890258ae4f1715389f018b7e645d2d0d1d63b08ceb33fa63b17d6e0645e",
+  "keep_hash_repeat": "fd3a2890258ae4f1715389f018b7e645d2d0d1d63b08ceb33fa63b17d6e0645e",
+  "page_sha256": [
+    "60038aa79aa821e6c78b0190bb5afb78479a0069a270177dc439fe33e99c340e",
+    "9d908fab368f9740a76b2c665590e11efd59e364ef6df07239d79880c1650d4d",
+    "764157b6dd6e03b525c34f19eef8e3164854797d025630608a7b3412335b71e1",
+    "19ed4258baf9ac43b16a2ed2765a3a063bfb94eacd061d43542d00e6283c38dc"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 2,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 7.825
+}

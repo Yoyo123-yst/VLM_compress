@@ -1,0 +1,8 @@
+{
+  "health_json_flag": false,
+  "substantive_gate": "PASS",
+  "reason": "evaluate_uint8 completed, so its hook-versus-generate keep assert passed and uint8 Linf was within epsilon. k, k_generate, and official K are all 2774. clean Full and FastV match the historical baseline, uint8 reload Linf is 0, FastV score diff is 0, L_comp and L_soft gradients are finite and above 1e-6, evidence pixel gradient is 0. The false flag compares compression() keep indices on the teacher-forcing sequence with generation keep indices. Those index spaces are not the same object, so list equality is not the hook/generate check.",
+  "lambda_soft": 2.049824826423478,
+  "beta_used": false,
+  "formal_attack": "not started until both smokes exit 0"
+}

@@ -1,0 +1,70 @@
+# mechanism audit
+
+- CC reproduces clean FastV: 60/60
+- AA reproduces selected FastV: 60/60
+- Strict-success mechanism counts: {'CONTENT_SUFFICIENT': 40, 'INTERACTION_REQUIRED': 12}
+- Non-strict diagnosis counts, not mixed into the success proportion: {'CONTENT_SUFFICIENT': 2, 'UNEXPLAINED_OR_INVALID': 6}
+- Content-dominant claim allowed: True
+
+Cell strict means the compressed-path text is nonempty and its ANLS is below 0.5. A strict primary sample keeps its already validated Full-exact state.
+
+- 2288 M=2 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 18736 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error TRUNCATION_OR_EOS
+- 41800 M=2 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error UNRELATED_ANSWER_REPLACEMENT
+- 45827 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 49432 M=4 strict_success INTERACTION_REQUIRED: AA strict while AC and CA are non-strict; error TRUNCATION_OR_EOS
+- 50906 M=3 strict_success INTERACTION_REQUIRED: AA strict while AC and CA are non-strict; error CORE_ANSWER_CHANGED
+- 51660 M=3 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 5412 M=3 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 55463 M=2 non_strict_failure_diagnosis CONTENT_SUFFICIENT: AC strict and CA non-strict; error -
+- 56403 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 57531 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error UNRELATED_ANSWER_REPLACEMENT
+- 58434 M=2 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 60744 M=3 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 65118 M=2 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 790 M=3 strict_success INTERACTION_REQUIRED: AA strict while AC and CA are non-strict; error CORE_ANSWER_CHANGED
+- 8122 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error UNRELATED_ANSWER_REPLACEMENT
+- 15282 M=4 non_strict_failure_diagnosis UNEXPLAINED_OR_INVALID: cell pattern does not match the exclusive rules; error -
+- 25716 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 44779 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error UNRELATED_ANSWER_REPLACEMENT
+- 49123 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 50803 M=3 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error UNRELATED_ANSWER_REPLACEMENT
+- 51298 M=2 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 51702 M=2 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 5497 M=3 strict_success INTERACTION_REQUIRED: AA strict while AC and CA are non-strict; error CORE_ANSWER_CHANGED
+- 56084 M=4 strict_success INTERACTION_REQUIRED: AA strict while AC and CA are non-strict; error CORE_ANSWER_CHANGED
+- 56808 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error TRUNCATION_OR_EOS
+- 57887 M=2 strict_success INTERACTION_REQUIRED: AA strict while AC and CA are non-strict; error EXTRA_TEXT_POLLUTION
+- 58449 M=4 strict_success INTERACTION_REQUIRED: AA strict while AC and CA are non-strict; error CORE_ANSWER_CHANGED
+- 62321 M=4 strict_success INTERACTION_REQUIRED: AA strict while AC and CA are non-strict; error CORE_ANSWER_CHANGED
+- 7029 M=2 non_strict_failure_diagnosis UNEXPLAINED_OR_INVALID: cell pattern does not match the exclusive rules; error -
+- 1170 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error UNRELATED_ANSWER_REPLACEMENT
+- 22317 M=4 strict_success INTERACTION_REQUIRED: AA strict while AC and CA are non-strict; error UNRELATED_ANSWER_REPLACEMENT
+- 43150 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 47572 M=2 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 50312 M=3 strict_success INTERACTION_REQUIRED: AA strict while AC and CA are non-strict; error CORE_ANSWER_CHANGED
+- 51140 M=2 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error UNRELATED_ANSWER_REPLACEMENT
+- 53463 M=2 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error UNRELATED_ANSWER_REPLACEMENT
+- 55160 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 5586 M=4 strict_success INTERACTION_REQUIRED: AA strict while AC and CA are non-strict; error CORE_ANSWER_CHANGED
+- 57221 M=4 non_strict_failure_diagnosis UNEXPLAINED_OR_INVALID: cell pattern does not match the exclusive rules; error -
+- 58371 M=4 strict_success INTERACTION_REQUIRED: AA strict while AC and CA are non-strict; error TRUNCATION_OR_EOS
+- 58827 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 62650 M=2 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error UNRELATED_ANSWER_REPLACEMENT
+- 6942 M=2 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error UNRELATED_ANSWER_REPLACEMENT
+- 7937 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 1023 M=3 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 18831 M=4 non_strict_failure_diagnosis UNEXPLAINED_OR_INVALID: cell pattern does not match the exclusive rules; error -
+- 41828 M=2 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 46737 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error EXTRA_TEXT_POLLUTION
+- 49530 M=4 non_strict_failure_diagnosis CONTENT_SUFFICIENT: AC strict and CA non-strict; error -
+- 51070 M=3 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 5159 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error UNRELATED_ANSWER_REPLACEMENT
+- 53993 M=3 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error UNRELATED_ANSWER_REPLACEMENT
+- 55363 M=4 non_strict_failure_diagnosis UNEXPLAINED_OR_INVALID: cell pattern does not match the exclusive rules; error -
+- 5615 M=2 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 57258 M=2 non_strict_failure_diagnosis UNEXPLAINED_OR_INVALID: cell pattern does not match the exclusive rules; error -
+- 58421 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error TRUNCATION_OR_EOS
+- 59379 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 64689 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED
+- 8072 M=4 strict_success CONTENT_SUFFICIENT: AC strict and CA non-strict; error CORE_ANSWER_CHANGED

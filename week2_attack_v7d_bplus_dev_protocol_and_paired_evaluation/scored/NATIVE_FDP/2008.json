@@ -1,0 +1,68 @@
+{
+  "sample_id": "2008",
+  "chosen_step": 200,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "March 1968",
+  "clean_text": "March 1968",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 5.586413860321045,
+  "pollution": 0,
+  "strict_train": 1,
+  "by_ratio": {
+    "0.50": {
+      "text": "March 1968",
+      "anls": 1.0,
+      "margin": 1.0118821859359741,
+      "keep": {
+        "k": 3699,
+        "keep_hash": "5e4a5852c6bb3abf683cf4d8f9c289b02ee9d546a70ce378ca8003a3fe1dabbe",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 4.574531674385071
+    },
+    "0.35": {
+      "text": "March 1956, Yr.26, No.2",
+      "anls": 0.0,
+      "margin": 0.1535317301750183,
+      "keep": {
+        "k": 2589,
+        "keep_hash": "23f7eac9d672c5b63ba19ef5856241c645f464496f197791c18a2e7ffc3c2ab1",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.432882130146027
+    },
+    "0.25": {
+      "text": "February/23, issue/22",
+      "anls": 0.0,
+      "margin": -0.27745839953422546,
+      "keep": {
+        "k": 1850,
+        "keep_hash": "b01acdd405039b4d4514c06d9c846c89fa3b08453b09109af2e6ee98dd4ef1ab",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.86387225985527
+    },
+    "0.15": {
+      "text": "March 1956",
+      "anls": 0.8,
+      "margin": 3.4251418113708496,
+      "keep": {
+        "k": 1110,
+        "keep_hash": "6593b806664f8dbd7ecc90fa2551a212d92a426a3b4b1edf13057e4cfb08f6a4",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 2.1612720489501953
+    }
+  },
+  "selector_margin": -0.06196333467960358
+}

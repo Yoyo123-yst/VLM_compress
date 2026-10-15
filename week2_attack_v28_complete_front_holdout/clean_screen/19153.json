@@ -1,0 +1,61 @@
+{
+  "sample_id": "19153",
+  "question": "What is the FAX NO ?",
+  "answers": [
+    "(336-741-5197)"
+  ],
+  "clean_full_text": "3202-872-4370",
+  "clean_full_tokens": [
+    18,
+    17,
+    15,
+    17,
+    12,
+    23,
+    22,
+    17,
+    12,
+    19,
+    18,
+    22,
+    15,
+    151645
+  ],
+  "clean_fastv_text": "336-741-6662",
+  "clean_fastv_tokens": [
+    18,
+    18,
+    21,
+    12,
+    22,
+    19,
+    16,
+    12,
+    21,
+    21,
+    21,
+    17,
+    151645
+  ],
+  "clean_full_anls": 0.0,
+  "clean_fastv_anls": 0.6,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 2774,
+  "expected_k": 2774,
+  "keep_hash": "d97db8788d1ae282dbda91224aba571442fe2b61960bab2f977b49e83a6c7aa0",
+  "keep_hash_repeat": "d97db8788d1ae282dbda91224aba571442fe2b61960bab2f977b49e83a6c7aa0",
+  "page_sha256": [
+    "d3ed81782873eb97c7b3d08855307b92674975033b76fc293ada96c639449731",
+    "58dc60f76f6cf3696946da6f589e164f03667a14662fdfd8189694abc5996250",
+    "1abfa025fb6b94f1304d2fdbf13f76c1eb8715883169da0736395831f6556951"
+  ],
+  "layout_M": 3,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.519
+}

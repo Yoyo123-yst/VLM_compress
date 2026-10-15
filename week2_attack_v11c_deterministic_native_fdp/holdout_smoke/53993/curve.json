@@ -1,0 +1,66 @@
+[
+  {
+    "step": 0,
+    "png_sha256": "3af17bd500744b06f96ce84a4f95b9af72813b4ca8f48f117a8b6f1faca40d67",
+    "texts": {
+      "full": "Ohio",
+      "fastv_0.25": "Ohio",
+      "fastv_0.35": "Ohio"
+    },
+    "margins": {
+      "0.25": 3.2930831909179688,
+      "0.35": 3.1121931076049805
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "6d3869ef774dd43435512cf898655acad3fe0f43ef522c142b2dc31ab635fd33"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "145e1a224e6e0b05b64bf3e35143de7d01958f2b0247dc7a0e9bef4593a9ecb9"
+      }
+    },
+    "selector": {
+      "step": 0,
+      "nonzero": 0,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 0,
+      "pixel_linf_uint8": 0.0,
+      "margin": 3.2026381492614746
+    }
+  },
+  {
+    "step": 2,
+    "png_sha256": "88cfdc9ff24fbb45992595ec3db4069547cf5715792c9841316a9413f21e4b60",
+    "texts": {
+      "full": "Ohio",
+      "fastv_0.25": "Ohio",
+      "fastv_0.35": "Ohio"
+    },
+    "margins": {
+      "0.25": 3.172548294067383,
+      "0.35": 3.133546829223633
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "9fa026ca58642a20d186b0753ddf2e287b4be8961ab67ad5c60346a574d0108e"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "9599e1e0af8cd79425482917199f60ac2ce769dc68410f2382f5cc9e633555ba"
+      }
+    },
+    "selector": {
+      "step": 2,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.01568630337715149,
+      "margin": 3.153047561645508
+    }
+  }
+]

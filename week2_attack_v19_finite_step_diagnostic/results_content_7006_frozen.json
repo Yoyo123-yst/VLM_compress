@@ -1,0 +1,3048 @@
+{
+  "status": "DONE",
+  "objective": "content",
+  "steps": 4,
+  "alphas": [
+    0.000980392156862745,
+    0.00196078431372549,
+    0.00392156862745098,
+    0.00784313725490196
+  ],
+  "epsilon_uint8": 8,
+  "selected_states": [
+    "7006_near"
+  ],
+  "states": {
+    "60700_error": {
+      "sample": "60700",
+      "png": "week2_attack_v13_branch_reachability_probe/runs/state_retention_v1/60700/AWARE_FREEZE/step_011.png",
+      "sha256": "9fa86ee802bd22064f6503ceed9b512b5fd0464022da66be3df73d3189f0a367"
+    },
+    "60700_recovery": {
+      "sample": "60700",
+      "png": "week2_attack_v16_corrected_direction_audit/60700_attack_only/step_001.png",
+      "sha256": "2a46bc659495661664b07b628c91544fe14c6bcc713e43c4a49da492e819f32f"
+    },
+    "7006_near": {
+      "sample": "7006",
+      "png": "week2_attack_v15_recovery_path_probe/construction/7006/B/checkpoints/step_010.png",
+      "sha256": "7f41616e91051a131b5c46faa574fdbc673899c799579f732555c0df36f951f9"
+    }
+  },
+  "records": [
+    {
+      "text": "Tobacco Company",
+      "tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "anls": 0.5769230769230769,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "20f27b62e10337fad14414b3d6c8eca0f0a3d2e4dfb1ff2c849468d992112c93",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.000980392156862745,
+      "step": 0,
+      "strict_endpoint": false,
+      "attack_loss": 1.5476562976837158,
+      "fdp": 0.8749801516532898,
+      "grad_hash": "18d5c879f278ae60a4c7e41d6eb029878897cae8de53e3fd7db6d5d6d8340348",
+      "grad_l2": 9.465826988220215,
+      "grad_linf": 1.1929616928100586,
+      "pre_update_delta_hash": "011a754c4424e7e67d8ba0aaf73d8f3b3c3bd1c6698f0da6420555eeafff8d53",
+      "post_projection_delta_hash": "b85edfb7e54f44ed0943c6248d62fd70e1fa82498bb81a87a53f29de69afd000",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.5476562976837158,
+        "fdp": 0.8749801516532898,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.0416666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.25,
+          4.0625,
+          2.3125,
+          0.375,
+          3.875
+        ],
+        "core_token_margin_mean": 2.075
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.547270655632019,
+        "fdp": 0.7755100727081299,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "25d20677ceb73b4d3c6452267c8974cc6abb9f484ff99894b2e65a80b256fd2c",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.0520833333333335,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.25,
+          4.125,
+          2.3125,
+          0.375,
+          3.875
+        ],
+        "core_token_margin_mean": 2.0875
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.5476562976837158,
+        "fdp": 0.8749801516532898,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.0416666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.25,
+          4.0625,
+          2.3125,
+          0.375,
+          3.875
+        ],
+        "core_token_margin_mean": 2.075
+      },
+      "post_float_page_hash": "585ca0d1e0986d0a85c71e3302564e69253ced161b9ca55fa5255a6c2c200ebf",
+      "post_png_page_hash": "9a7d561ef223d2923ccbf2397214854b83002ba0b1ca206466386d5d0ee94ef9"
+    },
+    {
+      "text": "Tobacco Company",
+      "tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "anls": 0.5769230769230769,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "25d20677ceb73b4d3c6452267c8974cc6abb9f484ff99894b2e65a80b256fd2c",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "20f27b62e10337fad14414b3d6c8eca0f0a3d2e4dfb1ff2c849468d992112c93",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.000980392156862745,
+      "step": 1,
+      "strict_endpoint": false,
+      "attack_loss": 1.547270655632019,
+      "fdp": 0.7755100727081299,
+      "grad_hash": "230bc72a1d20729e2fc2f32fdefadb6ebb3eda55fb413990948a104261e4be5f",
+      "grad_l2": 19.211105346679688,
+      "grad_linf": 2.8237838745117188,
+      "pre_update_delta_hash": "b85edfb7e54f44ed0943c6248d62fd70e1fa82498bb81a87a53f29de69afd000",
+      "post_projection_delta_hash": "9fa2dfca4700297b99fcc9e32214316e11f81a5c05e55b84b6d1f009e45569f9",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.547270655632019,
+        "fdp": 0.7755100727081299,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "25d20677ceb73b4d3c6452267c8974cc6abb9f484ff99894b2e65a80b256fd2c",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.0520833333333335,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.25,
+          4.125,
+          2.3125,
+          0.375,
+          3.875
+        ],
+        "core_token_margin_mean": 2.0875
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.5386968851089478,
+        "fdp": 0.7715030908584595,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "97cbad0b06f6132d2e40581a72010b0fcf58b6755cd816f7997fadcb36508b2d",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.0833333333333335,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.125,
+          2.375,
+          0.375,
+          3.75
+        ],
+        "core_token_margin_mean": 2.1
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.5663858652114868,
+        "fdp": 0.7654083967208862,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "facb0b6430fe490ba189da3ed822268fbc5c4e1dd6b5c293dac11e75dae69668",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.0729166666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.125,
+          2.4375,
+          0.375,
+          3.75
+        ],
+        "core_token_margin_mean": 2.1125
+      },
+      "post_float_page_hash": "929a0881cb77711c31eb99b7616055ef04fcde32f4d58002d0675b5ed60e18c5",
+      "post_png_page_hash": "2e0e111fda0850653d0fe5a1a80e3d6119bb57736629d8420344e1b0a197dc42"
+    },
+    {
+      "text": "Tobacco Company",
+      "tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "anls": 0.5769230769230769,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "97cbad0b06f6132d2e40581a72010b0fcf58b6755cd816f7997fadcb36508b2d",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "31b85ba5377e8ebe9c4de12a6f7eb0ed05146d06b732c8ade5f8ce4fcc4be22d",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.000980392156862745,
+      "step": 2,
+      "strict_endpoint": false,
+      "attack_loss": 1.5386968851089478,
+      "fdp": 0.7715030908584595,
+      "grad_hash": "6281fe15348762a2f70139e20c690cf22827cf2d1975e33c57fab7c926981af6",
+      "grad_l2": 6.563578128814697,
+      "grad_linf": 0.7807769775390625,
+      "pre_update_delta_hash": "9fa2dfca4700297b99fcc9e32214316e11f81a5c05e55b84b6d1f009e45569f9",
+      "post_projection_delta_hash": "18ee68db536d514acd2190ec446c8c287c3e24c179f741bb3602905e5744ddc3",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.5386968851089478,
+        "fdp": 0.7715030908584595,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "97cbad0b06f6132d2e40581a72010b0fcf58b6755cd816f7997fadcb36508b2d",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.0833333333333335,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.125,
+          2.375,
+          0.375,
+          3.75
+        ],
+        "core_token_margin_mean": 2.1
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.5687910318374634,
+        "fdp": 0.7042452096939087,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "b2af348537f9e5eb04b582a51a0d190f2fc7339b51273fbed5fa1db572592dc2",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.1041666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.25,
+          4.25,
+          2.5,
+          0.375,
+          3.875
+        ],
+        "core_token_margin_mean": 2.15
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.551870584487915,
+        "fdp": 0.6773208975791931,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "8db114585de2002f9b2811d5f04c2bca94a6f3032e5c20fb267daa4da7af25bc",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.1145833333333335,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.1875,
+          2.375,
+          0.375,
+          3.875
+        ],
+        "core_token_margin_mean": 2.1375
+      },
+      "post_float_page_hash": "e42ac13935442666d08db41a1025cc46abd32e2aae60027d87576b58561abe6d",
+      "post_png_page_hash": "0352cb48a7ef6172a2bbbbb536f2c35dd46c45e17803e0bcf860bdf337f8f3f4"
+    },
+    {
+      "text": "Tobacco Company",
+      "tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "anls": 0.5769230769230769,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "b2af348537f9e5eb04b582a51a0d190f2fc7339b51273fbed5fa1db572592dc2",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "ea1fad17134fc26ae790de920881797d38956a74cba54d80ebc1d33ef5866b31",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.000980392156862745,
+      "step": 3,
+      "strict_endpoint": false,
+      "attack_loss": 1.5687910318374634,
+      "fdp": 0.7042452096939087,
+      "grad_hash": "88f355fd23a24547af9e6eaac55a760f8d3ba0f1994304764d390a769cc5d281",
+      "grad_l2": 6.851814270019531,
+      "grad_linf": 0.6474045515060425,
+      "pre_update_delta_hash": "18ee68db536d514acd2190ec446c8c287c3e24c179f741bb3602905e5744ddc3",
+      "post_projection_delta_hash": "af4ebf522876b3da2ac7a8a6179e4dd800ee150ce8030834356678560be71410",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.5687910318374634,
+        "fdp": 0.7042452096939087,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "b2af348537f9e5eb04b582a51a0d190f2fc7339b51273fbed5fa1db572592dc2",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.1041666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.25,
+          4.25,
+          2.5,
+          0.375,
+          3.875
+        ],
+        "core_token_margin_mean": 2.15
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.5494425296783447,
+        "fdp": 0.6806365847587585,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "4e9214ffffb7617965438cb14c9a3f636730bd95a93c57b200421afcc72388e5",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.09375,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.125,
+          2.4375,
+          0.375,
+          3.875
+        ],
+        "core_token_margin_mean": 2.1375
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.5260051488876343,
+        "fdp": 0.6996999979019165,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "d263af4daff668401b1eda6a9ce8057e81337f998d40c6eb4e43d826f9a59d1c",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.1041666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.1875,
+          2.3125,
+          0.375,
+          3.875
+        ],
+        "core_token_margin_mean": 2.125
+      },
+      "post_float_page_hash": "1463dae3f78cde60c16d8b702a06d7b59280c4b059e9faf08a858e9408fe2dab",
+      "post_png_page_hash": "025cfc2458b613d66c55a7c2b9a9812eca705a583a916a562ee77691f462d961"
+    },
+    {
+      "text": "Tobacco Company",
+      "tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "anls": 0.5769230769230769,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "4e9214ffffb7617965438cb14c9a3f636730bd95a93c57b200421afcc72388e5",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "a92fa27d589c3448b029cc2b4145c2ff79ad10021b97d6283fbff295f2f1ce11",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.000980392156862745,
+      "step": 4,
+      "strict_endpoint": false
+    },
+    {
+      "text": "Tobacco Company",
+      "tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "anls": 0.5769230769230769,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "20f27b62e10337fad14414b3d6c8eca0f0a3d2e4dfb1ff2c849468d992112c93",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.00196078431372549,
+      "step": 0,
+      "strict_endpoint": false,
+      "attack_loss": 1.5476562976837158,
+      "fdp": 0.8749801516532898,
+      "grad_hash": "18d5c879f278ae60a4c7e41d6eb029878897cae8de53e3fd7db6d5d6d8340348",
+      "grad_l2": 9.465826988220215,
+      "grad_linf": 1.1929616928100586,
+      "pre_update_delta_hash": "011a754c4424e7e67d8ba0aaf73d8f3b3c3bd1c6698f0da6420555eeafff8d53",
+      "post_projection_delta_hash": "20fe3c63a20f664c2714784b4373f5dc68e19c96b002e38cac20d34099a7d78a",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.5476562976837158,
+        "fdp": 0.8749801516532898,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.0416666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.25,
+          4.0625,
+          2.3125,
+          0.375,
+          3.875
+        ],
+        "core_token_margin_mean": 2.075
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.5169916152954102,
+        "fdp": 0.7384676337242126,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "022b4731e2d524937ab79216602170788c3c673ed68911945ee216162e21f0c4",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.0520833333333335,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.0625,
+          2.375,
+          0.25,
+          3.875
+        ],
+        "core_token_margin_mean": 2.0875
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.6006392240524292,
+        "fdp": 0.7221578359603882,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "b2231543a154ba37264ba8682c511f2131933b46b59338bc4ea1dc6fed5712cb",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.1979166666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.0,
+          4.1875,
+          2.375,
+          0.5,
+          3.875
+        ],
+        "core_token_margin_mean": 2.1875
+      },
+      "post_float_page_hash": "47457a33264f76291f7ee7acad34c5bbc8dfb6b520639301ec3b20600c243d9e",
+      "post_png_page_hash": "c1fcedeba34444f5630ea6bf932313da864008c00b7fe4877b3283df088904b3"
+    },
+    {
+      "text": "Tobacco Company",
+      "tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "anls": 0.5769230769230769,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "022b4731e2d524937ab79216602170788c3c673ed68911945ee216162e21f0c4",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "892a09482580a186f906d24587cb11d95d6b68c3e208c414609168b90214ecac",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.00196078431372549,
+      "step": 1,
+      "strict_endpoint": false,
+      "attack_loss": 1.5169916152954102,
+      "fdp": 0.7384676337242126,
+      "grad_hash": "1a429b423014f550167983441081c462fbfd34fcf97f4f3cd9dbb9fbeea971a9",
+      "grad_l2": 10.874706268310547,
+      "grad_linf": 1.5835747718811035,
+      "pre_update_delta_hash": "20fe3c63a20f664c2714784b4373f5dc68e19c96b002e38cac20d34099a7d78a",
+      "post_projection_delta_hash": "87f25f7637709890d60f20ba0b6e73c83e7761267ca62facd6264a2af0e1dfd6",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.5169916152954102,
+        "fdp": 0.7384676337242126,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "022b4731e2d524937ab79216602170788c3c673ed68911945ee216162e21f0c4",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.0520833333333335,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.0625,
+          2.375,
+          0.25,
+          3.875
+        ],
+        "core_token_margin_mean": 2.0875
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.6003354787826538,
+        "fdp": 0.7037420272827148,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "085dd0903a0d8e08c4513166a8765808dd766ffa1c005aee512092f52a1cefef",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.1666666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.25,
+          2.5,
+          0.5,
+          3.75
+        ],
+        "core_token_margin_mean": 2.175
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.6148303747177124,
+        "fdp": 0.6850561499595642,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "da2c0523f9a92a6494a71c88df2a682bc0685bcbb12961f7da3ff914659aaede",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.1770833333333335,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.25,
+          2.4375,
+          0.5,
+          3.875
+        ],
+        "core_token_margin_mean": 2.1875
+      },
+      "post_float_page_hash": "253106b194103505014bc56ab964e87a327938ad9b3d2b0973d3a7f726509f8c",
+      "post_png_page_hash": "482b7c5f9fa6df985aa3ba54e96889ea688d09989923b4771d346bf3a097a807"
+    },
+    {
+      "text": "RJ Reynolds Tobacco Company",
+      "tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "anls": 0.962962962962963,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "085dd0903a0d8e08c4513166a8765808dd766ffa1c005aee512092f52a1cefef",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "c5da8dc31b30acab66c7bc89e826b2274bb68b2b1f03a4006e1e4bc52968e12f",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.00196078431372549,
+      "step": 2,
+      "strict_endpoint": false,
+      "attack_loss": 1.6003354787826538,
+      "fdp": 0.7037420272827148,
+      "grad_hash": "80b2b2e6c874a3cc71fb08d6664a159eb827cc78de0a6f92aa992c6332f2dad3",
+      "grad_l2": 19.27882194519043,
+      "grad_linf": 1.3507390022277832,
+      "pre_update_delta_hash": "87f25f7637709890d60f20ba0b6e73c83e7761267ca62facd6264a2af0e1dfd6",
+      "post_projection_delta_hash": "98c5db59f35b80df60e23d630999846483268954df6ff8536fe4d8b497acf099",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.6003354787826538,
+        "fdp": 0.7037420272827148,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "085dd0903a0d8e08c4513166a8765808dd766ffa1c005aee512092f52a1cefef",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.1666666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.25,
+          2.5,
+          0.5,
+          3.75
+        ],
+        "core_token_margin_mean": 2.175
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.5251474380493164,
+        "fdp": 0.6651434302330017,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "3f82ac8bcebb92a7dd2c7e7405aeae58ae23a5e4031dd766d6abc78faf6a17cd",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.0833333333333335,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.25,
+          2.375,
+          0.375,
+          3.75
+        ],
+        "core_token_margin_mean": 2.125
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.5926172733306885,
+        "fdp": 0.6893689036369324,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "fe73d5459bcf5da053af8d52ae1a4d47769ee2c8b602cf8f1e012d290567f0e7",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.1041666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.25,
+          2.5,
+          0.375,
+          3.875
+        ],
+        "core_token_margin_mean": 2.175
+      },
+      "post_float_page_hash": "cea66a45fd32bc8a275d8925c33af864a18dcfc9db0c84f1f94bb3ae70872bd5",
+      "post_png_page_hash": "c64a257cc96395a041167ae7ec862dd7147cd74ae5feb8c3f0002c3f24e8d2af"
+    },
+    {
+      "text": "RJ Reynolds Tobacco Company",
+      "tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "anls": 0.962962962962963,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "3f82ac8bcebb92a7dd2c7e7405aeae58ae23a5e4031dd766d6abc78faf6a17cd",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "3348aeb2b99483f8b4c412195bda5b6fcf493502b21d2b0f33a81f0a57d913bf",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.00196078431372549,
+      "step": 3,
+      "strict_endpoint": false,
+      "attack_loss": 1.5251474380493164,
+      "fdp": 0.6651434302330017,
+      "grad_hash": "0a25dfa8e665a90c71ee5af4a5f9a998ed583c2d2b39621faf717b22f13f3fcb",
+      "grad_l2": 4.89315128326416,
+      "grad_linf": 0.4170818328857422,
+      "pre_update_delta_hash": "98c5db59f35b80df60e23d630999846483268954df6ff8536fe4d8b497acf099",
+      "post_projection_delta_hash": "c1046061e8669e1d5bb0065f28433852c94a9921518a3cf5ebba87c8ef400276",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.5251474380493164,
+        "fdp": 0.6651434302330017,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "3f82ac8bcebb92a7dd2c7e7405aeae58ae23a5e4031dd766d6abc78faf6a17cd",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.0833333333333335,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.25,
+          2.375,
+          0.375,
+          3.75
+        ],
+        "core_token_margin_mean": 2.125
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.583624243736267,
+        "fdp": 0.6095216274261475,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "0a5b777fc0ad97fdb69d0e16ed881bb603687027bbac4877fc61f870a4321f73",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.1770833333333335,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.25,
+          2.5625,
+          0.5,
+          3.875
+        ],
+        "core_token_margin_mean": 2.2125
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.5824021100997925,
+        "fdp": 0.6401833295822144,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "f942ddd638729b12ebcdd140fda670faf3388b741a17de333cbda4b2345b1f60",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.1875,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.125,
+          4.25,
+          2.5,
+          0.5,
+          3.875
+        ],
+        "core_token_margin_mean": 2.2
+      },
+      "post_float_page_hash": "3fde95400c6afc5fa2f073f0d16d602f121f014255d1e0e683b7e38d1fa74796",
+      "post_png_page_hash": "15622d454d087cd6dd0eb0299525ce47e51a9903f075d0402f77962730d6a3eb"
+    },
+    {
+      "text": "RJ Reynolds Tobacco Company",
+      "tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "anls": 0.962962962962963,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "0a5b777fc0ad97fdb69d0e16ed881bb603687027bbac4877fc61f870a4321f73",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "6f88902047917f9656ace5e3705f6045e83d2191b4a0b5481254b734e3dd88cc",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.00196078431372549,
+      "step": 4,
+      "strict_endpoint": false
+    },
+    {
+      "text": "Tobacco Company",
+      "tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "anls": 0.5769230769230769,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "20f27b62e10337fad14414b3d6c8eca0f0a3d2e4dfb1ff2c849468d992112c93",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.00392156862745098,
+      "step": 0,
+      "strict_endpoint": false,
+      "attack_loss": 1.5476562976837158,
+      "fdp": 0.8749801516532898,
+      "grad_hash": "18d5c879f278ae60a4c7e41d6eb029878897cae8de53e3fd7db6d5d6d8340348",
+      "grad_l2": 9.465826988220215,
+      "grad_linf": 1.1929616928100586,
+      "pre_update_delta_hash": "011a754c4424e7e67d8ba0aaf73d8f3b3c3bd1c6698f0da6420555eeafff8d53",
+      "post_projection_delta_hash": "2eb61024df84451925b8bd6df7fc2201365367dd4a6f6d1f112e6a96e5cd7b87",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.5476562976837158,
+        "fdp": 0.8749801516532898,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.0416666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.25,
+          4.0625,
+          2.3125,
+          0.375,
+          3.875
+        ],
+        "core_token_margin_mean": 2.075
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.6949989795684814,
+        "fdp": 0.7004361152648926,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "eb60cb82a1ce55673440da355df96c542e9c5b356e2b0b8b587f218b8212eb93",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.28125,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.25,
+          4.3125,
+          2.5,
+          0.5,
+          4.0
+        ],
+        "core_token_margin_mean": 2.3125
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.6657472848892212,
+        "fdp": 0.7090984582901001,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "0360cbbeaefc2407c39e507058bb22dc6a0ba3d5d0a022b2cf6d4c1945191c40",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.2604166666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.125,
+          4.1875,
+          2.5,
+          0.625,
+          4.0
+        ],
+        "core_token_margin_mean": 2.2875
+      },
+      "post_float_page_hash": "db3ed4fb4132c851b4ac34a938e0b7cfa20a01ebb7214504486cd5f7070b9f49",
+      "post_png_page_hash": "9bec888a01c5670b635cd16cf75ff82ed9084e454da588032a099d9192db6beb"
+    },
+    {
+      "text": "RJ Reynolds Tobacco Company",
+      "tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "anls": 0.962962962962963,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "eb60cb82a1ce55673440da355df96c542e9c5b356e2b0b8b587f218b8212eb93",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "4b4713f15f77f4eeb77b9e3b24b38eb2badb4785689ac15894c044ee5ceeff48",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.00392156862745098,
+      "step": 1,
+      "strict_endpoint": false,
+      "attack_loss": 1.6949989795684814,
+      "fdp": 0.7004361152648926,
+      "grad_hash": "93d69028aee0b7f597e7e67080a5489395949bcb01f311809ef7c3af4a12b2d4",
+      "grad_l2": 7.093211650848389,
+      "grad_linf": 0.6162116527557373,
+      "pre_update_delta_hash": "2eb61024df84451925b8bd6df7fc2201365367dd4a6f6d1f112e6a96e5cd7b87",
+      "post_projection_delta_hash": "35fb5632344d938f00109dbd8e7b02dcb6c0ffc7e88adce331ac51de529d3e7e",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.6949989795684814,
+        "fdp": 0.7004361152648926,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "eb60cb82a1ce55673440da355df96c542e9c5b356e2b0b8b587f218b8212eb93",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.28125,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.25,
+          4.3125,
+          2.5,
+          0.5,
+          4.0
+        ],
+        "core_token_margin_mean": 2.3125
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.6737579107284546,
+        "fdp": 0.649290919303894,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "0f1ed3878ac27235514e4d2814573f2e4b8fb28d58e594ca63b59615acea0001",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.3125,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.125,
+          4.3125,
+          2.6875,
+          0.5,
+          4.0
+        ],
+        "core_token_margin_mean": 2.325
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.6404293775558472,
+        "fdp": 0.6385226249694824,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "01b106e5c6fe3cdae97cd2f6ada2561a41bae12cc85ee0eff2c99afa3088118b",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.28125,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.125,
+          4.3125,
+          2.625,
+          0.375,
+          3.875
+        ],
+        "core_token_margin_mean": 2.2625
+      },
+      "post_float_page_hash": "b1fddf70a40a51ddffbea14eeee9fdebba4754fa7a6e3ec9b1bcf6ed6d67436f",
+      "post_png_page_hash": "6eab432508ca0f827e5616365634d214ed58d9379d11c1d049fb2fd3422ba537"
+    },
+    {
+      "text": "RJ Reynolds Tobacco Company",
+      "tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "anls": 0.962962962962963,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "0f1ed3878ac27235514e4d2814573f2e4b8fb28d58e594ca63b59615acea0001",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "61857ff3fa4fadab46dc390eb017088c3d3e9cfbebb0a6e5ff178316db0a18f9",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.00392156862745098,
+      "step": 2,
+      "strict_endpoint": false,
+      "attack_loss": 1.6737579107284546,
+      "fdp": 0.649290919303894,
+      "grad_hash": "a09262a2c2c081bece427da8eaaa6f1a6e4fa4a4f20c0c58faa506ca23821dc6",
+      "grad_l2": 14.756237030029297,
+      "grad_linf": 1.415495753288269,
+      "pre_update_delta_hash": "35fb5632344d938f00109dbd8e7b02dcb6c0ffc7e88adce331ac51de529d3e7e",
+      "post_projection_delta_hash": "3c02bd91738ae01b288531bf52d14c1d15c7bdc3ae05f5cdaa57af98ae9d9363",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.6737579107284546,
+        "fdp": 0.649290919303894,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "0f1ed3878ac27235514e4d2814573f2e4b8fb28d58e594ca63b59615acea0001",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.3125,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.125,
+          4.3125,
+          2.6875,
+          0.5,
+          4.0
+        ],
+        "core_token_margin_mean": 2.325
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.7408441305160522,
+        "fdp": 0.6316751837730408,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "0e9b21a94f42a4d6be84bff1396fce85dd4dc5d643623861dd772ec1b3350629",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.375,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.125,
+          4.25,
+          2.75,
+          0.875,
+          4.0
+        ],
+        "core_token_margin_mean": 2.4
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.758217692375183,
+        "fdp": 0.6356847286224365,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "3b487390ebb332d77196af67ec1ff6e2a96422596ee5f3ca16140264c1f8bea5",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.4166666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.125,
+          4.3125,
+          2.8125,
+          0.875,
+          4.0
+        ],
+        "core_token_margin_mean": 2.425
+      },
+      "post_float_page_hash": "18f5bcdf792617fee6006bafcaf505b55c2b080a7eb56ee9f28fa0cf86d4eeb8",
+      "post_png_page_hash": "ba8ca96bb11586a06f351f26e83fa8d92a81f3ca8ef7747435dcb88e0d511b84"
+    },
+    {
+      "text": "RJ Reynolds Tobacco Company",
+      "tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "anls": 0.962962962962963,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "0e9b21a94f42a4d6be84bff1396fce85dd4dc5d643623861dd772ec1b3350629",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "0f6b5cd235bea4e1b40771b71db61452f59e422105b5894954a0bc53b55a4353",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.00392156862745098,
+      "step": 3,
+      "strict_endpoint": false,
+      "attack_loss": 1.7408441305160522,
+      "fdp": 0.6316751837730408,
+      "grad_hash": "4267953bff274c36dcd73a520f4e548b0bd5f2af449f3178c137e7b7690dbbd8",
+      "grad_l2": 9.26774787902832,
+      "grad_linf": 0.762937068939209,
+      "pre_update_delta_hash": "3c02bd91738ae01b288531bf52d14c1d15c7bdc3ae05f5cdaa57af98ae9d9363",
+      "post_projection_delta_hash": "958e887fc8d978be64866340c6c0ded227d152f8010fb125507e7302734b8cf9",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.7408441305160522,
+        "fdp": 0.6316751837730408,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "0e9b21a94f42a4d6be84bff1396fce85dd4dc5d643623861dd772ec1b3350629",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.375,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.125,
+          4.25,
+          2.75,
+          0.875,
+          4.0
+        ],
+        "core_token_margin_mean": 2.4
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.685874342918396,
+        "fdp": 0.6036243438720703,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "58ff2b7403db8233cb7623804570cc406eabc2bee2dbd2ebf2f844085af97313",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.3333333333333335,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.125,
+          4.375,
+          2.875,
+          0.625,
+          3.625
+        ],
+        "core_token_margin_mean": 2.325
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.6413869857788086,
+        "fdp": 0.5833232402801514,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "4b5745f4c3d39b37ac34b10ae760e793b8a090a85d42b4e5c9bbb43736d61ff4",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.25,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.0,
+          4.3125,
+          2.8125,
+          0.5,
+          3.75
+        ],
+        "core_token_margin_mean": 2.275
+      },
+      "post_float_page_hash": "ddf863acf7acfddbf8e70ec1b733e27ca3014d43a859a5527821f6224a105656",
+      "post_png_page_hash": "69ff6f41cd8eb3558037b1598a5273af90c54fb992b859fb6efb0215d0ab7d94"
+    },
+    {
+      "text": "RJ Reynolds Tobacco Company",
+      "tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "anls": 0.962962962962963,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "58ff2b7403db8233cb7623804570cc406eabc2bee2dbd2ebf2f844085af97313",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "39a300b3fc0a625f30b29e0d21adf5a6c35e428a2310ace3171a5c0f1e66accf",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.00392156862745098,
+      "step": 4,
+      "strict_endpoint": false
+    },
+    {
+      "text": "Tobacco Company",
+      "tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "anls": 0.5769230769230769,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "20f27b62e10337fad14414b3d6c8eca0f0a3d2e4dfb1ff2c849468d992112c93",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.00784313725490196,
+      "step": 0,
+      "strict_endpoint": false,
+      "attack_loss": 1.5476562976837158,
+      "fdp": 0.8749801516532898,
+      "grad_hash": "18d5c879f278ae60a4c7e41d6eb029878897cae8de53e3fd7db6d5d6d8340348",
+      "grad_l2": 9.465826988220215,
+      "grad_linf": 1.1929616928100586,
+      "pre_update_delta_hash": "011a754c4424e7e67d8ba0aaf73d8f3b3c3bd1c6698f0da6420555eeafff8d53",
+      "post_projection_delta_hash": "6a263c90d33727b0c7b4746fe5cd89fa2ad17303928f7534323ff0f4feede968",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.5476562976837158,
+        "fdp": 0.8749801516532898,
+        "natural_tokens": [
+          51,
+          674,
+          19500,
+          8188,
+          151645
+        ],
+        "natural_text": "Tobacco Company",
+        "natural_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.0416666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          -0.25,
+          4.0625,
+          2.3125,
+          0.375,
+          3.875
+        ],
+        "core_token_margin_mean": 2.075
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.8044875860214233,
+        "fdp": 0.6606438159942627,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "d22e5c453c43b7b4e1f8c202d31b10fa0e7f951692b61a8b8969149dfdb8d3ca",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.4166666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.4375,
+          4.4375,
+          2.5,
+          0.875,
+          4.125
+        ],
+        "core_token_margin_mean": 2.475
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.8456381559371948,
+        "fdp": 0.6776208877563477,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "f728af4100af84e0e6c4982e701bb78f78fabf408574217d927524e15d3c6322",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.4791666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.625,
+          4.375,
+          2.625,
+          0.75,
+          4.25
+        ],
+        "core_token_margin_mean": 2.525
+      },
+      "post_float_page_hash": "8db38063bb3a3aa24e81394becbc0012eb2dbf69bb43bfe57d8b60e2ec188bb2",
+      "post_png_page_hash": "b9eb6c4f33ce2df538559235c93927ba996a0e607f3553c1b7acb44f5e2f500b"
+    },
+    {
+      "text": "RJ Reynolds Tobacco Company",
+      "tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "anls": 0.962962962962963,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "d22e5c453c43b7b4e1f8c202d31b10fa0e7f951692b61a8b8969149dfdb8d3ca",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "804e5e79448010f1fc392573b3a4ea60d77cf9acb8d0e983b7484d9d92a5d46a",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.00784313725490196,
+      "step": 1,
+      "strict_endpoint": false,
+      "attack_loss": 1.8044875860214233,
+      "fdp": 0.6606438159942627,
+      "grad_hash": "86050b3d47d937c38d8bf7279fded551b0937ec8a12cbf33ae64fb9a0fc06797",
+      "grad_l2": 7.04355525970459,
+      "grad_linf": 0.38567352294921875,
+      "pre_update_delta_hash": "6a263c90d33727b0c7b4746fe5cd89fa2ad17303928f7534323ff0f4feede968",
+      "post_projection_delta_hash": "42b587614d60ca8cd84084ede52eb3fce6e3037a3f42a80ba67259e9d73b6888",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.8044875860214233,
+        "fdp": 0.6606438159942627,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "d22e5c453c43b7b4e1f8c202d31b10fa0e7f951692b61a8b8969149dfdb8d3ca",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.4166666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.4375,
+          4.4375,
+          2.5,
+          0.875,
+          4.125
+        ],
+        "core_token_margin_mean": 2.475
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.8201181888580322,
+        "fdp": 0.6548615097999573,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "1bcbc2424ac39a92370fd0c0a005a0a442f1b14a7f8b5d7dcaeecc0320404235",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.40625,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.5,
+          4.375,
+          2.9375,
+          0.75,
+          3.75
+        ],
+        "core_token_margin_mean": 2.4625
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.808876633644104,
+        "fdp": 0.6383501291275024,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "cec7dff6a30917bdff70b6e8f31a920345091b33ed8de86c7d8772a9ac7ce3de",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.40625,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.5,
+          4.3125,
+          2.875,
+          0.75,
+          3.875
+        ],
+        "core_token_margin_mean": 2.4625
+      },
+      "post_float_page_hash": "3dd336ebd5e2ebc53bddeb336bd30bedd6c7405132c0c1ab72d7e9814c5207f4",
+      "post_png_page_hash": "2d85fa3797aa4e1c81a9c697097ad1d4dfc59b5f18421349b277cdb0d1ac8235"
+    },
+    {
+      "text": "RJ Reynolds Tobacco Company",
+      "tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "anls": 0.962962962962963,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "1bcbc2424ac39a92370fd0c0a005a0a442f1b14a7f8b5d7dcaeecc0320404235",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "7f66f350a4d975b73e97c77fa17081f42e022758722787082e757eddd0673c46",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.00784313725490196,
+      "step": 2,
+      "strict_endpoint": false,
+      "attack_loss": 1.8201181888580322,
+      "fdp": 0.6548615097999573,
+      "grad_hash": "ab936f1787cac5ba0152286eab48d3bf63d6e050491875ac7568c61b08103d31",
+      "grad_l2": 22.09758758544922,
+      "grad_linf": 2.2373552322387695,
+      "pre_update_delta_hash": "42b587614d60ca8cd84084ede52eb3fce6e3037a3f42a80ba67259e9d73b6888",
+      "post_projection_delta_hash": "93a6813c6b077b9848d3cab233842099619e187f583f3a9b5b88e6f459e3a53a",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.8201181888580322,
+        "fdp": 0.6548615097999573,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "1bcbc2424ac39a92370fd0c0a005a0a442f1b14a7f8b5d7dcaeecc0320404235",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.40625,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.5,
+          4.375,
+          2.9375,
+          0.75,
+          3.75
+        ],
+        "core_token_margin_mean": 2.4625
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.935052514076233,
+        "fdp": 0.5586763024330139,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "1b490b76ec86c4d3918d63c85f37a9b413546b09062ce466ddd9aa2800c9ea58",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.5416666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.6875,
+          4.4375,
+          3.125,
+          0.875,
+          4.0
+        ],
+        "core_token_margin_mean": 2.625
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.9239238500595093,
+        "fdp": 0.5775778293609619,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "bc1a17956aae1c78d5d3380235bb5980cff67c9300d1882b8050d4b8999b6fb7",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.5,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.5,
+          4.4375,
+          3.1875,
+          0.875,
+          4.0
+        ],
+        "core_token_margin_mean": 2.6
+      },
+      "post_float_page_hash": "faf7bec1c70b03c4c48d8b572ac781181f1ea0ee36064352c1f7b4c5954aa741",
+      "post_png_page_hash": "f0c7ff8e779c3405e22862f2c55eff1d0293e2d10d009c459c88277e129cd1af"
+    },
+    {
+      "text": "RJ Reynolds Tobacco Company",
+      "tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "anls": 0.962962962962963,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "1b490b76ec86c4d3918d63c85f37a9b413546b09062ce466ddd9aa2800c9ea58",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "040bb48deeda539626e3adcd57ae3a11b8a64156a9841695b5e461745fb2c770",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.00784313725490196,
+      "step": 3,
+      "strict_endpoint": false,
+      "attack_loss": 1.935052514076233,
+      "fdp": 0.5586763024330139,
+      "grad_hash": "fc3ecf9313e60a15f823ffc4b5c55fcc3f30b921cc65b292b02468cfc63ded45",
+      "grad_l2": 7.204743385314941,
+      "grad_linf": 0.3629913330078125,
+      "pre_update_delta_hash": "93a6813c6b077b9848d3cab233842099619e187f583f3a9b5b88e6f459e3a53a",
+      "post_projection_delta_hash": "ec310fec88fb92c5d2ca450692dc6253deff869161794766ac07d96bc6326137",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "gradient_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "gradient_k": 3699,
+      "pre_update_snapshot": {
+        "attack_loss": 1.935052514076233,
+        "fdp": 0.5586763024330139,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "1b490b76ec86c4d3918d63c85f37a9b413546b09062ce466ddd9aa2800c9ea58",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.5416666666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.6875,
+          4.4375,
+          3.125,
+          0.875,
+          4.0
+        ],
+        "core_token_margin_mean": 2.625
+      },
+      "post_float_snapshot": {
+        "attack_loss": 1.9273685216903687,
+        "fdp": 0.5346912145614624,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "9a9886b597582ead4fe0322c8b97635df8a2f3db9d302694f15bb77664766f8f",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.5,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.3125,
+          4.4375,
+          3.375,
+          0.875,
+          4.125
+        ],
+        "core_token_margin_mean": 2.625
+      },
+      "post_png_snapshot": {
+        "attack_loss": 1.9148215055465698,
+        "fdp": 0.53926682472229,
+        "natural_tokens": [
+          49,
+          41,
+          45072,
+          65110,
+          8188,
+          151645
+        ],
+        "natural_text": "RJ Reynolds Tobacco Company",
+        "natural_keep_hash": "c3dcbcd3a1f9f5e64c5f62ec9b462ab49ab18a9963401da3b691fec3649051eb",
+        "natural_k": 3699,
+        "used_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+        "used_k": 3699,
+        "all_token_margin_mean": 3.5104166666666665,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "core_token_margins": [
+          0.4375,
+          4.4375,
+          3.3125,
+          0.875,
+          4.125
+        ],
+        "core_token_margin_mean": 2.6375
+      },
+      "post_float_page_hash": "30a4e2902b4fa59c0ba74182cc7f02e69ab712a7967bcf942b182e331783b74c",
+      "post_png_page_hash": "869ab5d0c14d43faf84909ac964897d03949c8185d7aadc9e4d61ea18a6d3b75"
+    },
+    {
+      "text": "RJ Reynolds Tobacco Company",
+      "tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "anls": 0.962962962962963,
+      "valid": true,
+      "k": 3699,
+      "keep_hash": "9a9886b597582ead4fe0322c8b97635df8a2f3db9d302694f15bb77664766f8f",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "116ccf38ba39ea626ed05d93928ce344307d8f8e2f4c12a2d05731d9db8d2950",
+      "reference_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        51,
+        674,
+        19500,
+        8188,
+        151645
+      ],
+      "start_fastv_keep_hash": "d2f97e99e5d2134351e68ca5272a3acb39caaae36a3298c8731d7f0b5ddd00d6",
+      "start_fastv_k": 3699,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "core_token_ids": [
+        49,
+        41,
+        45072,
+        65110,
+        8188
+      ],
+      "state": "7006_near",
+      "sample": "7006",
+      "mode": "frozen",
+      "alpha": 0.00784313725490196,
+      "step": 4,
+      "strict_endpoint": false
+    }
+  ]
+}

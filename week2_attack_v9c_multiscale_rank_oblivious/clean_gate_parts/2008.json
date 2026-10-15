@@ -1,0 +1,789 @@
+{
+  "sample_id": "2008",
+  "full_text": "March 1968",
+  "full_tokens": [
+    27523,
+    220,
+    16,
+    24,
+    21,
+    23,
+    151645
+  ],
+  "page_sha256": [
+    "fe5a6c3c88a77ef33b42e1c45d0fe2b28b39f37be8983db7e6d753ceef12f8f4",
+    "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+  ],
+  "rows": [
+    {
+      "family": "BasePreservingAdaptivePool",
+      "not_an_official_compressor": true,
+      "seed": 2026101117,
+      "step": 0,
+      "offset_id": 0,
+      "retention_ratio": 0.25,
+      "page_in": 3699,
+      "page_out": [
+        925,
+        925
+      ],
+      "actual_ratio": [
+        0.2500675858340092,
+        0.2500675858340092
+      ],
+      "page_boundaries": 2,
+      "shifts": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "rule_hash": [
+        "158c5401a638c5d8088a348dfa62e10f753c5c5d9d39d4e4bf0a45be67dac78a",
+        "ecba4a8ebef93b347cd74e0bad58138a27656282bf92be4aba3ffec815d999c0"
+      ],
+      "hidden_shape": [
+        1,
+        1881,
+        152128
+      ],
+      "text": "March 1964",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "replay_text": "March 1964",
+      "replay_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "anls": 0.9,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_ok": true,
+      "pass": true
+    },
+    {
+      "family": "BasePreservingAdaptivePool",
+      "not_an_official_compressor": true,
+      "seed": 2026101117,
+      "step": 0,
+      "offset_id": 0,
+      "retention_ratio": 0.35,
+      "page_in": 3699,
+      "page_out": [
+        1296,
+        1296
+      ],
+      "actual_ratio": [
+        0.35036496350364965,
+        0.35036496350364965
+      ],
+      "page_boundaries": 2,
+      "shifts": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "rule_hash": [
+        "3f0f338aaf53aea3fba724fe6bccd8ff1b1ce9d67094e1462318e3254edb3182",
+        "154f0f747b223fba24a01d9e229de4c6d631e18fe2364e68fe9e9b0e23344aeb"
+      ],
+      "hidden_shape": [
+        1,
+        2623,
+        152128
+      ],
+      "text": "March 1964",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "replay_text": "March 1964",
+      "replay_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "anls": 0.9,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_ok": true,
+      "pass": true
+    },
+    {
+      "family": "BasePreservingAdaptivePool",
+      "not_an_official_compressor": true,
+      "seed": 2026101117,
+      "step": 0,
+      "offset_id": 0,
+      "retention_ratio": 0.5,
+      "page_in": 3699,
+      "page_out": [
+        1851,
+        1851
+      ],
+      "actual_ratio": [
+        0.5004055150040552,
+        0.5004055150040552
+      ],
+      "page_boundaries": 2,
+      "shifts": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "rule_hash": [
+        "767bf986571cfcb7271c52e644523a14bfe30598b3c25d0c7f60b339329371a3",
+        "3201457c1a2b4246f87a93c9cfa2e8f6eace20df1850333b21d769f7de0f5d73"
+      ],
+      "hidden_shape": [
+        1,
+        3733,
+        152128
+      ],
+      "text": "March 1960",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        15,
+        151645
+      ],
+      "replay_text": "March 1960",
+      "replay_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        15,
+        151645
+      ],
+      "anls": 0.9,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_ok": true,
+      "pass": true
+    },
+    {
+      "family": "BasePreservingJitteredPool",
+      "not_an_official_compressor": true,
+      "seed": 2026101117,
+      "step": 0,
+      "offset_id": 0,
+      "retention_ratio": 0.25,
+      "page_in": 3699,
+      "page_out": [
+        925,
+        925
+      ],
+      "actual_ratio": [
+        0.2500675858340092,
+        0.2500675858340092
+      ],
+      "page_boundaries": 2,
+      "shifts": [
+        [
+          33,
+          17
+        ],
+        [
+          28,
+          19
+        ]
+      ],
+      "rule_hash": [
+        "66160f434166c6762806e288440c416c26c1a084d696f9d8eb1e0030f0a547b9",
+        "9adf247e073f6829925329d785473b840e465c9c920a8cb49cf877a258c22dd0"
+      ],
+      "hidden_shape": [
+        1,
+        1881,
+        152128
+      ],
+      "text": "March 1964",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "replay_text": "March 1964",
+      "replay_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "anls": 0.9,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_ok": true,
+      "pass": true
+    },
+    {
+      "family": "BasePreservingJitteredPool",
+      "not_an_official_compressor": true,
+      "seed": 2026101117,
+      "step": 0,
+      "offset_id": 1,
+      "retention_ratio": 0.25,
+      "page_in": 3699,
+      "page_out": [
+        925,
+        925
+      ],
+      "actual_ratio": [
+        0.2500675858340092,
+        0.2500675858340092
+      ],
+      "page_boundaries": 2,
+      "shifts": [
+        [
+          6,
+          0
+        ],
+        [
+          25,
+          13
+        ]
+      ],
+      "rule_hash": [
+        "fcbf73c41ebb0cbf418c94804b45c7fc5f06746536624440119ffba1be72a29b",
+        "e1189e5f5441c308923d3daec0eb353aa901f7d13985ed093edc8d23ae460845"
+      ],
+      "hidden_shape": [
+        1,
+        1881,
+        152128
+      ],
+      "text": "March 1964",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "replay_text": "March 1964",
+      "replay_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "anls": 0.9,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_ok": true,
+      "pass": true
+    },
+    {
+      "family": "BasePreservingJitteredPool",
+      "not_an_official_compressor": true,
+      "seed": 2026101117,
+      "step": 0,
+      "offset_id": 2,
+      "retention_ratio": 0.25,
+      "page_in": 3699,
+      "page_out": [
+        925,
+        925
+      ],
+      "actual_ratio": [
+        0.2500675858340092,
+        0.2500675858340092
+      ],
+      "page_boundaries": 2,
+      "shifts": [
+        [
+          51,
+          21
+        ],
+        [
+          24,
+          24
+        ]
+      ],
+      "rule_hash": [
+        "492d5d0eca25669b3023f22bfc8a83f1bd3013d72d3fec2f89f47b396efa03d1",
+        "0b844c36120bb6cbadd87c505686c19d62adffcce55313f41830c930a6eaed41"
+      ],
+      "hidden_shape": [
+        1,
+        1881,
+        152128
+      ],
+      "text": "March 1964",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "replay_text": "March 1964",
+      "replay_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "anls": 0.9,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_ok": true,
+      "pass": true
+    },
+    {
+      "family": "BasePreservingJitteredPool",
+      "not_an_official_compressor": true,
+      "seed": 2026101117,
+      "step": 0,
+      "offset_id": 0,
+      "retention_ratio": 0.35,
+      "page_in": 3699,
+      "page_out": [
+        1296,
+        1296
+      ],
+      "actual_ratio": [
+        0.35036496350364965,
+        0.35036496350364965
+      ],
+      "page_boundaries": 2,
+      "shifts": [
+        [
+          33,
+          17
+        ],
+        [
+          28,
+          19
+        ]
+      ],
+      "rule_hash": [
+        "7494e5df0a9e8a0371a7ede856f5465615a7dcaab3442a1d41018d1927648a02",
+        "d673c0994813678977ded8c3a007925ae470e19aeb152ad9e77b522531c5fda2"
+      ],
+      "hidden_shape": [
+        1,
+        2623,
+        152128
+      ],
+      "text": "March 1964",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "replay_text": "March 1964",
+      "replay_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "anls": 0.9,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_ok": true,
+      "pass": true
+    },
+    {
+      "family": "BasePreservingJitteredPool",
+      "not_an_official_compressor": true,
+      "seed": 2026101117,
+      "step": 0,
+      "offset_id": 1,
+      "retention_ratio": 0.35,
+      "page_in": 3699,
+      "page_out": [
+        1296,
+        1296
+      ],
+      "actual_ratio": [
+        0.35036496350364965,
+        0.35036496350364965
+      ],
+      "page_boundaries": 2,
+      "shifts": [
+        [
+          6,
+          0
+        ],
+        [
+          25,
+          13
+        ]
+      ],
+      "rule_hash": [
+        "38fd12479152fead03f9c26dd5d3519a52191f3feac87ab60c2e445d59bcb813",
+        "847361b08e67aaaf1bc1b2e28f21022992f44f2231012d2d8307ca3feaa5fbfb"
+      ],
+      "hidden_shape": [
+        1,
+        2623,
+        152128
+      ],
+      "text": "March 1968",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        23,
+        151645
+      ],
+      "replay_text": "March 1968",
+      "replay_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        23,
+        151645
+      ],
+      "anls": 1.0,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_ok": true,
+      "pass": true
+    },
+    {
+      "family": "BasePreservingJitteredPool",
+      "not_an_official_compressor": true,
+      "seed": 2026101117,
+      "step": 0,
+      "offset_id": 2,
+      "retention_ratio": 0.35,
+      "page_in": 3699,
+      "page_out": [
+        1296,
+        1296
+      ],
+      "actual_ratio": [
+        0.35036496350364965,
+        0.35036496350364965
+      ],
+      "page_boundaries": 2,
+      "shifts": [
+        [
+          51,
+          21
+        ],
+        [
+          24,
+          24
+        ]
+      ],
+      "rule_hash": [
+        "b8fb496f0257502cd34ed889f26f0d661413dad97d4753aafe0a59e9c21857d5",
+        "d798603373b261e3985860009ef8d1e49d535facb37db7f1fc2abc80538496d2"
+      ],
+      "hidden_shape": [
+        1,
+        2623,
+        152128
+      ],
+      "text": "March 1964",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "replay_text": "March 1964",
+      "replay_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "anls": 0.9,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_ok": true,
+      "pass": true
+    },
+    {
+      "family": "BasePreservingJitteredPool",
+      "not_an_official_compressor": true,
+      "seed": 2026101117,
+      "step": 0,
+      "offset_id": 0,
+      "retention_ratio": 0.5,
+      "page_in": 3699,
+      "page_out": [
+        1851,
+        1851
+      ],
+      "actual_ratio": [
+        0.5004055150040552,
+        0.5004055150040552
+      ],
+      "page_boundaries": 2,
+      "shifts": [
+        [
+          33,
+          17
+        ],
+        [
+          28,
+          19
+        ]
+      ],
+      "rule_hash": [
+        "51418170e769c21f875dd3c04800953bcdbb395ffdbcaf64405c3ed7c6886f80",
+        "bb31119ecd820c7578034a21143f47e6503da3148fe5eee8586d425bb812d807"
+      ],
+      "hidden_shape": [
+        1,
+        3733,
+        152128
+      ],
+      "text": "March 1968",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        23,
+        151645
+      ],
+      "replay_text": "March 1968",
+      "replay_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        23,
+        151645
+      ],
+      "anls": 1.0,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_ok": true,
+      "pass": true
+    },
+    {
+      "family": "BasePreservingJitteredPool",
+      "not_an_official_compressor": true,
+      "seed": 2026101117,
+      "step": 0,
+      "offset_id": 1,
+      "retention_ratio": 0.5,
+      "page_in": 3699,
+      "page_out": [
+        1851,
+        1851
+      ],
+      "actual_ratio": [
+        0.5004055150040552,
+        0.5004055150040552
+      ],
+      "page_boundaries": 2,
+      "shifts": [
+        [
+          6,
+          0
+        ],
+        [
+          25,
+          13
+        ]
+      ],
+      "rule_hash": [
+        "de4464e1ca4481b04508254767b795fce19235925041568003319b8d61bf698d",
+        "a002ca2bfde0a3b154b1a55c89f29fede5f0682d4eaaaf9d1042e4817b9a0aed"
+      ],
+      "hidden_shape": [
+        1,
+        3733,
+        152128
+      ],
+      "text": "March 1964",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "replay_text": "March 1964",
+      "replay_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "anls": 0.9,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_ok": true,
+      "pass": true
+    },
+    {
+      "family": "BasePreservingJitteredPool",
+      "not_an_official_compressor": true,
+      "seed": 2026101117,
+      "step": 0,
+      "offset_id": 2,
+      "retention_ratio": 0.5,
+      "page_in": 3699,
+      "page_out": [
+        1851,
+        1851
+      ],
+      "actual_ratio": [
+        0.5004055150040552,
+        0.5004055150040552
+      ],
+      "page_boundaries": 2,
+      "shifts": [
+        [
+          51,
+          21
+        ],
+        [
+          24,
+          24
+        ]
+      ],
+      "rule_hash": [
+        "f337cfbf204c246bf0dded8046378dd45a9dd02dd9c35a7b8c38ff1b1c35e041",
+        "9afe5007e22e3325420d385824db392e98336a7d41c803fbbd7c4b0824650bad"
+      ],
+      "hidden_shape": [
+        1,
+        3733,
+        152128
+      ],
+      "text": "March 1964",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "replay_text": "March 1964",
+      "replay_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        19,
+        151645
+      ],
+      "anls": 0.9,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_ok": true,
+      "pass": true
+    }
+  ],
+  "fastv_access_count": 0,
+  "fastv_modules": []
+}

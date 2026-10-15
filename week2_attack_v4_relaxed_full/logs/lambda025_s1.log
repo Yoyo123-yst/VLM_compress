@@ -1,0 +1,88 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.21s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:01,  1.03it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.12it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.59it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.31it/s]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "4912", "step": 0, "fastv": 1.0, "full": 1.0, "margin": 3.3958334922790527, "label": "NO_EFFECT", "jaccard": 1.0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "4912", "step": 10, "fastv": 1.0, "full": 1.0, "margin": 3.25, "label": "NO_EFFECT", "jaccard": 0.916580310880829}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "4912", "step": 25, "fastv": 1.0, "full": 1.0, "margin": 2.8333334922790527, "label": "NO_EFFECT", "jaccard": 0.9432624113475178}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "4912", "step": 50, "fastv": 1.0, "full": 1.0, "margin": 2.3333334922790527, "label": "SURROGATE_NONFLIP", "jaccard": 0.932601880877743}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "4912", "step": 75, "fastv": 0.0, "full": 1.0, "margin": 1.9375, "label": "SUCCESS_COMP_ONLY", "jaccard": 0.9260609216349909}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "4912", "step": 100, "fastv": 0.0, "full": 1.0, "margin": -2.0625, "label": "SUCCESS_COMP_ONLY", "jaccard": 0.9336121275483533}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "4912", "step": 150, "fastv": 0.0, "full": 1.0, "margin": -3.6979167461395264, "label": "SUCCESS_COMP_ONLY", "jaccard": 0.9136057941024315}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "4912", "step": 200, "fastv": 0.0, "full": 1.0, "margin": -6.9375, "label": "SUCCESS_COMP_ONLY", "jaccard": 0.9255596043727226}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"done": "4912", "seconds": 1497.3259518146515, "label": "SUCCESS_COMP_ONLY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49242", "step": 0, "fastv": 0.9047619047619048, "full": 0.9047619047619048, "margin": 3.892045497894287, "label": "NO_EFFECT", "jaccard": 1.0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49242", "step": 10, "fastv": 0.9130434782608696, "full": 0.9047619047619048, "margin": 3.392045497894287, "label": "NO_EFFECT", "jaccard": 0.8719635627530364}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49242", "step": 25, "fastv": 0.9130434782608696, "full": 0.9047619047619048, "margin": 2.9886364936828613, "label": "NO_EFFECT", "jaccard": 0.9057187017001546}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49242", "step": 50, "fastv": 0.9545454545454546, "full": 0.9047619047619048, "margin": 2.1988637447357178, "label": "SURROGATE_NONFLIP", "jaccard": 0.8790957581915164}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49242", "step": 75, "fastv": 0.9545454545454546, "full": 0.9047619047619048, "margin": 1.392045497894287, "label": "SURROGATE_NONFLIP", "jaccard": 0.8925556408288565}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49242", "step": 100, "fastv": 0.9545454545454546, "full": 0.9047619047619048, "margin": 1.0284091234207153, "label": "SURROGATE_NONFLIP", "jaccard": 0.9057187017001546}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49242", "step": 150, "fastv": 0.7241379310344828, "full": 0.9047619047619048, "margin": 0.125, "label": "SURROGATE_NONFLIP", "jaccard": 0.8886903242277253}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49242", "step": 200, "fastv": 0.9545454545454546, "full": 0.9047619047619048, "margin": -0.9545454978942871, "label": "SURROGATE_NONFLIP", "jaccard": 0.8993581514762516}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"done": "49242", "seconds": 1503.2438423633575, "label": "SURROGATE_NONFLIP"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5169", "step": 0, "fastv": 1.0, "full": 1.0, "margin": 5.4791669845581055, "label": "NO_EFFECT", "jaccard": 1.0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5169", "step": 10, "fastv": 0.6666666666666667, "full": 1.0, "margin": 0.4583333432674408, "label": "SURROGATE_NONFLIP", "jaccard": 0.8625377643504532}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5169", "step": 25, "fastv": 0.0, "full": 1.0, "margin": -3.0208334922790527, "label": "SUCCESS_COMP_ONLY", "jaccard": 0.9116279069767442}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5169", "step": 50, "fastv": 0.0, "full": 1.0, "margin": -8.822916984558105, "label": "SUCCESS_COMP_ONLY", "jaccard": 0.8920716112531969}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5169", "step": 75, "fastv": 0.6666666666666667, "full": 1.0, "margin": -13.729166984558105, "label": "SURROGATE_NONFLIP", "jaccard": 0.897409592203129}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5169", "step": 100, "fastv": 0.0, "full": 1.0, "margin": -19.71875, "label": "SUCCESS_COMP_ONLY", "jaccard": 0.8901379662749106}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5169", "step": 150, "fastv": 0.0, "full": 1.0, "margin": -27.40625, "label": "SUCCESS_COMP_ONLY", "jaccard": 0.8606639839034205}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5169", "step": 200, "fastv": 0.0, "full": 1.0, "margin": -35.86783981323242, "label": "SUCCESS_COMP_ONLY", "jaccard": 0.881963876876113}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"done": "5169", "seconds": 1498.0089812278748, "label": "SUCCESS_COMP_ONLY"}
+EXIT:0

@@ -1,0 +1,28 @@
+{
+  "status": "EVALUATED_INDEPENDENT_PROCESS",
+  "sample_id": "8560",
+  "method": "complete_target",
+  "independent_process": true,
+  "png_path": "week2_attack_v29_batch_compare/attacks/complete_target/8560/accepted_013.png",
+  "png_sha256": "0a7cfcc565beca04525b7119d2f752a44da863ac534cb9538741d9c638e45721",
+  "uint8_linf": 8,
+  "clean_full_text": "FRED L. SMITH, JR.",
+  "full_text": "FRED L. SMITH, JR.",
+  "full_text_exact": true,
+  "full_token_exact": true,
+  "same_evaluator_process_repeat_exact": true,
+  "fastv_text": "John L. Smith, Jr.",
+  "fastv_anls": 0.7333333333333334,
+  "fastv_valid": true,
+  "k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "4222aebe69daa6db576f8a44e0f54f1940201ef4d34ab0a4fea71624fa7135df",
+  "dataset_answers": [
+    "Fred L Smith jr.",
+    "Fred L. Smith, Jr."
+  ],
+  "target_text": "John L. Smith, Jr.",
+  "target_hit_normalized_exact": true,
+  "content_status": "PENDING_QUESTION_SPECIFIC_REVIEW",
+  "semantic_review_required": true
+}

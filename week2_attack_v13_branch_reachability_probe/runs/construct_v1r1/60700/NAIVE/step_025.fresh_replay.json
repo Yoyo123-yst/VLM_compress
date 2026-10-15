@@ -1,0 +1,69 @@
+{
+  "status": "DONE",
+  "scope": "fresh-process replay; endpoint verification only, no selector",
+  "sample_id": "60700",
+  "variant": "NAIVE",
+  "step": 25,
+  "png": "week2_attack_v13_branch_reachability_probe/runs/construct_v1r1/60700/NAIVE/step_025.png",
+  "png_sha256": "8ed496d51074dcebd91ebb9e39c86ee6fadda23c76e207a602dec26d5c4ecb10",
+  "first": {
+    "full": {
+      "full_text_exact": 1,
+      "full_token_exact": 1,
+      "full_replay": 1,
+      "full_text": "PPBS"
+    },
+    "fast": {
+      "tokens": [
+        17713,
+        220,
+        18,
+        323,
+        220,
+        19,
+        151645
+      ],
+      "text": "Pages 3 and 4",
+      "anls": 0.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "87eb95aaef7f9d80c531d64ab786ca5128f89505b5b7393b1e2db433c53681d5",
+      "endpoint_failure": true
+    },
+    "nonzero": true,
+    "linf_uint8": 8,
+    "linf_ok": true,
+    "selected_pair_gap": -2.1875
+  },
+  "second": {
+    "full": {
+      "full_text_exact": 1,
+      "full_token_exact": 1,
+      "full_replay": 1,
+      "full_text": "PPBS"
+    },
+    "fast": {
+      "tokens": [
+        17713,
+        220,
+        18,
+        323,
+        220,
+        19,
+        151645
+      ],
+      "text": "Pages 3 and 4",
+      "anls": 0.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "87eb95aaef7f9d80c531d64ab786ca5128f89505b5b7393b1e2db433c53681d5",
+      "endpoint_failure": true
+    },
+    "nonzero": true,
+    "linf_uint8": 8,
+    "linf_ok": true,
+    "selected_pair_gap": -2.1875
+  },
+  "fast_replay": true,
+  "strict_endpoint_replayed": true
+}

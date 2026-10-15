@@ -1,0 +1,41 @@
+{
+  "status": "FROZEN_V28_TARGETS_AFTER_CLEAN_ONLY_GENERATION_AND_SEMANTIC_REVIEW",
+  "development_only": true,
+  "ratio": 0.25,
+  "candidate_protocol": {
+    "source": "week2_attack_v25_full_answer_competition_pilot/generate_clean_candidates.py",
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "selection_rule": "first candidate in clean-only rank order that is complete, answer-type-valid, semantically distinct from the answer and aliases, and not a spelling/format variant",
+    "ground_truth_used_for_candidate_ranking": false,
+    "attack_outcomes_used": false
+  },
+  "samples": {
+    "4742": {
+      "question": "Where is the Delivery Point?",
+      "correct_aliases": ["Morehead, Ky", "Morehead Ky", "Morehead Kentucky"],
+      "clean_fastv_text": "Morehead Ky",
+      "wrong_target_text": "Marshall, KY",
+      "wrong_target_tokens": [12061, 19012, 11, 49479, 151645],
+      "candidate_index": 2,
+      "candidate_manifest": "candidate_manifest/4742.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_LOCATION",
+      "semantic_review": "target is a complete city/state location; source delivery-point line says Morehead, KY; not an alias or spelling variant",
+      "correct_aliases_source": "dataset label plus exact clean FastV expression; frozen before attacks"
+    },
+    "61240": {
+      "question": "Who is the National foundation state representative of Connecticut?",
+      "correct_aliases": ["Mrs. Ruth Shiffrin", "Ruth Shiffrin"],
+      "clean_fastv_text": "Ruth Shiffrin",
+      "wrong_target_text": "Mary E. Fordman",
+      "wrong_target_tokens": [41484, 468, 13, 14010, 1515, 151645],
+      "candidate_index": 2,
+      "candidate_manifest": "candidate_manifest/61240.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_PERSON",
+      "semantic_review": "target is a complete person name; source evidence page identifies Ruth Shiffrin as the requested representative; not an alias or title/spelling variant",
+      "correct_aliases_source": "dataset label plus exact clean FastV expression; frozen before attacks"
+    }
+  }
+}

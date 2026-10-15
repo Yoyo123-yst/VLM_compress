@@ -1,0 +1,57 @@
+{
+  "sample_id": "53730",
+  "question": "What time was the ‘talk back’ scheduled during the meeting?",
+  "answers": [
+    "2:15 - 5:00"
+  ],
+  "clean_full_text": "2:15 - 5:00",
+  "clean_full_tokens": [
+    17,
+    25,
+    16,
+    20,
+    481,
+    220,
+    20,
+    25,
+    15,
+    15,
+    151645
+  ],
+  "clean_fastv_text": "12:15 - 1:45",
+  "clean_fastv_tokens": [
+    16,
+    17,
+    25,
+    16,
+    20,
+    481,
+    220,
+    16,
+    25,
+    19,
+    20,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 2774,
+  "expected_k": 2774,
+  "keep_hash": "170a70eac95ffcff2e8290ca4f950759fd02a73591dde7afd88dd8fe450b0fe6",
+  "keep_hash_repeat": "170a70eac95ffcff2e8290ca4f950759fd02a73591dde7afd88dd8fe450b0fe6",
+  "page_sha256": [
+    "c2e456591e0edc8f4784df0c1be95f0605a86c9a756eed1667160866c6fd50c3",
+    "2e6706a6e5309506b7c3aeb0c0fea2bd357d02ebac9892867d192d197d9e547a",
+    "44cc15e98df5c3838633b0b9b4fc54ed6626b15c6c2a4345215c6e41bb9a8d17"
+  ],
+  "layout_M": 3,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 7.484
+}

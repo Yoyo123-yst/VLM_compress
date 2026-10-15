@@ -1,0 +1,57 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.44it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.62it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  1.70it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.47it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.06it/s]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"full": "60744", "kind": "random_noise", "match": true, "termination": "EOS_GENERATED"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"full": "60744", "kind": "clean", "match": true, "termination": "EOS_GENERATED"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"full": "1023", "kind": "clean", "match": true, "termination": "EOS_GENERATED"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"full": "51140", "kind": "random_noise", "match": true, "termination": "EOS_GENERATED"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"full": "22317", "kind": "clean", "match": true, "termination": "MAX_NEW_TOKENS_TRUNCATED"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"full": "22317", "kind": "B", "match": true, "termination": "MAX_NEW_TOKENS_TRUNCATED"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"full": "22317", "kind": "random_noise", "match": true, "termination": "MAX_NEW_TOKENS_TRUNCATED"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"full": "790", "kind": "B", "match": true, "termination": "EOS_GENERATED"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"full": "7029", "kind": "B", "match": true, "termination": "EOS_GENERATED"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"full": "1170", "kind": "random_noise", "match": true, "termination": "EOS_GENERATED"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"fastv": "60744", "kind": "random_noise", "match": true, "keep": true, "k": 2774}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"fastv": "60744", "kind": "clean", "match": true, "keep": true, "k": 2774}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"fastv": "1023", "kind": "clean", "match": true, "keep": true, "k": 2774}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"fastv": "51140", "kind": "random_noise", "match": true, "keep": true, "k": 1850}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"fastv": "22317", "kind": "clean", "match": true, "keep": true, "k": 3699}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"fastv": "22317", "kind": "B", "match": true, "keep": true, "k": 3699}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"fastv": "22317", "kind": "random_noise", "match": true, "keep": true, "k": 3699}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"fastv": "790", "kind": "B", "match": true, "keep": true, "k": 2774}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"fastv": "7029", "kind": "B", "match": true, "keep": true, "k": 1850}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"fastv": "1170", "kind": "random_noise", "match": true, "keep": true, "k": 3699}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"grad": "60744", "kind": "random_noise", "aux_grad_l2": 11.094855308532715, "evidence_grad_l2": 0.0, "native_forward_argmax_matches_cache": true}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"grad": "60744", "kind": "clean", "aux_grad_l2": 99.97748565673828, "evidence_grad_l2": 0.0, "native_forward_argmax_matches_cache": true}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"grad": "1023", "kind": "clean", "aux_grad_l2": 11.452869415283203, "evidence_grad_l2": 0.0, "native_forward_argmax_matches_cache": true}
+{"decision": "PASS_NATIVE_CACHE_MARGIN_ADMITTED"}

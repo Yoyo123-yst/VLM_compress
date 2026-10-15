@@ -1,0 +1,69 @@
+{
+  "parent_directory": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v11_objective_optimizer_diagnostic",
+  "parent_protocol_sha256": "b7f9e7f6b60bfa6b00a5f910b83ab9bc09b681c27e36091fe210d3111959f9f3",
+  "parent_decision_sha256": "d198b178f95d6d57ca7dd477dae12675371cb1a3d1eb67ffdae49a7d85dcd959",
+  "retired_gate": "The old aux_grad_only check required the loss to be independent of pages that are not optimization variables. That requirement is retired before any H0 or H1 result.",
+  "new_gate": "PASS iff clean fixed and dynamic references match, teacher forcing matches clean generate, the current perturbed generate supplies the keep-set, optimizer parameters are exactly {delta}, delta matches the aux page shape, reconstructed non-aux pixel_values are unchanged, the aux update is nonzero, the image list replaces only aux_idx, and the reloaded aux PNG has 0 < uint8 Linf <= 8. A counterfactual non-aux gradient is context_gradient_observed and is not pass/fail.",
+  "gate_samples": [
+    "60700",
+    "7006"
+  ],
+  "one_step_groups": [
+    "H0",
+    "H1"
+  ],
+  "development_samples": [
+    "1025",
+    "2008",
+    "47450",
+    "60700",
+    "7006",
+    "39204"
+  ],
+  "unchanged": [
+    "model",
+    "checkpoint schedule",
+    "processor",
+    "prompt",
+    "page order",
+    "aux index",
+    "pixel budget",
+    "train ratios",
+    "seed",
+    "lambda_full",
+    "Adam lr"
+  ],
+  "seed": 2026101102,
+  "lambda_full": 2.6371882367154997,
+  "adam_lr": 0.00784313725490196,
+  "steps": 200,
+  "checkpoints": [
+    0,
+    10,
+    25,
+    50,
+    75,
+    100,
+    150,
+    200
+  ],
+  "train_ratios": [
+    0.25,
+    0.35
+  ],
+  "h0": "dynamic FastV reference, current keep-set, native-FDP, historical Adam loop",
+  "h1": "same loop; FastV mean soft margin uses the clean token sequence saved at r=0.25 and r=0.35",
+  "h0_replay": "png sha256, full text, both FastV texts, both keep hashes, and selector margin within 1e-5 must match historical NATIVE_FDP at every checkpoint; the historical selector step must match",
+  "common_selector": "legal if nonzero, valid, full text exact, 0 < uint8 Linf <= 8, and full disk replay; rank by fixed-reference soft margin, then earlier step",
+  "oracle_label": "post-hoc oracle checkpoint diagnostic, not an unlabeled selector result",
+  "not_run": [
+    "P0",
+    "P1",
+    "O0",
+    "O1",
+    "ALMA",
+    "noise",
+    "unseen",
+    "stage C"
+  ]
+}

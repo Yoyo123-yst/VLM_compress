@@ -1,0 +1,173 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "name": "R_core_1701",
+      "kind": "R_core",
+      "seed": 1701,
+      "positions": [
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "token_ids": [
+        17618,
+        13,
+        619,
+        13,
+        1694
+      ],
+      "pieces": [
+        " Mrs",
+        ".",
+        " J",
+        ".",
+        "by"
+      ],
+      "jaccard_s_core": 0.42857142857142855,
+      "jaccard_s_context": 0.25
+    },
+    {
+      "name": "R_core_1702",
+      "kind": "R_core",
+      "seed": 1702,
+      "positions": [
+        1,
+        3,
+        4,
+        6,
+        9
+      ],
+      "token_ids": [
+        13,
+        17618,
+        13,
+        619,
+        1694
+      ],
+      "pieces": [
+        ".",
+        " Mrs",
+        ".",
+        " J",
+        "by"
+      ],
+      "jaccard_s_core": 0.25,
+      "jaccard_s_context": 0.42857142857142855
+    },
+    {
+      "name": "R_core_1703",
+      "kind": "R_core",
+      "seed": 1703,
+      "positions": [
+        0,
+        1,
+        2,
+        3,
+        9
+      ],
+      "token_ids": [
+        8847,
+        13,
+        476,
+        17618,
+        1694
+      ],
+      "pieces": [
+        "Dr",
+        ".",
+        " or",
+        " Mrs",
+        "by"
+      ],
+      "jaccard_s_core": 0.1111111111111111,
+      "jaccard_s_context": 0.6666666666666666
+    },
+    {
+      "name": "R_context_1701",
+      "kind": "R_context",
+      "seed": 1701,
+      "positions": [
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "token_ids": [
+        17618,
+        13,
+        619,
+        13,
+        1694
+      ],
+      "pieces": [
+        " Mrs",
+        ".",
+        " J",
+        ".",
+        "by"
+      ],
+      "jaccard_s_core": 0.42857142857142855,
+      "jaccard_s_context": 0.25
+    },
+    {
+      "name": "R_context_1702",
+      "kind": "R_context",
+      "seed": 1702,
+      "positions": [
+        1,
+        3,
+        4,
+        6,
+        9
+      ],
+      "token_ids": [
+        13,
+        17618,
+        13,
+        619,
+        1694
+      ],
+      "pieces": [
+        ".",
+        " Mrs",
+        ".",
+        " J",
+        "by"
+      ],
+      "jaccard_s_core": 0.25,
+      "jaccard_s_context": 0.42857142857142855
+    },
+    {
+      "name": "R_context_1703",
+      "kind": "R_context",
+      "seed": 1703,
+      "positions": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "token_ids": [
+        12375,
+        619,
+        13,
+        15017,
+        1694
+      ],
+      "pieces": [
+        " William",
+        " J",
+        ".",
+        " Dar",
+        "by"
+      ],
+      "jaccard_s_core": 1.0,
+      "jaccard_s_context": 0.0
+    }
+  ]
+}

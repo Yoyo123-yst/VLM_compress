@@ -1,0 +1,19 @@
+{
+  "status": "FROZEN_UNKNOWN_CAPACITY_PROBE_TARGET",
+  "development_only": true,
+  "ratio": 0.25,
+  "samples": {
+    "5786": {
+      "correct_aliases": ["7,120"],
+      "clean_fastv_text": "7,120",
+      "wrong_target_text": "670",
+      "wrong_target_tokens": [21, 22, 15, 151645],
+      "candidate_index": 0,
+      "candidate_manifest": "candidate_manifest/5786.json",
+      "semantic_status": "VALID_COMPLETE_WRONG_NUMBER_UNKNOWN_FULL_CAPACITY",
+      "estimated_feasible_at_eps": null,
+      "probe_reason": "The local Full-capacity estimate is unavailable because a clean Full hard margin is nonpositive; the real PNG Full guard decides this probe.",
+      "attack_outcomes_used": false
+    }
+  }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "step": 0,
+    "png_sha256": "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "Dr. C. Baur",
+      "fastv_0.35": "Dr. C. B. B. M.D."
+    },
+    "margins": {
+      "0.25": 0.7863425016403198,
+      "0.35": 1.563478708267212
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "ecefcd69ddc95ba41453e8f3d0107d0549d98a02f357965c7e98f8d24698c95e"
+      }
+    },
+    "selector": {
+      "step": 0,
+      "nonzero": 0,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 0,
+      "pixel_linf_uint8": 0.0,
+      "margin": 1.1749106049537659
+    }
+  },
+  {
+    "step": 10,
+    "png_sha256": "4f5ac3b97323dd13098acfcb74f05854616fe382a276c096b4e3c272840d6dea",
+    "texts": {
+      "full": "Dr. C. Baur MD",
+      "fastv_0.25": "Dr. C. Baur",
+      "fastv_0.35": "Dr. C. B. B. MD"
+    },
+    "margins": {
+      "0.25": 0.3504262864589691,
+      "0.35": 1.1678498983383179
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "f0d1efde5a1432c7e0712cb505c8b980d53c2fca75c107cb28df97ef7daa977f"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "8b93cb7c9be3c5d4ff1e55ff065ab44a3a19689a92193b3039751030336393e0"
+      }
+    },
+    "selector": {
+      "step": 10,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.7591380923986435
+    }
+  }
+]

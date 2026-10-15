@@ -1,0 +1,196 @@
+M CG-VSF/CGVSF_P0_FROZEN.json
+ M CG-VSF/README.md
+ M CG-VSF/out/p0a/RUN_LOG.md
+ M CG-VSF/scripts/night_watch.py
+ M CG-VSF/scripts/run_p0a.py
+ M CG-VSF/scripts/run_p0b.py
+ M CG-VSF/src/cgvsf/protocol.py
+ M CG-VSF/tests/test_cgvsf_cpu.py
+ M MSC/scripts/advance_stage.py
+ M MSC/scripts/check_g0.py
+ M MSC/scripts/night_watch.py
+ M MSC/scripts/render_report.py
+ M MSC/scripts/run_p00.py
+ M MSC/scripts/run_p01.py
+ M MSC/tests/test_msc_cpu.py
+ M TraceFlip/HANDOFF.md
+ M TraceFlip/README.md
+ M TraceFlip/TRACEFLIP_FROZEN.json
+ M TraceFlip/diag_inmodel_vs_decode.py
+ M TraceFlip/out/final_alignment_check.py
+ M TraceFlip/out/forensic_paths.py
+ M TraceFlip/out/forensic_tpos.py
+ M TraceFlip/run_gateflip_probe.py
+ M TraceFlip/run_traceflip_persample.py
+ M TraceFlip/run_traceflip_pilot.py
+ M TraceFlip/run_traceflip_smoke.py
+ M V-CachePoll/configs/coco_plus_p0.yaml
+ M V-CachePoll/configs/coco_plus_p2.yaml
+ M V-CachePoll/configs/coco_plus_p3.yaml
+ M V-CachePoll/configs/p0.yaml
+ M V-CachePoll/configs/p1.yaml
+ M V-CachePoll/configs/p10.yaml
+ M V-CachePoll/configs/p11.yaml
+ M V-CachePoll/configs/p2.yaml
+ M V-CachePoll/configs/p3.yaml
+ M V-CachePoll/configs/p4.yaml
+ M V-CachePoll/configs/p5.yaml
+ M V-CachePoll/configs/p6.yaml
+ M V-CachePoll/configs/p7.yaml
+ M V-CachePoll/configs/p9.yaml
+ M V-CachePoll/out/extend/inventory.json
+ M V-CachePoll/out/llava_attack.json
+ M V-CachePoll/out/llava_capability.json
+ M V-CachePoll/out/llava_probe.json
+ M V-CachePoll/out/p2_screen.json
+ M V-CachePoll/out/p5/pairs_m1.json
+ M V-CachePoll/out/p5/pairs_m1_dupB.json
+ M V-CachePoll/out/p5/pairs_m2.json
+ M V-CachePoll/out/p5/pairs_m2_dupB.json
+ M V-CachePoll/out/p5/pairs_m4.json
+ M V-CachePoll/out/p5/pairs_m4_dupB.json
+ M V-CachePoll/out/p5/pairs_m8.json
+ M V-CachePoll/out/p5/pairs_m8_dupB.json
+ M V-CachePoll/scripts/run_extend.py
+ M outputs/p0_5/mini/A_to_B.json
+ M outputs/p0_5/mini/P0_5_RESULTS.md
+ D outputs/p0_5/mini/stage_A.json
+ M outputs/p0_5/mini/stage_B.json
+ D outputs/p0_5/mini/stage_C.json
+ M outputs/p0_qwen/P0_FREEZE.json
+ M outputs/p0_qwen/P0_QWEN_CLOSEOUT.md
+ M outputs/p0_qwen/full/native/FAIL_DIAGNOSIS.md
+ M outputs/p0_qwen/full/native/P0_QWEN_RESULTS.md
+ M outputs/p0_qwen/full/native/P0_S_RESULTS.md
+ M outputs/p0_qwen/full/native/attack.json
+ M outputs/p0_qwen/full/native/attack_ckpt_smoke.json
+ M outputs/p0_qwen/full/native/integrity.json
+ M outputs/p0_qwen/full/native/p0s_splits.json
+ M outputs/p0_qwen/full/native/provenance.json
+ M outputs/p0_qwen/full/native/u_stability.json
+ M scripts/n0_after_boot.sh
+ M scripts/p0_qwen_attack_after_boot.sh
+ M scripts/p0_qwen_fail_diag_after_boot.sh
+ M scripts/p0_qwen_p0s_after_boot.sh
+ M scripts/run_p0_qwen_fail_diag.py
+ M scripts/run_p0_qwen_safety_axes.py
+ M scripts/smoke_qwen.py
+?? .worktrees/
+?? CAGE-main/
+?? CG-VSF/out/SUCCESSOR.md
+?? HSSC/
+?? MSC/out/HOSTED.md
+?? MSC/out/NIGHT_WATCH.log
+?? MSC/out/NIGHT_WATCH_P1.log
+?? MSC/out/WATCHDOG.log
+?? MSC/out/WATCHDOG_P1.log
+?? V-CachePoll/data/
+?? ccfa-workfiles/
+?? clash-for-linux-install/
+?? data/chartqa
+?? data/docvqa
+?? data/infographicvqa
+?? data/nlvr2/
+?? data/textvqa
+?? data/vstar_bench/
+?? environment.yml
+?? gate_experiment/
+?? models/
+?? ref_paper/
+?? requirements.txt
+?? research_budget_hijacking/.gitignore
+?? research_budget_hijacking/README.md
+?? research_budget_hijacking/analysis/
+?? research_budget_hijacking/artifacts/
+?? research_budget_hijacking/configs/
+?? research_budget_hijacking/experiments/
+?? research_budget_hijacking/pyproject.toml
+?? research_budget_hijacking/reports/
+?? research_budget_hijacking/requirements.txt
+?? research_budget_hijacking/scripts/
+?? research_budget_hijacking/src/__init__.py
+?? research_budget_hijacking/src/attacks/__init__.py
+?? research_budget_hijacking/src/attacks/cage.py
+?? research_budget_hijacking/src/attacks/encoder_attack.py
+?? research_budget_hijacking/src/attacks/optional_contagion.py
+?? research_budget_hijacking/src/attacks/random_noise.py
+?? research_budget_hijacking/src/attacks/set_cage.py
+?? research_budget_hijacking/src/attacks/setplan_attack.py
+?? research_budget_hijacking/src/compressors/__init__.py
+?? research_budget_hijacking/src/compressors/dynamic_allocation.py
+?? research_budget_hijacking/src/compressors/global_topk.py
+?? research_budget_hijacking/src/compressors/independent_topk.py
+?? research_budget_hijacking/src/compressors/merging.py
+?? research_budget_hijacking/src/compressors/soft_topk.py
+?? research_budget_hijacking/src/evidence/__init__.py
+?? research_budget_hijacking/src/evidence/annotation.py
+?? research_budget_hijacking/src/evidence/attention.py
+?? research_budget_hijacking/src/evidence/gradient_attribution.py
+?? research_budget_hijacking/src/evidence/leave_one_image_out.py
+?? research_budget_hijacking/src/metrics/__init__.py
+?? research_budget_hijacking/src/metrics/mechanism.py
+?? research_budget_hijacking/src/metrics/statistics.py
+?? research_budget_hijacking/src/metrics/task.py
+?? research_budget_hijacking/src/models/__init__.py
+?? research_budget_hijacking/src/models/base.py
+?? research_budget_hijacking/src/models/llava_onevision.py
+?? research_budget_hijacking/src/models/toy_model.py
+?? research_budget_hijacking/src/rbh/
+?? research_budget_hijacking/src/runners/__init__.py
+?? research_budget_hijacking/src/runners/analyze_shared_boundary_content_selection_nlvr2.py
+?? research_budget_hijacking/src/runners/analyze_shared_boundary_replacement_nlvr2.py
+?? research_budget_hijacking/src/runners/attack.py
+?? research_budget_hijacking/src/runners/audit_topology.py
+?? research_budget_hijacking/src/runners/counterfactual_shared_boundary_nlvr2.py
+?? research_budget_hijacking/src/runners/evaluate.py
+?? research_budget_hijacking/src/runners/evaluate_20.py
+?? research_budget_hijacking/src/runners/evaluate_boundary_hidden_nlvr2_5img.py
+?? research_budget_hijacking/src/runners/evaluate_critical_eviction_nlvr2_5img.py
+?? research_budget_hijacking/src/runners/evaluate_evidence_boundary_nlvr2_5img.py
+?? research_budget_hijacking/src/runners/evaluate_postcompress_target_nlvr2_5img.py
+?? research_budget_hijacking/src/runners/evaluate_set_cage_nlvr2.py
+?? research_budget_hijacking/src/runners/evaluate_shared_boundary_nlvr2_5img.py
+?? research_budget_hijacking/src/runners/evaluate_survivor_poison_nlvr2_5img.py
+?? research_budget_hijacking/src/runners/nlvr2_smoke.py
+?? research_budget_hijacking/src/runners/pilot_cross_image_budget_dos_textvqa.py
+?? research_budget_hijacking/src/runners/pilot_setplan_nlvr2_5img.py
+?? research_budget_hijacking/src/runners/scan.py
+?? research_budget_hijacking/src/runners/validate_partitioned_budget_nlvr2_5img.py
+?? research_budget_hijacking/src/runners/visionzip_smoke.py
+?? research_budget_hijacking/src/tokenization/__init__.py
+?? research_budget_hijacking/src/tokenization/compression_hook.py
+?? research_budget_hijacking/src/tokenization/hooks.py
+?? research_budget_hijacking/tests/__init__.py
+?? research_budget_hijacking/tests/test_metrics.py
+?? research_budget_hijacking/tests/test_relation_integrity.py
+?? research_budget_hijacking/tests/test_token_provenance.py
+?? research_budget_hijacking/tests/test_toy_causal_chain.py
+?? research_entity_binding/
+?? results/
+?? risk_refusal/
+?? risk_refusal_disentanglement/
+?? scripts/env.sh
+?? third_party/
+?? twi_attack/
+?? week1_mechanism/
+?? week2_attack_v2/
+?? week2_attack_v3/
+?? week2_attack_v3_quick/
+?? week2_attack_v4_answer_aligned/
+?? week2_attack_v4_relaxed_full/
+?? week2_attack_v5_pristine40/
+?? week2_attack_v5b_expanded_pristine40/
+?? week2_attack_v6_survivor_upgrade/
+?? week2_attack_v6b_soft_full_anchor/
+?? week2_attack_v6c_split_calibration/
+?? week2_attack_v7_budget_conditioned/
+?? week2_attack_v7_pristine60/
+?? week2_attack_v7a_fdp_alignment_audit/
+?? week2_attack_v7b_native_cache_margin_admission/
+?? week2_attack_v7c_native60_readonly_remeasurement/
+?? week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/
+?? week2_attack_v8_graybox_admission/
+?? week2_attack_v9_target_independent_surrogate_runtime/
+?? week2_attack_v9a_full_baseline_recovery/
+?? week2_pilot/
+?? "\346\226\271\346\241\210\344\270\216\347\273\223\346\236\234\346\200\273\350\247\210.md"

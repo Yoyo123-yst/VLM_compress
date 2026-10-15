@@ -1,0 +1,40 @@
+{
+  "sample_id": "39204",
+  "reference_tokens": [
+    3788,
+    2069,
+    87534,
+    51432,
+    151645
+  ],
+  "reference_pieces": [
+    "FO",
+    "OD",
+    " TECHNO",
+    "LOGY",
+    "<|im_end|>"
+  ],
+  "core_positions": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "base_fast_text": "FOOD TECHNOLOGY",
+  "base_full_text": "FOOD TECHNOLOGY",
+  "base_keep_hash": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+  "base_processor_hash": "56322089ea87fab83660a912df56b9cad0d30ba018685d1d4ffba9924e4cbec6",
+  "base_full_exact": true,
+  "gradient_prepared_hash": "56322089ea87fab83660a912df56b9cad0d30ba018685d1d4ffba9924e4cbec6",
+  "diff_meta": {
+    "eigenvalue": 822321.0625,
+    "basis_rank": 9,
+    "core_response": 5238.35498046875
+  },
+  "direction_hashes": {
+    "RAW": "e3d83a70386126ff85a007b569ea2ba39cfba3514d95ac8275aae122a623ce77",
+    "NATIVE": "9b96ea2d9ff914bc704cb543ed6a69b977458e1e9014a5318a6283921c95cc33",
+    "DIFF": "efd2dd41a66709dffbb5164a0e5b4ead83a3d83707365249ef5227b5a1566de3",
+    "RANDOM": "987d0a13079798a5ddd938345d2a1888a1db2a1108c9ec110d87ce9292d6f845"
+  }
+}

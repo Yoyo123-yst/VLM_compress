@@ -1,0 +1,4 @@
+{"event":"step2","gpu":"4","start":"2026-10-07T23:23:27+08:00","cmd":"run_smoke.py --calibrate --steps 2 --ids 50743 --tag step2 --grad-log"}
+{"event":"step5","gpu":"4","start":"2026-10-07T23:27:31+08:00","cmd":"run_smoke.py --calibrate --steps 5 --ids 50743 --tag step5 --grad-log"}
+{"event":"step25","gpu":"4","start":"2026-10-07T23:31:48+08:00","cmd":"run_smoke.py --steps 25 --ids 50743 --tag step25"}
+{"event":"official200","start":"2026-10-07T23:37:09+08:00","gpus":"4,6","steps":200}

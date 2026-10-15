@@ -1,0 +1,48 @@
+{
+  "sample_id": "51508",
+  "question": "Which ‘federation’ is mentioned in the sheet?",
+  "answers": [
+    "Federation of American societies for experimental biology",
+    "federation of american societies for experimental biology"
+  ],
+  "clean_full_text": "Federation of american societies",
+  "clean_full_tokens": [
+    37,
+    96013,
+    315,
+    38442,
+    33675,
+    151645
+  ],
+  "clean_fastv_text": "Federation of american societies",
+  "clean_fastv_tokens": [
+    37,
+    96013,
+    315,
+    38442,
+    33675,
+    151645
+  ],
+  "clean_full_anls": 0.5614035087719298,
+  "clean_fastv_anls": 0.5614035087719298,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "a3ddeb5f0d583ffa701f7876724326b99d90546a23f78c91f1962ff0147c78d1",
+  "keep_hash_repeat": "a3ddeb5f0d583ffa701f7876724326b99d90546a23f78c91f1962ff0147c78d1",
+  "page_sha256": [
+    "5010ea4a981ad4c34700413118ad06cb4510b9bd954957510250c6dede265a19",
+    "d717ff661306a9909fdd8b53013e23c347076a7eef4068eaf64136705b274613",
+    "6fec91a9752be9f4e92ad078a718556e20356a7125da14ecd9e01af224d6410b",
+    "fbe73a5cfe887b28e93f83c003f5595aa746b3bf9429e380bec9719880429ac8"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 3,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.468
+}

@@ -1,0 +1,715 @@
+{
+  "sample_id": "1025",
+  "clean_text": "Dr. C. Baur MD",
+  "attack_chosen": {
+    "step": 25,
+    "nonzero": 1,
+    "output_valid": 1,
+    "linf_ok": 1,
+    "pixel_linf_uint8": 0.03137254901960784,
+    "margin": -1.03591987490654,
+    "replay": 1
+  },
+  "status": "OK",
+  "comp_chosen": {
+    "step": 10,
+    "nonzero": 1,
+    "output_valid": 1,
+    "linf_ok": 1,
+    "pixel_linf_uint8": 0.03137254901960784,
+    "full_exact": 1,
+    "margin": -1.213802993297577,
+    "replay": 1
+  },
+  "comp_accepted": 100,
+  "comp_rejected": 0,
+  "attack_ref_margin": -1.03591987490654,
+  "endpoints": {
+    "CLEAN": {
+      "full_text": "Dr. C. Baur MD",
+      "full_tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        4110,
+        13979,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 3.65625,
+      "full_soft": 3.1425328254699707,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "Dr. C. B. M.D.",
+          "tokens": [
+            8847,
+            13,
+            356,
+            13,
+            425,
+            13,
+            386,
+            909,
+            13,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.75,
+          "k": 5548,
+          "keep_hash": "681f35604119683283817a48e38a8ec0c87aaacb864107dac0ba96c1d7e955a4",
+          "hook_match": 1,
+          "hard": 2.4437501430511475,
+          "soft": 1.8346198797225952,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "Dr. C. B. B. M.D.",
+          "tokens": [
+            8847,
+            13,
+            356,
+            13,
+            425,
+            13,
+            425,
+            13,
+            386,
+            909,
+            13,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.75,
+          "k": 3884,
+          "keep_hash": "ecefcd69ddc95ba41453e8f3d0107d0549d98a02f357965c7e98f8d24698c95e",
+          "hook_match": 1,
+          "hard": 2.484375,
+          "soft": 1.563478708267212,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "Dr. C. Baur",
+          "tokens": [
+            8847,
+            13,
+            356,
+            13,
+            425,
+            4110,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.6666666666666667,
+          "k": 2774,
+          "keep_hash": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5",
+          "hook_match": 1,
+          "hard": 1.821428656578064,
+          "soft": 0.7863425016403198,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.15": {
+          "text": "TAKEDA",
+          "tokens": [
+            51,
+            11907,
+            86761,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 1665,
+          "keep_hash": "bb02409869b495f342461077cacff2a4fcefc459f4bd5cb9b12a74e6dfff8735",
+          "hook_match": 1,
+          "hard": 1.890625,
+          "soft": 0.7879033088684082,
+          "replay": true,
+          "endpoint_failure": true
+        }
+      },
+      "aux_sha256": "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+      "other_page_sha256": [
+        "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+        "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+      ],
+      "norms": {
+        "linf_uint8": 0,
+        "linf": 0.0,
+        "l1": 0.0,
+        "l2": 0.0
+      }
+    },
+    "ATTACK_ONLY": {
+      "full_text": "Dr. C. Baur MD",
+      "full_tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        4110,
+        13979,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 3.0078125,
+      "full_soft": 2.561962127685547,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "Dr. C. B. M.D.",
+          "tokens": [
+            8847,
+            13,
+            356,
+            13,
+            425,
+            13,
+            386,
+            909,
+            13,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.75,
+          "k": 5548,
+          "keep_hash": "a13e59348933ee525738466702abee36fb6e87d0163e8ea06155d9bbd563c8aa",
+          "hook_match": 1,
+          "hard": 2.375,
+          "soft": 1.5121104717254639,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "CHICHAYLES",
+          "tokens": [
+            2149,
+            32829,
+            3022,
+            14017,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 3884,
+          "keep_hash": "5be0fef969f3a5cadd5557c917ba6478307f566f56489e44b9f626e37aa386f5",
+          "hook_match": 1,
+          "hard": 0.9125000238418579,
+          "soft": -0.9015312194824219,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.25": {
+          "text": "CHADWICK, C.",
+          "tokens": [
+            2149,
+            1808,
+            54,
+            10685,
+            11,
+            356,
+            13,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 2774,
+          "keep_hash": "1d0eaab48edeb01e57acaaf24a12b57fdd31cae70a5e762377f57f1615564d2b",
+          "hook_match": 1,
+          "hard": 1.171875,
+          "soft": -0.6869195699691772,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.15": {
+          "text": "TAKEDA",
+          "tokens": [
+            51,
+            11907,
+            86761,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 1665,
+          "keep_hash": "e72a8e10adf98ed6604af8fa5868656ed49d2fcbf186f8b430943cd11d60fa6b",
+          "hook_match": 1,
+          "hard": 3.28125,
+          "soft": 1.7972412109375,
+          "replay": true,
+          "endpoint_failure": true
+        }
+      },
+      "aux_sha256": "10094880f75ba011b21d965d4188d05c3e7113fc6f0a7e64beee7c68bafb32ad",
+      "other_page_sha256": [
+        "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+        "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 7806681.0,
+        "l2": 7249.89661995259
+      }
+    },
+    "COMPENSATION_ONLY": {
+      "full_text": "Dr. C. Baur MD",
+      "full_tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        4110,
+        13979,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 3.6484375,
+      "full_soft": 3.121976375579834,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "Dr. C. B. Baur MD",
+          "tokens": [
+            8847,
+            13,
+            356,
+            13,
+            425,
+            13,
+            425,
+            4110,
+            13979,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.7857142857142857,
+          "k": 5548,
+          "keep_hash": "eff8c99c613c62ab507ee812bed1a608df66a69e70df4b7a2329d5b33cea48f4",
+          "hook_match": 1,
+          "hard": 2.575000047683716,
+          "soft": 1.8009508848190308,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "Dr. C. B. B. M.D.",
+          "tokens": [
+            8847,
+            13,
+            356,
+            13,
+            425,
+            13,
+            425,
+            13,
+            386,
+            909,
+            13,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.75,
+          "k": 3884,
+          "keep_hash": "a2ef9d70f8ac2acd86fc8c58643d88cb4379e49333e9f44cbd194f320b7ac82e",
+          "hook_match": 1,
+          "hard": 2.4479167461395264,
+          "soft": 1.528444766998291,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "Dr. Bacharach",
+          "tokens": [
+            8847,
+            13,
+            41158,
+            277,
+            610,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 2774,
+          "keep_hash": "0eaf312454cbd4fdc21dab527e4045f3cd4810166dae57211fe6ad1fd14e4998",
+          "hook_match": 1,
+          "hard": 2.2291667461395264,
+          "soft": 0.6193240880966187,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.15": {
+          "text": "TAKEDA",
+          "tokens": [
+            51,
+            11907,
+            86761,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 1665,
+          "keep_hash": "bcad4958db44f2c4cacd5c8acafb826a1f1a9eb7ab3bc95d7549a5488dc8cae5",
+          "hook_match": 1,
+          "hard": 1.84375,
+          "soft": 0.7264113426208496,
+          "replay": true,
+          "endpoint_failure": true
+        }
+      },
+      "aux_sha256": "f06694c8b55736afa888f2af328c7363abd3a57d7f2874ff11d01a5d7b997432",
+      "other_page_sha256": [
+        "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+        "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+      ],
+      "norms": {
+        "linf_uint8": 4,
+        "linf": 0.01568627450980392,
+        "l1": 280782.0,
+        "l2": 629.9793647414175
+      }
+    },
+    "ATTACK_PLUS_COMPENSATION": {
+      "full_text": "Dr. C. Baur MD",
+      "full_tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        4110,
+        13979,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 3.640625,
+      "full_soft": 3.124598503112793,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "Dr. C. B. M.D.",
+          "tokens": [
+            8847,
+            13,
+            356,
+            13,
+            425,
+            13,
+            386,
+            909,
+            13,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.75,
+          "k": 5548,
+          "keep_hash": "9422405aaae730892e2e2b56269638943bfaed85278cb014afa16f2e88af1524",
+          "hook_match": 1,
+          "hard": 2.4312500953674316,
+          "soft": 1.6099799871444702,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "CHICHAYA",
+          "tokens": [
+            2149,
+            32829,
+            3022,
+            32,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 3884,
+          "keep_hash": "aa608f064011d916166f8b2eecbbf84d662802f042406428880fb9c2f43f332b",
+          "hook_match": 1,
+          "hard": 1.0125000476837158,
+          "soft": -1.2321637868881226,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.25": {
+          "text": "CHAPUZAT",
+          "tokens": [
+            2149,
+            2537,
+            52,
+            57,
+            828,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 2774,
+          "keep_hash": "3a8cff3e867a09940c359e8c7cd1f8b05e65815a6d6944ebb53245a253f64a8c",
+          "hook_match": 1,
+          "hard": 0.8125,
+          "soft": -1.0207695960998535,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.15": {
+          "text": "TAKEDA",
+          "tokens": [
+            51,
+            11907,
+            86761,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 1665,
+          "keep_hash": "707ac254255b3c211f55b4d902e09a8443f65edc98c8fe0eef147bee9a69bb64",
+          "hook_match": 1,
+          "hard": 3.234375,
+          "soft": 1.7618958950042725,
+          "replay": true,
+          "endpoint_failure": true
+        }
+      },
+      "aux_sha256": "33d96a1bd72d98628952708da68b0dbcf1c30ed85f8eebd31fb5be4c577ab7cf",
+      "other_page_sha256": [
+        "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+        "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 7834103.0,
+        "l2": 7232.997787916155
+      }
+    },
+    "SIGN_FLIP_CONTROL": {
+      "full_text": "Dr. C. Baur",
+      "full_tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        4110,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 2.2410714626312256,
+      "full_soft": 1.787316083908081,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "Dr. C. B. Baur",
+          "tokens": [
+            8847,
+            13,
+            356,
+            13,
+            425,
+            13,
+            425,
+            4110,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 5548,
+          "keep_hash": "37f98802d5337ddc592706e1ebc096f09d3370a8378a3b6d417d54d48f7b01ab",
+          "hook_match": 1,
+          "hard": 2.0486111640930176,
+          "soft": 0.9735381007194519,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.35": {
+          "text": "CHICHICHELES",
+          "tokens": [
+            2149,
+            32829,
+            1317,
+            1799,
+            14017,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 3884,
+          "keep_hash": "ecd5a76c028a3cabd7a8479d4c71e9ce0d1cc319f7789e220a90a5b9f86e29b5",
+          "hook_match": 1,
+          "hard": 1.0625,
+          "soft": -1.1043262481689453,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.25": {
+          "text": "CHAPLIS",
+          "tokens": [
+            2149,
+            2537,
+            43,
+            1637,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 2774,
+          "keep_hash": "193b0f61c5f4021131cfe293f55e07115a30eadaaa7a009f44117e60772f7c66",
+          "hook_match": 1,
+          "hard": 0.7750000357627869,
+          "soft": -1.1282087564468384,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.15": {
+          "text": "TAKEDA",
+          "tokens": [
+            51,
+            11907,
+            86761,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 1665,
+          "keep_hash": "f202c2510a56665153d91dda9861348b682584e8f526c91e36d958c56dda7cdc",
+          "hook_match": 1,
+          "hard": 3.28125,
+          "soft": 1.872981071472168,
+          "replay": true,
+          "endpoint_failure": true
+        }
+      },
+      "aux_sha256": "5e494c72e3d6f3156f08654a11ce46f729d7a65dd478d5c918ca79218a055e3f",
+      "other_page_sha256": [
+        "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+        "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 7784155.0,
+        "l2": 7244.549330358653
+      }
+    },
+    "ROLL_CONTROL": {
+      "full_text": "Dr. C. Baur",
+      "full_tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        4110,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 2.294642925262451,
+      "full_soft": 1.8268003463745117,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "Dr. C. B. Bachmann",
+          "tokens": [
+            8847,
+            13,
+            356,
+            13,
+            425,
+            13,
+            41158,
+            17562,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.5333333333333333,
+          "k": 5548,
+          "keep_hash": "4902ce96e51dac8b6faa6f19b61307e0587089c3e6271ed59299175123c7b244",
+          "hook_match": 1,
+          "hard": 1.9583333730697632,
+          "soft": 1.064562439918518,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "CHICHAYLES",
+          "tokens": [
+            2149,
+            32829,
+            3022,
+            14017,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 3884,
+          "keep_hash": "f36d3f2d509bf032d955abb25abe9a8e2e06a7ccf0d7468ab9007aff9c07b371",
+          "hook_match": 1,
+          "hard": 1.0625,
+          "soft": -0.7643436789512634,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.25": {
+          "text": "CHAPDA",
+          "tokens": [
+            2149,
+            2537,
+            6352,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 2774,
+          "keep_hash": "e1854091b4ed19012126ac13e9280ef03aab1969a914bba3c63b5970c0e38aba",
+          "hook_match": 1,
+          "hard": 0.859375,
+          "soft": -0.9992871284484863,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.15": {
+          "text": "TAKEDA",
+          "tokens": [
+            51,
+            11907,
+            86761,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 1665,
+          "keep_hash": "bcc2e6669b5775341632b98a7a3c943ac18c362f1e5b4750960ebff3e6b32c4b",
+          "hook_match": 1,
+          "hard": 3.328125,
+          "soft": 1.832012414932251,
+          "replay": true,
+          "endpoint_failure": true
+        }
+      },
+      "aux_sha256": "fe08d94df66b51843dae2b7f47af338bb3ea545b1ee48287ca7216ca222af106",
+      "other_page_sha256": [
+        "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+        "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 7809886.0,
+        "l2": 7228.36800391347
+      }
+    }
+  },
+  "control_norms_not_equalized": true,
+  "counters": {
+    "forward": 9158,
+    "backward": 300,
+    "generate": 1092,
+    "fastv": 1054
+  },
+  "elapsed_sec": 2745.0087274389807,
+  "peak_memory_mib": 26415.0732421875
+}

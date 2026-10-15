@@ -1,0 +1,27 @@
+{
+  "status": "EVALUATED_INDEPENDENT_PROCESS",
+  "sample_id": "51024",
+  "method": "native_fdp",
+  "independent_process": true,
+  "png_path": "week2_attack_v29_batch_compare/attacks/native_fdp/51024/accepted_020.png",
+  "png_sha256": "bed398248d638dddc14b8d2462a9be0b8702cb3b92ff5afbfb6ef13d0022f1a5",
+  "uint8_linf": 8,
+  "clean_full_text": "Dinner",
+  "full_text": "Dinner",
+  "full_text_exact": true,
+  "full_token_exact": true,
+  "same_evaluator_process_repeat_exact": true,
+  "fastv_text": "DEBUT",
+  "fastv_anls": 0.0,
+  "fastv_valid": true,
+  "k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "778cd6d4a8c856671c1d63e12a95fb195c6922d7e1d7ff4dba03b799b0950f01",
+  "dataset_answers": [
+    "Dinner"
+  ],
+  "target_text": null,
+  "target_hit_normalized_exact": false,
+  "content_status": "PENDING_QUESTION_SPECIFIC_REVIEW",
+  "semantic_review_required": true
+}

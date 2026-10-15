@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "positive_negative_bounds",
+      "pass": true,
+      "detail": "[[[8, -8, 3]]]"
+    },
+    {
+      "name": "saturated_pixels",
+      "pass": true,
+      "detail": [
+        [
+          [
+            0,
+            255,
+            255
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "components_legal_sum_illegal",
+      "pass": true,
+      "detail": "attack=4 comp=4"
+    },
+    {
+      "name": "euclidean_pair",
+      "pass": true,
+      "detail": "4,4"
+    },
+    {
+      "name": "float_to_uint8",
+      "pass": true,
+      "detail": "8,-2"
+    },
+    {
+      "name": "png_reload_linf",
+      "pass": true,
+      "detail": "{'linf_uint8': 8, 'linf': 0.03137254901960784, 'l1': 96.0, 'l2': 27.712812921102035}"
+    },
+    {
+      "name": "frozen_attack_slice",
+      "pass": true,
+      "detail": "8,0"
+    }
+  ]
+}

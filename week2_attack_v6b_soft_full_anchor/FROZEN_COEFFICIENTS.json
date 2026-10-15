@@ -1,0 +1,17 @@
+{
+  "written_at": "2026-10-08T18:25:30+08:00",
+  "decision": "BLOCKED_V6B_CALIBRATION",
+  "sample_id": "1025",
+  "state": "delta=0",
+  "probe": false,
+  "second_calibration": false,
+  "source": "week2_attack_v6b_soft_full_anchor/logs/health_1025.json",
+  "grad_l2": {
+    "comp": 9.532242774963379,
+    "soft": 4.650271892547607,
+    "sel": 0.0
+  },
+  "lambda_soft": null,
+  "beta": null,
+  "reason": "L2(grad L_selection) is 0 at the clean image, which is at or below 1e-6. L_selection is the L1 distance between identical page masses, so its subgradient is 0. No probe was used."
+}

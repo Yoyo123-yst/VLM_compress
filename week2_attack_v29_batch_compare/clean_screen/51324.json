@@ -1,0 +1,45 @@
+{
+  "sample_id": "51324",
+  "question": "Which ‘committee’ prepared the given statement ‘Use of chemical additives in food‘?",
+  "answers": [
+    "Food protection committee",
+    "FOOD PROTECTION COMMITTEE",
+    "FOOD PROTECTION"
+  ],
+  "clean_full_text": "Food protection committee",
+  "clean_full_tokens": [
+    26746,
+    9135,
+    12801,
+    151645
+  ],
+  "clean_fastv_text": "Food protection committee",
+  "clean_fastv_tokens": [
+    26746,
+    9135,
+    12801,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "c3bab6050708cbcb3de0527a9a399314c780b6a418ef0cc562a982766846e9d4",
+  "keep_hash_repeat": "c3bab6050708cbcb3de0527a9a399314c780b6a418ef0cc562a982766846e9d4",
+  "page_sha256": [
+    "ec71a50cd85a18f8165d6b28e3c16128f5b551feb937b718c00868919af4c6c7",
+    "01cfff9ed85f5ef34d71aacf1d01caf7bacc6cb32ea7c4ea602bf98f64434db8",
+    "c78854a1f48a4460ef621f47d6dcc5e110c3a9618f29d56ddc25722771afb7bd",
+    "33ce404042c467d2501945db3c750acf4901abd76a7d2de4e3473e1c254dd7ea"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.119
+}

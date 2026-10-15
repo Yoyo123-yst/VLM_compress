@@ -1,0 +1,372 @@
+{
+  "sample_id": "47450",
+  "clean_fast_text": "Dr. or Mrs. William J. Darby",
+  "rows": [
+    {
+      "sample_id": "47450",
+      "direction": "RAW",
+      "radius": 1,
+      "predicted_core_change": -20.858135223388672,
+      "natural_core_margins": [
+        {
+          "position": 5,
+          "token_id": 12375,
+          "piece": " William",
+          "hard_margin": 3.875,
+          "soft_margin": 3.464153289794922
+        },
+        {
+          "position": 6,
+          "token_id": 619,
+          "piece": " J",
+          "hard_margin": 4.75,
+          "soft_margin": 4.659372329711914
+        },
+        {
+          "position": 7,
+          "token_id": 13,
+          "piece": ".",
+          "hard_margin": 4.625,
+          "soft_margin": 4.26213264465332
+        },
+        {
+          "position": 8,
+          "token_id": 15017,
+          "piece": " Dar",
+          "hard_margin": 6.375,
+          "soft_margin": 6.213687896728516
+        },
+        {
+          "position": 9,
+          "token_id": 1694,
+          "piece": "by",
+          "hard_margin": 10.375,
+          "soft_margin": 9.461296081542969
+        }
+      ],
+      "fixed_keep_core_margins": [
+        {
+          "position": 5,
+          "hard_margin": 4.0,
+          "soft_margin": 3.5275802612304688,
+          "piece": " William"
+        },
+        {
+          "position": 6,
+          "hard_margin": 4.75,
+          "soft_margin": 4.652750015258789,
+          "piece": " J"
+        },
+        {
+          "position": 7,
+          "hard_margin": 4.5,
+          "soft_margin": 4.18109130859375,
+          "piece": "."
+        },
+        {
+          "position": 8,
+          "hard_margin": 6.375,
+          "soft_margin": 6.212764739990234,
+          "piece": " Dar"
+        },
+        {
+          "position": 9,
+          "hard_margin": 10.5,
+          "soft_margin": 9.67194938659668,
+          "piece": "by"
+        }
+      ],
+      "fast_text": "Dr. or Mrs. William J. Darby",
+      "keep_hash": "f92e0e53efcdbb96881d9ade4909d8a9bb19566df9ffde9cc88bd1b28532c442",
+      "full_exact": true,
+      "png_linf": 1,
+      "qp_solver": null
+    },
+    {
+      "sample_id": "47450",
+      "direction": "QP",
+      "radius": 1,
+      "predicted_core_change": -0.533931314945221,
+      "natural_core_margins": [
+        {
+          "position": 5,
+          "token_id": 12375,
+          "piece": " William",
+          "hard_margin": 4.5,
+          "soft_margin": 3.914674758911133
+        },
+        {
+          "position": 6,
+          "token_id": 619,
+          "piece": " J",
+          "hard_margin": 5.125,
+          "soft_margin": 5.008571624755859
+        },
+        {
+          "position": 7,
+          "token_id": 13,
+          "piece": ".",
+          "hard_margin": 5.375,
+          "soft_margin": 4.890676498413086
+        },
+        {
+          "position": 8,
+          "token_id": 15017,
+          "piece": " Dar",
+          "hard_margin": 6.25,
+          "soft_margin": 6.124973297119141
+        },
+        {
+          "position": 9,
+          "token_id": 1694,
+          "piece": "by",
+          "hard_margin": 11.25,
+          "soft_margin": 10.22637939453125
+        }
+      ],
+      "fixed_keep_core_margins": [
+        {
+          "position": 5,
+          "hard_margin": 4.75,
+          "soft_margin": 4.104869842529297,
+          "piece": " William"
+        },
+        {
+          "position": 6,
+          "hard_margin": 5.25,
+          "soft_margin": 5.128755569458008,
+          "piece": " J"
+        },
+        {
+          "position": 7,
+          "hard_margin": 5.375,
+          "soft_margin": 4.892486572265625,
+          "piece": "."
+        },
+        {
+          "position": 8,
+          "hard_margin": 6.25,
+          "soft_margin": 6.1220855712890625,
+          "piece": " Dar"
+        },
+        {
+          "position": 9,
+          "hard_margin": 11.5,
+          "soft_margin": 10.393857955932617,
+          "piece": "by"
+        }
+      ],
+      "fast_text": "Dr. or Mrs. William J. Darby",
+      "keep_hash": "451ed5c8bd8cc1f03be2b08bab84f4b365b030719acb649924d6c57396c4cea9",
+      "full_exact": true,
+      "png_linf": 1,
+      "qp_solver": {
+        "candidate_valid": true,
+        "solver_success": true,
+        "solver_message": "Optimization terminated successfully",
+        "basis_rank": 16,
+        "objective": -40.05939881769127,
+        "coeff_norm": 1.0000000000042266,
+        "pixel_scale": 0.01332815823352692,
+        "executed_linf": 0.00392156862745098,
+        "linearized_core_change": -0.5339313343403841,
+        "linearized_full_changes": [
+          0.007213941361979331,
+          0.22895549304843127,
+          0.19269534171488467,
+          -0.7779482152435065,
+          -0.23034934328476203,
+          -0.7305631657516672,
+          -0.9791763487058737,
+          -0.17558299325093282,
+          -1.2687154709562016,
+          0.2431162027131014,
+          -1.6508854536702435
+        ]
+      }
+    },
+    {
+      "sample_id": "47450",
+      "direction": "RAW",
+      "radius": 2,
+      "predicted_core_change": -41.716270446777344,
+      "natural_core_margins": [
+        {
+          "position": 5,
+          "token_id": 12375,
+          "piece": " William",
+          "hard_margin": 3.5,
+          "soft_margin": 3.1512451171875
+        },
+        {
+          "position": 6,
+          "token_id": 619,
+          "piece": " J",
+          "hard_margin": 4.375,
+          "soft_margin": 4.302980422973633
+        },
+        {
+          "position": 7,
+          "token_id": 13,
+          "piece": ".",
+          "hard_margin": 4.0,
+          "soft_margin": 3.7435970306396484
+        },
+        {
+          "position": 8,
+          "token_id": 15017,
+          "piece": " Dar",
+          "hard_margin": 6.5,
+          "soft_margin": 6.302835464477539
+        },
+        {
+          "position": 9,
+          "token_id": 1694,
+          "piece": "by",
+          "hard_margin": 9.875,
+          "soft_margin": 9.190505981445312
+        }
+      ],
+      "fixed_keep_core_margins": [
+        {
+          "position": 5,
+          "hard_margin": 3.5,
+          "soft_margin": 3.1431617736816406,
+          "piece": " William"
+        },
+        {
+          "position": 6,
+          "hard_margin": 4.5,
+          "soft_margin": 4.409351348876953,
+          "piece": " J"
+        },
+        {
+          "position": 7,
+          "hard_margin": 4.125,
+          "soft_margin": 3.8653030395507812,
+          "piece": "."
+        },
+        {
+          "position": 8,
+          "hard_margin": 6.375,
+          "soft_margin": 6.160863876342773,
+          "piece": " Dar"
+        },
+        {
+          "position": 9,
+          "hard_margin": 9.75,
+          "soft_margin": 9.177143096923828,
+          "piece": "by"
+        }
+      ],
+      "fast_text": "Dr. or Mrs. William J. Darby",
+      "keep_hash": "9f94ae7653aad8bf9f7a59bca4cb1bc1cb70deb6001e088928e673d825e71fa4",
+      "full_exact": true,
+      "png_linf": 2,
+      "qp_solver": null
+    },
+    {
+      "sample_id": "47450",
+      "direction": "QP",
+      "radius": 2,
+      "predicted_core_change": -1.067862629890442,
+      "natural_core_margins": [
+        {
+          "position": 5,
+          "token_id": 12375,
+          "piece": " William",
+          "hard_margin": 4.625,
+          "soft_margin": 4.031028747558594
+        },
+        {
+          "position": 6,
+          "token_id": 619,
+          "piece": " J",
+          "hard_margin": 5.125,
+          "soft_margin": 5.009553909301758
+        },
+        {
+          "position": 7,
+          "token_id": 13,
+          "piece": ".",
+          "hard_margin": 5.25,
+          "soft_margin": 4.766731262207031
+        },
+        {
+          "position": 8,
+          "token_id": 15017,
+          "piece": " Dar",
+          "hard_margin": 6.25,
+          "soft_margin": 6.121603012084961
+        },
+        {
+          "position": 9,
+          "token_id": 1694,
+          "piece": "by",
+          "hard_margin": 11.5,
+          "soft_margin": 10.391555786132812
+        }
+      ],
+      "fixed_keep_core_margins": [
+        {
+          "position": 5,
+          "hard_margin": 4.75,
+          "soft_margin": 4.106069564819336,
+          "piece": " William"
+        },
+        {
+          "position": 6,
+          "hard_margin": 5.25,
+          "soft_margin": 5.130596160888672,
+          "piece": " J"
+        },
+        {
+          "position": 7,
+          "hard_margin": 5.375,
+          "soft_margin": 4.888387680053711,
+          "piece": "."
+        },
+        {
+          "position": 8,
+          "hard_margin": 6.25,
+          "soft_margin": 6.122108459472656,
+          "piece": " Dar"
+        },
+        {
+          "position": 9,
+          "hard_margin": 11.5,
+          "soft_margin": 10.393402099609375,
+          "piece": "by"
+        }
+      ],
+      "fast_text": "Dr. or Mrs. William J. Darby",
+      "keep_hash": "c269cd173ec9b08110878a9561ceaee3eb2bc73a68524350944e7477e1f8c2c9",
+      "full_exact": true,
+      "png_linf": 2,
+      "qp_solver": {
+        "candidate_valid": true,
+        "solver_success": true,
+        "solver_message": "Optimization terminated successfully",
+        "basis_rank": 16,
+        "objective": -40.059398817539915,
+        "coeff_norm": 1.0000000000004483,
+        "pixel_scale": 0.026656316591863467,
+        "executed_linf": 0.00784313725490196,
+        "linearized_core_change": -1.0678626736766568,
+        "linearized_full_changes": [
+          0.014427883509437207,
+          0.45791098464404983,
+          0.3853906914089911,
+          -1.5558964636088646,
+          -0.46069869890185317,
+          -1.4611263168865916,
+          -1.9583527000260725,
+          -0.3511659754283287,
+          -2.537430926021752,
+          0.4862324119959776,
+          -3.301770920381
+        ]
+      }
+    }
+  ]
+}

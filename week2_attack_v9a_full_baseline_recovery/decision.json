@@ -1,0 +1,12 @@
+{
+  "decision": "ORIGINAL_OK_V9_WRAPPER_DIVERGED",
+  "sample_id": "1025",
+  "frozen_text": "Dr. C. Baur MD",
+  "original_text": "Dr. C. Baur MD",
+  "v9_text": "",
+  "earliest_field": "prompt",
+  "minimal_fix": "Restore the historical chat wrapper in the v9 prompt: <|im_start|>user\\n + body + <|im_end|>\\n<|im_start|>assistant\\n. Do not change EOS, max_new_tokens, or the image processor.",
+  "baseline_recovered": false,
+  "surrogate_runtime_admission_allowed": false,
+  "historical_b_native_fdp": "not re-audited; no retrospective conclusion"
+}

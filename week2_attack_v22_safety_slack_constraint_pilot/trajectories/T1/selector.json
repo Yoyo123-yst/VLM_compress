@@ -1,0 +1,55 @@
+{
+  "rule": "lowest L_core, then smaller step",
+  "chosen": {
+    "step": 20,
+    "l_core": 1.4026552200317384
+  },
+  "rows": [
+    {
+      "step": 0,
+      "legal": true,
+      "l_core": 6.114247894287109
+    },
+    {
+      "step": 1,
+      "legal": true,
+      "l_core": 6.185642242431641
+    },
+    {
+      "step": 2,
+      "legal": true,
+      "l_core": 6.017848968505859
+    },
+    {
+      "step": 5,
+      "legal": true,
+      "l_core": 5.357353210449219
+    },
+    {
+      "step": 10,
+      "legal": true,
+      "l_core": 4.640499877929687
+    },
+    {
+      "step": 15,
+      "legal": true,
+      "l_core": 2.109113883972168
+    },
+    {
+      "step": 20,
+      "legal": true,
+      "l_core": 1.4026552200317384
+    },
+    {
+      "step": 25,
+      "legal": true,
+      "l_core": 2.973179244995117
+    }
+  ],
+  "stopped": null,
+  "cost": {
+    "forward": 206,
+    "backward": 50,
+    "generate": 259
+  }
+}

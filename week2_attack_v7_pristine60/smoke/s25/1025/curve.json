@@ -1,0 +1,97 @@
+[
+  {
+    "sample_id": "1025",
+    "step": 0,
+    "seed": 2787658130,
+    "pred_full": "Dr. C. Baur MD",
+    "pred_fastv": "Dr. C. Baur",
+    "anls_full": 0.9166666666666666,
+    "anls_fastv": 0.6666666666666667,
+    "output_valid": true,
+    "margin": 2.046875,
+    "L_comp": 0.96484375,
+    "L_soft_full": 0.69140625,
+    "keep_hash": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5",
+    "k": 2774,
+    "aux_share": 0.31002162941600575,
+    "evidence_share": 0.24116798846431145,
+    "page_keep_counts": [
+      860,
+      669,
+      1245
+    ],
+    "page_shares": [
+      0.31002162941600575,
+      0.24116798846431145,
+      0.44881038211968277
+    ],
+    "linf": 0.0,
+    "png": "checkpoints/step_000.png",
+    "png_sha256": "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+    "protected_ok": true,
+    "grad_norm": 13.433185577392578
+  },
+  {
+    "sample_id": "1025",
+    "step": 10,
+    "seed": 2787658130,
+    "pred_full": "Dr. C. Baur MD",
+    "pred_fastv": "TAKEDA",
+    "anls_full": 0.9166666666666666,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": 1.0078125,
+    "L_comp": -1.326171875,
+    "L_soft_full": 0.37109375,
+    "keep_hash": "9829cf060948d079fca8a63dba23368c5db830109fc97ad00b4aeb08a90482ca",
+    "k": 2774,
+    "aux_share": 0.29704397981254504,
+    "evidence_share": 0.2469358327325162,
+    "page_keep_counts": [
+      824,
+      685,
+      1265
+    ],
+    "page_shares": [
+      0.29704397981254504,
+      0.2469358327325162,
+      0.4560201874549387
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_010.png",
+    "png_sha256": "4d41f677d95d2ca45ed84f9497802c22d77099d00102d9ca84df726ca03c7e94",
+    "protected_ok": true,
+    "grad_norm": 15.128205299377441
+  },
+  {
+    "sample_id": "1025",
+    "step": 25,
+    "seed": 2787658130,
+    "pred_full": "Dr. C. Baur MD",
+    "pred_fastv": "Chalid Tatar",
+    "anls_full": 0.9166666666666666,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -6.4755859375,
+    "L_comp": -6.53564453125,
+    "L_soft_full": 0.32421875,
+    "keep_hash": "31467af09e3aa01f92f2e47002ae32b028735f0616881f14994b308c076141f4",
+    "k": 2774,
+    "aux_share": 0.29956741167988465,
+    "evidence_share": 0.24513338139870222,
+    "page_keep_counts": [
+      831,
+      680,
+      1263
+    ],
+    "page_shares": [
+      0.29956741167988465,
+      0.24513338139870222,
+      0.4552992069214131
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_025.png",
+    "png_sha256": "b92bc3032d023fef4adb4fb8a9c259eff421d5a838678601bb9453f2e5a1b78c",
+    "protected_ok": true
+  }
+]

@@ -1,0 +1,210 @@
+{
+  "status": "DONE",
+  "steps": 4,
+  "alphas": [
+    0.000980392156862745,
+    0.00196078431372549,
+    0.00392156862745098,
+    0.00784313725490196
+  ],
+  "epsilon_uint8": 8,
+  "selected_states": [
+    "60700_recovery"
+  ],
+  "states": {
+    "60700_error": {
+      "sample": "60700",
+      "png": "week2_attack_v13_branch_reachability_probe/runs/state_retention_v1/60700/AWARE_FREEZE/step_011.png",
+      "sha256": "9fa86ee802bd22064f6503ceed9b512b5fd0464022da66be3df73d3189f0a367"
+    },
+    "60700_recovery": {
+      "sample": "60700",
+      "png": "week2_attack_v16_corrected_direction_audit/60700_attack_only/step_001.png",
+      "sha256": "2a46bc659495661664b07b628c91544fe14c6bcc713e43c4a49da492e819f32f"
+    },
+    "7006_near": {
+      "sample": "7006",
+      "png": "week2_attack_v15_recovery_path_probe/construction/7006/B/checkpoints/step_010.png",
+      "sha256": "7f41616e91051a131b5c46faa574fdbc673899c799579f732555c0df36f951f9"
+    }
+  },
+  "records": [
+    {
+      "text": "PPBS",
+      "tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "anls": 1.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "0b13da85570bbbd09508ee73ac2015e1790f40bbf399449e2af9d49ae868b297",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "a7fd642f5ecc7eb87a9c23629786740bd60a8265174af1f06b64340892803f86",
+      "reference_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "state": "60700_recovery",
+      "sample": "60700",
+      "mode": "natural",
+      "alpha": 0.00784313725490196,
+      "step": 0,
+      "strict_endpoint": false,
+      "attack_loss": 1.3601634502410889,
+      "fdp": 0.7190284729003906,
+      "grad_hash": "fa5fb8618f9852b1d407065e75b17057225162d9e12872b362f3415d0fb92962",
+      "grad_l2": 26.154815673828125,
+      "grad_linf": 2.5802764892578125,
+      "pre_update_delta_hash": "759ea467b7557f840a9abd9f38a5e0e8521ddf0a10d0971db0e5802b7faddcff",
+      "post_projection_delta_hash": "df2ec9c4cbc67e34bde61e3b7e78d71919d8c580131bca95c5721348277fb92f",
+      "guard_exact": true,
+      "accepted": true
+    },
+    {
+      "text": "PPBS",
+      "tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "anls": 1.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "3964dab3ee06cfd135b04b4c83ff08d640e52b7ff2f41f0bb3527e82458ecc75",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "465ffb08a1eef927724ef2d9e01cc930f6fdb3eaf2dd51c13e6a753f8c3718b4",
+      "reference_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "state": "60700_recovery",
+      "sample": "60700",
+      "mode": "natural",
+      "alpha": 0.00784313725490196,
+      "step": 1,
+      "strict_endpoint": false,
+      "attack_loss": 1.7650537490844727,
+      "fdp": 0.2513427436351776,
+      "grad_hash": "6f01a344dbf5ab31f8ee50fd26c3d759bad307aaf8d4ca926ba1a82921925fba",
+      "grad_l2": 18.265348434448242,
+      "grad_linf": 2.07794189453125,
+      "pre_update_delta_hash": "df2ec9c4cbc67e34bde61e3b7e78d71919d8c580131bca95c5721348277fb92f",
+      "post_projection_delta_hash": "40190aece3561263ca87681e9b9155890b287f85d32e2175fc27706065942ed7",
+      "guard_exact": true,
+      "accepted": true
+    },
+    {
+      "text": "PPBS",
+      "tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "anls": 1.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "5a54bcc2bfafd2e6383b8a2969b761d7d748a5c3681919bcf1a98ecbf2682217",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "cefa4225eb6cfa1ce7b2e06ca07fd85f095d73f8132e18c413908834a62520ec",
+      "reference_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "state": "60700_recovery",
+      "sample": "60700",
+      "mode": "natural",
+      "alpha": 0.00784313725490196,
+      "step": 2,
+      "strict_endpoint": false,
+      "attack_loss": 1.3090875148773193,
+      "fdp": 0.17708322405815125,
+      "grad_hash": "3f7787421e5dd1071b6f7841a3f98aacb0b12988b3fac5824e5ed6d72014bcfa",
+      "grad_l2": 43.815528869628906,
+      "grad_linf": 7.2146220207214355,
+      "pre_update_delta_hash": "40190aece3561263ca87681e9b9155890b287f85d32e2175fc27706065942ed7",
+      "post_projection_delta_hash": "9a740d863fdac3234782ff7159cdb6b4d1409614eb593e03bd7933b60dc4a6df",
+      "guard_exact": true,
+      "accepted": true
+    },
+    {
+      "text": "Ppjs",
+      "tokens": [
+        47,
+        79,
+        2519,
+        151645
+      ],
+      "anls": 0.75,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "5d8a54f872a265998ce4015385f664777088e1a317c42f1bf23e773f7e70b661",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "7d7a15583a374c9d97eb708b292690d73f926685f2a4353562d33c335783f8c8",
+      "reference_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "state": "60700_recovery",
+      "sample": "60700",
+      "mode": "natural",
+      "alpha": 0.00784313725490196,
+      "step": 3,
+      "strict_endpoint": false,
+      "attack_loss": 1.093041181564331,
+      "fdp": 0.30885809659957886,
+      "grad_hash": "415581ed42d8ba40de92e8b2ff44c0743e1e2cdd631730bca94407e4c4e81f0c",
+      "grad_l2": 11.84827995300293,
+      "grad_linf": 0.6172065734863281,
+      "pre_update_delta_hash": "9a740d863fdac3234782ff7159cdb6b4d1409614eb593e03bd7933b60dc4a6df",
+      "post_projection_delta_hash": "6078f7e8223cbdc2fed85386289e6a29617c0bbb91d7e5cd993de45db504e75e",
+      "guard_exact": true,
+      "accepted": true
+    },
+    {
+      "text": "Ppjs 14, 1967",
+      "tokens": [
+        47,
+        79,
+        2519,
+        220,
+        16,
+        19,
+        11,
+        220,
+        16,
+        24,
+        21,
+        22,
+        151645
+      ],
+      "anls": 0.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "b5725d9e24dd02b68cf4bd17710337742c3e5384ff69ad9f953980e3e4657f3f",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "108c68754092de4023fe17a517893eaf832340c7cef42f9bda6df459786cc193",
+      "reference_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "state": "60700_recovery",
+      "sample": "60700",
+      "mode": "natural",
+      "alpha": 0.00784313725490196,
+      "step": 4,
+      "strict_endpoint": true
+    }
+  ]
+}

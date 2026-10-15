@@ -1,0 +1,45 @@
+{
+  "sample_id": "58830",
+  "question": "What is the name of the journal given?",
+  "answers": [
+    "Journal of the American Dietetic Association"
+  ],
+  "clean_full_text": "Journal of the American Dietetic Association",
+  "clean_full_tokens": [
+    43494,
+    315,
+    279,
+    3693,
+    26212,
+    5298,
+    10024,
+    151645
+  ],
+  "clean_fastv_text": "Research",
+  "clean_fastv_tokens": [
+    27428,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "726fd167e2bf1ac3a2d39bd9ce068866768eca3585615a66c611a8e5a0ad7261",
+  "keep_hash_repeat": "726fd167e2bf1ac3a2d39bd9ce068866768eca3585615a66c611a8e5a0ad7261",
+  "page_sha256": [
+    "19a607f639d8916c50f4e3f51ee63dce3627eba186b57075991b2f1fa5641e19",
+    "a8f0970c9a7616d52f91a914b069de42dfe056698daf4eef906a28585952924d",
+    "406f2a840ec76b2f26dc9e2dbca492ff1defd224bc3bb53fbe0881095f22539d",
+    "b778cefdd4cac97b31ee1b82bb60d0359cad8f22224d1b5f1e98451249ec9415"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.483
+}

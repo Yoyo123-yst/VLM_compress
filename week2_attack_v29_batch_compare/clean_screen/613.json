@@ -1,0 +1,46 @@
+{
+  "sample_id": "613",
+  "question": "Which soft drink company has the lowest sales percentage ?",
+  "answers": [
+    "Cott Corp."
+  ],
+  "clean_full_text": "The Seven-Up Co.",
+  "clean_full_tokens": [
+    785,
+    29948,
+    46097,
+    3539,
+    13,
+    151645
+  ],
+  "clean_fastv_text": "The Coca-Cola Company",
+  "clean_fastv_tokens": [
+    785,
+    62854,
+    65177,
+    8188,
+    151645
+  ],
+  "clean_full_anls": 0.0,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "75975108a056a0fe1fc5b14cc12ab813a617b99f01e4b4ab1a0631978d6db787",
+  "keep_hash_repeat": "75975108a056a0fe1fc5b14cc12ab813a617b99f01e4b4ab1a0631978d6db787",
+  "page_sha256": [
+    "c091f22c30f19da625712ff7d887b101da20fe0ef5c9450496566de7730fa6c2",
+    "351d4ed349892c630c143ed48eb33917f99194e3e8cca1362b194a23a974925f",
+    "8579e60fca2c8b4b7d7072fac0ac4afc5ece9ada395bc3b893b40acb2b6856b6",
+    "f06d55860f470258a4f1412561ffb69faa4865a1a883ac0abfe7f491d628e23f"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 3,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.406
+}

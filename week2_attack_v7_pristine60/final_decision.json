@@ -1,0 +1,90 @@
+{
+  "decision": "PASS_PRISTINE60_SOURCE_BOUNDED_COMPRESSION_ONLY",
+  "limitations": [],
+  "primary_strict": "52/60",
+  "wilson95": [
+    0.7583460540992789,
+    0.9308597302169036
+  ],
+  "gates": {
+    "strict": true,
+    "wilson_lower_gt_0.5": true,
+    "full_exact": true,
+    "replay": true,
+    "nonzero": true,
+    "linf": true,
+    "invalid0": true,
+    "mcnemar_direction": true,
+    "mcnemar_p": true
+  },
+  "integrity": "PASS",
+  "repeatability": {
+    "strict_agree": 8,
+    "endpoint_reproduction": 7,
+    "labels": {
+      "EXACT_REPRODUCTION": 0,
+      "ENDPOINT_REPRODUCTION": 7,
+      "ENDPOINT_MISMATCH": 3,
+      "INVALID_OR_INCOMPLETE": 0
+    },
+    "limitation": false
+  },
+  "mechanism": {
+    "n": 60,
+    "cc_reproduces": 60,
+    "aa_reproduces": 60,
+    "strict_success_counts": {
+      "CONTENT_SUFFICIENT": 40,
+      "INTERACTION_REQUIRED": 12
+    },
+    "non_strict_counts": {
+      "CONTENT_SUFFICIENT": 2,
+      "UNEXPLAINED_OR_INVALID": 6
+    },
+    "content_or_both": 40,
+    "selection": 0,
+    "content_dominant_claim_allowed": true,
+    "mechanism_inconclusive": false,
+    "error_types_among_strict": {
+      "CORE_ANSWER_CHANGED": 32,
+      "TRUNCATION_OR_EOS": 5,
+      "UNRELATED_ANSWER_REPLACEMENT": 13,
+      "EXTRA_TEXT_POLLUTION": 2
+    },
+    "keep_set": {
+      "jaccard": {
+        "n": 60,
+        "mean": 0.833519091507378,
+        "median": 0.8437385754198377,
+        "p25": 0.817835774245401,
+        "p75": 0.8671211547725552
+      },
+      "symmetric_difference": {
+        "n": 60,
+        "mean": 520.4,
+        "median": 509.0,
+        "p25": 433.5,
+        "p75": 601.5
+      },
+      "evidence_share_delta": {
+        "n": 60,
+        "mean": -0.002483606604831325,
+        "median": -0.0003604902667627974,
+        "p25": -0.003333658099339408,
+        "p75": 0.0033117058664503887
+      },
+      "aux_share_delta": {
+        "n": 60,
+        "mean": 0.002836516408068027,
+        "median": 0.00040551500405515417,
+        "p25": -0.00756978395727681,
+        "p75": 0.00601513922681806
+      }
+    },
+    "cell_strict_definition": "nonempty text and FastV ANLS < 0.5; Full exact stays the already validated primary state"
+  },
+  "trajectory_rule": "NO_FEASIBLE_RANDOM_CANDIDATE stays a control failure on the frozen 60-sample denominator and is not redrawn",
+  "content_dominant_claim_allowed": true,
+  "selection_stable_claim": false,
+  "analyze_v7_decision": "PRISTINE60_SUPPORTS_SOURCE_BOUNDED_COMP_ONLY_ATTACK"
+}

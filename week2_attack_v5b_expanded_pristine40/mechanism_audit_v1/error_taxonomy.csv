@@ -1,0 +1,34 @@
+sample_id,ground_truth,clean_full,clean_fastv,final_full,final_fastv,taxonomy,reason,edit_distance_to_first_gold
+1025,"[""Dr. C. Baum MD""]",Dr. C. Baur MD,Dr. C. Baur,Dr. C. Baur MD,Tanis Tanemar,UNRELATED_ANSWER_REPLACEMENT,"Dr. C. Baum MD became Tanis Tanemar, a different name.",12
+1900,"[""quantification of the suggestive cancer endpoint"", ""Quantification of suggestive cancer endpoint""]",Quantification of the Suggestionative Cancer Endpoint,Quantification of the Suggestion of the Suggestion,Quantification of the Suggestionative Cancer Endpoint,Benchmark dose modeling transparency,CORE_ANSWER_CHANGED,The cancer-endpoint phrase was replaced by benchmark dose modeling.,37
+2008,"[""March 1968."", ""March 1968""]",March 1968,March 1956,March 1968,"February 23, 1966",CORE_ANSWER_CHANGED,"March 1968 became February 23, 1966.",12
+6194,"[""0107-XX-XX""]",0107-XX-XX-XX,0107-XX-XX-XX,0107-XX-XX-XX,71618988,CORE_ANSWER_CHANGED,The identifier 0107-XX-XX became 71618988.,9
+15277,"[""NSE""]",NSE,NSE,NSE,"NDS, NDS, NDS, NDS",CORE_ANSWER_CHANGED,NSE became the different acronym NDS and was repeated.,16
+32156,"[""$1,500.00"", ""1,500.00""]","1,500.00","22,500.00","1,500.00","28,280,000.00",CORE_ANSWER_CHANGED,"The dollar amount changed from about 1,500 to 28,280,000.",7
+39196,"[""Technical development manager"", ""technical development manager""]",Technical Development Manager,Technical Development Manager,Technical Development Manager,"Chaplain, New Jersey",UNRELATED_ANSWER_REPLACEMENT,"Technical development manager became Chaplain, New Jersey.",23
+47559,"[""Agenda""]",AGENDA,AGENDA,AGENDA,Memorandum,UNRELATED_ANSWER_REPLACEMENT,Agenda became Memorandum.,8
+47567,"[""Suite 600"", ""600""]",600,600,600,9906 PO,CORE_ANSWER_CHANGED,Suite 600 became 9906 PO.,8
+49076,"[""50""]",50,50,50,1c4e,CORE_ANSWER_CHANGED,50 became 1c4e.,4
+50210,"[""Nashville"", ""nashville""]",Nashville,Nashville,Nashville,Chinook,UNRELATED_ANSWER_REPLACEMENT,Nashville became Chinook.,8
+50274,"[""20418""]",20418,20418,20418,DC 101,CORE_ANSWER_CHANGED,20418 became DC 101.,5
+50512,"[""The Petroleum Industries' air pollution control program"", ""the petroleum industries' air pollution control program""]",The Petroleum Industries' Air Pollution Control Program,The Petroleum Industry's Air Pollution Control Program,The Petroleum Industries' Air Pollution Control Program,"Toxic Smoke: Boycotts, Petitions, and the Fight for Air",UNRELATED_ANSWER_REPLACEMENT,The petroleum air-pollution title was replaced by an unrelated toxic-smoke title.,47
+51133,"[""Two years"", ""two"", ""Two""]",two,two,two,30 calendar days,CORE_ANSWER_CHANGED,Two years became 30 calendar days.,12
+52248,"[""$120,000"", ""120,000""]","120,000","120,000","120,000","77,979.00",CORE_ANSWER_CHANGED,"120,000 became 77,979.00.",7
+52387,"[""14""]",14,14,14,2,CORE_ANSWER_CHANGED,14 became 2.,2
+53515,"[""Golf tournament"", ""Golf Tournament""]",Golf Tournament,Golf Tournament,Golf Tournament,RNC Dinner,UNRELATED_ANSWER_REPLACEMENT,Golf tournament became RNC Dinner.,12
+55407,"[""CIGFIL LTD Standalone Balance Sheet for period 01/04/2012 to 31/03/2013"", ""CIGFIL LTD standalone balance sheet for period 01/04/2012 to 31/03/2013""]",CIGFIL ETD Standalone Balance Sheet for period 01/,CIGCFLIEF ETD Standard Balance Sheet for period 01,CIGFIL ETD Standalone Balance Sheet for period 01/,CIGCFLIEF ETD STANDARDBALANCE SHEET,AMBIGUOUS_NEEDS_REVIEW,"Both clean and attacked text are garbled versions of a balance-sheet title, so the edit is not a clean core swap.",46
+56951,"[""n  35.00"", ""N 35.00"", ""n 35.00""]",35.00,35.00,35.00,$ 270.00,CORE_ANSWER_CHANGED,35.00 became 270.00.,4
+58330,"[""Things to do Today"", ""Things to do today""]",THINGS TO DO TODAY,THINGS TO DO TODAY,THINGS TO DO TODAY,Co- ox set up for 4 day weekend,UNRELATED_ANSWER_REPLACEMENT,Things to do Today became a co-ox setup note.,23
+58346,"[""27,500""]","27,500","27,500","27,500",N/A,UNRELATED_ANSWER_REPLACEMENT,"27,500 became N/A.",6
+58547,"[""1997""]",1997,1997,1997,2009,CORE_ANSWER_CHANGED,1997 became 2009.,4
+59308,"[""39""]",39,39,39,120,CORE_ANSWER_CHANGED,39 became 120.,3
+59471,"[""chemistry"", ""Chemistry""]",CHEMISTRY,CHEMISTRY,CHEMISTRY,MUTUALY CALCIUM-SECEI-SECEI-F,UNRELATED_ANSWER_REPLACEMENT,chemistry became an unrelated token string.,25
+59991,"[""Richard M. Stalvey"", ""RICHARD M. STALVEY""]",Richard M. Stalvey,RICHARD M. STALVEY,Richard M. Stalvey,"RICHARD E. COBDEN, J.S.C., PH.D.",CORE_ANSWER_CHANGED,"Richard M. Stalvey became a different name, Richard E. Cobden.",21
+60500,"[""AGE (mos)""]",AGE (MO),AGE (MO),AGE (MO),Age,TRUNCATION_OR_EOS,AGE (mos) was shortened to Age; the unit was dropped.,6
+60696,"[""5"", ""page 5""]",5,5,5,3,CORE_ANSWER_CHANGED,5 became 3.,1
+60748,"[""47809""]",47809,475109,47809,65500,CORE_ANSWER_CHANGED,47809 became 65500.,4
+60928,"[""2""]",2,2,2,Page 2,EXTRA_TEXT_POLLUTION,"The core digit 2 remains, but the attacked text adds Page.",5
+62524,"[""budget bureau no. 49-R344.1"", ""49-R344.1""]",49-R344.1,48-R344.1,49-R344.1,U. S. Army,UNRELATED_ANSWER_REPLACEMENT,The form number became U. S. Army.,22
+62649,"[""1922""]",1922,1932,1922,"May 31, 1898",CORE_ANSWER_CHANGED,"1922 became May 31, 1898.",11
+62802,"[""FIRST AMERICAN NATIONAL BANK"", ""First American National Bank""]",First American National Bank,First American National Bank,First American National Bank,First aftrument natraceutical corp,CORE_ANSWER_CHANGED,First American National Bank was rewritten as a different organization name.,18
+64927,"[""American Heart Association""]",American heart association,American heart association,American heart association,carpetbagger,UNRELATED_ANSWER_REPLACEMENT,American Heart Association became carpetbagger.,21

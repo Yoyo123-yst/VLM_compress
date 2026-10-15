@@ -1,0 +1,36 @@
+{
+  "status": "COMPLETE_FRONT_SINGLE_SAMPLE_EARLY_COST_SIGNAL_NOT_CONFIRMED",
+  "scope": "six frozen development IDs; not unseen evaluation",
+  "sample_denominator": 6,
+  "clean_admitted": ["4742", "61240"],
+  "clean_gate_failed": ["19153", "46511", "49550", "4464"],
+  "formal_trajectories": 6,
+  "formal_budget_gate": "PASS",
+  "independent_png_evaluations": "6/6 pass Full text/token exact, evaluator-process repeat exact, expected K, and uint8 L-infinity bound",
+  "endpoint_content_failure": {
+    "native_fdp": "0/6",
+    "complete_target": "1/6",
+    "complete_front": "1/6"
+  },
+  "frozen_target_hit": {
+    "complete_target": "1/6",
+    "complete_front": "1/6",
+    "native_fdp": "NOT_APPLICABLE_NO_FROZEN_WRONG_TARGET"
+  },
+  "complete_front_vs_complete_target": {
+    "final_endpoint_advantage": false,
+    "one_sample_first_hit_cost_signal": true,
+    "sample": "61240",
+    "complete_target": {"attempt": 9, "backward_calls": 27, "wall_seconds": 174.1560886169318},
+    "complete_front": {"attempt": 6, "backward_calls": 24, "wall_seconds": 130.2680169281084},
+    "repeated_cost_advantage_established": false
+  },
+  "decision": "Do not claim complete-front superiority. Retain complete-target as the simpler current targeted method; retain complete-front as an exploratory variant only. Do not expand or open reserved test IDs in this run.",
+  "heldout_integrity": "ID 452 was accidentally exposed in an earlier manifest preview; exclude it from any untouched claim. No reserved ID was attacked or evaluated in this run.",
+  "artifacts": {
+    "report": "final_report.md",
+    "semantic_adjudication": "semantic_adjudication.json",
+    "protocol": "protocol.md",
+    "execution_lock": "freeze_execution_lock.json"
+  }
+}

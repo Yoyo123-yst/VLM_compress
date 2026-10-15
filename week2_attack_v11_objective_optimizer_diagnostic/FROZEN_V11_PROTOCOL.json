@@ -1,0 +1,73 @@
+{
+  "scope": "white-box development diagnostic on six questions",
+  "samples": [
+    "1025",
+    "2008",
+    "47450",
+    "60700",
+    "7006",
+    "39204"
+  ],
+  "sample_1025": "known high sensitivity; a change on 1025 alone is not evidence",
+  "train_ratios": [
+    0.25,
+    0.35
+  ],
+  "eval_ratios": [
+    0.15,
+    0.25,
+    0.35,
+    0.5
+  ],
+  "steps": 200,
+  "checkpoints": [
+    0,
+    10,
+    25,
+    50,
+    75,
+    100,
+    150,
+    200
+  ],
+  "seed": 2026101102,
+  "lambda_full": 2.6371882367154997,
+  "lambda_source": "week2_attack_v7d FROZEN_COEFFICIENTS.json native-FDP lambda_full; not retuned",
+  "adam_lr": 0.00784313725490196,
+  "pgd_step": 0.00392156862745098,
+  "linf_uint8": 8,
+  "groups": {
+    "H0": {
+      "reference": "dyn",
+      "update": "adam"
+    },
+    "H1": {
+      "reference": "fixed",
+      "update": "adam"
+    },
+    "P0": {
+      "reference": "dyn",
+      "update": "pgd"
+    },
+    "P1": {
+      "reference": "fixed",
+      "update": "pgd"
+    },
+    "O0": {
+      "reference": "dyn",
+      "update": "opgd"
+    },
+    "O1": {
+      "reference": "fixed",
+      "update": "opgd"
+    }
+  },
+  "opgd": "if any clean-token hard margin is <= 0, descend the Full gradient with its projection on the attack gradient removed; otherwise descend the attack gradient with its projection on the Full gradient removed; then sign and step 1/255",
+  "selector": "legal if nonzero, valid, Full text exact, uint8 Linf<=8, Full replay; rank by fixed-reference soft margin, then earlier step",
+  "historical_h0_selector": "same legal set ranked by dynamic-reference margin",
+  "oracle": "post-hoc oracle checkpoint diagnostic, not an unlabeled selector result",
+  "anls_failure": 0.5,
+  "clean_success_threshold": 0.5,
+  "projection_note": "\u6295\u5f71\u53ea\u7ea6\u675f\u4ee3\u7406\u635f\u5931\u7684\u4e00\u9636\u53d8\u5316\uff0c\u4e0d\u4fdd\u8bc1 Full \u7cbe\u786e\u8f93\u51fa\uff1bFull \u662f\u5426\u4fdd\u6301\u4ee5\u771f\u5b9e generate \u4e3a\u51c6\u3002",
+  "phase_d": "NOT_RUN"
+}

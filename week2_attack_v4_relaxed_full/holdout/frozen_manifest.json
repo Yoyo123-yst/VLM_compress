@@ -1,0 +1,443 @@
+{
+  "seed": 20261008,
+  "source": "gate_experiment/results/clean_baseline.csv intersect draw_questions(400, seed=42)",
+  "excluded_dev": [
+    "33923",
+    "4912",
+    "49242",
+    "50743",
+    "5169",
+    "56776"
+  ],
+  "filters": [
+    "clean Full ANLS >= 0.5",
+    "clean FastV r=0.25 ANLS >= 0.5",
+    "M > 1",
+    "present in seed-42 draw"
+  ],
+  "eligible_count": 100,
+  "selected_count": 20,
+  "balanced_by_M": false,
+  "filtered_by_attack_difficulty": false,
+  "samples": [
+    {
+      "sample_id": "51484",
+      "M": 4,
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.7391,
+      "question": "Which \u2018company\u2019 is mentioned in the report ?",
+      "answer_page_idx": 0,
+      "evidence_idx": 0,
+      "order": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "dropped": true,
+      "page_sha": [
+        "dcfd05a25f39cf3857e71dae3c6c3c1572937c0144d0622456e8671b470bb69f",
+        "8cd6d2ac8296e98ea1e47998991eed4e1149bcedb7224c5b1897675df6bba32e",
+        "ecf410160b439542c61038186099d546bb075adf6eb1b061a4519a35e2009d42",
+        "d19b91a93f40168d3c73efa29f32da7cc73a14a6db35dde83e79c89b129fe22d"
+      ]
+    },
+    {
+      "sample_id": "255",
+      "M": 2,
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.6667,
+      "question": "Which company's name is in the letterhead?",
+      "answer_page_idx": 0,
+      "evidence_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "page_sha": [
+        "a3f790fff7c997be8df04fda0562bb73388becea745079e6bc9cad7da2847f36",
+        "91e43045dc4da28313c067b03f44936feb2ef8ad173dc13ff9b13b7fce13a92c"
+      ]
+    },
+    {
+      "sample_id": "57250",
+      "M": 4,
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "question": "What is the report on?",
+      "answer_page_idx": 5,
+      "evidence_idx": 3,
+      "order": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "dropped": true,
+      "page_sha": [
+        "075caae4f1151cebef8666c7efe2cb5f12f469d1b8caa1c8e1ad1b20db87b5cc",
+        "28426b171911ffb6d530ba9946aae65708e27b9f3fbb55b63bf9603ac7f2eddb",
+        "2f8badcbeba8630707983fffb82d6fcbcae1113b6a0878a6dcf7eff5e9ead909",
+        "694748aeee9631a094d0a58f34a4d8a5d8129aa4c4e68f40f6ee7d6c4ba34f45"
+      ]
+    },
+    {
+      "sample_id": "50516",
+      "M": 4,
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.6667,
+      "question": "What is the number of article views?",
+      "answer_page_idx": 0,
+      "evidence_idx": 1,
+      "order": [
+        4,
+        0,
+        2,
+        3
+      ],
+      "dropped": true,
+      "page_sha": [
+        "833f1c54a85055604c84f8fc1ad86c43510506237d96dd3911e12e8009c03f3f",
+        "d26f07d8e1feee56eaa1ebedf4fc9e834c86c1e8fe6cfa731576076c9b526e25",
+        "855118d06338b1de0e90c4c17e1969f537a276fcfbdc4106f753ea69b91802e3",
+        "63831c62836f4c446de85a934331b5432e96dcf1a90cbb57ed5aacddde4f67ff"
+      ]
+    },
+    {
+      "sample_id": "46631",
+      "M": 4,
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "question": "What is the page number given at the bottom?",
+      "answer_page_idx": 13,
+      "evidence_idx": 3,
+      "order": [
+        1,
+        15,
+        10,
+        13
+      ],
+      "dropped": true,
+      "page_sha": [
+        "a82006bdbc03cd5e2dce2250c84503d6c04f6eaf3c9ae7c005480baab0d8c652",
+        "84b213f96d547607f118bc2fa988a2ef8d379c7eea76bdcadfebb69d1a36a54f",
+        "955365503223944d6dee14ade547926660767e92ed42235204481a436da5fc7b",
+        "44a6e91d1fd5f47283af7f3d0a068c63ccba6ca21c711b027bd6beaff2980694"
+      ]
+    },
+    {
+      "sample_id": "50873",
+      "M": 3,
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "question": "At what time was the call recieved?",
+      "answer_page_idx": 2,
+      "evidence_idx": 2,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "page_sha": [
+        "a4867c3bbb6c270442d9e5b5c6dcdca31021dd07fab0774e70f46b5d3e89aa4c",
+        "fbd3b60f8821fd0ccfbc2f918c48f1031ef19e75261126c8bc3d067112d067bd",
+        "c2d0ea13f976f4a287a86ff75696d07395fb177c452e49eef5666a8832262abf"
+      ]
+    },
+    {
+      "sample_id": "37246",
+      "M": 2,
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "question": "To whom must the form be returned?",
+      "answer_page_idx": 0,
+      "evidence_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "page_sha": [
+        "846b0723ce230a53685cebead41eac9aae0667f86eae78f92841d0c195fddc73",
+        "ab08bebae20631cd70ccbde89637cb27dd6b63411ddd7d6f189dc35451ef9d28"
+      ]
+    },
+    {
+      "sample_id": "64999",
+      "M": 3,
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "question": "What is plotted along the y axis ?",
+      "answer_page_idx": 2,
+      "evidence_idx": 2,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "page_sha": [
+        "35e5ea16eadb17250b4eb5ce3c9c015d7000289243af22a8a2734792e87e4169",
+        "24ca04d61f074c3057677c5c83d5c09e813e756fa4c1ae3f5b283bf947037c80",
+        "c2369add45b84fd59d4cb16d6433c66a498358ee25c1d0d4d981cff8570db508"
+      ]
+    },
+    {
+      "sample_id": "4932",
+      "M": 4,
+      "clean_full_anls": 0.6667,
+      "clean_fastv_anls": 0.6667,
+      "question": "What is the Venue Name?",
+      "answer_page_idx": 0,
+      "evidence_idx": 3,
+      "order": [
+        4,
+        2,
+        3,
+        0
+      ],
+      "dropped": true,
+      "page_sha": [
+        "e1dfa71d123156c5108b5788a5ef5446a911a24052ce67a2f8ad8b481fb935f2",
+        "65dcb2bad22193481861a4d018046dd01d69d1bc1b5ef9590a65018a44e42b55",
+        "b8c920dc33ae58ec358d9620409a42af5dd42a672560d8e4e7c7a0be2013f405",
+        "eb7867559264438dcbabb69d3363cfe867a17e6995fa812f2caa4cd10d2ebf33"
+      ]
+    },
+    {
+      "sample_id": "51717",
+      "M": 4,
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.9706,
+      "question": "What is the \u2018description of sample\u2019 in the form ?",
+      "answer_page_idx": 3,
+      "evidence_idx": 2,
+      "order": [
+        0,
+        7,
+        3,
+        5
+      ],
+      "dropped": true,
+      "page_sha": [
+        "73532c1ec966b726f93ae060aac095696b1e652b76070fe506e7fa2a41ca0139",
+        "e3347b95e56b552a4fd955a1c612f99a7a0f0300ab3d9259734719851321f116",
+        "e4f54c4c6f8e36b3ec97e4f6c9a30d7cc5e7084a7d237b8923ceb3a9c956e0d0",
+        "909678c8a8df614a2dc941df52048411bbf56611489fa12cbb706271ca59ffcd"
+      ]
+    },
+    {
+      "sample_id": "63118",
+      "M": 4,
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.6667,
+      "question": "How many parts of Cupric Sulfate is present in fluid A?",
+      "answer_page_idx": 16,
+      "evidence_idx": 2,
+      "order": [
+        18,
+        17,
+        16,
+        0
+      ],
+      "dropped": true,
+      "page_sha": [
+        "8d56a9e4cdef9823e44fb35beb504f43acae754866302eab67b9708a84afe27e",
+        "9bb1e4822016668d5c7cbb040b39553e24ca65d48e510e2472d4db1ae75ff756",
+        "4c51671a88d2b8c0f757ceeea48c1ca3616635a058f2d0d7c2f837b168ba15c9",
+        "1e0d9ffde075435e9af133f33f93a5f7c3ab2bb9f2576a1793022f181ad06e05"
+      ]
+    },
+    {
+      "sample_id": "63816",
+      "M": 4,
+      "clean_full_anls": 0.6,
+      "clean_fastv_anls": 0.6667,
+      "question": "What is the estimated WOH costs for Africa in 1968?",
+      "answer_page_idx": 14,
+      "evidence_idx": 1,
+      "order": [
+        9,
+        14,
+        4,
+        16
+      ],
+      "dropped": true,
+      "page_sha": [
+        "1b31f41f58b4db9387ac0d6a4666a8409c11c60a8cbd68e0263f9dfad35246a7",
+        "379190ab8cef76d042f805726dccc0cdce1c33c65b38d63d9ef0caa588c169c2",
+        "1f55e126f685886bd2cb603280286a0f18fbcdb6b1f60f39ff462ced5157c1bb",
+        "024dfbf9b91c9a3c72e300a73a03b29e083d5acca83203038efae2fce7da3809"
+      ]
+    },
+    {
+      "sample_id": "56850",
+      "M": 4,
+      "clean_full_anls": 0.5556,
+      "clean_fastv_anls": 0.5556,
+      "question": "How much is the 'Export' Revenue of CURRENT YEAR based on 'Geographical Segment' Reporting of section 15) ?",
+      "answer_page_idx": 9,
+      "evidence_idx": 3,
+      "order": [
+        3,
+        1,
+        0,
+        9
+      ],
+      "dropped": true,
+      "page_sha": [
+        "de70901c0223fac4360688110cce9bfa4f2cf299b14a43e51f3c17a715487838",
+        "de70901c0223fac4360688110cce9bfa4f2cf299b14a43e51f3c17a715487838",
+        "9123ac8ce6b5f2e370a6c121a00af5c6abcb3de9b2d4187f982aa168df9f6143",
+        "fdf8d6ca8ab4d6e8ff91824e1531fc5254e143c68b5355a1c9cd6abc225cee35"
+      ]
+    },
+    {
+      "sample_id": "43222",
+      "M": 2,
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "question": "What is the page number written in the bottom right corner?",
+      "answer_page_idx": 1,
+      "evidence_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "page_sha": [
+        "0a32be356569b5a3d2f05fc425bf972125e254e61adfd2807d0d4e224aa005f8",
+        "d7747bb98b2a609a73d0afac2a17d9b8ab1691e9bb793fabeec3b4807933c15a"
+      ]
+    },
+    {
+      "sample_id": "59628",
+      "M": 4,
+      "clean_full_anls": 0.8421,
+      "clean_fastv_anls": 0.8421,
+      "question": "What is the tag given under \"WALLET SIZE COPIES\" ?",
+      "answer_page_idx": 2,
+      "evidence_idx": 0,
+      "order": [
+        2,
+        11,
+        9,
+        0
+      ],
+      "dropped": true,
+      "page_sha": [
+        "7106008902afbbd5327d271bccab5889ec905fc01d38769deadfca30e44e415c",
+        "4212823b5dcaf157ded08852f546c2de94e693f719790018b576146b1efb24ae",
+        "9bd75c1103122af990e584e188d594d4891a49d6c115648c355939452aeb7c06",
+        "5dd38b69d22b1d3559a3833b662a35d4d99693d953780f5e9f074c6f7ed407e7"
+      ]
+    },
+    {
+      "sample_id": "6713",
+      "M": 2,
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "question": "What is the time for discussion on  Launch plan  of NSP Product?",
+      "answer_page_idx": 1,
+      "evidence_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "page_sha": [
+        "04acc872a80e93b19977147f121c5abcd6bd0b31828d1ad1034714742fdc4d6b",
+        "5b45a1915bd3d139f9bdbd841883735f9e35b90d157e8fd33c76f33e05c507ef"
+      ]
+    },
+    {
+      "sample_id": "57418",
+      "M": 4,
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "question": "What is the 'credo' of ITC Hotels?",
+      "answer_page_idx": 1,
+      "evidence_idx": 3,
+      "order": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "dropped": true,
+      "page_sha": [
+        "db5f9840c00090950f3a94db748d1a9a4d48c6e8965077557aa89892e491e60f",
+        "7a4f1df7704142201467ccaf7c8044b5873e4e6860550aa083d932dfbcd5d2f2",
+        "04d3d6fdbdf0dd42617d92001cda697cd55e504af9f2874c03b84a8cb8e0fb23",
+        "f4e1325d6282c499819a08657953dfa8db7d9523fecb3b2b74171725a139c9ab"
+      ]
+    },
+    {
+      "sample_id": "1695",
+      "M": 3,
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "question": "Are there any names mentioned in the Witness?",
+      "answer_page_idx": 1,
+      "evidence_idx": 1,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "page_sha": [
+        "d419ac5776cb51b2444f3737b90e556604c1b215a9aed71d00bb563cef4b8d12",
+        "4a1f7c09eedb2f88753a7ecdeb0a2c0ce9e30024fda526e1b017c627e0ce161e",
+        "b64d17a62d301a052f038b285cf1b70121416d81cdf3fd335962d748963225a1"
+      ]
+    },
+    {
+      "sample_id": "56833",
+      "M": 4,
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "question": "How much is the 'Audit Fees' for Previous Year based on section 11)?",
+      "answer_page_idx": 9,
+      "evidence_idx": 2,
+      "order": [
+        5,
+        6,
+        9,
+        8
+      ],
+      "dropped": true,
+      "page_sha": [
+        "fdf8d6ca8ab4d6e8ff91824e1531fc5254e143c68b5355a1c9cd6abc225cee35",
+        "e7069b0235965372dd3c235ca2c6a3324e355284948a64f9d64b794d22c9ce55",
+        "fdf8d6ca8ab4d6e8ff91824e1531fc5254e143c68b5355a1c9cd6abc225cee35",
+        "636bdc30ec9b323eba77c2a38f49020a77d837bca48005267ca48b52dc54bacf"
+      ]
+    },
+    {
+      "sample_id": "56034",
+      "M": 4,
+      "clean_full_anls": 0.625,
+      "clean_fastv_anls": 0.625,
+      "question": "On which date of Meeting was the most number of shares transferred?",
+      "answer_page_idx": 2,
+      "evidence_idx": 3,
+      "order": [
+        4,
+        1,
+        3,
+        2
+      ],
+      "dropped": true,
+      "page_sha": [
+        "51147fe9512a75a2d2335df7efc229f4fc0401daa6ad7d75841a2e976e1a25cf",
+        "e393290f09e15d9bc9f81ec00037cea816db77ea6f309b934dd40934305f6214",
+        "20d8f47dc50371c912f1b622ee84daaf0e6712a71e68915b27ef4643b2f5cc5f",
+        "b3a8c0c6b5d27ec51659b15ad6777ca4e9e13ffed6f6d7ae26293be0c6d955be"
+      ]
+    }
+  ],
+  "manifest_sha256": "8d9737ac302078ca9f5bb5e87dc19131d48dfd1913e45572bf3b97d9bf601d44"
+}

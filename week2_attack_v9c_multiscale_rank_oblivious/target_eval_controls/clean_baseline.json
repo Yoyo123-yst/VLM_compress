@@ -1,0 +1,375 @@
+{
+  "scope": "5-sample development post-hoc control",
+  "rows": [
+    {
+      "sample_id": "1025",
+      "status": "OK",
+      "full_text": "Dr. C. Baur MD",
+      "full_token_ids": null,
+      "full_exact_text": true,
+      "token_exact_scope": "pre-seal token exact + target-side text exact",
+      "preseal_full_tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        4110,
+        13979,
+        151645
+      ],
+      "replay": true,
+      "page_sha256": [
+        "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+        "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+        "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+      ],
+      "ratios": {
+        "0.15": {
+          "text": "TAKEDA",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.0,
+          "k": 1665,
+          "keep_hash": "bb02409869b495f342461077cacff2a4fcefc459f4bd5cb9b12a74e6dfff8735",
+          "strict": true,
+          "historical_r025": null
+        },
+        "0.25": {
+          "text": "Dr. C. Baur",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.6666666666666667,
+          "k": 2774,
+          "keep_hash": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5",
+          "strict": false,
+          "historical_r025": {
+            "text_match": true,
+            "anls_recorded": 0.6667,
+            "anls_now": 0.6666666666666667,
+            "keep_hash_recorded": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5",
+            "keep_hash_now": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5",
+            "k_recorded": 2774,
+            "k_now": 2774
+          }
+        },
+        "0.35": {
+          "text": "Dr. C. B. B. M.D.",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.75,
+          "k": 3884,
+          "keep_hash": "ecefcd69ddc95ba41453e8f3d0107d0549d98a02f357965c7e98f8d24698c95e",
+          "strict": false,
+          "historical_r025": null
+        },
+        "0.50": {
+          "text": "Dr. C. B. M.D.",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.75,
+          "k": 5548,
+          "keep_hash": "681f35604119683283817a48e38a8ec0c87aaacb864107dac0ba96c1d7e955a4",
+          "strict": false,
+          "historical_r025": null
+        }
+      }
+    },
+    {
+      "sample_id": "2008",
+      "status": "OK",
+      "full_text": "March 1968",
+      "full_token_ids": null,
+      "full_exact_text": true,
+      "token_exact_scope": "pre-seal token exact + target-side text exact",
+      "preseal_full_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        23,
+        151645
+      ],
+      "replay": true,
+      "page_sha256": [
+        "fe5a6c3c88a77ef33b42e1c45d0fe2b28b39f37be8983db7e6d753ceef12f8f4",
+        "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+      ],
+      "ratios": {
+        "0.15": {
+          "text": "March 1956",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.8,
+          "k": 1110,
+          "keep_hash": "6e7739c0a695daf17ecdfb87ef17a62e14b447af240b2b5a349b83025bb33825",
+          "strict": false,
+          "historical_r025": null
+        },
+        "0.25": {
+          "text": "March 1956",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.8,
+          "k": 1850,
+          "keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+          "strict": false,
+          "historical_r025": {
+            "text_match": true,
+            "anls_recorded": 0.8,
+            "anls_now": 0.8,
+            "keep_hash_recorded": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+            "keep_hash_now": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+            "k_recorded": 1850,
+            "k_now": 1850
+          }
+        },
+        "0.35": {
+          "text": "March 1956",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.8,
+          "k": 2589,
+          "keep_hash": "83204a20618bee809000a0265c2bccdf9597fb274ab9de01dc9c69fd602453b0",
+          "strict": false,
+          "historical_r025": null
+        },
+        "0.50": {
+          "text": "March 1968",
+          "token_ids": null,
+          "valid": true,
+          "anls": 1.0,
+          "k": 3699,
+          "keep_hash": "b3801ea0907e520af7f41e295783f92dc937f5d711c95a60b39fa5779c5d15f3",
+          "strict": false,
+          "historical_r025": null
+        }
+      }
+    },
+    {
+      "sample_id": "7006",
+      "status": "OK",
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_token_ids": null,
+      "full_exact_text": true,
+      "token_exact_scope": "pre-seal token exact + target-side text exact",
+      "preseal_full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "replay": true,
+      "page_sha256": [
+        "c3c0eabac78241156d37bd11f9c5c72c8b5a3a13060c3f0ce4f6ad36d4d7fa16",
+        "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+        "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+        "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+      ],
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 2219,
+          "keep_hash": "d841bc6ceb64c43490d8e7cd487b74cf2ba14c824c21f5806e16c26677a6aea6",
+          "strict": false,
+          "historical_r025": null
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 3699,
+          "keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+          "strict": false,
+          "historical_r025": {
+            "text_match": true,
+            "anls_recorded": 0.963,
+            "anls_now": 0.962962962962963,
+            "keep_hash_recorded": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+            "keep_hash_now": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+            "k_recorded": 3699,
+            "k_now": 3699
+          }
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 5179,
+          "keep_hash": "88e3f77de0bf0783e16c9700bc1c23f613e367ae9b8f7cf67a305321abe38c89",
+          "strict": false,
+          "historical_r025": null
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "token_ids": null,
+          "valid": true,
+          "anls": 0.962962962962963,
+          "k": 7398,
+          "keep_hash": "745f8756ce8ee5d56b41d6fa3a2ca4179d5bd7e1eeabcbabe60fe1441f7f2ab6",
+          "strict": false,
+          "historical_r025": null
+        }
+      }
+    },
+    {
+      "sample_id": "39204",
+      "status": "OK",
+      "full_text": "FOOD TECHNOLOGY",
+      "full_token_ids": null,
+      "full_exact_text": true,
+      "token_exact_scope": "pre-seal token exact + target-side text exact",
+      "preseal_full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "replay": true,
+      "page_sha256": [
+        "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a",
+        "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+        "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+        "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+      ],
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "token_ids": null,
+          "valid": true,
+          "anls": 1.0,
+          "k": 2219,
+          "keep_hash": "7145daa03b4ab725f43b05c25b61d7b7e285177aa1aa6e0bcfb026640f4f5b5a",
+          "strict": false,
+          "historical_r025": null
+        },
+        "0.25": {
+          "text": "FOOD TECHNOLOGY",
+          "token_ids": null,
+          "valid": true,
+          "anls": 1.0,
+          "k": 3699,
+          "keep_hash": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+          "strict": false,
+          "historical_r025": {
+            "text_match": true,
+            "anls_recorded": 1.0,
+            "anls_now": 1.0,
+            "keep_hash_recorded": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+            "keep_hash_now": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+            "k_recorded": 3699,
+            "k_now": 3699
+          }
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "token_ids": null,
+          "valid": true,
+          "anls": 1.0,
+          "k": 5179,
+          "keep_hash": "3c9b77cad13aef3a48de1d67ec6602bc374e46642c135657d49022b6d06df560",
+          "strict": false,
+          "historical_r025": null
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "token_ids": null,
+          "valid": true,
+          "anls": 1.0,
+          "k": 7398,
+          "keep_hash": "de6a8bc0fd6716061f25e0b8dec889849ef321f783065f8ca07a03d9fe5f3afc",
+          "strict": false,
+          "historical_r025": null
+        }
+      }
+    },
+    {
+      "sample_id": "47450",
+      "status": "OK",
+      "full_text": "Dr. or Mrs. William J. Darby",
+      "full_token_ids": null,
+      "full_exact_text": true,
+      "token_exact_scope": "pre-seal token exact + target-side text exact",
+      "preseal_full_tokens": [
+        8847,
+        13,
+        476,
+        17618,
+        13,
+        12375,
+        619,
+        13,
+        15017,
+        1694,
+        151645
+      ],
+      "replay": true,
+      "page_sha256": [
+        "7bab8be8ede326621c16376d55769d696a6a969772ab2116685a1628eba55f8d",
+        "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+        "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+        "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+      ],
+      "ratios": {
+        "0.15": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "token_ids": null,
+          "valid": true,
+          "anls": 1.0,
+          "k": 2219,
+          "keep_hash": "86ec916f60c3dca5dbf500488cc575fc238749e31bd42aa15ec710cec5f04867",
+          "strict": false,
+          "historical_r025": null
+        },
+        "0.25": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "token_ids": null,
+          "valid": true,
+          "anls": 1.0,
+          "k": 3699,
+          "keep_hash": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+          "strict": false,
+          "historical_r025": {
+            "text_match": true,
+            "anls_recorded": 1.0,
+            "anls_now": 1.0,
+            "keep_hash_recorded": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+            "keep_hash_now": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+            "k_recorded": 3699,
+            "k_now": 3699
+          }
+        },
+        "0.35": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "token_ids": null,
+          "valid": true,
+          "anls": 1.0,
+          "k": 5179,
+          "keep_hash": "b2ecfdbd4d10c62b812330e4d10e9b9d5ae04ff427476c9ea44e8dba03608cde",
+          "strict": false,
+          "historical_r025": null
+        },
+        "0.50": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "token_ids": null,
+          "valid": true,
+          "anls": 1.0,
+          "k": 7398,
+          "keep_hash": "00b4ddfbeb35dc77bce04a72ab19bec2f3edb4e9e8ea9da8ddcacddeae1928f5",
+          "strict": false,
+          "historical_r025": null
+        }
+      }
+    }
+  ],
+  "fastv_access_count": 104
+}

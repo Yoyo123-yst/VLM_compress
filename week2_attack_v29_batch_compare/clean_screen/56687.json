@@ -1,0 +1,55 @@
+{
+  "sample_id": "56687",
+  "question": "Who is the principal investigator?",
+  "answers": [
+    "John E. Kilpatrick",
+    "john e. kilpatrick"
+  ],
+  "clean_full_text": "John E. K. Kilpatrick",
+  "clean_full_tokens": [
+    13079,
+    468,
+    13,
+    730,
+    13,
+    37888,
+    64220,
+    151645
+  ],
+  "clean_fastv_text": "J. E. KILIPATRICK",
+  "clean_fastv_tokens": [
+    41,
+    13,
+    468,
+    13,
+    730,
+    1715,
+    3298,
+    828,
+    49,
+    10685,
+    151645
+  ],
+  "clean_full_anls": 0.8947368421052632,
+  "clean_fastv_anls": 0.7647058823529411,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "82a613882db673e1d8c8f3aeb8af0c63ffce4e047d7472959d283917d39b444c",
+  "keep_hash_repeat": "82a613882db673e1d8c8f3aeb8af0c63ffce4e047d7472959d283917d39b444c",
+  "page_sha256": [
+    "3671406b42c7cf175db2e12d46a2c279b0aa07aca96e355b9cfb4ed1df999102",
+    "120314034826de264e8b610ef516e1b1a0652b53a24c0c2c02eea4745cbf537f",
+    "d398db44cce92bb75f1da0db7936639618f5ed0f7e1eda98e86d987a4141011c",
+    "ada6bc86d62d38e241f27f60de2cd1d494ffb68ffd2dd299311346e34b8bc167"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 2,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.744
+}

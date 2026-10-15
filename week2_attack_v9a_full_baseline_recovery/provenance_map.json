@@ -1,0 +1,99 @@
+{
+  "sample_id": "1025",
+  "frozen_text": "Dr. C. Baur MD",
+  "frozen_text_source": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v5b_expanded_pristine40/frozen_manifest.json",
+  "frozen_text_producer": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v5b_expanded_pristine40/run_clean_screen.py",
+  "original_call_chain": [
+    "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v5b_expanded_pristine40/run_clean_screen.py",
+    "/home/yuesiting/autodl-tmp/multimodal_attack_project/gate_experiment/run_causal_v2.py",
+    "/home/yuesiting/autodl-tmp/multimodal_attack_project/week1_mechanism/run_eval.py"
+  ],
+  "original_prompt_function": "week1_mechanism/run_eval.py:build_prompt template A",
+  "v9_wrapper": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9_target_independent_surrogate_runtime/run_admission.py",
+  "v9_prompt_function": "prompt_of",
+  "audit_executed": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9a_full_baseline_recovery/audit_one.py",
+  "executed_original_by_import": false,
+  "import_block_reason": "run_clean_screen.py imports run_causal_v2, and run_eval.py imports adapters.runtime. The audit copied the Full prompt and generate call instead of importing those modules.",
+  "git_commit": "1abc9289f9764573cf70bb9338ecb4bbbb7b1ec6",
+  "git_status_file": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9a_full_baseline_recovery/git_status.txt",
+  "git_diff_stat_file": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9a_full_baseline_recovery/git_diff_stat.txt",
+  "checkpoint": "/home/yuesiting/autodl-tmp/models/llava-onevision-qwen2-7b-ov-hf",
+  "checkpoint_sha256": {
+    "model.safetensors.index.json": {
+      "bytes": 77952,
+      "sha256": "e389b969d3b9b7120f136fbf6592cbbc1c07326157cae6f863fb64559261dae9"
+    },
+    "model-00001-of-00004.safetensors": {
+      "bytes": 4911200360,
+      "sha256": "ad4cb27d2a3f6e987147619cf2508a5bbb1b6b4c2d5533501fcc4a287a90e5af"
+    },
+    "model-00002-of-00004.safetensors": {
+      "bytes": 4991497664,
+      "sha256": "cfaed9e4ba187283a936fd6df5d55148a6de5a8416f1279778b364232c05f39a"
+    },
+    "model-00003-of-00004.safetensors": {
+      "bytes": 4932752752,
+      "sha256": "86cb0bb7f7d57873b27f16fd66b54be71055e582a48ce26e30884bfb209dffd4"
+    },
+    "model-00004-of-00004.safetensors": {
+      "bytes": 1226266240,
+      "sha256": "a2d1e40e47e9b524efcbbcab68e97fe4e7aadfe9a51bc14b54cc2331c48ebff6"
+    }
+  },
+  "processor_sha256": {
+    "preprocessor_config.json": {
+      "bytes": 1732,
+      "sha256": "3644c108b9f0fa53e62ff422a9be6639642f0e64dab4a71f961c7911d4386384"
+    },
+    "processor_config.json": {
+      "bytes": 178,
+      "sha256": "04e9899e93f2a412c94e153cab4081457c9a44defb3b2c0b9df673d42c42cdd0"
+    }
+  },
+  "tokenizer_sha256": {
+    "tokenizer_config.json": {
+      "bytes": 1801,
+      "sha256": "b3151cdc153a44fa4e28abc8fc83567fc663aef7cd9dc041f5d66e617fe10b8e"
+    },
+    "tokenizer.json": {
+      "bytes": 7028579,
+      "sha256": "3c0ce3213b50ff38d8aa1e91136a2d2cb142a3f569246170872e439cb2a29d15"
+    },
+    "vocab.json": {
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "merges.txt": {
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    "special_tokens_map.json": {
+      "bytes": 367,
+      "sha256": "f4f79e08d97f4d1c87f8d89264f525c8789da3b73b3bb55d1e12f692f41a7b1b"
+    },
+    "added_tokens.json": {
+      "bytes": 122,
+      "sha256": "33e0fb93dadacb864bd2f2e8441e147daa2baceb67f94d3ef5283b495572cea0"
+    },
+    "chat_template.json": {
+      "bytes": 826,
+      "sha256": "2466d1704df30f0067f28d8e30e0190a1bf74e5b430942697af974d162a056bd"
+    }
+  },
+  "config_sha256": {
+    "config.json": {
+      "bytes": 2528,
+      "sha256": "69277c2c9ba8a4f61d2e72f79fbe02e043b8c3af670858a606818527f971a0c2"
+    },
+    "generation_config.json": {
+      "bytes": 126,
+      "sha256": "89dc53229f50b59570b6852056dafeac8116c458f1a748bff491b6d4d24d3b51"
+    }
+  },
+  "manifest": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/DEV_MANIFEST_COPY.json",
+  "page_sha256": [
+    "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+    "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+    "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+  ]
+}

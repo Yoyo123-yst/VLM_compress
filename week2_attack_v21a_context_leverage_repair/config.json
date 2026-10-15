@@ -1,0 +1,21 @@
+{
+  "sample_id": "47450",
+  "train_ratio": 0.25,
+  "gpu": "0",
+  "repeats": 5,
+  "step_alpha": 0.00392156862745098,
+  "primary_scales": [0.5, 1.0, 2.0],
+  "appendix_scales": [0.25],
+  "lambda_full": 2.6371882367154997,
+  "epsilon_uint8": 8,
+  "s_context": [0, 1, 2, 3, 4],
+  "s_core": [5, 6, 7, 8, 9],
+  "s_all": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "context_text": "Dr. or Mrs.",
+  "core_text": "William J. Darby",
+  "multi_step": false,
+  "unseen": "NOT_OPENED",
+  "v20_read_only": true,
+  "v21_read_only": true,
+  "phase2_of_v21": "NOT_RUN"
+}

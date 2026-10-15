@@ -1,0 +1,61 @@
+{
+  "status": "DONE",
+  "scope": "fresh-process replay; endpoint verification only, no selector",
+  "sample_id": "60700",
+  "variant": "AWARE",
+  "step": 15,
+  "png": "week2_attack_v13_branch_reachability_probe/runs/construct_v1r1/60700/AWARE/step_015.png",
+  "png_sha256": "3bbd69a74a560f6496ac096f3b4424c15a6e3dd683926c2cc8e7767b5be0a42c",
+  "first": {
+    "full": {
+      "full_text_exact": 1,
+      "full_token_exact": 1,
+      "full_replay": 1,
+      "full_text": "PPBS"
+    },
+    "fast": {
+      "tokens": [
+        4406,
+        16680,
+        151645
+      ],
+      "text": "PPSB",
+      "anls": 0.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "a069cdd0849fe82b8ba4d2fc85c2e074859e7e63ad0190d34d28482df72bbbb0",
+      "endpoint_failure": true
+    },
+    "nonzero": true,
+    "linf_uint8": 8,
+    "linf_ok": true,
+    "selected_pair_gap": -1.125
+  },
+  "second": {
+    "full": {
+      "full_text_exact": 1,
+      "full_token_exact": 1,
+      "full_replay": 1,
+      "full_text": "PPBS"
+    },
+    "fast": {
+      "tokens": [
+        4406,
+        16680,
+        151645
+      ],
+      "text": "PPSB",
+      "anls": 0.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "a069cdd0849fe82b8ba4d2fc85c2e074859e7e63ad0190d34d28482df72bbbb0",
+      "endpoint_failure": true
+    },
+    "nonzero": true,
+    "linf_uint8": 8,
+    "linf_ok": true,
+    "selected_pair_gap": -1.125
+  },
+  "fast_replay": true,
+  "strict_endpoint_replayed": true
+}

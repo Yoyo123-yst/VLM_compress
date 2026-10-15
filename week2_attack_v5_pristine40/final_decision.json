@@ -1,0 +1,55 @@
+{
+  "stage": "pristine40_fixed_endpoint_validation",
+  "health": "BLOCKED_INSUFFICIENT_PRISTINE_POOL",
+  "pristine_pool_size": 0,
+  "pristine_pool_size_attack_only_diagnostic": 52,
+  "clean_eligible_in_draw": 106,
+  "historical_exclusion_union_n": 280,
+  "historical_exclusion_union_sha256": "84095f32aafc1f76d93b2b11f7c418c4c055650afc9feb286dc2c8c6e97d1e29",
+  "selected_n": 0,
+  "historical_overlap": 106,
+  "clean_gate": "NOT_RUN",
+  "primary_selector": "fixed_step_200",
+  "lambda_full": 0.25,
+  "steps": 200,
+  "eps": 0.031372549,
+  "primary": {
+    "strict_successes": null,
+    "strict_csfr": null,
+    "wilson_ci95": [],
+    "full_errors": null,
+    "fastv_errors": null,
+    "both_wrong": null,
+    "reverse_failures": null,
+    "full_text_unchanged": null,
+    "replay_pass": null,
+    "invalid_outputs": null
+  },
+  "secondary_min_margin": {
+    "strict_successes": null,
+    "strict_csfr": null,
+    "status": "PROSPECTIVELY_REGISTERED_SECONDARY"
+  },
+  "random_noise": {
+    "strict_successes": null,
+    "strict_csfr": null,
+    "full_errors": null,
+    "replay_pass": null
+  },
+  "attack_vs_noise": {
+    "candidate_only": null,
+    "noise_only": null,
+    "mcnemar_p_exact": null,
+    "mean_G_difference": null,
+    "signflip_p_exact": null
+  },
+  "decision": "BLOCKED_INSUFFICIENT_PRISTINE_POOL",
+  "evidence": [
+    "draw_questions(400,42) ∩ clean_baseline (M>1, Full/FastV r=0.25 ANLS≥0.5): 106 IDs",
+    "after full historical attack+inspection exclusion union: 0 pristine IDs",
+    "52 IDs have only week2_pilot oracle_hijack inspection (diagnostic; still excluded under protocol)",
+    "holdout 20/20 covered in exclusion union; v4 dev six covered",
+    "no manifest frozen; no GPU attack per pre-registration"
+  ],
+  "next_action": "Expand eligible universe (outside current 400-draw∩baseline pool) or retire draw-400 subset for pristine validation; do not tune λ/steps/ε on holdout overlap."
+}

@@ -1,0 +1,440 @@
+{
+  "sample_id": "50779",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "7725cfd1ac17c0fd44e9f142153a8da204582a7dbf62d10da1df6d7ec974a13f",
+  "full_clean": {
+    "text_a": "Dr. Darby",
+    "text_b": "Dr. Darby",
+    "tokens_a": [
+      8847,
+      13,
+      15017,
+      1694,
+      151645
+    ],
+    "tokens_b": [
+      8847,
+      13,
+      15017,
+      1694,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      8847,
+      13,
+      15017,
+      1694,
+      151645
+    ],
+    "text": "Dr. Darby",
+    "anls": 1.0,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "3f70ff102105e1aad5366e038afcbd666862dea7e6829801287c57526d56693e",
+    "k": 2774,
+    "second_keep_hash": "3f70ff102105e1aad5366e038afcbd666862dea7e6829801287c57526d56693e",
+    "second_k": 2774
+  },
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "3f70ff102105e1aad5366e038afcbd666862dea7e6829801287c57526d56693e",
+    "reference_keep_hash": "3f70ff102105e1aad5366e038afcbd666862dea7e6829801287c57526d56693e",
+    "fast_keep_exact": true,
+    "k": 2774,
+    "reference_k": 2774
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 2,
+      "target_id": 15017,
+      "target_piece": " Dar",
+      "candidate_id": 4320,
+      "candidate_piece": " Don",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 0.4375,
+      "content_priority": 1,
+      "fast_gradient_l1": 10408.578125,
+      "fast_gradient_l2": 27.99598503112793,
+      "estimated_fast_flip_linf": 4.2032638343673866e-05,
+      "full_clean_hard_min": 0.9375,
+      "full_probe_hard_min": 1.1875,
+      "full_local_capacity_linf": 0.0058320764203117145,
+      "full_local_margin_available": true,
+      "reachability_ratio": 138.75113840407957,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "3f70ff102105e1aad5366e038afcbd666862dea7e6829801287c57526d56693e",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          8847,
+          13,
+          4320,
+          15017,
+          1694,
+          151645
+        ],
+        "text": "Dr. Don Darby",
+        "keep_hash": "cd84587d93fcea046c488f8026450cbfe4ca23047c0a0d9aef8ee6188af9179b",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.6666666666666667,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "drdondarby",
+      "complete_lexical_similarity_to_clean": 0.8235294117647058,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          8847,
+          13,
+          4320,
+          15017,
+          1694,
+          151645
+        ],
+        "text": "Dr. Don Darby",
+        "keep_hash": "cd84587d93fcea046c488f8026450cbfe4ca23047c0a0d9aef8ee6188af9179b",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 15017,
+      "target_piece": " Dar",
+      "candidate_id": 11563,
+      "candidate_piece": " Dan",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 0.8125,
+      "content_priority": 1,
+      "fast_gradient_l1": 10266.640625,
+      "fast_gradient_l2": 32.89213180541992,
+      "estimated_fast_flip_linf": 7.91398111297969e-05,
+      "full_clean_hard_min": 0.9375,
+      "full_probe_hard_min": 1.1875,
+      "full_local_capacity_linf": 0.005985552115583075,
+      "full_local_margin_available": true,
+      "reachability_ratio": 75.63263078510757,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "3f70ff102105e1aad5366e038afcbd666862dea7e6829801287c57526d56693e",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          8847,
+          13,
+          11563,
+          15017,
+          1694,
+          151645
+        ],
+        "text": "Dr. Dan Darby",
+        "keep_hash": "2d29c08559c02a6f958cc3108063713103de6d77b524d78341164bc54fa517ea",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.6666666666666667,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "drdandarby",
+      "complete_lexical_similarity_to_clean": 0.8235294117647058,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          8847,
+          13,
+          11563,
+          15017,
+          1694,
+          151645
+        ],
+        "text": "Dr. Dan Darby",
+        "keep_hash": "2d29c08559c02a6f958cc3108063713103de6d77b524d78341164bc54fa517ea",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 15017,
+      "target_piece": " Dar",
+      "candidate_id": 24242,
+      "candidate_piece": " Dor",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 3.5625,
+      "content_priority": 1,
+      "fast_gradient_l1": 9861.44921875,
+      "fast_gradient_l2": 29.40077781677246,
+      "estimated_fast_flip_linf": 0.00036125521928627533,
+      "full_clean_hard_min": 0.9375,
+      "full_probe_hard_min": 1.1875,
+      "full_local_capacity_linf": 0.09803921568627451,
+      "full_local_margin_available": true,
+      "reachability_ratio": 271.38491142070865,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "3f70ff102105e1aad5366e038afcbd666862dea7e6829801287c57526d56693e",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          8847,
+          13,
+          24242,
+          28571,
+          15017,
+          1694,
+          151645
+        ],
+        "text": "Dr. Dorothy Darby",
+        "keep_hash": "7fdae718a1f9e619abd70b702633017f5504874dbc2b9ea62f5e9a4cbe3f2653",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "drdorothydarby",
+      "complete_lexical_similarity_to_clean": 0.6666666666666666,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          8847,
+          13,
+          24242,
+          28571,
+          15017,
+          1694,
+          151645
+        ],
+        "text": "Dr. Dorothy Darby",
+        "keep_hash": "7fdae718a1f9e619abd70b702633017f5504874dbc2b9ea62f5e9a4cbe3f2653",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 15017,
+      "target_piece": " Dar",
+      "candidate_id": 15118,
+      "candidate_piece": " Daniel",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 4.25,
+      "content_priority": 1,
+      "fast_gradient_l1": 8849.169921875,
+      "fast_gradient_l2": 30.410226821899414,
+      "estimated_fast_flip_linf": 0.0004802710353085289,
+      "full_clean_hard_min": 0.9375,
+      "full_probe_hard_min": 1.5,
+      "full_local_capacity_linf": 0.01033868092691622,
+      "full_local_margin_available": true,
+      "reachability_ratio": 21.526763362430533,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "3f70ff102105e1aad5366e038afcbd666862dea7e6829801287c57526d56693e",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          8847,
+          13,
+          15118,
+          151645
+        ],
+        "text": "Dr. Daniel",
+        "keep_hash": "a1e3ed9c4a3c33137bea9c7e6844f4cf6612601d7f61cca1a69838c3a307a55a",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.5555555555555556,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "drdaniel",
+      "complete_lexical_similarity_to_clean": 0.5333333333333333,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          8847,
+          13,
+          15118,
+          151645
+        ],
+        "text": "Dr. Daniel",
+        "keep_hash": "a1e3ed9c4a3c33137bea9c7e6844f4cf6612601d7f61cca1a69838c3a307a55a",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 15017,
+      "target_piece": " Dar",
+      "candidate_id": 9453,
+      "candidate_piece": " Donald",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 4.6875,
+      "content_priority": 1,
+      "fast_gradient_l1": 9887.220703125,
+      "fast_gradient_l2": 29.81354331970215,
+      "estimated_fast_flip_linf": 0.0004740968307219487,
+      "full_clean_hard_min": 0.9375,
+      "full_probe_hard_min": 1.6875,
+      "full_local_capacity_linf": 0.010830999066293184,
+      "full_local_margin_available": true,
+      "reachability_ratio": 22.84554201680672,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "3f70ff102105e1aad5366e038afcbd666862dea7e6829801287c57526d56693e",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          8847,
+          13,
+          9453,
+          468,
+          13,
+          15017,
+          1694,
+          151645
+        ],
+        "text": "Dr. Donald E. Darby",
+        "keep_hash": "4ff0ef22f66a5a89e0677226583ea3e8e9b0d2662a2a4fc175a0c79b84a672e9",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "drdonaldedarby",
+      "complete_lexical_similarity_to_clean": 0.6666666666666666,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          8847,
+          13,
+          9453,
+          468,
+          13,
+          15017,
+          1694,
+          151645
+        ],
+        "text": "Dr. Donald E. Darby",
+        "keep_hash": "4ff0ef22f66a5a89e0677226583ea3e8e9b0d2662a2a4fc175a0c79b84a672e9",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 3,
+      "target_id": 1694,
+      "target_piece": "by",
+      "candidate_id": 6115,
+      "candidate_piece": "aby",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 4.75,
+      "content_priority": 1,
+      "fast_gradient_l1": 8246.2626953125,
+      "fast_gradient_l2": 27.332218170166016,
+      "estimated_fast_flip_linf": 0.0005760185159636119,
+      "full_clean_hard_min": 0.9375,
+      "full_probe_hard_min": 1.125,
+      "full_local_capacity_linf": 0.016666666666666666,
+      "full_local_margin_available": true,
+      "reachability_ratio": 28.934255071271927,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "3f70ff102105e1aad5366e038afcbd666862dea7e6829801287c57526d56693e",
+      "clean_k": 2774,
+      "forced_continuation": {
+        "tokens": [
+          8847,
+          13,
+          15017,
+          6115,
+          151645
+        ],
+        "text": "Dr. Daraby",
+        "keep_hash": "59db12dd6b530ec96ac7a5942e3be1a942101e836e81da04220d21e5f8e63b5a",
+        "k": 2774
+      },
+      "forced_continuation_anls_diagnostic": 0.8888888888888888,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "drdaraby",
+      "complete_lexical_similarity_to_clean": 0.9333333333333333,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          8847,
+          13,
+          15017,
+          6115,
+          151645
+        ],
+        "text": "Dr. Daraby",
+        "keep_hash": "59db12dd6b530ec96ac7a5942e3be1a942101e836e81da04220d21e5f8e63b5a",
+        "k": 2774
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 18,
+    "screen_admitted_after_limit": 6,
+    "screen_rejected": 1,
+    "estimated": 6
+  },
+  "rejected_proposals": [
+    {
+      "position": 0,
+      "target_id": 8847,
+      "target_piece": "Dr",
+      "candidate_id": 84641,
+      "candidate_piece": "DON",
+      "candidate_rank_at_position": 9,
+      "clean_fast_gap": 8.9375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          84641,
+          7326,
+          151645
+        ],
+        "text": "DONNA",
+        "keep_hash": "b5e0b2e66db101a959f3d22a9f6e25c62bc00e4499e329e1f4f4bfde690ac3f1",
+        "k": 2774
+      },
+      "complete_lexical_key": "donna",
+      "complete_lexical_similarity_to_clean": 0.3333333333333333,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    }
+  ]
+}

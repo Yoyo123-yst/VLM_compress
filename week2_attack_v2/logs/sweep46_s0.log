@@ -1,0 +1,380 @@
+{"pool": 146, "running": 12, "mine": 6, "shard": 0}
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.01s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.25it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.94it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.58it/s]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11814486235380173, "share_loss": 0.11814486235380173, "full_loss": 0.0, "soft_share": 0.2562779486179352, "T": 0.00011937882663914934, "sec_per_step": 6.506836175918579}
+{"arm": "v2", "step": 50, "loss": 0.1122403686895268, "share_loss": 0.11209982633590698, "full_loss": 0.00014054235361982137, "soft_share": 0.2651869058609009, "T": 0.0001232759968843311, "sec_per_step": 5.123432093975591}
+{"arm": "v2", "step": 100, "loss": 0.11081394861685112, "share_loss": 0.11034353077411652, "full_loss": 0.0004704178427346051, "soft_share": 0.2678200602531433, "T": 0.0001242260041180998, "sec_per_step": 5.117111232021068}
+{"arm": "v2", "step": 149, "loss": 0.10915163773461245, "share_loss": 0.1088409274816513, "full_loss": 0.00031071025296114385, "soft_share": 0.2700895369052887, "T": 0.0001249529013875872, "sec_per_step": 5.120048419634501}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "37484", "arm": "v2", "lambda": "1", "c": "0.5", "anls_c": "0.0000", "anls_f": "1.0000", "aux": "0.316978", "csf": 1}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.1200597807765007, "share_loss": 0.1200597807765007, "full_loss": 0.0, "soft_share": 0.25350359082221985, "T": 0.00023875765327829868, "sec_per_step": 6.464823007583618}
+{"arm": "v2", "step": 50, "loss": 0.11799948842963204, "share_loss": 0.11774162948131561, "full_loss": 0.0002578589483164251, "soft_share": 0.2568650245666504, "T": 0.0002471380867063999, "sec_per_step": 5.1291096023484775}
+{"arm": "v2", "step": 100, "loss": 0.11726969071605708, "share_loss": 0.11705318838357925, "full_loss": 0.00021650233247783035, "soft_share": 0.2578696608543396, "T": 0.00024328005383722484, "sec_per_step": 5.115961688579899}
+{"arm": "v2", "step": 149, "loss": 0.11752622877247632, "share_loss": 0.11704926937818527, "full_loss": 0.0004769593942910433, "soft_share": 0.25787538290023804, "T": 0.00024276577460113913, "sec_per_step": 5.111149636904399}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "37484", "arm": "v2", "lambda": "1", "c": "1", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.269262", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11814486235380173, "share_loss": 0.11814486235380173, "full_loss": 0.0, "soft_share": 0.2562779486179352, "T": 0.00011937882663914934, "sec_per_step": 6.461040258407593}
+{"arm": "v2", "step": 50, "loss": 0.11487215227680281, "share_loss": 0.11422860622406006, "full_loss": 0.0003217730263713747, "soft_share": 0.26202279329299927, "T": 0.00012307227007113397, "sec_per_step": 5.128515224830777}
+{"arm": "v2", "step": 100, "loss": 0.11220699276600499, "share_loss": 0.11205580085515976, "full_loss": 7.559595542261377e-05, "soft_share": 0.26525264978408813, "T": 0.0001222278515342623, "sec_per_step": 5.116047332782556}
+{"arm": "v2", "step": 149, "loss": 0.1129492133622989, "share_loss": 0.1118258535861969, "full_loss": 0.0005616798880510032, "soft_share": 0.26559630036354065, "T": 0.00012299536319915205, "sec_per_step": 5.11187850634257}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "37484", "arm": "v2", "lambda": "2", "c": "0.5", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.281968", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.1200597807765007, "share_loss": 0.1200597807765007, "full_loss": 0.0, "soft_share": 0.25350359082221985, "T": 0.00023875765327829868, "sec_per_step": 6.4563679695129395}
+{"arm": "v2", "step": 50, "loss": 0.11895915675268043, "share_loss": 0.11878267675638199, "full_loss": 8.82399981492199e-05, "soft_share": 0.25535139441490173, "T": 0.00024049571948125958, "sec_per_step": 5.130870384328506}
+{"arm": "v2", "step": 100, "loss": 0.11831901608093176, "share_loss": 0.11818736046552658, "full_loss": 6.582780770258978e-05, "soft_share": 0.2562161386013031, "T": 0.0002373999304836616, "sec_per_step": 5.1167416785023}
+{"arm": "v2", "step": 149, "loss": 0.1189250840106979, "share_loss": 0.11811667680740356, "full_loss": 0.0004042036016471684, "soft_share": 0.25631895661354065, "T": 0.00024177116574719548, "sec_per_step": 5.112041085561117}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "37484", "arm": "v2", "lambda": "2", "c": "1", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.254528", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11814486235380173, "share_loss": 0.11814486235380173, "full_loss": 0.0, "soft_share": 0.2562779486179352, "T": 0.00011937882663914934, "sec_per_step": 6.471996068954468}
+{"arm": "v2", "step": 50, "loss": 0.11873382702469826, "share_loss": 0.11654005944728851, "full_loss": 0.00043875351548194885, "soft_share": 0.25862038135528564, "T": 0.00012091806274838746, "sec_per_step": 5.132655620574951}
+{"arm": "v2", "step": 100, "loss": 0.11782600363949314, "share_loss": 0.1156097874045372, "full_loss": 0.00044324324699118733, "soft_share": 0.25998562574386597, "T": 0.00011966159945586696, "sec_per_step": 5.1183163600392865}
+{"arm": "v2", "step": 149, "loss": 0.11587479038280435, "share_loss": 0.11455987393856049, "full_loss": 0.00026298328884877264, "soft_share": 0.26153308153152466, "T": 0.00012047437485307455, "sec_per_step": 5.112920710245768}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "37484", "arm": "v2", "lambda": "5", "c": "0.5", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.252771", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.1200597807765007, "share_loss": 0.1200597807765007, "full_loss": 0.0, "soft_share": 0.25350359082221985, "T": 0.00023875765327829868, "sec_per_step": 6.451663494110107}
+{"arm": "v2", "step": 50, "loss": 0.11986351352243219, "share_loss": 0.11952938139438629, "full_loss": 6.682642560917884e-05, "soft_share": 0.2542698085308075, "T": 0.0002402889367658645, "sec_per_step": 5.128946547414742}
+{"arm": "v2", "step": 100, "loss": 0.12131316706654616, "share_loss": 0.119170181453228, "full_loss": 0.00042859712266363204, "soft_share": 0.25478968024253845, "T": 0.00023991611669771373, "sec_per_step": 5.115548039426898}
+{"arm": "v2", "step": 149, "loss": 0.1213603368960321, "share_loss": 0.11923889815807343, "full_loss": 0.00042428774759173393, "soft_share": 0.25469017028808594, "T": 0.00023662432795390487, "sec_per_step": 5.111119728088379}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "37484", "arm": "v2", "lambda": "5", "c": "1", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.229386", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.004456174094229937, "share_loss": 0.004456174094229937, "full_loss": 0.0, "soft_share": 0.5332454442977905, "T": 0.00016572258027736098, "sec_per_step": 2.9911043643951416}
+{"arm": "v2", "step": 50, "loss": 0.00023018994397716597, "share_loss": 9.212535951519385e-05, "full_loss": 0.00027612916892394423, "soft_share": 0.590401828289032, "T": 7.711353100603446e-05, "sec_per_step": 2.3875977478775323}
+{"arm": "v2", "step": 100, "loss": 0.00011730118058039807, "share_loss": 5.2379593398654833e-05, "full_loss": 0.00012984317436348647, "soft_share": 0.5927626490592957, "T": 8.486235310556367e-05, "sec_per_step": 2.381960387277131}
+{"arm": "v2", "step": 149, "loss": 5.880769822397269e-05, "share_loss": 2.6862060622079298e-05, "full_loss": 6.389127520378679e-05, "soft_share": 0.5948171615600586, "T": 7.753907993901521e-05, "sec_per_step": 2.3797716188430784}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "65331", "arm": "v2", "lambda": "0.5", "c": "0.5", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.605839", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.0065630520693957806, "share_loss": 0.0065630520693957806, "full_loss": 0.0, "soft_share": 0.5189873576164246, "T": 0.00033144516055472195, "sec_per_step": 3.001336097717285}
+{"arm": "v2", "step": 50, "loss": 0.0016767455090302974, "share_loss": 0.00129329867195338, "full_loss": 0.0007668936741538346, "soft_share": 0.564037561416626, "T": 0.0001589108578627929, "sec_per_step": 2.3876739389756145}
+{"arm": "v2", "step": 100, "loss": 0.0012454171264835168, "share_loss": 0.001192225143313408, "full_loss": 0.00010638396634021774, "soft_share": 0.5654714107513428, "T": 0.00016040870104916394, "sec_per_step": 2.3821117641902205}
+{"arm": "v2", "step": 149, "loss": 0.0003802870705840178, "share_loss": 0.000302970438497141, "full_loss": 0.00015463326417375356, "soft_share": 0.5825939774513245, "T": 0.00015244705718941987, "sec_per_step": 2.3800977102915444}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "65331", "arm": "v2", "lambda": "0.5", "c": "1", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.623952", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.004456174094229937, "share_loss": 0.004456174094229937, "full_loss": 0.0, "soft_share": 0.5332454442977905, "T": 0.00016572258027736098, "sec_per_step": 2.9951860904693604}
+{"arm": "v2", "step": 50, "loss": 0.0011711861588992178, "share_loss": 0.0008490802720189095, "full_loss": 0.0003221058868803084, "soft_share": 0.5708610415458679, "T": 9.172449063044041e-05, "sec_per_step": 2.38693933393441}
+{"arm": "v2", "step": 100, "loss": 0.00043575887684710324, "share_loss": 0.00028044197824783623, "full_loss": 0.000155316898599267, "soft_share": 0.5832536220550537, "T": 8.947947935666889e-05, "sec_per_step": 2.381889508502318}
+{"arm": "v2", "step": 149, "loss": 0.0006219597416929901, "share_loss": 0.00034040771424770355, "full_loss": 0.0002815520274452865, "soft_share": 0.581549882888794, "T": 0.00010128448775503784, "sec_per_step": 2.3794356044133504}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "65331", "arm": "v2", "lambda": "1", "c": "0.5", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.592593", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.0065630520693957806, "share_loss": 0.0065630520693957806, "full_loss": 0.0, "soft_share": 0.5189873576164246, "T": 0.00033144516055472195, "sec_per_step": 2.996448040008545}
+{"arm": "v2", "step": 50, "loss": 0.0024519130238331854, "share_loss": 0.0021967850625514984, "full_loss": 0.000255127961281687, "soft_share": 0.5531301498413086, "T": 0.00015577736485283822, "sec_per_step": 2.3897879918416343}
+{"arm": "v2", "step": 100, "loss": 0.0014734541036887094, "share_loss": 0.0012309796875342727, "full_loss": 0.00024247441615443677, "soft_share": 0.5649147033691406, "T": 0.0001517577184131369, "sec_per_step": 2.382839344515659}
+{"arm": "v2", "step": 149, "loss": 0.0011376854818081483, "share_loss": 0.0010925153037533164, "full_loss": 4.517017805483192e-05, "soft_share": 0.566946804523468, "T": 0.00014941906556487083, "sec_per_step": 2.3804736932118735}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "65331", "arm": "v2", "lambda": "1", "c": "1", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.607732", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.004456174094229937, "share_loss": 0.004456174094229937, "full_loss": 0.0, "soft_share": 0.5332454442977905, "T": 0.00016572258027736098, "sec_per_step": 3.0009000301361084}
+{"arm": "v2", "step": 50, "loss": 0.0012006785545963794, "share_loss": 0.0009245682158507407, "full_loss": 0.00013805516937281936, "soft_share": 0.5695933103561401, "T": 8.44790629344061e-05, "sec_per_step": 2.3868046087377213}
+{"arm": "v2", "step": 100, "loss": 0.0005029549938626587, "share_loss": 0.00036816741339862347, "full_loss": 6.739379023201764e-05, "soft_share": 0.5808123350143433, "T": 7.792052201693878e-05, "sec_per_step": 2.3814131835899732}
+{"arm": "v2", "step": 149, "loss": 0.0013163721014279872, "share_loss": 0.0008587749325670302, "full_loss": 0.0002287985844304785, "soft_share": 0.570695161819458, "T": 9.40009267651476e-05, "sec_per_step": 2.380697013537089}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "65331", "arm": "v2", "lambda": "2", "c": "0.5", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.580697", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.0065630520693957806, "share_loss": 0.0065630520693957806, "full_loss": 0.0, "soft_share": 0.5189873576164246, "T": 0.00033144516055472195, "sec_per_step": 2.9979639053344727}
+{"arm": "v2", "step": 50, "loss": 0.004791867220774293, "share_loss": 0.004279039800167084, "full_loss": 0.0002564137103036046, "soft_share": 0.5345856547355652, "T": 0.0002164361358154565, "sec_per_step": 2.3869246221056173}
+{"arm": "v2", "step": 100, "loss": 0.003923348558600992, "share_loss": 0.0032391392160207033, "full_loss": 0.0003421046712901443, "soft_share": 0.543086588382721, "T": 0.00019433796114753932, "sec_per_step": 2.380901053400323}
+{"arm": "v2", "step": 149, "loss": 0.002216726657934487, "share_loss": 0.0019456500886008143, "full_loss": 0.00013553828466683626, "soft_share": 0.5558905005455017, "T": 0.0001545189443277195, "sec_per_step": 2.3791432348887125}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "65331", "arm": "v2", "lambda": "2", "c": "1", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.578535", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.004456174094229937, "share_loss": 0.004456174094229937, "full_loss": 0.0, "soft_share": 0.5332454442977905, "T": 0.00016572258027736098, "sec_per_step": 2.9979264736175537}
+{"arm": "v2", "step": 50, "loss": 0.004619644460035488, "share_loss": 0.0026402820367366076, "full_loss": 0.0003958724846597761, "soft_share": 0.548616349697113, "T": 0.00011975618690485135, "sec_per_step": 2.391102804857142}
+{"arm": "v2", "step": 100, "loss": 0.0036984690523240715, "share_loss": 0.0029162918217480183, "full_loss": 0.00015643544611521065, "soft_share": 0.5459973216056824, "T": 0.00013673283683601767, "sec_per_step": 2.3833458022315903}
+{"arm": "v2", "step": 149, "loss": 0.00533577220630832, "share_loss": 0.00410874467343092, "full_loss": 0.0002454055065754801, "soft_share": 0.5359005331993103, "T": 0.0001689963974058628, "sec_per_step": 2.381542749404907}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "65331", "arm": "v2", "lambda": "5", "c": "0.5", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.550149", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.0065630520693957806, "share_loss": 0.0065630520693957806, "full_loss": 0.0, "soft_share": 0.5189873576164246, "T": 0.00033144516055472195, "sec_per_step": 2.997856855392456}
+{"arm": "v2", "step": 50, "loss": 0.006392641487764195, "share_loss": 0.005947853904217482, "full_loss": 8.89575167093426e-05, "soft_share": 0.5228776931762695, "T": 0.00029905213159509003, "sec_per_step": 2.3875117208443437}
+{"arm": "v2", "step": 100, "loss": 0.006252083228901029, "share_loss": 0.005000722128897905, "full_loss": 0.00025027222000062466, "soft_share": 0.5292842388153076, "T": 0.0002511077909730375, "sec_per_step": 2.3817968250501274}
+{"arm": "v2", "step": 149, "loss": 0.0053110148292034864, "share_loss": 0.004775018896907568, "full_loss": 0.00010719918645918369, "soft_share": 0.5308985114097595, "T": 0.0002195935812778771, "sec_per_step": 2.379537835121155}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "65331", "arm": "v2", "lambda": "5", "c": "1", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.549878", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "52522", "arm": "clean", "lambda": "", "c": "", "anls_c": "0.6000", "anls_f": "0.6000", "aux": "0.311706", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "52522", "arm": "dense", "lambda": "", "c": "", "anls_c": "0.6000", "anls_f": "0.6000", "aux": "0.280616", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "52522", "arm": "noise", "lambda": "", "c": "", "anls_c": "0.6000", "anls_f": "0.6000", "aux": "0.310895", "csf": 0}
+{"arm": "v1", "step": 0, "loss": -1984.1417236328125}
+{"arm": "v1", "step": 50, "loss": -2128.476806640625}
+{"arm": "v1", "step": 100, "loss": -2159.9912109375}
+{"arm": "v1", "step": 149, "loss": -2191.9208984375}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "52522", "arm": "v1", "lambda": "0", "c": "fixed-1e-4", "anls_c": "0.8000", "anls_f": "0.0000", "aux": "0.401460", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.10909569263458252, "share_loss": 0.10909569263458252, "full_loss": 0.0, "soft_share": 0.2697036564350128, "T": 9.118079469772056e-05, "sec_per_step": 6.468877792358398}
+{"arm": "v2", "step": 50, "loss": 0.10004233208019286, "share_loss": 0.09978558123111725, "full_loss": 0.0005135016981512308, "soft_share": 0.28411146998405457, "T": 9.03065811144188e-05, "sec_per_step": 5.134913963430068}
+{"arm": "v2", "step": 100, "loss": 0.0976680894382298, "share_loss": 0.09710458666086197, "full_loss": 0.0011270055547356606, "soft_share": 0.28838393092155457, "T": 9.20031889108941e-05, "sec_per_step": 5.120116068585085}
+{"arm": "v2", "step": 149, "loss": 0.09640391782158986, "share_loss": 0.09628762304782867, "full_loss": 0.00023258954752236605, "soft_share": 0.2896975576877594, "T": 9.129712998401374e-05, "sec_per_step": 5.11469730536143}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "52522", "arm": "v2", "lambda": "0.5", "c": "0.5", "anls_c": "0.6000", "anls_f": "0.6000", "aux": "0.380373", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11519715189933777, "share_loss": 0.11519715189933777, "full_loss": 0.0, "soft_share": 0.2605929672718048, "T": 0.00018236158939544111, "sec_per_step": 6.458411455154419}
+{"arm": "v2", "step": 50, "loss": 0.11193847587855998, "share_loss": 0.11173702776432037, "full_loss": 0.00040289622847922146, "soft_share": 0.2657291293144226, "T": 0.00018496286065783352, "sec_per_step": 5.131728677188649}
+{"arm": "v2", "step": 100, "loss": 0.1108603758038953, "share_loss": 0.11030292510986328, "full_loss": 0.0011149013880640268, "soft_share": 0.2678811848163605, "T": 0.00017878657672554255, "sec_per_step": 5.118506150670571}
+{"arm": "v2", "step": 149, "loss": 0.11003722082386957, "share_loss": 0.10995127260684967, "full_loss": 0.0001718964340398088, "soft_share": 0.2684110105037689, "T": 0.00018548798107076436, "sec_per_step": 5.114065133730571}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "52522", "arm": "v2", "lambda": "0.5", "c": "1", "anls_c": "0.6000", "anls_f": "0.6000", "aux": "0.359692", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.10909569263458252, "share_loss": 0.10909569263458252, "full_loss": 0.0, "soft_share": 0.2697036564350128, "T": 9.118079469772056e-05, "sec_per_step": 6.455541372299194}
+{"arm": "v2", "step": 50, "loss": 0.10253433082834817, "share_loss": 0.1022997722029686, "full_loss": 0.00023455862537957728, "soft_share": 0.280156672000885, "T": 9.047834464581683e-05, "sec_per_step": 5.129359684738458}
+{"arm": "v2", "step": 100, "loss": 0.10140245337970555, "share_loss": 0.1002582237124443, "full_loss": 0.0011442296672612429, "soft_share": 0.2833642363548279, "T": 9.097407018998638e-05, "sec_per_step": 5.117214443660019}
+{"arm": "v2", "step": 149, "loss": 0.09839284721238073, "share_loss": 0.0983055830001831, "full_loss": 8.726421219762415e-05, "soft_share": 0.28646281361579895, "T": 9.219800995197147e-05, "sec_per_step": 5.113182404836019}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "52522", "arm": "v2", "lambda": "1", "c": "0.5", "anls_c": "0.6000", "anls_f": "0.6000", "aux": "0.368613", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11519715189933777, "share_loss": 0.11519715189933777, "full_loss": 0.0, "soft_share": 0.2605929672718048, "T": 0.00018236158939544111, "sec_per_step": 6.4712815284729}
+{"arm": "v2", "step": 50, "loss": 0.11294555562199093, "share_loss": 0.11268452554941177, "full_loss": 0.00026103007257916033, "soft_share": 0.2643148601055145, "T": 0.00018096587155014277, "sec_per_step": 5.131044813230926}
+{"arm": "v2", "step": 100, "loss": 0.11209791028522886, "share_loss": 0.11168210953474045, "full_loss": 0.00041580075048841536, "soft_share": 0.2658112943172455, "T": 0.00018199364421889186, "sec_per_step": 5.117881536483765}
+{"arm": "v2", "step": 149, "loss": 0.11110710198408924, "share_loss": 0.11096930503845215, "full_loss": 0.000137796945637092, "soft_share": 0.26687946915626526, "T": 0.00018030342471320182, "sec_per_step": 5.11350738843282}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "52522", "arm": "v2", "lambda": "1", "c": "1", "anls_c": "0.6000", "anls_f": "0.6000", "aux": "0.349419", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.10909569263458252, "share_loss": 0.10909569263458252, "full_loss": 0.0, "soft_share": 0.2697036564350128, "T": 9.118079469772056e-05, "sec_per_step": 6.479395389556885}
+{"arm": "v2", "step": 50, "loss": 0.10519955342169851, "share_loss": 0.10486726462841034, "full_loss": 0.00016614439664408565, "soft_share": 0.2761678695678711, "T": 8.974800584837794e-05, "sec_per_step": 5.137848821340823}
+{"arm": "v2", "step": 100, "loss": 0.1038933756062761, "share_loss": 0.10310206562280655, "full_loss": 0.0003956549917347729, "soft_share": 0.27890491485595703, "T": 9.250872244592756e-05, "sec_per_step": 5.122004844174526}
+{"arm": "v2", "step": 149, "loss": 0.10421429306734353, "share_loss": 0.10339874029159546, "full_loss": 0.00040777638787403703, "soft_share": 0.27844327688217163, "T": 9.211312863044441e-05, "sec_per_step": 5.116831472714742}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "52522", "arm": "v2", "lambda": "2", "c": "0.5", "anls_c": "0.6000", "anls_f": "0.6000", "aux": "0.344147", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11519715189933777, "share_loss": 0.11519715189933777, "full_loss": 0.0, "soft_share": 0.2605929672718048, "T": 0.00018236158939544111, "sec_per_step": 6.467802286148071}
+{"arm": "v2", "step": 50, "loss": 0.116102454951033, "share_loss": 0.11403948813676834, "full_loss": 0.0010314834071323276, "soft_share": 0.2623026967048645, "T": 0.00018143182387575507, "sec_per_step": 5.130011941872391}
+{"arm": "v2", "step": 100, "loss": 0.11343114798364695, "share_loss": 0.1132475882768631, "full_loss": 9.177985339192674e-05, "soft_share": 0.26347723603248596, "T": 0.00017937080701813102, "sec_per_step": 5.120546196947004}
+{"arm": "v2", "step": 149, "loss": 0.11264917194785085, "share_loss": 0.11254039406776428, "full_loss": 5.4388940043281764e-05, "soft_share": 0.26452961564064026, "T": 0.00018077231652569026, "sec_per_step": 5.116292441685994}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "52522", "arm": "v2", "lambda": "2", "c": "1", "anls_c": "0.6000", "anls_f": "0.6000", "aux": "0.330900", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.10909569263458252, "share_loss": 0.10909569263458252, "full_loss": 0.0, "soft_share": 0.2697036564350128, "T": 9.118079469772056e-05, "sec_per_step": 6.463308095932007}
+{"arm": "v2", "step": 50, "loss": 0.10917152155889198, "share_loss": 0.10708803683519363, "full_loss": 0.00041669694473966956, "soft_share": 0.2727569341659546, "T": 9.059619333129376e-05, "sec_per_step": 5.1305917057336545}
+{"arm": "v2", "step": 100, "loss": 0.10619052033143817, "share_loss": 0.10600735992193222, "full_loss": 3.663208190118894e-05, "soft_share": 0.2744123041629791, "T": 9.003034210763872e-05, "sec_per_step": 5.119358617480438}
+{"arm": "v2", "step": 149, "loss": 0.10636856129713124, "share_loss": 0.10617224872112274, "full_loss": 3.926251520169899e-05, "soft_share": 0.27415919303894043, "T": 9.076634160010144e-05, "sec_per_step": 5.114897524515788}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "52522", "arm": "v2", "lambda": "5", "c": "0.5", "anls_c": "0.6000", "anls_f": "0.6000", "aux": "0.328062", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11519715189933777, "share_loss": 0.11519715189933777, "full_loss": 0.0, "soft_share": 0.2605929672718048, "T": 0.00018236158939544111, "sec_per_step": 6.461186170578003}
+{"arm": "v2", "step": 50, "loss": 0.11465094599770964, "share_loss": 0.11452093720436096, "full_loss": 2.6001758669735864e-05, "soft_share": 0.2615906000137329, "T": 0.00018227373948320746, "sec_per_step": 5.129190940482943}
+{"arm": "v2", "step": 100, "loss": 0.11537164670880884, "share_loss": 0.11408516019582748, "full_loss": 0.00025729730259627104, "soft_share": 0.2622350752353668, "T": 0.00018098652071785182, "sec_per_step": 5.116120581579681}
+{"arm": "v2", "step": 149, "loss": 0.11475731556129176, "share_loss": 0.11442121863365173, "full_loss": 6.721938552800566e-05, "soft_share": 0.26173797249794006, "T": 0.00018096827261615545, "sec_per_step": 5.1125804821650185}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "52522", "arm": "v2", "lambda": "5", "c": "1", "anls_c": "0.6000", "anls_f": "0.6000", "aux": "0.313869", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56034", "arm": "clean", "lambda": "", "c": "", "anls_c": "0.6250", "anls_f": "0.6250", "aux": "0.272506", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56034", "arm": "dense", "lambda": "", "c": "", "anls_c": "0.6250", "anls_f": "0.6250", "aux": "0.212625", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56034", "arm": "noise", "lambda": "", "c": "", "anls_c": "0.6250", "anls_f": "0.6250", "aux": "0.271695", "csf": 0}
+{"arm": "v1", "step": 0, "loss": -1960.2799072265625}
+{"arm": "v1", "step": 50, "loss": -2122.775146484375}
+{"arm": "v1", "step": 100, "loss": -2182.3642578125}
+{"arm": "v1", "step": 149, "loss": -2195.2861328125}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56034", "arm": "v1", "lambda": "0", "c": "fixed-1e-4", "anls_c": "0.6250", "anls_f": "0.6250", "aux": "0.381590", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.10339927673339844, "share_loss": 0.10339927673339844, "full_loss": 0.0, "soft_share": 0.2784424424171448, "T": 4.460378477233462e-05, "sec_per_step": 6.462223529815674}
+{"arm": "v2", "step": 50, "loss": 0.0835165531898383, "share_loss": 0.08326771855354309, "full_loss": 0.0004976692725904286, "soft_share": 0.31143856048583984, "T": 5.047885133535601e-05, "sec_per_step": 5.1274521818348004}
+{"arm": "v2", "step": 100, "loss": 0.07934998291602824, "share_loss": 0.0791555866599083, "full_loss": 0.0003887925122398883, "soft_share": 0.31865400075912476, "T": 5.0793474656529725e-05, "sec_per_step": 5.114713869472541}
+{"arm": "v2", "step": 149, "loss": 0.07680497417459264, "share_loss": 0.07655955106019974, "full_loss": 0.0004908462287858129, "soft_share": 0.32330605387687683, "T": 5.193530159885995e-05, "sec_per_step": 5.110898094177246}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56034", "arm": "v2", "lambda": "0.5", "c": "0.5", "anls_c": "0.0000", "anls_f": "0.6250", "aux": "0.394566", "csf": 1}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11120473593473434, "share_loss": 0.11120473593473434, "full_loss": 0.0, "soft_share": 0.2665262818336487, "T": 8.920756954466924e-05, "sec_per_step": 6.74488639831543}
+{"arm": "v2", "step": 50, "loss": 0.09922153919615084, "share_loss": 0.09913230687379837, "full_loss": 0.00017846464470494539, "soft_share": 0.28514719009399414, "T": 9.868390770861879e-05, "sec_per_step": 5.159431032105988}
+{"arm": "v2", "step": 100, "loss": 0.09638912419904955, "share_loss": 0.09619633108377457, "full_loss": 0.00038558623054996133, "soft_share": 0.28984469175338745, "T": 9.883898019324988e-05, "sec_per_step": 5.131317759504412}
+{"arm": "v2", "step": 149, "loss": 0.09289250669098692, "share_loss": 0.09277580678462982, "full_loss": 0.00023339981271419674, "soft_share": 0.29540881514549255, "T": 9.792368655325845e-05, "sec_per_step": 5.120988154411316}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56034", "arm": "v2", "lambda": "0.5", "c": "1", "anls_c": "0.6250", "anls_f": "0.6250", "aux": "0.376318", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.10339927673339844, "share_loss": 0.10339927673339844, "full_loss": 0.0, "soft_share": 0.2784424424171448, "T": 4.460378477233462e-05, "sec_per_step": 6.472362518310547}
+{"arm": "v2", "step": 50, "loss": 0.08396670722868294, "share_loss": 0.08361956477165222, "full_loss": 0.00034714245703071356, "soft_share": 0.3108295500278473, "T": 5.000753662898205e-05, "sec_per_step": 5.131501006145103}
+{"arm": "v2", "step": 100, "loss": 0.07963893446139991, "share_loss": 0.07931823283433914, "full_loss": 0.000320701627060771, "soft_share": 0.31836509704589844, "T": 5.040544056100771e-05, "sec_per_step": 5.118889844063485}
+{"arm": "v2", "step": 149, "loss": 0.07774558800156228, "share_loss": 0.07752230763435364, "full_loss": 0.00022328036720864475, "soft_share": 0.3215717375278473, "T": 5.077834794064984e-05, "sec_per_step": 5.114736493428548}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56034", "arm": "v2", "lambda": "1", "c": "0.5", "anls_c": "0.6250", "anls_f": "0.6250", "aux": "0.386996", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11120473593473434, "share_loss": 0.11120473593473434, "full_loss": 0.0, "soft_share": 0.2665262818336487, "T": 8.920756954466924e-05, "sec_per_step": 6.466563940048218}
+{"arm": "v2", "step": 50, "loss": 0.10052041668677703, "share_loss": 0.0997915118932724, "full_loss": 0.0007289047935046256, "soft_share": 0.28410208225250244, "T": 9.896961273625493e-05, "sec_per_step": 5.127233093860102}
+{"arm": "v2", "step": 100, "loss": 0.09543397997913416, "share_loss": 0.09519416838884354, "full_loss": 0.00023981159029062837, "soft_share": 0.29146450757980347, "T": 9.85883962130174e-05, "sec_per_step": 5.114587642178677}
+{"arm": "v2", "step": 149, "loss": 0.09332935462589376, "share_loss": 0.09316669404506683, "full_loss": 0.00016266058082692325, "soft_share": 0.294767826795578, "T": 9.78907264652662e-05, "sec_per_step": 5.110594019889832}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56034", "arm": "v2", "lambda": "1", "c": "1", "anls_c": "0.6250", "anls_f": "0.6250", "aux": "0.374966", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.10339927673339844, "share_loss": 0.10339927673339844, "full_loss": 0.0, "soft_share": 0.2784424424171448, "T": 4.460378477233462e-05, "sec_per_step": 6.452666997909546}
+{"arm": "v2", "step": 50, "loss": 0.08523444324964657, "share_loss": 0.0851021409034729, "full_loss": 6.615117308683693e-05, "soft_share": 0.30827730894088745, "T": 5.0037706387229264e-05, "sec_per_step": 5.127331962772444}
+{"arm": "v2", "step": 100, "loss": 0.07994172850158066, "share_loss": 0.07924463599920273, "full_loss": 0.00034854625118896365, "soft_share": 0.3184957802295685, "T": 5.0408347306074575e-05, "sec_per_step": 5.114053575119169}
+{"arm": "v2", "step": 149, "loss": 0.07821791799506173, "share_loss": 0.07729472219944, "full_loss": 0.00046159789781086147, "soft_share": 0.321980744600296, "T": 4.997051655664109e-05, "sec_per_step": 5.110616550445557}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56034", "arm": "v2", "lambda": "2", "c": "0.5", "anls_c": "0.0000", "anls_f": "0.6250", "aux": "0.384428", "csf": 1}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11120473593473434, "share_loss": 0.11120473593473434, "full_loss": 0.0, "soft_share": 0.2665262818336487, "T": 8.920756954466924e-05, "sec_per_step": 6.462216138839722}
+{"arm": "v2", "step": 50, "loss": 0.10236196935875341, "share_loss": 0.10148486495018005, "full_loss": 0.0004385522042866796, "soft_share": 0.2814331352710724, "T": 9.649179264670238e-05, "sec_per_step": 5.128671515221689}
+{"arm": "v2", "step": 100, "loss": 0.09904106997419149, "share_loss": 0.09834002703428268, "full_loss": 0.00035052146995440125, "soft_share": 0.2864078879356384, "T": 9.730803139973432e-05, "sec_per_step": 5.115065029352018}
+{"arm": "v2", "step": 149, "loss": 0.09554535744246095, "share_loss": 0.09494209289550781, "full_loss": 0.00030163227347657084, "soft_share": 0.2918732762336731, "T": 9.6945084806066e-05, "sec_per_step": 5.110489072799683}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56034", "arm": "v2", "lambda": "2", "c": "1", "anls_c": "0.6250", "anls_f": "0.6250", "aux": "0.368748", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.10339927673339844, "share_loss": 0.10339927673339844, "full_loss": 0.0, "soft_share": 0.2784424424171448, "T": 4.460378477233462e-05, "sec_per_step": 6.461329460144043}
+{"arm": "v2", "step": 50, "loss": 0.0893161684361985, "share_loss": 0.08830291777849197, "full_loss": 0.0002026501315413043, "soft_share": 0.3028419613838196, "T": 4.894117228104733e-05, "sec_per_step": 5.127442215003219}
+{"arm": "v2", "step": 100, "loss": 0.08313286858719948, "share_loss": 0.08301515877246857, "full_loss": 2.3541962946183048e-05, "soft_share": 0.311876505613327, "T": 4.972950046067126e-05, "sec_per_step": 5.115201883977003}
+{"arm": "v2", "step": 149, "loss": 0.08505584405793343, "share_loss": 0.08390062302350998, "full_loss": 0.00023104420688468963, "soft_share": 0.31034398078918457, "T": 4.96865322929807e-05, "sec_per_step": 5.112089802424113}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56034", "arm": "v2", "lambda": "5", "c": "0.5", "anls_c": "0.6250", "anls_f": "0.6250", "aux": "0.366180", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11120473593473434, "share_loss": 0.11120473593473434, "full_loss": 0.0, "soft_share": 0.2665262818336487, "T": 8.920756954466924e-05, "sec_per_step": 6.463353633880615}
+{"arm": "v2", "step": 50, "loss": 0.10485422139754519, "share_loss": 0.10339337587356567, "full_loss": 0.00029216910479590297, "soft_share": 0.2784516215324402, "T": 9.496367420069873e-05, "sec_per_step": 5.128148050869212}
+{"arm": "v2", "step": 100, "loss": 0.10250157248810865, "share_loss": 0.10181719809770584, "full_loss": 0.00013687487808056176, "soft_share": 0.28091195225715637, "T": 9.524668712401763e-05, "sec_per_step": 5.114482298935994}
+{"arm": "v2", "step": 149, "loss": 0.10133616207167506, "share_loss": 0.1003345176577568, "full_loss": 0.00020032888278365135, "soft_share": 0.2832437753677368, "T": 9.614560985937715e-05, "sec_per_step": 5.110260734558105}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56034", "arm": "v2", "lambda": "5", "c": "1", "anls_c": "0.6250", "anls_f": "0.6250", "aux": "0.347121", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15321", "arm": "clean", "lambda": "", "c": "", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.274398", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15321", "arm": "dense", "lambda": "", "c": "", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.278318", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15321", "arm": "noise", "lambda": "", "c": "", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.271965", "csf": 0}
+{"arm": "v1", "step": 0, "loss": -1972.6754150390625}
+{"arm": "v1", "step": 50, "loss": -2254.205078125}
+{"arm": "v1", "step": 100, "loss": -2389.65478515625}
+{"arm": "v1", "step": 149, "loss": -2460.472412109375}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15321", "arm": "v1", "lambda": "0", "c": "fixed-1e-4", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.435929", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11012588441371918, "share_loss": 0.11012588441371918, "full_loss": 0.0, "soft_share": 0.2681478261947632, "T": 8.98126236279495e-05, "sec_per_step": 6.471550226211548}
+{"arm": "v2", "step": 50, "loss": 0.08278375833106111, "share_loss": 0.0827397033572197, "full_loss": 8.810994768282399e-05, "soft_share": 0.3123549222946167, "T": 8.163631719071418e-05, "sec_per_step": 5.134046774284513}
+{"arm": "v2", "step": 100, "loss": 0.07144056329707382, "share_loss": 0.07135657966136932, "full_loss": 0.00016796727140899748, "soft_share": 0.33287349343299866, "T": 7.622358680237085e-05, "sec_per_step": 5.120482414075644}
+{"arm": "v2", "step": 149, "loss": 0.06750212722545257, "share_loss": 0.06739310920238495, "full_loss": 0.0002180360461352393, "soft_share": 0.3403981924057007, "T": 7.42298288969323e-05, "sec_per_step": 5.115651559829712}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15321", "arm": "v2", "lambda": "0.5", "c": "0.5", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.434442", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11553756892681122, "share_loss": 0.11553756892681122, "full_loss": 0.0, "soft_share": 0.2600918412208557, "T": 0.000179625247255899, "sec_per_step": 6.47454047203064}
+{"arm": "v2", "step": 50, "loss": 0.10025383297033841, "share_loss": 0.10017021745443344, "full_loss": 0.00016723103180993348, "soft_share": 0.2835032343864441, "T": 0.00016487720131408423, "sec_per_step": 5.133249628777597}
+{"arm": "v2", "step": 100, "loss": 0.0938804557081312, "share_loss": 0.09328511357307434, "full_loss": 0.0011906842701137066, "soft_share": 0.29457390308380127, "T": 0.00015278904174920171, "sec_per_step": 5.119714024043319}
+{"arm": "v2", "step": 149, "loss": 0.08938724036852363, "share_loss": 0.08927953243255615, "full_loss": 0.00021541587193496525, "soft_share": 0.3012032210826874, "T": 0.00015195528976619244, "sec_per_step": 5.115819627443949}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15321", "arm": "v2", "lambda": "0.5", "c": "1", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.402001", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11012588441371918, "share_loss": 0.11012588441371918, "full_loss": 0.0, "soft_share": 0.2681478261947632, "T": 8.98126236279495e-05, "sec_per_step": 6.474492788314819}
+{"arm": "v2", "step": 50, "loss": 0.08482183390151476, "share_loss": 0.08473919332027435, "full_loss": 8.264058124041185e-05, "soft_share": 0.30890005826950073, "T": 8.350746793439612e-05, "sec_per_step": 5.1332037261888095}
+{"arm": "v2", "step": 100, "loss": 0.07696308362937998, "share_loss": 0.0768045112490654, "full_loss": 0.0001585723803145811, "soft_share": 0.32286375761032104, "T": 7.964683027239516e-05, "sec_per_step": 5.119889176718079}
+{"arm": "v2", "step": 149, "loss": 0.07024111710779835, "share_loss": 0.07013102620840073, "full_loss": 0.00011009089939761907, "soft_share": 0.33517739176750183, "T": 7.450331031577662e-05, "sec_per_step": 5.116163814862569}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15321", "arm": "v2", "lambda": "1", "c": "0.5", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.429711", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11553756892681122, "share_loss": 0.11553756892681122, "full_loss": 0.0, "soft_share": 0.2600918412208557, "T": 0.000179625247255899, "sec_per_step": 6.469368934631348}
+{"arm": "v2", "step": 50, "loss": 0.10235753504093736, "share_loss": 0.10189956426620483, "full_loss": 0.0004579707747325301, "soft_share": 0.28078290820121765, "T": 0.0001681577123235911, "sec_per_step": 5.1334083594527895}
+{"arm": "v2", "step": 100, "loss": 0.096030516186147, "share_loss": 0.09597498923540115, "full_loss": 5.552695074584335e-05, "soft_share": 0.29020172357559204, "T": 0.000156026057084091, "sec_per_step": 5.121304462451746}
+{"arm": "v2", "step": 149, "loss": 0.09335300809470937, "share_loss": 0.09320695698261261, "full_loss": 0.0001460511120967567, "soft_share": 0.29470187425613403, "T": 0.00015186695964075625, "sec_per_step": 5.117003672917684}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15321", "arm": "v2", "lambda": "1", "c": "1", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.393350", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11012588441371918, "share_loss": 0.11012588441371918, "full_loss": 0.0, "soft_share": 0.2681478261947632, "T": 8.98126236279495e-05, "sec_per_step": 6.468101978302002}
+{"arm": "v2", "step": 50, "loss": 0.08826832573686261, "share_loss": 0.08803179115056992, "full_loss": 0.00011826729314634576, "soft_share": 0.3032985031604767, "T": 8.496420196024701e-05, "sec_per_step": 5.135015146405089}
+{"arm": "v2", "step": 100, "loss": 0.08058899833122268, "share_loss": 0.08018083870410919, "full_loss": 0.00020407981355674565, "soft_share": 0.3168378174304962, "T": 8.1088044680655e-05, "sec_per_step": 5.12157128825046}
+{"arm": "v2", "step": 149, "loss": 0.07393805254832841, "share_loss": 0.07372429966926575, "full_loss": 0.00010687643953133374, "soft_share": 0.3284778296947479, "T": 7.747718336759135e-05, "sec_per_step": 5.117453339894612}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15321", "arm": "v2", "lambda": "2", "c": "0.5", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.419438", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11553756892681122, "share_loss": 0.11553756892681122, "full_loss": 0.0, "soft_share": 0.2600918412208557, "T": 0.000179625247255899, "sec_per_step": 6.475029230117798}
+{"arm": "v2", "step": 50, "loss": 0.10630984538875055, "share_loss": 0.10608329623937607, "full_loss": 0.00011327457468723878, "soft_share": 0.27429571747779846, "T": 0.00017467534053139389, "sec_per_step": 5.133472998936971}
+{"arm": "v2", "step": 100, "loss": 0.10067075916595059, "share_loss": 0.10056295245885849, "full_loss": 5.390335354604758e-05, "soft_share": 0.2828834056854248, "T": 0.00016432313714176416, "sec_per_step": 5.120299452602273}
+{"arm": "v2", "step": 149, "loss": 0.09645904410717776, "share_loss": 0.09636779874563217, "full_loss": 4.562268077279441e-05, "soft_share": 0.28956839442253113, "T": 0.0001552239991724491, "sec_per_step": 5.116549119949341}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15321", "arm": "v2", "lambda": "2", "c": "1", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.380779", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11012588441371918, "share_loss": 0.11012588441371918, "full_loss": 0.0, "soft_share": 0.2681478261947632, "T": 8.98126236279495e-05, "sec_per_step": 6.456101179122925}
+{"arm": "v2", "step": 50, "loss": 0.09526765700866235, "share_loss": 0.09480048716068268, "full_loss": 9.34339695959352e-05, "soft_share": 0.2921031415462494, "T": 8.777777838986367e-05, "sec_per_step": 5.133481315537995}
+{"arm": "v2", "step": 100, "loss": 0.09019609501410741, "share_loss": 0.08983693271875381, "full_loss": 7.183245907071978e-05, "soft_share": 0.3002719283103943, "T": 8.543344301870093e-05, "sec_per_step": 5.120395315755712}
+{"arm": "v2", "step": 149, "loss": 0.08854683264507912, "share_loss": 0.08825837075710297, "full_loss": 5.769237759523094e-05, "soft_share": 0.30291691422462463, "T": 8.420312951784581e-05, "sec_per_step": 5.1168466027577715}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15321", "arm": "v2", "lambda": "5", "c": "0.5", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.390511", "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.11553756892681122, "share_loss": 0.11553756892681122, "full_loss": 0.0, "soft_share": 0.2600918412208557, "T": 0.000179625247255899, "sec_per_step": 6.4732091426849365}
+{"arm": "v2", "step": 50, "loss": 0.10988745133363409, "share_loss": 0.10976999253034592, "full_loss": 2.3491760657634586e-05, "soft_share": 0.2686844766139984, "T": 0.00017658062279224396, "sec_per_step": 5.135031059676526}
+{"arm": "v2", "step": 100, "loss": 0.10658279435301665, "share_loss": 0.10624662786722183, "full_loss": 6.723329715896398e-05, "soft_share": 0.27404507994651794, "T": 0.00017309623945038766, "sec_per_step": 5.12170685163819}
+{"arm": "v2", "step": 149, "loss": 0.10293189438743866, "share_loss": 0.10277486592531204, "full_loss": 3.140569242532365e-05, "soft_share": 0.2794148325920105, "T": 0.00016744493041187525, "sec_per_step": 5.117301023801168}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15321", "arm": "v2", "lambda": "5", "c": "1", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.366450", "csf": 0}

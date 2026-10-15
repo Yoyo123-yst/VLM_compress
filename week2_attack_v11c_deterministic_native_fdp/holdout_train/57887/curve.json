@@ -1,0 +1,258 @@
+[
+  {
+    "step": 0,
+    "png_sha256": "da240007d20abbe34b4430970decb0a7406269bf193940d09e4e70cc166df537",
+    "texts": {
+      "full": "1 mg",
+      "fastv_0.25": "1mg",
+      "fastv_0.35": "1 mg"
+    },
+    "margins": {
+      "0.25": 3.114988327026367,
+      "0.35": 3.24106764793396
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "8549b3764d0451ce1bc7b89fc3afba497c67f87f5ced85cf705e540f4e21f68b"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "a754e9279048a172cece246cec353df5d039b12017df72c863e950ab90e53130"
+      }
+    },
+    "selector": {
+      "step": 0,
+      "nonzero": 0,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 0,
+      "pixel_linf_uint8": 0.0,
+      "margin": 3.1780279874801636
+    }
+  },
+  {
+    "step": 10,
+    "png_sha256": "5b3fe03134b161867ae3826f2bac4b39f7e2dcf4a277a80777abfcd589ab9425",
+    "texts": {
+      "full": "1 mg",
+      "fastv_0.25": "1 mg",
+      "fastv_0.35": "9"
+    },
+    "margins": {
+      "0.25": 3.021127223968506,
+      "0.35": -0.03177356719970703
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "60a90988d796e50be610bdf75d67893e66e8073d1aafac937db2d24b7b7f0f47"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "12e0518072b943b06978564d43547e54a42a6e90fa2fe95721848d2abe296e19"
+      }
+    },
+    "selector": {
+      "step": 10,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 1.4946768283843994
+    }
+  },
+  {
+    "step": 25,
+    "png_sha256": "65eaeafd15fca5fff521fed98b05c106bd1e0f99dca96b904ebc344815b3bbc8",
+    "texts": {
+      "full": "1 mg",
+      "fastv_0.25": "9013400",
+      "fastv_0.35": "1 mg"
+    },
+    "margins": {
+      "0.25": 0.273012638092041,
+      "0.35": 2.0728023052215576
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "35f9331ad684f31b74894ca06996593e277870ecbc0dc30fb7689d1322a8f831"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "867ce3181440cdb33db6eb69c059352fad5a56f1ddf4fda628eb88ea20423bce"
+      }
+    },
+    "selector": {
+      "step": 25,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 1.1729074716567993
+    }
+  },
+  {
+    "step": 50,
+    "png_sha256": "ddcb7e761033269ea7bf3a6faabf85e85b13497e54a40cba69c4114c0e998d7c",
+    "texts": {
+      "full": "1 mg",
+      "fastv_0.25": "1000mg",
+      "fastv_0.35": "1000mg"
+    },
+    "margins": {
+      "0.25": 1.0692638158798218,
+      "0.35": 1.0142991542816162
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "8cdd76f83a00f454efe37fce875cc840bd166218d2cd1c85b6c253de9197714d"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "ef1b4a1911f6d66c09599866f4ce357d61dae30375adfe0bff758c340016adb2"
+      }
+    },
+    "selector": {
+      "step": 50,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 1.041781485080719
+    }
+  },
+  {
+    "step": 75,
+    "png_sha256": "2536e6eb14e625990cc488db55e4fc44172bd2d5bed6fb6a5afda914a5029897",
+    "texts": {
+      "full": "1 mg",
+      "fastv_0.25": "9013",
+      "fastv_0.35": "8"
+    },
+    "margins": {
+      "0.25": -1.027486801147461,
+      "0.35": -0.21702957153320312
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "8a361271fc5da826655605752431d6cb5189bd4bc53e80abcc16f76a647f6b43"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "5dde0bd839317b31b0228d38942d84876db42ecc1d7d1f7e72058b512e4356f5"
+      }
+    },
+    "selector": {
+      "step": 75,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.622258186340332
+    }
+  },
+  {
+    "step": 100,
+    "png_sha256": "a2d9d681157a122664f128fae2ad5642a53c14201dabe854c92cf2ff9b1f62fe",
+    "texts": {
+      "full": "1 mg",
+      "fastv_0.25": "5",
+      "fastv_0.35": "800971"
+    },
+    "margins": {
+      "0.25": -0.08541584014892578,
+      "0.35": -0.02269922010600567
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "cb2d700d1abf5695f784dcb4f8ca35f3b060f437e1686903c31f6e05090cba01"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "a1727d22aa5dc74ee834e78d9227e45bdeaef0574978fd5ecc1f0ff3b6fc03cd"
+      }
+    },
+    "selector": {
+      "step": 100,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.054057530127465725
+    }
+  },
+  {
+    "step": 150,
+    "png_sha256": "dc10e9bb2d4ad86ef03ec7abf6aac9a85a9cc4e6e945219ba01f14358a81517c",
+    "texts": {
+      "full": "1 mg",
+      "fastv_0.25": "Walthayth Ayers",
+      "fastv_0.35": "Walthayth Ayerst"
+    },
+    "margins": {
+      "0.25": 0.08746011555194855,
+      "0.35": 0.7552179098129272
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "79f9c91e85f3861d695b2dfd5dc07cc18491321bd0460bbb302062f9f7d31404"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "7ede00d8efc452a4d1e481033f0d1615fe294915cb74240c3b9c00cc75d3d0ae"
+      }
+    },
+    "selector": {
+      "step": 150,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.4213390126824379
+    }
+  },
+  {
+    "step": 200,
+    "png_sha256": "b1a4440c00316cc8447c92ce3add9eca1e4dc75d8f0e7354648a98df3eb9b620",
+    "texts": {
+      "full": "1 mg",
+      "fastv_0.25": "100mg",
+      "fastv_0.35": "100mg"
+    },
+    "margins": {
+      "0.25": -0.5405475497245789,
+      "0.35": -0.7013096213340759
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "2b7b3f7552b035be797d900a6f4840aff29a1a840615a71c89f1716ba02f5bc7"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "3b061d0b3a36ae5bee497f7bba561ef54544be24b57b71d1653fedf08ed58d91"
+      }
+    },
+    "selector": {
+      "step": 200,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.6209285855293274
+    }
+  }
+]

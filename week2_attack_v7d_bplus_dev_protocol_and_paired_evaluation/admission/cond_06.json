@@ -1,0 +1,187 @@
+{
+  "index": 6,
+  "sample_id": "22317",
+  "image_kind": "random_noise",
+  "ratio": 0.25,
+  "full_argmax_match": true,
+  "full_text": "\"side effects of hydroxycyclinate an inhibitor of lipoprotein lip",
+  "fast_argmax_match": true,
+  "fast_text": "\"side effects of hydroxycyclinate an inhibitory of lipogenesis\"",
+  "k": 3699,
+  "keep_hash": "5e8f56ac3582f1b0816a9c2b257f444fe4abeea4d71e69c0c0ad6e6cf96f2ad5",
+  "termination": "MAX_NEW_TOKENS_TRUNCATED",
+  "appended_eos": false,
+  "steps": [
+    {
+      "step": 0,
+      "cache_len_layer0": 14825,
+      "cache_len_layer3": 3728,
+      "position_id": 14824,
+      "token_id": 1,
+      "argmax": 1,
+      "soft_margin": -1.1100072860717773
+    },
+    {
+      "step": 1,
+      "cache_len_layer0": 14826,
+      "cache_len_layer3": 3729,
+      "position_id": 14825,
+      "token_id": 2929,
+      "argmax": 2929,
+      "soft_margin": -0.1832265853881836
+    },
+    {
+      "step": 2,
+      "cache_len_layer0": 14827,
+      "cache_len_layer3": 3730,
+      "position_id": 14826,
+      "token_id": 6239,
+      "argmax": 6239,
+      "soft_margin": 4.802318572998047
+    },
+    {
+      "step": 3,
+      "cache_len_layer0": 14828,
+      "cache_len_layer3": 3731,
+      "position_id": 14827,
+      "token_id": 315,
+      "argmax": 315,
+      "soft_margin": 6.084993362426758
+    },
+    {
+      "step": 4,
+      "cache_len_layer0": 14829,
+      "cache_len_layer3": 3732,
+      "position_id": 14828,
+      "token_id": 16643,
+      "argmax": 16643,
+      "soft_margin": 2.4814491271972656
+    },
+    {
+      "step": 5,
+      "cache_len_layer0": 14830,
+      "cache_len_layer3": 3733,
+      "position_id": 14829,
+      "token_id": 87,
+      "argmax": 87,
+      "soft_margin": 0.2839698791503906
+    },
+    {
+      "step": 6,
+      "cache_len_layer0": 14831,
+      "cache_len_layer3": 3734,
+      "position_id": 14830,
+      "token_id": 3337,
+      "argmax": 3337,
+      "soft_margin": 5.684234619140625
+    },
+    {
+      "step": 7,
+      "cache_len_layer0": 14832,
+      "cache_len_layer3": 3735,
+      "position_id": 14831,
+      "token_id": 6179,
+      "argmax": 6179,
+      "soft_margin": 0.06898307800292969
+    },
+    {
+      "step": 8,
+      "cache_len_layer0": 14833,
+      "cache_len_layer3": 3736,
+      "position_id": 14832,
+      "token_id": 3277,
+      "argmax": 3277,
+      "soft_margin": 2.4726200103759766
+    },
+    {
+      "step": 9,
+      "cache_len_layer0": 14834,
+      "cache_len_layer3": 3737,
+      "position_id": 14833,
+      "token_id": 458,
+      "argmax": 458,
+      "soft_margin": 3.1187686920166016
+    },
+    {
+      "step": 10,
+      "cache_len_layer0": 14835,
+      "cache_len_layer3": 3738,
+      "position_id": 14834,
+      "token_id": 20142,
+      "argmax": 20142,
+      "soft_margin": 1.3585758209228516
+    },
+    {
+      "step": 11,
+      "cache_len_layer0": 14836,
+      "cache_len_layer3": 3739,
+      "position_id": 14835,
+      "token_id": 10618,
+      "argmax": 10618,
+      "soft_margin": -0.021951675415039062
+    },
+    {
+      "step": 12,
+      "cache_len_layer0": 14837,
+      "cache_len_layer3": 3740,
+      "position_id": 14836,
+      "token_id": 315,
+      "argmax": 315,
+      "soft_margin": 1.558568000793457
+    },
+    {
+      "step": 13,
+      "cache_len_layer0": 14838,
+      "cache_len_layer3": 3741,
+      "position_id": 14837,
+      "token_id": 19050,
+      "argmax": 19050,
+      "soft_margin": 3.0594539642333984
+    },
+    {
+      "step": 14,
+      "cache_len_layer0": 14839,
+      "cache_len_layer3": 3742,
+      "position_id": 14838,
+      "token_id": 51279,
+      "argmax": 51279,
+      "soft_margin": -0.4892311096191406
+    },
+    {
+      "step": 15,
+      "cache_len_layer0": 14840,
+      "cache_len_layer3": 3743,
+      "position_id": 14839,
+      "token_id": 1,
+      "argmax": 1,
+      "soft_margin": 0.7699203491210938
+    }
+  ],
+  "grad_l2": {
+    "full_soft": 6.826455116271973,
+    "fast_0.25": 3.257762908935547,
+    "fast_0.35": 3.311624050140381,
+    "fdp": 4.778543472290039,
+    "conditional_gap": 7.198930263519287
+  },
+  "per_token_aux_grad_l2": [
+    8.888872146606445,
+    13.37653636932373,
+    9.971293449401855,
+    10.786858558654785,
+    12.318929672241211,
+    9.713071823120117,
+    7.240790843963623,
+    19.463552474975586,
+    11.352368354797363,
+    11.63062858581543,
+    5.859994888305664,
+    7.790870189666748,
+    10.024794578552246,
+    9.434983253479004,
+    14.401721000671387,
+    10.695796966552734
+  ],
+  "evidence_grad_l2": 0.0,
+  "pass": true
+}

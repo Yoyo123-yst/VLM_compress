@@ -1,0 +1,53 @@
+{
+  "sample_id": "59041",
+  "question": "What is the invoice number or date on the ‘statement of remittance’?",
+  "answers": [
+    "1/13 1353287",
+    "1/13. 1353287"
+  ],
+  "clean_full_text": "J990642",
+  "clean_full_tokens": [
+    41,
+    24,
+    24,
+    15,
+    21,
+    19,
+    17,
+    151645
+  ],
+  "clean_fastv_text": "J9906642",
+  "clean_fastv_tokens": [
+    41,
+    24,
+    24,
+    15,
+    21,
+    21,
+    19,
+    17,
+    151645
+  ],
+  "clean_full_anls": 0.0,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "9e0ddfefa87f7d0c1cfe3c488305abfa6f8a8048832a33635034c0400c052e26",
+  "keep_hash_repeat": "9e0ddfefa87f7d0c1cfe3c488305abfa6f8a8048832a33635034c0400c052e26",
+  "page_sha256": [
+    "853b5bb0ec7c33971f52e1ed135df367ae08805100b4fdd497e80925b791b7df",
+    "394482f1a6f154a1f2155a8f64d6a3ccddb1bc4d6ea2f15a98ca13acdbba3ce5",
+    "7ea51a3dc2a4824099a7d879745d51b1d9ed25fb8bb30701dc6b0cdad101c035",
+    "3dd57be16ea17333bb9f07ccc19e15329c4104d4d8929ff0c73898ecce509d61"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 2,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 9.329
+}

@@ -1,0 +1,34 @@
+{
+  "status": "SIX_ID_DEVELOPMENT_COHORT_FROZEN_BEFORE_LABEL_REVIEW",
+  "date": "2026-10-15",
+  "seed": 2026101501,
+  "selection_unit": "sample_id only; no question, answer, clean output, attack output, or target candidate used in selection",
+  "sampling_rule": "uniform random sample of 6 from the ID-only MP-DocVQA multipage candidate CSV after excluding all IDs found in prior week2_attack JSON/CSV artifacts, the v5b 200-screen pool, and the 20 reserved true-unseen IDs; preserve this order and do not replace ineligible samples",
+  "candidate_pool": {
+    "path": "week2_attack_v5b_expanded_pristine40/pool/unseen_multipage_candidates.csv",
+    "sha256": "89f71b5c7120b6a3fed2cc23852ac7fe55e44238f649b6ffb8aa129d34a39756",
+    "rows": 3274,
+    "eligible_after_id_exclusions": 2370
+  },
+  "prior_exposure_audit": {
+    "scan_scope": "week2_attack_*/**/*.json and CSVs with sample_id columns; excluded the master unseen_multipage_candidates.csv from exposure collection",
+    "distinct_exposed_ids": 1184,
+    "sorted_exposed_id_set_sha256": "cb142fc76671b6809250b565144ece671f94ace57a60e5e44f0feed8cb100a7e",
+    "v5b_screen_manifest_sha256": "5e97a229fbdf86fea45265daf08356e7552363b45424be53473fc1eed91b7ed7",
+    "v5b_frozen_manifest_sha256": "493eb58195496ededc6420c4a6a2500ba666c21cc8555db2311a3208541255b1",
+    "v5b_historical_union_sha256": "cab0138e6de07433288e0f15fa428efabcf2362aadc3c28693889ef29b19918a",
+    "reserved_true_unseen_n": 20,
+    "reserved_ids_used_only_for_exclusion": ["452", "1625", "4958", "5820", "6785", "10303", "37463", "43115", "43133", "50960", "51704", "58542", "59467", "60406", "60697", "63770", "64171", "64465", "64900", "65158"],
+    "sample_452_integrity_status": "EXPOSED_BY_ACCIDENT; EXCLUDE FROM ANY CLAIM OF UNTOUCHED EVALUATION"
+  },
+  "frozen_order": [
+    {"sample_id": "19153", "M_raw": 3, "answer_page_idx": 1, "shard": "val-00010-of-00029.parquet", "row": 5},
+    {"sample_id": "46511", "M_raw": 5, "answer_page_idx": 4, "shard": "val-00018-of-00029.parquet", "row": 108},
+    {"sample_id": "4742", "M_raw": 9, "answer_page_idx": 8, "shard": "val-00015-of-00029.parquet", "row": 141},
+    {"sample_id": "61240", "M_raw": 20, "answer_page_idx": 12, "shard": "val-00013-of-00029.parquet", "row": 7},
+    {"sample_id": "49550", "M_raw": 13, "answer_page_idx": 12, "shard": "val-00001-of-00029.parquet", "row": 55},
+    {"sample_id": "4464", "M_raw": 3, "answer_page_idx": 1, "shard": "val-00014-of-00029.parquet", "row": 177}
+  ],
+  "no_replacement_rule": "All six remain in the report denominator. Clean-gate failure, invalid target, or no complete wrong target is reported as such; do not swap in another ID.",
+  "not_yet_opened": ["questions/answers", "images", "clean model outputs", "attack targets", "attack outcomes"]
+}

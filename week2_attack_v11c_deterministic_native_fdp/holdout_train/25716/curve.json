@@ -1,0 +1,258 @@
+[
+  {
+    "step": 0,
+    "png_sha256": "a49832edfea924f07b2fe0653645c52076194e200867d43f96b54883d1da2201",
+    "texts": {
+      "full": "12:30 p.m.",
+      "fastv_0.25": "12:30 p.m.",
+      "fastv_0.35": "12:30 p.m."
+    },
+    "margins": {
+      "0.25": 3.8313403129577637,
+      "0.35": 5.577872276306152
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "5a8b928d2d6cfe642057a4f5ffcba667c94aa7d819fc0d7c79b8f1385d4b0a9e"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "fc799d0a2be6c92ed7f9f456f4f3413047e543a919e9a1f95b5ba8e9d5d1c1c7"
+      }
+    },
+    "selector": {
+      "step": 0,
+      "nonzero": 0,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 0,
+      "pixel_linf_uint8": 0.0,
+      "margin": 4.704606294631958
+    }
+  },
+  {
+    "step": 10,
+    "png_sha256": "b3a9a6e05c3a7fc26273116881e7601f71935931dcc8347b75416781b5187631",
+    "texts": {
+      "full": "12:30 p.m.",
+      "fastv_0.25": "12.00 p.m.",
+      "fastv_0.35": "12:30 p.m."
+    },
+    "margins": {
+      "0.25": 2.5347137451171875,
+      "0.35": 5.179065227508545
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "fd71da9abd328699333c0500a97d98187857b367573556f599cac82d239244a8"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "d1edbe91b0ddb74dcfd3b43b5822ce9364e6d447cb7ae68d9b7f551c24e098fa"
+      }
+    },
+    "selector": {
+      "step": 10,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 3.856889486312866
+    }
+  },
+  {
+    "step": 25,
+    "png_sha256": "809d2d6ad164c3e7e099803d9e54afc5f68696207a2f34b6cf3d55afa0604b71",
+    "texts": {
+      "full": "12:30 p.m.",
+      "fastv_0.25": "15 minutes",
+      "fastv_0.35": "12:30 p.m."
+    },
+    "margins": {
+      "0.25": 1.9061408042907715,
+      "0.35": 2.8376026153564453
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "fc6fea52c3576a6fcce784b81aa1ad1d6150000a8f7b0008a641104ae29c01f4"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "777382d4a37aec2bbfa4c97f27e88d9d38c2859b603147379f1b1d6edd91bb3f"
+      }
+    },
+    "selector": {
+      "step": 25,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 2.3718717098236084
+    }
+  },
+  {
+    "step": 50,
+    "png_sha256": "d0b0cfe13bea258749078d4a4447890da2ce90c3aab77d329a5bd3341831a2b2",
+    "texts": {
+      "full": "12:30 p.m.",
+      "fastv_0.25": "12:30 p.m.",
+      "fastv_0.35": "Under 30 minutes"
+    },
+    "margins": {
+      "0.25": 2.1902389526367188,
+      "0.35": 1.1554034948349
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "9b088f6139840b1cd83f4ad047c505ca224284e02aec02e803626c5415e53ab4"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "bd502339cb581f770d705537af85d8d6a54579a35711eb6815fd2ec6341fdac5"
+      }
+    },
+    "selector": {
+      "step": 50,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 1.6728212237358093
+    }
+  },
+  {
+    "step": 75,
+    "png_sha256": "8822922e820ad10c84dc51b7458c8e4f807bd48e4429bdb053648aa0f18595d4",
+    "texts": {
+      "full": "12:30 p.m.",
+      "fastv_0.25": "34 minutes",
+      "fastv_0.35": "45 minutes"
+    },
+    "margins": {
+      "0.25": 0.5614986419677734,
+      "0.35": 0.7067599296569824
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "87d9b30ab18607a2e725870d6ae2cc836c37922c912aeac1052de7824dda6017"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "6e04a946c97d7e4549fdaf003f76ca45b72eb8e3bade3c0a542a64963fb23d57"
+      }
+    },
+    "selector": {
+      "step": 75,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.6341292858123779
+    }
+  },
+  {
+    "step": 100,
+    "png_sha256": "c4f821a88241dde9a9a084def3a75fbc6360ca2022a1918fb9b57141e5670387",
+    "texts": {
+      "full": "12:30 p.m.",
+      "fastv_0.25": "12:30 p.m.",
+      "fastv_0.35": "1 hour"
+    },
+    "margins": {
+      "0.25": 1.280719518661499,
+      "0.35": -0.4188677668571472
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "6fdd19706282d72d195271b50838d99fc8474ab8d8991c303a0f1bdba235dbc2"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "4bf7cd5abdd5b0be504157cad5c39a6357efd1089c80e08683923c4b9c6181a9"
+      }
+    },
+    "selector": {
+      "step": 100,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.4309258759021759
+    }
+  },
+  {
+    "step": 150,
+    "png_sha256": "40072b24cdb6a579e9ef58415aa920799877583e4b9b4044648bf94f3d815bef",
+    "texts": {
+      "full": "12:30 p.m.",
+      "fastv_0.25": "41/2 hour",
+      "fastv_0.35": "4:30 p.m."
+    },
+    "margins": {
+      "0.25": 0.9226894378662109,
+      "0.35": 1.906992793083191
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "dbc9caeee1d0c9742c251f0d4361be9379979f3d336baa625619151a32320280"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "63b61306d230d46a92ada59fdbb478cd900ca07a3698cdd1e1347850b72b6f5b"
+      }
+    },
+    "selector": {
+      "step": 150,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 1.414841115474701
+    }
+  },
+  {
+    "step": 200,
+    "png_sha256": "73976c4d573ae62a7bb7244fbdb45a1d769158fec0739e7b0f8f56dc98e41dc7",
+    "texts": {
+      "full": "12:30 p.m.",
+      "fastv_0.25": "1 hour",
+      "fastv_0.35": "Under-separation"
+    },
+    "margins": {
+      "0.25": 0.3459815979003906,
+      "0.35": -1.0494844913482666
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "ffec3a5b82a749441bd82134b355d0de4bf97d182da1e89ba089b69ff0a45dc3"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "885ce3deb40a3e16e5a86bbd24117ea225bf4b7a377ce8087f371803d21d0fd1"
+      }
+    },
+    "selector": {
+      "step": 200,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.351751446723938
+    }
+  }
+]

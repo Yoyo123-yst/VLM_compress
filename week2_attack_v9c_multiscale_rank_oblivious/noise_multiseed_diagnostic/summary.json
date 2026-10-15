@@ -1,0 +1,1228 @@
+{
+  "decision": "GRAYBOX_SIGNAL_NOT_ESTABLISHED_ABOVE_RANDOM",
+  "scope": "5-sample development multi-seed noise diagnostic",
+  "overall_denominator": 5,
+  "sealed_attack_coverage": "4/5",
+  "sample_39204_attack": "NO_VALID_SEALED_CANDIDATE",
+  "full_gate_pass": 160,
+  "full_gate_total": 160,
+  "consistency": [],
+  "per_ratio": {
+    "0.15": {
+      "by_sample": {
+        "1025": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": true,
+          "clean_text": "TAKEDA",
+          "clean_anls": 0.0
+        },
+        "2008": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "March 1956",
+          "clean_anls": 0.8
+        },
+        "7006": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "RJ Reynolds Tobacco Company",
+          "clean_anls": 0.962962962962963
+        },
+        "47450": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "Dr. or Mrs. William J. Darby",
+          "clean_anls": 1.0
+        },
+        "39204": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "Food technology",
+          "clean_anls": 1.0
+        }
+      },
+      "pooled_passing_controls": {
+        "k": 0,
+        "n": 160,
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.02344619517150519
+      }
+    },
+    "0.25": {
+      "by_sample": {
+        "1025": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 28,
+            "n": 32,
+            "rate": 0.875,
+            "low": 0.7193169451834978,
+            "high": 0.9502986561251991
+          },
+          "induced_over_32": 0.875,
+          "clean_endpoint_failure": false,
+          "clean_text": "Dr. C. Baur",
+          "clean_anls": 0.6666666666666667
+        },
+        "2008": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "March 1956",
+          "clean_anls": 0.8
+        },
+        "7006": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "RJ Reynolds Tobacco Company",
+          "clean_anls": 0.962962962962963
+        },
+        "47450": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "Dr. or Mrs. William J. Darby",
+          "clean_anls": 1.0
+        },
+        "39204": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "FOOD TECHNOLOGY",
+          "clean_anls": 1.0
+        }
+      },
+      "pooled_passing_controls": {
+        "k": 28,
+        "n": 160,
+        "rate": 0.175,
+        "low": 0.12394200193945988,
+        "high": 0.24129802492201852
+      }
+    },
+    "0.35": {
+      "by_sample": {
+        "1025": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "Dr. C. B. B. M.D.",
+          "clean_anls": 0.75
+        },
+        "2008": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "March 1956",
+          "clean_anls": 0.8
+        },
+        "7006": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "RJ Reynolds Tobacco Company",
+          "clean_anls": 0.962962962962963
+        },
+        "47450": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "Dr. or Mrs. William J. Darby",
+          "clean_anls": 1.0
+        },
+        "39204": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "FOOD TECHNOLOGY",
+          "clean_anls": 1.0
+        }
+      },
+      "pooled_passing_controls": {
+        "k": 0,
+        "n": 160,
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.02344619517150519
+      }
+    },
+    "0.50": {
+      "by_sample": {
+        "1025": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "Dr. C. B. M.D.",
+          "clean_anls": 0.75
+        },
+        "2008": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "March 1968",
+          "clean_anls": 1.0
+        },
+        "7006": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "RJ Reynolds Tobacco Company",
+          "clean_anls": 0.962962962962963
+        },
+        "47450": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "Dr. or Mrs. William J. Darby",
+          "clean_anls": 1.0
+        },
+        "39204": {
+          "full_gate_pass": 32,
+          "full_gate_invalid": 0,
+          "induced_random_failure": {
+            "k": 0,
+            "n": 32,
+            "rate": 0.0,
+            "low": 0.0,
+            "high": 0.1071791982550706
+          },
+          "induced_over_32": 0.0,
+          "clean_endpoint_failure": false,
+          "clean_text": "FOOD TECHNOLOGY",
+          "clean_anls": 1.0
+        }
+      },
+      "pooled_passing_controls": {
+        "k": 0,
+        "n": 160,
+        "rate": 0.0,
+        "low": 0.0,
+        "high": 0.02344619517150519
+      }
+    }
+  },
+  "attack_induced_cells": [
+    {
+      "sample_id": "1025",
+      "ratio": 0.25,
+      "attack_status": "OK",
+      "attack_evaluated": true,
+      "attack_text": "Dr. Bacharach",
+      "attack_anls": 0.0,
+      "attack_induced_failure": true,
+      "random": {
+        "k": 28,
+        "n": 32,
+        "rate": 0.875,
+        "low": 0.7193169451834978,
+        "high": 0.9502986561251991
+      }
+    }
+  ],
+  "sample_1025_r025": {
+    "sample_id": "1025",
+    "ratio": 0.25,
+    "attack_status": "OK",
+    "attack_evaluated": true,
+    "attack_text": "Dr. Bacharach",
+    "attack_anls": 0.0,
+    "attack_induced_failure": true,
+    "random": {
+      "k": 28,
+      "n": 32,
+      "rate": 0.875,
+      "low": 0.7193169451834978,
+      "high": 0.9502986561251991
+    },
+    "clean_text": "Dr. C. Baur",
+    "clean_anls": 0.6666666666666667,
+    "seeds": [
+      {
+        "sample_id": "1025",
+        "seed_index": 0,
+        "seed": 2027126122,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_00/page_0.png",
+        "png_sha256": "f8c8200bd7d22575450cea1b25b6bcc32d7d25a9ae8e9d4730814e8ed76b49ae",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "7a8f3310a1887a5b5e3f2aeb728ddeb194b360fd01441b90de036dbcef4c0994"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 1,
+        "seed": 2027126123,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_01/page_0.png",
+        "png_sha256": "25685ddc35990d0a5682540b275ad5d142e6522afc583a0d4ded17ef77fcc240",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "d579b05e2b0608c558aab6df0867690f94c94edd3e66ab544b2f2fe41b9e95d3"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 2,
+        "seed": 2027126124,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_02/page_0.png",
+        "png_sha256": "314b7aecbaa853ebd4c19277b233f637ce3fa5d84364a79a1adb8bfa683a5902",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "55cfac701a106bc26489ad3490dbebc9dbf1015a5a9441410ac5a79a1af23db3"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 3,
+        "seed": 2027126125,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_03/page_0.png",
+        "png_sha256": "2c2527a1b95fe719ec2c8fca97d627f9c5447d2ec859a016434da8c495cc0de7",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "a42b00d5eede7cfe28179e2d6a47642da27f0320741dc5dabc360abdb6d97119"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 4,
+        "seed": 2027126126,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_04/page_0.png",
+        "png_sha256": "57c4a508b6fbe1bb7eec354fcf9d54e10de49f8f41edc5a70405c2dc71f7a596",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "770b335a285fe6a1e3802df8456d739b82eaba27cfdc99713ae1be2f47b82aff"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 5,
+        "seed": 2027126127,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_05/page_0.png",
+        "png_sha256": "4e92eb369ee5b56567affdd2888347b2d8f2fec317955f136455cfd3b7495c03",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "b7cac8334303780de860309f5697e47076b4cf89d2ae1ed7f2003d23cde1bee5"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 6,
+        "seed": 2027126128,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_06/page_0.png",
+        "png_sha256": "1a0039bd5af36bf3c341f544c13f4fea43717da86640c62c07296943628343bf",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "b5349155855348fa69620fda56a9ecbada9850e05516e1ab16bc5d9aaccf0e51"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 7,
+        "seed": 2027126129,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_07/page_0.png",
+        "png_sha256": "8efa4a82d25e35ad64e2aedde4ae67b853750d75bd6b6c9b4c7a58299fb7d1fa",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "d76491d9da98fa4e4c958e281555b9022abd221146b21d9343d5bf7e5f4f92bf"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 8,
+        "seed": 2027126130,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_08/page_0.png",
+        "png_sha256": "1259afc61f21d7f6475c6a04fd880a1551abc610d449be8e6f1de0d889d784f4",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. C. Baur",
+        "anls": 0.6666666666666667,
+        "valid": true,
+        "endpoint_failure": false,
+        "induced_random_failure": false,
+        "k": 2774,
+        "keep_sha256": "c0cf251d6301953fefa3dea7451451dc5a07ce9a95c91919fccb5bb5ed0f32af"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 9,
+        "seed": 2027126131,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_09/page_0.png",
+        "png_sha256": "e947b3177ba490b8da272875f6f2b340ccda1616bd6d78095be2a9605495260c",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "146a394426b94a1735e83d37fe08ac716065b55a100c2e03acaf5db17b07913d"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 10,
+        "seed": 2027126132,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_10/page_0.png",
+        "png_sha256": "952e4f033efe50895c016e5d652de5fad7008cb7fb41384a7efa8dbc41c9cb4f",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. C. B. M. D.",
+        "anls": 0.75,
+        "valid": true,
+        "endpoint_failure": false,
+        "induced_random_failure": false,
+        "k": 2774,
+        "keep_sha256": "6c0535e68a836e928091ea1023fe21132b49a63763e3032a3620bfd331383d63"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 11,
+        "seed": 2027126133,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_11/page_0.png",
+        "png_sha256": "0791a97419001527dd8525fb88de6276a549de7df785c2469db1412d65680a8d",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. C. Baur",
+        "anls": 0.6666666666666667,
+        "valid": true,
+        "endpoint_failure": false,
+        "induced_random_failure": false,
+        "k": 2774,
+        "keep_sha256": "009904a593a0ddf74842c8a3c84bceb0b35e47dae530217a51f19a45c2eb59e9"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 12,
+        "seed": 2027126134,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_12/page_0.png",
+        "png_sha256": "24909f63b487df24d084027e359aa65fac5c1917c9c908f5a8304dd920240c61",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "3664e62ed2f384d2572d2ffc07cf91126bcd74a9541fab8582d6b0c3926b092e"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 13,
+        "seed": 2027126135,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_13/page_0.png",
+        "png_sha256": "6be1b1b1b60dd5469bee346e7d58cac17a82a2d78aa273533f9dadce6ef0cdd2",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "a549e916561a632f148909aa4e30217e17a11be991d178a393d0da3507273cf0"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 14,
+        "seed": 2027126136,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_14/page_0.png",
+        "png_sha256": "4b407d62b314284ede53199032ba1ca96dcbed580b7600268d22abcc7922f231",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "d3c0e80d1ce31c3b2745b41daf4608dd1029be5f032a5bca0322bf7c33a7f012"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 15,
+        "seed": 2027126137,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_15/page_0.png",
+        "png_sha256": "baac8b44d43bd53cb216d0da8f61ca3d2979f74cf0f45a165b22a07d4c0b96db",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "3f7dd0b3b7cbe94cbd88dfa99ab47dded99684af73c296c5a509fcb66e7bd3b2"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 16,
+        "seed": 2027126138,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_16/page_0.png",
+        "png_sha256": "b1ac69043455389f2b6a982451e3cbf8feb694a1c562b3cbf430bd6dc2c26a68",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "9dfee5bbc6ad5f5aad15ba0578e32d99ec789605cf5ac6e5ae557d22ca375984"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 17,
+        "seed": 2027126139,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_17/page_0.png",
+        "png_sha256": "c0ffd1efec927c1902ad8fd7f77ed4a330ea8d7d04d86abf1cf1433d82eb1e3f",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "a7d81e58a943cd6870f4cafeb52c2d1504a14f9ebefddbfaecc4919d08f5c0f3"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 18,
+        "seed": 2027126140,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_18/page_0.png",
+        "png_sha256": "23ef3ec5b71a7b1b624bfdf1c38831e8c34e4169a9f663731492fe79e48fb799",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "1b592961072aaf6c17c71acd12b95cd1c5aa5558fc13f9845fa7bf5b0fd2cb20"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 19,
+        "seed": 2027126141,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_19/page_0.png",
+        "png_sha256": "b5a51ccda07d024c2fd506e7b200178cca3d686f38e88bfac102bd53447cc7f1",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "4de11e27e1783bd28e78a98ebb6d3ed22e28a995a7fbf13746c329fe432d51c0"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 20,
+        "seed": 2027126142,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_20/page_0.png",
+        "png_sha256": "0c3e70c046bcba017cbb4ceb953ab10aa836e3df6451663ccd7a916ccdc22cc5",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "7e27a4bd6087cd22f2c81739305af532e14fb26805662bae832b05149f7a7ede"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 21,
+        "seed": 2027126143,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_21/page_0.png",
+        "png_sha256": "33f097951cfd9a3c17c29b51e461b50d79d63031681459711c5c547b04c948c8",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "476224b2d39e77836961a286198ae721ff830abc562f78e6da2f43f032726aa5"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 22,
+        "seed": 2027126144,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_22/page_0.png",
+        "png_sha256": "02e8855d36cdeb6a23a187dee89d9d38185dd64b97d643a7df76e9f35f9809e1",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "79dbfcd9425a0529f468870d8c79f8f0c0dc1276f8a94118ba9101eb91fd79b8"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 23,
+        "seed": 2027126145,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_23/page_0.png",
+        "png_sha256": "583f3391cfc0c5171689cfbf7f44da50bfcf19a25b8f6d6836068b86ceac7750",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "28df62061ee3549e994e5039616f319f1bb54b4b79c4658107b67f48fd25aabb"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 24,
+        "seed": 2027126146,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_24/page_0.png",
+        "png_sha256": "408175f24e9f8be78980246839b33b9c09aaaf061fe6169e4b326890d88ad567",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "fdc9b16810217354a142ff773236579388f55fcb3c6557102bcbf8850bcacb1e"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 25,
+        "seed": 2027126147,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_25/page_0.png",
+        "png_sha256": "d276aaef1dc37bec43773efa97378b80c0f17de3cf2593819b94f5e0a2abbe3a",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "5f28a50cf6cd94b3533d73b305cfa33dc42a3cdd3cbecd7e294e6c9011737f81"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 26,
+        "seed": 2027126148,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_26/page_0.png",
+        "png_sha256": "9b49a3d892bb3f37e134027b305568e7074bbebd0303127631b92cf15fd51d09",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "649e576876afdaad5ff8951b0c2a3408926bbcd71538066e672526b45d150bf5"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 27,
+        "seed": 2027126149,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_27/page_0.png",
+        "png_sha256": "f573b4b3a4b9726b95cb7cc4eec97b65a1a733f9c265503b4d971f9660799d74",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "21b073f34a7ce69c1afe001d80283f1952050f868353474ddfa8e1fa048a18c0"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 28,
+        "seed": 2027126150,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_28/page_0.png",
+        "png_sha256": "232091ede5c93bb6e4d3e9340f1f757a641120cbdb590f6ee7ce462605a9e68d",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "fad1346d62b458ef51d733ca3815ac0f264ddb4e4d5de6e80df317f867cc2169"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 29,
+        "seed": 2027126151,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_29/page_0.png",
+        "png_sha256": "4334303ae91c70296f4d82ae35e46f10ed5c1abc9a1d0ba1bbb2185d9da638e6",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "af2101f78a7b03905d27673a285ccfda4c1f15937695091bf55f7ae9e0213fb2"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 30,
+        "seed": 2027126152,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_30/page_0.png",
+        "png_sha256": "e018933a0c2cdc7ffa932f9a42b044ece60110fb34d7c5b8d08917e14065ade6",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. C. Baur",
+        "anls": 0.6666666666666667,
+        "valid": true,
+        "endpoint_failure": false,
+        "induced_random_failure": false,
+        "k": 2774,
+        "keep_sha256": "9a65fdf94d05f8c7bfecaf349a825f1d643cfbe23f3b8a3ed61513eedde6c2e9"
+      },
+      {
+        "sample_id": "1025",
+        "seed_index": 31,
+        "seed": 2027126153,
+        "resample_count": 0,
+        "ratio": 0.25,
+        "full_gate_status": "PASS",
+        "sent_to_fastv": true,
+        "png_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9c_multiscale_rank_oblivious/noise_multiseed_diagnostic/noise_png/1025/seed_31/page_0.png",
+        "png_sha256": "1a9fbba2feae14fc62293411a5d038698e836dbca50d2b3c6d53f57355c552fc",
+        "linf": 0.03137257695198059,
+        "changed_pages": [
+          0
+        ],
+        "full_text": "Dr. C. Baur MD",
+        "clean_endpoint_failure": false,
+        "clean_text": "Dr. C. Baur",
+        "clean_anls": 0.6666666666666667,
+        "text": "Dr. Bacharach",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "induced_random_failure": true,
+        "k": 2774,
+        "keep_sha256": "c64509969467a4284d4ebce64f333d3c28c8699789b46044a354c2df2754b445"
+      }
+    ]
+  },
+  "fastv_access_count": 660,
+  "note": "One sealed attack observation is not a rate and is not a significance test against the 32-seed Wilson interval."
+}

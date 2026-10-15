@@ -1,0 +1,53 @@
+{
+  "environment": {
+    "python": "3.10.21",
+    "torch": "2.6.0+cu124",
+    "transformers": "4.57.0",
+    "cuda": "12.4",
+    "cudnn": 90100,
+    "gpu_table": [
+      "0, NVIDIA A100-PCIE-40GB, 570.133.20",
+      "1, NVIDIA A100-PCIE-40GB, 570.133.20",
+      "2, NVIDIA A100-PCIE-40GB, 570.133.20",
+      "3, NVIDIA A100-PCIE-40GB, 570.133.20",
+      "4, NVIDIA A100-PCIE-40GB, 570.133.20",
+      "5, NVIDIA A100-PCIE-40GB, 570.133.20",
+      "6, NVIDIA A100-PCIE-40GB, 570.133.20",
+      "7, NVIDIA A100-PCIE-40GB, 570.133.20"
+    ],
+    "determinism": {
+      "matmul_tf32": false,
+      "cudnn_tf32": true,
+      "cudnn_deterministic": false,
+      "deterministic_algorithms": false
+    },
+    "model_checkpoint": "/home/yuesiting/autodl-tmp/models/llava-onevision-qwen2-7b-ov-hf",
+    "parquet_dir": "/home/yuesiting/.cache/huggingface/hub/datasets--lmms-lab-encoder--MP-DocVQA/snapshots/e776eeade5a631d9ae18230ed3ab6213cd063dac/data",
+    "sample_47450": {
+      "shard": "val-00022-of-00029.parquet",
+      "row": 55,
+      "doc_id": "skdv0228",
+      "page_ids": [
+        "skdv0228_p0",
+        "skdv0228_p1",
+        "skdv0228_p2",
+        "skdv0228_p3",
+        "skdv0228_p4",
+        "skdv0228_p5"
+      ],
+      "order": [
+        1,
+        4,
+        3,
+        2
+      ],
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "mode": "RGB",
+      "width": 768,
+      "height": 768,
+      "note": "The auxiliary page is a 768 RGB resize of a parquet image cell. It has no standalone file path."
+    }
+  },
+  "hashes": "sealed_hashes_before.json"
+}

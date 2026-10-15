@@ -1,0 +1,30 @@
+"""Pre-registered constants. Chosen before Stage I results and not retuned."""
+
+from __future__ import annotations
+
+TAU_VOCAB = 1.0
+XI = 1.0
+EPSILON_MARGIN = 0.0
+TAU_R = 1.0
+KAPPA_COMPRESSED = 0.0
+GAMMA = 0.0
+LAMBDA_SOFT_B = 2.049824826423478
+EPS = 8 / 255
+STEPS = 200
+DEV_CHECKPOINTS = (75, 100, 150, 200)
+ADAM_LR = 2 / 255
+CANDIDATE_R = (0.50, 0.35, 0.25, 0.15)
+MAX_NEW_TOKENS = 16
+BOOTSTRAP_SEED = 2026101004
+BOOTSTRAP_DRAWS = 10000
+SCREEN_SEED = 2026101001
+FINAL_SEED = 2026101002
+REPEAT_SEED = 2026101003
+ATTACK_SEED_SALT = 2026101005
+HEALTH_ID = "1025"
+DEV12 = (
+    "1025", "2008", "7006", "39204", "47450", "47567",
+    "50779", "51133", "60700", "6194", "62941", "64506",
+)
+MODEL_PATH = "/home/yuesiting/autodl-tmp/models/llava-onevision-qwen2-7b-ov-hf"
+GIT_COMMIT = "1abc9289f9764573cf70bb9338ecb4bbbb7b1ec6"

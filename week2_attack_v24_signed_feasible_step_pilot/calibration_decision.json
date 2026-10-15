@@ -1,0 +1,13 @@
+{
+  "status": "BLOCKED_DIFFERENTIABLE_RESPONSE_MISMATCH",
+  "samples": ["47450", "60700"],
+  "directions": ["RAW", "QP"],
+  "radii_uint8": [1, 2],
+  "fixed_keep_set_evaluated": true,
+  "natural_keep_set_evaluated": true,
+  "full_exact_rows": "all_completed_rows",
+  "content_failure_rows": 0,
+  "diagnosis": "The surrogate directional predictions substantially overestimate the PNG-reloaded core-margin changes under both fixed and natural keep-sets. This is a differentiable preprocessing/response mismatch; it does not isolate a compression-selection calibration effect.",
+  "stage3_started": false,
+  "unseen_started": false
+}

@@ -1,0 +1,88 @@
+{
+  "sample_id": "60700",
+  "clean_fast_text": "PPBS",
+  "rows": [
+    {
+      "sample_id": "60700",
+      "direction": "RAW",
+      "radius": 1,
+      "predicted_core_change": -17.659835815429688,
+      "natural_core_margins": [
+        {
+          "position": 0,
+          "token_id": 4406,
+          "piece": "PP",
+          "hard_margin": -0.25,
+          "soft_margin": -0.5346794128417969
+        },
+        {
+          "position": 1,
+          "token_id": 7347,
+          "piece": "BS",
+          "hard_margin": 6.625,
+          "soft_margin": 5.224204063415527
+        }
+      ],
+      "fixed_keep_core_margins": [
+        {
+          "position": 0,
+          "hard_margin": -0.625,
+          "soft_margin": -0.8828506469726562,
+          "piece": "PP"
+        },
+        {
+          "position": 1,
+          "hard_margin": 6.8125,
+          "soft_margin": 5.281932830810547,
+          "piece": "BS"
+        }
+      ],
+      "fast_text": "Ppbs",
+      "keep_hash": "27347100e3a9c38809570fd73bfa412c7036f8f370a3fb194731937d4b7bb72c",
+      "full_exact": true,
+      "png_linf": 1,
+      "qp_solver": null
+    },
+    {
+      "sample_id": "60700",
+      "direction": "RAW",
+      "radius": 2,
+      "predicted_core_change": -35.319671630859375,
+      "natural_core_margins": [
+        {
+          "position": 0,
+          "token_id": 4406,
+          "piece": "PP",
+          "hard_margin": -0.8125,
+          "soft_margin": -1.0509815216064453
+        },
+        {
+          "position": 1,
+          "token_id": 7347,
+          "piece": "BS",
+          "hard_margin": 6.75,
+          "soft_margin": 5.318897247314453
+        }
+      ],
+      "fixed_keep_core_margins": [
+        {
+          "position": 0,
+          "hard_margin": -0.8125,
+          "soft_margin": -1.0854053497314453,
+          "piece": "PP"
+        },
+        {
+          "position": 1,
+          "hard_margin": 6.75,
+          "soft_margin": 5.2233781814575195,
+          "piece": "BS"
+        }
+      ],
+      "fast_text": "Ppbs",
+      "keep_hash": "e10d218298e315f21a48a7f00bb568eb50883ceccbbc4b9cec5cffd333e1a9cb",
+      "full_exact": true,
+      "png_linf": 2,
+      "qp_solver": null
+    }
+  ]
+}

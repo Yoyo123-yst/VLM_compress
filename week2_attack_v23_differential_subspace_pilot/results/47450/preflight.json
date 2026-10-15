@@ -1,0 +1,53 @@
+{
+  "sample_id": "47450",
+  "reference_tokens": [
+    8847,
+    13,
+    476,
+    17618,
+    13,
+    12375,
+    619,
+    13,
+    15017,
+    1694,
+    151645
+  ],
+  "reference_pieces": [
+    "Dr",
+    ".",
+    " or",
+    " Mrs",
+    ".",
+    " William",
+    " J",
+    ".",
+    " Dar",
+    "by",
+    "<|im_end|>"
+  ],
+  "core_positions": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "base_fast_text": "Dr. or Mrs. William J. Darby",
+  "base_full_text": "Dr. or Mrs. William J. Darby",
+  "base_keep_hash": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+  "base_processor_hash": "cdd75778873ba0244f573d82c3402891d615ca25cba92a244b7b5d2befa2c628",
+  "base_full_exact": true,
+  "gradient_prepared_hash": "cdd75778873ba0244f573d82c3402891d615ca25cba92a244b7b5d2befa2c628",
+  "diff_meta": {
+    "eigenvalue": 10448307.0,
+    "basis_rank": 16,
+    "core_response": 1763.915771484375
+  },
+  "direction_hashes": {
+    "RAW": "a6eb3311f26b8c392fc732d1ff684808189a74787124a240f2e6c33290b2ca4c",
+    "NATIVE": "9083887cfdd5ba02c545dc12a33a03f82f80ec4bd4f51b206f3eba40337df94f",
+    "DIFF": "dfda11060e4d7e1c923c70c4c705c325aa4974d087972ce6e50d63a5efeaa12b",
+    "RANDOM": "25a94ea5367d13cbf8af3f0e1d0bd95662f3baab5e85b623d1617296b4dece89"
+  }
+}

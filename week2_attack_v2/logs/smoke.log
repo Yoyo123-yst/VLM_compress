@@ -1,0 +1,13 @@
+{"pool": 146, "running": 40, "mine": 1, "shard": 0}
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.04it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.32it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.35it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.99it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.65it/s]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "v2", "step": 0, "loss": 0.06437014043331146, "share_loss": 0.06437014043331146, "full_loss": 0.0, "soft_share": 0.3462873101234436, "T": 0.00010705917520681396, "sec_per_step": 4.647083282470703}
+{"arm": "v2", "step": 1, "loss": 0.06352145503478823, "share_loss": 0.0634673610329628, "full_loss": 5.4094001825433224e-05, "soft_share": 0.34807273745536804, "T": 0.0001058952184394002, "sec_per_step": 4.097941756248474}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57370", "arm": "v2", "lambda": "1", "c": "1", "anls_c": "1.0000", "anls_f": "1.0000", "aux": "0.332913", "csf": 0}

@@ -1,0 +1,93 @@
+{
+  "rows": [
+    {
+      "sample_id": "1025",
+      "step": "150",
+      "pred_CC": "Dr. C. Baur",
+      "pred_CA": "Dr. C. B. M. D.",
+      "pred_AC": "Tomasz Tatarczuk",
+      "pred_AA": "Tomasz Tatarczuk",
+      "full_clean": "Dr. C. Baur MD",
+      "full_selected": "Dr. C. Baur MD",
+      "anls_CC": 0.6666666666666667,
+      "anls_CA": 0.75,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 6.69
+    },
+    {
+      "sample_id": "62941",
+      "step": "200",
+      "pred_CC": "December 19, 1979",
+      "pred_CA": "December 19, 1979",
+      "pred_AC": "December 19, 1979",
+      "pred_AA": "11/3%",
+      "full_clean": "October 13-31, 1979",
+      "full_selected": "October 13-31, 1979",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 1.0,
+      "anls_AA": 0.0,
+      "mechanism": "INTERACTION_REQUIRED",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 6.09
+    },
+    {
+      "sample_id": "47567",
+      "step": "150",
+      "pred_CC": "600",
+      "pred_CA": "600",
+      "pred_AC": "2",
+      "pred_AA": "2606",
+      "full_clean": "600",
+      "full_selected": "600",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 3.4
+    }
+  ],
+  "keeps": [
+    {
+      "sample_id": "1025",
+      "K": 2774,
+      "keep_hash_clean": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5",
+      "keep_hash_adv": "3739062075d51301e546a67f689586211aab950dc75c6fb3b81781688652ce2c",
+      "jaccard": 0.831023102310231,
+      "evidence_share_clean": 0.24116798846431145,
+      "evidence_share_adv": 0.250901225666907,
+      "aux_share_clean": 0.31002162941600575,
+      "aux_share_adv": 0.2891131939437635
+    },
+    {
+      "sample_id": "62941",
+      "K": 2774,
+      "keep_hash_clean": "be0564b51aa3de1eb1c849bf1f4e5fe0aff28538ac75fe8a4cc7be3e205d04fd",
+      "keep_hash_adv": "7648d83ea7ccaf364194046577b74412b8b23870b2b2aa2783f82ee26d4885bc",
+      "jaccard": 0.864247311827957,
+      "evidence_share_clean": 0.4170872386445566,
+      "evidence_share_adv": 0.41204037490987744,
+      "aux_share_clean": 0.2664023071377073,
+      "aux_share_adv": 0.2764960346070656
+    },
+    {
+      "sample_id": "47567",
+      "K": 1850,
+      "keep_hash_clean": "14d825573c3f0d3040500bd91d4d529a5fa51ba4b7d9a21c54f296dcf1f5b7db",
+      "keep_hash_adv": "f2070fed716a082ed420393251e17101a6df3f85499dd2e9f39ea3dbe0bfe365",
+      "jaccard": 0.7403574788334901,
+      "evidence_share_clean": 0.5994594594594594,
+      "evidence_share_adv": 0.581081081081081,
+      "aux_share_clean": 0.40054054054054056,
+      "aux_share_adv": 0.4189189189189189
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "sample_id": "56619",
+  "question": "Who is the author of the publication?",
+  "answers": [
+    "Alice Henderson Smith",
+    "alice henderson smith"
+  ],
+  "clean_full_text": "Alice Henderson Smith",
+  "clean_full_tokens": [
+    61686,
+    44577,
+    9082,
+    151645
+  ],
+  "clean_fastv_text": "Dr. McLendan",
+  "clean_fastv_tokens": [
+    8847,
+    13,
+    45607,
+    408,
+    276,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "4234cd007fe3e9511c72f59971f4d78c3a5e983dc7e1f94681b0209bfddb19b4",
+  "keep_hash_repeat": "4234cd007fe3e9511c72f59971f4d78c3a5e983dc7e1f94681b0209bfddb19b4",
+  "page_sha256": [
+    "6af1dd0dc81b8ec0c0595fbdb55cfa4411014a3e2f7c64ede03edfc9416b816c",
+    "ff9d0b8a9ba982eadbc73467555247238ba1ed0af04abe408093b87a4d569b2b",
+    "bacfbcf2a88c443175eeff6c4d43f7dd0597113ad9088078c8ee2cd3beed0ffe",
+    "a0d2cb9e1d4846c29763f8e21c24fb3de996a378ac6efecf7d186ad791e03e19"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 2,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 7.587
+}

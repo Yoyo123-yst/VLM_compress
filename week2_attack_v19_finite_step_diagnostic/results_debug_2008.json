@@ -1,0 +1,576 @@
+{
+  "status": "DONE",
+  "objective": "content",
+  "steps": 4,
+  "alphas": [
+    0.000980392156862745,
+    0.00196078431372549,
+    0.00392156862745098,
+    0.00784313725490196
+  ],
+  "epsilon_uint8": 8,
+  "selected_states": [
+    "2008_clean"
+  ],
+  "states": {
+    "60700_error": {
+      "sample": "60700",
+      "png": "week2_attack_v13_branch_reachability_probe/runs/state_retention_v1/60700/AWARE_FREEZE/step_011.png",
+      "sha256": "9fa86ee802bd22064f6503ceed9b512b5fd0464022da66be3df73d3189f0a367"
+    },
+    "60700_recovery": {
+      "sample": "60700",
+      "png": "week2_attack_v16_corrected_direction_audit/60700_attack_only/step_001.png",
+      "sha256": "2a46bc659495661664b07b628c91544fe14c6bcc713e43c4a49da492e819f32f"
+    },
+    "7006_near": {
+      "sample": "7006",
+      "png": "week2_attack_v15_recovery_path_probe/construction/7006/B/checkpoints/step_010.png",
+      "sha256": "7f41616e91051a131b5c46faa574fdbc673899c799579f732555c0df36f951f9"
+    },
+    "2008_clean": {
+      "sample": "2008",
+      "png": "CLEAN_AUX",
+      "sha256": null
+    },
+    "47450_clean": {
+      "sample": "47450",
+      "png": "CLEAN_AUX",
+      "sha256": null
+    }
+  },
+  "records": [
+    {
+      "text": "March 1956",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21,
+        151645
+      ],
+      "anls": 0.8,
+      "valid": true,
+      "k": 1850,
+      "keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+      "full_exact": true,
+      "linf_uint8": 0,
+      "png_sha256": "00e17724c8c26b2fbcf82426e0631cfc1c65b96f2e27e0bce27ef183c18de4e5",
+      "reference_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21,
+        151645
+      ],
+      "start_fastv_keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+      "start_fastv_k": 1850,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "core_token_ids": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21
+      ],
+      "state": "2008_clean",
+      "sample": "2008",
+      "mode": "natural",
+      "alpha": 0.00392156862745098,
+      "step": 0,
+      "strict_endpoint": false,
+      "attack_loss": 3.2829442024230957,
+      "fdp": 0.6931472420692444,
+      "grad_hash": "23660ee8e4198335ae261facb13c277432fc18191633fcb132aee6f2cb74f5b5",
+      "grad_l2": 69.50951385498047,
+      "grad_linf": 6.673576354980469,
+      "pre_update_delta_hash": "468a4a459772da4e498bc9635d3a9c9b12584490e1edcc1d914ee7df6448d8b2",
+      "post_projection_delta_hash": "100aac05e81439dd564d0d45bad4b0538f6668b0becb64ca20e9790844032930",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21,
+        151645
+      ],
+      "gradient_keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+      "gradient_k": 1850,
+      "pre_update_snapshot": {
+        "attack_loss": 3.2829442024230957,
+        "fdp": 0.6931472420692444,
+        "natural_tokens": [
+          27523,
+          220,
+          16,
+          24,
+          20,
+          21,
+          151645
+        ],
+        "natural_text": "March 1956",
+        "natural_keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+        "natural_k": 1850,
+        "used_keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+        "used_k": 1850,
+        "all_token_margin_mean": 3.9285714285714284,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "core_token_margins": [
+          0.25,
+          5.5,
+          6.375,
+          7.125,
+          0.25,
+          2.5
+        ],
+        "core_token_margin_mean": 3.6666666666666665
+      },
+      "post_float_snapshot": {
+        "attack_loss": 3.0943524837493896,
+        "fdp": 0.603193998336792,
+        "natural_tokens": [
+          32777,
+          220,
+          17,
+          18,
+          11,
+          220,
+          16,
+          24,
+          21,
+          23,
+          151645
+        ],
+        "natural_text": "February 23, 1968",
+        "natural_keep_hash": "169a3109d3619db8039b0c47d9ab12d1d67d8b8136f5d514be7fbc91b83ef36b",
+        "natural_k": 1850,
+        "used_keep_hash": "169a3109d3619db8039b0c47d9ab12d1d67d8b8136f5d514be7fbc91b83ef36b",
+        "used_k": 1850,
+        "all_token_margin_mean": 3.7589285714285716,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "core_token_margins": [
+          -0.1875,
+          5.625,
+          6.125,
+          6.875,
+          0.0,
+          2.375
+        ],
+        "core_token_margin_mean": 3.46875
+      },
+      "post_png_snapshot": {
+        "attack_loss": 3.148273468017578,
+        "fdp": 0.5846289396286011,
+        "natural_tokens": [
+          32777,
+          220,
+          17,
+          18,
+          11,
+          220,
+          16,
+          24,
+          21,
+          23,
+          151645
+        ],
+        "natural_text": "February 23, 1968",
+        "natural_keep_hash": "cbc2fffe8ffb1ec2e3934f89327dbeb8fb66107347da2e4208dbddd6e75cc8e2",
+        "natural_k": 1850,
+        "used_keep_hash": "cbc2fffe8ffb1ec2e3934f89327dbeb8fb66107347da2e4208dbddd6e75cc8e2",
+        "used_k": 1850,
+        "all_token_margin_mean": 3.7857142857142856,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "core_token_margins": [
+          -0.125,
+          5.625,
+          6.125,
+          7.0,
+          0.125,
+          2.375
+        ],
+        "core_token_margin_mean": 3.5208333333333335
+      },
+      "post_float_page_hash": "1daba0214fefb087f854022a6a1b759bf96b1ee236da289a89bcdfc8eba50e0d",
+      "post_png_page_hash": "0c397e66e93f050b9f96b15f2ca62cdb588b22d4737bb5792a09c05f24bfd1ae"
+    },
+    {
+      "text": "February 23, 1968",
+      "tokens": [
+        32777,
+        220,
+        17,
+        18,
+        11,
+        220,
+        16,
+        24,
+        21,
+        23,
+        151645
+      ],
+      "anls": 0.0,
+      "valid": true,
+      "k": 1850,
+      "keep_hash": "169a3109d3619db8039b0c47d9ab12d1d67d8b8136f5d514be7fbc91b83ef36b",
+      "full_exact": true,
+      "linf_uint8": 1,
+      "png_sha256": "ce28068779e1eb18ed364b0dab3ab0e5bfc1c4c9d37b2316c47f670f91dedc66",
+      "reference_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21,
+        151645
+      ],
+      "start_fastv_keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+      "start_fastv_k": 1850,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "core_token_ids": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21
+      ],
+      "state": "2008_clean",
+      "sample": "2008",
+      "mode": "natural",
+      "alpha": 0.00392156862745098,
+      "step": 1,
+      "strict_endpoint": true
+    },
+    {
+      "text": "March 1956",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21,
+        151645
+      ],
+      "anls": 0.8,
+      "valid": true,
+      "k": 1850,
+      "keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+      "full_exact": true,
+      "linf_uint8": 0,
+      "png_sha256": "00e17724c8c26b2fbcf82426e0631cfc1c65b96f2e27e0bce27ef183c18de4e5",
+      "reference_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21,
+        151645
+      ],
+      "start_fastv_keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+      "start_fastv_k": 1850,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "core_token_ids": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21
+      ],
+      "state": "2008_clean",
+      "sample": "2008",
+      "mode": "frozen",
+      "alpha": 0.00392156862745098,
+      "step": 0,
+      "strict_endpoint": false,
+      "attack_loss": 3.2829442024230957,
+      "fdp": 0.6931472420692444,
+      "grad_hash": "23660ee8e4198335ae261facb13c277432fc18191633fcb132aee6f2cb74f5b5",
+      "grad_l2": 69.50951385498047,
+      "grad_linf": 6.673576354980469,
+      "pre_update_delta_hash": "468a4a459772da4e498bc9635d3a9c9b12584490e1edcc1d914ee7df6448d8b2",
+      "post_projection_delta_hash": "100aac05e81439dd564d0d45bad4b0538f6668b0becb64ca20e9790844032930",
+      "guard_exact": true,
+      "accepted": true,
+      "gradient_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21,
+        151645
+      ],
+      "gradient_keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+      "gradient_k": 1850,
+      "pre_update_snapshot": {
+        "attack_loss": 3.2829442024230957,
+        "fdp": 0.6931472420692444,
+        "natural_tokens": [
+          27523,
+          220,
+          16,
+          24,
+          20,
+          21,
+          151645
+        ],
+        "natural_text": "March 1956",
+        "natural_keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+        "natural_k": 1850,
+        "used_keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+        "used_k": 1850,
+        "all_token_margin_mean": 3.9285714285714284,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "core_token_margins": [
+          0.25,
+          5.5,
+          6.375,
+          7.125,
+          0.25,
+          2.5
+        ],
+        "core_token_margin_mean": 3.6666666666666665
+      },
+      "post_float_snapshot": {
+        "attack_loss": 3.0250606536865234,
+        "fdp": 0.603193998336792,
+        "natural_tokens": [
+          32777,
+          220,
+          17,
+          18,
+          11,
+          220,
+          16,
+          24,
+          21,
+          23,
+          151645
+        ],
+        "natural_text": "February 23, 1968",
+        "natural_keep_hash": "169a3109d3619db8039b0c47d9ab12d1d67d8b8136f5d514be7fbc91b83ef36b",
+        "natural_k": 1850,
+        "used_keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+        "used_k": 1850,
+        "all_token_margin_mean": 3.6785714285714284,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "core_token_margins": [
+          -0.5,
+          5.5,
+          6.125,
+          6.875,
+          0.0,
+          2.25
+        ],
+        "core_token_margin_mean": 3.375
+      },
+      "post_png_snapshot": {
+        "attack_loss": 3.092815399169922,
+        "fdp": 0.5846289396286011,
+        "natural_tokens": [
+          32777,
+          220,
+          17,
+          18,
+          11,
+          220,
+          16,
+          24,
+          21,
+          23,
+          151645
+        ],
+        "natural_text": "February 23, 1968",
+        "natural_keep_hash": "cbc2fffe8ffb1ec2e3934f89327dbeb8fb66107347da2e4208dbddd6e75cc8e2",
+        "natural_k": 1850,
+        "used_keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+        "used_k": 1850,
+        "all_token_margin_mean": 3.75,
+        "core_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "core_token_margins": [
+          -0.375,
+          5.5,
+          6.125,
+          7.0,
+          0.25,
+          2.25
+        ],
+        "core_token_margin_mean": 3.4583333333333335
+      },
+      "post_float_page_hash": "1daba0214fefb087f854022a6a1b759bf96b1ee236da289a89bcdfc8eba50e0d",
+      "post_png_page_hash": "0c397e66e93f050b9f96b15f2ca62cdb588b22d4737bb5792a09c05f24bfd1ae"
+    },
+    {
+      "text": "February 23, 1968",
+      "tokens": [
+        32777,
+        220,
+        17,
+        18,
+        11,
+        220,
+        16,
+        24,
+        21,
+        23,
+        151645
+      ],
+      "anls": 0.0,
+      "valid": true,
+      "k": 1850,
+      "keep_hash": "169a3109d3619db8039b0c47d9ab12d1d67d8b8136f5d514be7fbc91b83ef36b",
+      "full_exact": true,
+      "linf_uint8": 1,
+      "png_sha256": "ce28068779e1eb18ed364b0dab3ab0e5bfc1c4c9d37b2316c47f670f91dedc66",
+      "reference_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21,
+        151645
+      ],
+      "start_fastv_keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+      "start_fastv_k": 1850,
+      "core_positions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "core_token_ids": [
+        27523,
+        220,
+        16,
+        24,
+        20,
+        21
+      ],
+      "state": "2008_clean",
+      "sample": "2008",
+      "mode": "frozen",
+      "alpha": 0.00392156862745098,
+      "step": 1,
+      "strict_endpoint": true
+    }
+  ]
+}

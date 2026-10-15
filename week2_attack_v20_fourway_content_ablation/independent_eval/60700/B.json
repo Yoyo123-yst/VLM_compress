@@ -1,0 +1,2627 @@
+{
+  "sample_id": "60700",
+  "method": "B",
+  "checkpoints": [
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_000.png",
+      "png_sha256": "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131",
+      "uint8_linf": 0,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 1665,
+          "keep_hash": "f8d6878164274904d472a9f382c4ebd69f91ec6576c2424e0cf51dff8f625e20",
+          "keep_jaccard_vs_clean": 0.6002162941600577,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 2774,
+          "keep_hash": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca",
+          "keep_jaccard_vs_clean": 1.0,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "8cbb13cbbf41286c5c9df264088743c40cdfbe138a54d5057c581915326f6d71",
+          "keep_jaccard_vs_clean": 0.7142121524201854,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "42e507099b702444f387bae15cd2845522aceeb5d46aa3cbc4ec12ca7e058ad3",
+          "keep_jaccard_vs_clean": 0.5,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 0
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_001.png",
+      "png_sha256": "67c1278b5933fb32247b0c0d333e739f80745707225168c24ee9c43a8448cb5b",
+      "uint8_linf": 1,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 1665,
+          "keep_hash": "2f1cca5e63634abca0afd6e58989a90f31db97d0b3cc5a058cd42e1722fde035",
+          "keep_jaccard_vs_clean": 0.5746718694572543,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 2774,
+          "keep_hash": "55e6e5df8746ed8ae7ff0b1a4ff1eda68f92675a0df52253900d8f56d738019b",
+          "keep_jaccard_vs_clean": 0.9006509078451524,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "ed3c146559b3b4ef5ed394e3e36216bf1b916807e1e887f429caa0404d4423c3",
+          "keep_jaccard_vs_clean": 0.6775006298815822,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "dd623237e4068bae54dfdbff1fefd82ecf77131db4d8f234c8d30ba2ea446c8e",
+          "keep_jaccard_vs_clean": 0.485275745136534,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 1
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_002.png",
+      "png_sha256": "ea4befeaf4377b71345ba356dd06827b40fa00fffd5caf05fbcddb51f50b5a11",
+      "uint8_linf": 2,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 1665,
+          "keep_hash": "aaa3f04b8a61d3cf0741c0f7777446bec427d6766939d980aa51720634d31afb",
+          "keep_jaccard_vs_clean": 0.5646810010574551,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 2774,
+          "keep_hash": "aed20271ac211f1557d74152a73829923a4e5f2305fbf68b2f50469ad7d29fd9",
+          "keep_jaccard_vs_clean": 0.8819538670284939,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "c3b30b35f7c22c071d2008e82372aab8712ac1e27c48fea8cc86d0661ee44dcc",
+          "keep_jaccard_vs_clean": 0.6699272636067218,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "089373d76e99e506a7d1df571a7c404f0b220e08db60dfc82ec8677973b5453d",
+          "keep_jaccard_vs_clean": 0.48131007475970095,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 2
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_003.png",
+      "png_sha256": "267d392561a86fa5ef7354c6b317a1b96c36cce2b4183ab9f4aad5929326a456",
+      "uint8_linf": 3,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 1665,
+          "keep_hash": "f26a4066d657cdc1bb7b94d2b0c466f0a0a1185b0ff1e22a14530fab27918f3a",
+          "keep_jaccard_vs_clean": 0.5630281690140845,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 2774,
+          "keep_hash": "032ab487d9278d6b84836db05cf99730f6a9da133490d7a6fe4e8ef3d8706f0b",
+          "keep_jaccard_vs_clean": 0.8736913204998311,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "bc464191ce037f3de3e165035c9abd8a5a02d396117918db70bae0f45929f81f",
+          "keep_jaccard_vs_clean": 0.6682535705337008,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "17b1ada062abfc7888b259b02025e2b037d082e04e2812a804e3983d47a88246",
+          "keep_jaccard_vs_clean": 0.4826296098343132,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 3
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_004.png",
+      "png_sha256": "a5274d54cf1fddf623130cc63c8d1f08890009ea1bcded41660bb5e5c8d1a02b",
+      "uint8_linf": 4,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 1665,
+          "keep_hash": "74d9fa987f36b29839ec494df9199c0fb3008af616637ead66f7ffc9d6b46d57",
+          "keep_jaccard_vs_clean": 0.5591851071303127,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 2774,
+          "keep_hash": "cb40eb795c941ecba5d3d0088e34e02dad20992bad18af55b06f0fb9c2602f11",
+          "keep_jaccard_vs_clean": 0.8755916159567275,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "5623656969acc4c86b01fb3f7a1c1be9e0fab6edb64b42b3962d0bc2f4dbd16f",
+          "keep_jaccard_vs_clean": 0.665749311983988,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "31c74112d1430332639f9e16b97dcffb74ecd5e37f9cca64a609d5a8ae514eb6",
+          "keep_jaccard_vs_clean": 0.48025613660619,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 4
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_005.png",
+      "png_sha256": "621078b7f024df20938af70c1761640b75ae4953839a1e696a01a4bad5975525",
+      "uint8_linf": 5,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 1665,
+          "keep_hash": "5e1e89fbfce4ce82f0281fc46e0a342d2a0930a12e976e019a2b57c1c19d62a1",
+          "keep_jaccard_vs_clean": 0.5696605374823197,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppjs 14, 1967",
+          "tokens": [
+            47,
+            79,
+            2519,
+            220,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "ppbs_to_ppjs_needs_manual_review",
+          "k": 2774,
+          "keep_hash": "0920c97040ecfe772e2a8afa134d3686b236d3208f15dae2d7a67c580dae8b3d",
+          "keep_jaccard_vs_clean": 0.876225904633074,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "PPBS 14, 1967",
+          "tokens": [
+            4406,
+            7347,
+            220,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 3884,
+          "keep_hash": "1c55863753388a686a9ee67a4066157b2d21a20fe91b1a433bfabfb34e98b9f6",
+          "keep_jaccard_vs_clean": 0.6665832290362954,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "1879e9c80dc47d1c49facef3a05acea1862bb7ca29cd770358b5d51baa998373",
+          "keep_jaccard_vs_clean": 0.47946666666666665,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 5
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_006.png",
+      "png_sha256": "994a913d4826c877077a458560b6d2ecf2f76299cfb821e5a1a6c7b03a36064b",
+      "uint8_linf": 6,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 1665,
+          "keep_hash": "c63f60aa4bf8b2719825ce0d36e9c8be5e5c37a9e19fdfaa6d2fae6dd428da43",
+          "keep_jaccard_vs_clean": 0.5646810010574551,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 2774,
+          "keep_hash": "0bb2a1b46854b0fee49d1fd1c150c9f28d0596925a0600096a7ea58094574324",
+          "keep_jaccard_vs_clean": 0.8692722371967655,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "d179a5f6410f21538b779cb97a83d170ccfcd1aa2a445c12e3f43dbc7c338dca",
+          "keep_jaccard_vs_clean": 0.6632525605795653,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "04e9b4182af54ea68b181cb07322a789aefc56c3ce196873713c616518641787",
+          "keep_jaccard_vs_clean": 0.4773655245872537,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 6
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_007.png",
+      "png_sha256": "9b35ff462b557bc4cb91277e49bcdaaaff440d4f785f11f245dc13b8e0467d61",
+      "uint8_linf": 7,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "8d4c2a672ada4e0652e3c748c5b6cdf45a35c0eb78503d852c081d0e42c724a3",
+          "keep_jaccard_vs_clean": 0.5580905580905581,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 2774,
+          "keep_hash": "4955ebf1f0f098adc81e17dce0c37b8f58cef59afba5ffe4a063a7f741bf7a23",
+          "keep_jaccard_vs_clean": 0.8598726114649682,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "PPBS 14, 1967",
+          "tokens": [
+            4406,
+            7347,
+            220,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 3884,
+          "keep_hash": "0c30dfc5f78bc00200b6f6dba33848ba508b58de755c9649071fbc1475b916a4",
+          "keep_jaccard_vs_clean": 0.6661661661661662,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "68dfdf3e6a68f40fb74c953295fcc897eb5bd3b035b6d1f9b70715c11bb8c22f",
+          "keep_jaccard_vs_clean": 0.47946666666666665,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 7
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_008.png",
+      "png_sha256": "33fd2345a50cba6bc377d6a447d953d0f9ac3797720ca1e23c704fa129a89d44",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 1665,
+          "keep_hash": "a528cf4c23ac6e74e1d4b67a6c9bc0744d22c3f015c86b317000179fe1921da9",
+          "keep_jaccard_vs_clean": 0.5602811950790861,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppjs 14, 1967",
+          "tokens": [
+            47,
+            79,
+            2519,
+            220,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "ppbs_to_ppjs_needs_manual_review",
+          "k": 2774,
+          "keep_hash": "19e2a4276aa13d5d13bd3cae5601cf11f25eecaca2689e5fe4645e581be974d3",
+          "keep_jaccard_vs_clean": 0.8629952988582942,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "66176d982000f105b98136a105614006812da14b105e35675c49db55ddbfa79b",
+          "keep_jaccard_vs_clean": 0.6578685258964143,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "027dbbb612b6e0fe17b6a4bec0e18dab907a47fa63891ee042a6f657bd117564",
+          "keep_jaccard_vs_clean": 0.47841534908509503,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 8
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_009.png",
+      "png_sha256": "a66024928490ead40c8680b8db30ea3da202b2e348e1512e8aec0b4b7adb1075",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppjs",
+          "tokens": [
+            47,
+            79,
+            2519,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.75,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "ppbs_to_ppjs_needs_manual_review",
+          "k": 1665,
+          "keep_hash": "7f91e4679dcf081f61e64401694d5ccf90aa8f0d7125d6f0c82d314e6cf82886",
+          "keep_jaccard_vs_clean": 0.5564516129032258,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppjs #6",
+          "tokens": [
+            47,
+            79,
+            2519,
+            671,
+            21,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "ppbs_to_ppjs_needs_manual_review",
+          "k": 2774,
+          "keep_hash": "383101b79a12a287653347366d95aef94bd1505c3514917e963fa653df572779",
+          "keep_jaccard_vs_clean": 0.8598726114649682,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "PPBS 14, 1967",
+          "tokens": [
+            4406,
+            7347,
+            220,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 3884,
+          "keep_hash": "e7d60fb93834f3fb20946c3d2b9c187f54b897afe79aa4be7857b9cced3e967f",
+          "keep_jaccard_vs_clean": 0.6558070131808008,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "5eab31849865f41932b83b8905a1ca89c69b16b4915c6cd661497ab40d030fd1",
+          "keep_jaccard_vs_clean": 0.4742249778565102,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 9
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_010.png",
+      "png_sha256": "680b5328b275f9ca010e59b2010842c4970a459b0876480fefede2ec5c2276ef",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "abbee4a0e65859ec9fbbb3417a103a4c9aae907ea22daa68ca8c501e212ec553",
+          "keep_jaccard_vs_clean": 0.5597329585382994,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppjs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            2519,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "ppbs_to_ppjs_needs_manual_review",
+          "k": 2774,
+          "keep_hash": "19562bfdd6729801675bfefd448e7c04906b7d58a879c12aacd2f21f249379b0",
+          "keep_jaccard_vs_clean": 0.8548980274155801,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "1cbd0aae3c3c8d4180371a9973fe10c39f3a89a6d644bb6478108e2d4ba5c8b3",
+          "keep_jaccard_vs_clean": 0.6570433051269288,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "694366342a5bb7f6a5da30dd4dcef70dc4490ef3cd2375482f7743964dae4732",
+          "keep_jaccard_vs_clean": 0.4750088621056363,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 10
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_011.png",
+      "png_sha256": "73c426e11f54930a4918fa4848486ad564a29d3891b6cc849eb42a50fc92dfb7",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "5f0c2f82107ce339decf4109600074581a8c52166e625c1e46abaf1509664b95",
+          "keep_jaccard_vs_clean": 0.5613788251846641,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppjs #6",
+          "tokens": [
+            47,
+            79,
+            2519,
+            671,
+            21,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "ppbs_to_ppjs_needs_manual_review",
+          "k": 2774,
+          "keep_hash": "6c3d862171847f32aa2e7862d9d2752d72663cc71120beb193ed34ed0242dcf9",
+          "keep_jaccard_vs_clean": 0.8598726114649682,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "Ppjs 14, 1967",
+          "tokens": [
+            47,
+            79,
+            2519,
+            220,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "ppbs_to_ppjs_needs_manual_review",
+          "k": 3884,
+          "keep_hash": "f574fb036c3ef12cff47a55bec8a534c6b01ce33589ef38560a123f4c227cec7",
+          "keep_jaccard_vs_clean": 0.6591078993271866,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "7f6a1fb5d15190cdc556bde12e062c7b86a9d137c2c8bbc6bb9ae6de0ffb072d",
+          "keep_jaccard_vs_clean": 0.4760553387726144,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 11
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_012.png",
+      "png_sha256": "2e228d10d847a27861e3467d7da31a90ae55eeb98025d3b5333d29612e2a27d4",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "de5dd7bef07e4c8eb4a54c610d4c5c447d073f747c59c0de7203501c5431fc16",
+          "keep_jaccard_vs_clean": 0.552640783490731,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 2774,
+          "keep_hash": "bbb0c1771a396a412236ef7364e7061e7d3088575c03842c1cfb694526d9e6e5",
+          "keep_jaccard_vs_clean": 0.8524207011686143,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "Ppjs 14, 1967",
+          "tokens": [
+            47,
+            79,
+            2519,
+            220,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "ppbs_to_ppjs_needs_manual_review",
+          "k": 3884,
+          "keep_hash": "762f90775de114bcc6aa660ddbf1406b5364a94bc4ea73dc1021d3a5c1a7ac9b",
+          "keep_jaccard_vs_clean": 0.654572564612326,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "b3511de438d442c308d53d2bd874aa8ad71efe8ac4c54605203f6f90c2bcddeb",
+          "keep_jaccard_vs_clean": 0.47292035398230087,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 12
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_013.png",
+      "png_sha256": "448e4ec9b7984748bc13b648da48003255e2772948fe174e5022b1a4c26bcb7e",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "bcde1bafca72e5a0f5ec0baceb1ce63fdb69e7150d944d085edb98d429ff6aa0",
+          "keep_jaccard_vs_clean": 0.546151166840822,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppbs #14, 15, 16",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            20,
+            11,
+            220,
+            16,
+            21,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 2774,
+          "keep_hash": "a7a215900d349dd7d4a686827924b09c007dbfdd793c4d772b6de94706cda181",
+          "keep_jaccard_vs_clean": 0.8401326699834163,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "24d16796813b32e8b02a0286dad6288e5c8831508e487bb6643a97906201ea44",
+          "keep_jaccard_vs_clean": 0.6533399553017134,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "7237852411544570ffcfcd79cce5f9969370d9afd3a977bd7e75b30a78071799",
+          "keep_jaccard_vs_clean": 0.47396386822529224,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 13
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_014.png",
+      "png_sha256": "4c7d5e6f3fc1a794534c91475f3363966b05ef392b0d4c8d0d13abf14ceed7ff",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "f649cae50146a0b0ac6e33e6307f400f9f78272d9e74796daf525c50db812fa1",
+          "keep_jaccard_vs_clean": 0.5515554002097168,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppjs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            2519,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "ppbs_to_ppjs_needs_manual_review",
+          "k": 2774,
+          "keep_hash": "4278301c7a10ed28db87c2a806bc5a4c2492fd02aa1a8c584a9b28fa0ebfbcf5",
+          "keep_jaccard_vs_clean": 0.8419654714475432,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "e34a3f4c4a86d2d932c58f5e08fa28dc6651e9d26870fd7aea48a31fd111020c",
+          "keep_jaccard_vs_clean": 0.6525192355423182,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "4b0b13d310331d5a282c92901118f0d0f16f86567c623b93912ae750cbbf0841",
+          "keep_jaccard_vs_clean": 0.4716180371352785,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 14
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_015.png",
+      "png_sha256": "51293b81d169e95e24c63c743badd974b9af20b3dae50f4c080d52b063a4f165",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "96e35c71f5dbf970f4f6a954ae2830c34565772d480cae48f52bf2cf0adf3fff",
+          "keep_jaccard_vs_clean": 0.5488485694347522,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppbs #14, 1957",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            20,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 2774,
+          "keep_hash": "23d6c7323e7e774bf578d7b530d2d7865a384fbee6398d214bd70ab98acc8b44",
+          "keep_jaccard_vs_clean": 0.8425772168714712,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "a533c8f896b4e787af94bbf05cec1a923f2d143365435650d58e6b9965cc42de",
+          "keep_jaccard_vs_clean": 0.6488360574541853,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "5adec89e91d5b677f3cb8dbda63e156a800429cdea23d5be4d21513f54952a35",
+          "keep_jaccard_vs_clean": 0.4703180212014134,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 15
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_016.png",
+      "png_sha256": "7de892aad12a17aea7f22333ee4589b6ce9f2183eb3aacb9050e30a5324bccdc",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "8d63eea4f9f52b50b997f4b528cebb62a22cca0dd8dbeb356a500e5e98345849",
+          "keep_jaccard_vs_clean": 0.5559060637924991,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 2774,
+          "keep_hash": "614305ab175aaafe0eb200814aa5f2ae77a0eb164d3613f323a49a27e2aab584",
+          "keep_jaccard_vs_clean": 0.8505670446964643,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "3a66cd839a38034437bda1d9fb58bd1081d465813de85b435ce42c45f5a0e884",
+          "keep_jaccard_vs_clean": 0.6496531219028742,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "806f55979d552cba0a4a17fed338e9e5f75dd753a7e28b2f00fc6c272a4edd86",
+          "keep_jaccard_vs_clean": 0.47109775499381296,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 16
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_017.png",
+      "png_sha256": "aedb3789b86915cc1b9a36391f504412cf55aeb513df65683cfff3d3d50b5a05",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "3956223a7e8221fd70867e7916716cc39b9e2aa91f11154de7837ed1ade4d6b3",
+          "keep_jaccard_vs_clean": 0.5515554002097168,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppbs #14, 15, 16",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            20,
+            11,
+            220,
+            16,
+            21,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 2774,
+          "keep_hash": "ebcfa0d7aad80195c9c527ed5205ae86dd7ac83f21605d2a6487dd5efee6689d",
+          "keep_jaccard_vs_clean": 0.8462562396006655,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "9c53f8f83007aa174b8dc245f7563bc00d2ccd683ae41649c8156f5b2ec63143",
+          "keep_jaccard_vs_clean": 0.654983842903306,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "654b749ec70cadfe2d58c0870837924700c0b7c9ee15ce5686b0da675ff49b62",
+          "keep_jaccard_vs_clean": 0.4716180371352785,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 17
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_018.png",
+      "png_sha256": "f1eea32d8d60d4627d2495137e6a0bd62961eadcbed9197c57378c3de29416bb",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "eb198db8c78cf2a183be86c392a0116ac44e07913b9b7540a5d5afaaa4d47e4c",
+          "keep_jaccard_vs_clean": 0.5504715333566189,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppjs #14, 1957",
+          "tokens": [
+            47,
+            79,
+            2519,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            20,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "ppbs_to_ppjs_needs_manual_review",
+          "k": 2774,
+          "keep_hash": "7f3fa71fdec91030ad5d6ffa4884eafa700864de10da4b06782115f9389dd802",
+          "keep_jaccard_vs_clean": 0.8370860927152318,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "Ppjs",
+          "tokens": [
+            47,
+            79,
+            2519,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.75,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "ppbs_to_ppjs_needs_manual_review",
+          "k": 3884,
+          "keep_hash": "235b14d19fa33da029304a3094de98600560e89b7bc07f7548aae5c2193914a0",
+          "keep_jaccard_vs_clean": 0.6516993301910196,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "21ce67481ea0632be577a595e23dd412543c40ef9d901e182bddf80dc0a0bcda",
+          "keep_jaccard_vs_clean": 0.4703180212014134,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 18
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_019.png",
+      "png_sha256": "32f7b57733cf44b7687a936bafedcc86de88477440d144dc4e3d1b1ffc430486",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "f26259fffdcfd25c871edd3b7654e4bf01de957387a60a8edad5e4c6c27e32bc",
+          "keep_jaccard_vs_clean": 0.5488485694347522,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppds #14, 15, 16",
+          "tokens": [
+            47,
+            79,
+            5356,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            20,
+            11,
+            220,
+            16,
+            21,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "acronym_not_in_registered_rules",
+          "k": 2774,
+          "keep_hash": "5bdafb21dc82fa81e0d2909ecab546292953f791f785c346984228ce79046cca",
+          "keep_jaccard_vs_clean": 0.840743198407432,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "7bfa54d84973d711bea73b00680b7823c7a0f8e437aa07b7639dcb85c1721478",
+          "keep_jaccard_vs_clean": 0.6508802380362013,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "ea325c28c0801f8470b30317e99ca5861f8bd58d8c3b9f934c51b9890c275356",
+          "keep_jaccard_vs_clean": 0.47135785007072134,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 19
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_020.png",
+      "png_sha256": "5c684e2350d15240ee5e61d3ad68c79e39ef31bf0f5fb31c0df814c0efa71539",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "42c4d8eb41d006a8d5711677aaafe86d562f228f2595b5e634443cb5f024081b",
+          "keep_jaccard_vs_clean": 0.5499301675977654,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppjs #14, 15c",
+          "tokens": [
+            47,
+            79,
+            2519,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            20,
+            66,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "ppbs_to_ppjs_needs_manual_review",
+          "k": 2774,
+          "keep_hash": "73653c3628eca922157bddb59ae31cf90a9ab9e51c3a4e2c8535c79bc80d8941",
+          "keep_jaccard_vs_clean": 0.831023102310231,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "8b0dbf005e47eae875e483a8c60b270baaf87ffd89b54c0b63849671cb24a659",
+          "keep_jaccard_vs_clean": 0.6459826946847961,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "3fc3febcbb1f826aa18b82f5a69d4d49c20c2089358128958c33214c68f27b60",
+          "keep_jaccard_vs_clean": 0.47109775499381296,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 20
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_021.png",
+      "png_sha256": "efcb387dfe037397592180aa4e9eaba65a8f1dfeebcbce264530bca87b72b8b7",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #42",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            19,
+            17,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.5714285714285714,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "300f8076cab249f90d0a61ac23f669b001b38a1337e63190afdeba39e8a0c30e",
+          "keep_jaccard_vs_clean": 0.5483083362399721,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppjs #6",
+          "tokens": [
+            47,
+            79,
+            2519,
+            671,
+            21,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "ppbs_to_ppjs_needs_manual_review",
+          "k": 2774,
+          "keep_hash": "da677711d8e2d2795c5b3582398869ab67fe9d9b9b2853dae9cf413fd2860dc9",
+          "keep_jaccard_vs_clean": 0.8383035122597747,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "ac65aa692e4141dfa721a82bd91f1b2aae4c12da3cf9eeb0c74b429c16065285",
+          "keep_jaccard_vs_clean": 0.6492444884815457,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "2caad74e1a7140de708019f2d3d37dc9c0927cdeb633f98c56546b777c691156",
+          "keep_jaccard_vs_clean": 0.47057784060788127,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 21
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_022.png",
+      "png_sha256": "e719ac025be78cc788ae018966f8e30f069d1678ac398c5d2bf6cf625d512c5c",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "1bb6ff08bd087495453f62c4695155c70a47315d213f5a02677932c1f4c914d3",
+          "keep_jaccard_vs_clean": 0.553184044786564,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppjs #14, 15, 16",
+          "tokens": [
+            47,
+            79,
+            2519,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            20,
+            11,
+            220,
+            16,
+            21,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "ppbs_to_ppjs_needs_manual_review",
+          "k": 2774,
+          "keep_hash": "a8f432e48c6a11ddcf4fb7480288c67f830479aa1707c67c0749bb464ba44396",
+          "keep_jaccard_vs_clean": 0.8419654714475432,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "Ppjs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            2519,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "ppbs_to_ppjs_needs_manual_review",
+          "k": 3884,
+          "keep_hash": "de6dc2bf39602ee097514749fbf3f8d79b76f3a92f7028abdfe84a6ece4b7a50",
+          "keep_jaccard_vs_clean": 0.6443566312669795,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "2c2a3cec428351adb7453008fdb3fffce4ecfc1fb4f27c144d1a913288c15680",
+          "keep_jaccard_vs_clean": 0.468242766407904,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 22
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_023.png",
+      "png_sha256": "e6fd05a7e15c7f792de5af8b3c430e1621a33aac501105a9130241669c36ec0d",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14,227",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            17,
+            17,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "46008e5e51089a2ef2ef750fed0c586e506f79ecad8768652656f285e9d31fb3",
+          "keep_jaccard_vs_clean": 0.5537276863843192,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppds #14, 15, 16",
+          "tokens": [
+            47,
+            79,
+            5356,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            20,
+            11,
+            220,
+            16,
+            21,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "acronym_not_in_registered_rules",
+          "k": 2774,
+          "keep_hash": "6ae8e32bf039dc7384f5a421ca1b705901b395319fdce29d8b63a680830b3088",
+          "keep_jaccard_vs_clean": 0.8450282673761224,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "ef2a3cc9ebccf23f174ac6869876b261093b8bdbe63d453becbce5934e9e5a3b",
+          "keep_jaccard_vs_clean": 0.6504709965294992,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "76484f871111b524d9868f81356c64e0d41f9b8e90c2c61fe93df7c42ccbf3c4",
+          "keep_jaccard_vs_clean": 0.4718783162362929,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 23
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_024.png",
+      "png_sha256": "ecb9763a2c6b0aa679050b1aa54306680913a2e6873b1aa73838ac36d9cb1efb",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "f6f73b892de182d2569d6c635ad6776ca6f1d61750f1349b38cfa9db07207b27",
+          "keep_jaccard_vs_clean": 0.5510132774283718,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Ppds #14, 15, 16,",
+          "tokens": [
+            47,
+            79,
+            5356,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            20,
+            11,
+            220,
+            16,
+            21,
+            11,
+            220
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "acronym_not_in_registered_rules",
+          "k": 2774,
+          "keep_hash": "7b2b965600e98300558d0aaa9f1c96d65db69e901901dd4f978149466875f3a4",
+          "keep_jaccard_vs_clean": 0.8389128273118992,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "1f1d52dcfd848607a1c0d93063631aa36c2a479b27a9305a70bde108a8d0d4c6",
+          "keep_jaccard_vs_clean": 0.6508802380362013,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "7406d04b065d9e630c3442c4ab10189a313731fde4ae00abe2f68a1580712ad6",
+          "keep_jaccard_vs_clean": 0.47135785007072134,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 24
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/60700/B/checkpoints/accepted_025.png",
+      "png_sha256": "dba481a98fa5f025373f5cb0dccd035a93a7f9a79d43694d1e37c60232a666ea",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Ppbs #14, 1967",
+          "tokens": [
+            47,
+            79,
+            1279,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "semantic_reason": "acronym_plus_suffix",
+          "k": 1665,
+          "keep_hash": "6c1cd27e042fe24ed9c824d8600187dd117930c9e6d3e9ece88138a984e82200",
+          "keep_jaccard_vs_clean": 0.552640783490731,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "PEPS #14, 1967",
+          "tokens": [
+            1740,
+            5012,
+            671,
+            16,
+            19,
+            11,
+            220,
+            16,
+            24,
+            21,
+            22,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "acronym_not_in_registered_rules",
+          "k": 2774,
+          "keep_hash": "886bb1ce17e089cc00b29f6b2da81ec0c5dbd6c7492f667e422de4c6a86714ad",
+          "keep_jaccard_vs_clean": 0.8444148936170213,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 3884,
+          "keep_hash": "a14bf4c5567341da07777f9f1ff5b3e5c696fdcc57a4bdca9bf63bff17d1da7b",
+          "keep_jaccard_vs_clean": 0.648427828670463,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "acronym_exact",
+          "k": 5548,
+          "keep_hash": "2310bbb132a120c5db124a54ce66349c0b3cf70a7e37d983b33fd301f4664c17",
+          "keep_jaccard_vs_clean": 0.4718783162362929,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 25
+    }
+  ]
+}

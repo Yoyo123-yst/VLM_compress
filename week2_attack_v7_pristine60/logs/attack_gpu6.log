@@ -1,0 +1,757 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:11<00:33, 11.08s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:16<00:15,  7.81s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:19<00:05,  5.64s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  3.89s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  5.22s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "1023", "step": 0, "margin": 1.790178656578064, "full": "01628 537 900", "fastv": "0161 637 9000"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "1023", "step": 10, "margin": -0.535714328289032, "full": "01628 537 900", "fastv": "020 7165 5777"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "1023", "step": 25, "margin": -2.5625, "full": "01628 537 900", "fastv": "+44 (0)116 277 57"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "1023", "step": 50, "margin": -4.767857551574707, "full": "01628 537 900", "fastv": "+44 (0)116 277 57"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "1023", "step": 75, "margin": -6.218750476837158, "full": "01628 537 900", "fastv": "+44 (0)116 277 77"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "1023", "step": 100, "margin": -7.1026787757873535, "full": "01628 537 900", "fastv": "+44 (0)116 277 77"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "1023", "step": 150, "margin": -7.678571701049805, "full": "01628 537 900", "fastv": "+44 (0)113 777 57"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "1023", "step": 200, "margin": -7.816964626312256, "full": "01628 537 900", "fastv": "+44 (0)115 977 57"}
+{"done": "1023", "seconds": 1109.4}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5159", "step": 0, "margin": 1.53125, "full": "Fort morgan", "fastv": "Fort morgan factory"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5159", "step": 10, "margin": -0.90625, "full": "Fort morgan", "fastv": "Fort Morgan Factory"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5159", "step": 25, "margin": -4.4921875, "full": "Fort morgan", "fastv": "FORTMORGAN FACTORY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5159", "step": 50, "margin": -11.359375, "full": "Fort morgan", "fastv": "FORKT MORGENFACOTRY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5159", "step": 75, "margin": -16.42578125, "full": "Fort morgan", "fastv": "FORKS MORGAN FACTORY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5159", "step": 100, "margin": -17.44140625, "full": "Fort morgan", "fastv": "FORKS MORGAN FACTORY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5159", "step": 150, "margin": -22.1328125, "full": "Fort morgan", "fastv": "FORT Morgan Factory"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5159", "step": 200, "margin": -24.462890625, "full": "Fort morgan", "fastv": "FORDHORSEMFGFACTORY"}
+{"done": "5159", "seconds": 1521.2}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5497", "step": 0, "margin": 4.515625, "full": "Norman J. Macdonald", "fastv": "Norman J. Macdonald"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5497", "step": 10, "margin": 3.1953125, "full": "Norman J. Macdonald", "fastv": "Norman J. J. Macdonald"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5497", "step": 25, "margin": 1.6328125, "full": "Norman J. Macdonald", "fastv": "Norman J. J. Macdonald"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5497", "step": 50, "margin": -2.4033203125, "full": "Norman J. Macdonald", "fastv": "Norman J. Jirin"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5497", "step": 75, "margin": -4.5693359375, "full": "Norman J. Macdonald", "fastv": "NORMAN J JILJIJI"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5497", "step": 100, "margin": -5.2041015625, "full": "Norman J. Macdonald", "fastv": "NORMAN J J JILJI"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5497", "step": 150, "margin": 1.1328125, "full": "Norman J. Macdonald", "fastv": "NORMAN J. J. MACDONALD"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5497", "step": 200, "margin": -1.84375, "full": "Norman J. Macdonald", "fastv": "NORMAN J. J."}
+{"done": "5497", "seconds": 1091.9}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5615", "step": 0, "margin": 4.929166793823242, "full": "(202) 662-8500", "fastv": "(202) 662-8000"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5615", "step": 10, "margin": 2.641666889190674, "full": "(202) 662-8500", "fastv": "(202) 882-7382"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5615", "step": 25, "margin": 1.1916667222976685, "full": "(202) 662-8500", "fastv": "(202) 889-7322"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5615", "step": 50, "margin": 0.01666666753590107, "full": "(202) 662-8500", "fastv": "206) 888-7362"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5615", "step": 75, "margin": -0.9791667461395264, "full": "(202) 662-8500", "fastv": "206 888 2222"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5615", "step": 100, "margin": -2.0875000953674316, "full": "(202) 662-8500", "fastv": "206 888 2222"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5615", "step": 150, "margin": -2.7291667461395264, "full": "(202) 662-8500", "fastv": "206-880-2222"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5615", "step": 200, "margin": -4.512500286102295, "full": "(202) 662-8500", "fastv": "212-888-2080"}
+{"done": "5615", "seconds": 731.8}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "7029", "step": 0, "margin": 6.171875, "full": "3-27-96", "fastv": "3-27-96"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "7029", "step": 10, "margin": 6.125, "full": "3-27-96", "fastv": "3-27-96"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "7029", "step": 25, "margin": 5.71875, "full": "3-27-96", "fastv": "3-27-96"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "7029", "step": 50, "margin": 4.828125, "full": "3-27-96", "fastv": "3-27-96"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "7029", "step": 75, "margin": 4.53125, "full": "3-27-96", "fastv": "3-27-95"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "7029", "step": 100, "margin": 3.328125, "full": "3-27-96", "fastv": "3-27-95"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "7029", "step": 150, "margin": 2.5, "full": "3-27-96", "fastv": "3-27-1995"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "7029", "step": 200, "margin": 5.765625, "full": "3-27-96", "fastv": "3-27-96"}
+{"done": "7029", "seconds": 720.6}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "8072", "step": 0, "margin": 7.458333492279053, "full": "40", "fastv": "40"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "8072", "step": 10, "margin": -0.5, "full": "40", "fastv": "4"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "8072", "step": 25, "margin": -3.4375, "full": "40", "fastv": "5"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "8072", "step": 50, "margin": -6.0, "full": "40", "fastv": "5"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "8072", "step": 75, "margin": -7.0625, "full": "40", "fastv": "5"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "8072", "step": 100, "margin": -9.700846672058105, "full": "40", "fastv": "5"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "8072", "step": 150, "margin": -19.359375, "full": "40", "fastv": "2"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "8072", "step": 200, "margin": -30.375, "full": "40", "fastv": "2"}
+{"done": "8072", "seconds": 1515.4}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15282", "step": 0, "margin": 3.9583334922790527, "full": "LuxSE", "fastv": "LuxSE"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15282", "step": 10, "margin": 3.3125, "full": "LuxSE", "fastv": "LuxSE"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15282", "step": 25, "margin": -0.3125, "full": "LuxSE", "fastv": "BSE"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15282", "step": 50, "margin": -12.502604484558105, "full": "LuxSE", "fastv": "BSE"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15282", "step": 75, "margin": -16.42708396911621, "full": "LuxSE", "fastv": "BSE"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15282", "step": 100, "margin": -20.885417938232422, "full": "LuxSE", "fastv": "BSE"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15282", "step": 150, "margin": -21.52083396911621, "full": "LuxSE", "fastv": "BSE"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "15282", "step": 200, "margin": -19.104167938232422, "full": "LuxSE", "fastv": "BSE"}
+{"done": "15282", "seconds": 1520.2}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "18831", "step": 0, "margin": 2.799999952316284, "full": "September 28", "fastv": "September 28, 1988"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "18831", "step": 10, "margin": 1.649999976158142, "full": "September 28", "fastv": "SEPTEMBER 28, 1988"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "18831", "step": 25, "margin": 0.02500000037252903, "full": "September 28", "fastv": "SEPTEMBER 26, 1988"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "18831", "step": 50, "margin": -1.649999976158142, "full": "September 28", "fastv": "SEPTEMBER 26, 1988"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "18831", "step": 75, "margin": -3.4375, "full": "September 28", "fastv": "SEPTEMBER 26, 1988"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "18831", "step": 100, "margin": -3.450000047683716, "full": "September 28", "fastv": "SEPTEMBER 26, 1988"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "18831", "step": 150, "margin": -5.862500190734863, "full": "September 28", "fastv": "SEPTEMBER 26, 1988"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "18831", "step": 200, "margin": -7.150000095367432, "full": "September 28", "fastv": "SEPTEMBER 26, 1988"}
+{"done": "18831", "seconds": 1521.6}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "25716", "step": 0, "margin": 4.409722328186035, "full": "12:30 p.m.", "fastv": "12:30 p.m."}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "25716", "step": 10, "margin": 1.1875, "full": "12:30 p.m.", "fastv": "12:15"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "25716", "step": 25, "margin": -1.5416666269302368, "full": "12:30 p.m.", "fastv": "2:12"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "25716", "step": 50, "margin": -4.871527671813965, "full": "12:30 p.m.", "fastv": "2.12"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "25716", "step": 75, "margin": -5.809027671813965, "full": "12:30 p.m.", "fastv": "2.12"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "25716", "step": 100, "margin": -8.69618034362793, "full": "12:30 p.m.", "fastv": "2.12"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "25716", "step": 150, "margin": -11.557291984558105, "full": "12:30 p.m.", "fastv": "2.12"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "25716", "step": 200, "margin": -17.42795181274414, "full": "12:30 p.m.", "fastv": "2.12"}
+{"done": "25716", "seconds": 1521.4}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "41828", "step": 0, "margin": 1.78125, "full": "399", "fastv": "399"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "41828", "step": 10, "margin": -1.796875, "full": "399", "fastv": "VC 33 999"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "41828", "step": 25, "margin": -4.5, "full": "399", "fastv": "VC 33 9999"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "41828", "step": 50, "margin": -6.984375, "full": "399", "fastv": "VC 33 999"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "41828", "step": 75, "margin": -8.8125, "full": "399", "fastv": "VC 33 33333333333"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "41828", "step": 100, "margin": -11.390625, "full": "399", "fastv": "VC 33 3999"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "41828", "step": 150, "margin": -11.9375, "full": "399", "fastv": "VC 33 9999"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "41828", "step": 200, "margin": -14.8046875, "full": "399", "fastv": "VC 333999"}
+{"done": "41828", "seconds": 727.6}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "44779", "step": 0, "margin": 4.3125, "full": "TrueGlide", "fastv": "TrueGlide"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "44779", "step": 10, "margin": 1.90625, "full": "TrueGlide", "fastv": "DEPUY ASR XL"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "44779", "step": 25, "margin": -0.65625, "full": "TrueGlide", "fastv": "DEPUY ASR XL"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "44779", "step": 50, "margin": -5.2578125, "full": "TrueGlide", "fastv": "DESIGN RATIONALE"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "44779", "step": 75, "margin": -6.4453125, "full": "TrueGlide", "fastv": "DESIGN RATIONALE & SURGICAL TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "44779", "step": 100, "margin": -10.765625, "full": "TrueGlide", "fastv": "DESIGN RATIONALE & SURGICAL TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "44779", "step": 150, "margin": -15.4921875, "full": "TrueGlide", "fastv": "DESIGN RATIONALE B"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "44779", "step": 200, "margin": -17.46875, "full": "TrueGlide", "fastv": "DESIGN BATICALE 8"}
+{"done": "44779", "seconds": 1519.2}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "46737", "step": 0, "margin": 3.7395834922790527, "full": "U.S. Pharmacist", "fastv": "U.S. Pharmacist"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "46737", "step": 10, "margin": 2.8854167461395264, "full": "U.S. Pharmacist", "fastv": "U.S. Pharmacist"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "46737", "step": 25, "margin": 1.5, "full": "U.S. Pharmacist", "fastv": "U.S. Pharmacist"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "46737", "step": 50, "margin": 3.1041667461395264, "full": "U.S. Pharmacist", "fastv": "U.S. Pharmacist"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "46737", "step": 75, "margin": 1.75, "full": "U.S. Pharmacist", "fastv": "U.S. Pharmacist"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "46737", "step": 100, "margin": 0.75, "full": "U.S. Pharmacist", "fastv": "U.S. Pharmacopeia, National Formulary"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "46737", "step": 150, "margin": 0.5416666865348816, "full": "U.S. Pharmacist", "fastv": "U.S. Pharmacopeia & repharmaceuticals"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "46737", "step": 200, "margin": -1.09375, "full": "U.S. Pharmacist", "fastv": "U.S. Pharmacopeia, PEOX, PHONES: COPI"}
+{"done": "46737", "seconds": 1527.3}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49123", "step": 0, "margin": 1.3125, "full": "3150", "fastv": "3100"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49123", "step": 10, "margin": -5.487500190734863, "full": "3150", "fastv": "065500"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49123", "step": 25, "margin": -11.9375, "full": "3150", "fastv": "06500615"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49123", "step": 50, "margin": -19.1875, "full": "3150", "fastv": "065 3600 441"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49123", "step": 75, "margin": -20.899999618530273, "full": "3150", "fastv": "06C"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49123", "step": 100, "margin": -25.787500381469727, "full": "3150", "fastv": "06C366"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49123", "step": 150, "margin": -29.290624618530273, "full": "3150", "fastv": "06MFI 36575, 1424"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49123", "step": 200, "margin": -38.509376525878906, "full": "3150", "fastv": "00M 36275,41280"}
+{"done": "49123", "seconds": 1515.6}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49530", "step": 0, "margin": 4.125, "full": "1", "fastv": "1"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49530", "step": 10, "margin": 1.9375, "full": "1", "fastv": "12"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49530", "step": 25, "margin": -1.125, "full": "1", "fastv": "12"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49530", "step": 50, "margin": -7.03125, "full": "1", "fastv": "12"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49530", "step": 75, "margin": -15.3359375, "full": "1", "fastv": "Figure 12"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49530", "step": 100, "margin": -21.125, "full": "1", "fastv": "Figure 12"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49530", "step": 150, "margin": -16.21875, "full": "1", "fastv": "2.000.00"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49530", "step": 200, "margin": -19.1875, "full": "1", "fastv": "12"}
+{"done": "49530", "seconds": 1518.6}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "50803", "step": 0, "margin": 3.0, "full": "10:30", "fastv": "10:20"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "50803", "step": 10, "margin": -0.3958333432674408, "full": "10:30", "fastv": "Time"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "50803", "step": 25, "margin": -3.34375, "full": "10:30", "fastv": "Time"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "50803", "step": 50, "margin": -4.802083492279053, "full": "10:30", "fastv": "Time"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "50803", "step": 75, "margin": -6.875, "full": "10:30", "fastv": "Time it is now, time to meet"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "50803", "step": 100, "margin": -8.580729484558105, "full": "10:30", "fastv": "Time: Time is not mentioned"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "50803", "step": 150, "margin": -6.4479169845581055, "full": "10:30", "fastv": "Time: 1 1 1 0 2 0 1"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "50803", "step": 200, "margin": -16.121746063232422, "full": "10:30", "fastv": "Time to sail the great New York Time"}
+{"done": "50803", "seconds": 1103.3}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51070", "step": 0, "margin": 4.875, "full": "2", "fastv": "2"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51070", "step": 10, "margin": 2.875, "full": "2", "fastv": "2"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51070", "step": 25, "margin": -1.875, "full": "2", "fastv": "1-12"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51070", "step": 50, "margin": -8.53125, "full": "2", "fastv": "1-12"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51070", "step": 75, "margin": -10.03125, "full": "2", "fastv": "1-12"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51070", "step": 100, "margin": -15.2578125, "full": "2", "fastv": "1-18"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51070", "step": 150, "margin": -7.6875, "full": "2", "fastv": "1-12"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51070", "step": 200, "margin": -6.84375, "full": "2", "fastv": "1-12"}
+{"done": "51070", "seconds": 1091.2}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51298", "step": 0, "margin": 6.162499904632568, "full": "2015-2016", "fastv": "2015-2016"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51298", "step": 10, "margin": 3.6000001430511475, "full": "2015-2016", "fastv": "2022"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51298", "step": 25, "margin": 0.03750000149011612, "full": "2015-2016", "fastv": "O222"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51298", "step": 50, "margin": -0.637499988079071, "full": "2015-2016", "fastv": "O22022"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51298", "step": 75, "margin": -3.1187500953674316, "full": "2015-2016", "fastv": "Oc22"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51298", "step": 100, "margin": -4.081250190734863, "full": "2015-2016", "fastv": "OcT 22"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51298", "step": 150, "margin": -5.943749904632568, "full": "2015-2016", "fastv": "OcT 22"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51298", "step": 200, "margin": -7.115624904632568, "full": "2015-2016", "fastv": "OcT 22"}
+{"done": "51298", "seconds": 722.1}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51702", "step": 0, "margin": 4.596590995788574, "full": "February 13, 1977", "fastv": "February 11, 1977"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51702", "step": 10, "margin": 3.295454740524292, "full": "February 13, 1977", "fastv": "February 11, 1977"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51702", "step": 25, "margin": 0.06818182021379471, "full": "February 13, 1977", "fastv": "February 24, 1977"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51702", "step": 50, "margin": -2.232954502105713, "full": "February 13, 1977", "fastv": "15-21800"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51702", "step": 75, "margin": -3.1022727489471436, "full": "February 13, 1977", "fastv": "15-2180"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51702", "step": 100, "margin": -3.826704740524292, "full": "February 13, 1977", "fastv": "15-2180"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51702", "step": 150, "margin": -5.079545497894287, "full": "February 13, 1977", "fastv": "15h 30m"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51702", "step": 200, "margin": -5.354403495788574, "full": "February 13, 1977", "fastv": "15-2180"}
+{"done": "51702", "seconds": 720.3}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "53993", "step": 0, "margin": 3.875, "full": "Ohio", "fastv": "Ohio"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "53993", "step": 10, "margin": 2.25, "full": "Ohio", "fastv": "OHIO"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "53993", "step": 25, "margin": -0.5, "full": "Ohio", "fastv": "OHIO"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "53993", "step": 50, "margin": -2.6875, "full": "Ohio", "fastv": "OHIO"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "53993", "step": 75, "margin": -5.078125, "full": "Ohio", "fastv": "SUPERCAMERICA, LO"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "53993", "step": 100, "margin": -7.4609375, "full": "Ohio", "fastv": "SUPERCAMERICA, LO"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "53993", "step": 150, "margin": -10.6015625, "full": "Ohio", "fastv": "SUPERSUPEARAMERICA, ULC"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "53993", "step": 200, "margin": -11.052734375, "full": "Ohio", "fastv": "SUPERSUPEMERICAO, U.S.A"}
+{"done": "53993", "seconds": 1101.4}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "55363", "step": 0, "margin": 6.857143402099609, "full": "ANNUAL FINANCIAL STATEMENT 2011", "fastv": "ANNUAL FINANCIAL STATEMENT 2011"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "55363", "step": 10, "margin": 5.879464626312256, "full": "ANNUAL FINANCIAL STATEMENT 2011", "fastv": "ANNUAL FINANCIAL STATEMENTS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "55363", "step": 25, "margin": 2.6205358505249023, "full": "ANNUAL FINANCIAL STATEMENT 2011", "fastv": "Annual Financial Statement"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "55363", "step": 50, "margin": -0.7767857313156128, "full": "ANNUAL FINANCIAL STATEMENT 2011", "fastv": "Annual Financial Statement"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "55363", "step": 75, "margin": -5.058035850524902, "full": "Annual Financial Statement 2011", "fastv": "Annual Financial Statement 2011"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "55363", "step": 100, "margin": -6.0714287757873535, "full": "Annual Financial Statement 2011", "fastv": "Annual Financial Statement 2011"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "55363", "step": 150, "margin": -7.339285850524902, "full": "ANNUAL FINANCIAL STATEMENT 2011", "fastv": "Annual Financial Statement 2011"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "55363", "step": 200, "margin": -8.0, "full": "ANNUAL FINANCIAL STATEMENT 2011", "fastv": "Annual Financial Statement 2011"}
+{"done": "55363", "seconds": 1522.7}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56084", "step": 0, "margin": 2.890625, "full": "alcoholics", "fastv": "Alcoholics"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56084", "step": 10, "margin": 2.171875, "full": "alcoholics", "fastv": "Alcohol"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56084", "step": 25, "margin": 0.890625, "full": "alcoholics", "fastv": "Alcohol"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56084", "step": 50, "margin": -0.5625, "full": "alcoholics", "fastv": "Alcohol"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56084", "step": 75, "margin": -2.78125, "full": "alcoholics", "fastv": "Alcohol"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56084", "step": 100, "margin": -5.609375, "full": "alcoholics", "fastv": "Alcohol"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56084", "step": 150, "margin": -5.296875, "full": "alcoholics", "fastv": "Alcohol"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56084", "step": 200, "margin": -7.828125, "full": "alcoholics", "fastv": "Smoking"}
+{"done": "56084", "seconds": 1520.7}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56808", "step": 0, "margin": 5.982142925262451, "full": "$52.00", "fastv": "$52.00"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56808", "step": 10, "margin": 3.544642925262451, "full": "$52.00", "fastv": "$52.00"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56808", "step": 25, "margin": 4.3125, "full": "$52.00", "fastv": "$52.00"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56808", "step": 50, "margin": -3.6785717010498047, "full": "$52.00", "fastv": "2"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56808", "step": 75, "margin": -8.03125, "full": "$52.00", "fastv": "2"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56808", "step": 100, "margin": -7.125000476837158, "full": "$52.00", "fastv": "2"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56808", "step": 150, "margin": -12.908482551574707, "full": "$52.00", "fastv": "2"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56808", "step": 200, "margin": -20.349889755249023, "full": "$52.00", "fastv": "2"}
+{"done": "56808", "seconds": 1528.0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57258", "step": 0, "margin": 3.9732143878936768, "full": "Birth Death of the 80's, Fewer Teenagers", "fastv": "Birth Death of the 80's, Fewer Teenagers"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57258", "step": 10, "margin": 3.9642858505249023, "full": "Birth Death of the 80's, Fewer Teenagers", "fastv": "Birth Death Deatch of the 80's, Fewer Teenagers"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57258", "step": 25, "margin": 3.3526787757873535, "full": "Birth Death of the 80's, Fewer Teenagers", "fastv": "Birth Deat of the 80's, fewer teenagers"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57258", "step": 50, "margin": 1.7410714626312256, "full": "Birth Death of the 80's, Fewer Teenagers", "fastv": "Birth Deat of the 80's"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57258", "step": 75, "margin": 1.5848214626312256, "full": "Birth Death of the 80's, Fewer Teenagers", "fastv": "Birth Deat of the 80's"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57258", "step": 100, "margin": 0.470982164144516, "full": "Birth Death of the 80's, Fewer Teenagers", "fastv": "Birth Deat of the 80's"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57258", "step": 150, "margin": -0.4720982313156128, "full": "Birth Death of the 80's, Fewer Teenagers", "fastv": "Birth Death Deat of the 80's"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57258", "step": 200, "margin": -1.1875, "full": "Birth Death of the 80's, Fewer Teenagers", "fastv": "Birth Deat of the 80's"}
+{"done": "57258", "seconds": 734.6}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57887", "step": 0, "margin": 3.375, "full": "1 mg", "fastv": "1mg"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57887", "step": 10, "margin": 3.1666667461395264, "full": "1 mg", "fastv": "1 mg"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57887", "step": 25, "margin": 2.2916667461395264, "full": "1 mg", "fastv": "1mg"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57887", "step": 50, "margin": 0.7083333730697632, "full": "1 mg", "fastv": "Trimegestone (1mg)"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57887", "step": 75, "margin": -1.4583333730697632, "full": "1 mg", "fastv": "Trimegestone (1mg)"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57887", "step": 100, "margin": -2.4791667461395264, "full": "1 mg", "fastv": "Trimegestone (1mg)"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57887", "step": 150, "margin": -3.7083334922790527, "full": "1 mg", "fastv": "Trimegestone (1mg)"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57887", "step": 200, "margin": -5.020833492279053, "full": "1 mg", "fastv": "Trimegestone (1mg)"}
+{"done": "57887", "seconds": 734.5}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58421", "step": 0, "margin": 5.364583492279053, "full": "Heating in open air", "fastv": "HEATING IN OPEN AIR"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58421", "step": 10, "margin": 3.5729167461395264, "full": "Heating in open air", "fastv": "HEAT INCREASE"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58421", "step": 25, "margin": -2.0833334922790527, "full": "Heating in open air", "fastv": "HERO"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58421", "step": 50, "margin": -2.3802084922790527, "full": "Heating in open air", "fastv": "HERO"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58421", "step": 75, "margin": -5.415364742279053, "full": "Heating in open air", "fastv": "HERO"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58421", "step": 100, "margin": -11.722331047058105, "full": "Heating in open air", "fastv": "HER"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58421", "step": 150, "margin": -8.1484375, "full": "Heating in open air", "fastv": "HERO"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58421", "step": 200, "margin": -11.43359375, "full": "Heating in open air", "fastv": "HERO"}
+{"done": "58421", "seconds": 1516.1}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58449", "step": 0, "margin": 6.5, "full": "March 31, 1982", "fastv": "March 31, 1982"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58449", "step": 10, "margin": 5.8352274894714355, "full": "March 31, 1982", "fastv": "March 31, 1982"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58449", "step": 25, "margin": 5.051136493682861, "full": "March 31, 1982", "fastv": "March 31, 1982"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58449", "step": 50, "margin": 1.1818182468414307, "full": "March 31, 1982", "fastv": "April 3, 2000"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58449", "step": 75, "margin": -0.7443181872367859, "full": "March 31, 1982", "fastv": "April 27, 1982"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58449", "step": 100, "margin": -0.7272727489471436, "full": "March 31, 1982", "fastv": "April 22, 1999"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58449", "step": 150, "margin": -4.965909004211426, "full": "March 31, 1982", "fastv": "December, 2009"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "58449", "step": 200, "margin": -0.46022728085517883, "full": "March 31, 1982", "fastv": "Nov 20, 2000"}
+{"done": "58449", "seconds": 1521.8}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "59379", "step": 0, "margin": 6.5729169845581055, "full": "2:00 PM", "fastv": "2:00 PM"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "59379", "step": 10, "margin": 6.3229169845581055, "full": "2:00 PM", "fastv": "2:00 PM"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "59379", "step": 25, "margin": 4.6666669845581055, "full": "2:00 PM", "fastv": "2:00 PM"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "59379", "step": 50, "margin": 2.5729167461395264, "full": "2:00 PM", "fastv": "12:00 PM"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "59379", "step": 75, "margin": -0.4166666865348816, "full": "2:00 PM", "fastv": "11:00"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "59379", "step": 100, "margin": -2.6041667461395264, "full": "2:00 PM", "fastv": "11:16"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "59379", "step": 150, "margin": -4.71875, "full": "2:00 PM", "fastv": "1st Dec"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "59379", "step": 200, "margin": -7.8854169845581055, "full": "2:00 PM", "fastv": "19:10"}
+{"done": "59379", "seconds": 1527.9}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "62321", "step": 0, "margin": 6.412499904632568, "full": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES", "fastv": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "62321", "step": 10, "margin": 4.53125, "full": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES", "fastv": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICE"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "62321", "step": 25, "margin": 2.40625, "full": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES", "fastv": "THE NEW YORK STATE DEPT OF SOCIETY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "62321", "step": 50, "margin": -1.681249976158142, "full": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES", "fastv": "STATE DEPT OF SOCIETY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "62321", "step": 75, "margin": -5.21875, "full": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES", "fastv": "STATE DEPT OF SOCIETY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "62321", "step": 100, "margin": -7.865624904632568, "full": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES", "fastv": "STATE DEPT OF SOCIETY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "62321", "step": 150, "margin": -8.987500190734863, "full": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES", "fastv": "STATE DEPT OF SOCIETY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "62321", "step": 200, "margin": -11.293749809265137, "full": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES", "fastv": "STATE DEPT OF SOCIETY"}
+{"done": "62321", "seconds": 1516.2}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "64689", "step": 0, "margin": 3.25, "full": "500 mg", "fastv": "500 mg"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "64689", "step": 10, "margin": -0.7875000238418579, "full": "500 mg", "fastv": "103 + 10"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "64689", "step": 25, "margin": -6.224999904632568, "full": "500 mg", "fastv": "103 + 10"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "64689", "step": 50, "margin": -12.568750381469727, "full": "500 mg", "fastv": "122"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "64689", "step": 75, "margin": -16.350000381469727, "full": "500 mg", "fastv": "122"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "64689", "step": 100, "margin": -20.69843864440918, "full": "500 mg", "fastv": "122"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "64689", "step": 150, "margin": -25.708593368530273, "full": "500 mg", "fastv": "122"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "64689", "step": 200, "margin": -31.810937881469727, "full": "500 mg", "fastv": "122"}
+{"done": "64689", "seconds": 1543.0}

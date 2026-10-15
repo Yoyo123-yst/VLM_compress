@@ -1,0 +1,28 @@
+{
+  "status": "EVALUATED_INDEPENDENT_PROCESS",
+  "sample_id": "63839",
+  "method": "native_fdp",
+  "independent_process": true,
+  "png_path": "week2_attack_v29_batch_compare/attacks/native_fdp/63839/accepted_020.png",
+  "png_sha256": "24d3a49783f197e53230cd01d18e35d3540cea6f5984cecc311ced154818f8db",
+  "uint8_linf": 8,
+  "clean_full_text": "114.7%",
+  "full_text": "114.7%",
+  "full_text_exact": true,
+  "full_token_exact": true,
+  "same_evaluator_process_repeat_exact": true,
+  "fastv_text": "22%",
+  "fastv_anls": 0.0,
+  "fastv_valid": true,
+  "k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "cc14bd72a72332ce2692aca38e801acbaa86a1e0344f2b10d5e7f667f46683f6",
+  "dataset_answers": [
+    "114%",
+    "114"
+  ],
+  "target_text": null,
+  "target_hit_normalized_exact": false,
+  "content_status": "PENDING_QUESTION_SPECIFIC_REVIEW",
+  "semantic_review_required": true
+}

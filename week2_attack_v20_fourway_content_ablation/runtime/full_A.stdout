@@ -1,0 +1,561 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:16,  5.47s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:08,  4.35s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:12<00:03,  3.86s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:12<00:00,  2.55s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:12<00:00,  3.21s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v20_fourway_content_ablation/run_train.py:210: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  reloadable = list(reloaded.getdata()) == list(image.getdata())
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "7006", "method": "A", "checkpoint": 0, "nonzero": false, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 3.021355390548706, "png_sha256": "c3c0eabac78241156d37bd11f9c5c72c8b5a3a13060c3f0ce4f6ad36d4d7fa16", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 1, "accepted": true, "accepted_after": 1, "attack_loss": 3.021355390548706, "fdp_loss": 0.678254246711731, "grad_hash": "ff0856f15debc998c70ad3050383d7d62ce9a8ddbda4df30627a424f8661ba8f", "keep_hash": "8397369675e706f21bf426fb9371333f27aa077fa0c50b820e453394ea60a5f6", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "7006", "method": "A", "checkpoint": 1, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 3.0518710613250732, "png_sha256": "09529eb66dc17ac6b3da0e04352c259f4f5d8509012a2be1568a549502f28438", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 2, "accepted": true, "accepted_after": 2, "attack_loss": 2.9450368881225586, "fdp_loss": 0.5614849925041199, "grad_hash": "04bed83a9d03ab9c5c9ee10d6e7c581dd914475f4f7f326ff4aa13e49585512c", "keep_hash": "2fa7f4e800a6a3cf89451474cb8b4f20b22ffdc32ea09853c3c8d7917c80b343", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 3, "accepted": true, "accepted_after": 3, "attack_loss": 3.0527007579803467, "fdp_loss": 0.5164663791656494, "grad_hash": "4178f9785ab3b71ba504a33c81bf00f6da0f61ebba081f9d95125f0ff2ba818c", "keep_hash": "5843ddfa0959c47fe399c1f3855831c2723a14da651743125ace3891fe12cbf1", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 4, "accepted": true, "accepted_after": 4, "attack_loss": 2.9926059246063232, "fdp_loss": 0.5018807649612427, "grad_hash": "a9c9ebc7fb4d84095940e4630acb5fc9e600a7ed98d04b623b916af9075b75ff", "keep_hash": "44f2fe22e5fdb957aee8ec6de0412c743d61455d9a75843201e95e88ed9b5893", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 5, "accepted": true, "accepted_after": 5, "attack_loss": 2.9864089488983154, "fdp_loss": 0.5055801868438721, "grad_hash": "5d72b9746d964f4d8fc7174987242b369e25ad569f5a95b7537d81099136dffd", "keep_hash": "a2fc562415e4b038a432e0e269dfbbc878271fe917ff83099bfdbdaef61fa095", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "7006", "method": "A", "checkpoint": 5, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 2.926675796508789, "png_sha256": "0257cd54900c39edceba51f3b806fe408f0f85f963c7e9f8de47b205fa7b43e5", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 6, "accepted": true, "accepted_after": 6, "attack_loss": 2.8677287101745605, "fdp_loss": 0.4841589331626892, "grad_hash": "9353b9a299045d16d484a2c0d5c03396ae68b2506d90b115c9672fd5fc182f08", "keep_hash": "7fd892e041cb7f2745446e0fcf704e46c4c7936435dc8164e04f1e245073788b", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 7, "accepted": true, "accepted_after": 7, "attack_loss": 2.8643736839294434, "fdp_loss": 0.47955986857414246, "grad_hash": "673cc3d5bdad3b19dd06a8caddf4866b7132ba991e8e1e8b834b4fb23fe9fbbb", "keep_hash": "1581bf3d27eb7a9a273cec618441d1e26e107067e7c4bc04a002bc71e0765755", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 8, "accepted": true, "accepted_after": 8, "attack_loss": 2.818819761276245, "fdp_loss": 0.48977968096733093, "grad_hash": "23ccc5fa6fca3870250dad8443e213ae74fcb86a155e3fd4a740f1d34498e01b", "keep_hash": "40f3e280d9506884e6c2641439151c34b6a5f8f5b0ba70038bdcbce1a4332123", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 9, "accepted": true, "accepted_after": 9, "attack_loss": 2.864088773727417, "fdp_loss": 0.4872751235961914, "grad_hash": "0d298f375215fc34e9ef49dd89f0e97878c94bd3c30378d77758467a13f2ec16", "keep_hash": "844fd836ca3f02a2b3892867d1488cf02e0236efacd5b5a30fca0944a8085ccd", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 10, "accepted": true, "accepted_after": 10, "attack_loss": 2.793705463409424, "fdp_loss": 0.45935291051864624, "grad_hash": "321a8554554dc68b7342595d972d29068c054828293c98ca48f8864f524623d8", "keep_hash": "64ab2c6cbfc58745dfd0e2d8f6ab4d9a0f2f2f3c5bb97e280b3f87dd0b5a25b7", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "7006", "method": "A", "checkpoint": 10, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 2.6736526489257812, "png_sha256": "0c47f6dcdb22d5e4c7b7148628c349caae8ed1576e7df2a3e5f8392d99ad6dfe", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 11, "accepted": true, "accepted_after": 11, "attack_loss": 2.700312376022339, "fdp_loss": 0.4677821397781372, "grad_hash": "d7a0e676c5d0ded4509cf631eb199473dc32aadb096c3e8aa147f0ab56c888be", "keep_hash": "89f203fb71564091e11248b0f97490c9d8b54caa05516c0a168a0500f7d7142f", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 12, "accepted": true, "accepted_after": 12, "attack_loss": 2.7711963653564453, "fdp_loss": 0.42462190985679626, "grad_hash": "21eac8a18fdc14c37ffcb045167f6953f8ba7b1bc732ac3b76e6cfad5839de60", "keep_hash": "9c60f9207b55926f6d334a847149682290b20684f5f857bc11bc0ff07b8702bc", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 13, "accepted": true, "accepted_after": 13, "attack_loss": 2.6157989501953125, "fdp_loss": 0.47215789556503296, "grad_hash": "892654509edfdaa93babcaadcc54f42b7b92d516bf08a6252b5c236ecab72f42", "keep_hash": "beb2d2e35f4048f3d08a4e397108d8979cec94ea79f0766aa52c4637068ddfdf", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 14, "accepted": true, "accepted_after": 14, "attack_loss": 2.5594730377197266, "fdp_loss": 0.4378851354122162, "grad_hash": "ae85a6308f15b733e8b970c8eefebafe564531cbd93efe424a765370b1527e97", "keep_hash": "dda9e9fe51bbb614c2af836f5c0c452d9a2b1d7ee0f37aecf2e0376ed2a1e221", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 15, "accepted": true, "accepted_after": 15, "attack_loss": 2.4366602897644043, "fdp_loss": 0.4653494358062744, "grad_hash": "8569fc5bd84e43b8e215191bff085297a92cbfc8261e30d842ea4a4dde597d89", "keep_hash": "f2198e68e7e089c60165e3be9048af8ba7dade4c830c062d3af10c308d0f2b7e", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "7006", "method": "A", "checkpoint": 15, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 2.466679573059082, "png_sha256": "932bbb554969ea3d239c6ad19af24f417cf477e0d24c7af363f031593cb9c13a", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 16, "accepted": true, "accepted_after": 16, "attack_loss": 2.4318184852600098, "fdp_loss": 0.4319155216217041, "grad_hash": "f4ff60191d827bfaca854493bd51aa02bb51284f0cdba79069f3e287f8bea4e9", "keep_hash": "539118f569f71f8146b229abd3f17ebf64a8119bbd1d96b5ae27af044500c589", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 17, "accepted": true, "accepted_after": 17, "attack_loss": 4.692689418792725, "fdp_loss": 0.4895351529121399, "grad_hash": "dce25d1fe8d2db9e8ec5cd043e9a402972d68010506b4f715abc5fcff8599176", "keep_hash": "87142a682dfb8aa8241f03980a9551429261b361a97f0995fb6e40c1cc1407f8", "fastv_text": "TOBACCO COMPANY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 18, "accepted": true, "accepted_after": 18, "attack_loss": 2.561500310897827, "fdp_loss": 0.43493008613586426, "grad_hash": "8e82ba106d629fed94fddad455aa8281d0ec12164ab2453b98036ee652181222", "keep_hash": "22460d8565d040f4ebaf703770247b0874d195371e0b4263a55f82adb95cff41", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 19, "accepted": true, "accepted_after": 19, "attack_loss": 2.4855642318725586, "fdp_loss": 0.4073050022125244, "grad_hash": "04a4c740529d604e71bebf0552a46500446714114c720890bfde0140286ba3b6", "keep_hash": "d51498686300caa680f3c07029ad0499708cdbb30917f0ba43bb29b9ad22b598", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 20, "accepted": true, "accepted_after": 20, "attack_loss": 2.347811222076416, "fdp_loss": 0.4237630069255829, "grad_hash": "eb59845d72fab9b0423ed2ea03dbd635a8fe6db9d22a70ce656657253e4333f7", "keep_hash": "32d65a6e7d397ff6c56e332380d41e315b31ab56b8a9c9d0319ea3b12f98f7f1", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "7006", "method": "A", "checkpoint": 20, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 2.315485954284668, "png_sha256": "c8f3b871b306e8824551d48efed511c498a84910f38e98247229e4b667c3dc3e", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 21, "accepted": true, "accepted_after": 21, "attack_loss": 2.358201026916504, "fdp_loss": 0.4151810109615326, "grad_hash": "d3a9f734ecf98b333489adc3de819200b951e2432c0494fab1bdf8b2719bdb06", "keep_hash": "6f642f8a75dc5ab6dd34013e33f64d91e8bc4b3f4cc0805380dad0bb27d01574", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 22, "accepted": true, "accepted_after": 22, "attack_loss": 2.2959065437316895, "fdp_loss": 0.47955089807510376, "grad_hash": "340daa774a87d033edf3008009379161d24cb55c5b5eed11a1bb258f039c8650", "keep_hash": "a1330c4cd3b188bd2fad8263986185a1e7c4c7a0c7983c4111cace607e599ac2", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 23, "accepted": true, "accepted_after": 23, "attack_loss": 2.3107919692993164, "fdp_loss": 0.4379563331604004, "grad_hash": "04b1279eae0ed8cb5e83805f2e86ecb6c4d31be45c1c5595b1609535c08e2b0b", "keep_hash": "9ea3f13c1e87180c42ed13f81361ea5c0429588d3cd9b6f7cd4087e96ab539c5", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 24, "accepted": true, "accepted_after": 24, "attack_loss": 1.9886505603790283, "fdp_loss": 0.47118228673934937, "grad_hash": "18564a3c65e69ffd37111f9ccaad7d1f98ad65aa79ed42412ab14fce3fd63855", "keep_hash": "5e3656972c9cdb60e6c5db91007903b23c6d2ffb6b205ea267e0ab5a81cd6fa7", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "7006", "method": "A", "attempt": 25, "accepted": true, "accepted_after": 25, "attack_loss": 2.3849706649780273, "fdp_loss": 0.3820740580558777, "grad_hash": "720c993da9a315dd0a1e12850a20f50241f95c4587d2952bc214d334125cc3b9", "keep_hash": "4eb7c3cf6864c99726d1a4c02755c0ff8af2551f32aa8d41741bb367db59aa8f", "fastv_text": "RJ Reynolds Tobacco Company"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "7006", "method": "A", "checkpoint": 25, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 2.0254740715026855, "png_sha256": "4ba135b824b737698fc71371e31b27ecc819d40869cf6fb55a6d73151788c7f8", "fastv_text": "RJ Reynolds Tobacco Company"}
+{"event": "done", "sample": "7006", "method": "A", "accepted": 25, "selector": {"checkpoint": 25, "attack_surrogate": 2.0254740715026855}}
+{"sample": "7006", "method": "A", "status": "DONE"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "39204", "method": "A", "checkpoint": 0, "nonzero": false, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 6.132599830627441, "png_sha256": "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 1, "accepted": true, "accepted_after": 1, "attack_loss": 6.132599830627441, "fdp_loss": 0.6877755522727966, "grad_hash": "e690ef0c0f0d123590cdbf22a547288e8ccf1a01368171a7f1e4473685041dbc", "keep_hash": "f24d02d4e363776dd3553803301f2dcbbfaf89ad23acde73e270835faeffae73", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "39204", "method": "A", "checkpoint": 1, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 6.035139560699463, "png_sha256": "661e81709092b05339c76fc736a09d076f4d6fb48aa728ba3af314411b44c6d9", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 2, "accepted": true, "accepted_after": 2, "attack_loss": 6.112665176391602, "fdp_loss": 0.6776140332221985, "grad_hash": "f89195919ec1e0fd40b3e6c9ca32fe5247eba4de575ba0aac9913c57877bf8d8", "keep_hash": "c4f35a2284c5a5ac9c5fbc01124b1703c8101f596d51dd0279d8e414d19a0e25", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 3, "accepted": true, "accepted_after": 3, "attack_loss": 5.997931480407715, "fdp_loss": 0.6107039451599121, "grad_hash": "f093848ff5c3a137a9b6a1ffd351f993262c757a24b610e8b229e3b84226677e", "keep_hash": "0b6677d8a84b8af60fa709ecf8dd0da8d0acb55618296a9ef992e434928dd431", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 4, "accepted": true, "accepted_after": 4, "attack_loss": 5.818412780761719, "fdp_loss": 0.583042323589325, "grad_hash": "d1a7a3be6c76ef7fbf76eec43bb600179d57bc1e600842282e0f6eac6ee812d7", "keep_hash": "bcd98bf43bd7e7dfd0413e1b05a1fe7d60972d9eedc2465dc8a3e220cdc38a72", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 5, "accepted": true, "accepted_after": 5, "attack_loss": 5.665376663208008, "fdp_loss": 0.5857124924659729, "grad_hash": "998842e7bce49a30ff962b49c7289de606912245bcf49dd03b79f4a1cb0443d0", "keep_hash": "d221f7d30b056c59b70f5c467ad73c0a0c713219903b3c4e978b04f2b747d553", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "39204", "method": "A", "checkpoint": 5, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 5.7248616218566895, "png_sha256": "9aba3576da37d569285ca3497bcae09d159b5dc87a13ea6150743b1518afb641", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 6, "accepted": true, "accepted_after": 6, "attack_loss": 5.705080986022949, "fdp_loss": 0.5818944573402405, "grad_hash": "d390353230220ffb251c6fb5da327f5d71ab8589deb76de90ebc65e583aaa7d4", "keep_hash": "a3ce8add90385f427620e192e2293a21a245ddf959b844a40b33de039ce1c8ee", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 7, "accepted": true, "accepted_after": 7, "attack_loss": 5.61958646774292, "fdp_loss": 0.5903404355049133, "grad_hash": "ca064172786f66f7005934065652754a0ac390765921e984f84de7768fa66499", "keep_hash": "fc71dfd03d16c9fd4b998085247a4d640ffc5f6de14eaeb7fa143772e3a29a6f", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 8, "accepted": true, "accepted_after": 8, "attack_loss": 5.639847278594971, "fdp_loss": 0.5253652334213257, "grad_hash": "e9c1fb99b2e4ad1a2cc267fee087f2f577410555c14490e3252477835f3f7ea2", "keep_hash": "c682c7397f1442b8872ed12c616b38db5f236cd4f9d8464b9324c7b55fbc6663", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 9, "accepted": true, "accepted_after": 9, "attack_loss": 5.494198322296143, "fdp_loss": 0.5429904460906982, "grad_hash": "d4746a313405f16bc1fe26871d62512397427d630fdd5ee15b1a992c9bf64040", "keep_hash": "3580cc5c42ac026044808fbd4a115b581ffe0c297a0556f6f795cf4ad38ac1e0", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 10, "accepted": true, "accepted_after": 10, "attack_loss": 2.92578387260437, "fdp_loss": 0.5359284281730652, "grad_hash": "3b14c70a228c29f35eed504ee60c6adcce165520db8857c2f7427dc2636a7883", "keep_hash": "13213e6a1a0b7a2314d2a7da93567327fe97c269b11f40f2f641d9d6586cb5fc", "fastv_text": "food technology"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "39204", "method": "A", "checkpoint": 10, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 5.517860412597656, "png_sha256": "19fe40b9f1d68e7c3797345a9e488d036949a05267d2da5f26c959687e5edcc6", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 11, "accepted": true, "accepted_after": 11, "attack_loss": 5.493934154510498, "fdp_loss": 0.4959074556827545, "grad_hash": "5ac3d9f28db3dcbf20c8e41cbfa39d04f2e490712a680ce39e102009f3be6574", "keep_hash": "c7095b2c4b350c0babe9c4393002f14193101890a80b0352693263a850ee762b", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 12, "accepted": true, "accepted_after": 12, "attack_loss": 5.294166088104248, "fdp_loss": 0.47005701065063477, "grad_hash": "a3db0cf68e1d324578705c4880ee7b74a97fa1615d4c9c56a21be7b0c841cfac", "keep_hash": "4ea5e1bf3cb5d61aa7a2ffd71e84a0b89646c12ba087e834bf0b5d188cf4d079", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 13, "accepted": true, "accepted_after": 13, "attack_loss": 1.7618364095687866, "fdp_loss": 0.4868175685405731, "grad_hash": "1f6b76679d481cad4ff589798756d42c266f633b2bdcff9b7247edc74be020b9", "keep_hash": "4468d2914c3bd2d6b0ddda8354c3a1e021832d838e7ebf044c9626970ef18f26", "fastv_text": "Food technology"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 14, "accepted": true, "accepted_after": 14, "attack_loss": 5.643157958984375, "fdp_loss": 0.4392092823982239, "grad_hash": "c2f783682fc8648124228bff595d386ab0c1b2d453bd2c1005711e15e3c97f44", "keep_hash": "31aac4ac0dac27e5dcb157b7ec5fbd7b7e44e24842d013f237b0f0a0f129428e", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 15, "accepted": true, "accepted_after": 15, "attack_loss": 5.2277421951293945, "fdp_loss": 0.49323686957359314, "grad_hash": "e0cae0bd8c086a3d1fdb05700904ff04e08741fba5107edb79fd81e7fb12cc04", "keep_hash": "77c2fcd3da8a73478edc51073f0821650b1e2cd584d1d69ea789171c5877cb32", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "39204", "method": "A", "checkpoint": 15, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 5.057040691375732, "png_sha256": "a7b4351fe18431ada535da383f891561bd04a4847eb53b8777200d2176868932", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 16, "accepted": true, "accepted_after": 16, "attack_loss": 5.02249002456665, "fdp_loss": 0.49571165442466736, "grad_hash": "26db5864bfe7fff0301e7683247c435780fc059c3be3224cc52d6a03ae544fa6", "keep_hash": "6765768bb03940fd7ea8a08bd04ca9155873dd1caec4c9286628cc386b421de2", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 17, "accepted": true, "accepted_after": 17, "attack_loss": 4.74638032913208, "fdp_loss": 0.4890742301940918, "grad_hash": "098137f029f51d3d9f0d8ab6d86a25744d2004a99290eb7c6cee1f8f58ed8540", "keep_hash": "22c2a872567307ae372109c47e6e435336c244688375dcb3dca7a7de1e60010b", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 18, "accepted": true, "accepted_after": 18, "attack_loss": 4.840929985046387, "fdp_loss": 0.4365645945072174, "grad_hash": "bdf4ca75e57ad23c15471616840e306062d1979c3b7e1fa82c19e0e6b2bf2851", "keep_hash": "63cc829044af1339eadabe8a47cf4cacdeda79f9e6a9c197d13626c8daed3295", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 19, "accepted": true, "accepted_after": 19, "attack_loss": 2.335739850997925, "fdp_loss": 0.5669136047363281, "grad_hash": "b3c7ee02b8175450521f40b90af2126a861affb0a09bf764c320d1b97c684206", "keep_hash": "7fc64ef260a8f78ef4ae121bc7045c5724122f5558e56667f2c7787e5067ef68", "fastv_text": "food technology"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 20, "accepted": true, "accepted_after": 20, "attack_loss": 5.509969234466553, "fdp_loss": 0.4153974652290344, "grad_hash": "29d7e1158c6bffc1238e19fc10f9fe5027cfb08c2e3077eacfa4d0f541043be8", "keep_hash": "6cdb38f4366b79708465262cd009a3e97dbf090b28e6107cfd7e678b9982b958", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "39204", "method": "A", "checkpoint": 20, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 1.5237592458724976, "png_sha256": "67f8dcc39e01b68a070ecce47c41320fbcb817b6c8a8ef30f87c064b34d47b9c", "fastv_text": "Food technology"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 21, "accepted": true, "accepted_after": 21, "attack_loss": 1.5349490642547607, "fdp_loss": 0.4702979028224945, "grad_hash": "a2dd32b82eb49ec250df4ec783e43c3f7e7ead40c3dd9f9e3465c460f0bb0b48", "keep_hash": "ce61baab57882546b4931b684e0bb5fa521db3faf25013fab85d95ca1cb1cec8", "fastv_text": "Food technology"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 22, "accepted": true, "accepted_after": 22, "attack_loss": 4.996209621429443, "fdp_loss": 0.37241122126579285, "grad_hash": "a730538b21660cda59b1ef00004909e49eb8ab4f7eb34b35326bd8c042a5bc79", "keep_hash": "9d73484f9849ef0c13e3c94c1b061e053cbc528d27669cda0edafbf2dec6782f", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 23, "accepted": true, "accepted_after": 23, "attack_loss": 4.822822570800781, "fdp_loss": 0.3602220416069031, "grad_hash": "274a41ef0f4869879d19b164c679e94b9203d68cac9cf78b1b9d3c262d30ed31", "keep_hash": "58519a1c942e4523dfccc03a2073b4c492c26aa74006d0750da1d5b5d253ae2b", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 24, "accepted": true, "accepted_after": 24, "attack_loss": 2.2155380249023438, "fdp_loss": 0.45776525139808655, "grad_hash": "1448a3ae3f66df0f547d4109dc6b4bbd116296d4548ed29056e310992eb2cdff", "keep_hash": "ef573fc8877733d12fb2e9ca53eb28fd1359a299eb00ba48f15fdc44a79ecf7f", "fastv_text": "food technology"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "39204", "method": "A", "attempt": 25, "accepted": true, "accepted_after": 25, "attack_loss": 4.801734447479248, "fdp_loss": 0.36890745162963867, "grad_hash": "60db1be6cdbf7f85bdd93b0085c0111c1d74092cf0510d75e8ee5e8c69a1ebe6", "keep_hash": "119479734b88970f93cf513f14681b0b3e418d20835c7b81a7c914140b57ff52", "fastv_text": "FOOD TECHNOLOGY"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "39204", "method": "A", "checkpoint": 25, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 1.576926589012146, "png_sha256": "323c0d95f4bf049cb54e881e94049821d85ceb0ed3cc8319b6ad6d283b0bc1e2", "fastv_text": "food technology"}
+{"event": "done", "sample": "39204", "method": "A", "accepted": 25, "selector": {"checkpoint": 20, "attack_surrogate": 1.5237592458724976}}
+{"sample": "39204", "method": "A", "status": "DONE"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "47450", "method": "A", "checkpoint": 0, "nonzero": false, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 4.346019744873047, "png_sha256": "7bab8be8ede326621c16376d55769d696a6a969772ab2116685a1628eba55f8d", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 1, "accepted": true, "accepted_after": 1, "attack_loss": 4.346019744873047, "fdp_loss": 0.6855561137199402, "grad_hash": "a494fd0639e2ad78dc32ab520db09a495ea22b873fa8042661d8db3dc91d45df", "keep_hash": "23d358e23fca3e121b80fbb02a1f878d92f580da8fd24f01375e8ddbde88c9bd", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "47450", "method": "A", "checkpoint": 1, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 4.511049747467041, "png_sha256": "ef2f8a762a0858b161f39945f899e80951ee6153528b8a4683e3e2ad94da2ecc", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 2, "accepted": true, "accepted_after": 2, "attack_loss": 4.496190071105957, "fdp_loss": 0.568979024887085, "grad_hash": "c563c83858a70e843782f439986a61a38a94086409895616196b5dc069d51df5", "keep_hash": "ae973fdc5caf0d144221ff54562022ff4260ff42d0bf6dee1e575ce2f458f538", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 3, "accepted": true, "accepted_after": 3, "attack_loss": 4.369058132171631, "fdp_loss": 0.5300964117050171, "grad_hash": "5da2fc6929879c9b1b94963c2b23b588d2f7d57cf42ecf51f4d29b88693a55cf", "keep_hash": "d7abbc6b0e7d81b91afd0f9a8716286d24a1dca2aa4468a7674c4cffd890f61c", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 4, "accepted": true, "accepted_after": 4, "attack_loss": 4.240042209625244, "fdp_loss": 0.5141139030456543, "grad_hash": "9c5d39ae103e64c4f8876459d50ce0b9ad36e028d968e68299621683a514e810", "keep_hash": "cb7c2416507440c2581d785c42f222ae555f68f1a1c902ab9fcadbed1db41f93", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 5, "accepted": true, "accepted_after": 5, "attack_loss": 4.248556137084961, "fdp_loss": 0.4581042230129242, "grad_hash": "294761e6eda771fdd60b5d7998095722a172ac4525aff854fc25046ad080ce99", "keep_hash": "ffb1de99b73bb2413fb75bb95c6d960c2247eeeebe7abcae013a8cf646643304", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "47450", "method": "A", "checkpoint": 5, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 3.94518780708313, "png_sha256": "115380d95700ecfb9d423f9178ba5229c919154f43a39d058c0021515e869011", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 6, "accepted": true, "accepted_after": 6, "attack_loss": 3.954861879348755, "fdp_loss": 0.5298519730567932, "grad_hash": "855859e34bf754310c7d9f581c294e74e25c720d6a4541df3d831bf9e097502e", "keep_hash": "c302e9748b6a5709a5f7c262d455ad1052e4fcddef9edac85c5ec9be3f7c2eef", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 7, "accepted": true, "accepted_after": 7, "attack_loss": 4.0995683670043945, "fdp_loss": 0.4778456687927246, "grad_hash": "ca4e33410a735498b589c95343fb5454ae174d4f4263cb4f0e9fdbc899b85435", "keep_hash": "1d264d58218c1804234122cd8615be4e12b25ee90fe7646c5ca27958130a9649", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 8, "accepted": true, "accepted_after": 8, "attack_loss": 3.8447489738464355, "fdp_loss": 0.4850158393383026, "grad_hash": "bb547c6765b0c47dfe2b99fc890e2b78613088c8c92199349c6feda12d988d09", "keep_hash": "401fb7922a1c5b82ba00c5d9b26dbdfd83b0523f57c0529cf5d651281147d515", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 9, "accepted": true, "accepted_after": 9, "attack_loss": 3.788501501083374, "fdp_loss": 0.4759575426578522, "grad_hash": "aa58f4fc452ad8b6b1a595e13317b4f51d63c0c87f97d70768d7f63529de96c8", "keep_hash": "7bcbe266e347efcd9d89753f7e4f5afc6b345403080d5c289af9ae67d705041b", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 10, "accepted": true, "accepted_after": 10, "attack_loss": 3.5739970207214355, "fdp_loss": 0.47688767313957214, "grad_hash": "41fa10808bde356f3460d0f35c9055e45a4d053f6e229407cc7725351723e2e3", "keep_hash": "a609e05d39ff6f6b0575199972458c1717193527afe737660c925a92b46b2855", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "47450", "method": "A", "checkpoint": 10, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 3.73553729057312, "png_sha256": "bf27cc77fbbc16a32971345c2cbb584228865184643eae4039684f496c7fb88e", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 11, "accepted": true, "accepted_after": 11, "attack_loss": 3.73698091506958, "fdp_loss": 0.4316217005252838, "grad_hash": "c32b24c74f457d3fdd0ef070a75bce79c2997220020ffdf5a8ceeb7fa7f6da3d", "keep_hash": "278814bfe96633e74b09c8cf5dd23c6470d497706951c73dffa44ce660f88e74", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 12, "accepted": true, "accepted_after": 12, "attack_loss": 6.173371315002441, "fdp_loss": 0.5270166397094727, "grad_hash": "215215bfad95e2001639fa176fe8b9b0e87c7e1dd3c48385b39f00fda291cae0", "keep_hash": "601aac3e982fb8022c6d5053d940c12b54b5308e2149e616696514e5eea05ba9", "fastv_text": "THE NUTRITION FOUNDATION, INC."}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 13, "accepted": true, "accepted_after": 13, "attack_loss": 3.8723907470703125, "fdp_loss": 0.40309858322143555, "grad_hash": "9b7b6a0ece98277b77f3a59ec912249ef2fdeeafd69ab4ee76974d7ca85d0daf", "keep_hash": "94b95635718fb1fa08c1a04cec9182d820bba440c1d1bd692424e9c91292e3fd", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 14, "accepted": true, "accepted_after": 14, "attack_loss": 3.3569705486297607, "fdp_loss": 0.45845648646354675, "grad_hash": "4f72357ae3cd8834581c7a99eba9de162400a9f11d98fd985a18083f495948f1", "keep_hash": "b7f12858ee7018a2385873b0095f7f58a525a3cf34d64dfdacec45e967db9f5e", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 15, "accepted": true, "accepted_after": 15, "attack_loss": 6.13535737991333, "fdp_loss": 0.4109548330307007, "grad_hash": "1458e5cf01bdc822f549bbb36cb56ee38c193985b2b3e4c91204112f93b2d7a0", "keep_hash": "14d22f780b03fc18a8f8a308459ceb82fae1f3926e9bc73da44dab0517e1faff", "fastv_text": "THE NUTRITION FOUNDATION, INC."}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "47450", "method": "A", "checkpoint": 15, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 3.72495174407959, "png_sha256": "0ace2729346ecb0656e82ab5bafe2604cb37768a81eea3203f700b4d6581d277", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 16, "accepted": true, "accepted_after": 16, "attack_loss": 3.773284435272217, "fdp_loss": 0.35434678196907043, "grad_hash": "389bcb5523caebc74a8f40a2952e1b0308799b59f35dc177868095697df0e015", "keep_hash": "c3cbc3836da8b3646089021cf84dd8469f775904db229719134456d3d8b3bed4", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 17, "accepted": true, "accepted_after": 17, "attack_loss": 5.9220499992370605, "fdp_loss": 0.46337342262268066, "grad_hash": "2cba27023a194f612059982cf68a1ed742120e9bd7bd37fbbef3d6dc7c0a2d0f", "keep_hash": "48142e3a187ba7c67234fa71d006008a63e82545e99ae15ef7d0ebbca1a11016", "fastv_text": "THE NUTRITION FOUNDATION, INC."}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 18, "accepted": true, "accepted_after": 18, "attack_loss": 3.747974157333374, "fdp_loss": 0.3566235899925232, "grad_hash": "7580612775b4cdbe64859cf78093ecf6836c61b9a90e31f435c83d7d3a8f3a37", "keep_hash": "fca0f802119820c7775e1be484af92e72c7e0a2b5ccb500b3b8c2970a28f022c", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 19, "accepted": true, "accepted_after": 19, "attack_loss": 5.808836460113525, "fdp_loss": 0.36897972226142883, "grad_hash": "c8c07d507130ec5f3e31771ea39099747bb10058b0ec78ee1ee15d769e9b1bed", "keep_hash": "93b5668455bf0596627df6f5f80165d61657cf65ab3c07f69f56eb47ede22481", "fastv_text": "THE NUTRITION FOUNDATION, INC."}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 20, "accepted": true, "accepted_after": 20, "attack_loss": 3.7456607818603516, "fdp_loss": 0.3597449064254761, "grad_hash": "15b63b0e61d058ecad6fbef7259126a7f1c8610555c6b41adfad73db19d714b9", "keep_hash": "eef729d233ff990dc96e7df714ac35e8735e9d8621bd56a5286f8b1a38a747a9", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "47450", "method": "A", "checkpoint": 20, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 1.6048414707183838, "png_sha256": "1394053809c08b0eb7fcd26a8b80d3ef216fbba7fa4364aaa9d07493f8946271", "fastv_text": "Nashville, Tenn."}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 21, "accepted": true, "accepted_after": 21, "attack_loss": 1.3352237939834595, "fdp_loss": 0.40386947989463806, "grad_hash": "93724df96441c7119834ea38bf183248b7e119b75c4bf2579e90df5822c9c565", "keep_hash": "5b31ce3169a795bd6c5d411885c6fb51e8a61870b12903f9cba0c32be67442e0", "fastv_text": "Nashville, Tenn."}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 22, "accepted": true, "accepted_after": 22, "attack_loss": 3.6308436393737793, "fdp_loss": 0.3417995870113373, "grad_hash": "5036a9799d3ea5f06b316155b22994fd2bc94dd304e36eb0773757755e45274f", "keep_hash": "a32c9235553c2241ccc8b18fb7beb9c4f7810b8fc8edf49215e8473612abce7d", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 23, "accepted": true, "accepted_after": 23, "attack_loss": 5.729714870452881, "fdp_loss": 0.39528098702430725, "grad_hash": "0c3a2763892fe0100403eb76476cbdf2e3bc19891db42818a11df97a35b7455f", "keep_hash": "3b278b283df0d77d0c824619c24336a9b32cd82cce985d59413c3378717375b3", "fastv_text": "THE NUTRITION FOUNDATION, INC."}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 24, "accepted": true, "accepted_after": 24, "attack_loss": 3.7736737728118896, "fdp_loss": 0.33411192893981934, "grad_hash": "41fa4ded322df1140a14ce89b4cc7f2604c968ccf722ed9444ddfd66574ac365", "keep_hash": "bfb0f915a7a3cdfcc1e1f0bff16286d1547937b3ecd77918de3a9d5ef88a9d52", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "A", "attempt": 25, "accepted": true, "accepted_after": 25, "attack_loss": 1.2125192880630493, "fdp_loss": 0.3381253182888031, "grad_hash": "9e88c67b22c0b943e3d95173cf4477ff86cac0a7c2017b824c2a97fbaed178dc", "keep_hash": "be62f5051053a78ce2017acac5ebf1e54d2846164678352be50f32360f3f1319", "fastv_text": "Nashville, Tenn."}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "47450", "method": "A", "checkpoint": 25, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 3.5161967277526855, "png_sha256": "f59c313ee81aab9c00a192349d0c5ef2b2e6b4fb5384397fbbdcb8cc08e1578d", "fastv_text": "TOMPHAMSON STATION, TENNESSEE 3717"}
+{"event": "done", "sample": "47450", "method": "A", "accepted": 25, "selector": {"checkpoint": 20, "attack_surrogate": 1.6048414707183838}}
+{"sample": "47450", "method": "A", "status": "DONE"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "60700", "method": "A", "checkpoint": 0, "nonzero": false, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 2.0172643661499023, "png_sha256": "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 1, "accepted": true, "accepted_after": 1, "attack_loss": 2.0172643661499023, "fdp_loss": 0.6729645133018494, "grad_hash": "19f67f98b1f0863eb5b34b39efbc38a059d84f539bcdf44ea131dfa9078960d1", "keep_hash": "9ee935326eac4dc0687e3d8153e3eb074db87628e98294c48aa4768cc2f3ffdc", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "60700", "method": "A", "checkpoint": 1, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 1.9348373413085938, "png_sha256": "67c1278b5933fb32247b0c0d333e739f80745707225168c24ee9c43a8448cb5b", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 2, "accepted": true, "accepted_after": 2, "attack_loss": 2.032581090927124, "fdp_loss": 0.46811598539352417, "grad_hash": "2a47c8476e4298091b3e181be1a975cf4f8ecb7aedfa097c035cbcfe8f26219b", "keep_hash": "88b0fa26456585cbda54e9d6ca79e01c549bdaade9e558aae8b9b661dc279a48", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 3, "accepted": true, "accepted_after": 3, "attack_loss": 0.51711106300354, "fdp_loss": 0.33899497985839844, "grad_hash": "b3f3cde06df64b799a2044fbc5cd1e6c4ab94530997c7fa093a71577fce5f4ea", "keep_hash": "0aeeecbf53b2fd348ef678fbac200f9af4c8ec7db15fdb26fec9cab10f33ef86", "fastv_text": "Ppbs"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 4, "accepted": true, "accepted_after": 4, "attack_loss": 1.8740848302841187, "fdp_loss": 0.18228577077388763, "grad_hash": "a10474714133d8e3e86dd3dbbe3b06332a8bb915856b0f1e03dbc3dfa9ff6180", "keep_hash": "1effcdc4dac2767ea8fcb6de7addab5c7f6cb64280d72bce6aa265431c2eac3f", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 5, "accepted": true, "accepted_after": 5, "attack_loss": 1.8300187587738037, "fdp_loss": 0.17114417254924774, "grad_hash": "ae7ccf3107e718e338770c4f9c285d5286d42c058b3b56d9508737e717907e87", "keep_hash": "ce7bdfbea682e7a8263436661c8714bb694a14455e84088268a39cec6292f810", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "60700", "method": "A", "checkpoint": 5, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 3.487786054611206, "png_sha256": "efa1c51032863ceffe8afad0506777931e40e8ab0091537f7285ec655674600e", "fastv_text": "PPBS 14, 1957"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 6, "accepted": true, "accepted_after": 6, "attack_loss": 2.9503793716430664, "fdp_loss": 0.16940820217132568, "grad_hash": "ccb8df8bcd1c416b34fde6b74b19c660a0649658f20650d520fa0665edcacae2", "keep_hash": "2dae2ed37cc1bdae2debf08ee04a8cd7e1cdfb181c50d6812dc022621a8d9a58", "fastv_text": "Ppjs 14, 1967"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 7, "accepted": true, "accepted_after": 7, "attack_loss": 1.7574809789657593, "fdp_loss": 0.13254186511039734, "grad_hash": "b8f9b4dd25b62c4362c1d7a825e096180724361a21b5d54d0726a23e47a9938f", "keep_hash": "41c706253362dc0f12fe3fea5293008d53dd3b39a192f321ac7c815ffbe98646", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 8, "accepted": true, "accepted_after": 8, "attack_loss": 0.3735142946243286, "fdp_loss": 0.15926584601402283, "grad_hash": "8240658e385835fbe507cd1ee8a261339d36ff9eeb420efb433490aea636504f", "keep_hash": "bd12c1f557d1a463e03bddfb5b1abb9fcfd7d6227c99972a81c4a233b054f9b0", "fastv_text": "Ppbs #6(3)"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 9, "accepted": true, "accepted_after": 9, "attack_loss": 2.015866279602051, "fdp_loss": 0.09071030467748642, "grad_hash": "a44ad500689cc7513ae6a5d2ad13e3856d086755a6cfc3040bcdd5238efbc01f", "keep_hash": "f8a8a4ca926ca0b2f1553633adc4200b735bdbab9ed0462ae1431fa7623c5d3a", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 10, "accepted": true, "accepted_after": 10, "attack_loss": 0.09861135482788086, "fdp_loss": 0.12423907220363617, "grad_hash": "ee1be53c532f12ace6c96557a0d206c0b8d2159adc59fd4a7ccf20ab9ee7528c", "keep_hash": "c26fb9217472444b759dcd1872a498b073e0200aa075f360c5941cf47306bb5f", "fastv_text": "Ppbs"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "60700", "method": "A", "checkpoint": 10, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 2.6395463943481445, "png_sha256": "cf32d9a30d7fdc9ef2434b64a6d86c7b905ffdf311df5252ff6084ea4f96907a", "fastv_text": "PPBS #14, 1967"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 11, "accepted": true, "accepted_after": 11, "attack_loss": 2.6132144927978516, "fdp_loss": 0.09156694263219833, "grad_hash": "99e833757ad9a2387f8714387947643870a003908a4ac92365a5ff5d5c76ddc2", "keep_hash": "af02e3799ea384f56e216b5e176e95227047172fe9cfef5122221e22742ed4c4", "fastv_text": "PPBS #14, 1967"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 12, "accepted": true, "accepted_after": 12, "attack_loss": 2.3717451095581055, "fdp_loss": 0.1128949448466301, "grad_hash": "a9383dd6370bf481a6043eabef25a9435347bd6ce2e881e297670885d7f00753", "keep_hash": "65be364c9c2101c8e52be696de04827866d51beb880713affc64bc08e06d6c57", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 13, "accepted": true, "accepted_after": 13, "attack_loss": 2.2241697311401367, "fdp_loss": 0.07423567771911621, "grad_hash": "c6d5781690b25f30996d36a331c99d39fe475495b68623c7354756b66e0fe004", "keep_hash": "75dfac3e3ac4e9e09f8973b47523c6d5b38bfbb1ee0bbfb1abe4b922e42d1627", "fastv_text": "PPBS #14, 15, 16"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 14, "accepted": true, "accepted_after": 14, "attack_loss": 1.7129014730453491, "fdp_loss": 0.08355989307165146, "grad_hash": "adb7f516eb587a1bd681cb1791f22edc40f61a9e78cf5e9f374d1c2f294fd79d", "keep_hash": "008b416e725c4058953a4420926283d9743a9cb9b85b6ab2adc24e55de040a83", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 15, "accepted": true, "accepted_after": 15, "attack_loss": 2.7014801502227783, "fdp_loss": 0.10675355792045593, "grad_hash": "ed1a2f0aa75586742c3aa91d561e05e804c4002223b3dba4b4655f90e8b16f5a", "keep_hash": "8f73e825c822cb176d5d32e67b086ef142192b79fcdcd37083d19b0c7c071d36", "fastv_text": "Ppjs 14, 1967"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "60700", "method": "A", "checkpoint": 15, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 2.26004695892334, "png_sha256": "54eec235b5fbf0d53873a229adcd150c8ad4427ee1ffb3003b8caaccf39e9f30", "fastv_text": "PPBS 14, 15, 1957"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 16, "accepted": true, "accepted_after": 16, "attack_loss": 2.5120458602905273, "fdp_loss": 0.08815161883831024, "grad_hash": "897c994411926098422f2188686005221988ceb865f800320fae23308804a197", "keep_hash": "f62335fdb2762738251e7713add8975f9cdf2a9474958be3b1f0a4249cab27b2", "fastv_text": "PPBS 14, 15, 16"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 17, "accepted": true, "accepted_after": 17, "attack_loss": 1.207797884941101, "fdp_loss": 0.09131466597318649, "grad_hash": "6a352e9aee20a450221e1e746f3f04d286ddae3ddbee3f20a66dfa17d1291f0c", "keep_hash": "ec05abfd8aabca524ed0aa400b8740c293dfe9e918ab4f0d55a8049afa3c47d8", "fastv_text": "PPBS #14, 15C, 15D"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 18, "accepted": true, "accepted_after": 18, "attack_loss": 1.6617015600204468, "fdp_loss": 0.09939996898174286, "grad_hash": "9139bd5ceb4355c7e59f0fef07713881b8a5e41ec49a2e41aaf929af51bc49e5", "keep_hash": "9d01768321df03850ce86af8845dc3e82b0cc77e9ff371980be5dae29ba81f5b", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 19, "accepted": true, "accepted_after": 19, "attack_loss": -0.23466603457927704, "fdp_loss": 0.1141357347369194, "grad_hash": "6b529645295a973e7f16c43600670521e882d6f06ccefa4ef033ef6cd8a11d77", "keep_hash": "950c3c8f093d0763cafc7045f3ae4c5b57987e417bf9dae1e51304c5b5460b04", "fastv_text": "Ppjs #5"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 20, "accepted": true, "accepted_after": 20, "attack_loss": 1.0411871671676636, "fdp_loss": 0.09152316302061081, "grad_hash": "e999c9408d417921f055de8be904c437410f88b54ce917d5565945f70ee6dcdf", "keep_hash": "edb983abf970514c567da2bbcfb6d7256e2e825c40fb534ec9c3511ec5935e29", "fastv_text": "PPBS #14"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "60700", "method": "A", "checkpoint": 20, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 1.9159724712371826, "png_sha256": "2dea65e5334127003a7c11d3a19bb7f0bf7db52ecc1e8cbb055d47e1caba598f", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 21, "accepted": true, "accepted_after": 21, "attack_loss": 1.9778751134872437, "fdp_loss": 0.06683683395385742, "grad_hash": "119d752b2faafe01a9a6fb0e5d1d94fbc5a9ecf1bf25d09dcdcf8aa2fe7bb544", "keep_hash": "04ab9ad091e45e81631cb785debfa4dacedce834955ab438648068bc72192382", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 22, "accepted": true, "accepted_after": 22, "attack_loss": 3.3533244132995605, "fdp_loss": 0.08088742196559906, "grad_hash": "d01b4ae2b5ba0dab5b175744e9f17f0a7b18cb505e56b2dee52e8525965f1cac", "keep_hash": "d0a74fe6e08b325bddd63f2481e17f975cefaedd30e1ea0fd520df9022af28b0", "fastv_text": "PPBS 14, 1957"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 23, "accepted": true, "accepted_after": 23, "attack_loss": 0.4132826030254364, "fdp_loss": 0.09155532717704773, "grad_hash": "3843b0c2b7c38d70d7bdbca95bdf7e45bec93eebe1d0ddb18ea914423a3f57cb", "keep_hash": "94fc498ee23b686a9c340861d9fab8047fc6ee9bec3e0cd42b53d5c9e9b9b162", "fastv_text": "PPBS #14 (S&W)"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 24, "accepted": true, "accepted_after": 24, "attack_loss": 1.7209527492523193, "fdp_loss": 0.07986386865377426, "grad_hash": "6039c6937e882bf9af9335a66cfd3b1621a5785bbb972c3c680d4caa7d1a1556", "keep_hash": "cf6eda2299dfffcd0cae6388056e77a2cf91e219d793e7b3a2b5d48785675720", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "A", "attempt": 25, "accepted": true, "accepted_after": 25, "attack_loss": 1.0124454498291016, "fdp_loss": 0.07630514353513718, "grad_hash": "5cc7f5a05e8e4127b1852acc3e767c2499cb04db09c89bb5116d97b68dffaa60", "keep_hash": "1cd3e6c35287ecf76b7990bb6b9603f07a19bdf10f5cc1a3644c1766bd0dd1e3", "fastv_text": "Hepatitis"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "60700", "method": "A", "checkpoint": 25, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": -0.02094476856291294, "png_sha256": "51b6161e3c494d705afe123ded161aecea9c951b1c6a2845a34305dce08600ad", "fastv_text": "PPBS #6 (14, 15, 16)"}
+{"event": "done", "sample": "60700", "method": "A", "accepted": 25, "selector": {"checkpoint": 25, "attack_surrogate": -0.02094476856291294}}
+{"sample": "60700", "method": "A", "status": "DONE"}

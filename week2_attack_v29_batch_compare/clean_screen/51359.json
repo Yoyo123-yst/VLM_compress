@@ -1,0 +1,54 @@
+{
+  "sample_id": "51359",
+  "question": "Which date's agenda is this?",
+  "answers": [
+    "november 24, 1969"
+  ],
+  "clean_full_text": "November 24, 1969",
+  "clean_full_tokens": [
+    33727,
+    220,
+    17,
+    19,
+    11,
+    220,
+    16,
+    24,
+    21,
+    24,
+    151645
+  ],
+  "clean_fastv_text": "November 3, 1969",
+  "clean_fastv_tokens": [
+    33727,
+    220,
+    18,
+    11,
+    220,
+    16,
+    24,
+    21,
+    24,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 0.875,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "1980c89454ee565b0125a98a9e7e550a936cf46af926f210929c3876fae0afbb",
+  "keep_hash_repeat": "1980c89454ee565b0125a98a9e7e550a936cf46af926f210929c3876fae0afbb",
+  "page_sha256": [
+    "fac630bd56ef2c7e8ec322083a20c06b131441188745fe97c0bf025117067b16",
+    "492f3c7d7c454fa0cdb9f217635d93d0425bd27957f38903e10c768b5a16a0f1"
+  ],
+  "layout_M": 2,
+  "aux_idx": 1,
+  "evidence_idx": 0,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 5.921
+}

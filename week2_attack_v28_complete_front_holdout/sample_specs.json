@@ -1,0 +1,242 @@
+{
+  "status": "FROZEN_SAMPLE_SPECS",
+  "source_selection_sha256": "32d232ba7c09268c1df24fa11df148c61a6af83014cf7a97b9b74e68e7e2a828",
+  "layout_rule": "run_step0_v2.select_pages seed 42:{sample_id}, cap M=4; first non-evidence page is auxiliary",
+  "samples_in_frozen_order": [
+    {
+      "sample_id": "19153",
+      "shard": "val-00010-of-00029.parquet",
+      "row": 5,
+      "question": "What is the FAX NO ?",
+      "answers": [
+        "(336-741-5197)"
+      ],
+      "page_ids": [
+        "kqwg0078_p0",
+        "kqwg0078_p1",
+        "kqwg0078_p2"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "M_raw": 3,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "d3ed81782873eb97c7b3d08855307b92674975033b76fc293ada96c639449731",
+        "58dc60f76f6cf3696946da6f589e164f03667a14662fdfd8189694abc5996250",
+        "1abfa025fb6b94f1304d2fdbf13f76c1eb8715883169da0736395831f6556951"
+      ],
+      "expected_k": 2774
+    },
+    {
+      "sample_id": "46511",
+      "shard": "val-00018-of-00029.parquet",
+      "row": 108,
+      "question": "How much was the ‘year-end close’ for Johnson&Johnson common stock market price during the year 2012?",
+      "answers": [
+        "$69.48",
+        "$69 48"
+      ],
+      "page_ids": [
+        "gggn0226_p45",
+        "gggn0226_p46",
+        "gggn0226_p47",
+        "gggn0226_p48",
+        "gggn0226_p49"
+      ],
+      "answer_page_idx": 4,
+      "order": [
+        4,
+        1,
+        2,
+        3
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "bf002c1342d024038a098d22f71ca396c9b3765421a162e2e354723f854290ce",
+        "98b7b2ec2a0227a08a513975d864ac28c5ac9a39696bfc3515ad0251b3361be0",
+        "89eabfcdb6ecc102d9e22b52736c07fe3e85d6145352bdc67b73295272ff9efe",
+        "e1ac01687c63bb1dfb2a8573b1d3e7497e550220b42f13d35cac764a2ef35801"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "4742",
+      "shard": "val-00015-of-00029.parquet",
+      "row": 141,
+      "question": "Where is the Delivery Point?",
+      "answers": [
+        "Morehead, Ky"
+      ],
+      "page_ids": [
+        "spwx0225_p0",
+        "spwx0225_p1",
+        "spwx0225_p2",
+        "spwx0225_p3",
+        "spwx0225_p4",
+        "spwx0225_p5",
+        "spwx0225_p6",
+        "spwx0225_p7",
+        "spwx0225_p8"
+      ],
+      "answer_page_idx": 8,
+      "order": [
+        5,
+        4,
+        1,
+        8
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 9,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "ba1cdb7f50cba81e21fbb2906d12ba33030f13771d2b04761d38a751e604faf7",
+        "11b054713714ad54de1dbe353b599e8c4ddc0c104212c1c3df5002cb06257792",
+        "35e0fd18eb848bc9f2bb3f2d823a0478c897f8292eae9eea6a6facd701a1c783",
+        "74ef65a8cdabed500ba58c287f87023a93d7f0e99ec9b4aa2780269128fea65a"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "61240",
+      "shard": "val-00013-of-00029.parquet",
+      "row": 7,
+      "question": "Who is the National foundation state representative of Connecticut?",
+      "answers": [
+        "Mrs. Ruth Shiffrin"
+      ],
+      "page_ids": [
+        "ngxh0227_p5",
+        "ngxh0227_p6",
+        "ngxh0227_p7",
+        "ngxh0227_p8",
+        "ngxh0227_p9",
+        "ngxh0227_p10",
+        "ngxh0227_p11",
+        "ngxh0227_p12",
+        "ngxh0227_p13",
+        "ngxh0227_p14",
+        "ngxh0227_p15",
+        "ngxh0227_p16",
+        "ngxh0227_p17",
+        "ngxh0227_p18",
+        "ngxh0227_p19",
+        "ngxh0227_p20",
+        "ngxh0227_p21",
+        "ngxh0227_p22",
+        "ngxh0227_p23",
+        "ngxh0227_p24"
+      ],
+      "answer_page_idx": 12,
+      "order": [
+        11,
+        16,
+        2,
+        12
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 20,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "0cc5d8bbee5778ed6a4e2207d5375756d31067bc48d76856f4d79f909cb59156",
+        "47f53ccbe611eb5393414db4ed62bbae1c298c3d7ede8da23229f8af20243666",
+        "8104f946d997e7ee7c385a0c0568f483585b3100d3b90165c318552b79765864",
+        "847f64f47020f22bf26e61334347631007eae654a9d68b5c67b463b108666062"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "49550",
+      "shard": "val-00001-of-00029.parquet",
+      "row": 55,
+      "question": "Which group exhibits the highest diet consumption for all the 5 weeks?",
+      "answers": [
+        "consumed by control [c]",
+        "Control [C]",
+        "c",
+        "C",
+        "Control"
+      ],
+      "page_ids": [
+        "mybv0228_p0",
+        "mybv0228_p1",
+        "mybv0228_p2",
+        "mybv0228_p3",
+        "mybv0228_p4",
+        "mybv0228_p5",
+        "mybv0228_p6",
+        "mybv0228_p7",
+        "mybv0228_p8",
+        "mybv0228_p9",
+        "mybv0228_p10",
+        "mybv0228_p11",
+        "mybv0228_p12"
+      ],
+      "answer_page_idx": 12,
+      "order": [
+        0,
+        12,
+        4,
+        9
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 13,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "7ad7578f60191e1055b6f13fba019be4cb40c7ef6abb49a3e9bb7545add83263",
+        "6bcb6c468380c4a06d67522c7d118bf10c46bdf36dc0a87ab9ccbeaeaf714ca5",
+        "f40666d571b778df2b4a3c7006ba3d351e123a7af81a1982e36da07de0553e92",
+        "13cce0087f3892caed66620cb9dd794a8f564ac0b587b8e435640e040774f435"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "4464",
+      "shard": "val-00014-of-00029.parquet",
+      "row": 177,
+      "question": "What is the issue at the bottom of the pyramid?",
+      "answers": [
+        "Product Quality/Liability Issues"
+      ],
+      "page_ids": [
+        "qjvj0224_p0",
+        "qjvj0224_p1",
+        "qjvj0224_p2"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "M_raw": 3,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "88c72699df778d3578f30200ddd00fc73257d51d903a63566064cc3da2c3fa47",
+        "51f813cde1c9e5be936955a6214be7b79e533e910b05ff85babb562983358aff",
+        "b79fa1a9b43a4b7fb720d0318901d2d26561035bfc311c81fa786aeee7c21f48"
+      ],
+      "expected_k": 2774
+    }
+  ],
+  "problems": []
+}

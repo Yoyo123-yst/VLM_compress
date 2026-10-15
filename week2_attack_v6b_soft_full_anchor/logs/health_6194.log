@@ -1,0 +1,9 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.54s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:07<00:07,  3.88s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.93s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:13<00:00,  3.08s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:13<00:00,  3.45s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "6194", "answer_len_with_eos": 11, "ends_with_eos": true, "k": 3699, "k_generate": 3699, "keep_match": true, "clean_full_match": true, "clean_fastv_match": true, "uint8_reload_full_match": true, "uint8_reload_fastv_match": true, "uint8_reload_linf": 0.0, "output_valid": true, "fastv_score_max_abs_diff": 0.0, "aux_grad_comp": 5.877306938171387, "aux_grad_soft": 8.8416748046875, "aux_grad_sel": 0.0, "losses_finite": true, "grads_finite": true, "soft_anchor_nonzero": true, "evidence_pixel_grad_l2": 0.0, "health_pass": true}

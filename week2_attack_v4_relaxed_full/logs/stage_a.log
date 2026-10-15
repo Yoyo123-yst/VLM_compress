@@ -1,0 +1,71 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:15,  5.08s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:08<00:08,  4.15s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:11<00:03,  3.75s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:12<00:00,  2.62s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:12<00:00,  3.19s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"replay": "50743", "ok": true, "reasons": []}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"replay": "4912", "ok": true, "reasons": []}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"replay": "56776", "ok": true, "reasons": []}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"replay": "49242", "ok": true, "reasons": []}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"replay": "33923", "ok": true, "reasons": []}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"replay": "5169", "ok": true, "reasons": []}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"cell": "50743", "mechanism": "content", "scores": {"CC": 1.0, "CA": 1.0, "AC": 0.0, "AA": 0.0}, "symdiff": 378}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"grad": "50743", "image": "clean", "ratio": 0.0012565237733684696, "mean_visible": 4.375}
+{"grad": "50743", "image": "best", "ratio": 0.3531090043137511, "mean_visible": -14.979166666666666}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"cell": "4912", "mechanism": "unexplained", "scores": {"CC": 1.0, "CA": 1.0, "AC": 1.0, "AA": 1.0}, "symdiff": 336}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"grad": "4912", "image": "clean", "ratio": 0.000598637024583434, "mean_visible": 2.78125}
+{"grad": "4912", "image": "best", "ratio": 4.605851503726934, "mean_visible": 1.65625}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"cell": "56776", "mechanism": "unexplained", "scores": {"CC": 1.0, "CA": 1.0, "AC": 0.6666666666666667, "AA": 0.6666666666666667}, "symdiff": 526}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"grad": "56776", "image": "clean", "ratio": 0.00010502440966519074, "mean_visible": 0.625}
+{"grad": "56776", "image": "best", "ratio": 3.2172230388179703, "mean_visible": -2.5}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"cell": "49242", "mechanism": "unexplained", "scores": {"CC": 0.9047619047619048, "CA": 0.9047619047619048, "AC": 0.9130434782608696, "AA": 0.8076923076923077}, "symdiff": 566}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"grad": "49242", "image": "clean", "ratio": 0.00024313950485528227, "mean_visible": 3.4}
+{"grad": "49242", "image": "best", "ratio": 1.5460431919768318, "mean_visible": 1.16875}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"cell": "33923", "mechanism": "content", "scores": {"CC": 0.8055555555555556, "CA": 0.9705882352941176, "AC": 0.0, "AA": 0.0}, "symdiff": 670}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"grad": "33923", "image": "clean", "ratio": 0.00038787147503021864, "mean_visible": 4.761363636363637}
+{"grad": "33923", "image": "best", "ratio": 1.7748001383316212, "mean_visible": -13.386363636363637}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"cell": "5169", "mechanism": "content", "scores": {"CC": 1.0, "CA": 1.0, "AC": 0.0, "AA": 0.0}, "symdiff": 612}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"grad": "5169", "image": "clean", "ratio": 0.0005404031617277063, "mean_visible": 4.03125}
+{"grad": "5169", "image": "best", "ratio": 0.6447164252026836, "mean_visible": -8.859375}
+STAGE_A_PASS
+EXIT:0

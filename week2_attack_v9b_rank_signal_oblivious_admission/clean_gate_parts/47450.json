@@ -1,0 +1,213 @@
+{
+  "sample_id": "47450",
+  "full_text": "Dr. or Mrs. William J. Darby",
+  "full_tokens": [
+    8847,
+    13,
+    476,
+    17618,
+    13,
+    12375,
+    619,
+    13,
+    15017,
+    1694,
+    151645
+  ],
+  "page_sha256": [
+    "7bab8be8ede326621c16376d55769d696a6a969772ab2116685a1628eba55f8d",
+    "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+    "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+    "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+  ],
+  "rows": [
+    {
+      "family": "SpatialStridedDrop",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.25,
+      "offset": 1715521877,
+      "page_in": 3699,
+      "page_out": [
+        965,
+        965,
+        965,
+        965
+      ],
+      "page_boundaries": 4,
+      "rule_hash": "c6fbd7ea8052a349cc9b22c8ff4e4b86fec1a86ba778b82a25a12e69a9bb43b6",
+      "hidden_shape": [
+        1,
+        3887,
+        152128
+      ],
+      "text": "Dr. William J. Darby",
+      "replay_text": "Dr. William J. Darby",
+      "anls": 0.8333333333333334,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": true
+    },
+    {
+      "family": "SpatialStridedDrop",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.35,
+      "offset": 1715521877,
+      "page_in": 3699,
+      "page_out": [
+        1330,
+        1330,
+        1330,
+        1330
+      ],
+      "page_boundaries": 4,
+      "rule_hash": "c651ab92a220aad15003f5765191a616c05b8a44d44edf5dbb57ef6d3ce6a144",
+      "hidden_shape": [
+        1,
+        5347,
+        152128
+      ],
+      "text": "Dr. William J. Darby",
+      "replay_text": "Dr. William J. Darby",
+      "anls": 0.8333333333333334,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": true
+    },
+    {
+      "family": "SpatialStridedDrop",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.5,
+      "offset": 1715521877,
+      "page_in": 3699,
+      "page_out": [
+        1876,
+        1876,
+        1876,
+        1876
+      ],
+      "page_boundaries": 4,
+      "rule_hash": "cbeee1d84a898d01e87d1c44f5bfa36d67936cd1edeaa494a1aa32d4151231dd",
+      "hidden_shape": [
+        1,
+        7531,
+        152128
+      ],
+      "text": "Dr. Ms. William J. Darby",
+      "replay_text": "Dr. Ms. William J. Darby",
+      "anls": 0.84,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": true
+    },
+    {
+      "family": "LocalSpatialMerge",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.25,
+      "offset": 1715521877,
+      "page_in": 3699,
+      "page_out": [
+        999,
+        999,
+        999,
+        999
+      ],
+      "page_boundaries": 4,
+      "rule_hash": "a8b6304e90cfede93f18839c7d52e5226d9a2280d71f47e60e9b004f2c35763d",
+      "hidden_shape": [
+        1,
+        4023,
+        152128
+      ],
+      "text": "Dr. Or, William J. Darby",
+      "replay_text": "Dr. Or, William J. Darby",
+      "anls": 0.84,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": true
+    },
+    {
+      "family": "LocalSpatialMerge",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.35,
+      "offset": 1715521877,
+      "page_in": 3699,
+      "page_out": [
+        1269,
+        1269,
+        1269,
+        1269
+      ],
+      "page_boundaries": 4,
+      "rule_hash": "7d8f75706204f6dafecf6684e966e0f3f5ca4c28c3755a0c2a675c30fa84eccb",
+      "hidden_shape": [
+        1,
+        5103,
+        152128
+      ],
+      "text": "Dr. Or Mrs. William J. Darby",
+      "replay_text": "Dr. Or Mrs. William J. Darby",
+      "anls": 1.0,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": true
+    },
+    {
+      "family": "LocalSpatialMerge",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.5,
+      "offset": 1715521877,
+      "page_in": 3699,
+      "page_out": [
+        1890,
+        1890,
+        1890,
+        1890
+      ],
+      "page_boundaries": 4,
+      "rule_hash": "6ca23a6e3c3546f5e796b6b4baff64d10841b62ad0943dfbbc3b33e60758ec55",
+      "hidden_shape": [
+        1,
+        7587,
+        152128
+      ],
+      "text": "Dr. Or Mrs. William J. Darby",
+      "replay_text": "Dr. Or Mrs. William J. Darby",
+      "anls": 1.0,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": true
+    }
+  ],
+  "fastv_access_count": 0,
+  "fastv_modules": []
+}

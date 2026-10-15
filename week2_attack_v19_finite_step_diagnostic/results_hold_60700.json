@@ -1,0 +1,264 @@
+{
+  "status": "DONE",
+  "objective": "content",
+  "steps": 4,
+  "alphas": [
+    0.000980392156862745,
+    0.00196078431372549,
+    0.00392156862745098,
+    0.00784313725490196
+  ],
+  "epsilon_uint8": 8,
+  "selected_states": [
+    "60700_error"
+  ],
+  "states": {
+    "60700_error": {
+      "sample": "60700",
+      "png": "week2_attack_v13_branch_reachability_probe/runs/state_retention_v1/60700/AWARE_FREEZE/step_011.png",
+      "sha256": "9fa86ee802bd22064f6503ceed9b512b5fd0464022da66be3df73d3189f0a367"
+    },
+    "60700_recovery": {
+      "sample": "60700",
+      "png": "week2_attack_v16_corrected_direction_audit/60700_attack_only/step_001.png",
+      "sha256": "2a46bc659495661664b07b628c91544fe14c6bcc713e43c4a49da492e819f32f"
+    },
+    "7006_near": {
+      "sample": "7006",
+      "png": "week2_attack_v15_recovery_path_probe/construction/7006/B/checkpoints/step_010.png",
+      "sha256": "7f41616e91051a131b5c46faa574fdbc673899c799579f732555c0df36f951f9"
+    },
+    "2008_clean": {
+      "sample": "2008",
+      "png": "CLEAN_AUX",
+      "sha256": null
+    },
+    "47450_clean": {
+      "sample": "47450",
+      "png": "CLEAN_AUX",
+      "sha256": null
+    }
+  },
+  "records": [
+    {
+      "text": "PPSB",
+      "tokens": [
+        4406,
+        16680,
+        151645
+      ],
+      "anls": 0.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "a2ee6ca36a51cd728865e8d9ea24b80bd8db205354103905c8e0ddc20debb66d",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "020136217b559eec51615a5dc66df5b6fb35ed1a651ae4fc57ebb1ccae094334",
+      "reference_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        4406,
+        16680,
+        151645
+      ],
+      "start_fastv_keep_hash": "a2ee6ca36a51cd728865e8d9ea24b80bd8db205354103905c8e0ddc20debb66d",
+      "start_fastv_k": 2774,
+      "core_positions": [
+        0,
+        1
+      ],
+      "core_token_ids": [
+        4406,
+        7347
+      ],
+      "state": "60700_error",
+      "sample": "60700",
+      "mode": "natural",
+      "alpha": 0.00392156862745098,
+      "step": 0,
+      "strict_endpoint": true,
+      "hold_trigger": true,
+      "held": true
+    },
+    {
+      "text": "PPSB",
+      "tokens": [
+        4406,
+        16680,
+        151645
+      ],
+      "anls": 0.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "a2ee6ca36a51cd728865e8d9ea24b80bd8db205354103905c8e0ddc20debb66d",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "020136217b559eec51615a5dc66df5b6fb35ed1a651ae4fc57ebb1ccae094334",
+      "reference_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        4406,
+        16680,
+        151645
+      ],
+      "start_fastv_keep_hash": "a2ee6ca36a51cd728865e8d9ea24b80bd8db205354103905c8e0ddc20debb66d",
+      "start_fastv_k": 2774,
+      "core_positions": [
+        0,
+        1
+      ],
+      "core_token_ids": [
+        4406,
+        7347
+      ],
+      "state": "60700_error",
+      "sample": "60700",
+      "mode": "natural",
+      "alpha": 0.00392156862745098,
+      "step": 1,
+      "strict_endpoint": true,
+      "hold_trigger": false,
+      "held": true
+    },
+    {
+      "text": "PPSB",
+      "tokens": [
+        4406,
+        16680,
+        151645
+      ],
+      "anls": 0.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "a2ee6ca36a51cd728865e8d9ea24b80bd8db205354103905c8e0ddc20debb66d",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "020136217b559eec51615a5dc66df5b6fb35ed1a651ae4fc57ebb1ccae094334",
+      "reference_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        4406,
+        16680,
+        151645
+      ],
+      "start_fastv_keep_hash": "a2ee6ca36a51cd728865e8d9ea24b80bd8db205354103905c8e0ddc20debb66d",
+      "start_fastv_k": 2774,
+      "core_positions": [
+        0,
+        1
+      ],
+      "core_token_ids": [
+        4406,
+        7347
+      ],
+      "state": "60700_error",
+      "sample": "60700",
+      "mode": "natural",
+      "alpha": 0.00392156862745098,
+      "step": 2,
+      "strict_endpoint": true,
+      "hold_trigger": false,
+      "held": true
+    },
+    {
+      "text": "PPSB",
+      "tokens": [
+        4406,
+        16680,
+        151645
+      ],
+      "anls": 0.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "a2ee6ca36a51cd728865e8d9ea24b80bd8db205354103905c8e0ddc20debb66d",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "020136217b559eec51615a5dc66df5b6fb35ed1a651ae4fc57ebb1ccae094334",
+      "reference_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        4406,
+        16680,
+        151645
+      ],
+      "start_fastv_keep_hash": "a2ee6ca36a51cd728865e8d9ea24b80bd8db205354103905c8e0ddc20debb66d",
+      "start_fastv_k": 2774,
+      "core_positions": [
+        0,
+        1
+      ],
+      "core_token_ids": [
+        4406,
+        7347
+      ],
+      "state": "60700_error",
+      "sample": "60700",
+      "mode": "natural",
+      "alpha": 0.00392156862745098,
+      "step": 3,
+      "strict_endpoint": true,
+      "hold_trigger": false,
+      "held": true
+    },
+    {
+      "text": "PPSB",
+      "tokens": [
+        4406,
+        16680,
+        151645
+      ],
+      "anls": 0.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "a2ee6ca36a51cd728865e8d9ea24b80bd8db205354103905c8e0ddc20debb66d",
+      "full_exact": true,
+      "linf_uint8": 8,
+      "png_sha256": "020136217b559eec51615a5dc66df5b6fb35ed1a651ae4fc57ebb1ccae094334",
+      "reference_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "reference_policy": "clean_fastv_fixed_for_all_states",
+      "start_fastv_tokens": [
+        4406,
+        16680,
+        151645
+      ],
+      "start_fastv_keep_hash": "a2ee6ca36a51cd728865e8d9ea24b80bd8db205354103905c8e0ddc20debb66d",
+      "start_fastv_k": 2774,
+      "core_positions": [
+        0,
+        1
+      ],
+      "core_token_ids": [
+        4406,
+        7347
+      ],
+      "state": "60700_error",
+      "sample": "60700",
+      "mode": "natural",
+      "alpha": 0.00392156862745098,
+      "step": 4,
+      "strict_endpoint": true,
+      "hold_trigger": false,
+      "held": true
+    }
+  ]
+}

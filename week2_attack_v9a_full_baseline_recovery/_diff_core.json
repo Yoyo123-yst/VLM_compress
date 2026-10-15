@@ -1,0 +1,240 @@
+{
+  "fields": {
+    "prompt_sha256": {
+      "original": "c7e65c022e99b8463483353df212e47b8a97e22f31dbc561cb63a074d40ae0b5",
+      "v9": "2201675508390f984206d972deca7b6865acc47b6cec7eba9ceabbcf0ecc0a16",
+      "equal": false
+    },
+    "input_ids_shape": {
+      "original": [
+        1,
+        11125
+      ],
+      "v9": [
+        1,
+        11117
+      ],
+      "equal": false
+    },
+    "input_ids_sha256": {
+      "original": "72451bc29011243fa9a8f75e6c957cd35a0277389598479d4a34cece63c9bed6",
+      "v9": "6c6720c29c1aa82a93946a0116a4873b49ed0d33e8944ee8da69f498f8e87b02",
+      "equal": false
+    },
+    "attention_mask_shape": {
+      "original": [
+        1,
+        11125
+      ],
+      "v9": [
+        1,
+        11117
+      ],
+      "equal": false
+    },
+    "attention_mask_sha256": {
+      "original": "da22d2351960f5867abbb35587b2a0b9a808af56b8309f916efa40bf5558eff0",
+      "v9": "d1db19512344ba50f02ec2bd0ded68fadbafec817814412ae7a57b86384042df",
+      "equal": false
+    },
+    "pixel_values_shape": {
+      "original": [
+        3,
+        5,
+        3,
+        384,
+        384
+      ],
+      "v9": [
+        3,
+        5,
+        3,
+        384,
+        384
+      ],
+      "equal": true
+    },
+    "pixel_values_dtype": {
+      "original": "torch.float32",
+      "v9": "torch.float32",
+      "equal": true
+    },
+    "pixel_values_sha256": {
+      "original": "6930bd265495e2a8097564469125cc4124c67f14b55a50111c020ff824566004",
+      "v9": "6930bd265495e2a8097564469125cc4124c67f14b55a50111c020ff824566004",
+      "equal": true
+    },
+    "image_sizes": {
+      "original": [
+        [
+          768,
+          768
+        ],
+        [
+          768,
+          768
+        ],
+        [
+          768,
+          768
+        ]
+      ],
+      "v9": [
+        [
+          768,
+          768
+        ],
+        [
+          768,
+          768
+        ],
+        [
+          768,
+          768
+        ]
+      ],
+      "equal": true
+    },
+    "image_sizes_sha256": {
+      "original": "863be6808bc364ccb8b1e3318b99198b0e843493a273ebc2f1abe137b9c783d9",
+      "v9": "863be6808bc364ccb8b1e3318b99198b0e843493a273ebc2f1abe137b9c783d9",
+      "equal": true
+    },
+    "batch_num_images": {
+      "original": [
+        1,
+        1,
+        1
+      ],
+      "v9": [
+        1,
+        1,
+        1
+      ],
+      "equal": true
+    },
+    "image_token_count": {
+      "original": 11097,
+      "v9": 11097,
+      "equal": true
+    },
+    "page_sha256": {
+      "original": [
+        "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+        "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+        "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+      ],
+      "v9": [
+        "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+        "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+        "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+      ],
+      "equal": true
+    },
+    "special_tokens": {
+      "original": {
+        "image_token_id": 151646,
+        "eos_token_id": null,
+        "pad_token_id": null,
+        "bos_token_id": null,
+        "generation_eos_token_id": 151645,
+        "generation_pad_token_id": null
+      },
+      "v9": {
+        "image_token_id": 151646,
+        "eos_token_id": null,
+        "pad_token_id": null,
+        "bos_token_id": null,
+        "generation_eos_token_id": 151645,
+        "generation_pad_token_id": null
+      },
+      "equal": true
+    },
+    "generation_config": {
+      "original": {
+        "max_new_tokens_call": 16,
+        "do_sample_call": false,
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "use_cache_call": true,
+        "cache_implementation": null
+      },
+      "v9": {
+        "max_new_tokens_call": 16,
+        "do_sample_call": false,
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "num_beams": 1,
+        "use_cache_call": true,
+        "cache_implementation": null
+      },
+      "equal": true
+    },
+    "model": {
+      "original": {
+        "dtype": "torch.bfloat16",
+        "device": "cuda:0",
+        "training": false
+      },
+      "v9": {
+        "dtype": "torch.bfloat16",
+        "device": "cuda:0",
+        "training": false
+      },
+      "equal": true
+    },
+    "eos_logit": {
+      "original": -4.0625,
+      "v9": 28.875,
+      "equal": false
+    },
+    "eos_rank": {
+      "original": 146683,
+      "v9": 0,
+      "equal": false
+    },
+    "dr_id": {
+      "original": 8847,
+      "v9": 8847,
+      "equal": true
+    },
+    "dr_logit": {
+      "original": 19.0,
+      "v9": 0.12158203125,
+      "equal": false
+    },
+    "dr_rank": {
+      "original": 0,
+      "v9": 66272,
+      "equal": false
+    },
+    "generated_ids": {
+      "original": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        4110,
+        13979,
+        151645
+      ],
+      "v9": [
+        151645
+      ],
+      "equal": false
+    },
+    "generated_text": {
+      "original": "Dr. C. Baur MD",
+      "v9": "",
+      "equal": false
+    },
+    "matches_frozen": {
+      "original": true,
+      "v9": false,
+      "equal": false
+    }
+  },
+  "first_step_equal": false
+}

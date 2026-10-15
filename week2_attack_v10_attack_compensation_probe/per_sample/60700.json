@@ -1,0 +1,651 @@
+{
+  "sample_id": "60700",
+  "clean_text": "PPBS",
+  "attack_chosen": {
+    "step": 100,
+    "nonzero": 1,
+    "output_valid": 1,
+    "linf_ok": 1,
+    "pixel_linf_uint8": 0.03137254901960784,
+    "margin": -0.4867834374308586,
+    "replay": 1
+  },
+  "status": "OK",
+  "comp_chosen": {
+    "step": 25,
+    "nonzero": 1,
+    "output_valid": 1,
+    "linf_ok": 1,
+    "pixel_linf_uint8": 0.03137254901960784,
+    "full_exact": 1,
+    "margin": -0.5695577561855316,
+    "replay": 1
+  },
+  "comp_accepted": 100,
+  "comp_rejected": 0,
+  "attack_ref_margin": -0.4867834374308586,
+  "endpoints": {
+    "CLEAN": {
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 3.0416667461395264,
+      "full_soft": 2.508457660675049,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 5548,
+          "keep_hash": "42e507099b702444f387bae15cd2845522aceeb5d46aa3cbc4ec12ca7e058ad3",
+          "hook_match": 1,
+          "hard": 2.8958334922790527,
+          "soft": 2.310943365097046,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 3884,
+          "keep_hash": "8cbb13cbbf41286c5c9df264088743c40cdfbe138a54d5057c581915326f6d71",
+          "hook_match": 1,
+          "hard": 2.8333334922790527,
+          "soft": 2.236715078353882,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 2774,
+          "keep_hash": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca",
+          "hook_match": 1,
+          "hard": 2.7708334922790527,
+          "soft": 2.138645887374878,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.15": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 1665,
+          "keep_hash": "f8d6878164274904d472a9f382c4ebd69f91ec6576c2424e0cf51dff8f625e20",
+          "hook_match": 1,
+          "hard": 2.8541667461395264,
+          "soft": 2.2819087505340576,
+          "replay": true,
+          "endpoint_failure": false
+        }
+      },
+      "aux_sha256": "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131",
+      "other_page_sha256": [
+        "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+        "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+      ],
+      "norms": {
+        "linf_uint8": 0,
+        "linf": 0.0,
+        "l1": 0.0,
+        "l2": 0.0
+      }
+    },
+    "ATTACK_ONLY": {
+      "full_text": "PPD3",
+      "full_tokens": [
+        4406,
+        35,
+        18,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 1.671875,
+      "full_soft": -0.2562263011932373,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "PPDJS",
+          "tokens": [
+            4406,
+            35,
+            12545,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.6,
+          "k": 5548,
+          "keep_hash": "0bd10f8a34e399f5f9cbb1a18ffc8d53ec30c24f4358ef68fdecdb14e7d93929",
+          "hook_match": 1,
+          "hard": 1.03125,
+          "soft": -0.6649043560028076,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "PPD, TB, TB, TB",
+          "tokens": [
+            4406,
+            35,
+            11,
+            30080,
+            11,
+            30080,
+            11,
+            30080,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 3884,
+          "keep_hash": "5925786701b1b13cbee11c8fa89777b0a8e65280a26007d844e94ea2224bc9b1",
+          "hook_match": 1,
+          "hard": 0.8125,
+          "soft": -1.2360553741455078,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.25": {
+          "text": "Pp,ombc",
+          "tokens": [
+            47,
+            79,
+            11,
+            2855,
+            66,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 2774,
+          "keep_hash": "dbf9282c63ac6ee1f4250623802a34fa911b27d76bf2e399faa2e77d835cd887",
+          "hook_match": 1,
+          "hard": 0.40625,
+          "soft": -1.5944627523422241,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.15": {
+          "text": "PBP",
+          "tokens": [
+            47,
+            26095,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 1665,
+          "keep_hash": "74628756d2299865bf8191efe4478a16efe4fc72867f0fa33a786d23114e13c7",
+          "hook_match": 1,
+          "hard": 0.375,
+          "soft": -0.5081745982170105,
+          "replay": true,
+          "endpoint_failure": true
+        }
+      },
+      "aux_sha256": "ea3435353388f93c29f0ec7c778ca542626c55b42c8cbc7cc9dda0e92a836768",
+      "other_page_sha256": [
+        "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+        "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 10214943.0,
+        "l2": 8480.486719522647
+      }
+    },
+    "COMPENSATION_ONLY": {
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 3.4583334922790527,
+      "full_soft": 2.875734806060791,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 5548,
+          "keep_hash": "3aa1aa7794ad238c3fdd182d49208a28fc11e79eb4ba91efaa261b9408728348",
+          "hook_match": 1,
+          "hard": 2.8958334922790527,
+          "soft": 2.3505561351776123,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 3884,
+          "keep_hash": "a1f98e1fb49cd422bd3e404f6cdddc543c6dbb71a89ca21f6d7fbb6ef969fc13",
+          "hook_match": 1,
+          "hard": 2.7916667461395264,
+          "soft": 2.2181921005249023,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 2774,
+          "keep_hash": "46ab32260764a2c95d7176e55dabd7a18d086fe8089ca67c0630b33708317a78",
+          "hook_match": 1,
+          "hard": 2.7708334922790527,
+          "soft": 2.1656551361083984,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.15": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 1665,
+          "keep_hash": "c5fc3ea0dba4fde34b968b2451bdd91476942a1700d8627e5e2862660e1ae046",
+          "hook_match": 1,
+          "hard": 2.8125,
+          "soft": 2.2471120357513428,
+          "replay": true,
+          "endpoint_failure": false
+        }
+      },
+      "aux_sha256": "60bb76f449937ab970ac921828c481920e2622be5dda8de47f82f10096ad1d08",
+      "other_page_sha256": [
+        "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+        "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+      ],
+      "norms": {
+        "linf_uint8": 3,
+        "linf": 0.011764705882352941,
+        "l1": 1452200.0,
+        "l2": 1340.2566918318296
+      }
+    },
+    "ATTACK_PLUS_COMPENSATION": {
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 2.4791667461395264,
+      "full_soft": 1.4862422943115234,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 5548,
+          "keep_hash": "6d6382308b9d94d913eddaece64888525904629b0cd075ff40ff8113eac67b78",
+          "hook_match": 1,
+          "hard": 1.9375,
+          "soft": 1.0280561447143555,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 3884,
+          "keep_hash": "3488180cdc36b52307b966c9bc0db213491b9a5edf6a0b7004f61b0f040a1980",
+          "hook_match": 1,
+          "hard": 0.34375,
+          "soft": -0.3331723213195801,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 2774,
+          "keep_hash": "3a24fbe3006f1ee7880b5e7274f774ae236cfdbb0026085b590fdd4472393aac",
+          "hook_match": 1,
+          "hard": 0.515625,
+          "soft": -0.3518033027648926,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.15": {
+          "text": "Ppbs",
+          "tokens": [
+            47,
+            79,
+            1279,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 1665,
+          "keep_hash": "af656155e80eaa8c26c9e47262fe1c13e87bb1ea9d164b1d7b9965088a400a9b",
+          "hook_match": 1,
+          "hard": 0.875,
+          "soft": -0.009023666381835938,
+          "replay": true,
+          "endpoint_failure": false
+        }
+      },
+      "aux_sha256": "38f31516ba92235c7bd1377310fcf853998cd412fe1ada173f8e38661c1d8a80",
+      "other_page_sha256": [
+        "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+        "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 9799125.0,
+        "l2": 8111.979967923984
+      }
+    },
+    "SIGN_FLIP_CONTROL": {
+      "full_text": "District Health Objectives",
+      "full_tokens": [
+        47840,
+        6267,
+        3002,
+        1886,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 4.0625,
+      "full_soft": 3.2595937252044678,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "District Health Objectives",
+          "tokens": [
+            47840,
+            6267,
+            3002,
+            1886,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 5548,
+          "keep_hash": "7a0f14d22b0ed6564cd56c8b7ad42785f6ba5dd2cb866f55aa8a43390819d27b",
+          "hook_match": 1,
+          "hard": 4.075000286102295,
+          "soft": 3.24284291267395,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.35": {
+          "text": "PP, OMNIC, NARCOSES",
+          "tokens": [
+            4406,
+            11,
+            47337,
+            44947,
+            11,
+            451,
+            934,
+            8281,
+            27995,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 3884,
+          "keep_hash": "1d73090e9d287c31590b113b555e7ef5c36a12891fea3ec91136aa379a15a7c2",
+          "hook_match": 1,
+          "hard": 0.7562500238418579,
+          "soft": -1.0784988403320312,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.25": {
+          "text": "Health",
+          "tokens": [
+            14542,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 2774,
+          "keep_hash": "c1d791c0480056eb62924b08cf4f19aba29bceddb65644cc8ebae61802c17eca",
+          "hook_match": 1,
+          "hard": 0.1875,
+          "soft": -1.387624740600586,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.15": {
+          "text": "Pp, omc, health",
+          "tokens": [
+            47,
+            79,
+            11,
+            7861,
+            66,
+            11,
+            2820,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 1665,
+          "keep_hash": "3848fc434a73b8c58176ba07da9c88f0a1eee82ee9cb5ac45441b277ec3073dd",
+          "hook_match": 1,
+          "hard": 0.8203125,
+          "soft": -0.660700798034668,
+          "replay": true,
+          "endpoint_failure": true
+        }
+      },
+      "aux_sha256": "b90c585de017842851b7ce9b843be6dd5443fb6379620713ea7bb243ea33757d",
+      "other_page_sha256": [
+        "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+        "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 10296277.0,
+        "l2": 8549.50624305287
+      }
+    },
+    "ROLL_CONTROL": {
+      "full_text": "PPD3",
+      "full_tokens": [
+        4406,
+        35,
+        18,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 1.6875,
+      "full_soft": -0.12765216827392578,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "PPDJS",
+          "tokens": [
+            4406,
+            35,
+            12545,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.6,
+          "k": 5548,
+          "keep_hash": "867e8fb975825c9848e96f549dfc4f48668e78a008dcd2133c482412ef1747d6",
+          "hook_match": 1,
+          "hard": 1.109375,
+          "soft": -0.48272037506103516,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "PPD, TB, SARCASMS",
+          "tokens": [
+            4406,
+            35,
+            11,
+            30080,
+            11,
+            328,
+            46472,
+            1911,
+            4826,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 3884,
+          "keep_hash": "7756e40d0568fce693916057e82eb61a31e41724a9933d71b3238e945e90e45a",
+          "hook_match": 1,
+          "hard": 0.7875000238418579,
+          "soft": -0.864599347114563,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.25": {
+          "text": "PP, OMBC, NE",
+          "tokens": [
+            4406,
+            11,
+            47337,
+            4897,
+            11,
+            7856,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 2774,
+          "keep_hash": "4240b9779461b7633261f46a038ab0f8779edabfd0816c3f8be73d6e9088d5c8",
+          "hook_match": 1,
+          "hard": 0.785714328289032,
+          "soft": -0.9571216106414795,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.15": {
+          "text": "PBP, OMBO, NAC, SMO, Etc.",
+          "tokens": [
+            47,
+            26095,
+            11,
+            47337,
+            4677,
+            11,
+            451,
+            1706,
+            11,
+            328,
+            10531,
+            11,
+            468,
+            10413,
+            13,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 1665,
+          "keep_hash": "dd03bb7aabb53fc18c276690496c5d4e70d87a54ec9daa23800108951d545b2e",
+          "hook_match": 1,
+          "hard": 1.16796875,
+          "soft": -0.4627624750137329,
+          "replay": true,
+          "endpoint_failure": true
+        }
+      },
+      "aux_sha256": "e8912ca1429189ff7e664fb5ba4aff03321dcd9ae04f8fd405a484d7c81c5ecd",
+      "other_page_sha256": [
+        "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+        "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 9935810.0,
+        "l2": 8215.746344672527
+      }
+    }
+  },
+  "control_norms_not_equalized": true,
+  "counters": {
+    "forward": 5804,
+    "backward": 300,
+    "generate": 1102,
+    "fastv": 1064
+  },
+  "elapsed_sec": 2643.1612924518995,
+  "peak_memory_mib": 26928.447265625
+}

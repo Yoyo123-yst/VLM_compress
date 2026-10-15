@@ -1,0 +1,258 @@
+[
+  {
+    "step": 0,
+    "png_sha256": "68ed3ef8d77bcb3ad8c26826f4dad001df7e40a57c09e5a74feae2cbf09b40c8",
+    "texts": {
+      "full": "600",
+      "fastv_0.25": "600",
+      "fastv_0.35": "606"
+    },
+    "margins": {
+      "0.25": 1.710627555847168,
+      "0.35": 2.263908863067627
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "14d825573c3f0d3040500bd91d4d529a5fa51ba4b7d9a21c54f296dcf1f5b7db"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "7a99d11c2a66ba466c145c6fe3542ce46718050dd702147b6eee7a3d5a7d6cb5"
+      }
+    },
+    "selector": {
+      "step": 0,
+      "nonzero": 0,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 0,
+      "pixel_linf_uint8": 0.0,
+      "margin": 1.9872682094573975
+    }
+  },
+  {
+    "step": 10,
+    "png_sha256": "db9eb428d5daf19af10eaeb284a7dda08b8f0b05d1e10c8f5bd69375301967d5",
+    "texts": {
+      "full": "600",
+      "fastv_0.25": "2200",
+      "fastv_0.35": "600"
+    },
+    "margins": {
+      "0.25": 0.19119034707546234,
+      "0.35": 1.2933073043823242
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "6ee5beeb0276431c29408af5e42088871b48729c91d89588f61c7b0d3a6e65fb"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "d8d8050d94fd11ef58defd5b3436865408b18c2ac8ae59b3d735bbe463983205"
+      }
+    },
+    "selector": {
+      "step": 10,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.7422488257288933
+    }
+  },
+  {
+    "step": 25,
+    "png_sha256": "dbeaffb090d5c21369be225555c21ce710c1c50e9f9aa3ffe315935ef9175465",
+    "texts": {
+      "full": "600",
+      "fastv_0.25": "22",
+      "fastv_0.35": "600"
+    },
+    "margins": {
+      "0.25": -0.8209260702133179,
+      "0.35": 1.328406572341919
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "8ce2e907b1c7990eddab1511aa3177a84e792ec93e0ff0c15fb6a86b905ac55e"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "2aadc43d1a7d55fc01a0c29996306ff4e933a347b87fde16d8b1d7df540118b5"
+      }
+    },
+    "selector": {
+      "step": 25,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.25374025106430054
+    }
+  },
+  {
+    "step": 50,
+    "png_sha256": "724a8a1ec268543312630dcf7cd0e5e73e9b8e1c09664a030b57eebe97a9d96c",
+    "texts": {
+      "full": "600",
+      "fastv_0.25": "555",
+      "fastv_0.35": "1200"
+    },
+    "margins": {
+      "0.25": 1.6831696033477783,
+      "0.35": -0.5615555047988892
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "23ae872300e36e3d7f568226535ed8927388e72adf19e177d35a6f9130e3644a"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "9c8b02fb9770cf75819cd047eef994d34f6ffd169e2d6aaaafe3ce1705f2c53f"
+      }
+    },
+    "selector": {
+      "step": 50,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.5608070492744446
+    }
+  },
+  {
+    "step": 75,
+    "png_sha256": "d47292d84d21394b8d7ef2131332186c95b620ed5f0a677dc8b741158c082fa6",
+    "texts": {
+      "full": "600",
+      "fastv_0.25": "400",
+      "fastv_0.35": "100"
+    },
+    "margins": {
+      "0.25": -0.11783885955810547,
+      "0.35": -0.9421253204345703
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "a99a5107c59cf276220b2a287b86b2ebdf59db35bcace9768a89bae42d34d32f"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "e37a13aef2388d18d8a7b459245112bef3fbb31fc9bb1fb4139dbc04077cff49"
+      }
+    },
+    "selector": {
+      "step": 75,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.5299820899963379
+    }
+  },
+  {
+    "step": 100,
+    "png_sha256": "12c5b0fd37d394b45433b8e6272d534e6877f8a8817b0a002a67972cc79a02ca",
+    "texts": {
+      "full": "600",
+      "fastv_0.25": "400",
+      "fastv_0.35": "100"
+    },
+    "margins": {
+      "0.25": -0.20686078071594238,
+      "0.35": -1.0107049942016602
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "4ca17f3e06225425d9de78ec6edffe0719f7b7ceae130c1cf1d53733f128a40f"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "eee527070f4cac5e7422a81f7c26d30c4a39f0e41a1161b21540c0ebd3e2acd9"
+      }
+    },
+    "selector": {
+      "step": 100,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.6087828874588013
+    }
+  },
+  {
+    "step": 150,
+    "png_sha256": "f2331672a6934b19500d5469e196e4eb6322115a9c7f1783029428db20120e94",
+    "texts": {
+      "full": "600",
+      "fastv_0.25": "400",
+      "fastv_0.35": "100"
+    },
+    "margins": {
+      "0.25": -0.7603962421417236,
+      "0.35": -1.28118896484375
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "b55ff2384c4f49851808ad515f0a154a6ee1c30978a69e1b4565be00ee3abfaa"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "e81f4b582be29afc0da26558548fc595ed1b4df4fda391093114402090b38308"
+      }
+    },
+    "selector": {
+      "step": 150,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -1.0207926034927368
+    }
+  },
+  {
+    "step": 200,
+    "png_sha256": "a264f41ee0f327cb2a8f1e68c34f25d9cbe8d0db121068436b7058b57975cca5",
+    "texts": {
+      "full": "600",
+      "fastv_0.25": "C10, PROPOSED FOR, YORK, PA",
+      "fastv_0.35": "2"
+    },
+    "margins": {
+      "0.25": -0.3494100868701935,
+      "0.35": -1.796762466430664
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "e0e2f080cf8537779f8155b1dd0d5df4cf46e394c3928fa3e5e9c8bd8fe98655"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "ebe234843d2231047c2a2e2d9bc459b3e393c97ad2005640726a7f57057cd16c"
+      }
+    },
+    "selector": {
+      "step": 200,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -1.0730862766504288
+    }
+  }
+]

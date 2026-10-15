@@ -1,0 +1,11 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:14,  4.96s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:07<00:07,  3.82s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:10<00:03,  3.34s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.19s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.80s/it]
+Traceback (most recent call last):
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v28_complete_front_holdout/smoke_attack.py", line 49, in <module>
+    main()
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v28_complete_front_holdout/smoke_attack.py", line 27, in main
+    result = runner.run_one(args.sample, args.method, args.device,
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v25_full_answer_competition_pilot/run_iterative_compare.py", line 261, in run_one
+    frozen = json.loads(target_file.read_text())["samples"][sample]
+KeyError: '4742'

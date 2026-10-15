@@ -1,0 +1,13 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  1.67it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.85it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  1.91it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.74it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.32it/s]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "1025", "step": 0, "margin": 2.046875, "full": "Dr. C. Baur MD", "fastv": "Dr. C. Baur"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "1025", "step": 10, "margin": 1.0078125, "full": "Dr. C. Baur MD", "fastv": "TAKEDA"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "1025", "step": 25, "margin": -6.4755859375, "full": "Dr. C. Baur MD", "fastv": "Chalid Tatar"}

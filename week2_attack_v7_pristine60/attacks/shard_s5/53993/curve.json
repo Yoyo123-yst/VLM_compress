@@ -1,0 +1,257 @@
+[
+  {
+    "sample_id": "53993",
+    "step": 0,
+    "seed": 2266017991,
+    "pred_full": "Ohio",
+    "pred_fastv": "Ohio",
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": 3.875,
+    "L_comp": 3.875,
+    "L_soft_full": 0.69140625,
+    "keep_hash": "6d3869ef774dd43435512cf898655acad3fe0f43ef522c142b2dc31ab635fd33",
+    "k": 2774,
+    "aux_share": 0.2469358327325162,
+    "evidence_share": 0.3767123287671233,
+    "page_keep_counts": [
+      1045,
+      685,
+      1044
+    ],
+    "page_shares": [
+      0.3767123287671233,
+      0.2469358327325162,
+      0.37635183850036047
+    ],
+    "linf": 0.0,
+    "png": "checkpoints/step_000.png",
+    "png_sha256": "3af17bd500744b06f96ce84a4f95b9af72813b4ca8f48f117a8b6f1faca40d67",
+    "protected_ok": true,
+    "grad_norm": 278.9873352050781
+  },
+  {
+    "sample_id": "53993",
+    "step": 10,
+    "seed": 2266017991,
+    "pred_full": "Ohio",
+    "pred_fastv": "OHIO",
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": 2.25,
+    "L_comp": 2.5,
+    "L_soft_full": 0.58203125,
+    "keep_hash": "20f2b470f9604514694f4b98dd3260629a08bf450eeac1bf6410495a64b33546",
+    "k": 2774,
+    "aux_share": 0.2487382840663302,
+    "evidence_share": 0.3756308579668349,
+    "page_keep_counts": [
+      1042,
+      690,
+      1042
+    ],
+    "page_shares": [
+      0.3756308579668349,
+      0.2487382840663302,
+      0.3756308579668349
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_010.png",
+    "png_sha256": "fabd158be5e7edfd51f299e94258e2895b835d614fbd28f12ad95a3b7eee6c38",
+    "protected_ok": true,
+    "grad_norm": 27.990821838378906
+  },
+  {
+    "sample_id": "53993",
+    "step": 25,
+    "seed": 2266017991,
+    "pred_full": "Ohio",
+    "pred_fastv": "OHIO",
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": -0.5,
+    "L_comp": -0.40625,
+    "L_soft_full": 0.6640625,
+    "keep_hash": "0b60494b3bc9de87e2fead049935dba9d4a2288de180b20fc59ffc52f2bb2d2d",
+    "k": 2774,
+    "aux_share": 0.24513338139870222,
+    "evidence_share": 0.3774333093006489,
+    "page_keep_counts": [
+      1047,
+      680,
+      1047
+    ],
+    "page_shares": [
+      0.3774333093006489,
+      0.24513338139870222,
+      0.3774333093006489
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_025.png",
+    "png_sha256": "c0fd21c52206c7c2d06409d6ec3f2ae3633178bf4a5a129539f39b10e237eb1c",
+    "protected_ok": true,
+    "grad_norm": 16.751758575439453
+  },
+  {
+    "sample_id": "53993",
+    "step": 50,
+    "seed": 2266017991,
+    "pred_full": "Ohio",
+    "pred_fastv": "OHIO",
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": -2.6875,
+    "L_comp": -2.5625,
+    "L_soft_full": 0.5234375,
+    "keep_hash": "f3cbde98ef1dab4a0f9436ccbc1487332cf8729825e2b1b3b3973a5b47f4620a",
+    "k": 2774,
+    "aux_share": 0.2462148521989906,
+    "evidence_share": 0.3752703677000721,
+    "page_keep_counts": [
+      1041,
+      683,
+      1050
+    ],
+    "page_shares": [
+      0.3752703677000721,
+      0.2462148521989906,
+      0.37851478010093725
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_050.png",
+    "png_sha256": "d8b336c0c0a3e2de8f4fcd9231dca5347557bafeeff4e112699438fe51b5c1c3",
+    "protected_ok": true,
+    "grad_norm": 24.141756057739258
+  },
+  {
+    "sample_id": "53993",
+    "step": 75,
+    "seed": 2266017991,
+    "pred_full": "Ohio",
+    "pred_fastv": "SUPERCAMERICA, LO",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -5.078125,
+    "L_comp": -4.921875,
+    "L_soft_full": 0.6328125,
+    "keep_hash": "e7deb5bf9465321a8e556240dc8ba00d1ad65f716774071a4f73069ba905bdd8",
+    "k": 2774,
+    "aux_share": 0.2465753424657534,
+    "evidence_share": 0.3752703677000721,
+    "page_keep_counts": [
+      1041,
+      684,
+      1049
+    ],
+    "page_shares": [
+      0.3752703677000721,
+      0.2465753424657534,
+      0.3781542898341745
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_075.png",
+    "png_sha256": "8317d46cae39873d4b5f0d370bfd2ed1aded6dccf9563bb894d2165867a1c283",
+    "protected_ok": true,
+    "grad_norm": 32.184452056884766
+  },
+  {
+    "sample_id": "53993",
+    "step": 100,
+    "seed": 2266017991,
+    "pred_full": "Ohio",
+    "pred_fastv": "SUPERCAMERICA, LO",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -7.4609375,
+    "L_comp": -7.265625,
+    "L_soft_full": 0.5,
+    "keep_hash": "ff0b1c9689584583b8445e7d97ec456c55fad76fa3b22d08b9f45af9a7b55384",
+    "k": 2774,
+    "aux_share": 0.2483777937995674,
+    "evidence_share": 0.3752703677000721,
+    "page_keep_counts": [
+      1041,
+      689,
+      1044
+    ],
+    "page_shares": [
+      0.3752703677000721,
+      0.2483777937995674,
+      0.37635183850036047
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_100.png",
+    "png_sha256": "eaf2394b61291c4b4d36fae92e52fb27841ae3c96925269a238c2eadb914d97f",
+    "protected_ok": true,
+    "grad_norm": 30.13886260986328
+  },
+  {
+    "sample_id": "53993",
+    "step": 150,
+    "seed": 2266017991,
+    "pred_full": "Ohio",
+    "pred_fastv": "SUPERSUPEARAMERICA, ULC",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -10.6015625,
+    "L_comp": -10.583984375,
+    "L_soft_full": 0.28125,
+    "keep_hash": "53059ced8556a2cfdaf1622290ad46507206bda527a4ba1671a7d5ff84107b72",
+    "k": 2774,
+    "aux_share": 0.2548666186012978,
+    "evidence_share": 0.3723864455659697,
+    "page_keep_counts": [
+      1033,
+      707,
+      1034
+    ],
+    "page_shares": [
+      0.3723864455659697,
+      0.2548666186012978,
+      0.3727469358327325
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_150.png",
+    "png_sha256": "67a062f80ef63eda9bfc5c600f39910290074ba4e1f72bd8c1e7c58273f1c09a",
+    "protected_ok": true,
+    "grad_norm": 30.353843688964844
+  },
+  {
+    "sample_id": "53993",
+    "step": 200,
+    "seed": 2266017991,
+    "pred_full": "Ohio",
+    "pred_fastv": "SUPERSUPEMERICAO, U.S.A",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -11.052734375,
+    "L_comp": -10.63671875,
+    "L_soft_full": 0.13671875,
+    "keep_hash": "6cb8b6169abf8cabc62ec5cce3de33e55cac62591f4428e56f369367b612022c",
+    "k": 2774,
+    "aux_share": 0.2476568132660418,
+    "evidence_share": 0.3759913482335977,
+    "page_keep_counts": [
+      1043,
+      687,
+      1044
+    ],
+    "page_shares": [
+      0.3759913482335977,
+      0.2476568132660418,
+      0.37635183850036047
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_200.png",
+    "png_sha256": "1c13cd3d565f9048e3ff14ab38a42590dfe801c6d0f7720cd3ab0a510c6ba4dc",
+    "protected_ok": true
+  }
+]

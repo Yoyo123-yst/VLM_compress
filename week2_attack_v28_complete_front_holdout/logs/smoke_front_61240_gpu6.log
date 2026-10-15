@@ -1,0 +1,12 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.93s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.57s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:07<00:02,  2.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.62s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.97s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "61240", "method": "complete_front", "replicate": "a", "accepted": 1, "attempts": 1, "backwards": 4, "grad_hash": "945caa71f83fa0ab5ca36e061dc4bbfde19d94c8b95aad14512cfd65d98c1dc3", "delta_hash": "ad9d06083d4e490386d519abcd47ad5a981c4dca84725715b161db3efc0208d9", "png_sha256": "14d24932e7c0ad2cccd2d48809eb64fa0180118f564df6161c8af50bba74e2b8", "guard": {"full_tokens": [49, 940, 1417, 3092, 25288, 151645], "full_text": "Ruth Shiffrin", "full_text_exact": true, "full_token_exact": true, "full_replay": true, "fast_tokens": [49, 940, 1417, 3092, 25288, 151645], "fast_text": "Ruth Shiffrin", "keep_hash": "cb30ed84c1a66454aae874d1566591a0465b55aeeee04f67fa373c329a05264f", "k": 3699, "fast_replay": true}}

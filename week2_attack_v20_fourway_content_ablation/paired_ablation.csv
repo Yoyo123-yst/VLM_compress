@@ -1,0 +1,17 @@
+sample_id,admitted,method,selector_checkpoint,semantic_status,content_failure,anls,fastv_text,same_positions_as_noeos,full_text_exact,full_replay
+7006,True,A,25,ANSWER_PRESERVED,False,0.962962962962963,RJ Reynolds Tobacco Company,True,True,True
+7006,True,B,25,AMBIGUOUS_REQUIRES_REVIEW,False,0.5769230769230769,TOBACCO COMPANY,True,True,True
+7006,True,C,25,ANSWER_PRESERVED,False,0.962962962962963,RJ Reynolds Tobacco Company,True,True,True
+7006,True,D,25,ANSWER_PRESERVED,False,0.962962962962963,RJ Reynolds Tobacco Company,True,True,True
+39204,True,A,20,ANSWER_PRESERVED,False,1.0,Food technology,True,True,True
+39204,True,B,25,ANSWER_PRESERVED,False,1.0,food technology,True,True,True
+39204,True,C,25,ANSWER_PRESERVED,False,1.0,Food Technology,True,True,True
+39204,True,D,25,ANSWER_PRESERVED,False,1.0,Food Technology,True,True,True
+47450,True,A,20,CONTENT_FAILURE,True,0.0,"Nashville, Tenn.",False,True,True
+47450,True,B,25,CONTENT_FAILURE,True,0.0,"THE NUTRITION FOUNDATION, INC.",False,True,True
+47450,True,C,25,CONTENT_FAILURE,True,0.0,"THE NUTRITION FOUNDATION, INC.",False,True,True
+47450,True,D,25,AMBIGUOUS_REQUIRES_REVIEW,False,0.9259259259259259,Dr. or Mrs. William J. I. Darby,False,True,True
+60700,True,A,25,ANSWER_PRESERVED_AUGMENTED,False,0.0,"PPBS #6 (14, 15, 16)",True,True,True
+60700,True,B,25,AMBIGUOUS_REQUIRES_REVIEW,False,0.0,"PEPS #14, 1967",True,True,True
+60700,True,C,15,AMBIGUOUS_REQUIRES_REVIEW,False,0.0,HEALTH OBJECTIVES,True,True,True
+60700,True,D,15,AMBIGUOUS_REQUIRES_REVIEW,False,0.0,HEALTH OBJECTIVES,True,True,True

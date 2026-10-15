@@ -1,0 +1,19 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:20,  6.72s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:09,  5.00s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.31s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  4.73s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  5.01s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "1025", "ok": true, "status": "REPLAY_OK", "pred_full": "Dr. C. Baur MD", "pred_fastv": "Tanzevadur"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "60700", "ok": true, "status": "REPLAY_OK", "pred_full": "PPBS", "pred_fastv": "Pd 202,202,202"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "2008", "ok": true, "status": "REPLAY_OK", "pred_full": "March 1968", "pred_fastv": "February, 23, 1966"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "51133", "ok": true, "status": "REPLAY_OK", "pred_full": "two", "pred_fastv": "360 working days"}

@@ -1,0 +1,25 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.34it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.56it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  1.68it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  2.27it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.95it/s]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "50743", "step": 0, "fastv": 1.0, "full": 1.0, "margin": 5.671875, "label": "NO_EFFECT", "jaccard": 1.0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "50743", "step": 2, "fastv": 1.0, "full": 1.0, "margin": 5.015625, "label": "NO_EFFECT", "jaccard": 0.9331068722236739}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Traceback (most recent call last):
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v4_relaxed_full/run_lambda.py", line 98, in <module>
+    main()
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v4_relaxed_full/run_lambda.py", line 82, in main
+    append_csv(csv_path, FIELDS + ["lambda_full", "seconds"], row)
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/gate_experiment/run_causal_v2.py", line 142, in append_csv
+    writer.writerow(row)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/csv.py", line 154, in writerow
+    return self.writer.writerow(self._dict_to_list(rowdict))
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/csv.py", line 151, in <genexpr>
+    return (rowdict.get(key, self.restval) for key in self.fieldnames)
+AttributeError: 'list' object has no attribute 'get'
+EXIT:1

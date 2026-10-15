@@ -1,0 +1,74 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:04<00:14,  4.73s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.45s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:20<00:07,  7.40s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:21<00:00,  5.01s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:21<00:00,  5.44s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "RAW", "radius": 1, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 1}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "RAW", "radius": 2, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 2}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "RAW", "radius": 4, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 4}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "RAW", "radius": 8, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 8}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "NATIVE", "radius": 1, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 1}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "NATIVE", "radius": 2, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 2}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "NATIVE", "radius": 4, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 4}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "NATIVE", "radius": 8, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 8}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "DIFF", "radius": 1, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 1}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "DIFF", "radius": 2, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 2}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "DIFF", "radius": 4, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 4}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "DIFF", "radius": 8, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 8}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "RANDOM", "radius": 1, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 1}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "RANDOM", "radius": 2, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 2}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "RANDOM", "radius": 4, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 4}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "39204", "direction": "RANDOM", "radius": 8, "fast_text": "FOOD TECHNOLOGY", "full_exact": true, "linf": 8}
+{"status": "COMPLETED", "rows": 16}

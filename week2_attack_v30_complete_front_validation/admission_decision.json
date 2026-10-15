@@ -1,0 +1,13 @@
+{
+  "status": "ALL_SIX_CLEAN_ADMITTED_PENDING_TARGET_GENERATION",
+  "semantic_clean_review_rule": "The natural FastV response must answer the stated question with a dataset-answer-equivalent entity, number, abbreviation, or null value.",
+  "samples": {
+    "56839": {"clean_status": "VALID_CORRECT", "reason": "TRAVEL EXPENSE VOUCHER matches Travel expense voucher."},
+    "5786": {"clean_status": "VALID_CORRECT", "reason": "7,120 exactly matches the requested cartons sold."},
+    "60793": {"clean_status": "VALID_CORRECT", "reason": "SPEC is the punctuation-normalized form of Spec."},
+    "234": {"clean_status": "VALID_CORRECT", "reason": "inter-office correspondence matches the document type."},
+    "5525": {"clean_status": "VALID_CORRECT", "reason": "The Coca-Cola Company exactly matches the company name."},
+    "52191": {"clean_status": "VALID_CORRECT", "reason": "None exactly matches the recorded product-line answer."}
+  },
+  "next_stage": "Clean-only target generation under the frozen v29 cap."
+}

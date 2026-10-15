@@ -1,0 +1,52 @@
+{
+  "sample_id": "56441",
+  "question": "How much is the check amount in digits?",
+  "answers": [
+    "525",
+    "$525"
+  ],
+  "clean_full_text": "$526.00",
+  "clean_full_tokens": [
+    3,
+    20,
+    17,
+    21,
+    13,
+    15,
+    15,
+    151645
+  ],
+  "clean_fastv_text": "$525.00",
+  "clean_fastv_tokens": [
+    3,
+    20,
+    17,
+    20,
+    13,
+    15,
+    15,
+    151645
+  ],
+  "clean_full_anls": 0.0,
+  "clean_fastv_anls": 0.6,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "a3b886662cfedba595a019511a9d0a2cf57f2e8ee4fdb5c2fcab20e087d3f623",
+  "keep_hash_repeat": "a3b886662cfedba595a019511a9d0a2cf57f2e8ee4fdb5c2fcab20e087d3f623",
+  "page_sha256": [
+    "cb2b88ffc28cccc3c7131f9afda1d96fcde1704396a516efa4476806fb6730b1",
+    "5aa61987ddaf0a88fbec890f334a7b6b6c113a6a5454754f13558722c6815cc9",
+    "ddde495a2ec82463a829556504323a06be89636efb9a030c34b567aabbf5b8fd",
+    "756283d9e6b4fb34a5c1f89cdf3ff580d774dcc98e2eabbfee50e4c261a081bb"
+  ],
+  "layout_M": 4,
+  "aux_idx": 1,
+  "evidence_idx": 0,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.437
+}

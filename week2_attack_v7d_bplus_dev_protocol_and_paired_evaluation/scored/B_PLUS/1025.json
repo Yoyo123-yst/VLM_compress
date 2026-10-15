@@ -1,0 +1,68 @@
+{
+  "sample_id": "1025",
+  "chosen_step": 200,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "Dr. C. Baur MD",
+  "clean_text": "Dr. C. Baur MD",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 6.796357154846191,
+  "pollution": 0,
+  "strict_train": 1,
+  "by_ratio": {
+    "0.50": {
+      "text": "Dr. C. Baur MD",
+      "anls": 0.9166666666666666,
+      "margin": 3.675741195678711,
+      "keep": {
+        "k": 5548,
+        "keep_hash": "9428f26bbe187ed3800bb109cf11274c5f8465a04572d627031b4b33bb6d0431",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 3.1206159591674805
+    },
+    "0.35": {
+      "text": "Dr. Peter J\u00fcdi",
+      "anls": 0.0,
+      "margin": -0.5412961840629578,
+      "keep": {
+        "k": 3884,
+        "keep_hash": "bde8152cf0fb0379406001fef36e20f430be7c6e879dc90dd9ded099df0bc0af",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 7.337653338909149
+    },
+    "0.25": {
+      "text": "Tigard T.",
+      "anls": 0.0,
+      "margin": -1.6940064430236816,
+      "keep": {
+        "k": 2774,
+        "keep_hash": "0386b74bb2343865684b71a06718b1251bd3f76512d11739de576aa7def42b08",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 8.490363597869873
+    },
+    "0.15": {
+      "text": "TAKEDA",
+      "anls": 0.0,
+      "margin": 0.9577610492706299,
+      "keep": {
+        "k": 1665,
+        "keep_hash": "7db1584d7ccd92035c96800976a3a873ca50047dba264943c5d9f7b4ee71278a",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.8385961055755615
+    }
+  },
+  "selector_margin": -1.1176513135433197
+}

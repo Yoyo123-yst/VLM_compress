@@ -1,0 +1,13 @@
+{
+  "status": "PROTOCOL_FROZEN_TRAINING_NOT_RUN",
+  "reason": "Stage III returned GO_SURVIVOR_UPGRADE. Variant A was applied to existing checkpoints. Variant B, Variant C, and the pristine-60 run are not started: the instruction text ended while defining the 12-sample dev fill rule, before a dev pass bar or the pristine-60 design.",
+  "dev_seed_rule": "Include every v5b fixed-step non-success. Then add the lowest-id CONTENT_SUFFICIENT success, the lowest-id INTERACTION_REQUIRED success, the lowest-id BOTH_INDEPENDENTLY_SUFFICIENT success, then the lowest-id remaining M=2 successes until the set has 12.",
+  "dev_ids": ["1025", "2008", "7006", "39204", "47450", "47567", "50779", "51133", "60700", "6194", "62941", "64506"],
+  "variant_a": "prospective feasible selector on saved v5b checkpoints 10,25,50,75,100,150,200. Steps 125 and 175 were not saved by v5b.",
+  "variant_b": "NOT_RUN",
+  "variant_c": "NOT_RUN",
+  "epsilon": 0.03137254901960784,
+  "steps": 200,
+  "lambda_seq_scale": "NOT_RUN",
+  "beta_scale": "NOT_RUN"
+}

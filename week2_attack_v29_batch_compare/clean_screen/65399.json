@@ -1,0 +1,40 @@
+{
+  "sample_id": "65399",
+  "question": "What is the title?",
+  "answers": [
+    "REFERENCES",
+    "References"
+  ],
+  "clean_full_text": "References",
+  "clean_full_tokens": [
+    31712,
+    151645
+  ],
+  "clean_fastv_text": "Nrc publication",
+  "clean_fastv_tokens": [
+    45,
+    1287,
+    16599,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "c9507d57d761ced373973522ab60a654c477064aabf7b0de4870fd1c06b9ab24",
+  "keep_hash_repeat": "c9507d57d761ced373973522ab60a654c477064aabf7b0de4870fd1c06b9ab24",
+  "page_sha256": [
+    "5f8a0cc6401388806a22b70472fced819cee489f65bc61065c22b42dfdaba266",
+    "6d9982b23d916f991753328468517737dd3f3a0d674a7772ba7ac39aadffed1c"
+  ],
+  "layout_M": 2,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 4.298
+}

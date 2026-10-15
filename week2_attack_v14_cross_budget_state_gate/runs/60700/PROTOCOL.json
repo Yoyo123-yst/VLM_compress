@@ -1,0 +1,27 @@
+{
+  "status": "CROSS_BUDGET_STATE_GATE_REGISTERED",
+  "sample_id": "60700",
+  "source_png": "week2_attack_v13_branch_reachability_probe/runs/state_retention_v1/60700/AWARE_FREEZE/step_011.png",
+  "source_png_sha256": "9fa86ee802bd22064f6503ceed9b512b5fd0464022da66be3df73d3189f0a367",
+  "branch": "frozen AWARE choice from construct_v1r1; not re-screened",
+  "held_budget": 0.25,
+  "scheduled_budget": 0.35,
+  "observed_ratios": [
+    0.15,
+    0.25,
+    0.35,
+    0.5
+  ],
+  "extra_steps_cap": 15,
+  "decision_tree": [
+    "If r=0.35 clean FastV is not the same target token at the frozen branch position, do not schedule.",
+    "If the sealed PNG already has natural FastV ANLS<0.5 at r=0.35 with Full exact and r=0.25 still failing, record CHECKPOINT_ALREADY_COVERS and do not update.",
+    "If the r=0.35 pair margin is already <= 0, record HINGE_ALREADY_MET and do not update.",
+    "Otherwise run at most 15 Adam steps of the same branch hinge at r=0.35 plus the unchanged Full-FDP term.",
+    "Reject an update unless Full text, token, and replay stay exact and the r=0.25 pair gap stays <= 0.",
+    "Freeze at the first accepted state whose r=0.35 pair gap is <= 0.",
+    "STATE_GATE_ADDS_ENDPOINT only if that saved PNG newly creates a natural r=0.35 ANLS<0.5 while r=0.25 failure and Full exact remain."
+  ],
+  "anls_used_for_update_acceptance": false,
+  "sample_expansion": "NOT_RUN"
+}

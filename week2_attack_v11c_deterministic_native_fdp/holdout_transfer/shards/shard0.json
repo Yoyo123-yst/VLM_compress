@@ -1,0 +1,637 @@
+{
+  "status": "TRANSFER_EVALUATED",
+  "protocol": "independent disk-reloaded clean/attack/matched-noise holdout FastV replay",
+  "gpu": "0",
+  "samples": {
+    "53993": {
+      "status": "OK",
+      "clean_text": "Ohio",
+      "full": {
+        "clean": "Ohio",
+        "attack": "Ohio",
+        "noise": "Ohio"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "Ohio",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1665,
+            "keep_hash": "26a85acdd56688c7d785797675ff4bffefd86fcc3ee053b5ae0589275307819b"
+          },
+          "attack": {
+            "text": "Ohio",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1665,
+            "keep_hash": "13973a6d72f652dc5a78fa2508934394fc55e2299d19ad1c965599e455888631"
+          },
+          "noise": {
+            "text": "Ohio",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1665,
+            "keep_hash": "a63ad665d1817c4325ccd34528cbd5c113efa117ea5af5f337553c4cc52a6340"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.25": {
+          "clean": {
+            "text": "Ohio",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2774,
+            "keep_hash": "6d3869ef774dd43435512cf898655acad3fe0f43ef522c142b2dc31ab635fd33"
+          },
+          "attack": {
+            "text": "SUPERRAMERICA,LLC",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2774,
+            "keep_hash": "c6f73ac354c93b0bad3bc13b751fc292e050cc4ce6184a530e13faca4a0d0672"
+          },
+          "noise": {
+            "text": "Ohio",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2774,
+            "keep_hash": "1bafe448b2c8fd15981c7d3d279e4789dc1e1bc06854990810b9be16ec133573"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "Ohio",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3884,
+            "keep_hash": "145e1a224e6e0b05b64bf3e35143de7d01958f2b0247dc7a0e9bef4593a9ecb9"
+          },
+          "attack": {
+            "text": "SUPERRAMERICAC,LLC",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3884,
+            "keep_hash": "389a89de6a9db743395ddf8e6c503c77180b6b0efd8cfd9c1e000943bfbf46a1"
+          },
+          "noise": {
+            "text": "Ohio",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3884,
+            "keep_hash": "d784f605bd45c9ccbb21bb4d830fa6aecb5fda631dea114dc1ffc77154b87a15"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "Ohio",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "dc75916d548c9f0237feb8b85cd7b093f7ad705e064f270c5c423f4f088557d3"
+          },
+          "attack": {
+            "text": "Ohio",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "51e73f0bbe750cc7a71327459471a235f6b7ced24c5dad72b33d1ccdb760db68"
+          },
+          "noise": {
+            "text": "Ohio",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "6b0c56c51b8a456e870ea279a3d1351e7a99b81ab5ec09a3123041035ca2335f"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "57531": {
+      "status": "OK",
+      "clean_text": "Sunfeast",
+      "full": {
+        "clean": "Sunfeast",
+        "attack": "Sunfeast",
+        "noise": "Sunfeast"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "Sunfeast",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2219,
+            "keep_hash": "1cb313fc006bd328558ada0e24aaa7f007b4a1c60c8b5b23086542290e8d4061"
+          },
+          "attack": {
+            "text": "Delicious",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2219,
+            "keep_hash": "12d5960d5eb6c385a10fdb395a8d40f5ae1de6b56c566810df41c117974c8ce9"
+          },
+          "noise": {
+            "text": "Sunfeast",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2219,
+            "keep_hash": "b1ba28afc04cc4c2884c5f1953d171e9d1aeb61852e262bbd5cb891c0c84380b"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.25": {
+          "clean": {
+            "text": "Sunfeast",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "08603f470ac576d0e5c17182245c2eb999e55e58bfc1fe2f0616bef75dfef8ff"
+          },
+          "attack": {
+            "text": "UTC",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3699,
+            "keep_hash": "e326d1a9da51d532bd941396c94697651da168ad028944aaa425a119f43b4d59"
+          },
+          "noise": {
+            "text": "Sunfeast",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "23c2f97bdc66fee3287af591eea0ae38f16342199407c2027f7d5743fa660f18"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "Sunfeast",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "02cabe2e7e2df7560e9446f26419c43cfd941bb3ed8c9e1fa3e42e2becac31a1"
+          },
+          "attack": {
+            "text": "Wheat Rusk",
+            "valid": true,
+            "anls": 0.0,
+            "k": 5179,
+            "keep_hash": "4cfd5c440437ac9eb04f1a8dfc3350fed28319279422e6d7ac92aae227534b14"
+          },
+          "noise": {
+            "text": "Sunfeast",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "01a8ecac5337d2a01abe809de108875e5dd7de29097e391ea5547131b13275e8"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "Sunfeast",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "a604aeed5add5cf1b7dd33efbd540ff7a8eba1b811cbb7c5ee516325ed04fbe1"
+          },
+          "attack": {
+            "text": "Sunfeast",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "2ecd01d3c20890123a0eb46fd9bf918f6436ec67b704e84efab106d03baa0488"
+          },
+          "noise": {
+            "text": "Sunfeast",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "5b201303905167e624e4d1617fdc7a8fab2d45b4248af5d7921e2eb6f9852905"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "51660": {
+      "status": "OK",
+      "clean_text": "May 4, 1960",
+      "full": {
+        "clean": "May 4, 1960",
+        "attack": "May 4, 1960",
+        "noise": "May 4, 1960"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "May 4, 1960",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1665,
+            "keep_hash": "abbc9ef8536449a8a1aa0c29766dbb1ae89bf40fb73fa1b80d80d63b9c770707"
+          },
+          "attack": {
+            "text": "16/02/2007",
+            "valid": true,
+            "anls": 0.0,
+            "k": 1665,
+            "keep_hash": "feb4aae6d047982c8ec588e874951fd7f8f84024548e2be1fb362616f1391e74"
+          },
+          "noise": {
+            "text": "May 4, 1960",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1665,
+            "keep_hash": "bddf7f82a8ce4c31f66fc30252ad5f5915acdba7380cefe012e6be4ac461487b"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.25": {
+          "clean": {
+            "text": "May 4, 1960",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2774,
+            "keep_hash": "bf1ef566579260228f12e19a065d21feca47976aa5fba7c3cd616d618e6be135"
+          },
+          "attack": {
+            "text": "16-4-1960",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2774,
+            "keep_hash": "f6dae45c5d311eb86e2d29eb25cebe6d1cdba4d68017e7a2256a9740b3d0b01a"
+          },
+          "noise": {
+            "text": "May 4, 1960",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2774,
+            "keep_hash": "729409b45babab951e425006c8c11ecb10e4bd05731186f366e96deee03560b6"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "May 4, 1960",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3884,
+            "keep_hash": "4b529a3efe7fa5089a66bf5e16a4a49dc467f97bb806d2c339a42a9ebb74a411"
+          },
+          "attack": {
+            "text": "1955",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3884,
+            "keep_hash": "23026cb3df5c8fcbfe7d68cf012342927e5a7ae15e2f22024a8534d6f5476b49"
+          },
+          "noise": {
+            "text": "May 4, 1960",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3884,
+            "keep_hash": "de8c4afa98489ae4e0f3267ee5a323e512fe992ff987965709b5924f75c9979e"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "May 4, 1960",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "516018b936239568701da856d885c9ea0d470e6b06f8b29e448c4da0b97765cc"
+          },
+          "attack": {
+            "text": "May 4, 1960",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "7d4415ce8833fefd7684f5c94d5ea2360a271a98acf92e9ee6bc7f9f81ef12b7"
+          },
+          "noise": {
+            "text": "May 4, 1960",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "f2354f07844f7599e2ab6a6409750e354cca8f63ca938d325d4072bfe8529848"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "50906": {
+      "status": "OK",
+      "clean_text": "Dr. Darby",
+      "full": {
+        "clean": "Dr. Darby",
+        "attack": "Dr. Darby",
+        "noise": "Dr. Darby"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "Dr. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1665,
+            "keep_hash": "08dd1a9bf2847c7eebd00e1c0a8edb1498ee572654b2481d451b26caf87a38a3"
+          },
+          "attack": {
+            "text": "Dr. Dir Donkey",
+            "valid": true,
+            "anls": 0.0,
+            "k": 1665,
+            "keep_hash": "3e504f48cff3191df1f458d875a121a56a9b4e319f2be63567167da1a5848ea3"
+          },
+          "noise": {
+            "text": "Dr. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1665,
+            "keep_hash": "b63ac1063bcf3e09595da2523002d5c9cd086ec8b3465d3caabc9c737dbb2e9e"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.25": {
+          "clean": {
+            "text": "Dr. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2774,
+            "keep_hash": "d0d530edace95e7e6f98b8be0afdaf4e802426128eb0a1c3be0ff4c2909dc392"
+          },
+          "attack": {
+            "text": "Dr. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2774,
+            "keep_hash": "39cd2cfc5bb8edfed8ea216d46de3dd3db153d364b5693c73480f5e3974ba780"
+          },
+          "noise": {
+            "text": "Dr. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2774,
+            "keep_hash": "0ccaec3410baa3bb0417cf7199b9347a572a176c57a2f31800743268b9eeb747"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.35": {
+          "clean": {
+            "text": "Dr. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3884,
+            "keep_hash": "adb6fe9fe2868a8b0ad4d9ca5ee2b58ea3957a626708f36c4c24b45523965ab9"
+          },
+          "attack": {
+            "text": "Dr. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3884,
+            "keep_hash": "6db0af97fc69c3f896deecfbee1bae8f88ccdfd9443ec6f178b4e312a68e970b"
+          },
+          "noise": {
+            "text": "Dr. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3884,
+            "keep_hash": "f6d96e6b665c1c383fff7d0b58722c33d3ec9195c3064033eb1f0f4b168ca036"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.50": {
+          "clean": {
+            "text": "Dr. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "6104e970e534fb868f36efd0c9b906b79b6b3c073fb091d7c00ea3eea0b8bcdd"
+          },
+          "attack": {
+            "text": "Dr. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "92e8dbef0b99d063a6938032d23fbe1a008d43eada0eb711a7f824de112850b4"
+          },
+          "noise": {
+            "text": "Dr. Darby",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "ff69632bcc9545f8e4e77e7c7f6d9db83c150ce08119f6271155073d56049e49"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "51140": {
+      "status": "OK",
+      "clean_text": "June 7, 2016",
+      "full": {
+        "clean": "June 7, 2016",
+        "attack": "June 7, 2016",
+        "noise": "JUNE 7, 2016"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "June 7, 2001",
+            "valid": true,
+            "anls": 0.8181818181818181,
+            "k": 1110,
+            "keep_hash": "8f221ba8e77a01f9a92f8cc287a113ffff4b4a8a347af0e025514e0b6b939c64"
+          },
+          "attack": {
+            "text": "June 7, 2001",
+            "valid": true,
+            "anls": 0.8181818181818181,
+            "k": 1110,
+            "keep_hash": "d8721967852fe365b97f966679803ae014b2c49828615af66d889d74489bc72b"
+          },
+          "noise": {
+            "text": "June 7, 2001",
+            "valid": true,
+            "anls": 0.8181818181818181,
+            "k": 1110,
+            "keep_hash": "68736cf1445bdb302959f769702459950dc9f78629bb28885a8fbc358b074640"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.25": {
+          "clean": {
+            "text": "June 7, 2016",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1850,
+            "keep_hash": "c155810c933baaa15896538ae85c2ae7065e41b1bd7678c6551dfd799c712b9b"
+          },
+          "attack": {
+            "text": "H.K.T., N.K.",
+            "valid": true,
+            "anls": 0.0,
+            "k": 1850,
+            "keep_hash": "2a2946331c8785bf4a1f7e3eeaf6e750c8a275ef07c5e61c2da2c219935fae43"
+          },
+          "noise": {
+            "text": "June 7, 2016",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1850,
+            "keep_hash": "7490729ff7ddbfe12f55ff47b015ead92bebeb5da920f973fe03e5693a2b67e0"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "June 7, 2016",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2589,
+            "keep_hash": "98a676ab04e5220d4405c6eccf2553a48dcb22da28ff2310e79c2898e4348c77"
+          },
+          "attack": {
+            "text": "H.R. 347, 114th Congress,",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2589,
+            "keep_hash": "6f382a8f00356c8e02c28bbaccc27f0793907b057e0023d99b995c1ff2205b13"
+          },
+          "noise": {
+            "text": "June 7, 2016",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2589,
+            "keep_hash": "ee9a36fa448626f73594dc7f87b7d71f951acf996a1de5276875f7a35cd452e5"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "June 7, 2016",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "9245eebb24fc0ac2167e827c9278f879ae5f3b4b18e46c19563427f9820c569f"
+          },
+          "attack": {
+            "text": "June 7, 2015",
+            "valid": true,
+            "anls": 0.9090909090909091,
+            "k": 3699,
+            "keep_hash": "05c82ee7e1ab7275879991ad580a9e28896b6b8b229f3da021face3b975fffc4"
+          },
+          "noise": {
+            "text": "June 7, 2016",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "f4ae41fa5f79c10b20add19947e5837f46b9225115d55b7a04db38811c8d7915"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": true
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    }
+  }
+}

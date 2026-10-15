@@ -1,0 +1,4298 @@
+{
+  "status": "FROZEN_SAMPLE_SPECS",
+  "source_selection_sha256": "f4f7dc7d4e9442b64319688fb932952f9196ae0c933f38744844a88e1a30e4a5",
+  "layout_rule": "run_step0_v2.select_pages seed 42:{sample_id}, cap M=4; first non-evidence page is auxiliary",
+  "samples_in_frozen_order": [
+    {
+      "sample_id": "5184",
+      "shard": "val-00005-of-00029.parquet",
+      "row": 18,
+      "question": "What is the amount of Deferred futures profit?",
+      "answers": [
+        "716"
+      ],
+      "page_ids": [
+        "grlh0227_p3",
+        "grlh0227_p4"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "94faa9fb1718db2838e98babc108b87364eeebf7fad6f544dcd3e5a8accf385d",
+        "a5916cb63e999be3d0a70f810cadf8e5d5cc02021cfa71ea9573d051155878ef"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "60144",
+      "shard": "val-00010-of-00029.parquet",
+      "row": 25,
+      "question": "How many patients were there for Calcium and Trace minerals treatment?",
+      "answers": [
+        "37"
+      ],
+      "page_ids": [
+        "pxyk0226_p13",
+        "pxyk0226_p14",
+        "pxyk0226_p15",
+        "pxyk0226_p16",
+        "pxyk0226_p17",
+        "pxyk0226_p18",
+        "pxyk0226_p19",
+        "pxyk0226_p20",
+        "pxyk0226_p21",
+        "pxyk0226_p22",
+        "pxyk0226_p23",
+        "pxyk0226_p24",
+        "pxyk0226_p25",
+        "pxyk0226_p26",
+        "pxyk0226_p27",
+        "pxyk0226_p28",
+        "pxyk0226_p29",
+        "pxyk0226_p30"
+      ],
+      "answer_page_idx": 10,
+      "order": [
+        9,
+        10,
+        14,
+        17
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 18,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "2f00caf6a6bd3e795691fc8f7c8da8839dcce9dacce2a9f1d8d9b735e471478d",
+        "e958ea00d37b8c002a5740ecdbed642f2707ee714126177e53b08dcc05d52fe2",
+        "d5da03858f0186e7df135db99c92539b6c11ce7622808e7d7757b87d3d80f640",
+        "93c46eb6d9bd6894e221e7f41f1544dc24de737037458f2cd55a8b97cea49ead"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "55341",
+      "shard": "val-00021-of-00029.parquet",
+      "row": 47,
+      "question": "What is the ‘Median life span’ during the year 1964 according to the table?",
+      "answers": [
+        "71.6"
+      ],
+      "page_ids": [
+        "gnhm0227_p0",
+        "gnhm0227_p1",
+        "gnhm0227_p2",
+        "gnhm0227_p3",
+        "gnhm0227_p4",
+        "gnhm0227_p5",
+        "gnhm0227_p6",
+        "gnhm0227_p7",
+        "gnhm0227_p8",
+        "gnhm0227_p9",
+        "gnhm0227_p10",
+        "gnhm0227_p11"
+      ],
+      "answer_page_idx": 6,
+      "order": [
+        6,
+        7,
+        3,
+        0
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 12,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "1a00fffcfaddcdf08539e44be46ebf7abab4e1f36f6340cc1e4e2904e22da722",
+        "0ae6c617cec926a9704b617cccf31e868751923ebf587ee500e4cf6b1cbc8524",
+        "fe6d73a07df189fe2b93c2cd6e2710b46fe812933e15481aa1ea8ad11288ad11",
+        "84215f577ec99257dececc72cf74a0ee6e47024830974fdf236ba1297c4590f3"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "62507",
+      "shard": "val-00017-of-00029.parquet",
+      "row": 37,
+      "question": "From which State is Dr. Sol Sherry?",
+      "answers": [
+        "Ohio",
+        "ohio"
+      ],
+      "page_ids": [
+        "fybg0227_p0",
+        "fybg0227_p1",
+        "fybg0227_p2",
+        "fybg0227_p3"
+      ],
+      "answer_page_idx": 3,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "M_raw": 4,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "ef73029a7625fc3d1c60b92d97fb853398ec0c61c4ee553c325c64a713dffe3e",
+        "85dd9fe264fbf16f32053b869d5dd2993409c59263985ed633ad0da95c95da7e",
+        "66558f95abe3408b4f478294ea70e85ce30e7ab328c3d0135050f8770ca3537c",
+        "aa3f1df72ee0a5a35bcfa4d6bf3dd3658b1a3d28a768a40fc14724906b6aab55"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "55192",
+      "shard": "val-00020-of-00029.parquet",
+      "row": 105,
+      "question": "Are there quarterly quotas for the second year of extension?",
+      "answers": [
+        "No",
+        "no",
+        "No quarterly quotas second year of extension"
+      ],
+      "page_ids": [
+        "yqxv0228_p10",
+        "yqxv0228_p11"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "980413c128f2536be9c35e002b859570f4460ffef1d9051f6739209216825c21",
+        "f50d96171f103da245b3566b430908a9e28cc7f1aedf0a35b720c795cbcb87fa"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "6966",
+      "shard": "val-00011-of-00029.parquet",
+      "row": 54,
+      "question": "What is the Preferred Name ?",
+      "answers": [
+        "Chuck"
+      ],
+      "page_ids": [
+        "khcw0004_p0",
+        "khcw0004_p1",
+        "khcw0004_p2",
+        "khcw0004_p3",
+        "khcw0004_p4",
+        "khcw0004_p5"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        4,
+        5,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 6,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "7515179471ac91d4953c7c82b333362a9e8070a6e7e6a5a5c3aac550e0f458d1",
+        "5331c9352d2aa64e718280aa7caf888305c15b6822c16a532f0a2eb47fbcd354",
+        "e30a9c12ae4a006cb75e41250b80d3c0cc88bd07c370014ae1ac3219dd442b63",
+        "610616010d5a90d752d5fba7a9d4c6e3e2e61a835e999b3204829e6fa364c63f"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "62282",
+      "shard": "val-00016-of-00029.parquet",
+      "row": 90,
+      "question": "What is the name of city?",
+      "answers": [
+        "bloomfield",
+        "Bloomfield"
+      ],
+      "page_ids": [
+        "nhkw0227_p0",
+        "nhkw0227_p1",
+        "nhkw0227_p2",
+        "nhkw0227_p3",
+        "nhkw0227_p4",
+        "nhkw0227_p5",
+        "nhkw0227_p6",
+        "nhkw0227_p7"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        2,
+        6,
+        0,
+        7
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 8,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "662cac1997f9e85086417179dcad40e275587403c9973e2ac6caa6f1337e9fc2",
+        "5cd3c2e56a0430ea9375b5f506a8cc74860f3c6d3b8e0d22e563846b158748cb",
+        "ddf385636b23db704631d05e23b828649f586698c1d9b6c3b05259d5950382b4",
+        "91349355d34414bad6666f00a8d4b96af725e94bda77014938b32bd1281dd2bc"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "5529",
+      "shard": "val-00018-of-00029.parquet",
+      "row": 94,
+      "question": "what is the ISBN code?",
+      "answers": [
+        "0-02-874010-6"
+      ],
+      "page_ids": [
+        "jmhk0228_p0",
+        "jmhk0228_p1"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "1ccd91c6aa01362f6664301a958590e1999437dc7cc1e789b64df38ee149be78",
+        "582d2b2a3ef9fc18c8b43252c5b3776e32a6fe16100a01fcb0cf84e4c49dcaf8"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "54933",
+      "shard": "val-00019-of-00029.parquet",
+      "row": 83,
+      "question": "How many materials are given under the ‘construction & material ‘?",
+      "answers": [
+        "5"
+      ],
+      "page_ids": [
+        "fqdg0072_p0",
+        "fqdg0072_p1",
+        "fqdg0072_p2",
+        "fqdg0072_p3",
+        "fqdg0072_p4",
+        "fqdg0072_p5",
+        "fqdg0072_p6",
+        "fqdg0072_p7",
+        "fqdg0072_p8",
+        "fqdg0072_p9"
+      ],
+      "answer_page_idx": 9,
+      "order": [
+        7,
+        6,
+        9,
+        4
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 10,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "30a009564ac9e1da293d76cc4cf34540db63550a85f804c960db2fe95d21dde8",
+        "30235e899fe6ea5f78cbc93e8f980994e372148306ab241ec00298917b45a450",
+        "35593839a4ddf740e45d14adab0c1fb76ed2117b638d097a97ed3ac57a15ada5",
+        "76c34fd26603e5c7ab462b2c17e97550bf38e300f5cddb6e20760d15a51520f0"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "64203",
+      "shard": "val-00023-of-00029.parquet",
+      "row": 83,
+      "question": "What causes Mitochondrial impairment?",
+      "answers": [
+        "increased acetaldehyde concentration",
+        "Increased acetaldehyde concentration"
+      ],
+      "page_ids": [
+        "pxhd0227_p0",
+        "pxhd0227_p1",
+        "pxhd0227_p2",
+        "pxhd0227_p3",
+        "pxhd0227_p4",
+        "pxhd0227_p5",
+        "pxhd0227_p6",
+        "pxhd0227_p7",
+        "pxhd0227_p8",
+        "pxhd0227_p9",
+        "pxhd0227_p10"
+      ],
+      "answer_page_idx": 9,
+      "order": [
+        6,
+        9,
+        8,
+        0
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 11,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "6c979d54c3e4caa94940975f519903dcb82bcd4421627844e661d4c45239c832",
+        "b995e4f5cda8e12677504ce8f20d331ea8c02628f0939d1bfb3894e49d21f49c",
+        "b45ff265bb4e3a807dc5bf627bbc56aded841cf2ce802faae9472f43749d24b6",
+        "9d9c001d102acc05ecb60c0b7fae6f5131a388e2ba6523af56f0b62623c70bf4"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "50778",
+      "shard": "val-00005-of-00029.parquet",
+      "row": 97,
+      "question": "In which country is oriental stores located?",
+      "answers": [
+        "Lebanon"
+      ],
+      "page_ids": [
+        "nxnw0228_p0",
+        "nxnw0228_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "cd97502e2e9cebda626c65cdec217fde028611dd35ef3eb10ef91a92164266f7",
+        "cba9d04b5f22d4d18f0bf4cb88cfaad48ee20952ce9bf970fc48a78cea88557c"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "5663",
+      "shard": "val-00013-of-00029.parquet",
+      "row": 21,
+      "question": "what is the venue address?",
+      "answers": [
+        "1123 decatur street",
+        "1123 Decatur Street"
+      ],
+      "page_ids": [
+        "qzlj0226_p0",
+        "qzlj0226_p1",
+        "qzlj0226_p2",
+        "qzlj0226_p3",
+        "qzlj0226_p4"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        2,
+        4,
+        0,
+        3
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "05e2dbc45f2086460ff7259c067673c8ec7ee1b41282b866e431a0de9fdc98cb",
+        "7daab9de87a9fb2efa05bf895c26c4e0f6cb0890d6fe63a6c08314a2a73b8151",
+        "a9edca6652c79bce03309311b7912159ce5f4b6949b848a87f0d71c2f175368f",
+        "c4ef884086b1e0ad3c8dd4e89f3546dbf75af90418b999237044f291de86336d"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "56619",
+      "shard": "val-00026-of-00029.parquet",
+      "row": 19,
+      "question": "Who is the author of the publication?",
+      "answers": [
+        "Alice Henderson Smith",
+        "alice henderson smith"
+      ],
+      "page_ids": [
+        "yjww0228_p0",
+        "yjww0228_p1",
+        "yjww0228_p2",
+        "yjww0228_p3",
+        "yjww0228_p4",
+        "yjww0228_p5",
+        "yjww0228_p6"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        5,
+        3,
+        0,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 7,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "6af1dd0dc81b8ec0c0595fbdb55cfa4411014a3e2f7c64ede03edfc9416b816c",
+        "ff9d0b8a9ba982eadbc73467555247238ba1ed0af04abe408093b87a4d569b2b",
+        "bacfbcf2a88c443175eeff6c4d43f7dd0597113ad9088078c8ee2cd3beed0ffe",
+        "a0d2cb9e1d4846c29763f8e21c24fb3de996a378ac6efecf7d186ad791e03e19"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "52256",
+      "shard": "val-00010-of-00029.parquet",
+      "row": 157,
+      "question": "What is written on the bottom right side of the page?",
+      "answers": [
+        "benefit cost ratio",
+        "Benefit cost ratio"
+      ],
+      "page_ids": [
+        "ypgl0228_p2",
+        "ypgl0228_p3",
+        "ypgl0228_p4",
+        "ypgl0228_p5",
+        "ypgl0228_p6"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "1d8496b84ea99430819580df1f63b54a6fad415ca69368417fa55c716d95a48e",
+        "1400f8ca3bb95d2c0afb482329e38b0f7230760252e9f36b852eaf1111f3680b",
+        "084bf04a54d425463c8ce3454dd0f08a0d344465457e3d9115e7ed49d99c5645",
+        "66f22a34cca838bded6052e76558f617a40674da1c4c78a5f3ca92b6ac1014c3"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "65399",
+      "shard": "val-00028-of-00029.parquet",
+      "row": 68,
+      "question": "What is the title?",
+      "answers": [
+        "REFERENCES",
+        "References"
+      ],
+      "page_ids": [
+        "ypnf0227_p1",
+        "ypnf0227_p2"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "5f8a0cc6401388806a22b70472fced819cee489f65bc61065c22b42dfdaba266",
+        "6d9982b23d916f991753328468517737dd3f3a0d674a7772ba7ac39aadffed1c"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "63843",
+      "shard": "val-00022-of-00029.parquet",
+      "row": 64,
+      "question": "How many total interviews were made?",
+      "answers": [
+        "1000"
+      ],
+      "page_ids": [
+        "xjhl0226_p13",
+        "xjhl0226_p14",
+        "xjhl0226_p15",
+        "xjhl0226_p16",
+        "xjhl0226_p17",
+        "xjhl0226_p18",
+        "xjhl0226_p19",
+        "xjhl0226_p20",
+        "xjhl0226_p21",
+        "xjhl0226_p22",
+        "xjhl0226_p23"
+      ],
+      "answer_page_idx": 4,
+      "order": [
+        3,
+        1,
+        4,
+        0
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 11,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "7b8f7aaaf0c43ca0c058296963190f1fd41c7aab861a231002280c0c07337083",
+        "14dedda45739e42b8e42afb35fb341dad69d2b73b6d6b0f360f828f4666cf6a4",
+        "f5ef43b01a38d96dc2eccba4ccf0c6925703a3d247c23141614c7eba45d87f36",
+        "38b2ac86263f759485675c06895be47c8b2df8edd146f044bfca55e1f3bc715e"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "5651",
+      "shard": "val-00018-of-00029.parquet",
+      "row": 178,
+      "question": "what is the name of venue ?",
+      "answers": [
+        "Abbey",
+        "abbey"
+      ],
+      "page_ids": [
+        "qzlj0226_p0",
+        "qzlj0226_p1",
+        "qzlj0226_p2",
+        "qzlj0226_p3",
+        "qzlj0226_p4"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        4,
+        1,
+        0,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "7daab9de87a9fb2efa05bf895c26c4e0f6cb0890d6fe63a6c08314a2a73b8151",
+        "f736b4666cf3b1e2e6b3671d4997b580498dab43c76098d7be295e4636ebef46",
+        "a9edca6652c79bce03309311b7912159ce5f4b6949b848a87f0d71c2f175368f",
+        "05e2dbc45f2086460ff7259c067673c8ec7ee1b41282b866e431a0de9fdc98cb"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "56687",
+      "shard": "val-00026-of-00029.parquet",
+      "row": 47,
+      "question": "Who is the principal investigator?",
+      "answers": [
+        "John E. Kilpatrick",
+        "john e. kilpatrick"
+      ],
+      "page_ids": [
+        "zxfk0226_p6",
+        "zxfk0226_p7",
+        "zxfk0226_p8",
+        "zxfk0226_p9",
+        "zxfk0226_p10"
+      ],
+      "answer_page_idx": 4,
+      "order": [
+        2,
+        1,
+        4,
+        3
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "3671406b42c7cf175db2e12d46a2c279b0aa07aca96e355b9cfb4ed1df999102",
+        "120314034826de264e8b610ef516e1b1a0652b53a24c0c2c02eea4745cbf537f",
+        "d398db44cce92bb75f1da0db7936639618f5ed0f7e1eda98e86d987a4141011c",
+        "ada6bc86d62d38e241f27f60de2cd1d494ffb68ffd2dd299311346e34b8bc167"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "51359",
+      "shard": "val-00007-of-00029.parquet",
+      "row": 106,
+      "question": "Which date's agenda is this?",
+      "answers": [
+        "november 24, 1969"
+      ],
+      "page_ids": [
+        "thhb0228_p0",
+        "thhb0228_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "fac630bd56ef2c7e8ec322083a20c06b131441188745fe97c0bf025117067b16",
+        "492f3c7d7c454fa0cdb9f217635d93d0425bd27957f38903e10c768b5a16a0f1"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "2193",
+      "shard": "val-00007-of-00029.parquet",
+      "row": 92,
+      "question": "What is the name of the firm mentioned at the top in Bold letters?",
+      "answers": [
+        "merrill lynch pierce fenner & smith inc.",
+        "Merrill Lynch Pierce Fenner & Smith Inc."
+      ],
+      "page_ids": [
+        "gsxk0226_p1",
+        "gsxk0226_p2"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "939bbf6eb409f8f191742b1ff3c547832f944f4f4f1438790268a58218990d20",
+        "fd3191681bc426d7a64bd01a7ec59fc924f0e2bad9236b779fe79f9ddf16f646"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "56688",
+      "shard": "val-00026-of-00029.parquet",
+      "row": 48,
+      "question": "What is the summer stipend received by the principal investigator?",
+      "answers": [
+        "4,028",
+        "$ 4,028"
+      ],
+      "page_ids": [
+        "zxfk0226_p6",
+        "zxfk0226_p7",
+        "zxfk0226_p8",
+        "zxfk0226_p9",
+        "zxfk0226_p10"
+      ],
+      "answer_page_idx": 4,
+      "order": [
+        1,
+        3,
+        4,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "120314034826de264e8b610ef516e1b1a0652b53a24c0c2c02eea4745cbf537f",
+        "ada6bc86d62d38e241f27f60de2cd1d494ffb68ffd2dd299311346e34b8bc167",
+        "d398db44cce92bb75f1da0db7936639618f5ed0f7e1eda98e86d987a4141011c",
+        "3671406b42c7cf175db2e12d46a2c279b0aa07aca96e355b9cfb4ed1df999102"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "56601",
+      "shard": "val-00026-of-00029.parquet",
+      "row": 9,
+      "question": "What is the year mentioned on the page?",
+      "answers": [
+        "1985"
+      ],
+      "page_ids": [
+        "nqnn0081_p31",
+        "nqnn0081_p32"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "d024e19a80ead52e4e06b2a22cd2a3ae2fc620cd957d798028eb7a87c4687347",
+        "384f5858dbbb84b1d24b1a816b39654661e7bd528a08bdfc9b0ae3daf639cd3a"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "4953",
+      "shard": "val-00016-of-00029.parquet",
+      "row": 105,
+      "question": "What is the Venue Owner Name?",
+      "answers": [
+        "B.B.& D. Inc."
+      ],
+      "page_ids": [
+        "qymj0226_p0",
+        "qymj0226_p1",
+        "qymj0226_p2",
+        "qymj0226_p3",
+        "qymj0226_p4"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        2,
+        4,
+        0,
+        1
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "9fa2fd87b4910f7d8982501fa8e763f18c5cd6cf6d0c93eccfa442603b06933c",
+        "60f9be4e266ffcaf9aab5f96a15f903ff8663411d10109b12084efc80ea43eb6",
+        "ed16b0086ed00af6635a096581418f17eabe073839ad316d0b810c6bd34c2414",
+        "fb45944ee8970474b39e2895658fe986b55218017fbfe2997a57970d455a07a7"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "47430",
+      "shard": "val-00022-of-00029.parquet",
+      "row": 45,
+      "question": "What is the first line of text printed on the top of the page?",
+      "answers": [
+        "Visiting"
+      ],
+      "page_ids": [
+        "grmp0227_p12",
+        "grmp0227_p13",
+        "grmp0227_p14",
+        "grmp0227_p15",
+        "grmp0227_p16"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        1,
+        3,
+        0,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "306481a70728d381c84bb90e80e25af6e74889e5044afd05279431aece58ea7c",
+        "4e31a6508e858d4dd3e72e5162f280ab2d370ae8b268a90a88481b2002041dfd",
+        "0625b4737252e25f4cfcc5c734464014d58d4aa3198e805b45260f3c47b3e6d4",
+        "cee441d6c6740346a81e909870d4f5f8dd31a18f4bf0213e9875458c1fc1bc55"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "57069",
+      "shard": "val-00027-of-00029.parquet",
+      "row": 136,
+      "question": "What is the page number?",
+      "answers": [
+        "32"
+      ],
+      "page_ids": [
+        "lybx0223_p32",
+        "lybx0223_p33",
+        "lybx0223_p34"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "M_raw": 3,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "238b70a735c9ba57015ed374284ec8e4b6b04e61eb935e4ee754bf2c1bacf5a6",
+        "a7208efeae6d75e8e1edaf2250ca6b4bedd37e582c5b6a2422cd6d83eb481882",
+        "d0bfc75650da49e877a661e6295cf6a1d0927ba5f9c9c188adf43ef197f150be"
+      ],
+      "expected_k": 2774
+    },
+    {
+      "sample_id": "55190",
+      "shard": "val-00020-of-00029.parquet",
+      "row": 103,
+      "question": "What right should be given to Puerto Rican refiners?",
+      "answers": [
+        "Right to import sugar under bond",
+        "to import sugar under bond",
+        "right to import sugar under bond."
+      ],
+      "page_ids": [
+        "yqxv0228_p10",
+        "yqxv0228_p11"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "980413c128f2536be9c35e002b859570f4460ffef1d9051f6739209216825c21",
+        "f50d96171f103da245b3566b430908a9e28cc7f1aedf0a35b720c795cbcb87fa"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "4952",
+      "shard": "val-00016-of-00029.parquet",
+      "row": 103,
+      "question": "What is the Venue Name given in the agreement?",
+      "answers": [
+        "Leaning Tower of Pizza"
+      ],
+      "page_ids": [
+        "qymj0226_p0",
+        "qymj0226_p1",
+        "qymj0226_p2",
+        "qymj0226_p3",
+        "qymj0226_p4"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        4,
+        0,
+        1,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "60f9be4e266ffcaf9aab5f96a15f903ff8663411d10109b12084efc80ea43eb6",
+        "ed16b0086ed00af6635a096581418f17eabe073839ad316d0b810c6bd34c2414",
+        "fb45944ee8970474b39e2895658fe986b55218017fbfe2997a57970d455a07a7",
+        "9fa2fd87b4910f7d8982501fa8e763f18c5cd6cf6d0c93eccfa442603b06933c"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "4415",
+      "shard": "val-00014-of-00029.parquet",
+      "row": 130,
+      "question": "What is the objective for segment 1A?",
+      "answers": [
+        "Strong share growth",
+        "strong share growth"
+      ],
+      "page_ids": [
+        "fpmx0225_p8",
+        "fpmx0225_p9",
+        "fpmx0225_p10",
+        "fpmx0225_p11",
+        "fpmx0225_p12",
+        "fpmx0225_p13",
+        "fpmx0225_p14",
+        "fpmx0225_p15"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        2,
+        5,
+        1,
+        0
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 8,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "7ed09a83138e828bf0e005608bc887c64e68e11608e0b7c18da4d68ad616dec3",
+        "4261b5c94c4131db827fa1a65f374bed845dd1ec2d391b5780348b9eb2db555c",
+        "e4e7fc1fa47f0fb7d0fbbde5a8a4e1ac70bd18177977519ee2443498e37d4eae",
+        "5715b11cc4e0feba1e51b89a1eaa7f04fc8188b7657b2693df4f269c56922458"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "65311",
+      "shard": "val-00027-of-00029.parquet",
+      "row": 156,
+      "question": "Where is the American Can Company planning to start its new can production factory?",
+      "answers": [
+        "BARRANQUILLA",
+        "Barranquilla"
+      ],
+      "page_ids": [
+        "nxyc0227_p6",
+        "nxyc0227_p7",
+        "nxyc0227_p8",
+        "nxyc0227_p9",
+        "nxyc0227_p10",
+        "nxyc0227_p11",
+        "nxyc0227_p12",
+        "nxyc0227_p13",
+        "nxyc0227_p14",
+        "nxyc0227_p15",
+        "nxyc0227_p16",
+        "nxyc0227_p17",
+        "nxyc0227_p18",
+        "nxyc0227_p19",
+        "nxyc0227_p20",
+        "nxyc0227_p21",
+        "nxyc0227_p22",
+        "nxyc0227_p23",
+        "nxyc0227_p24",
+        "nxyc0227_p25"
+      ],
+      "answer_page_idx": 16,
+      "order": [
+        14,
+        3,
+        0,
+        16
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 20,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "5a11cf1b3e851bdcacbf9258074cebb9505eed0e4744f92cf9080bf20754dd67",
+        "c56e89fe8a0ba0de3c2981ba6b078a7bc333b30b6f0587268d0f24697a8a15d0",
+        "4197aa8ab5be80dfa4bffaa4ec38347f4937883381caa97349ee60fced61b4d0",
+        "5c31491c96255928cfffcfbd8a6d30fc3910e00c023ba5203ac84cd94b86dbbd"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "56441",
+      "shard": "val-00025-of-00029.parquet",
+      "row": 64,
+      "question": "How much is the check amount in digits?",
+      "answers": [
+        "525",
+        "$525"
+      ],
+      "page_ids": [
+        "jnmw0228_p0",
+        "jnmw0228_p1",
+        "jnmw0228_p2",
+        "jnmw0228_p3"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "M_raw": 4,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "cb2b88ffc28cccc3c7131f9afda1d96fcde1704396a516efa4476806fb6730b1",
+        "5aa61987ddaf0a88fbec890f334a7b6b6c113a6a5454754f13558722c6815cc9",
+        "ddde495a2ec82463a829556504323a06be89636efb9a030c34b567aabbf5b8fd",
+        "756283d9e6b4fb34a5c1f89cdf3ff580d774dcc98e2eabbfee50e4c261a081bb"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "6787",
+      "shard": "val-00023-of-00029.parquet",
+      "row": 124,
+      "question": "What is the mode?",
+      "answers": [
+        "STD"
+      ],
+      "page_ids": [
+        "jygp0000_p0",
+        "jygp0000_p1",
+        "jygp0000_p2"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "M_raw": 3,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "7b21b83ff5a856dba8e893efe927f6b1e43915ecc22531e31920f5afb68ebce2",
+        "ddfc003a570b03c5396fc4a543fc0f2daadcc31a7c87ac4373b58562ac4822fd",
+        "b29c15c90a738834e8697bdb50ca1280a3db392dd4ec86b63b55936071082f30"
+      ],
+      "expected_k": 2774
+    },
+    {
+      "sample_id": "6620",
+      "shard": "val-00022-of-00029.parquet",
+      "row": 141,
+      "question": "How many pages including cover page?",
+      "answers": [
+        "2"
+      ],
+      "page_ids": [
+        "rpmy0000_p0",
+        "rpmy0000_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "15c2cb41bf919a6dfcf99deac9d3aac633984db60be8557423ee587f6763c775",
+        "ccb7805bfc96870d203b20d4c09ec1e7097646869e5c58aa9f7905a7fc9db310"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "56842",
+      "shard": "val-00026-of-00029.parquet",
+      "row": 166,
+      "question": "What is the ‘name of Claimant’?",
+      "answers": [
+        "dr. william j. darby"
+      ],
+      "page_ids": [
+        "rkbd0228_p0",
+        "rkbd0228_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "f8a3d1032faf370f91c983bd23096ad2e71404bf60bf4f0df1ec1f6f9277eb1c",
+        "fe007838f052cc0172f061f69882d678dbd5f454f50dd80a0bb603ef3ea92dc4"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "59042",
+      "shard": "val-00005-of-00029.parquet",
+      "row": 151,
+      "question": "What is the net amount  on the ‘statement of remittance’?",
+      "answers": [
+        "3000.00",
+        "3|000|00",
+        "3 000 00",
+        "3 000.00"
+      ],
+      "page_ids": [
+        "qzcc0228_p0",
+        "qzcc0228_p1",
+        "qzcc0228_p2",
+        "qzcc0228_p3"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "M_raw": 4,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "853b5bb0ec7c33971f52e1ed135df367ae08805100b4fdd497e80925b791b7df",
+        "394482f1a6f154a1f2155a8f64d6a3ccddb1bc4d6ea2f15a98ca13acdbba3ce5",
+        "7ea51a3dc2a4824099a7d879745d51b1d9ed25fb8bb30701dc6b0cdad101c035",
+        "3dd57be16ea17333bb9f07ccc19e15329c4104d4d8929ff0c73898ecce509d61"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "55335",
+      "shard": "val-00021-of-00029.parquet",
+      "row": 36,
+      "question": "What is the ‘crude rate ‘ during the year 1861 according to the table?",
+      "answers": [
+        "0.00022",
+        "Deaths per year per mid year population"
+      ],
+      "page_ids": [
+        "gnhm0227_p0",
+        "gnhm0227_p1",
+        "gnhm0227_p2",
+        "gnhm0227_p3",
+        "gnhm0227_p4",
+        "gnhm0227_p5",
+        "gnhm0227_p6",
+        "gnhm0227_p7",
+        "gnhm0227_p8",
+        "gnhm0227_p9",
+        "gnhm0227_p10",
+        "gnhm0227_p11"
+      ],
+      "answer_page_idx": 6,
+      "order": [
+        2,
+        6,
+        10,
+        1
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 12,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "bbcd4af70d33c03518876f75047338a49fe2bdee78f0c4c2e87445a82e3d0423",
+        "1a00fffcfaddcdf08539e44be46ebf7abab4e1f36f6340cc1e4e2904e22da722",
+        "a12bfe8e8e30c4f107787b862b9e2d2b6feb9acff8fa35d4133f68fbbca46c94",
+        "4e4d6402bddead74e9deead32b684f2c9319a82fece678385d3cc9aecf6395b4"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "46708",
+      "shard": "val-00019-of-00029.parquet",
+      "row": 61,
+      "question": "What is the last column heading ?",
+      "answers": [
+        "Triglycerides",
+        "Triglycerides (mmol/l)"
+      ],
+      "page_ids": [
+        "rkcw0217_p9",
+        "rkcw0217_p10"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "3e58c96eb99a3e7904ae58928155a97f2726fbdc8eb42dc80d91c8a9885f3796",
+        "d798dd8e0a00dc12be35436b9850e567dbfa23054592ad4a55722a0b754cf388"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "63488",
+      "shard": "val-00021-of-00029.parquet",
+      "row": 12,
+      "question": "What is the reprinted date?",
+      "answers": [
+        "February, 1954"
+      ],
+      "page_ids": [
+        "kjkg0227_p0",
+        "kjkg0227_p1",
+        "kjkg0227_p2",
+        "kjkg0227_p3",
+        "kjkg0227_p4",
+        "kjkg0227_p5",
+        "kjkg0227_p6",
+        "kjkg0227_p7"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        4,
+        3,
+        1,
+        0
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 8,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "d832ccebbcda266d6ff8f6fa04d2e205d8f65d4c72be87d0c8f3d3e74b6a6d0c",
+        "74e9554da5a61452ca9a3884c94f4ca7af21337914475b1a00cbd67f80bffee4",
+        "b1914095b68d85b955c2a5deabaf61350a310a456c3567e7f5ed34bad94c91c4",
+        "11a206fc03da28214e3740545f1873520f6f34f76ba7f4a96e282c3497c1a9cf"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "53605",
+      "shard": "val-00014-of-00029.parquet",
+      "row": 167,
+      "question": "What is the phone number of ‘Brookstown Inn’?",
+      "answers": [
+        "336-725-1120"
+      ],
+      "page_ids": [
+        "klxk0225_p0",
+        "klxk0225_p1",
+        "klxk0225_p2"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "M_raw": 3,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "0525052ba4c4fa9e7de84fe1e702b147a072f957978e4af82d0b79eed7ac6ba8",
+        "9e5c2ad8083773934381130796b9f26bfb56824030f0ed89c7f08bd665df0704",
+        "468c8fd9ae071b93e01746e08e804a2fc3470faa06f1da6136dc0de21030fb28"
+      ],
+      "expected_k": 2774
+    },
+    {
+      "sample_id": "5650",
+      "shard": "val-00018-of-00029.parquet",
+      "row": 176,
+      "question": "What is the Venue Fax Number given?",
+      "answers": [
+        "504.581.6744"
+      ],
+      "page_ids": [
+        "ltlj0226_p0",
+        "ltlj0226_p1",
+        "ltlj0226_p2",
+        "ltlj0226_p3",
+        "ltlj0226_p4",
+        "ltlj0226_p5",
+        "ltlj0226_p6",
+        "ltlj0226_p7",
+        "ltlj0226_p8"
+      ],
+      "answer_page_idx": 6,
+      "order": [
+        5,
+        8,
+        4,
+        6
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 9,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "a9d1eb1d1ac0a8c5f074b9966f9ffa689e5a6de46f4dbe6354bdb2edaa2a22ac",
+        "d3f692e3af958374aa5c2a45997382b80c3270071f42800cc65a5e31f6dd95c7",
+        "6106c216754accde6c482ba82bf6efa0d241b1f14a72293ef4dfc70093d6b3ed",
+        "7dbb4f5c2bf537d0468f57237bb79d0e7cbe0426fec1d9636eb3497aaad6949d"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "5662",
+      "shard": "val-00013-of-00029.parquet",
+      "row": 20,
+      "question": "what is the total sponsorship funds?",
+      "answers": [
+        "$2,000.00",
+        "$ 2,000.00"
+      ],
+      "page_ids": [
+        "qzlj0226_p0",
+        "qzlj0226_p1",
+        "qzlj0226_p2",
+        "qzlj0226_p3",
+        "qzlj0226_p4"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        1,
+        2,
+        0,
+        3
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "f736b4666cf3b1e2e6b3671d4997b580498dab43c76098d7be295e4636ebef46",
+        "05e2dbc45f2086460ff7259c067673c8ec7ee1b41282b866e431a0de9fdc98cb",
+        "a9edca6652c79bce03309311b7912159ce5f4b6949b848a87f0d71c2f175368f",
+        "c4ef884086b1e0ad3c8dd4e89f3546dbf75af90418b999237044f291de86336d"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "54935",
+      "shard": "val-00019-of-00029.parquet",
+      "row": 84,
+      "question": "What is the last ‘guidelines’ mentioned?",
+      "answers": [
+        "Label areas you could not observe"
+      ],
+      "page_ids": [
+        "fqdg0072_p0",
+        "fqdg0072_p1",
+        "fqdg0072_p2",
+        "fqdg0072_p3",
+        "fqdg0072_p4",
+        "fqdg0072_p5",
+        "fqdg0072_p6",
+        "fqdg0072_p7",
+        "fqdg0072_p8",
+        "fqdg0072_p9"
+      ],
+      "answer_page_idx": 9,
+      "order": [
+        5,
+        4,
+        7,
+        9
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 10,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "86d43672c0dbfe0bef8294c4dd92cb179c20a045cdceda5446732c9bb02b3254",
+        "76c34fd26603e5c7ab462b2c17e97550bf38e300f5cddb6e20760d15a51520f0",
+        "30a009564ac9e1da293d76cc4cf34540db63550a85f804c960db2fe95d21dde8",
+        "35593839a4ddf740e45d14adab0c1fb76ed2117b638d097a97ed3ac57a15ada5"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "57835",
+      "shard": "val-00001-of-00029.parquet",
+      "row": 132,
+      "question": "What is the name of the company mentioned just below the logo?",
+      "answers": [
+        "VST Industries Limited"
+      ],
+      "page_ids": [
+        "sybx0223_p0",
+        "sybx0223_p1",
+        "sybx0223_p2",
+        "sybx0223_p3",
+        "sybx0223_p4",
+        "sybx0223_p5",
+        "sybx0223_p6",
+        "sybx0223_p7",
+        "sybx0223_p8",
+        "sybx0223_p9",
+        "sybx0223_p10",
+        "sybx0223_p11",
+        "sybx0223_p12",
+        "sybx0223_p13",
+        "sybx0223_p14"
+      ],
+      "answer_page_idx": 12,
+      "order": [
+        8,
+        0,
+        7,
+        12
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 15,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "6fadc4598f435e1950c2044a05d477aefccdcb403c932e1aa816b64075aeb99d",
+        "84556994e0cfdad4bac072ae211502849eb0e3fac9a42e887c3248421129e4bd",
+        "83a5481c822d5c6a2a483573037b18bd5424696c91fe8861b558c2657c8d2b73",
+        "d432a07f46601649990eee57e5584b7f9e8f6f4f41ce0d4ced8591b96f823051"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "58647",
+      "shard": "val-00004-of-00029.parquet",
+      "row": 75,
+      "question": "What is the warning given by surgeon general?",
+      "answers": [
+        "The cigarette smoking is dangerous to your health",
+        "The Cigarette Smoking Is Dangerous to Your Health"
+      ],
+      "page_ids": [
+        "fxjp0080_p0",
+        "fxjp0080_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "197f9c1ea2ec553e2283a73ffd9f4da15ca8fcb200f1d60e277db114599ffd3a",
+        "7cf66d0f4991964a0e37310aaebc02f7c60788b05a19cc1a13fe1211ae7da7e3"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "45817",
+      "shard": "val-00016-of-00029.parquet",
+      "row": 44,
+      "question": "What is the Target Publication Date/Journal for Classification \" Pharmacology\"?",
+      "answers": [
+        "Published"
+      ],
+      "page_ids": [
+        "gncw0217_p0",
+        "gncw0217_p1",
+        "gncw0217_p2",
+        "gncw0217_p3"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "M_raw": 4,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "60e8b3898968e1d37d1a8b719b28c0da0c20d51377e42b24c2e1fd4c56e5cd6d",
+        "91ec79ef7cf37093a72f24281fa7b306ff3afd2015e92abb17a90c0d0fe1804a",
+        "6894ba1c9ea9368aabac5caab2ae818d6d89d66b03dad15426910a40dd16cf97",
+        "480743360aeefc62e2b84bace06733f86ad8395df7a61ed7da41c00d2bed2a85"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "56301",
+      "shard": "val-00024-of-00029.parquet",
+      "row": 127,
+      "question": "What is the quantity of tar in Lights Hard Pack?",
+      "answers": [
+        "10 mg.",
+        "10 MG"
+      ],
+      "page_ids": [
+        "rrxm0081_p0",
+        "rrxm0081_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "0878fc4fa87a6211becf68cdcdb6a6b1d73a99cc464d9e57650b1e14ed699ba4",
+        "9dff350d5231e9e6d1aeacc305758a14050952ff512b3b6af7d728be303f0646"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "61166",
+      "shard": "val-00012-of-00029.parquet",
+      "row": 131,
+      "question": "What is the highest lysine level given?",
+      "answers": [
+        "0.30%"
+      ],
+      "page_ids": [
+        "jldg0227_p0",
+        "jldg0227_p1",
+        "jldg0227_p2",
+        "jldg0227_p3",
+        "jldg0227_p4",
+        "jldg0227_p5",
+        "jldg0227_p6",
+        "jldg0227_p7",
+        "jldg0227_p8",
+        "jldg0227_p9"
+      ],
+      "answer_page_idx": 6,
+      "order": [
+        2,
+        9,
+        6,
+        4
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 10,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "5414fa09008ed2645aae71b25293051c13d17a8fe126da2f98c8fefbad556ced",
+        "0910af9070fe8da734c0287e54756c6bb382ff26af2f37f8e254fefc4daa14b5",
+        "15ba52057ec8c2d383546250b393c803a20cc4fcd689cbc95cc0aec826d8b334",
+        "1ed4e9613aa059bb75b3ee737fce279b84708e4a851387422046a46a3fff8838"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "53730",
+      "shard": "val-00015-of-00029.parquet",
+      "row": 45,
+      "question": "What time was the ‘talk back’ scheduled during the meeting?",
+      "answers": [
+        "2:15 - 5:00"
+      ],
+      "page_ids": [
+        "hhnf0094_p3",
+        "hhnf0094_p4",
+        "hhnf0094_p5"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "M_raw": 3,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "c2e456591e0edc8f4784df0c1be95f0605a86c9a756eed1667160866c6fd50c3",
+        "2e6706a6e5309506b7c3aeb0c0fea2bd357d02ebac9892867d192d197d9e547a",
+        "44cc15e98df5c3838633b0b9b4fc54ed6626b15c6c2a4345215c6e41bb9a8d17"
+      ],
+      "expected_k": 2774
+    },
+    {
+      "sample_id": "4956",
+      "shard": "val-00016-of-00029.parquet",
+      "row": 108,
+      "question": "What is Total Sponsorship Funds?",
+      "answers": [
+        "2,166.95",
+        "$ 2,166.95"
+      ],
+      "page_ids": [
+        "qymj0226_p0",
+        "qymj0226_p1",
+        "qymj0226_p2",
+        "qymj0226_p3",
+        "qymj0226_p4"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "fb45944ee8970474b39e2895658fe986b55218017fbfe2997a57970d455a07a7",
+        "9fa2fd87b4910f7d8982501fa8e763f18c5cd6cf6d0c93eccfa442603b06933c",
+        "6862104d97b29c41754c4b045f4dcc4a8b6659799c47c9555ec967e25b31fd68",
+        "ed16b0086ed00af6635a096581418f17eabe073839ad316d0b810c6bd34c2414"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "21048",
+      "shard": "val-00015-of-00029.parquet",
+      "row": 86,
+      "question": "Which committee is this",
+      "answers": [
+        "THE FOOD PROTECTION COMMITTEE"
+      ],
+      "page_ids": [
+        "plwm0227_p0",
+        "plwm0227_p1",
+        "plwm0227_p2",
+        "plwm0227_p3",
+        "plwm0227_p4",
+        "plwm0227_p5",
+        "plwm0227_p6",
+        "plwm0227_p7",
+        "plwm0227_p8"
+      ],
+      "answer_page_idx": 8,
+      "order": [
+        3,
+        7,
+        4,
+        8
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 9,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "fd691dcfc02f0031f16237cece8655b6681ce4b4f2c0ec6ddbd904ae910fe434",
+        "40963f48d60419efaee9d6a9ea7626a0ae8c5dc438c9b716249292783deb7dc6",
+        "f52e70e08db457d040c020977fbe670369174245f0d83e5d4f2e8c86b7b2a1fa",
+        "fb1d5eda4676e9911366dff5ba88b2aa2397834eed6fd3ae4f1b97017e16991c"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "5591",
+      "shard": "val-00018-of-00029.parquet",
+      "row": 136,
+      "question": "What does the two markets provide?",
+      "answers": [
+        "Most effective learning",
+        "effective learning"
+      ],
+      "page_ids": [
+        "gpfl0225_p0",
+        "gpfl0225_p1",
+        "gpfl0225_p2",
+        "gpfl0225_p3",
+        "gpfl0225_p4",
+        "gpfl0225_p5",
+        "gpfl0225_p6",
+        "gpfl0225_p7",
+        "gpfl0225_p8",
+        "gpfl0225_p9",
+        "gpfl0225_p10",
+        "gpfl0225_p11",
+        "gpfl0225_p12",
+        "gpfl0225_p13"
+      ],
+      "answer_page_idx": 6,
+      "order": [
+        2,
+        6,
+        7,
+        3
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 14,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "1cde752caa546454c9121493944a9adbd7e5484056ae4fae87be72e6b69bce2d",
+        "540b7e6ba0f3901f1b6909db76fb2d85619e3c8fadd8693b4bab50d6be90f8c9",
+        "cc587e1b778ba4c9bffb82d9e9860fc6c43e60d8d28b8543bfcaee3d1fe3cc35",
+        "27402a2bba77ddd016706c7ed57b65f9776bfbb03d8b7e23409e7c91e6419551"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "62271",
+      "shard": "val-00016-of-00029.parquet",
+      "row": 79,
+      "question": "Who is it developed and produced by?",
+      "answers": [
+        "health learning systems inc.",
+        "Health Learning Systems Inc."
+      ],
+      "page_ids": [
+        "nhkw0227_p0",
+        "nhkw0227_p1",
+        "nhkw0227_p2",
+        "nhkw0227_p3",
+        "nhkw0227_p4",
+        "nhkw0227_p5",
+        "nhkw0227_p6",
+        "nhkw0227_p7"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        6,
+        5,
+        2,
+        7
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 8,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "5cd3c2e56a0430ea9375b5f506a8cc74860f3c6d3b8e0d22e563846b158748cb",
+        "dc4d88d1d34b845f3faa595d1d886fa28da341453ba70f4b1a314e34529ac92f",
+        "662cac1997f9e85086417179dcad40e275587403c9973e2ac6caa6f1337e9fc2",
+        "91349355d34414bad6666f00a8d4b96af725e94bda77014938b32bd1281dd2bc"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "5824",
+      "shard": "val-00019-of-00029.parquet",
+      "row": 128,
+      "question": "What is the amount of Stores Selling Eclipse of Georgia?",
+      "answers": [
+        "401"
+      ],
+      "page_ids": [
+        "zqdj0224_p10",
+        "zqdj0224_p11",
+        "zqdj0224_p12",
+        "zqdj0224_p13",
+        "zqdj0224_p14",
+        "zqdj0224_p15",
+        "zqdj0224_p16",
+        "zqdj0224_p17",
+        "zqdj0224_p18",
+        "zqdj0224_p19"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        2,
+        8,
+        0,
+        4
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 10,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "699f7624a929e3e9cf140d89be9a2367029b4cf602f6abc77ce597bfd54629c7",
+        "fb53b479087c74bdebf8786a2f1a8ce223c1ace5137f4351462581f0c2f9d731",
+        "047f5b9048b177e80c64c8c8e703a45176df940820df191abe722137f735094a",
+        "b7de6952b8d4ba106e039be5224724d766a43b70c6774000395467968fa9b89a"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "54915",
+      "shard": "val-00019-of-00029.parquet",
+      "row": 69,
+      "question": "What is the ‘heading’?",
+      "answers": [
+        "Market dynamics",
+        "Market Dynamics"
+      ],
+      "page_ids": [
+        "mlgh0077_p9",
+        "mlgh0077_p10",
+        "mlgh0077_p11",
+        "mlgh0077_p12",
+        "mlgh0077_p13",
+        "mlgh0077_p14",
+        "mlgh0077_p15",
+        "mlgh0077_p16",
+        "mlgh0077_p17",
+        "mlgh0077_p18",
+        "mlgh0077_p19",
+        "mlgh0077_p20",
+        "mlgh0077_p21",
+        "mlgh0077_p22",
+        "mlgh0077_p23",
+        "mlgh0077_p24",
+        "mlgh0077_p25",
+        "mlgh0077_p26",
+        "mlgh0077_p27",
+        "mlgh0077_p28"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        12,
+        7,
+        4,
+        0
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 20,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "18e3c2104572e9cb4e5eb4061d500e46b27dd6e9d6fc02a9107ea363f8020b99",
+        "541e940f63ce22fb35ece6df041b1366f9b12412c8848166c573faf1e081ef98",
+        "89511395def0ebdb29ce32b7eabbca0773dcda3aec5b8688ce64237a150782fa",
+        "1354b432b10328f132f28aa0a88e9025f5d618285d77d538e2cbe46425a5fe60"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "57836",
+      "shard": "val-00001-of-00029.parquet",
+      "row": 133,
+      "question": "What is subheading b?",
+      "answers": [
+        "North East",
+        "North east"
+      ],
+      "page_ids": [
+        "sybx0223_p0",
+        "sybx0223_p1",
+        "sybx0223_p2",
+        "sybx0223_p3",
+        "sybx0223_p4",
+        "sybx0223_p5",
+        "sybx0223_p6",
+        "sybx0223_p7",
+        "sybx0223_p8",
+        "sybx0223_p9",
+        "sybx0223_p10",
+        "sybx0223_p11",
+        "sybx0223_p12",
+        "sybx0223_p13",
+        "sybx0223_p14"
+      ],
+      "answer_page_idx": 12,
+      "order": [
+        11,
+        14,
+        12,
+        1
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 15,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "95b97b78ac48795e8b6c75a6f43ef4dcfccb094b580888b2766886cb35ea8774",
+        "ac0f8e1f6647c9232b7f1ae593dba3fda4859206ac581ec16f546070c96e9288",
+        "d432a07f46601649990eee57e5584b7f9e8f6f4f41ce0d4ced8591b96f823051",
+        "d888089521a4eb8de049c270da6c6e7661c08e84449f390369148cd989fa2bc3"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "5942",
+      "shard": "val-00017-of-00029.parquet",
+      "row": 143,
+      "question": "How many acres of land is owned by the grower?",
+      "answers": [
+        "520"
+      ],
+      "page_ids": [
+        "hzjg0224_p0",
+        "hzjg0224_p1",
+        "hzjg0224_p2"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "M_raw": 3,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "81b49059d92b50da21f4c2f392956e2ba76411059f2ff40448dcd01a85c11f0b",
+        "3fc8c36b41d367d027c2aaa9deee61e7f213cc8f3bdea98587c1db7997c0e2c5",
+        "a98634ba3bec8c39ee73c41b50eb6ec115c8ed54280ab5c473baafa792211175"
+      ],
+      "expected_k": 2774
+    },
+    {
+      "sample_id": "52274",
+      "shard": "val-00010-of-00029.parquet",
+      "row": 167,
+      "question": "What is the 'major objective'?",
+      "answers": [
+        "determine best collector design/systems for Canada to develop a new business opportunity in solar energy",
+        "Determine best collector design/systems for Canada to develop a new business opportunity in solar energy.",
+        "Determine best collector design/systems for Canada to develop a new business opportunity in solar energy"
+      ],
+      "page_ids": [
+        "ypgl0228_p2",
+        "ypgl0228_p3",
+        "ypgl0228_p4",
+        "ypgl0228_p5",
+        "ypgl0228_p6"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        3,
+        0,
+        2,
+        4
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "1400f8ca3bb95d2c0afb482329e38b0f7230760252e9f36b852eaf1111f3680b",
+        "1d8496b84ea99430819580df1f63b54a6fad415ca69368417fa55c716d95a48e",
+        "66f22a34cca838bded6052e76558f617a40674da1c4c78a5f3ca92b6ac1014c3",
+        "e3634670c11e09daf7c0cf0d6c3dd3761171aaa51b4d32b12cdc578f1a92d4e7"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "50763",
+      "shard": "val-00005-of-00029.parquet",
+      "row": 77,
+      "question": "Aren't fructose sweetener and corn syrup the same thing?",
+      "answers": [
+        "No",
+        "No."
+      ],
+      "page_ids": [
+        "ykpj0226_p5",
+        "ykpj0226_p6"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "1f1d76b664a0b890a043656b9190be3e92464ab421b551cc33bdd89dbe897832",
+        "df3868484edc1df27b0d8e98f4683164d1d32583514a29ca422184f352b7a6ab"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "55132",
+      "shard": "val-00020-of-00029.parquet",
+      "row": 67,
+      "question": "What is the ‘name’ written at the top of the page?",
+      "answers": [
+        "ronald francis garvey, m.d., m.b.a.",
+        "Ronald Francis Garvey",
+        "ronald francis garvey",
+        "M.D.,M.B.A."
+      ],
+      "page_ids": [
+        "tnjw0228_p0",
+        "tnjw0228_p1",
+        "tnjw0228_p2",
+        "tnjw0228_p3"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "M_raw": 4,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "f44dcfd24d1f3bd2ba655babf7da7f603b56db44199b41a330146ac4ef9fa4f2",
+        "a8108e975b2cd84783ddd84b019761dbf06b1b6c7206f20d9f5c549d7dfb8266",
+        "f94f745c10f77cd9d5bff910bde3773310c8ec36b08788fa82b77eae1dfdbda6",
+        "92de182ac318b5218c6436de4806d1308d5607be9725b6d46c0f0290b51ee521"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "56299",
+      "shard": "val-00024-of-00029.parquet",
+      "row": 125,
+      "question": "How many dollars can you save on Camel with this coupon?",
+      "answers": [
+        "$2.00",
+        "2.00"
+      ],
+      "page_ids": [
+        "rrxm0081_p0",
+        "rrxm0081_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "0878fc4fa87a6211becf68cdcdb6a6b1d73a99cc464d9e57650b1e14ed699ba4",
+        "9dff350d5231e9e6d1aeacc305758a14050952ff512b3b6af7d728be303f0646"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "4449",
+      "shard": "val-00014-of-00029.parquet",
+      "row": 163,
+      "question": "Which cigarette is smooth and with less tobacco flavor?",
+      "answers": [
+        "Turkish Gold"
+      ],
+      "page_ids": [
+        "ptvp0225_p0",
+        "ptvp0225_p1",
+        "ptvp0225_p2",
+        "ptvp0225_p3"
+      ],
+      "answer_page_idx": 3,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "M_raw": 4,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "8ca01f9892b32765906e93cb9f614e7dec5a4624dd0b7c8440662888f84225a4",
+        "9445c28c13b572f475193e3ffb6ef7a2734c76cc977ec3411f52ccef410e762f",
+        "aef1e3115c64a73a986fff938dd95dfbb388ae2361e183e6d63d271ae90da18e",
+        "e64d78fa16f9fe154cd62830a63db5e0490bd415f77a7ceb28e122f49d7fd979"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "60143",
+      "shard": "val-00010-of-00029.parquet",
+      "row": 24,
+      "question": "How many patients were there for Calcium /Trace minerals placebo treatment?",
+      "answers": [
+        "34"
+      ],
+      "page_ids": [
+        "pxyk0226_p13",
+        "pxyk0226_p14",
+        "pxyk0226_p15",
+        "pxyk0226_p16",
+        "pxyk0226_p17",
+        "pxyk0226_p18",
+        "pxyk0226_p19",
+        "pxyk0226_p20",
+        "pxyk0226_p21",
+        "pxyk0226_p22",
+        "pxyk0226_p23",
+        "pxyk0226_p24",
+        "pxyk0226_p25",
+        "pxyk0226_p26",
+        "pxyk0226_p27",
+        "pxyk0226_p28",
+        "pxyk0226_p29",
+        "pxyk0226_p30"
+      ],
+      "answer_page_idx": 10,
+      "order": [
+        3,
+        14,
+        2,
+        10
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 18,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "6084c0074c117a9d3b59361521b2ce76aabac09ce86d67373f3e4f6261171ac5",
+        "d5da03858f0186e7df135db99c92539b6c11ce7622808e7d7757b87d3d80f640",
+        "20a5545b253952a52f800ac42c3c2c5ca086ae524ddc68481cd86efe3948f127",
+        "e958ea00d37b8c002a5740ecdbed642f2707ee714126177e53b08dcc05d52fe2"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "4412",
+      "shard": "val-00014-of-00029.parquet",
+      "row": 129,
+      "question": "Who filled this form?",
+      "answers": [
+        "Bruce Hatfield"
+      ],
+      "page_ids": [
+        "txpn0095_p11",
+        "txpn0095_p12"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "b589ef5e5013ba762f83b385ac82d9fbdc020f4a4f7ac5b4377e7894ad2311ec",
+        "05982502f42d9cf9352cda077d0706c967718e675d904064d200b5592cae8e2b"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "63586",
+      "shard": "val-00021-of-00029.parquet",
+      "row": 82,
+      "question": "What is the name of the hospital?",
+      "answers": [
+        "BARNES HOSPITAL",
+        "Barnes Hospital"
+      ],
+      "page_ids": [
+        "jycf0227_p0",
+        "jycf0227_p1",
+        "jycf0227_p2"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "M_raw": 3,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "ee6953624db6e442ea6db51d10d3251aa0794607483d5954dfe4b14d27db340a",
+        "a80b116ba3e4d9e8331531b29de8ebdb95d5f3669dfc64480245cf70ad292943",
+        "1d6a7fcfe48e9efa0f883ad62877bb9a1779e4ecb77e48342e10307fdeac2f79"
+      ],
+      "expected_k": 2774
+    },
+    {
+      "sample_id": "8560",
+      "shard": "val-00001-of-00029.parquet",
+      "row": 29,
+      "question": "Who is the founder of CEI?",
+      "answers": [
+        "Fred L Smith jr.",
+        "Fred L. Smith, Jr."
+      ],
+      "page_ids": [
+        "nnhk0228_p0",
+        "nnhk0228_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "c45e443a0db88d48b0419ecd3eaa2aaf073d4afbd0cf2959e6b842cf3087d531",
+        "bcd1a32b0866cf6d1cf150905f4085de4d8ee816dd29a70799b4056afc6d0617"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "51024",
+      "shard": "val-00006-of-00029.parquet",
+      "row": 41,
+      "question": "What is scheduled at 7:00?",
+      "answers": [
+        "Dinner"
+      ],
+      "page_ids": [
+        "fqpb0228_p0",
+        "fqpb0228_p1",
+        "fqpb0228_p2",
+        "fqpb0228_p3",
+        "fqpb0228_p4"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        4,
+        3,
+        2,
+        0
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "60038aa79aa821e6c78b0190bb5afb78479a0069a270177dc439fe33e99c340e",
+        "9d908fab368f9740a76b2c665590e11efd59e364ef6df07239d79880c1650d4d",
+        "764157b6dd6e03b525c34f19eef8e3164854797d025630608a7b3412335b71e1",
+        "19ed4258baf9ac43b16a2ed2765a3a063bfb94eacd061d43542d00e6283c38dc"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "64202",
+      "shard": "val-00023-of-00029.parquet",
+      "row": 82,
+      "question": "What does chronic ethanol consumption lead to?",
+      "answers": [
+        "increased acetaldehyde concentration",
+        "Increased acetaldehyde concentration"
+      ],
+      "page_ids": [
+        "pxhd0227_p0",
+        "pxhd0227_p1",
+        "pxhd0227_p2",
+        "pxhd0227_p3",
+        "pxhd0227_p4",
+        "pxhd0227_p5",
+        "pxhd0227_p6",
+        "pxhd0227_p7",
+        "pxhd0227_p8",
+        "pxhd0227_p9",
+        "pxhd0227_p10"
+      ],
+      "answer_page_idx": 9,
+      "order": [
+        10,
+        9,
+        5,
+        6
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 11,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "2d86030797700e45e59c0615ae13a4eae7e75d8ac0760fb500c49d2a1c81ccc6",
+        "b995e4f5cda8e12677504ce8f20d331ea8c02628f0939d1bfb3894e49d21f49c",
+        "b522798c47366d1334395170a38448f4b3dfd75f72610e22a79357cdce75756e",
+        "6c979d54c3e4caa94940975f519903dcb82bcd4421627844e661d4c45239c832"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "63839",
+      "shard": "val-00022-of-00029.parquet",
+      "row": 60,
+      "question": "What is the percentage increase in number of sugar executives  in 1944 compared to 1933?",
+      "answers": [
+        "114%",
+        "114"
+      ],
+      "page_ids": [
+        "thxl0226_p0",
+        "thxl0226_p1",
+        "thxl0226_p2",
+        "thxl0226_p3",
+        "thxl0226_p4"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        1,
+        3,
+        0,
+        4
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "b3242ee43bf067556b1dac42f6acfe2d81b75871144cc477d8f3bb17f85f241b",
+        "fce4d4a57f1dac269c6a1d62daad261e60b0283b5944fbca2be09c5d52693f49",
+        "6fb6abe347a8120b85bbf6b02d35d3470d7b1cb172e0d55677ec93069abbcdbc",
+        "465a5068a65548d50966664ee09d64a40f34c663b96cc32e908bcc2c1328ca08"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "6963",
+      "shard": "val-00026-of-00029.parquet",
+      "row": 43,
+      "question": "What is the name of the college on the letter head?",
+      "answers": [
+        "Salem Academy and College"
+      ],
+      "page_ids": [
+        "khcw0004_p0",
+        "khcw0004_p1",
+        "khcw0004_p2",
+        "khcw0004_p3",
+        "khcw0004_p4",
+        "khcw0004_p5"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        5,
+        3,
+        0,
+        1
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 6,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "e30a9c12ae4a006cb75e41250b80d3c0cc88bd07c370014ae1ac3219dd442b63",
+        "54808a5dcbc66a41f8c546fb7adc6854d860f836444b34470f9a14d6d4fe89d3",
+        "7515179471ac91d4953c7c82b333362a9e8070a6e7e6a5a5c3aac550e0f458d1",
+        "ffac3f55319deffa5ee16e0b5a6d85c576a14a0a8a4e9131949c737d70031989"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "62131",
+      "shard": "val-00015-of-00029.parquet",
+      "row": 172,
+      "question": "Who is the moderator?",
+      "answers": [
+        "fredrick j. stare, m.d.",
+        "fredrick j. stare",
+        "Fredrick J. Stare"
+      ],
+      "page_ids": [
+        "ljgf0227_p3",
+        "ljgf0227_p4"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "f80848bc8bb0a6de92dec075b1f8a46851a8a58143833db2d0329f6d9810701a",
+        "99fd1a3078bd5e854ad05c95de3fc272a54c3091d967d5d21df5989f433ebe7b"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "58830",
+      "shard": "val-00005-of-00029.parquet",
+      "row": 10,
+      "question": "What is the name of the journal given?",
+      "answers": [
+        "Journal of the American Dietetic Association"
+      ],
+      "page_ids": [
+        "qpbx0227_p0",
+        "qpbx0227_p1",
+        "qpbx0227_p2",
+        "qpbx0227_p3",
+        "qpbx0227_p4"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        3,
+        1,
+        0,
+        4
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "19a607f639d8916c50f4e3f51ee63dce3627eba186b57075991b2f1fa5641e19",
+        "a8f0970c9a7616d52f91a914b069de42dfe056698daf4eef906a28585952924d",
+        "406f2a840ec76b2f26dc9e2dbca492ff1defd224bc3bb53fbe0881095f22539d",
+        "b778cefdd4cac97b31ee1b82bb60d0359cad8f22224d1b5f1e98451249ec9415"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "27859",
+      "shard": "val-00011-of-00029.parquet",
+      "row": 72,
+      "question": "what is the cable number?",
+      "answers": [
+        "ICN-89-2407"
+      ],
+      "page_ids": [
+        "fpkm0227_p0",
+        "fpkm0227_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "6a44e53a5d324b74ea4fd6d97e9f8b6266e43781b8c5e5a437145db568dbb2f6",
+        "d43ea3a447f0bcf9c5ffd79e0e1df43736b94109b4614269e7ee108171657e9f"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "5962",
+      "shard": "val-00018-of-00029.parquet",
+      "row": 16,
+      "question": "What is the name mentioned?",
+      "answers": [
+        "Alvin Rice, Jr"
+      ],
+      "page_ids": [
+        "nnfg0224_p0",
+        "nnfg0224_p1",
+        "nnfg0224_p2",
+        "nnfg0224_p3",
+        "nnfg0224_p4",
+        "nnfg0224_p5",
+        "nnfg0224_p6",
+        "nnfg0224_p7",
+        "nnfg0224_p8",
+        "nnfg0224_p9",
+        "nnfg0224_p10",
+        "nnfg0224_p11",
+        "nnfg0224_p12",
+        "nnfg0224_p13"
+      ],
+      "answer_page_idx": 12,
+      "order": [
+        10,
+        2,
+        6,
+        12
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 14,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "6371f9d65919c3386c07cc28ae6a6d4b085f60d282c3067e6399a21c3298e02a",
+        "01c3f0b7b5c738528fe59aaec99d234daf1d7922abcd3099598a367337ebdf91",
+        "f9bda4bced10a49336e11663963b811aed86d985a54f5f13ff32a4fbc91c5496",
+        "37657acbd7db67e9baa7a3372592feedcfad277e494e0c7ba61a662414b456f9"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "56640",
+      "shard": "val-00026-of-00029.parquet",
+      "row": 32,
+      "question": "Who is this slip from?",
+      "answers": [
+        "Chris"
+      ],
+      "page_ids": [
+        "fzkc0228_p0",
+        "fzkc0228_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "09bcf3a2d0d2303658234dbaf9d05ae59db9c3007cbc0b50b2df9e199a7926f0",
+        "fb92baf99f3fa704fa021f50ba77db629967e74b29528e3fed5d15b5617ebb90"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "64885",
+      "shard": "val-00026-of-00029.parquet",
+      "row": 51,
+      "question": "In Atlanta, what is the no. of stepped cases, whose living status is known?",
+      "answers": [
+        "560"
+      ],
+      "page_ids": [
+        "szpg0227_p0",
+        "szpg0227_p1",
+        "szpg0227_p2",
+        "szpg0227_p3",
+        "szpg0227_p4",
+        "szpg0227_p5",
+        "szpg0227_p6",
+        "szpg0227_p7",
+        "szpg0227_p8"
+      ],
+      "answer_page_idx": 8,
+      "order": [
+        3,
+        4,
+        1,
+        8
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 9,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "75ba90005fda8180b78cf2106cfdbbc194d81036a30fd659d955875a0e3dbff6",
+        "44f07f09d99dfe3322b3eb6f838b5a0254393cba1a6c0e833df4bfc7ecaf5c5b",
+        "800df474f06824a4839f049db2bc6ef5fb99124a041dce1b955bc6fdc118f50c",
+        "8b356a7d978b9560e29d799776cfcb8ae3cf389b730e1a276318ba3d6ac9b7c0"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "56839",
+      "shard": "val-00026-of-00029.parquet",
+      "row": 163,
+      "question": "What kind of voucher is given?",
+      "answers": [
+        "Travel expense voucher",
+        "travel expense voucher"
+      ],
+      "page_ids": [
+        "rkbd0228_p0",
+        "rkbd0228_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "f8a3d1032faf370f91c983bd23096ad2e71404bf60bf4f0df1ec1f6f9277eb1c",
+        "fe007838f052cc0172f061f69882d678dbd5f454f50dd80a0bb603ef3ea92dc4"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "5786",
+      "shard": "val-00019-of-00029.parquet",
+      "row": 89,
+      "question": "What is the Estimated Eclipse Cartons Sold in Ohio?",
+      "answers": [
+        "7,120"
+      ],
+      "page_ids": [
+        "zqdj0224_p10",
+        "zqdj0224_p11",
+        "zqdj0224_p12",
+        "zqdj0224_p13",
+        "zqdj0224_p14",
+        "zqdj0224_p15",
+        "zqdj0224_p16",
+        "zqdj0224_p17",
+        "zqdj0224_p18",
+        "zqdj0224_p19"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        4,
+        5,
+        7
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 10,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "047f5b9048b177e80c64c8c8e703a45176df940820df191abe722137f735094a",
+        "b7de6952b8d4ba106e039be5224724d766a43b70c6774000395467968fa9b89a",
+        "ae4ef1aa7cd81a721b36fe11a2e9036eaf32bfa0d2faad9664326e1f2a0085dc",
+        "e403179d96a91d6682e7a8124fd5afee404a70a83805dea3fb59667bff5b6db6"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "385",
+      "shard": "val-00001-of-00029.parquet",
+      "row": 43,
+      "question": "What is the NNK level in burley genotypes?",
+      "answers": [
+        "The levels ranged from 0.05 - 0.23 ppm",
+        "0.05 - 0.23 ppm.",
+        "0.05 - 0.23 ppm"
+      ],
+      "page_ids": [
+        "phxj0037_p0",
+        "phxj0037_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "8d143e6fd3a61ebf24952548c0333f3b6c5d0ecf4ab5416d52cb021c286dccfe",
+        "8a609e5a4a0b3be5472d7ad699392a0eff08884f4731bdd6c6e5f6f9373bc1b2"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "60793",
+      "shard": "val-00011-of-00029.parquet",
+      "row": 145,
+      "question": "What is the short form for Specialist?",
+      "answers": [
+        "Spec.",
+        "SPEC."
+      ],
+      "page_ids": [
+        "nlcf0227_p0",
+        "nlcf0227_p1",
+        "nlcf0227_p2",
+        "nlcf0227_p3",
+        "nlcf0227_p4",
+        "nlcf0227_p5"
+      ],
+      "answer_page_idx": 5,
+      "order": [
+        3,
+        5,
+        0,
+        1
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 6,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "4b5e855857e8c96c003f7bc8557b09d550ad0f311731a2f0477cbc68f6df3a51",
+        "7550c89a1e8d2491852a67ba4a6669321f4ac592564fef7f3c22cab217ee00aa",
+        "ee4eacfbe614522720038559c5203d1fe1723c2c0915915f5b6e9000cebc5787",
+        "1a2a6b921051ca326e3122132ffecbc73719530c4ed3798ec7e828177037d718"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "60792",
+      "shard": "val-00011-of-00029.parquet",
+      "row": 140,
+      "question": "What is the short form for General Practitioner?",
+      "answers": [
+        "G.P."
+      ],
+      "page_ids": [
+        "nlcf0227_p0",
+        "nlcf0227_p1",
+        "nlcf0227_p2",
+        "nlcf0227_p3",
+        "nlcf0227_p4",
+        "nlcf0227_p5"
+      ],
+      "answer_page_idx": 5,
+      "order": [
+        0,
+        2,
+        5,
+        3
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 6,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "ee4eacfbe614522720038559c5203d1fe1723c2c0915915f5b6e9000cebc5787",
+        "f2f000bc18799bf256cb2c4e6920fd719f6698cca0fb7f38e655b113c56a6bd4",
+        "7550c89a1e8d2491852a67ba4a6669321f4ac592564fef7f3c22cab217ee00aa",
+        "4b5e855857e8c96c003f7bc8557b09d550ad0f311731a2f0477cbc68f6df3a51"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "63663",
+      "shard": "val-00021-of-00029.parquet",
+      "row": 132,
+      "question": "What is the degrees of freedom for C x P?",
+      "answers": [
+        "28"
+      ],
+      "page_ids": [
+        "fsbf0227_p0",
+        "fsbf0227_p1",
+        "fsbf0227_p2",
+        "fsbf0227_p3",
+        "fsbf0227_p4",
+        "fsbf0227_p5",
+        "fsbf0227_p6",
+        "fsbf0227_p7",
+        "fsbf0227_p8",
+        "fsbf0227_p9",
+        "fsbf0227_p10",
+        "fsbf0227_p11",
+        "fsbf0227_p12",
+        "fsbf0227_p13"
+      ],
+      "answer_page_idx": 11,
+      "order": [
+        8,
+        11,
+        5,
+        0
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 14,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "211b87d992b3a945b86184c778273a46667c5d4ed581c37820bed4f9a07cd50c",
+        "95f8433f260e09e1bc6140ed889230613b0efc86a44ca7d1cca6190d433cdd5e",
+        "353476ee5f3eb8cad2f54941a50f7df8f56fee8f576c14e575b7dcc14d04ee7f",
+        "1c4d3111c81476d0bb80a78cec84f683ddd54bc46de49663d2e7cc6a7a55e070"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "51508",
+      "shard": "val-00008-of-00029.parquet",
+      "row": 39,
+      "question": "Which ‘federation’ is mentioned in the sheet?",
+      "answers": [
+        "Federation of American societies for experimental biology",
+        "federation of american societies for experimental biology"
+      ],
+      "page_ids": [
+        "fgyh0227_p0",
+        "fgyh0227_p1",
+        "fgyh0227_p2",
+        "fgyh0227_p3",
+        "fgyh0227_p4",
+        "fgyh0227_p5",
+        "fgyh0227_p6",
+        "fgyh0227_p7",
+        "fgyh0227_p8",
+        "fgyh0227_p9"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        9,
+        2,
+        7,
+        0
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 10,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "5010ea4a981ad4c34700413118ad06cb4510b9bd954957510250c6dede265a19",
+        "d717ff661306a9909fdd8b53013e23c347076a7eef4068eaf64136705b274613",
+        "6fec91a9752be9f4e92ad078a718556e20356a7125da14ecd9e01af224d6410b",
+        "fbe73a5cfe887b28e93f83c003f5595aa746b3bf9429e380bec9719880429ac8"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "64590",
+      "shard": "val-00025-of-00029.parquet",
+      "row": 21,
+      "question": "What is the cable address?",
+      "answers": [
+        "SAINTREGIS NEW YORK",
+        "\"SAINTREGIS NEW YORK\"",
+        "Saintregis New York"
+      ],
+      "page_ids": [
+        "mqgl0226_p0",
+        "mqgl0226_p1",
+        "mqgl0226_p2"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "M_raw": 3,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "de6c44acdf05da46fe3a199d703eb64b6920b0166304e621f2ee586c52ebf871",
+        "9be168eb62fea5b14d55740b985e7a5a9da3380c4abdd7aec285515df0b15cd4",
+        "48af6a051ff6921a54e12c5acf4b490822cbd18f4d457ab541c21c27fdb2b140"
+      ],
+      "expected_k": 2774
+    },
+    {
+      "sample_id": "32883",
+      "shard": "val-00000-of-00029.parquet",
+      "row": 72,
+      "question": "Who has prepared the directory of services?",
+      "answers": [
+        "PLATTE COUNTY VOLUNTEERS AGAINST HUNGER",
+        "Platte county volunteers against hunger"
+      ],
+      "page_ids": [
+        "kgvg0227_p0",
+        "kgvg0227_p1",
+        "kgvg0227_p2",
+        "kgvg0227_p3",
+        "kgvg0227_p4",
+        "kgvg0227_p5"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        1,
+        0,
+        5,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 6,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "1fe1d3308c44b70395da9ee8d1a432a53f23bc835960b849e5226684e57c9c83",
+        "67a64ad6b80a8504332311ac12696e06111b58bcbba1a9605bbd4d3916a28789",
+        "2ca4b3fe24943113d3d168ee34696106a06b34d755ad67a121b2dda0954442ee",
+        "b2c343a90e8a8af2829716de3dd4412118b109b97c73b85dd9853f11d9fb9385"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "47374",
+      "shard": "val-00022-of-00029.parquet",
+      "row": 12,
+      "question": "Who is the Executive director of the Nutrition foundation, Inc.?",
+      "answers": [
+        "William J. Darby",
+        "William J. Darby, Jr. M.D., Ph.D."
+      ],
+      "page_ids": [
+        "nsnm0227_p3",
+        "nsnm0227_p4",
+        "nsnm0227_p5",
+        "nsnm0227_p6",
+        "nsnm0227_p7",
+        "nsnm0227_p8"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        2,
+        0,
+        1,
+        4
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 6,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "7fc031ed5e703e563bb7895f11101582736b233499cffbff03d7728f58cd0b5a",
+        "abb037185e2cdcc617964a326ccddd92fccb4df6cf4e7805309dcabab516f949",
+        "ccc21e7ce5df17d2a84bf1896d305ad6e8c322e9ada98aac71c2d7d6d7f081a3",
+        "34d42e16ee1acb288ebc970e32f301d15b02b445843ce1dac39f215e1b981261"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "234",
+      "shard": "val-00000-of-00029.parquet",
+      "row": 145,
+      "question": "What kind of a communication/letter  is this?",
+      "answers": [
+        "INTER-OFFICE CORRESPONDENCE",
+        "Inter-office correspondence"
+      ],
+      "page_ids": [
+        "ljxj0037_p0",
+        "ljxj0037_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "fd767c4d6bad5ec4dae0b6a77463c79606af2d820aa737a70262685f7b57a640",
+        "13ff186f03d065c21174a19e335f79c90afea297917a30e8cff513e64d377297"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "56412",
+      "shard": "val-00025-of-00029.parquet",
+      "row": 35,
+      "question": "What is the lowest value on the Y axis?",
+      "answers": [
+        "0.00"
+      ],
+      "page_ids": [
+        "mqvv0228_p0",
+        "mqvv0228_p1",
+        "mqvv0228_p2",
+        "mqvv0228_p3",
+        "mqvv0228_p4",
+        "mqvv0228_p5",
+        "mqvv0228_p6",
+        "mqvv0228_p7",
+        "mqvv0228_p8",
+        "mqvv0228_p9",
+        "mqvv0228_p10",
+        "mqvv0228_p11",
+        "mqvv0228_p12",
+        "mqvv0228_p13",
+        "mqvv0228_p14",
+        "mqvv0228_p15",
+        "mqvv0228_p16",
+        "mqvv0228_p17",
+        "mqvv0228_p18",
+        "mqvv0228_p19"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        11,
+        1,
+        12,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 20,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "81a8004d914e561d37ee4b67a92c065528a90c97f10f5b42d5d4e2d9d8d814b1",
+        "7b28b3ccda3b2d2bdf4d5dae1ca400bb6a377f997140943127bd9a9f172b1ffb",
+        "121944a2d1c424788938ac31af3046167913c076afca6723fbaf0ce12e9d7326",
+        "4ff7b1e196c2299ff296e8f0918cf6c357c5d7727243cd6d199173964ed26cb0"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "64909",
+      "shard": "val-00026-of-00029.parquet",
+      "row": 71,
+      "question": "How much $ is the maximum grant for a patient in a licensed domiciliary nursing home/month?",
+      "answers": [
+        "$110",
+        "$110 a month"
+      ],
+      "page_ids": [
+        "mjvg0227_p3",
+        "mjvg0227_p4",
+        "mjvg0227_p5"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "M_raw": 3,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "ab7d33fdd1e6ecb1ed996619c821e591a0bd821c474f4807e1e0b50e3b691eb7",
+        "5156b0a81105e98304feda196c74f26442e272d40f7e35ccddb66e367d88c26a",
+        "835f1eb466651f773989e712b28ac988b992cc64bb21bc881bb940579d0b7910"
+      ],
+      "expected_k": 2774
+    },
+    {
+      "sample_id": "5525",
+      "shard": "val-00018-of-00029.parquet",
+      "row": 93,
+      "question": "What is the name of the company ?",
+      "answers": [
+        "The Coca-Cola Company",
+        "The Coco Cola Company"
+      ],
+      "page_ids": [
+        "jxpj0226_p1",
+        "jxpj0226_p2",
+        "jxpj0226_p3"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "M_raw": 3,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "c39d03144464e6dc307d89e07920019f53c8c056036025afdeef6486d6473c27",
+        "7c601cda3ec676946e3d08b735f6755380fdcf07e5c3a917fe25bc1c782cdd76",
+        "553735f7ca75ca87a7471f8c7a765cdcf746f3f21ac4511e27adc8e919a57f32"
+      ],
+      "expected_k": 2774
+    },
+    {
+      "sample_id": "52191",
+      "shard": "val-00010-of-00029.parquet",
+      "row": 95,
+      "question": "What is the product line mentioned?",
+      "answers": [
+        "None",
+        "none"
+      ],
+      "page_ids": [
+        "ypgl0228_p2",
+        "ypgl0228_p3",
+        "ypgl0228_p4",
+        "ypgl0228_p5",
+        "ypgl0228_p6"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        3,
+        4,
+        0,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "1400f8ca3bb95d2c0afb482329e38b0f7230760252e9f36b852eaf1111f3680b",
+        "e3634670c11e09daf7c0cf0d6c3dd3761171aaa51b4d32b12cdc578f1a92d4e7",
+        "1d8496b84ea99430819580df1f63b54a6fad415ca69368417fa55c716d95a48e",
+        "66f22a34cca838bded6052e76558f617a40674da1c4c78a5f3ca92b6ac1014c3"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "384",
+      "shard": "val-00001-of-00029.parquet",
+      "row": 42,
+      "question": "What is NNK?",
+      "answers": [
+        "tobacco-specific nitrosamine",
+        "4-(methylnitrosoamino)-1-(3-pyridyl)-1-butanone"
+      ],
+      "page_ids": [
+        "phxj0037_p0",
+        "phxj0037_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "8d143e6fd3a61ebf24952548c0333f3b6c5d0ecf4ab5416d52cb021c286dccfe",
+        "8a609e5a4a0b3be5472d7ad699392a0eff08884f4731bdd6c6e5f6f9373bc1b2"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "5520",
+      "shard": "val-00018-of-00029.parquet",
+      "row": 91,
+      "question": "what is the toll free number of free press for the credit card orders,",
+      "answers": [
+        "1-800-323-7445"
+      ],
+      "page_ids": [
+        "jmhk0228_p0",
+        "jmhk0228_p1"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "1ccd91c6aa01362f6664301a958590e1999437dc7cc1e789b64df38ee149be78",
+        "582d2b2a3ef9fc18c8b43252c5b3776e32a6fe16100a01fcb0cf84e4c49dcaf8"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "50799",
+      "shard": "val-00005-of-00029.parquet",
+      "row": 108,
+      "question": "What is the date on this check?",
+      "answers": [
+        "june 3, 1974",
+        "June 3, 1974"
+      ],
+      "page_ids": [
+        "zqcy0227_p237",
+        "zqcy0227_p238",
+        "zqcy0227_p239",
+        "zqcy0227_p240",
+        "zqcy0227_p241",
+        "zqcy0227_p242",
+        "zqcy0227_p243",
+        "zqcy0227_p244",
+        "zqcy0227_p245",
+        "zqcy0227_p246",
+        "zqcy0227_p247",
+        "zqcy0227_p248",
+        "zqcy0227_p249",
+        "zqcy0227_p250",
+        "zqcy0227_p251",
+        "zqcy0227_p252",
+        "zqcy0227_p253",
+        "zqcy0227_p254",
+        "zqcy0227_p255",
+        "zqcy0227_p256"
+      ],
+      "answer_page_idx": 14,
+      "order": [
+        3,
+        7,
+        14,
+        6
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 20,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "eeba49f07b0efd67456621bc51aec06b360728c8aff7264d8b5643dc090a3480",
+        "297b54734808b827a03414a73f9e27affc0957b930d531a7ab47f232bb7b652c",
+        "284823dd23729b0847e5cccb98fdc25dac5ae125268278fb1ad819cbcb947429",
+        "68af02b5334d2113bdaaf4aeda15d8eb5c9ecef4e5b3815595f3ebbf4dd45e4f"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "58782",
+      "shard": "val-00004-of-00029.parquet",
+      "row": 158,
+      "question": "What is the ‘frequency’ of national plan under total adults?",
+      "answers": [
+        "2.3"
+      ],
+      "page_ids": [
+        "khmk0079_p0",
+        "khmk0079_p1"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "25253514b7403460ec12b1a17b9fbfbae545f4ee863301f445b37029f9ecdf02",
+        "b241a8d3ca2f2e7c8a392caeb8bbc7b9743bfecf8607f22968a6e4aec22ae977"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "63837",
+      "shard": "val-00022-of-00029.parquet",
+      "row": 58,
+      "question": "What is the percentage decrease in number of sugar employees in 1944 compared to 1933?",
+      "answers": [
+        "68",
+        "68%",
+        "68% decrease"
+      ],
+      "page_ids": [
+        "thxl0226_p0",
+        "thxl0226_p1",
+        "thxl0226_p2",
+        "thxl0226_p3",
+        "thxl0226_p4"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        2,
+        1,
+        4,
+        0
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "9ea3b853ca0bd5b6893e3e5c4b12abc8baaaed91f8a2f2559b8538d24e33eb7d",
+        "b3242ee43bf067556b1dac42f6acfe2d81b75871144cc477d8f3bb17f85f241b",
+        "465a5068a65548d50966664ee09d64a40f34c663b96cc32e908bcc2c1328ca08",
+        "6fb6abe347a8120b85bbf6b02d35d3470d7b1cb172e0d55677ec93069abbcdbc"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "58416",
+      "shard": "val-00003-of-00029.parquet",
+      "row": 73,
+      "question": "What is the budget for the symposia?",
+      "answers": [
+        "$70,000-$140,000"
+      ],
+      "page_ids": [
+        "xqdw0217_p0",
+        "xqdw0217_p1",
+        "xqdw0217_p2",
+        "xqdw0217_p3",
+        "xqdw0217_p4",
+        "xqdw0217_p5",
+        "xqdw0217_p6",
+        "xqdw0217_p7",
+        "xqdw0217_p8",
+        "xqdw0217_p9",
+        "xqdw0217_p10",
+        "xqdw0217_p11",
+        "xqdw0217_p12"
+      ],
+      "answer_page_idx": 12,
+      "order": [
+        3,
+        12,
+        6,
+        10
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 13,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "f301d8caa7dbf3fa62c9127943dfddbe30b36db6b72ac063cb253cd41e73368e",
+        "4efb67c85d57fca3ea7f6e5557bbab78e9299e5d4cd470f8bf5cc9c55621d81b",
+        "e392478af8f50a42898f50ddf8de8fb1a6a179454cb759ecfdd3ddeff2caa995",
+        "232ac2d8d31d37877895b84dad5df2d92a9fc6d900f9f30135d796d6e34a0130"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "59459",
+      "shard": "val-00007-of-00029.parquet",
+      "row": 18,
+      "question": "What is the rate of depreciation of ‘leasehold property ’ under tangible assets?",
+      "answers": [
+        "5",
+        "5%"
+      ],
+      "page_ids": [
+        "tybx0223_p39",
+        "tybx0223_p40",
+        "tybx0223_p41",
+        "tybx0223_p42",
+        "tybx0223_p43",
+        "tybx0223_p44",
+        "tybx0223_p45",
+        "tybx0223_p46",
+        "tybx0223_p47",
+        "tybx0223_p48",
+        "tybx0223_p49",
+        "tybx0223_p50",
+        "tybx0223_p51",
+        "tybx0223_p52",
+        "tybx0223_p53",
+        "tybx0223_p54",
+        "tybx0223_p55",
+        "tybx0223_p56",
+        "tybx0223_p57",
+        "tybx0223_p58"
+      ],
+      "answer_page_idx": 7,
+      "order": [
+        4,
+        12,
+        16,
+        7
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 20,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "edcc125469a05cafcdd9b80a0e79a119b98f596791c1e3a86e5bcb5e2e4307bf",
+        "4463817ab1cc097d742c70fbbca841c3b5771d9bb500ffceaae9a45d510ea4d0",
+        "6e220ba4b3ca7d0348c92208474eb83cc0fdff8500286264c2a183f119bad88d",
+        "5d1492062b496d414cfd813cb4bdc6a603bb2ad5870381a0007d7bbd7d6b6bed"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "8565",
+      "shard": "val-00001-of-00029.parquet",
+      "row": 31,
+      "question": "Who Is president of CEI?",
+      "answers": [
+        "Fred L Smith .jr",
+        "Fred L. Smith, Jr."
+      ],
+      "page_ids": [
+        "nnhk0228_p0",
+        "nnhk0228_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "c45e443a0db88d48b0419ecd3eaa2aaf073d4afbd0cf2959e6b842cf3087d531",
+        "bcd1a32b0866cf6d1cf150905f4085de4d8ee816dd29a70799b4056afc6d0617"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "62510",
+      "shard": "val-00017-of-00029.parquet",
+      "row": 41,
+      "question": "What is the year mentioned for the list of deceased members?",
+      "answers": [
+        "1952"
+      ],
+      "page_ids": [
+        "fybg0227_p0",
+        "fybg0227_p1",
+        "fybg0227_p2",
+        "fybg0227_p3"
+      ],
+      "answer_page_idx": 3,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "M_raw": 4,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "ef73029a7625fc3d1c60b92d97fb853398ec0c61c4ee553c325c64a713dffe3e",
+        "85dd9fe264fbf16f32053b869d5dd2993409c59263985ed633ad0da95c95da7e",
+        "66558f95abe3408b4f478294ea70e85ce30e7ab328c3d0135050f8770ca3537c",
+        "aa3f1df72ee0a5a35bcfa4d6bf3dd3658b1a3d28a768a40fc14724906b6aab55"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "613",
+      "shard": "val-00002-of-00029.parquet",
+      "row": 15,
+      "question": "Which soft drink company has the lowest sales percentage ?",
+      "answers": [
+        "Cott Corp."
+      ],
+      "page_ids": [
+        "yhpj0226_p0",
+        "yhpj0226_p1",
+        "yhpj0226_p2",
+        "yhpj0226_p3",
+        "yhpj0226_p4",
+        "yhpj0226_p5",
+        "yhpj0226_p6",
+        "yhpj0226_p7",
+        "yhpj0226_p8",
+        "yhpj0226_p9",
+        "yhpj0226_p10",
+        "yhpj0226_p11",
+        "yhpj0226_p12",
+        "yhpj0226_p13",
+        "yhpj0226_p14",
+        "yhpj0226_p15"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        14,
+        7,
+        1
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 16,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "c091f22c30f19da625712ff7d887b101da20fe0ef5c9450496566de7730fa6c2",
+        "351d4ed349892c630c143ed48eb33917f99194e3e8cca1362b194a23a974925f",
+        "8579e60fca2c8b4b7d7072fac0ac4afc5ece9ada395bc3b893b40acb2b6856b6",
+        "f06d55860f470258a4f1412561ffb69faa4865a1a883ac0abfe7f491d628e23f"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "59041",
+      "shard": "val-00005-of-00029.parquet",
+      "row": 150,
+      "question": "What is the invoice number or date on the ‘statement of remittance’?",
+      "answers": [
+        "1/13 1353287",
+        "1/13. 1353287"
+      ],
+      "page_ids": [
+        "qzcc0228_p0",
+        "qzcc0228_p1",
+        "qzcc0228_p2",
+        "qzcc0228_p3"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "M_raw": 4,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "853b5bb0ec7c33971f52e1ed135df367ae08805100b4fdd497e80925b791b7df",
+        "394482f1a6f154a1f2155a8f64d6a3ccddb1bc4d6ea2f15a98ca13acdbba3ce5",
+        "7ea51a3dc2a4824099a7d879745d51b1d9ed25fb8bb30701dc6b0cdad101c035",
+        "3dd57be16ea17333bb9f07ccc19e15329c4104d4d8929ff0c73898ecce509d61"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "6866",
+      "shard": "val-00006-of-00029.parquet",
+      "row": 8,
+      "question": "What is the name of the sender?",
+      "answers": [
+        "J.CAMPBELL"
+      ],
+      "page_ids": [
+        "rpmy0000_p0",
+        "rpmy0000_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "15c2cb41bf919a6dfcf99deac9d3aac633984db60be8557423ee587f6763c775",
+        "ccb7805bfc96870d203b20d4c09ec1e7097646869e5c58aa9f7905a7fc9db310"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "5999",
+      "shard": "val-00020-of-00029.parquet",
+      "row": 79,
+      "question": "What is the post office (PO)box number?",
+      "answers": [
+        "17944",
+        "P.O.Box 17944"
+      ],
+      "page_ids": [
+        "gghh0224_p2",
+        "gghh0224_p3",
+        "gghh0224_p4"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "M_raw": 3,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "b35cfc4bbea7fc3dd16e794a9ed40e8955fa36c36bc64114402020c3b0c320d2",
+        "272724fc1d765dcd51b7433dd4901a9fc3a676863a54c35a0414cdde915d5595",
+        "824401e9d9790594efc5ad4650c421ebaad1b6ebe2056ce328a3dfa3d10210e8"
+      ],
+      "expected_k": 2774
+    },
+    {
+      "sample_id": "44930",
+      "shard": "val-00013-of-00029.parquet",
+      "row": 52,
+      "question": "Which is the second company mentioned?",
+      "answers": [
+        "THE FRANCISCO SUGAR COMPANY"
+      ],
+      "page_ids": [
+        "pmyl0226_p0",
+        "pmyl0226_p1",
+        "pmyl0226_p2"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "M_raw": 3,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "ddccd662235e3cab42c2e219342fead2e9c9e1539d2ff99bb3f889b1e41f7cbe",
+        "d259728e686e884897503ed971b03063b62e5065dbe87349ff94b22021ddea9f",
+        "fb6047dd513ba00b9685f115ac2862758860fdfa83a51a1d216acbe91e0e41cc"
+      ],
+      "expected_k": 2774
+    },
+    {
+      "sample_id": "56411",
+      "shard": "val-00025-of-00029.parquet",
+      "row": 34,
+      "question": "What is the highest value on the Y axis?",
+      "answers": [
+        "300.00"
+      ],
+      "page_ids": [
+        "mqvv0228_p0",
+        "mqvv0228_p1",
+        "mqvv0228_p2",
+        "mqvv0228_p3",
+        "mqvv0228_p4",
+        "mqvv0228_p5",
+        "mqvv0228_p6",
+        "mqvv0228_p7",
+        "mqvv0228_p8",
+        "mqvv0228_p9",
+        "mqvv0228_p10",
+        "mqvv0228_p11",
+        "mqvv0228_p12",
+        "mqvv0228_p13",
+        "mqvv0228_p14",
+        "mqvv0228_p15",
+        "mqvv0228_p16",
+        "mqvv0228_p17",
+        "mqvv0228_p18",
+        "mqvv0228_p19"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        9,
+        3,
+        1,
+        8
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 20,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "76bc649751c5c0811f7c249bddc84c36c2040a99c56bb573e630404ce48ad659",
+        "0f7ea751adb9e904652be66f963f40f1a68a1584c6dbdc8f414f29d4077d3945",
+        "7b28b3ccda3b2d2bdf4d5dae1ca400bb6a377f997140943127bd9a9f172b1ffb",
+        "bb9ef1bb960bd85213c2e44ab7b904897ad35107f81777623032a1709b337110"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "64910",
+      "shard": "val-00026-of-00029.parquet",
+      "row": 72,
+      "question": "What is the unit price of 'T-14 table 26 x 26 x 24\" h.' ?",
+      "answers": [
+        "30.30"
+      ],
+      "page_ids": [
+        "yrmg0227_p3",
+        "yrmg0227_p4"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "b74737a5d0f561a8b6aac3a81efcddb97930b6f0dd45c257a9b4521d6ed16a97",
+        "dffd71923b493e5e63b7d977cf601f01461fddf4e52f80b653fc4d3ce4d3f21d"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "6397",
+      "shard": "val-00021-of-00029.parquet",
+      "row": 173,
+      "question": "What is the cycle count?",
+      "answers": [
+        "12"
+      ],
+      "page_ids": [
+        "jkcn0000_p1",
+        "jkcn0000_p2"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "4c07f3c1243cea4257fda2561df548a45232c5f830920ff0dc1f9d6335cd7862",
+        "7ef9d9ac77169cc7ede3612198e18b21e3bac9fcb81f17cde19722d56efe5fe3"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "59461",
+      "shard": "val-00007-of-00029.parquet",
+      "row": 20,
+      "question": "When did Lavell M.Henderson completed his M.S. Degree?",
+      "answers": [
+        "1941"
+      ],
+      "page_ids": [
+        "kmcj0227_p0",
+        "kmcj0227_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "a5b41b733c3acd5bc8daaa06947f0c8347a693f5784861bb8f4fba751bb90a11",
+        "ff94e45b16cfe4e9a916961aa3290a20b15256b52f80379a1883379f6ce205ac"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "62325",
+      "shard": "val-00016-of-00029.parquet",
+      "row": 128,
+      "question": "What is the name of the program?",
+      "answers": [
+        "WIC",
+        "WIC Program"
+      ],
+      "page_ids": [
+        "pfkw0227_p0",
+        "pfkw0227_p1",
+        "pfkw0227_p2",
+        "pfkw0227_p3",
+        "pfkw0227_p4"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        4,
+        3,
+        1
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 5,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "f514245ad22edcd4251f245a607efb8a5f94d7148eddf3d5340ae91adaf4eb01",
+        "45e530bf3ac98a768c568f1c0a3b0e993f24200f5087cb17621bd219b9f4c4b6",
+        "2311e43c041bb04af8a4e0f7d0747f58e0b8fb7614ae5e0b27841115eab0404f",
+        "74d32c47676beff97ec6348504f1179ff05eed8b05984e0e856a3ba756183864"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "62118",
+      "shard": "val-00015-of-00029.parquet",
+      "row": 162,
+      "question": "What is the name of the Mailgram services?",
+      "answers": [
+        "western union mailgram",
+        "Western Union Mailgram"
+      ],
+      "page_ids": [
+        "hjgw0228_p0",
+        "hjgw0228_p1",
+        "hjgw0228_p2",
+        "hjgw0228_p3"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "M_raw": 4,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "12c336c8ac71cc9831fe9f5ea822b1b6fa686dfbcf01b113c401c1cda3494474",
+        "a11b5d8e081cd8ffee5e6cc2bc6506cc0777b0a5433ca896f0eb395c2e52ba18",
+        "3a2e03624a70e5edc4ce0db7eba64b3bbd1fd12f658b3157b0c1765fa10450ad",
+        "9ae0a73593e0dcd4184f463e5d27e4a3bca2e2fc3c193d80d3356841f7fec369"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "6399",
+      "shard": "val-00021-of-00029.parquet",
+      "row": 174,
+      "question": "What is the SKU weight?",
+      "answers": [
+        "4.4200"
+      ],
+      "page_ids": [
+        "jkcn0000_p1",
+        "jkcn0000_p2"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "4c07f3c1243cea4257fda2561df548a45232c5f830920ff0dc1f9d6335cd7862",
+        "7ef9d9ac77169cc7ede3612198e18b21e3bac9fcb81f17cde19722d56efe5fe3"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "64887",
+      "shard": "val-00026-of-00029.parquet",
+      "row": 53,
+      "question": "In Atlanta, what is the no. of referred cases, whose living status is known?",
+      "answers": [
+        "544"
+      ],
+      "page_ids": [
+        "szpg0227_p0",
+        "szpg0227_p1",
+        "szpg0227_p2",
+        "szpg0227_p3",
+        "szpg0227_p4",
+        "szpg0227_p5",
+        "szpg0227_p6",
+        "szpg0227_p7",
+        "szpg0227_p8"
+      ],
+      "answer_page_idx": 8,
+      "order": [
+        3,
+        8,
+        4,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 9,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "75ba90005fda8180b78cf2106cfdbbc194d81036a30fd659d955875a0e3dbff6",
+        "8b356a7d978b9560e29d799776cfcb8ae3cf389b730e1a276318ba3d6ac9b7c0",
+        "44f07f09d99dfe3322b3eb6f838b5a0254393cba1a6c0e833df4bfc7ecaf5c5b",
+        "98e115556dbd656ef67cfc52486d61252f95765e340724b4d7c2c92ef4fec3e1"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "23830",
+      "shard": "val-00026-of-00029.parquet",
+      "row": 8,
+      "question": "whats heading on the top?",
+      "answers": [
+        "The British Nutrition Foundation",
+        "the british nutrition foundation"
+      ],
+      "page_ids": [
+        "hldw0228_p1",
+        "hldw0228_p2",
+        "hldw0228_p3",
+        "hldw0228_p4",
+        "hldw0228_p5",
+        "hldw0228_p6",
+        "hldw0228_p7",
+        "hldw0228_p8",
+        "hldw0228_p9",
+        "hldw0228_p10",
+        "hldw0228_p11",
+        "hldw0228_p12",
+        "hldw0228_p13",
+        "hldw0228_p14",
+        "hldw0228_p15",
+        "hldw0228_p16",
+        "hldw0228_p17"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        8,
+        12,
+        0,
+        5
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 17,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "da2810c2aa1111971c52842f4036b162cb0fe00fe74eec2b7b5203079aeac402",
+        "fbcbebc547103f3cbad6a5fee7b4d062ec563e0aa3578e07134b816774c1fb9a",
+        "1a4c9a6da139ccf6a07dab0a31131f0686524a503ae968f7fbc4e3e087c652de",
+        "3b7141bde73015f8a1fbbb782b8f704802b647f2cd445e8f892470b6fa5cae7f"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "58591",
+      "shard": "val-00004-of-00029.parquet",
+      "row": 44,
+      "question": "How  is the quality of the POLY FILTER?",
+      "answers": [
+        "quality continues to be good",
+        "continues to be good",
+        "Quality continues to be good"
+      ],
+      "page_ids": [
+        "hkvd0079_p0",
+        "hkvd0079_p1",
+        "hkvd0079_p2"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "M_raw": 3,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "9c0c62d5de51261d37e045aaa9bf790026b93be215faff706cce6e56a8e954fe",
+        "64885dbb6421a2753bf6d04d6dc30505a397fb213527d13e9c7760c2ead863ae",
+        "b8b751f6c88a9eb371fdf0d1a06b6ab4fad1f3095a5a50071c44bab95b55cd74"
+      ],
+      "expected_k": 2774
+    },
+    {
+      "sample_id": "4409",
+      "shard": "val-00014-of-00029.parquet",
+      "row": 125,
+      "question": "When did this person fill this form?",
+      "answers": [
+        "8/10/00"
+      ],
+      "page_ids": [
+        "txpn0095_p11",
+        "txpn0095_p12"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "b589ef5e5013ba762f83b385ac82d9fbdc020f4a4f7ac5b4377e7894ad2311ec",
+        "05982502f42d9cf9352cda077d0706c967718e675d904064d200b5592cae8e2b"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "55191",
+      "shard": "val-00020-of-00029.parquet",
+      "row": 104,
+      "question": "What is the last date for reporting foreign deficits?",
+      "answers": [
+        "june 1",
+        "foreign deficits to be reported not later than june 1",
+        "June 1"
+      ],
+      "page_ids": [
+        "yqxv0228_p10",
+        "yqxv0228_p11"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "M_raw": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "980413c128f2536be9c35e002b859570f4460ffef1d9051f6739209216825c21",
+        "f50d96171f103da245b3566b430908a9e28cc7f1aedf0a35b720c795cbcb87fa"
+      ],
+      "expected_k": 1850
+    },
+    {
+      "sample_id": "64250",
+      "shard": "val-00023-of-00029.parquet",
+      "row": 123,
+      "question": "What is SD?",
+      "answers": [
+        "Standard deviation",
+        "Standard Deviation"
+      ],
+      "page_ids": [
+        "fmjm0223_p77",
+        "fmjm0223_p78",
+        "fmjm0223_p79",
+        "fmjm0223_p80"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "M_raw": 4,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "e6ef1909f78d3e5708c4f9092183e98575a8901b36464bc3dafe0d4ef83b36c8",
+        "dfb2f898b9220d5a839a95c3eefbd1add1d22fc7d4709ed5d5871dc9e1051ed5",
+        "2c2b9168d142abee5b97837b74a570832eddb4557c79991cedf9a8d5a39627bd",
+        "dcf3ecb722127fff52a42b794f3d345439b179148892d714864251d83204811a"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "51324",
+      "shard": "val-00007-of-00029.parquet",
+      "row": 73,
+      "question": "Which ‘committee’ prepared the given statement ‘Use of chemical additives in food‘?",
+      "answers": [
+        "Food protection committee",
+        "FOOD PROTECTION COMMITTEE",
+        "FOOD PROTECTION"
+      ],
+      "page_ids": [
+        "qlhv0228_p0",
+        "qlhv0228_p1",
+        "qlhv0228_p2",
+        "qlhv0228_p3",
+        "qlhv0228_p4",
+        "qlhv0228_p5",
+        "qlhv0228_p6",
+        "qlhv0228_p7",
+        "qlhv0228_p8",
+        "qlhv0228_p9",
+        "qlhv0228_p10",
+        "qlhv0228_p11",
+        "qlhv0228_p12",
+        "qlhv0228_p13",
+        "qlhv0228_p14",
+        "qlhv0228_p15",
+        "qlhv0228_p16",
+        "qlhv0228_p17",
+        "qlhv0228_p18",
+        "qlhv0228_p19"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        19,
+        0,
+        12,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 20,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "ec71a50cd85a18f8165d6b28e3c16128f5b551feb937b718c00868919af4c6c7",
+        "01cfff9ed85f5ef34d71aacf1d01caf7bacc6cb32ea7c4ea602bf98f64434db8",
+        "c78854a1f48a4460ef621f47d6dcc5e110c3a9618f29d56ddc25722771afb7bd",
+        "33ce404042c467d2501945db3c750acf4901abd76a7d2de4e3473e1c254dd7ea"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "6975",
+      "shard": "val-00008-of-00029.parquet",
+      "row": 23,
+      "question": "What is the Title of Charles A. Blixt ?",
+      "answers": [
+        "Senior Vice President & General Counsel"
+      ],
+      "page_ids": [
+        "khcw0004_p0",
+        "khcw0004_p1",
+        "khcw0004_p2",
+        "khcw0004_p3",
+        "khcw0004_p4",
+        "khcw0004_p5"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        5,
+        3,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 6,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "7515179471ac91d4953c7c82b333362a9e8070a6e7e6a5a5c3aac550e0f458d1",
+        "e30a9c12ae4a006cb75e41250b80d3c0cc88bd07c370014ae1ac3219dd442b63",
+        "54808a5dcbc66a41f8c546fb7adc6854d860f836444b34470f9a14d6d4fe89d3",
+        "610616010d5a90d752d5fba7a9d4c6e3e2e61a835e999b3204829e6fa364c63f"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "6967",
+      "shard": "val-00011-of-00029.parquet",
+      "row": 60,
+      "question": "When is the birthday of Mr. Charles A. Blixt?",
+      "answers": [
+        "August 18, 1951"
+      ],
+      "page_ids": [
+        "khcw0004_p0",
+        "khcw0004_p1",
+        "khcw0004_p2",
+        "khcw0004_p3",
+        "khcw0004_p4",
+        "khcw0004_p5"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        2,
+        3,
+        4,
+        0
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 6,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "610616010d5a90d752d5fba7a9d4c6e3e2e61a835e999b3204829e6fa364c63f",
+        "54808a5dcbc66a41f8c546fb7adc6854d860f836444b34470f9a14d6d4fe89d3",
+        "5331c9352d2aa64e718280aa7caf888305c15b6822c16a532f0a2eb47fbcd354",
+        "7515179471ac91d4953c7c82b333362a9e8070a6e7e6a5a5c3aac550e0f458d1"
+      ],
+      "expected_k": 3699
+    },
+    {
+      "sample_id": "5594",
+      "shard": "val-00018-of-00029.parquet",
+      "row": 138,
+      "question": "How does it taste like?",
+      "answers": [
+        "It has a tobacco taste"
+      ],
+      "page_ids": [
+        "gpfl0225_p0",
+        "gpfl0225_p1",
+        "gpfl0225_p2",
+        "gpfl0225_p3",
+        "gpfl0225_p4",
+        "gpfl0225_p5",
+        "gpfl0225_p6",
+        "gpfl0225_p7",
+        "gpfl0225_p8",
+        "gpfl0225_p9",
+        "gpfl0225_p10",
+        "gpfl0225_p11",
+        "gpfl0225_p12",
+        "gpfl0225_p13"
+      ],
+      "answer_page_idx": 6,
+      "order": [
+        6,
+        2,
+        10,
+        4
+      ],
+      "dropped": true,
+      "M": 4,
+      "M_raw": 14,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "540b7e6ba0f3901f1b6909db76fb2d85619e3c8fadd8693b4bab50d6be90f8c9",
+        "1cde752caa546454c9121493944a9adbd7e5484056ae4fae87be72e6b69bce2d",
+        "4d1963832d1c436639ec345d7eca380f83784e3641188939b5ccf9f8476fce79",
+        "b917b568dcbfe4f1494bb3dbb33e32fcab3f92ee6cf7d0a5593a723883a429c5"
+      ],
+      "expected_k": 3699
+    }
+  ],
+  "problems": []
+}

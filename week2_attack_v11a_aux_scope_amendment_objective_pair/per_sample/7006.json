@@ -1,0 +1,49 @@
+{
+  "sample_id": "7006",
+  "h0_replay": "BLOCKED_H0_REPLAY_DIVERGED",
+  "earliest_mismatch_step": 10,
+  "step0_png_match": true,
+  "question": "What is the Company Name ?",
+  "aux_idx": 0,
+  "page_sha256": [
+    "c3c0eabac78241156d37bd11f9c5c72c8b5a3a13060c3f0ce4f6ad36d4d7fa16",
+    "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+    "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+    "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+  ],
+  "step10": {
+    "historical_png": "99a7267b69d67b430bdc5b2be730e9b41c442b3b499c904b0deacb1fc3afb54f",
+    "h0_png": "5264086d770303a25a4aa13671e313ea7ef4a13c03648e7885f87379396c9bdc",
+    "historical_full": "RJ Reynolds Tobacco Company",
+    "h0_full": "RJ Reynolds Tobacco Company",
+    "historical_fastv_0.25": "RJ Reynolds Tobacco Company",
+    "h0_fastv_0.25": "RJ Reynolds Tobacco Company",
+    "historical_fastv_0.35": "RJ Reynolds Tobacco Company",
+    "h0_fastv_0.35": "RJ Reynolds Tobacco Company",
+    "historical_keep_0.25": "edc6fecfe3285fe3db90acbe0aecf240be84bf1aba0f22b1e207f3b5f105efb6",
+    "h0_keep_0.25": "17974cde276c75ca5b9c6b9cd9ccb21e8ee27e7504bfe5b5406da95f9fbb4d01",
+    "historical_keep_0.35": "35a75b8d929a0abf97377c27ab7b8d12da0c3300cf0d8e7b893f4daa1173a1cb",
+    "h0_keep_0.35": "50ebc2299a889114f09ee54e943d2ab210332245484a60599a31a906242bcaa8",
+    "historical_margin": 2.6831183433532715,
+    "h0_margin": 2.889931797981262,
+    "token_ids": "未测"
+  },
+  "historical_selector_step": 150,
+  "h0_selector_step": 75,
+  "train_counters": {
+    "forward": 3447,
+    "backward": 600,
+    "generate": 425,
+    "fastv": 416,
+    "generated_tokens": 3128
+  },
+  "elapsed_sec": 2680.5,
+  "peak_memory_mib": 30722.5,
+  "h1": "NOT_RUN",
+  "sealed_selector_result": "NOT_RUN",
+  "trajectory_oracle_result": "NOT_RUN",
+  "ratios_0.15_and_0.50": "NOT_RUN",
+  "noise": "NOT_RUN",
+  "pgd": "NOT_RUN",
+  "opgd": "NOT_RUN"
+}

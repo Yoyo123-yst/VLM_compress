@@ -1,0 +1,296 @@
+{
+  "status": "TRAINING_H0_COMPLETE",
+  "runner": "v11c_deterministic_native_fdp",
+  "protocol": "200-step deterministic Native-FDP; Full exact and pixel L_inf are hard gates",
+  "config": {
+    "attn_implementation": "sdpa",
+    "resize_mode": "bilinear",
+    "deterministic_resize": "1",
+    "deterministic_algorithms": true,
+    "historical_v7d_unchanged": true
+  },
+  "samples": {
+    "1025": {
+      "path": "week2_attack_v11c_deterministic_native_fdp/training_h0/1025",
+      "status": "DONE",
+      "checkpoint_count": 8,
+      "checkpoint_steps": [
+        0,
+        10,
+        25,
+        50,
+        75,
+        100,
+        150,
+        200
+      ],
+      "optimization_steps": 200,
+      "last_step": 200,
+      "last_full_exact": 1,
+      "last_texts": {
+        "full": "Dr. C. Baur MD",
+        "fastv_0.25": "Prof. Dr. Peter Tscherning",
+        "fastv_0.35": "Prof. Dr. Peter Tscherning"
+      },
+      "last_margins": {
+        "0.25": 0.335642546415329,
+        "0.35": 0.33542224764823914
+      },
+      "last_keeps": {
+        "0.25": {
+          "k": 2774,
+          "keep_hash": "c01b792f783bded94b9ae3186fa3cfd4ee034002a624c1da255c5bd42f15bc39"
+        },
+        "0.35": {
+          "k": 3884,
+          "keep_hash": "6b6068ddd9afb825cc7b8454c4086267cd7d541955b98cbb828c473878c80637"
+        }
+      },
+      "selected": {
+        "step": 150,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.7953859269618988
+      },
+      "clean_text": "Dr. C. Baur MD"
+    },
+    "2008": {
+      "path": "week2_attack_v11c_deterministic_native_fdp/training_h0/2008",
+      "status": "DONE",
+      "checkpoint_count": 8,
+      "checkpoint_steps": [
+        0,
+        10,
+        25,
+        50,
+        75,
+        100,
+        150,
+        200
+      ],
+      "optimization_steps": 200,
+      "last_step": 200,
+      "last_full_exact": 1,
+      "last_texts": {
+        "full": "March 1968",
+        "fastv_0.25": "March 23, 1986",
+        "fastv_0.35": "March 27, 22, Issue 1"
+      },
+      "last_margins": {
+        "0.25": 0.9164344072341919,
+        "0.35": 0.023977793753147125
+      },
+      "last_keeps": {
+        "0.25": {
+          "k": 1850,
+          "keep_hash": "397b657ab18519adbe31762717c14654080cdccd475d52b5701aac0cf38c72e6"
+        },
+        "0.35": {
+          "k": 2589,
+          "keep_hash": "a22c080704efe5fc0a0ee706ed509657ec99bd673ad609cc88771a8f76b610bf"
+        }
+      },
+      "selected": {
+        "step": 200,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": 0.4702061004936695
+      },
+      "clean_text": "March 1968"
+    },
+    "47450": {
+      "path": "week2_attack_v11c_deterministic_native_fdp/training_h0/47450",
+      "status": "DONE",
+      "checkpoint_count": 8,
+      "checkpoint_steps": [
+        0,
+        10,
+        25,
+        50,
+        75,
+        100,
+        150,
+        200
+      ],
+      "optimization_steps": 200,
+      "last_step": 200,
+      "last_full_exact": 1,
+      "last_texts": {
+        "full": "Dr. or Mrs. William J. Darby",
+        "fastv_0.25": "Chase",
+        "fastv_0.35": "CASHIER"
+      },
+      "last_margins": {
+        "0.25": -0.6398872137069702,
+        "0.35": -1.015258550643921
+      },
+      "last_keeps": {
+        "0.25": {
+          "k": 3699,
+          "keep_hash": "8e0e88322a4a21d96e252bf0f22fd0df7e605dcee4f63630e183adf71e5b4fee"
+        },
+        "0.35": {
+          "k": 5179,
+          "keep_hash": "778025d3a7cd3db088162099e7e3a828985e06156faac11d4b91492098235370"
+        }
+      },
+      "selected": {
+        "step": 200,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.8275728821754456
+      },
+      "clean_text": "Dr. or Mrs. William J. Darby"
+    },
+    "60700": {
+      "path": "week2_attack_v11c_deterministic_native_fdp/training_h0/60700",
+      "status": "DONE",
+      "checkpoint_count": 8,
+      "checkpoint_steps": [
+        0,
+        10,
+        25,
+        50,
+        75,
+        100,
+        150,
+        200
+      ],
+      "optimization_steps": 200,
+      "last_step": 200,
+      "last_full_exact": 1,
+      "last_texts": {
+        "full": "PPBS",
+        "fastv_0.25": "Centrally heated, unoccupied dwellings",
+        "fastv_0.35": "3. Rebukes alcoholism"
+      },
+      "last_margins": {
+        "0.25": 0.2355463057756424,
+        "0.35": -0.0029348647221922874
+      },
+      "last_keeps": {
+        "0.25": {
+          "k": 2774,
+          "keep_hash": "7b2ecce0aa880afe6af949cf2f6e72e4d45f0ad3d870b7ec5f943e5ea4ca9a75"
+        },
+        "0.35": {
+          "k": 3884,
+          "keep_hash": "2db3078c8b97fcc7740bbacd01a9d17e802ba5bc104e89d8867050b78d93a314"
+        }
+      },
+      "selected": {
+        "step": 50,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.1781216859817505
+      },
+      "clean_text": "PPBS"
+    },
+    "7006": {
+      "path": "week2_attack_v11c_deterministic_native_fdp/training_h0/7006",
+      "status": "DONE",
+      "checkpoint_count": 8,
+      "checkpoint_steps": [
+        0,
+        10,
+        25,
+        50,
+        75,
+        100,
+        150,
+        200
+      ],
+      "optimization_steps": 200,
+      "last_step": 200,
+      "last_full_exact": 1,
+      "last_texts": {
+        "full": "RJ Reynolds Tobacco Company",
+        "fastv_0.25": "TOBACCO COMPANY WINSTON-Salem, NC",
+        "fastv_0.35": "RJ Reynolds Tobacco Co."
+      },
+      "last_margins": {
+        "0.25": 1.841437816619873,
+        "0.35": 0.7623886466026306
+      },
+      "last_keeps": {
+        "0.25": {
+          "k": 3699,
+          "keep_hash": "19afd3e2801623619d25b9c4cd9a22b71432964c372d2d3558f44a68bda82336"
+        },
+        "0.35": {
+          "k": 5179,
+          "keep_hash": "6adea90f8f1df7d48e8491378372679b5f1bf80aed1bfea2a7899b5c99477bc7"
+        }
+      },
+      "selected": {
+        "step": 200,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": 1.3019132316112518
+      },
+      "clean_text": "RJ Reynolds Tobacco Company"
+    },
+    "39204": {
+      "path": "week2_attack_v11c_deterministic_native_fdp/training_h0/39204",
+      "status": "DONE",
+      "checkpoint_count": 8,
+      "checkpoint_steps": [
+        0,
+        10,
+        25,
+        50,
+        75,
+        100,
+        150,
+        200
+      ],
+      "optimization_steps": 200,
+      "last_step": 200,
+      "last_full_exact": 1,
+      "last_texts": {
+        "full": "FOOD TECHNOLOGY",
+        "fastv_0.25": "FOOD ZAC TECHNOLDC",
+        "fastv_0.35": "FOOD TECHNOLOGY"
+      },
+      "last_margins": {
+        "0.25": 0.8868216276168823,
+        "0.35": 2.7660999298095703
+      },
+      "last_keeps": {
+        "0.25": {
+          "k": 3699,
+          "keep_hash": "7eceb4e3a262712c92a85ae873812473900e375e8c6c22c2891bd1620c9fccd2"
+        },
+        "0.35": {
+          "k": 5179,
+          "keep_hash": "f3c153e73b4f72b0d46e41e3c627d087866bb5cffd8572eb63d779fcb00f960d"
+        }
+      },
+      "selected": {
+        "step": 100,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": 0.8573143929243088
+      },
+      "clean_text": "FOOD TECHNOLOGY"
+    }
+  }
+}

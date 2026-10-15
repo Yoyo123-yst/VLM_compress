@@ -1,0 +1,241 @@
+[
+  {
+    "sample_id": "55463",
+    "step": 0,
+    "seed": 597249027,
+    "pred_full": "Cigarette Smoke Contains Carbon Monoxide",
+    "pred_fastv": "Cigarette Smoke Contains Carbon Monoxide",
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": 5.229166507720947,
+    "L_comp": 5.236111164093018,
+    "L_soft_full": 0.69140625,
+    "keep_hash": "5d02358318f7b2d08aeffe4b89cb137c2c5b300b1b3f920e9aa18fa80e94eb4c",
+    "k": 1850,
+    "aux_share": 0.5551351351351351,
+    "evidence_share": 0.4448648648648649,
+    "page_keep_counts": [
+      823,
+      1027
+    ],
+    "page_shares": [
+      0.4448648648648649,
+      0.5551351351351351
+    ],
+    "linf": 0.0,
+    "png": "checkpoints/step_000.png",
+    "png_sha256": "8068fd77981f526e854797ae574c4916bfb008ea29260c7f4fcca88160d26e02",
+    "protected_ok": true,
+    "grad_norm": 39.47904968261719
+  },
+  {
+    "sample_id": "55463",
+    "step": 10,
+    "seed": 597249027,
+    "pred_full": "Cigarette Smoke Contains Carbon Monoxide",
+    "pred_fastv": "Cigarette contains carbon monoxide",
+    "anls_full": 1.0,
+    "anls_fastv": 0.85,
+    "output_valid": true,
+    "margin": 3.6388888359069824,
+    "L_comp": 3.75,
+    "L_soft_full": 0.40234375,
+    "keep_hash": "728c9be601dd82adc06ca71b915ed89d64c37604c64b099be380fa6ae4ae8ec1",
+    "k": 1850,
+    "aux_share": 0.552972972972973,
+    "evidence_share": 0.447027027027027,
+    "page_keep_counts": [
+      827,
+      1023
+    ],
+    "page_shares": [
+      0.447027027027027,
+      0.552972972972973
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_010.png",
+    "png_sha256": "b3f11561a7cbfb173ab1fe84e37ca75d45595fe78526833767d7b259491198fe",
+    "protected_ok": true,
+    "grad_norm": 12.024603843688965
+  },
+  {
+    "sample_id": "55463",
+    "step": 25,
+    "seed": 597249027,
+    "pred_full": "Cigarette Smoke Contains Carbon Monoxide",
+    "pred_fastv": "Cigarette contains carbon monoxide",
+    "anls_full": 1.0,
+    "anls_fastv": 0.85,
+    "output_valid": true,
+    "margin": 2.3958332538604736,
+    "L_comp": 2.340277910232544,
+    "L_soft_full": 0.296875,
+    "keep_hash": "660f6bbd75bd85cecfeaf29c14349297d4fce47c600d5e104d81a2b46685e637",
+    "k": 1850,
+    "aux_share": 0.5535135135135135,
+    "evidence_share": 0.4464864864864865,
+    "page_keep_counts": [
+      826,
+      1024
+    ],
+    "page_shares": [
+      0.4464864864864865,
+      0.5535135135135135
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_025.png",
+    "png_sha256": "7fa8cbee2d0c3e929caeb08626cd0b12d64e2e173a67178341ccfa59a8f4e289",
+    "protected_ok": true,
+    "grad_norm": 21.92072296142578
+  },
+  {
+    "sample_id": "55463",
+    "step": 50,
+    "seed": 597249027,
+    "pred_full": "Cigarette Smoke Contains Carbon Monoxide",
+    "pred_fastv": "Cigarette contains carcinogen, monoxide, nicotine",
+    "anls_full": 1.0,
+    "anls_fastv": 0.574468085106383,
+    "output_valid": true,
+    "margin": 1.1111111640930176,
+    "L_comp": 1.0902777910232544,
+    "L_soft_full": 0.25,
+    "keep_hash": "7e6c7e5b62e928f00f45f21cfb68faf740758794301d4234f0c351965c209743",
+    "k": 1850,
+    "aux_share": 0.5518918918918919,
+    "evidence_share": 0.4481081081081081,
+    "page_keep_counts": [
+      829,
+      1021
+    ],
+    "page_shares": [
+      0.4481081081081081,
+      0.5518918918918919
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_050.png",
+    "png_sha256": "d08826887cfc4190a785ff105366f68adfba2adafe4683076ac278413ac7a1de",
+    "protected_ok": true,
+    "grad_norm": 11.576977729797363
+  },
+  {
+    "sample_id": "55463",
+    "step": 75,
+    "seed": 597249027,
+    "pred_full": "Cigarette Smoke Contains Carbon Monoxide",
+    "pred_fastv": "Cigarette contains carbon monoxide, nicotine, monoxide, tar, and",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": 0.472222238779068,
+    "L_comp": 0.3333333432674408,
+    "L_soft_full": 0.29296875,
+    "keep_hash": "b0e2bbae9734bf20c38b5fab85e6a5f5c15b33e6e9d08235b9b0b5b202e7c48a",
+    "k": 1850,
+    "aux_share": 0.5567567567567567,
+    "evidence_share": 0.44324324324324327,
+    "page_keep_counts": [
+      820,
+      1030
+    ],
+    "page_shares": [
+      0.44324324324324327,
+      0.5567567567567567
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_075.png",
+    "png_sha256": "e08bd1970e274ab54a1c612df55093047d2826befeec891d084001f1c199b694",
+    "protected_ok": true,
+    "grad_norm": 9.433575630187988
+  },
+  {
+    "sample_id": "55463",
+    "step": 100,
+    "seed": 597249027,
+    "pred_full": "Cigarette Smoke Contains Carbon Monoxide",
+    "pred_fastv": "Cigarette contains carbon, nicotine, monococaine, tar, lead",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -1.28125,
+    "L_comp": -1.2118055820465088,
+    "L_soft_full": 0.25,
+    "keep_hash": "fb5729a95ce20b338bbfe0a92e2cf0126b73a49b12978e39cfbff16cafac5120",
+    "k": 1850,
+    "aux_share": 0.5610810810810811,
+    "evidence_share": 0.43891891891891893,
+    "page_keep_counts": [
+      812,
+      1038
+    ],
+    "page_shares": [
+      0.43891891891891893,
+      0.5610810810810811
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_100.png",
+    "png_sha256": "8a1735295e6de0578e1e3542077a217e35cea2621673d35ce9f00894082c6fc6",
+    "protected_ok": true,
+    "grad_norm": 43.06431579589844
+  },
+  {
+    "sample_id": "55463",
+    "step": 150,
+    "seed": 597249027,
+    "pred_full": "Cigarette Smoke Contains Carbon Monoxide",
+    "pred_fastv": "Cigarette contains carbon, nicotine, carcinogens, and monooxide",
+    "anls_full": 1.0,
+    "anls_fastv": 0.5166666666666666,
+    "output_valid": true,
+    "margin": -3.805555582046509,
+    "L_comp": -3.7135417461395264,
+    "L_soft_full": 0.2265625,
+    "keep_hash": "d4bef61a8bd7900f6fb1a9e29c11db2b8b3110c67dfc9718c9f473ba8afb22c1",
+    "k": 1850,
+    "aux_share": 0.5594594594594594,
+    "evidence_share": 0.44054054054054054,
+    "page_keep_counts": [
+      815,
+      1035
+    ],
+    "page_shares": [
+      0.44054054054054054,
+      0.5594594594594594
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_150.png",
+    "png_sha256": "e95d6cbbf8673d1b4a0880ffaaca57b571ecbde4645cd9a6f3ae16f5aac67dcd",
+    "protected_ok": true,
+    "grad_norm": 21.03917121887207
+  },
+  {
+    "sample_id": "55463",
+    "step": 200,
+    "seed": 597249027,
+    "pred_full": "Cigarette Smoke Contains Carbon Monoxide",
+    "pred_fastv": "Cigarettes cause cancer, heart disease, monoxide",
+    "anls_full": 1.0,
+    "anls_fastv": 0.5217391304347826,
+    "output_valid": true,
+    "margin": -3.987847328186035,
+    "L_comp": -3.8333332538604736,
+    "L_soft_full": 0.34765625,
+    "keep_hash": "32ca3cbef9a9fb403fec0fc3f051fde0f0f750e3cbed49f22efd31790f9989c3",
+    "k": 1850,
+    "aux_share": 0.5621621621621622,
+    "evidence_share": 0.43783783783783786,
+    "page_keep_counts": [
+      810,
+      1040
+    ],
+    "page_shares": [
+      0.43783783783783786,
+      0.5621621621621622
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_200.png",
+    "png_sha256": "c9b47b1582b1a905f2f0adab0fa2578c74b3f08836ea19f591fb216a79db28b3",
+    "protected_ok": true
+  }
+]

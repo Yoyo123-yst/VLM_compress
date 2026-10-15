@@ -1,0 +1,579 @@
+{
+  "sample_id": "234",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "3086c3c4fa0b464bebe0cbbf1429884470d5dfde3de4b3cf2133debf14b0fe7c",
+  "full_clean": {
+    "text_a": "INTER-OFFICE CORRESPONDENCE",
+    "text_b": "INTER-OFFICE CORRESPONDENCE",
+    "tokens_a": [
+      15942,
+      23620,
+      1748,
+      5487,
+      26465,
+      67783,
+      37439,
+      10150,
+      151645
+    ],
+    "tokens_b": [
+      15942,
+      23620,
+      1748,
+      5487,
+      26465,
+      67783,
+      37439,
+      10150,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      2245,
+      81127,
+      43718,
+      151645
+    ],
+    "text": "inter-office correspondence",
+    "anls": 1.0,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "7cb84ba5a0284e43d6fa23e89e174aaef994ff23b96b03f93d379a6184768bd5",
+    "k": 1850,
+    "second_keep_hash": "7cb84ba5a0284e43d6fa23e89e174aaef994ff23b96b03f93d379a6184768bd5",
+    "second_k": 1850
+  },
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "7cb84ba5a0284e43d6fa23e89e174aaef994ff23b96b03f93d379a6184768bd5",
+    "reference_keep_hash": "7cb84ba5a0284e43d6fa23e89e174aaef994ff23b96b03f93d379a6184768bd5",
+    "fast_keep_exact": true,
+    "k": 1850,
+    "reference_k": 1850
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 0,
+      "target_id": 2245,
+      "target_piece": "inter",
+      "candidate_id": 10580,
+      "candidate_piece": "Cor",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 2.125,
+      "content_priority": 1,
+      "fast_gradient_l1": 31466.21484375,
+      "fast_gradient_l2": 75.92903137207031,
+      "estimated_fast_flip_linf": 6.753274934884898e-05,
+      "full_clean_hard_min": 0.3125,
+      "full_probe_hard_min": 0.125,
+      "full_local_capacity_linf": 0.006535947712418301,
+      "full_local_margin_available": true,
+      "reachability_ratio": 96.78189878892734,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "7cb84ba5a0284e43d6fa23e89e174aaef994ff23b96b03f93d379a6184768bd5",
+      "clean_k": 1850,
+      "forced_continuation": {
+        "tokens": [
+          10580,
+          6818,
+          763,
+          151645
+        ],
+        "text": "Correspondence",
+        "keep_hash": "43634c2f52cfad743ac5f61966659ccb2641949f9e161aad22d17f890bb721c1",
+        "k": 1850
+      },
+      "forced_continuation_anls_diagnostic": 0.5384615384615384,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "correspondence",
+      "complete_lexical_similarity_to_clean": 0.717948717948718,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          10580,
+          6818,
+          763,
+          151645
+        ],
+        "text": "Correspondence",
+        "keep_hash": "43634c2f52cfad743ac5f61966659ccb2641949f9e161aad22d17f890bb721c1",
+        "k": 1850
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 2245,
+      "target_piece": "inter",
+      "candidate_id": 687,
+      "candidate_piece": "IN",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 2.1875,
+      "content_priority": 1,
+      "fast_gradient_l1": 14005.0625,
+      "fast_gradient_l2": 37.2646369934082,
+      "estimated_fast_flip_linf": 0.0001561935193077503,
+      "full_clean_hard_min": 0.3125,
+      "full_probe_hard_min": 0.1875,
+      "full_local_capacity_linf": 0.00980392156862745,
+      "full_local_margin_available": true,
+      "reachability_ratio": 62.767787114845945,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "7cb84ba5a0284e43d6fa23e89e174aaef994ff23b96b03f93d379a6184768bd5",
+      "clean_k": 1850,
+      "forced_continuation": {
+        "tokens": [
+          687,
+          20252,
+          17611,
+          5487,
+          26465,
+          67783,
+          37439,
+          10150,
+          151645
+        ],
+        "text": "INTRA OFFICE CORRESPONDENCE",
+        "keep_hash": "3c9d642bc976c89a047b79758a9f914b8cc5cab7056dfdd7dd9aee2b5a76fdf7",
+        "k": 1850
+      },
+      "forced_continuation_anls_diagnostic": 0.8888888888888888,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "intraofficecorrespondence",
+      "complete_lexical_similarity_to_clean": 0.96,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          687,
+          20252,
+          17611,
+          5487,
+          26465,
+          67783,
+          37439,
+          10150,
+          151645
+        ],
+        "text": "INTRA OFFICE CORRESPONDENCE",
+        "keep_hash": "3c9d642bc976c89a047b79758a9f914b8cc5cab7056dfdd7dd9aee2b5a76fdf7",
+        "k": 1850
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 2245,
+      "target_piece": "inter",
+      "candidate_id": 641,
+      "candidate_piece": "In",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 2.5,
+      "content_priority": 1,
+      "fast_gradient_l1": 16784.326171875,
+      "fast_gradient_l2": 50.87567901611328,
+      "estimated_fast_flip_linf": 0.00014894848767829454,
+      "full_clean_hard_min": 0.3125,
+      "full_probe_hard_min": 0.3125,
+      "full_local_capacity_linf": 0.592156862745098,
+      "full_local_margin_available": true,
+      "reachability_ratio": 3975.5815716911766,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "7cb84ba5a0284e43d6fa23e89e174aaef994ff23b96b03f93d379a6184768bd5",
+      "clean_k": 1850,
+      "forced_continuation": {
+        "tokens": [
+          641,
+          376,
+          17611,
+          5487,
+          26465,
+          67783,
+          37439,
+          10150,
+          151645
+        ],
+        "text": "Intr OFFICE CORRESPONDENCE",
+        "keep_hash": "f3c44b508ee39938ea37ca6bc802d9903d3680412a92e7fc38e43909309b8259",
+        "k": 1850
+      },
+      "forced_continuation_anls_diagnostic": 0.9230769230769231,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "introfficecorrespondence",
+      "complete_lexical_similarity_to_clean": 0.9795918367346939,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          641,
+          376,
+          17611,
+          5487,
+          26465,
+          67783,
+          37439,
+          10150,
+          151645
+        ],
+        "text": "Intr OFFICE CORRESPONDENCE",
+        "keep_hash": "f3c44b508ee39938ea37ca6bc802d9903d3680412a92e7fc38e43909309b8259",
+        "k": 1850
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 43718,
+      "target_piece": " correspondence",
+      "candidate_id": 1829,
+      "candidate_piece": " cor",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 6.75,
+      "content_priority": 1,
+      "fast_gradient_l1": 5008.86669921875,
+      "fast_gradient_l2": 14.846556663513184,
+      "estimated_fast_flip_linf": 0.0013476102290869152,
+      "full_clean_hard_min": 0.3125,
+      "full_probe_hard_min": 0.3125,
+      "full_local_capacity_linf": 0.592156862745098,
+      "full_local_margin_available": true,
+      "reachability_ratio": 439.4125615581881,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "7cb84ba5a0284e43d6fa23e89e174aaef994ff23b96b03f93d379a6184768bd5",
+      "clean_k": 1850,
+      "forced_continuation": {
+        "tokens": [
+          2245,
+          81127,
+          1829,
+          2322,
+          151645
+        ],
+        "text": "inter-office corresponse",
+        "keep_hash": "b39140c185f01e1311442b62ce8750dff430371852d09576d9ec91fbe532ed2c",
+        "k": 1850
+      },
+      "forced_continuation_anls_diagnostic": 0.8461538461538461,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "interofficecorresponse",
+      "complete_lexical_similarity_to_clean": 0.8936170212765957,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          2245,
+          81127,
+          1829,
+          2322,
+          151645
+        ],
+        "text": "inter-office corresponse",
+        "keep_hash": "b39140c185f01e1311442b62ce8750dff430371852d09576d9ec91fbe532ed2c",
+        "k": 1850
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 43718,
+      "target_piece": " correspondence",
+      "candidate_id": 10535,
+      "candidate_piece": " communication",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 7.3125,
+      "content_priority": 1,
+      "fast_gradient_l1": 11102.767578125,
+      "fast_gradient_l2": 31.58678436279297,
+      "estimated_fast_flip_linf": 0.0006586195692691346,
+      "full_clean_hard_min": 0.3125,
+      "full_probe_hard_min": 0.0,
+      "full_local_capacity_linf": 0.00392156862745098,
+      "full_local_margin_available": true,
+      "reachability_ratio": 5.954224275180158,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "7cb84ba5a0284e43d6fa23e89e174aaef994ff23b96b03f93d379a6184768bd5",
+      "clean_k": 1850,
+      "forced_continuation": {
+        "tokens": [
+          2245,
+          81127,
+          10535,
+          151645
+        ],
+        "text": "inter-office communication",
+        "keep_hash": "8fced42a37debaf425426dbd5ed477bea0686ecd57d62f648b1b570a1454fbd8",
+        "k": 1850
+      },
+      "forced_continuation_anls_diagnostic": 0.5384615384615384,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "interofficecommunication",
+      "complete_lexical_similarity_to_clean": 0.6122448979591837,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          2245,
+          81127,
+          10535,
+          151645
+        ],
+        "text": "inter-office communication",
+        "keep_hash": "8fced42a37debaf425426dbd5ed477bea0686ecd57d62f648b1b570a1454fbd8",
+        "k": 1850
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 43718,
+      "target_piece": " correspondence",
+      "candidate_id": 7866,
+      "candidate_piece": " correspond",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 7.375,
+      "content_priority": 1,
+      "fast_gradient_l1": 5453.8095703125,
+      "fast_gradient_l2": 14.650163650512695,
+      "estimated_fast_flip_linf": 0.0013522657703608483,
+      "full_clean_hard_min": 0.3125,
+      "full_probe_hard_min": 0.125,
+      "full_local_capacity_linf": 0.006535947712418301,
+      "full_local_margin_available": true,
+      "reachability_ratio": 4.8333307369558,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "7cb84ba5a0284e43d6fa23e89e174aaef994ff23b96b03f93d379a6184768bd5",
+      "clean_k": 1850,
+      "forced_continuation": {
+        "tokens": [
+          2245,
+          81127,
+          7866,
+          1117,
+          151645
+        ],
+        "text": "inter-office correspondense",
+        "keep_hash": "23394bda28cdd439ccb3146bd38292b55b1fedc5595992ec04857cd51d1c66d8",
+        "k": 1850
+      },
+      "forced_continuation_anls_diagnostic": 0.9615384615384616,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "interofficecorrespondense",
+      "complete_lexical_similarity_to_clean": 0.96,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          2245,
+          81127,
+          7866,
+          1117,
+          151645
+        ],
+        "text": "inter-office correspondense",
+        "keep_hash": "23394bda28cdd439ccb3146bd38292b55b1fedc5595992ec04857cd51d1c66d8",
+        "k": 1850
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 18,
+    "screen_admitted_after_limit": 6,
+    "screen_rejected": 6,
+    "estimated": 6
+  },
+  "rejected_proposals": [
+    {
+      "position": 0,
+      "target_id": 2245,
+      "target_piece": "inter",
+      "candidate_id": 52320,
+      "candidate_piece": "COR",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 2.3125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          52320,
+          67783,
+          37439,
+          10150,
+          151645
+        ],
+        "text": "CORRESPONDENCE",
+        "keep_hash": "18f754a019a158f7d9f8d95af9b7e2753ae3bb3ba98e5b73d921a48cbd3d5a59",
+        "k": 1850
+      },
+      "complete_lexical_key": "correspondence",
+      "complete_lexical_similarity_to_clean": 0.717948717948718,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    },
+    {
+      "position": 0,
+      "target_id": 2245,
+      "target_piece": "inter",
+      "candidate_id": 17,
+      "candidate_piece": "2",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 2.875,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          17,
+          15,
+          17,
+          17,
+          15,
+          18,
+          17,
+          15,
+          151645
+        ],
+        "text": "20220320",
+        "keep_hash": "115de2cf7f7cd3fbf3e92058b35a7eedbf37ce8667696b414f9f80042618629e",
+        "k": 1850
+      },
+      "complete_lexical_key": "20220320",
+      "complete_lexical_similarity_to_clean": 0.0,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 2245,
+      "target_piece": "inter",
+      "candidate_id": 34264,
+      "candidate_piece": "Letter",
+      "candidate_rank_at_position": 8,
+      "clean_fast_gap": 3.125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          34264,
+          151645
+        ],
+        "text": "Letter",
+        "keep_hash": "7f8072ca9b374825827f0ec5f3edf56ad75f26abc5ea96cb3dbaaf7da44574ad",
+        "k": 1850
+      },
+      "complete_lexical_key": "letter",
+      "complete_lexical_similarity_to_clean": 0.1935483870967742,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 1,
+      "target_id": 81127,
+      "target_piece": "-office",
+      "candidate_id": 12462,
+      "candidate_piece": "-off",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 8.3125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          2245,
+          12462,
+          558,
+          43718,
+          151645
+        ],
+        "text": "inter-office correspondence",
+        "keep_hash": "82e39603e01deccbb022ae1981a1c4d7a59ef0b68af7627f2cac5dc0b1c5a619",
+        "k": 1850
+      },
+      "complete_lexical_key": "interofficecorrespondence",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 2,
+      "target_id": 43718,
+      "target_piece": " correspondence",
+      "candidate_id": 18173,
+      "candidate_piece": ".cor",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 8.4375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          2245,
+          81127,
+          18173,
+          6818,
+          763,
+          151645
+        ],
+        "text": "inter-office.correspondence",
+        "keep_hash": "2b57e594b656a048cc97965006e47e86f4c6b6b3d53469c497c3bc494c62b5c5",
+        "k": 1850
+      },
+      "complete_lexical_key": "interofficecorrespondence",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 2,
+      "target_id": 43718,
+      "target_piece": " correspondence",
+      "candidate_id": 45613,
+      "candidate_piece": "-cor",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 8.625,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          2245,
+          81127,
+          45613,
+          6818,
+          763,
+          151645
+        ],
+        "text": "inter-office-correspondence",
+        "keep_hash": "86244c9f084caadd7771c9c2dfab06cecc56dad94b1a4536b054363a323d5965",
+        "k": 1850
+      },
+      "complete_lexical_key": "interofficecorrespondence",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    }
+  ],
+  "candidate_generation_wall_seconds": 73.036,
+  "candidate_generation_protocol": "v29 clean-only cap: at most 24 raw branches and 6 complete continuations"
+}

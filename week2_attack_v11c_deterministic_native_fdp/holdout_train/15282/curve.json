@@ -1,0 +1,258 @@
+[
+  {
+    "step": 0,
+    "png_sha256": "85207daf3f47cdbbcc3d27a484e3df42005b7dc0e19bb618011a2418b8ab372a",
+    "texts": {
+      "full": "LuxSE",
+      "fastv_0.25": "LuxSE",
+      "fastv_0.35": "LuxSE"
+    },
+    "margins": {
+      "0.25": 2.6274497509002686,
+      "0.35": 2.2804322242736816
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "13b22cf86c3214d597e460724d60971af2e604c4eac1cd4311863119c031c095"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "e674f9db90267c0de17f3f1a6d8b7cb3c5c2785651a618ed262ae008b7277cb1"
+      }
+    },
+    "selector": {
+      "step": 0,
+      "nonzero": 0,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 0,
+      "pixel_linf_uint8": 0.0,
+      "margin": 2.453940987586975
+    }
+  },
+  {
+    "step": 10,
+    "png_sha256": "955470ad4805c14b39249fe3957085f701f58e3a9f101a33eee30ace998e7c1e",
+    "texts": {
+      "full": "LuxSE",
+      "fastv_0.25": "BVI",
+      "fastv_0.35": "LuxSE"
+    },
+    "margins": {
+      "0.25": 0.9603157043457031,
+      "0.35": 2.0703532695770264
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "9d542d92115dea12c5c639828b28ad6aed77ba05b6931400fccfd4b29c05be3d"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "57959107406d25569c81ac8b024b9dbc81ed37537e8669da91330ea2c8120978"
+      }
+    },
+    "selector": {
+      "step": 10,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 1.5153344869613647
+    }
+  },
+  {
+    "step": 25,
+    "png_sha256": "6f15f677f18f91d886272006f1dd55a5d62794baee025b8065180aa02683ce4d",
+    "texts": {
+      "full": "LuxSE",
+      "fastv_0.25": "LSX",
+      "fastv_0.35": "BSE"
+    },
+    "margins": {
+      "0.25": 2.545048236846924,
+      "0.35": -0.015320142731070518
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "4388f48b6df2016c001f40b620da3949b45ec462a973ffdf3cc4a6d22337dcc7"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "cf91a94194d5be70c67495564548b609563aa2a4acfedcf7a4ca09d06c677db8"
+      }
+    },
+    "selector": {
+      "step": 25,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 1.2648640470579267
+    }
+  },
+  {
+    "step": 50,
+    "png_sha256": "0e1f16c734ab5a99e58e3a9928061d9f46f59f8e0dd5050e20254a1d32ca2e22",
+    "texts": {
+      "full": "LuxSE",
+      "fastv_0.25": "Luxembourg Stock Exchange",
+      "fastv_0.35": "Euronext"
+    },
+    "margins": {
+      "0.25": 0.21895085275173187,
+      "0.35": 0.6235342025756836
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "680e4e0fb30d7aa4cd7d85cecb07597adc4997d37f6002e44f442d08f34ac729"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "9e5c1d263a64458c4f950b6fd367057aa97835706795a58323628ec84f20eb5c"
+      }
+    },
+    "selector": {
+      "step": 50,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.42124252766370773
+    }
+  },
+  {
+    "step": 75,
+    "png_sha256": "a601bb3c02b1aab6c77abc2e2c38d3f315689b761c42929071acdfe27b69474b",
+    "texts": {
+      "full": "LuxSE",
+      "fastv_0.25": "BSE",
+      "fastv_0.35": "BSE"
+    },
+    "margins": {
+      "0.25": -0.032357536256313324,
+      "0.35": -0.019291242584586143
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "0a287684984b38b56820d7a1e74e4febef61720d416d5f4c1520f6528bfa2873"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "eca2995271f857a3dd7997eae514e57f38fd81c858171c2798cbc09638510520"
+      }
+    },
+    "selector": {
+      "step": 75,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.025824389420449734
+    }
+  },
+  {
+    "step": 100,
+    "png_sha256": "4424838c7da166b3374cf21a9686379bff26487e9dda008bd57f4489ac99433e",
+    "texts": {
+      "full": "LuxSE",
+      "fastv_0.25": "NSX",
+      "fastv_0.35": "Euronext"
+    },
+    "margins": {
+      "0.25": 1.3587560653686523,
+      "0.35": 0.15733051300048828
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "f294f59418571c6947ceea5268a17055a23669a8fd82eaf7aec6f630ee827fe8"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "413c84ad253a4eafab9b34aa36b296adfa3c01b6e7f1143bd1ab6d6aaec42e8b"
+      }
+    },
+    "selector": {
+      "step": 100,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.7580432891845703
+    }
+  },
+  {
+    "step": 150,
+    "png_sha256": "44009265aa4093f02bc1d06a31f59f993472bee406fe5929428415dafd0f91b7",
+    "texts": {
+      "full": "LuxSE",
+      "fastv_0.25": "BVA",
+      "fastv_0.35": "Euronext Luxembourg"
+    },
+    "margins": {
+      "0.25": 0.565665602684021,
+      "0.35": -0.2301914244890213
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "52c80eac5f714260b01c206115f965c018bed2c653b8aa86c8836235a9374957"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "5601dd51be897dd6947ce8c958be7546eb72d07cc0a79510730e06f370345de3"
+      }
+    },
+    "selector": {
+      "step": 150,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.16773708909749985
+    }
+  },
+  {
+    "step": 200,
+    "png_sha256": "5e70cfc7f343662b2341d81287b8ffcfa6a44977de57fc7b2d2a7990f48dba3a",
+    "texts": {
+      "full": "LuxSE",
+      "fastv_0.25": "THE NOMINEES",
+      "fastv_0.35": "EETC"
+    },
+    "margins": {
+      "0.25": 0.5562784075737,
+      "0.35": 0.8007981777191162
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "f23cd4d04949bfe701185fd770994afff7fe884d0c1c120906a5fdb3533df159"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "e3d034d534781daa883a1a9c8d2ff60f2c78f73a439beb91ce86cf7b36cf349d"
+      }
+    },
+    "selector": {
+      "step": 200,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.6785382926464081
+    }
+  }
+]

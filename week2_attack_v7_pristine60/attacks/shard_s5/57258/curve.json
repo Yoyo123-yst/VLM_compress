@@ -1,0 +1,241 @@
+[
+  {
+    "sample_id": "57258",
+    "step": 0,
+    "seed": 3007042234,
+    "pred_full": "Birth Death of the 80's, Fewer Teenagers",
+    "pred_fastv": "Birth Death of the 80's, Fewer Teenagers",
+    "anls_full": 0.5526315789473684,
+    "anls_fastv": 0.5526315789473684,
+    "output_valid": true,
+    "margin": 3.9732143878936768,
+    "L_comp": 3.9732143878936768,
+    "L_soft_full": 0.69140625,
+    "keep_hash": "c23db80e9083c51dd2edb809808aba2722feb2fc736426a677ac2809d37823c1",
+    "k": 1850,
+    "aux_share": 0.40594594594594596,
+    "evidence_share": 0.5940540540540541,
+    "page_keep_counts": [
+      751,
+      1099
+    ],
+    "page_shares": [
+      0.40594594594594596,
+      0.5940540540540541
+    ],
+    "linf": 0.0,
+    "png": "checkpoints/step_000.png",
+    "png_sha256": "d360c272cf5554498c30cd62a41d5b6e57a8c04e708da9768786ed02e41db094",
+    "protected_ok": true,
+    "grad_norm": 16.19136619567871
+  },
+  {
+    "sample_id": "57258",
+    "step": 10,
+    "seed": 3007042234,
+    "pred_full": "Birth Death of the 80's, Fewer Teenagers",
+    "pred_fastv": "Birth Death Deatch of the 80's, Fewer Teenagers",
+    "anls_full": 0.5526315789473684,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": 3.9642858505249023,
+    "L_comp": 3.968750238418579,
+    "L_soft_full": 0.412109375,
+    "keep_hash": "0691c823c4d4fba47eac213e4bc876d0c8afde27076033c7f518819b1e711c90",
+    "k": 1850,
+    "aux_share": 0.3886486486486487,
+    "evidence_share": 0.6113513513513513,
+    "page_keep_counts": [
+      719,
+      1131
+    ],
+    "page_shares": [
+      0.3886486486486487,
+      0.6113513513513513
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_010.png",
+    "png_sha256": "dd1a95ec2ad777755bf898b79d0842040539b359b7f6f58b59f99d4e3ba2a694",
+    "protected_ok": true,
+    "grad_norm": 3.069023847579956
+  },
+  {
+    "sample_id": "57258",
+    "step": 25,
+    "seed": 3007042234,
+    "pred_full": "Birth Death of the 80's, Fewer Teenagers",
+    "pred_fastv": "Birth Deat of the 80's, fewer teenagers",
+    "anls_full": 0.5526315789473684,
+    "anls_fastv": 0.5135135135135135,
+    "output_valid": true,
+    "margin": 3.3526787757873535,
+    "L_comp": 2.8794643878936768,
+    "L_soft_full": 0.275390625,
+    "keep_hash": "d4fe02cc9012cfbb7137f1e565e127b6a2bb257b1220daf0323f146b0cf02a93",
+    "k": 1850,
+    "aux_share": 0.3902702702702703,
+    "evidence_share": 0.6097297297297297,
+    "page_keep_counts": [
+      722,
+      1128
+    ],
+    "page_shares": [
+      0.3902702702702703,
+      0.6097297297297297
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_025.png",
+    "png_sha256": "3336211c625d486fe06d38de4eb1a9dacf4342577934accc2f62e61bd32680cc",
+    "protected_ok": true,
+    "grad_norm": 2.251824378967285
+  },
+  {
+    "sample_id": "57258",
+    "step": 50,
+    "seed": 3007042234,
+    "pred_full": "Birth Death of the 80's, Fewer Teenagers",
+    "pred_fastv": "Birth Deat of the 80's",
+    "anls_full": 0.5526315789473684,
+    "anls_fastv": 0.9130434782608696,
+    "output_valid": true,
+    "margin": 1.7410714626312256,
+    "L_comp": 1.7232143878936768,
+    "L_soft_full": 0.30859375,
+    "keep_hash": "f2bf42653e73c18e1f76f3691c47608cff6ec28215ed43f5197e6d9c83472146",
+    "k": 1850,
+    "aux_share": 0.4,
+    "evidence_share": 0.6,
+    "page_keep_counts": [
+      740,
+      1110
+    ],
+    "page_shares": [
+      0.4,
+      0.6
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_050.png",
+    "png_sha256": "c15cb85f1af9376c0279a283ecb9e55719d186814c718ab5c748b55b5f197727",
+    "protected_ok": true,
+    "grad_norm": 9.045860290527344
+  },
+  {
+    "sample_id": "57258",
+    "step": 75,
+    "seed": 3007042234,
+    "pred_full": "Birth Death of the 80's, Fewer Teenagers",
+    "pred_fastv": "Birth Deat of the 80's",
+    "anls_full": 0.5526315789473684,
+    "anls_fastv": 0.9130434782608696,
+    "output_valid": true,
+    "margin": 1.5848214626312256,
+    "L_comp": 1.5357143878936768,
+    "L_soft_full": 0.30859375,
+    "keep_hash": "11c4c5f06465e58ae0a3186f3b0ddaff037df15b6cd2e7713b984ce2186aa5cc",
+    "k": 1850,
+    "aux_share": 0.39837837837837836,
+    "evidence_share": 0.6016216216216216,
+    "page_keep_counts": [
+      737,
+      1113
+    ],
+    "page_shares": [
+      0.39837837837837836,
+      0.6016216216216216
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_075.png",
+    "png_sha256": "9f55acdb22a5fbbc2b905fac2e75b2e3624abdabc63b923bca22254a792e3d32",
+    "protected_ok": true,
+    "grad_norm": 7.973850250244141
+  },
+  {
+    "sample_id": "57258",
+    "step": 100,
+    "seed": 3007042234,
+    "pred_full": "Birth Death of the 80's, Fewer Teenagers",
+    "pred_fastv": "Birth Deat of the 80's",
+    "anls_full": 0.5526315789473684,
+    "anls_fastv": 0.9130434782608696,
+    "output_valid": true,
+    "margin": 0.470982164144516,
+    "L_comp": 0.4218750298023224,
+    "L_soft_full": 0.30859375,
+    "keep_hash": "faa0bb83ac10441bfc110dc76255e59f607336319c71ce59de4d9ee21d159b1a",
+    "k": 1850,
+    "aux_share": 0.40756756756756757,
+    "evidence_share": 0.5924324324324325,
+    "page_keep_counts": [
+      754,
+      1096
+    ],
+    "page_shares": [
+      0.40756756756756757,
+      0.5924324324324325
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_100.png",
+    "png_sha256": "7e5543bebfd1137d16dc49924703c4d9eba54d3439f2a6d633943b024938d031",
+    "protected_ok": true,
+    "grad_norm": 5.398732662200928
+  },
+  {
+    "sample_id": "57258",
+    "step": 150,
+    "seed": 3007042234,
+    "pred_full": "Birth Death of the 80's, Fewer Teenagers",
+    "pred_fastv": "Birth Death Deat of the 80's",
+    "anls_full": 0.5526315789473684,
+    "anls_fastv": 0.7777777777777778,
+    "output_valid": true,
+    "margin": -0.4720982313156128,
+    "L_comp": -0.3984375298023224,
+    "L_soft_full": 0.21875,
+    "keep_hash": "fc71b37c889f7484b8804dd3766093ed49ad6b6574610c2c2917ba2ec3bffc27",
+    "k": 1850,
+    "aux_share": 0.4205405405405405,
+    "evidence_share": 0.5794594594594594,
+    "page_keep_counts": [
+      778,
+      1072
+    ],
+    "page_shares": [
+      0.4205405405405405,
+      0.5794594594594594
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_150.png",
+    "png_sha256": "6a9d24f854f51bbc942ddf885d809baa7b14ce088f822acfdc6cfe7ee5b93be3",
+    "protected_ok": true,
+    "grad_norm": 6.427786350250244
+  },
+  {
+    "sample_id": "57258",
+    "step": 200,
+    "seed": 3007042234,
+    "pred_full": "Birth Death of the 80's, Fewer Teenagers",
+    "pred_fastv": "Birth Deat of the 80's",
+    "anls_full": 0.5526315789473684,
+    "anls_fastv": 0.9130434782608696,
+    "output_valid": true,
+    "margin": -1.1875,
+    "L_comp": -1.1852679252624512,
+    "L_soft_full": 0.21484375,
+    "keep_hash": "367d40733bdfa86c69b2164ac8a4bd5ca650f6e2dd0b5bd9f205fc5194bfbb2f",
+    "k": 1850,
+    "aux_share": 0.40702702702702703,
+    "evidence_share": 0.592972972972973,
+    "page_keep_counts": [
+      753,
+      1097
+    ],
+    "page_shares": [
+      0.40702702702702703,
+      0.592972972972973
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_200.png",
+    "png_sha256": "6cf403fae58d9f77251e6ebb51c93837556ec861e24e64a2be32d8aa1c624d21",
+    "protected_ok": true
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "status": "EVALUATED_INDEPENDENT_PROCESS",
+  "sample_id": "58647",
+  "method": "native_fdp",
+  "independent_process": true,
+  "png_path": "week2_attack_v29_batch_compare/attacks/native_fdp/58647/accepted_020.png",
+  "png_sha256": "4fe40c4c289500460a5a94224ec7ef2816000e8daa04c23d69bbb991a4744314",
+  "uint8_linf": 8,
+  "clean_full_text": "That cigarette smoking is dangerous to your health",
+  "full_text": "That cigarette smoking is dangerous to your health",
+  "full_text_exact": true,
+  "full_token_exact": true,
+  "same_evaluator_process_repeat_exact": true,
+  "fastv_text": "The use of tobacco products is dangerous to your health",
+  "fastv_anls": 0.6363636363636364,
+  "fastv_valid": true,
+  "k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "29c2125f09df63dc8be88ebfb47fb8605dafb4240c03bcae61c21209a4d96486",
+  "dataset_answers": [
+    "The cigarette smoking is dangerous to your health",
+    "The Cigarette Smoking Is Dangerous to Your Health"
+  ],
+  "target_text": null,
+  "target_hit_normalized_exact": false,
+  "content_status": "PENDING_QUESTION_SPECIFIC_REVIEW",
+  "semantic_review_required": true
+}

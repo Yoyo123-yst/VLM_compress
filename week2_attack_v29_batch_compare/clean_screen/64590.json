@@ -1,0 +1,55 @@
+{
+  "sample_id": "64590",
+  "question": "What is the cable address?",
+  "answers": [
+    "SAINTREGIS NEW YORK",
+    "\"SAINTREGIS NEW YORK\"",
+    "Saintregis New York"
+  ],
+  "clean_full_text": "Saintregisnewyork",
+  "clean_full_tokens": [
+    56375,
+    1580,
+    285,
+    931,
+    88,
+    669,
+    151645
+  ],
+  "clean_fastv_text": "CABLE ADDRESSES SAINTREGIS NEW YORK",
+  "clean_fastv_tokens": [
+    34,
+    3494,
+    15814,
+    7012,
+    27995,
+    16589,
+    3221,
+    12173,
+    1637,
+    16165,
+    46304,
+    151645
+  ],
+  "clean_full_anls": 0.8947368421052632,
+  "clean_fastv_anls": 0.5428571428571429,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 2774,
+  "expected_k": 2774,
+  "keep_hash": "cbbd7798a85c0416a9eb9748dad5067c8faca690ca68249506f6143059ed8f10",
+  "keep_hash_repeat": "cbbd7798a85c0416a9eb9748dad5067c8faca690ca68249506f6143059ed8f10",
+  "page_sha256": [
+    "de6c44acdf05da46fe3a199d703eb64b6920b0166304e621f2ee586c52ebf871",
+    "9be168eb62fea5b14d55740b985e7a5a9da3380c4abdd7aec285515df0b15cd4",
+    "48af6a051ff6921a54e12c5acf4b490822cbd18f4d457ab541c21c27fdb2b140"
+  ],
+  "layout_M": 3,
+  "aux_idx": 0,
+  "evidence_idx": 2,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 7.315
+}

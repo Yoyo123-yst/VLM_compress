@@ -1,0 +1,19 @@
+{
+  "canonical_name": "CANONICAL_STRICT_V7D",
+  "expression": "valid_output AND nonzero_uint8_perturbation AND uint8_linf<=8/255+1e-6 AND Full_generate_text==clean_Full_generate_text AND FastV_ANLS<0.5 AND disk_reload_replay_matches",
+  "full_rule": "exact decoded text equality, not Full ANLS",
+  "fastv_rule": "ANLS<0.5 against the reference answers",
+  "not_used": [
+    "hand_margin",
+    "cone_holds",
+    "appended_eos",
+    "historical_strict_field",
+    "native_margin"
+  ],
+  "native_margin_role": "loss and mechanism statistics only",
+  "historical_counts_not_interchangeable": {
+    "stage1_predicate": "31/60",
+    "v7c_predicate": "45/60"
+  },
+  "tolerance": 1e-06
+}

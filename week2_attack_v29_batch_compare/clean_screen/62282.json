@@ -1,0 +1,43 @@
+{
+  "sample_id": "62282",
+  "question": "What is the name of city?",
+  "answers": [
+    "bloomfield",
+    "Bloomfield"
+  ],
+  "clean_full_text": "Bloomfield",
+  "clean_full_tokens": [
+    33,
+    18474,
+    2566,
+    151645
+  ],
+  "clean_fastv_text": "New York",
+  "clean_fastv_tokens": [
+    3564,
+    4261,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "7b2b79e98b1ded17cbb81f13aaf9a2656bf723b42fce3cc82102764ac7f43d72",
+  "keep_hash_repeat": "7b2b79e98b1ded17cbb81f13aaf9a2656bf723b42fce3cc82102764ac7f43d72",
+  "page_sha256": [
+    "662cac1997f9e85086417179dcad40e275587403c9973e2ac6caa6f1337e9fc2",
+    "5cd3c2e56a0430ea9375b5f506a8cc74860f3c6d3b8e0d22e563846b158748cb",
+    "ddf385636b23db704631d05e23b828649f586698c1d9b6c3b05259d5950382b4",
+    "91349355d34414bad6666f00a8d4b96af725e94bda77014938b32bd1281dd2bc"
+  ],
+  "layout_M": 4,
+  "aux_idx": 1,
+  "evidence_idx": 0,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 7.807
+}

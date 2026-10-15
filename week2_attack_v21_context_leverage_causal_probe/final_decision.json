@@ -1,0 +1,11 @@
+{
+  "status": "NO_GO_CONTEXT_LEVERAGE_LOCAL_CAUSAL_EFFECT",
+  "phase2": "NOT_RUN",
+  "reason": "One-step CONTEXT updates did not lower the S_core hard margin at any nonzero scale after PNG reload.",
+  "clean_core_margin_natural": 6.55,
+  "context_core_margin_natural": {"0.25": 6.55, "0.5": 6.85, "1.0": 6.925, "2.0": 6.8625},
+  "full_exact_on_local_steps": true,
+  "unseen": "NOT_OPENED",
+  "extension": "NOT_JUSTIFIED",
+  "v20_hash_changed": false
+}

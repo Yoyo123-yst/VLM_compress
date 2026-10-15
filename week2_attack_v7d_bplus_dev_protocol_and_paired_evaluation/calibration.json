@@ -1,0 +1,59 @@
+{
+  "chosen": {
+    "sample_id": "51070",
+    "blocked_methods": [],
+    "coefficients": {
+      "lambda_full": 2.6371882367154997,
+      "lambda_gap": 0.913170951688196,
+      "xi": 1.0,
+      "eta": 0.001,
+      "source": "+1/255"
+    },
+    "delta0_grad_l2": {
+      "L_native_soft_anchor": 8.235486030578613,
+      "L_conditional_gap": 13.090522766113281,
+      "L_FDP": 10.143707275390625,
+      "L_compressed": 20.489452362060547
+    },
+    "plus_grad_l2": {
+      "L_native_soft_anchor": 7.690011978149414,
+      "L_conditional_gap": 35.56182098388672,
+      "L_FDP": 12.313880920410156,
+      "L_compressed": 32.474021911621094
+    }
+  },
+  "parts": {
+    "L_native_soft_anchor": {
+      "sample_id": "51070",
+      "term": "L_native_soft_anchor",
+      "grad_l2": {
+        "delta0": 8.235486030578613,
+        "plus": 7.690011978149414
+      }
+    },
+    "L_conditional_gap": {
+      "sample_id": "51070",
+      "term": "L_conditional_gap",
+      "grad_l2": {
+        "delta0": 13.090522766113281,
+        "plus": 35.56182098388672
+      }
+    },
+    "L_FDP": {
+      "sample_id": "51070",
+      "term": "L_FDP",
+      "grad_l2": {
+        "delta0": 10.143707275390625,
+        "plus": 12.313880920410156
+      }
+    },
+    "L_compressed": {
+      "sample_id": "51070",
+      "term": "L_compressed",
+      "grad_l2": {
+        "delta0": 20.489452362060547,
+        "plus": 32.474021911621094
+      }
+    }
+  }
+}

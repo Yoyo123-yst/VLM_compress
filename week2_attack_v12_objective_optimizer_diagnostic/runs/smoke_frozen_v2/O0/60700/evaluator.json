@@ -1,0 +1,90 @@
+{
+  "status": "DONE",
+  "sample_id": "60700",
+  "group": "O0",
+  "tag": "smoke_frozen_v2",
+  "step": 3,
+  "png": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v12_objective_optimizer_diagnostic/runs/smoke_frozen_v2/O0/60700/step_003.png",
+  "png_sha256": "bab32f431abc9c8728305e1defc472ad7e03b4d7eb14e1bb788b988c8b0209c3",
+  "full_text": "PPBS",
+  "full_text_replay": "PPBS",
+  "full_text_exact": 1,
+  "full_token_exact": 1,
+  "full_replay": 1,
+  "linf_uint8": 3,
+  "ratios": {
+    "0.15": {
+      "text": "PPBS 14, 1967",
+      "tokens": [
+        4406,
+        7347,
+        220,
+        16,
+        19,
+        11,
+        220,
+        16,
+        24,
+        21,
+        22,
+        151645
+      ],
+      "anls": 0.0,
+      "valid": true,
+      "k": 1665,
+      "keep_hash": "faf56a2608b9eaca07893c3462c6a21ba8276c6b37f53cfd90ca7d8be910b2fa",
+      "endpoint_failure": true
+    },
+    "0.25": {
+      "text": "Ppjs 14, 1967",
+      "tokens": [
+        47,
+        79,
+        2519,
+        220,
+        16,
+        19,
+        11,
+        220,
+        16,
+        24,
+        21,
+        22,
+        151645
+      ],
+      "anls": 0.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "cbd395b33d01c9a44457d73bf02aa909606c4f13032517819b481a99feb25e55",
+      "endpoint_failure": true
+    },
+    "0.35": {
+      "text": "Ppjs",
+      "tokens": [
+        47,
+        79,
+        2519,
+        151645
+      ],
+      "anls": 0.75,
+      "valid": true,
+      "k": 3884,
+      "keep_hash": "51bec5579824466630d80be98ffc6c6dfc7d9d84b6029e2761608f4829b4f695",
+      "endpoint_failure": false
+    },
+    "0.50": {
+      "text": "Ppjs",
+      "tokens": [
+        47,
+        79,
+        2519,
+        151645
+      ],
+      "anls": 0.75,
+      "valid": true,
+      "k": 5548,
+      "keep_hash": "834dfbdbd62e010eb68d6137f328d16ef9e5b8f5f395882cf36545460f3f0c38",
+      "endpoint_failure": false
+    }
+  }
+}

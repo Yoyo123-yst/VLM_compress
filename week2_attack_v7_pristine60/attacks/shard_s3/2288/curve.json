@@ -1,0 +1,241 @@
+[
+  {
+    "sample_id": "2288",
+    "step": 0,
+    "seed": 475822087,
+    "pred_full": "Dr. G. E. Inglett",
+    "pred_fastv": "Dr. George E. Ingelkott",
+    "anls_full": 1.0,
+    "anls_fastv": 0.6190476190476191,
+    "output_valid": true,
+    "margin": 2.319444417953491,
+    "L_comp": 2.3541667461395264,
+    "L_soft_full": 0.69140625,
+    "keep_hash": "d58b93b660c354725ed3d48626176040c09b86f3c16c6693e996891ed0273637",
+    "k": 1850,
+    "aux_share": 0.6686486486486487,
+    "evidence_share": 0.33135135135135135,
+    "page_keep_counts": [
+      613,
+      1237
+    ],
+    "page_shares": [
+      0.33135135135135135,
+      0.6686486486486487
+    ],
+    "linf": 0.0,
+    "png": "checkpoints/step_000.png",
+    "png_sha256": "f1dc229218ed58a3b707bde47ce009b898641edc759d9c30ad2082c62d0f2287",
+    "protected_ok": true,
+    "grad_norm": 52.524818420410156
+  },
+  {
+    "sample_id": "2288",
+    "step": 10,
+    "seed": 475822087,
+    "pred_full": "Dr. G. E. Inglett",
+    "pred_fastv": "Ferzetti E. Ingefi",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -3.2708332538604736,
+    "L_comp": -3.347222328186035,
+    "L_soft_full": 0.53125,
+    "keep_hash": "df1eba8e9a2884eccf32a8b903c052b6ed8b5608521b4eea152b9c4b527bf795",
+    "k": 1850,
+    "aux_share": 0.6556756756756756,
+    "evidence_share": 0.3443243243243243,
+    "page_keep_counts": [
+      637,
+      1213
+    ],
+    "page_shares": [
+      0.3443243243243243,
+      0.6556756756756756
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_010.png",
+    "png_sha256": "8760fc1a5fabcf2aa2388b05732516068087e432161bd4626f7feb03b708984c",
+    "protected_ok": true,
+    "grad_norm": 6.6925578117370605
+  },
+  {
+    "sample_id": "2288",
+    "step": 25,
+    "seed": 475822087,
+    "pred_full": "Dr. G. E. Inglett",
+    "pred_fastv": "Ferzetti Ewen",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -6.140625,
+    "L_comp": -6.088541507720947,
+    "L_soft_full": 0.392578125,
+    "keep_hash": "41bc9cdb62c75241e607b8e124c81df80c1dee0775e1032db9a8fd7db19cdfe7",
+    "k": 1850,
+    "aux_share": 0.6556756756756756,
+    "evidence_share": 0.3443243243243243,
+    "page_keep_counts": [
+      637,
+      1213
+    ],
+    "page_shares": [
+      0.3443243243243243,
+      0.6556756756756756
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_025.png",
+    "png_sha256": "8d8c91b198a6e30c5f1066ee8be30d34a90a196a3ba41b41b44b6cca6215c8e2",
+    "protected_ok": true,
+    "grad_norm": 6.188263893127441
+  },
+  {
+    "sample_id": "2288",
+    "step": 50,
+    "seed": 475822087,
+    "pred_full": "Dr. G. E. Inglett",
+    "pred_fastv": "Ferzetti Eugene",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -8.661458015441895,
+    "L_comp": -8.573784828186035,
+    "L_soft_full": 0.271484375,
+    "keep_hash": "ae4a089e267102abd42341cf641fb279f67ea62f9e991d48cfbc29d080aef8e3",
+    "k": 1850,
+    "aux_share": 0.6464864864864864,
+    "evidence_share": 0.3535135135135135,
+    "page_keep_counts": [
+      654,
+      1196
+    ],
+    "page_shares": [
+      0.3535135135135135,
+      0.6464864864864864
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_050.png",
+    "png_sha256": "59ab9110550aeec467a79042c87b069eb22e25a6606b767a04b92307e9e240c5",
+    "protected_ok": true,
+    "grad_norm": 3.721113920211792
+  },
+  {
+    "sample_id": "2288",
+    "step": 75,
+    "seed": 475822087,
+    "pred_full": "Dr. G. E. Inglett",
+    "pred_fastv": "Ferzetti Eugene",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -11.52853775024414,
+    "L_comp": -11.665080070495605,
+    "L_soft_full": 0.251953125,
+    "keep_hash": "d1421ee8a25d42893d356384be27bc9637acad0ef5206fa4ea5de955057adc81",
+    "k": 1850,
+    "aux_share": 0.6508108108108108,
+    "evidence_share": 0.3491891891891892,
+    "page_keep_counts": [
+      646,
+      1204
+    ],
+    "page_shares": [
+      0.3491891891891892,
+      0.6508108108108108
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_075.png",
+    "png_sha256": "c7c892c7fb33fe4f49619026d748a14038963c37fafb846aef2390c7069916cf",
+    "protected_ok": true,
+    "grad_norm": 10.508642196655273
+  },
+  {
+    "sample_id": "2288",
+    "step": 100,
+    "seed": 475822087,
+    "pred_full": "Dr. G. E. Inglett",
+    "pred_fastv": "Ferguson Ewen",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -14.16064453125,
+    "L_comp": -14.235894203186035,
+    "L_soft_full": 0.2451171875,
+    "keep_hash": "e42a826ee6ae0dc09bb7e76f18b90dc0e04f8e820a7547c7d4c3d33ccbb22b86",
+    "k": 1850,
+    "aux_share": 0.6518918918918919,
+    "evidence_share": 0.3481081081081081,
+    "page_keep_counts": [
+      644,
+      1206
+    ],
+    "page_shares": [
+      0.3481081081081081,
+      0.6518918918918919
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_100.png",
+    "png_sha256": "22e7b55582ba64d8ecd4440cfce6bcd645aecaa94f3f85033ffaaea10d7ee265",
+    "protected_ok": true,
+    "grad_norm": 6.447822093963623
+  },
+  {
+    "sample_id": "2288",
+    "step": 150,
+    "seed": 475822087,
+    "pred_full": "Dr. G. E. Inglett",
+    "pred_fastv": "Ferguson Ewen",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -14.83506965637207,
+    "L_comp": -14.616971015930176,
+    "L_soft_full": 0.287109375,
+    "keep_hash": "a655cfedaf9a91f5a8d14defd3e1f4fef3d582d2d22f833e4aa8952d83da869d",
+    "k": 1850,
+    "aux_share": 0.6475675675675676,
+    "evidence_share": 0.35243243243243244,
+    "page_keep_counts": [
+      652,
+      1198
+    ],
+    "page_shares": [
+      0.35243243243243244,
+      0.6475675675675676
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_150.png",
+    "png_sha256": "ce59ab1ae5b3a26f735d08f3c63892e42c04bae7fd8eb0f14da23ca6723db055",
+    "protected_ok": true,
+    "grad_norm": 69.95863342285156
+  },
+  {
+    "sample_id": "2288",
+    "step": 200,
+    "seed": 475822087,
+    "pred_full": "Dr. G. E. Inglett",
+    "pred_fastv": "Ferguson Egan",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -15.516276359558105,
+    "L_comp": -15.569010734558105,
+    "L_soft_full": 0.26953125,
+    "keep_hash": "11e2c43da2db02790f18deb0ad02e8bfbb951e8def4f2ae31fe6b65bab578110",
+    "k": 1850,
+    "aux_share": 0.6481081081081081,
+    "evidence_share": 0.3518918918918919,
+    "page_keep_counts": [
+      651,
+      1199
+    ],
+    "page_shares": [
+      0.3518918918918919,
+      0.6481081081081081
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_200.png",
+    "png_sha256": "301212d4d22f00bb2ecc2abebe74208384ea9baaa950e78f3f158a95f6c8a993",
+    "protected_ok": true
+  }
+]

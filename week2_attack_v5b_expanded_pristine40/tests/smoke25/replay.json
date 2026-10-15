@@ -1,0 +1,41 @@
+[
+  {
+    "path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v5b_expanded_pristine40/tests/smoke25/50743/final.png",
+    "ok": true,
+    "pred_full": "10-K",
+    "pred_fastv": "I",
+    "keep_hash": "a3209e7ce9b234c4705f3eeb83c851c82ee7f1f77190b60c67fbb58b59614f16",
+    "k": 3699,
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "linf": 0.03137257695198059,
+    "sample_id": "50743",
+    "kind": "final"
+  },
+  {
+    "path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v5b_expanded_pristine40/tests/smoke25/50743/min_margin.png",
+    "ok": true,
+    "pred_full": "10-K",
+    "pred_fastv": "I",
+    "keep_hash": "a3209e7ce9b234c4705f3eeb83c851c82ee7f1f77190b60c67fbb58b59614f16",
+    "k": 3699,
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "linf": 0.03137257695198059,
+    "sample_id": "50743",
+    "kind": "min_margin"
+  },
+  {
+    "path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v5b_expanded_pristine40/tests/smoke25/50743/random_noise.png",
+    "ok": true,
+    "pred_full": "10-K",
+    "pred_fastv": "10-K",
+    "keep_hash": "2912335ddf03541a234cacd4e69cce2df013ef5fe0864892e44cfaec088f3244",
+    "k": 3699,
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "linf": 0.03137257695198059,
+    "sample_id": "50743",
+    "kind": "random_noise"
+  }
+]

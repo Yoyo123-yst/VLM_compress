@@ -1,0 +1,258 @@
+[
+  {
+    "step": 0,
+    "png_sha256": "aa1a84b5301a417684ccf3395233d774221b13fdbe10e8df00d5dfe1e3dd4169",
+    "texts": {
+      "full": "500 mg",
+      "fastv_0.25": "500 mg",
+      "fastv_0.35": "500 mg"
+    },
+    "margins": {
+      "0.25": 2.2725377082824707,
+      "0.35": 2.9478859901428223
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "374e81b4835f9724887bc073fd02bbf4baa06d7d2c59db8d41848a38388cef3a"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "1e97c441dbde5115d0a61087994ef4eb007e6eccbef6fb9a51f3d230c9fa626e"
+      }
+    },
+    "selector": {
+      "step": 0,
+      "nonzero": 0,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 0,
+      "pixel_linf_uint8": 0.0,
+      "margin": 2.6102118492126465
+    }
+  },
+  {
+    "step": 10,
+    "png_sha256": "2da0ffdf2eaf1abbaad2170679308a5444a9a7ae88d2d444c9693859bdf1ba50",
+    "texts": {
+      "full": "500 mg",
+      "fastv_0.25": "540 mg/day",
+      "fastv_0.35": "500 mg"
+    },
+    "margins": {
+      "0.25": 1.2573063373565674,
+      "0.35": 1.3815319538116455
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "5877d1284ba714a99bb19fb1830af272b9899553ba4dcfa8494ad3c33c815476"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "049987e84f6036aff36ef69141a8d091c365b5fbfb228e6235bb6a85c8b4d4e7"
+      }
+    },
+    "selector": {
+      "step": 10,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 1.3194191455841064
+    }
+  },
+  {
+    "step": 25,
+    "png_sha256": "2d706174b52121b5b1ac9700f87ec3a4463aeff8117d544698031167563ee201",
+    "texts": {
+      "full": "500 mg",
+      "fastv_0.25": "103 + 2.0",
+      "fastv_0.35": "575 mg/day"
+    },
+    "margins": {
+      "0.25": 0.6733006238937378,
+      "0.35": 0.8867100477218628
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "8ea652c311e3e1e0629cf70730879ca30e2cbfc2d14c30e81ea9771b87c0a843"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "1d005feb75c78f8027d9147bce8bec4a9240a0e239a0f939f25f31410eeaab1b"
+      }
+    },
+    "selector": {
+      "step": 25,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.7800053358078003
+    }
+  },
+  {
+    "step": 50,
+    "png_sha256": "7c7b48a6e90092a912a5042b45aa0ca2a482169957181724f23f42babcaeb11f",
+    "texts": {
+      "full": "500 mg",
+      "fastv_0.25": "103 + 2, 1.3 + 0.2",
+      "fastv_0.35": "1000 mg"
+    },
+    "margins": {
+      "0.25": 1.4868744611740112,
+      "0.35": 0.06503121554851532
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "1ab26520a7c7a19ee66ab2e591038ad35f76274dc0c7a62f04d63580cdbfd4b3"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "6217216036077c961f6920e1d3b94cdc63e96e0bec4d9c4d0bd368cbc989e518"
+      }
+    },
+    "selector": {
+      "step": 50,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.7759528383612633
+    }
+  },
+  {
+    "step": 75,
+    "png_sha256": "7c968d2a5ab06a75baf42e777c331210183ad35a346d1bd3e34b7aabae1986ec",
+    "texts": {
+      "full": "500 mg",
+      "fastv_0.25": "103 + 10",
+      "fastv_0.35": "N 237"
+    },
+    "margins": {
+      "0.25": 0.1838362216949463,
+      "0.35": -1.2758210897445679
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "82a61aee91a5aa442ca6dacb33694da2792ca81933f85292436d05d9a87c55f0"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "1bf9c176eb763a20242f24c8a18ff0c2e3e195eb5d0b3650c9656c8225f564ce"
+      }
+    },
+    "selector": {
+      "step": 75,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.5459924340248108
+    }
+  },
+  {
+    "step": 100,
+    "png_sha256": "37d234834a9fb7cc372db30eacad3121097959bfb34ffe0afed8e521bc1c3563",
+    "texts": {
+      "full": "500 mg",
+      "fastv_0.25": "65",
+      "fastv_0.35": "675 mg/day"
+    },
+    "margins": {
+      "0.25": -1.0811729431152344,
+      "0.35": -0.2790098190307617
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "5a1320cc937472c016e65c467476e43d8f90284eeec83f9065cd00b3547a3967"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "27af015d1a94ceb5131bb2eec2689a224f4f61fb3f2621744bf6ad05ff53b22c"
+      }
+    },
+    "selector": {
+      "step": 100,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.680091381072998
+    }
+  },
+  {
+    "step": 150,
+    "png_sha256": "9f826214fd1e80436f6d97214a900472dbe15fda1b16c4b5140adbb6c2154097",
+    "texts": {
+      "full": "500 mg",
+      "fastv_0.25": "N",
+      "fastv_0.35": "1000 mg/day"
+    },
+    "margins": {
+      "0.25": -1.875969409942627,
+      "0.35": -0.16210979223251343
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "b30070169af4739f8104318970b5ef2a92a26d44dcab4e13cb403a402f6e1735"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "32b3f268698d3fc529132331304d83b4bbd8ea031bb97f0539c8607b6550cbab"
+      }
+    },
+    "selector": {
+      "step": 150,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -1.0190396010875702
+    }
+  },
+  {
+    "step": 200,
+    "png_sha256": "70e80dd839b9d4a06da7b2ff815cba1652e9c1a6a3eacfbb67fc8329efbea267",
+    "texts": {
+      "full": "500 mg",
+      "fastv_0.25": "N O INTAKE N U G",
+      "fastv_0.35": "O.552"
+    },
+    "margins": {
+      "0.25": -1.2444318532943726,
+      "0.35": -0.8615660667419434
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "638cb5c97e7c86cf6800bc77ce52a80129f032a267dc6191c5e11f57ea7c5d51"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "9defa960c0716eb5d610629c34577725a68f71f393b656b84d6f6bab4aa14e1e"
+      }
+    },
+    "selector": {
+      "step": 200,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -1.052998960018158
+    }
+  }
+]

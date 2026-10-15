@@ -1,0 +1,130 @@
+{"n": 46, "M": {"3": 8, "4": 30, "2": 8}, "shard": 0}
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.34s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.31s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:00,  1.01it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.48it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.16it/s]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57370", "r": 0.5, "arm": "clean", "M": 3, "aux": 0.309661139149243, "keep": 0.45904298459042986, "anls_c": 1.0, "anls_f": 1.0, "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57370", "r": 0.5, "arm": "dense", "M": 3, "aux": 0.23107426099495312, "keep": 0.5163557718302244, "anls_c": 1.0, "anls_f": 1.0, "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57370", "r": 0.5, "arm": "noise", "M": 3, "aux": 0.30785868781542897, "keep": 0.45985401459854014, "anls_c": 1.0, "anls_f": 1.0, "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"arm": "attack", "sample_id": "57370", "r": 0.5, "step": 0, "soft_share": 0.3542667031288147, "q_star": 0.6666666666666666, "ceiling": 0.6666666666666666, "share_loss": 0.0975937470793724, "full_loss": 0.0, "sec_per_step": 4.630356788635254}
+{"arm": "attack", "sample_id": "57370", "r": 0.5, "step": 50, "soft_share": 0.4130299389362335, "q_star": 0.6666666666666666, "ceiling": 0.6666666666666666, "share_loss": 0.06433159857988358, "full_loss": 4.5872842747485265e-05, "sec_per_step": 3.639873546712539}
+{"arm": "attack", "sample_id": "57370", "r": 0.5, "step": 100, "soft_share": 0.43945470452308655, "q_star": 0.6666666666666666, "ceiling": 0.6666666666666666, "share_loss": 0.05162528529763222, "full_loss": 0.0001483360247220844, "sec_per_step": 3.6451032917098245}
+{"arm": "attack", "sample_id": "57370", "r": 0.5, "step": 150, "soft_share": 0.43715527653694153, "q_star": 0.6666666666666666, "ceiling": 0.6666666666666666, "share_loss": 0.052675485610961914, "full_loss": 4.0932598494691774e-05, "sec_per_step": 3.645804975206489}
+{"arm": "attack", "sample_id": "57370", "r": 0.5, "step": 200, "soft_share": 0.4460809528827667, "q_star": 0.6666666666666666, "ceiling": 0.6666666666666666, "share_loss": 0.048658065497875214, "full_loss": 0.00012016664550174028, "sec_per_step": 3.6464557588396973}
+{"arm": "attack", "sample_id": "57370", "r": 0.5, "step": 250, "soft_share": 0.43157273530960083, "q_star": 0.6666666666666666, "ceiling": 0.6666666666666666, "share_loss": 0.05526916682720184, "full_loss": 9.892445814330131e-05, "sec_per_step": 3.646845017771322}
+{"arm": "attack", "sample_id": "57370", "r": 0.5, "step": 300, "soft_share": 0.4274761974811554, "q_star": 0.6666666666666666, "ceiling": 0.6666666666666666, "share_loss": 0.057212088257074356, "full_loss": 0.00046797937829978764, "sec_per_step": 3.6472752466550302}
+{"arm": "attack", "sample_id": "57370", "r": 0.5, "step": 350, "soft_share": 0.44396311044692993, "q_star": 0.6666666666666666, "ceiling": 0.6666666666666666, "share_loss": 0.0495968833565712, "full_loss": 0.00018796762742567807, "sec_per_step": 3.6474818279940178}
+{"arm": "attack", "sample_id": "57370", "r": 0.5, "step": 399, "soft_share": 0.4447316527366638, "q_star": 0.6666666666666666, "ceiling": 0.6666666666666666, "share_loss": 0.04925515875220299, "full_loss": 6.559965549968183e-05, "sec_per_step": 3.647750795483589}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57370", "r": 0.5, "arm": "attack", "M": 3, "aux": 0.5126171593366979, "keep": 0.30413625304136255, "anls_c": 1.0, "anls_f": 1.0, "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57370", "r": 0.35, "arm": "clean", "M": 3, "aux": 0.29170957775489187, "keep": 0.3092727764260611, "anls_c": 1.0, "anls_f": 1.0, "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57370", "r": 0.35, "arm": "dense", "M": 3, "aux": 0.2059732234809475, "keep": 0.3482022168153555, "anls_c": 1.0, "anls_f": 1.0, "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "57370", "r": 0.35, "arm": "noise", "M": 3, "aux": 0.29145211122554066, "keep": 0.3087320897539876, "anls_c": 1.0, "anls_f": 1.0, "csf": 0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Traceback (most recent call last):
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v3/run_v3.py", line 368, in <module>
+    main()
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v3/run_v3.py", line 356, in main
+    one(
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v3/run_v3.py", line 306, in one
+    page, soft, q_star, _cap = attack(
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v3/run_v3.py", line 195, in attack
+    (LAM * loss_full).backward()
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 1125, in unpack_hook
+    frame.recompute_fn(*args)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 1519, in recompute_fn
+    fn(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v2/run_v2.py", line 162, in run
+    return decoder(
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1845, in _call_impl
+    return inner()
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1793, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 234, in forward
+    hidden_states, _ = self.self_attn(
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 158, in forward
+    query_states, key_states = apply_rotary_pos_emb(query_states, key_states, cos, sin)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 79, in apply_rotary_pos_emb
+    q_embed = (q * cos) + (rotate_half(q) * sin)
+RuntimeError: The size of tensor a (11134) must match the size of tensor b (3921) at non-singleton dimension 2
+Traceback (most recent call last):
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v3/run_v3.py", line 368, in <module>
+    main()
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v3/run_v3.py", line 356, in main
+    one(
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v3/run_v3.py", line 306, in one
+    page, soft, q_star, _cap = attack(
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v3/run_v3.py", line 195, in attack
+    (LAM * loss_full).backward()
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 1125, in unpack_hook
+    frame.recompute_fn(*args)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/utils/checkpoint.py", line 1519, in recompute_fn
+    fn(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v2/run_v2.py", line 162, in run
+    return decoder(
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1845, in _call_impl
+    return inner()
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1793, in inner
+    result = forward_call(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 234, in forward
+    hidden_states, _ = self.self_attn(
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 158, in forward
+    query_states, key_states = apply_rotary_pos_emb(query_states, key_states, cos, sin)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 79, in apply_rotary_pos_emb
+    q_embed = (q * cos) + (rotate_half(q) * sin)
+RuntimeError: The size of tensor a (11134) must match the size of tensor b (3921) at non-singleton dimension 2

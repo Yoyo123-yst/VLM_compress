@@ -1,0 +1,28 @@
+{
+  "decision": "GRAYBOX_TRANSFER_EVALUATED",
+  "baseline": "BASELINE_RECOVERED",
+  "structure_tests": "PASS",
+  "admitted_families": ["BasePreservingAdaptivePool"],
+  "rejected_families": ["BasePreservingJitteredPool"],
+  "clean_conditions": {
+    "BasePreservingAdaptivePool": "15/15",
+    "BasePreservingJitteredPool": "42/45"
+  },
+  "training": "RUN",
+  "sealed_pngs": 4,
+  "no_valid_candidate": ["39204"],
+  "target_fastv": "RUN_AFTER_SEAL",
+  "training_fastv_access_count": 0,
+  "strict": {
+    "0.15": "1/5",
+    "0.25": "1/5",
+    "0.35": "0/5",
+    "0.50": "0/5"
+  },
+  "full_exact": "4/5",
+  "valid": "4/5",
+  "replay": "4/5",
+  "linf_ok": "4/5",
+  "scope": "development transfer, not unseen",
+  "historical_b_and_native_fdp": "not rerun"
+}

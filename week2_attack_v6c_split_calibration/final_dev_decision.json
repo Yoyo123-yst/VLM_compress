@@ -1,0 +1,26 @@
+{
+  "decision": "PASS_V6C_DEV40_AWAITING_PRISTINE60_CONFIRMATION",
+  "selected_variant": "B",
+  "claim_allowed": "source-bounded compression-only attack",
+  "selection_stable_claim": false,
+  "pristine60": "NOT_STARTED",
+  "dev12": {
+    "B": {"strict": "11/12", "full_exact": "12/12", "replay": "12/12", "nonzero": "12/12", "linf": "12/12", "invalid": 0, "pollution": 1, "common_pass": true},
+    "C": {"strict": "10/12", "pollution": 2, "common_pass": false, "selected": false},
+    "A": {"strict": "7/12", "pollution": 1}
+  },
+  "full40_variant_B": {
+    "strict": "38/40",
+    "full_exact": "40/40",
+    "replay": "40/40",
+    "nonzero": "40/40",
+    "linf": "40/40",
+    "invalid": 0,
+    "not_strict_ids": ["47450", "52248"],
+    "noise_strict": "3/40",
+    "attack_only": 35,
+    "noise_only": 0,
+    "mcnemar_two_sided_p": 5.820766091346741e-11,
+    "beats_matched_noise": true
+  }
+}

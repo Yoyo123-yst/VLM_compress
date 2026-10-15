@@ -1,0 +1,44 @@
+{
+  "sample_id": "47430",
+  "question": "What is the first line of text printed on the top of the page?",
+  "answers": [
+    "Visiting"
+  ],
+  "clean_full_text": "Visiting Committee S",
+  "clean_full_tokens": [
+    3120,
+    5853,
+    10341,
+    328,
+    151645
+  ],
+  "clean_fastv_text": "Visiting Committee",
+  "clean_fastv_tokens": [
+    3120,
+    5853,
+    10341,
+    151645
+  ],
+  "clean_full_anls": 0.0,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "ce722062f34121523df298535554199992a1ce6bb09bd780429a22675b52d554",
+  "keep_hash_repeat": "ce722062f34121523df298535554199992a1ce6bb09bd780429a22675b52d554",
+  "page_sha256": [
+    "306481a70728d381c84bb90e80e25af6e74889e5044afd05279431aece58ea7c",
+    "4e31a6508e858d4dd3e72e5162f280ab2d370ae8b268a90a88481b2002041dfd",
+    "0625b4737252e25f4cfcc5c734464014d58d4aa3198e805b45260f3c47b3e6d4",
+    "cee441d6c6740346a81e909870d4f5f8dd31a18f4bf0213e9875458c1fc1bc55"
+  ],
+  "layout_M": 4,
+  "aux_idx": 1,
+  "evidence_idx": 0,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.232
+}

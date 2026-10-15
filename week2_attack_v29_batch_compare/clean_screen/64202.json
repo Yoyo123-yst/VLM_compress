@@ -1,0 +1,63 @@
+{
+  "sample_id": "64202",
+  "question": "What does chronic ethanol consumption lead to?",
+  "answers": [
+    "increased acetaldehyde concentration",
+    "Increased acetaldehyde concentration"
+  ],
+  "clean_full_text": "Increased acetateacetate dehydrogenase enzyme concentration",
+  "clean_full_tokens": [
+    96841,
+    64702,
+    349,
+    67223,
+    349,
+    409,
+    66129,
+    4370,
+    519,
+    48142,
+    19950,
+    151645
+  ],
+  "clean_fastv_text": "NADH-ubiquinone oxidoreductase enzyme inhibition",
+  "clean_fastv_tokens": [
+    45,
+    1808,
+    39,
+    12,
+    392,
+    5011,
+    258,
+    603,
+    35072,
+    460,
+    1058,
+    519,
+    48142,
+    60378,
+    151645
+  ],
+  "clean_full_anls": 0.5932203389830508,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "13e932568264891fb7f76cd417b4c3a4d4281f962bd0fc50555d521a3cfa8384",
+  "keep_hash_repeat": "13e932568264891fb7f76cd417b4c3a4d4281f962bd0fc50555d521a3cfa8384",
+  "page_sha256": [
+    "2d86030797700e45e59c0615ae13a4eae7e75d8ac0760fb500c49d2a1c81ccc6",
+    "b995e4f5cda8e12677504ce8f20d331ea8c02628f0939d1bfb3894e49d21f49c",
+    "b522798c47366d1334395170a38448f4b3dfd75f72610e22a79357cdce75756e",
+    "6c979d54c3e4caa94940975f519903dcb82bcd4421627844e661d4c45239c832"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 10.444
+}

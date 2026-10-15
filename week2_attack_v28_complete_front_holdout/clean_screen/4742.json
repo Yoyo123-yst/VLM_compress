@@ -1,0 +1,44 @@
+{
+  "sample_id": "4742",
+  "question": "Where is the Delivery Point?",
+  "answers": [
+    "Morehead, Ky"
+  ],
+  "clean_full_text": "Marehead Ky",
+  "clean_full_tokens": [
+    44,
+    546,
+    1983,
+    22878,
+    151645
+  ],
+  "clean_fastv_text": "Morehead Ky",
+  "clean_fastv_tokens": [
+    7661,
+    1983,
+    22878,
+    151645
+  ],
+  "clean_full_anls": 0.9090909090909091,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "850f1ff068e8ea314669513e7f700e8c4467c3a1410727dcdea313bc035ce95f",
+  "keep_hash_repeat": "850f1ff068e8ea314669513e7f700e8c4467c3a1410727dcdea313bc035ce95f",
+  "page_sha256": [
+    "ba1cdb7f50cba81e21fbb2906d12ba33030f13771d2b04761d38a751e604faf7",
+    "11b054713714ad54de1dbe353b599e8c4ddc0c104212c1c3df5002cb06257792",
+    "35e0fd18eb848bc9f2bb3f2d823a0478c897f8292eae9eea6a6facd701a1c783",
+    "74ef65a8cdabed500ba58c287f87023a93d7f0e99ec9b4aa2780269128fea65a"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 3,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.46
+}

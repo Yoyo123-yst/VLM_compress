@@ -1,0 +1,525 @@
+{
+  "samples": [
+    {
+      "sample_id": "1025",
+      "admission": "CLEAN_FASTV_CONTENT_WRONG",
+      "methods": {
+        "A": {
+          "status": "NOT_RUN"
+        },
+        "B": {
+          "status": "NOT_RUN"
+        },
+        "C": {
+          "status": "NOT_RUN"
+        },
+        "D": {
+          "status": "NOT_RUN"
+        }
+      },
+      "noise_status": "NOT_RUN",
+      "noise_content_failure_rate": null,
+      "noise_replicates": 0
+    },
+    {
+      "sample_id": "2008",
+      "admission": "CLEAN_FASTV_CONTENT_WRONG",
+      "methods": {
+        "A": {
+          "status": "NOT_RUN"
+        },
+        "B": {
+          "status": "NOT_RUN"
+        },
+        "C": {
+          "status": "NOT_RUN"
+        },
+        "D": {
+          "status": "NOT_RUN"
+        }
+      },
+      "noise_status": "NOT_RUN",
+      "noise_content_failure_rate": null,
+      "noise_replicates": 0
+    },
+    {
+      "sample_id": "7006",
+      "admission": "ADMITTED_CLEAN_CORRECT",
+      "methods": {
+        "A": {
+          "status": "DONE",
+          "selector_checkpoint": 25,
+          "attack_surrogate": 2.0254740715026855,
+          "semantic_status": "ANSWER_PRESERVED",
+          "content_failure": false,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 0.962962962962963,
+          "fastv_text": "RJ Reynolds Tobacco Company",
+          "same_positions_as_noeos": true,
+          "png_sha256": "4ba135b824b737698fc71371e31b27ecc819d40869cf6fb55a6d73151788c7f8",
+          "keep_hash": "48644f6a58178d9ce920e58f97a05cd48e4345b6309ec22c403d02282acf2e12",
+          "keep_jaccard": 0.8719635627530364,
+          "counters": {
+            "forward": 167,
+            "backward": 50,
+            "generate": 103
+          },
+          "accepted": 25,
+          "attempts": 25,
+          "oracle_any_content_failure": false,
+          "first_legal_content_failure": null,
+          "success_lost_after_first_success": false
+        },
+        "B": {
+          "status": "DONE",
+          "selector_checkpoint": 25,
+          "attack_surrogate": 2.029245138168335,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "content_failure": false,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 0.5769230769230769,
+          "fastv_text": "TOBACCO COMPANY",
+          "same_positions_as_noeos": true,
+          "png_sha256": "b6865e213cf125f0923eeb2be45326ac9c945bb89805395a67f16d76caeb24c7",
+          "keep_hash": "b92f203c73da2fee3a5e18beacbfe51cb932289450a0c0430a00740b78232387",
+          "keep_jaccard": 0.8667676003028009,
+          "counters": {
+            "forward": 167,
+            "backward": 50,
+            "generate": 103
+          },
+          "accepted": 25,
+          "attempts": 25,
+          "oracle_any_content_failure": false,
+          "first_legal_content_failure": null,
+          "success_lost_after_first_success": false
+        },
+        "C": {
+          "status": "DONE",
+          "selector_checkpoint": 25,
+          "attack_surrogate": 1.463976263999939,
+          "semantic_status": "ANSWER_PRESERVED",
+          "content_failure": false,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 0.962962962962963,
+          "fastv_text": "RJ Reynolds Tobacco Company",
+          "same_positions_as_noeos": true,
+          "png_sha256": "ae4ad8ce630ede34e50c7e9fe8890af642737887c48525f6b829d7a9dc61a5e1",
+          "keep_hash": "ae3e4e9f6ec950e1b00c61808a21763c6d38089d2beada38c209187f3a71af41",
+          "keep_jaccard": 0.8724373576309795,
+          "counters": {
+            "forward": 167,
+            "backward": 50,
+            "generate": 103
+          },
+          "accepted": 25,
+          "attempts": 25,
+          "oracle_any_content_failure": true,
+          "first_legal_content_failure": 21,
+          "success_lost_after_first_success": true
+        },
+        "D": {
+          "status": "DONE",
+          "selector_checkpoint": 25,
+          "attack_surrogate": 1.463976263999939,
+          "semantic_status": "ANSWER_PRESERVED",
+          "content_failure": false,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 0.962962962962963,
+          "fastv_text": "RJ Reynolds Tobacco Company",
+          "same_positions_as_noeos": true,
+          "png_sha256": "ae4ad8ce630ede34e50c7e9fe8890af642737887c48525f6b829d7a9dc61a5e1",
+          "keep_hash": "ae3e4e9f6ec950e1b00c61808a21763c6d38089d2beada38c209187f3a71af41",
+          "keep_jaccard": 0.8724373576309795,
+          "counters": {
+            "forward": 167,
+            "backward": 50,
+            "generate": 103
+          },
+          "accepted": 25,
+          "attempts": 25,
+          "oracle_any_content_failure": true,
+          "first_legal_content_failure": 21,
+          "success_lost_after_first_success": true
+        }
+      },
+      "noise_status": "MEASURED",
+      "noise_content_failure_rate": 0.0,
+      "noise_replicates": 3
+    },
+    {
+      "sample_id": "39204",
+      "admission": "ADMITTED_CLEAN_CORRECT",
+      "methods": {
+        "A": {
+          "status": "DONE",
+          "selector_checkpoint": 20,
+          "attack_surrogate": 1.5237592458724976,
+          "semantic_status": "ANSWER_PRESERVED",
+          "content_failure": false,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 1.0,
+          "fastv_text": "Food technology",
+          "same_positions_as_noeos": true,
+          "png_sha256": "67f8dcc39e01b68a070ecce47c41320fbcb817b6c8a8ef30f87c064b34d47b9c",
+          "keep_hash": "b8a66c847650825c03fa513e12f250acf63ea811c83d6e5478650065dd4f5b0e",
+          "keep_jaccard": 0.8257650542941757,
+          "counters": {
+            "forward": 167,
+            "backward": 50,
+            "generate": 103
+          },
+          "accepted": 25,
+          "attempts": 25,
+          "oracle_any_content_failure": false,
+          "first_legal_content_failure": null,
+          "success_lost_after_first_success": false
+        },
+        "B": {
+          "status": "DONE",
+          "selector_checkpoint": 25,
+          "attack_surrogate": 3.820786237716675,
+          "semantic_status": "ANSWER_PRESERVED",
+          "content_failure": false,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 1.0,
+          "fastv_text": "food technology",
+          "same_positions_as_noeos": true,
+          "png_sha256": "25baf8140ac364ec3f1f11ad77051f628bd5b5efe9e5ea0321829a8f7b6f0bb5",
+          "keep_hash": "7ba2ebc6236f429d9a963d9347352099a50ea8986007a1dc7a4db995281d6a3e",
+          "keep_jaccard": 0.8159057437407953,
+          "counters": {
+            "forward": 167,
+            "backward": 50,
+            "generate": 103
+          },
+          "accepted": 25,
+          "attempts": 25,
+          "oracle_any_content_failure": false,
+          "first_legal_content_failure": null,
+          "success_lost_after_first_success": false
+        },
+        "C": {
+          "status": "DONE",
+          "selector_checkpoint": 25,
+          "attack_surrogate": 2.417433261871338,
+          "semantic_status": "ANSWER_PRESERVED",
+          "content_failure": false,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 1.0,
+          "fastv_text": "Food Technology",
+          "same_positions_as_noeos": true,
+          "png_sha256": "c69acbf423edc69b33ae0c26f53bd70834a98ad08babebb467abb5d3aa2e8dd5",
+          "keep_hash": "76caab4584810f44de8d5263aedad8c3cd76c5b3cac1700e35b1de33c58b48fc",
+          "keep_jaccard": 0.8132352941176471,
+          "counters": {
+            "forward": 167,
+            "backward": 50,
+            "generate": 103
+          },
+          "accepted": 25,
+          "attempts": 25,
+          "oracle_any_content_failure": false,
+          "first_legal_content_failure": null,
+          "success_lost_after_first_success": false
+        },
+        "D": {
+          "status": "DONE",
+          "selector_checkpoint": 25,
+          "attack_surrogate": 2.417433261871338,
+          "semantic_status": "ANSWER_PRESERVED",
+          "content_failure": false,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 1.0,
+          "fastv_text": "Food Technology",
+          "same_positions_as_noeos": true,
+          "png_sha256": "c69acbf423edc69b33ae0c26f53bd70834a98ad08babebb467abb5d3aa2e8dd5",
+          "keep_hash": "76caab4584810f44de8d5263aedad8c3cd76c5b3cac1700e35b1de33c58b48fc",
+          "keep_jaccard": 0.8132352941176471,
+          "counters": {
+            "forward": 167,
+            "backward": 50,
+            "generate": 103
+          },
+          "accepted": 25,
+          "attempts": 25,
+          "oracle_any_content_failure": false,
+          "first_legal_content_failure": null,
+          "success_lost_after_first_success": false
+        }
+      },
+      "noise_status": "MEASURED",
+      "noise_content_failure_rate": 0.0,
+      "noise_replicates": 3
+    },
+    {
+      "sample_id": "47450",
+      "admission": "ADMITTED_CLEAN_CORRECT",
+      "methods": {
+        "A": {
+          "status": "DONE",
+          "selector_checkpoint": 20,
+          "attack_surrogate": 1.6048414707183838,
+          "semantic_status": "CONTENT_FAILURE",
+          "content_failure": true,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 0.0,
+          "fastv_text": "Nashville, Tenn.",
+          "same_positions_as_noeos": false,
+          "png_sha256": "1394053809c08b0eb7fcd26a8b80d3ef216fbba7fa4364aaa9d07493f8946271",
+          "keep_hash": "a8ebc53c4388d0fba73bd2d37a5a89635e949160d64b2a348e6cfa27104ba4df",
+          "keep_jaccard": 0.8508881661245934,
+          "counters": {
+            "forward": 167,
+            "backward": 50,
+            "generate": 103
+          },
+          "accepted": 25,
+          "attempts": 25,
+          "oracle_any_content_failure": true,
+          "first_legal_content_failure": 11,
+          "success_lost_after_first_success": false
+        },
+        "B": {
+          "status": "DONE",
+          "selector_checkpoint": 25,
+          "attack_surrogate": 1.7380118370056152,
+          "semantic_status": "CONTENT_FAILURE",
+          "content_failure": true,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 0.0,
+          "fastv_text": "THE NUTRITION FOUNDATION, INC.",
+          "same_positions_as_noeos": false,
+          "png_sha256": "01f06f7c7f70666452ea42965f4dc29febba0113768c2c2ac051605c7b804e40",
+          "keep_hash": "9f447a98b6fb23549635c320fa26ff6798f90f366bf37a8b7fb092af78d21ca7",
+          "keep_jaccard": 0.8348214285714286,
+          "counters": {
+            "forward": 167,
+            "backward": 50,
+            "generate": 103
+          },
+          "accepted": 25,
+          "attempts": 25,
+          "oracle_any_content_failure": true,
+          "first_legal_content_failure": 11,
+          "success_lost_after_first_success": false
+        },
+        "C": {
+          "status": "DONE",
+          "selector_checkpoint": 25,
+          "attack_surrogate": 1.9169139862060547,
+          "semantic_status": "CONTENT_FAILURE",
+          "content_failure": true,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 0.0,
+          "fastv_text": "THE NUTRITION FOUNDATION, INC.",
+          "same_positions_as_noeos": false,
+          "png_sha256": "432dec2b8e6ef94fd096bdd54434c9b93a484f0b7608266f7d26f893919b1732",
+          "keep_hash": "4d66e3dd6f4d9552d8fc45f0c53e6fee03419bde890dd3e3839e645a7984f95c",
+          "keep_jaccard": 0.848575712143928,
+          "counters": {
+            "forward": 167,
+            "backward": 50,
+            "generate": 103
+          },
+          "accepted": 25,
+          "attempts": 25,
+          "oracle_any_content_failure": true,
+          "first_legal_content_failure": 12,
+          "success_lost_after_first_success": false
+        },
+        "D": {
+          "status": "DONE",
+          "selector_checkpoint": 25,
+          "attack_surrogate": 1.530564308166504,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "content_failure": false,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 0.9259259259259259,
+          "fastv_text": "Dr. or Mrs. William J. I. Darby",
+          "same_positions_as_noeos": false,
+          "png_sha256": "d2c88820376aec0c44d70341643375259cc747395b5926e7b9fa3863788fffaf",
+          "keep_hash": "ae068dd853c09ddc14a3f37b785e034502e34b2a1b398f5e37624d429a4fdc11",
+          "keep_jaccard": 0.8339117501239465,
+          "counters": {
+            "forward": 167,
+            "backward": 50,
+            "generate": 103
+          },
+          "accepted": 25,
+          "attempts": 25,
+          "oracle_any_content_failure": false,
+          "first_legal_content_failure": null,
+          "success_lost_after_first_success": false
+        }
+      },
+      "noise_status": "MEASURED",
+      "noise_content_failure_rate": 0.0,
+      "noise_replicates": 3
+    },
+    {
+      "sample_id": "60700",
+      "admission": "ADMITTED_CLEAN_CORRECT",
+      "methods": {
+        "A": {
+          "status": "DONE",
+          "selector_checkpoint": 25,
+          "attack_surrogate": -0.02094476856291294,
+          "semantic_status": "ANSWER_PRESERVED_AUGMENTED",
+          "content_failure": false,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 0.0,
+          "fastv_text": "PPBS #6 (14, 15, 16)",
+          "same_positions_as_noeos": true,
+          "png_sha256": "51b6161e3c494d705afe123ded161aecea9c951b1c6a2845a34305dce08600ad",
+          "keep_hash": "b3c98cd71342aa6b43a6ec0599729a5de6ff4fb8ad446264cacf4ab5a4742b13",
+          "keep_jaccard": 0.8444148936170213,
+          "counters": {
+            "forward": 167,
+            "backward": 50,
+            "generate": 103
+          },
+          "accepted": 25,
+          "attempts": 25,
+          "oracle_any_content_failure": false,
+          "first_legal_content_failure": null,
+          "success_lost_after_first_success": false
+        },
+        "B": {
+          "status": "DONE",
+          "selector_checkpoint": 25,
+          "attack_surrogate": -3.2539196014404297,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "content_failure": false,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 0.0,
+          "fastv_text": "PEPS #14, 1967",
+          "same_positions_as_noeos": true,
+          "png_sha256": "dba481a98fa5f025373f5cb0dccd035a93a7f9a79d43694d1e37c60232a666ea",
+          "keep_hash": "886bb1ce17e089cc00b29f6b2da81ec0c5dbd6c7492f667e422de4c6a86714ad",
+          "keep_jaccard": 0.8444148936170213,
+          "counters": {
+            "forward": 167,
+            "backward": 50,
+            "generate": 103
+          },
+          "accepted": 25,
+          "attempts": 25,
+          "oracle_any_content_failure": false,
+          "first_legal_content_failure": null,
+          "success_lost_after_first_success": false
+        },
+        "C": {
+          "status": "DONE",
+          "selector_checkpoint": 15,
+          "attack_surrogate": -1.8595576286315918,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "content_failure": false,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 0.0,
+          "fastv_text": "HEALTH OBJECTIVES",
+          "same_positions_as_noeos": true,
+          "png_sha256": "3538b7b46bd85601c255d3fe82e17faecae21fccac11296c72b08e4e142da423",
+          "keep_hash": "fbf4dd4c9f527dc8179dd6719a89a0718920c67dab59637a6cffdf930a9bafe1",
+          "keep_jaccard": 0.8586264656616416,
+          "counters": {
+            "forward": 230,
+            "backward": 80,
+            "generate": 140
+          },
+          "accepted": 15,
+          "attempts": 40,
+          "oracle_any_content_failure": false,
+          "first_legal_content_failure": null,
+          "success_lost_after_first_success": false
+        },
+        "D": {
+          "status": "DONE",
+          "selector_checkpoint": 15,
+          "attack_surrogate": -1.8595576286315918,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "content_failure": false,
+          "full_text_exact": true,
+          "full_token_exact": true,
+          "full_replay": true,
+          "anls": 0.0,
+          "fastv_text": "HEALTH OBJECTIVES",
+          "same_positions_as_noeos": true,
+          "png_sha256": "3538b7b46bd85601c255d3fe82e17faecae21fccac11296c72b08e4e142da423",
+          "keep_hash": "fbf4dd4c9f527dc8179dd6719a89a0718920c67dab59637a6cffdf930a9bafe1",
+          "keep_jaccard": 0.8586264656616416,
+          "counters": {
+            "forward": 230,
+            "backward": 80,
+            "generate": 140
+          },
+          "accepted": 15,
+          "attempts": 40,
+          "oracle_any_content_failure": false,
+          "first_legal_content_failure": null,
+          "success_lost_after_first_success": false
+        }
+      },
+      "noise_status": "MEASURED",
+      "noise_content_failure_rate": 0.0,
+      "noise_replicates": 3
+    }
+  ],
+  "rates": {
+    "A": {
+      "success": 1,
+      "denominator": 4
+    },
+    "B": {
+      "success": 1,
+      "denominator": 4
+    },
+    "C": {
+      "success": 1,
+      "denominator": 4
+    },
+    "D": {
+      "success": 0,
+      "denominator": 4
+    }
+  },
+  "noise_mean": 0.0,
+  "contrasts": {
+    "B_gt_A": false,
+    "C_gt_B": false,
+    "D_gt_C_on_proper_subset": false,
+    "proper_subset_samples": [
+      "47450"
+    ]
+  }
+}

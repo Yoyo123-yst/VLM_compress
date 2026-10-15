@@ -1,0 +1,21 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.19s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.78s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:06<00:02,  2.11s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.69s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:07<00:00,  1.81s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "2008", "step": 0, "exact": true, "objective": -0.1780409997057905}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "2008", "step": 10, "exact": false, "objective": 13.120369098318045}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "2008", "step": 25, "exact": true, "objective": 10.016737846462865}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "2008", "step": 50, "exact": true, "objective": 8.114559220728916}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "2008", "step": 75, "exact": true, "objective": 10.306166453276743}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "2008", "step": 100, "exact": true, "objective": 6.917704442465805}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "2008", "step": 150, "exact": true, "objective": 7.304239749633295}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "2008", "step": 200, "exact": true, "objective": 10.232494537600063}
+{"sample": "2008", "status": "SEALED_CANDIDATE"}

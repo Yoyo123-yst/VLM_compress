@@ -1,0 +1,68 @@
+{
+  "sample_id": "47567",
+  "chosen_step": 200,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "600",
+  "clean_text": "600",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 11.905176162719727,
+  "pollution": 0,
+  "strict_train": 1,
+  "by_ratio": {
+    "0.50": {
+      "text": "600",
+      "anls": 1.0,
+      "margin": 1.4226200580596924,
+      "keep": {
+        "k": 3699,
+        "keep_hash": "8e46b407394fade9055cdebca42826e5be2b0201eecb930ef53bf24d18c1f7be",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 10.482556104660034
+    },
+    "0.35": {
+      "text": "2",
+      "anls": 0.0,
+      "margin": -1.796762466430664,
+      "keep": {
+        "k": 2589,
+        "keep_hash": "ebe234843d2231047c2a2e2d9bc459b3e393c97ad2005640726a7f57057cd16c",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 13.70193862915039
+    },
+    "0.25": {
+      "text": "C10, PROPOSED FOR, YORK, PA",
+      "anls": 0.0,
+      "margin": -0.3494100868701935,
+      "keep": {
+        "k": 1850,
+        "keep_hash": "e0e2f080cf8537779f8155b1dd0d5df4cf46e394c3928fa3e5e9c8bd8fe98655",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 12.25458624958992
+    },
+    "0.15": {
+      "text": "2006",
+      "anls": 0.0,
+      "margin": 0.6389989852905273,
+      "keep": {
+        "k": 1110,
+        "keep_hash": "e1ae426d0db2925e9a65e17fa468f3d01a036487e7433c2d34fd355aca4b3d47",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 11.2661771774292
+    }
+  },
+  "selector_margin": -1.0730862766504288
+}

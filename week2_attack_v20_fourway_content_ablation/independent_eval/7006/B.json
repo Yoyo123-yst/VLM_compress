@@ -1,0 +1,2580 @@
+{
+  "sample_id": "7006",
+  "method": "B",
+  "checkpoints": [
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_000.png",
+      "png_sha256": "c3c0eabac78241156d37bd11f9c5c72c8b5a3a13060c3f0ce4f6ad36d4d7fa16",
+      "uint8_linf": 0,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "d841bc6ceb64c43490d8e7cd487b74cf2ba14c824c21f5806e16c26677a6aea6",
+          "keep_jaccard_vs_clean": 0.5998918626655853,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+          "keep_jaccard_vs_clean": 1.0,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "88e3f77de0bf0783e16c9700bc1c23f613e367ae9b8f7cf67a305321abe38c89",
+          "keep_jaccard_vs_clean": 0.7142305464375363,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "745f8756ce8ee5d56b41d6fa3a2ca4179d5bd7e1eeabcbabe60fe1441f7f2ab6",
+          "keep_jaccard_vs_clean": 0.5,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 0
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_001.png",
+      "png_sha256": "09529eb66dc17ac6b3da0e04352c259f4f5d8509012a2be1568a549502f28438",
+      "uint8_linf": 1,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "a2d1dd8b4b35492388bdade196462b7a63b2de295e3b095376677253d1cbe214",
+          "keep_jaccard_vs_clean": 0.5806623931623932,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "556adb14ed828d88e247487abab9e10cbbc72d79fdaf3bf01e36318699a06e4c",
+          "keep_jaccard_vs_clean": 0.9155877783531848,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "b05c133eea5a71b6f7fc2972504084dc0c51b94c6bffc2dc8ee7d8ab35feca25",
+          "keep_jaccard_vs_clean": 0.685909608811242,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "833035311a066475d562a521de3677652d60cf872b995e3e112804a7afaebd6d",
+          "keep_jaccard_vs_clean": 0.4915322580645161,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 1
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_002.png",
+      "png_sha256": "e24669b827c24e17f678f9187b13bdb8bca97f6fc6288dbae043cb150261c010",
+      "uint8_linf": 2,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "05365b9f963e672b9d3a8aa608837a1ae0efd8dbee66d17cdf78a3a3e8a39a02",
+          "keep_jaccard_vs_clean": 0.5781333333333334,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "37ac768bd27241ec56319cb06b49fcb3f9f96ab0bffc76f17c6b260d5739f42d",
+          "keep_jaccard_vs_clean": 0.9136057941024315,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "ab41adf1c4bf8f4370686550cdf29778328cf6d40a2c84a4eba26d2feb6af7ab",
+          "keep_jaccard_vs_clean": 0.683352294273796,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "f4d67db189de554e0edcac865ae46f7ee95f0888f149a90fdd8365fa1b9f6842",
+          "keep_jaccard_vs_clean": 0.4917327597795403,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 2
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_003.png",
+      "png_sha256": "6fb068489fd6621fc80d807c9f9cabe2047caaa56106bc580a1e124f2351da64",
+      "uint8_linf": 3,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "ea1aa386e08cf708261ed4e662f4f21998799718fa0f11b7dce9eadc047d19da",
+          "keep_jaccard_vs_clean": 0.5789754535752402,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "fcaa6ff33c413cb2354073a72978c63c3d902115aff0bb8a05815ff5f9548777",
+          "keep_jaccard_vs_clean": 0.9037570766855378,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "344bb5b2599be38a88d286257dfc52b11afc82222ba9062f29ea239813f9ad3b",
+          "keep_jaccard_vs_clean": 0.6769928220627125,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "8d090185b3065c501b90b3c5dbd3bbb66c0255ea5f6f92f0e71dba5c9115bc04",
+          "keep_jaccard_vs_clean": 0.4897301651228353,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 3
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_004.png",
+      "png_sha256": "098ade5949fed60e29f579fd5dac2a3c0a0d918f69d73f7f747e756bf7a199c4",
+      "uint8_linf": 4,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "f6be3e81c62ded9e02f35cd77ab5ffea48e6381549b1c3108e66219860b29144",
+          "keep_jaccard_vs_clean": 0.572681371246346,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "208166ef235aef8e1b111c0b687d3e640b8469988d4b0e8f01fc5c8b9d780be3",
+          "keep_jaccard_vs_clean": 0.9027777777777778,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "a05d0b33062d27e11770816c31c4a32a1f1df971611bbba6376bef9c3e67d48d",
+          "keep_jaccard_vs_clean": 0.6763595166163142,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "ec5da372e9bb763fb1476dcd4bddad1b6a3cff28070347a1732d193984274a78",
+          "keep_jaccard_vs_clean": 0.4893302912360757,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 4
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_005.png",
+      "png_sha256": "0257cd54900c39edceba51f3b806fe408f0f85f963c7e9f8de47b205fa7b43e5",
+      "uint8_linf": 5,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "8e167fc1c29f4f1af0a0313774e9dcbda9241378f8fe49a81cd352129707f0ca",
+          "keep_jaccard_vs_clean": 0.5772921108742004,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "aa684a513020b19cb4ee9fe7b22de8c8e95e7f4083a1d32e6b8ca7202fff0d03",
+          "keep_jaccard_vs_clean": 0.897409592203129,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "549f3f56937f9877dcb795bc09a42d7d1d741485bc5f93f95b2ebb7450956350",
+          "keep_jaccard_vs_clean": 0.6769928220627125,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "a03aee23fac1eed8a20c88d9f5c2160f0ab5dd26506df16c0c1e6be1dc20c09b",
+          "keep_jaccard_vs_clean": 0.48713481640310907,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 5
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_006.png",
+      "png_sha256": "906bad7e3ea92052889762cd6f8908896437dc7c3fa7078ee198b973f307c9ae",
+      "uint8_linf": 6,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "ffa7d9bdb7a5d4c664e7492618cfeecb4a2336c04f711796f166ed7db9f147ee",
+          "keep_jaccard_vs_clean": 0.5701777659856726,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "a2083fb09f2374e63388f73b21854c74874e33fb623489731bbe1dbf323d819a",
+          "keep_jaccard_vs_clean": 0.8877264608318448,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "4ce41426b364f8994b6f6606e7974fb0ab30174a26bcd4eae9fe0e3a218ad7a5",
+          "keep_jaccard_vs_clean": 0.6716249293918283,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "a82d59a442e00d1f034295f7c8a4faf87910ba65a1ca14c649276beb9b1e3395",
+          "keep_jaccard_vs_clean": 0.4857410630606507,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 6
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_007.png",
+      "png_sha256": "5346aeb719b2d9b94d62aa0bd815217389d523108798531c97490732599f4da7",
+      "uint8_linf": 7,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "996e6a7dec9043d3ca283966f11b1c3e58c10ca9f6e1b5c6b08f5aaa49dda693",
+          "keep_jaccard_vs_clean": 0.5693450013259083,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "fc329cb65428b3d58dd3a01fa9b8d2fa5222cde9808638db678a59be199b6543",
+          "keep_jaccard_vs_clean": 0.8920716112531969,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "b5e385e464cc9e5cbafb5ddd6eae0be3ab81545e491d36c8451c400d428f7254",
+          "keep_jaccard_vs_clean": 0.6744624669935874,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "c104797f61ce6c0e2416b6da36cd1a5f6c4e857ccddd92d0f85105688e3968b1",
+          "keep_jaccard_vs_clean": 0.48613901165126555,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 7
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_008.png",
+      "png_sha256": "c700d5817a635d6ee850e4b9026f097cff6634a197a9e7a5c61e5180f4204af9",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "c9fb9ec14499b14f11765c32e83265cd7ce95c4d2bd721d6bfbf5766dc886668",
+          "keep_jaccard_vs_clean": 0.5697612732095491,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "9b1aef895a7299abd78f9a1eacbc4b188d086848659a2599cb5f37829e99f6a4",
+          "keep_jaccard_vs_clean": 0.8834012219959266,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "3f5ce5ac6bb56f44b9d30855a2b124140a9b6a9c46b42a0980931d406b1a7042",
+          "keep_jaccard_vs_clean": 0.6738310708898945,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "b15afed4f59d85c1beb7e0c15323140f63079de231582aaa5a59ebe39e40df9a",
+          "keep_jaccard_vs_clean": 0.48633806589874096,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 8
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_009.png",
+      "png_sha256": "413af4e85d800bd790b878fdb784697210242f92008e082ef8295ae6f9b9ce50",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "554e90c9d54e0cda887af5de1f75a1a1e9beb19331a24eff40267151f9c45423",
+          "keep_jaccard_vs_clean": 0.5701777659856726,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "02451db45a8669cb01ac0c03f066e0461244a0ab3ed779b4cc6453426473c97a",
+          "keep_jaccard_vs_clean": 0.8862825089240184,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "6970ec662a92a3e6f05996223acd857f566f0e4cdcdf79b7a72825fa7c83e13a",
+          "keep_jaccard_vs_clean": 0.6722546618948955,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "c233d5b5a345e360eb3757ee216f2618bf529bc1910e07d914235c9d70f36d1e",
+          "keep_jaccard_vs_clean": 0.48713481640310907,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 9
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_010.png",
+      "png_sha256": "0c47f6dcdb22d5e4c7b7148628c349caae8ed1576e7df2a3e5f8392d99ad6dfe",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "7532af7efe47c93cf2fb94e3892a50f7b700291270e04b7284ee2107817ae436",
+          "keep_jaccard_vs_clean": 0.5689289501590669,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "3606612dd47840c462f65b067cd971fe4e9708420edb01439c4fd8f1500f37ad",
+          "keep_jaccard_vs_clean": 0.8762363682475273,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "61c8e35fc4c7fcfd3d1fef0fb0ae928ebd8c74c43986f9dfdcdea18f03df1cf7",
+          "keep_jaccard_vs_clean": 0.6691107351005828,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "99258a8ff0f470d872a438c93c0718e35acf5a1f7b01ebdb590a0faf677bc9e4",
+          "keep_jaccard_vs_clean": 0.4853433275331281,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 10
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_011.png",
+      "png_sha256": "c2fab0b8b9ab59f42350ae5baaf755358513d4a39e1f5eff47a845ee245af3c6",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "88094332b622eb2ff7a64e6d6987e345e0fd13882e2c8cd15156614dbc6d103e",
+          "keep_jaccard_vs_clean": 0.5693450013259083,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "c2426dc2a36c1fb73ca0ed33af6ffeb9792e0f393ebff474c9854e6dad9ed720",
+          "keep_jaccard_vs_clean": 0.8810068649885584,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "02c1b1b3b28fa6b70f15108c136b4f5b411e1e6ac0a434b472736105b2a403c3",
+          "keep_jaccard_vs_clean": 0.6687969924812031,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "c8fb0c312f6c0fe7de70085628b49e08034b815531d23773c4a8d3c1e1885a0d",
+          "keep_jaccard_vs_clean": 0.48494580489763145,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 11
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_012.png",
+      "png_sha256": "59b0a56fb972001943acd7161a8cddbdb1cc5ed1e2eb1b4dc1832bbec6172d79",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "a9a7b70ce8120dbe3ec1dd3123edbe574afcc06a05fb48a81112029825594a4a",
+          "keep_jaccard_vs_clean": 0.5689289501590669,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "36e10be1a7ca19e21919cc74bb0ed4253f9ab46ad50152af4a01981687ec21a5",
+          "keep_jaccard_vs_clean": 0.8757606490872211,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "2d5e027df5cc53e503546cf8eaa4dec877c11f6706dc1e31b2bb8e729e8f5f69",
+          "keep_jaccard_vs_clean": 0.6659786076186902,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "ad5c9e0ec04bfae9cb5419f326a8a209932db26ec1c776da16a545c284da2470",
+          "keep_jaccard_vs_clean": 0.48395292859053224,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 12
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_013.png",
+      "png_sha256": "4aea1291ba7280ca62ce919fcbd329043e7c61039d49efd3b87db0707691ed3b",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "a3f36fd5022b247673c137c9f7f8e158af2b5a4e9323f78441456dd02b87cda5",
+          "keep_jaccard_vs_clean": 0.567682119205298,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "04f92b5752b0af3ba70986d8ff2b64cac37b790447b390931162e932220874bf",
+          "keep_jaccard_vs_clean": 0.8748099341104917,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "90fb3a793d04e734d13d6b5933283ffa28c8d6eecb92ca2946b41774c883fa1c",
+          "keep_jaccard_vs_clean": 0.6666040923596771,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "c83031c64192dd1429d8c5491aae062cb2d0284534f34121278c3351bd66d704",
+          "keep_jaccard_vs_clean": 0.4859400107123728,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 13
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_014.png",
+      "png_sha256": "c9c0285385d45f3f61a8099633133039274b8ec94b0822cfbf802d150f6d87c9",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "fbbbab863791caf42ef01455c9d285c6ec373965d22d7a14d5559725509fcce2",
+          "keep_jaccard_vs_clean": 0.5664372683959767,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "d7623de3e2450ce0e57facb744e9f166745513db16ac0a191ad8a472a0a3afae",
+          "keep_jaccard_vs_clean": 0.8710166919575114,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "851da1c170aa74ba7fff7ad75c8aaf26a7d8a0f12c13590ac0d0d00330c70c43",
+          "keep_jaccard_vs_clean": 0.669424595712674,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "b59d40ba9adaf057f9663116d23f3ce09bf98fafd331c95f8d0e46eac177ec12",
+          "keep_jaccard_vs_clean": 0.4857410630606507,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 14
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_015.png",
+      "png_sha256": "932bbb554969ea3d239c6ad19af24f417cf477e0d24c7af363f031593cb9c13a",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "76d43b313ec345b9d5cf79ceb6339329dd5e95f1e1a737ebfb379d3ed0e30279",
+          "keep_jaccard_vs_clean": 0.5635402906208719,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "a0fabb19db148c6aa31ab38da6fd42fed6bb27647b8f6fe79f1a206788e955bf",
+          "keep_jaccard_vs_clean": 0.8710166919575114,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "9343282eec2aae6e4c14b8bb7f14ec0f923f3afd919ffe7370d4531892077a5a",
+          "keep_jaccard_vs_clean": 0.6662912912912913,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "24414c8442a5b5889fca029c86fc0ed5ef3173ff0bf4787545df2b9697740dd8",
+          "keep_jaccard_vs_clean": 0.48434991974317815,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 15
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_016.png",
+      "png_sha256": "3be43c64998b5b1eb359ce5c4a14929bc1750af6f8ea74af52f499db328dcabb",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "5a32860bfde5db442bc32c54b48ffb0706cc2946d41d5f093734a7bde9890c76",
+          "keep_jaccard_vs_clean": 0.5680975092739798,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "TOBACCO COMPANY",
+          "tokens": [
+            5207,
+            33,
+            1706,
+            8281,
+            65448,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.5769230769230769,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "partial_entity_tobacco_company",
+          "k": 3699,
+          "keep_hash": "0f1349e7604643757dd8f52909cd13bdf866504d62a5e923eaf7da2823384eba",
+          "keep_jaccard_vs_clean": 0.8748099341104917,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "04e5de700dd9ac804a457480b405542f037f77e5e65dafcf665661f047c128da",
+          "keep_jaccard_vs_clean": 0.6684833677880098,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "9c92b7dd69482fabb9ccb982b77ae6d2908df4f1655e74bf4f7a6b316ad7d6fc",
+          "keep_jaccard_vs_clean": 0.48454849498327757,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 16
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_017.png",
+      "png_sha256": "f6be94a29f10ab9a7308423fadb13c48df00609bba713dd578cf6c433e063e64",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "80e7ab6c8768d4df7e22ac579c8506b640920c264efe587d03a61d9964e3899e",
+          "keep_jaccard_vs_clean": 0.5664372683959767,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "ee348694d56d435f25a89dc37cd93a66d32b3680b69b9b95fe958b12058937cf",
+          "keep_jaccard_vs_clean": 0.8834012219959266,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "22d142077fa3c6b19fa0d3cbe58a94b718b6795990ad667d99dfee32252841e3",
+          "keep_jaccard_vs_clean": 0.6738310708898945,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "238f3b8877f16cad21b6b86137a9283a972d4e37fa4bd74f5978fa4c95585457",
+          "keep_jaccard_vs_clean": 0.48415139761936604,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 17
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_018.png",
+      "png_sha256": "fee1f12823a6bcf6d45e34044e3d69fe0e0a9c3e7edc4de929c1faf27c7c30c3",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "da1a47bf88939e1001d7afa12ba5de1490cff594339703d52a30822fce5dff12",
+          "keep_jaccard_vs_clean": 0.5643669045730901,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "9f7ba2cc6b5cd9efee613cd223c573f1de894f29fec818bd53bc9aaa949a48e3",
+          "keep_jaccard_vs_clean": 0.8700707785642062,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "f52ab8ffa445e3ebb8505e98a6bb61e1af93f487678184315b1e62ebf4fae2c5",
+          "keep_jaccard_vs_clean": 0.6684833677880098,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "7af181e5e9ba0fd2712d3c7a5a461ef9fe1bc09816aaf75d1a9b5a338f32067c",
+          "keep_jaccard_vs_clean": 0.4855421686746988,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 18
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_019.png",
+      "png_sha256": "555d5b118b44285a1b601e0d61b6571868d15e0bfd59096708c3e0951364b895",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "e5f952f58245e1d9b823a3713f6e90eedbcd9a21b36ba4724e93e47d29b26c24",
+          "keep_jaccard_vs_clean": 0.5656084656084656,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "3008e2c05f799a213354eccb51bf2f2eba1af6fde6471d1d6e9e98bd65425744",
+          "keep_jaccard_vs_clean": 0.8729113924050633,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "a2a82ce7a0752029d64e3cfc1333ab59abfa5a1fd6fbb9ff129e8e755836373e",
+          "keep_jaccard_vs_clean": 0.665353592196586,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "5b36a8bd3c85cc94f1a5bed56565c7be9446348a296be68d8277ae528137bc16",
+          "keep_jaccard_vs_clean": 0.48335783986098113,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 19
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_020.png",
+      "png_sha256": "414c629d0a41640c3ebdda07f8e5850ae50ef55fb5d13357f1e25b41490df412",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "5dd31feb215baf1ea4ac20ec200feaac09319c8197cf18dcee93649cd56ded46",
+          "keep_jaccard_vs_clean": 0.5660227573432125,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "d1c4baf7a0d80a93019946b1d72d12265b13e4d23a01ad783ee2030a461ff53c",
+          "keep_jaccard_vs_clean": 0.8733856672575335,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "15b3ecdf366be819f2920b23c7e83e7ff30f6080f322ec2412b8df027130ff56",
+          "keep_jaccard_vs_clean": 0.6728848690408894,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "0456480a535060851ec9ca9d122878e86ca383c7b8555737d63546ddcff557a6",
+          "keep_jaccard_vs_clean": 0.48613901165126555,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 20
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_021.png",
+      "png_sha256": "82f134e6eef406c8495166ed0e6979aeb44a41136572e10b9cfc802c33b8c6ee",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "b64a202e30e111ede969944259a99330d1e694525eb1226887ca5347cb576fac",
+          "keep_jaccard_vs_clean": 0.5627145497755479,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 3699,
+          "keep_hash": "9b856d95920606eeb263a0be6da3c6be0dd1d4f0e631b18fae766b36bb9f1aa0",
+          "keep_jaccard_vs_clean": 0.8729113924050633,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "bedf6192c6924b04b47a5cb2b78c670db9f0cdb75d3b6a4ec533f8a3229c6ed6",
+          "keep_jaccard_vs_clean": 0.6722546618948955,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "4b2714cd6a8b371817fbbd85833d366642a335aa02d9f60376d69eecfed57979",
+          "keep_jaccard_vs_clean": 0.4869355487069543,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 21
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_022.png",
+      "png_sha256": "1768a7d1d4b9a59af8c7fd4088a6108b286ebb48772072b34ae8faf7d01eed77",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "c9c9efb0c136f23041e51ab25a37cbf8272ef109a84f141c76da458ff653a62d",
+          "keep_jaccard_vs_clean": 0.5656084656084656,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "TOBACCO COMPANY",
+          "tokens": [
+            5207,
+            33,
+            1706,
+            8281,
+            65448,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.5769230769230769,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "partial_entity_tobacco_company",
+          "k": 3699,
+          "keep_hash": "2a15eef5870dc556f5ac7baa868a52cb8dcbcc2415c9d9761a770cbde31bf4cc",
+          "keep_jaccard_vs_clean": 0.8800508259212199,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "6d53f860b2312d033569ae9f74e30ce4e2f628fab6feac53a8d68827dde97115",
+          "keep_jaccard_vs_clean": 0.6744624669935874,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "899a9b65437c270105a88d4df4b92eeeae916359770faa2c27a4161c71306290",
+          "keep_jaccard_vs_clean": 0.4873341375150784,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 22
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_023.png",
+      "png_sha256": "d048e0457464b5eb6874139a77fa40b8982498ed1c6b2a69b14bba6b01aa76ed",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "6f7ef1f16f50a7ac8fe30929c1319699deb4bd5ac86432863a852f2fbe141678",
+          "keep_jaccard_vs_clean": 0.5627145497755479,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "TOBACCO COMPANY",
+          "tokens": [
+            5207,
+            33,
+            1706,
+            8281,
+            65448,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.5769230769230769,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "partial_entity_tobacco_company",
+          "k": 3699,
+          "keep_hash": "09478f6222426a4586c6ee111ca0c55fa112f0961eb478faa50572547fa5d7f7",
+          "keep_jaccard_vs_clean": 0.8743349379275399,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "851301db5f0f441ec7250a93b66c359acad03cb340e1fccdcef3f3c7f07ac6ea",
+          "keep_jaccard_vs_clean": 0.6697385743840512,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "2d3223b6a0faabab8db1a1f245f4e6f827ea0a1055716bcc5358ac50299f5445",
+          "keep_jaccard_vs_clean": 0.48256513026052106,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 23
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_024.png",
+      "png_sha256": "172611494b8b3dbb1148b7f47983985f7336be545a6fa98baa5a0ce322f471a0",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 2219,
+          "keep_hash": "af1714ab6528b53fad609e73fd0f0d56c2c80e216e91f6734903205db35a6af9",
+          "keep_jaccard_vs_clean": 0.5614775725593667,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "TOBACCO COMPANY",
+          "tokens": [
+            5207,
+            33,
+            1706,
+            8281,
+            65448,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.5769230769230769,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "partial_entity_tobacco_company",
+          "k": 3699,
+          "keep_hash": "3bbee6ad296cf40832df9311a1b3dd4b8367dd5153e1a9899c096335f2051e88",
+          "keep_jaccard_vs_clean": 0.8743349379275399,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "d108d88f3f915564ef37aeb7f30a9bd4613f7449ca85f002fdbfd28984de6333",
+          "keep_jaccard_vs_clean": 0.6672300469483569,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "3c89fda012fb590589a037799957edb367f9e24b413530643690e09bd2762ef4",
+          "keep_jaccard_vs_clean": 0.48256513026052106,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 24
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/7006/B/checkpoints/accepted_025.png",
+      "png_sha256": "b6865e213cf125f0923eeb2be45326ac9c945bb89805395a67f16d76caeb24c7",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "TOBACCO COMPANY",
+          "tokens": [
+            5207,
+            33,
+            1706,
+            8281,
+            65448,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.5769230769230769,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "partial_entity_tobacco_company",
+          "k": 2219,
+          "keep_hash": "563bf7affb26f1e32e88bab99c06cb172c47ef3c460110c3f9a3f0f0d7789e82",
+          "keep_jaccard_vs_clean": 0.5610656818781324,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "TOBACCO COMPANY",
+          "tokens": [
+            5207,
+            33,
+            1706,
+            8281,
+            65448,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.5769230769230769,
+          "semantic_status": "AMBIGUOUS_REQUIRES_REVIEW",
+          "semantic_reason": "partial_entity_tobacco_company",
+          "k": 3699,
+          "keep_hash": "b92f203c73da2fee3a5e18beacbfe51cb932289450a0c0430a00740b78232387",
+          "keep_jaccard_vs_clean": 0.8667676003028009,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 5179,
+          "keep_hash": "b5c70230890e4b5778bbd4a4a4f8c88d7bfe2fe383d01dfadbbc2b3ff4a5c9af",
+          "keep_jaccard_vs_clean": 0.671939736346516,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.962962962962963,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "full_entity",
+          "k": 7398,
+          "keep_hash": "afa825fef971ab21443b45ad5391e444846eaa90f0bb70670e5253e3964cfa1c",
+          "keep_jaccard_vs_clean": 0.48633806589874096,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 25
+    }
+  ]
+}

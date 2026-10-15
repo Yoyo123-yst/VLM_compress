@@ -1,0 +1,27 @@
+{
+  "status": "EVALUATED_INDEPENDENT_PROCESS",
+  "sample_id": "61240",
+  "method": "complete_target",
+  "independent_process": true,
+  "png_path": "week2_attack_v28_complete_front_holdout/attacks/complete_target/61240/accepted_013.png",
+  "png_sha256": "7e5425d9750267c8694cffef8f93a96f26079f7c40cfe82283958a22d0b9a0cb",
+  "uint8_linf": 8,
+  "clean_full_text": "Ruth Shiffrin",
+  "full_text": "Ruth Shiffrin",
+  "full_text_exact": true,
+  "full_token_exact": true,
+  "same_evaluator_process_repeat_exact": true,
+  "fastv_text": "Mary E. Fordman",
+  "fastv_anls": 0.0,
+  "fastv_valid": true,
+  "k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "8058dbf8d3a8d67b055d3c0bd68d73808173d0b17720dbf84b6f1c5f8d227bce",
+  "dataset_answers": [
+    "Mrs. Ruth Shiffrin"
+  ],
+  "target_text": "Mary E. Fordman",
+  "target_hit_normalized_exact": true,
+  "content_status": "PENDING_QUESTION_SPECIFIC_REVIEW",
+  "semantic_review_required": true
+}

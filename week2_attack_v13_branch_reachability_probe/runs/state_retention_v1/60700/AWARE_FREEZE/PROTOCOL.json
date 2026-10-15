@@ -1,0 +1,50 @@
+{
+  "status": "CAUSAL_ABLATION_REGISTERED",
+  "source_tag": "construct_v1r1",
+  "source_screen": "week2_attack_v13_branch_reachability_probe/runs/construct_v1r1/60700/screen.json",
+  "source_screen_sha256": "cb92702c20dab2a7f0968fe9d89021de806419c4a5c38ce2b5ce41ea50cf3fb2",
+  "sample_id": "60700",
+  "ratio": 0.25,
+  "steps": 25,
+  "epsilon_uint8": 8,
+  "choice": {
+    "position": 1,
+    "target_id": 7347,
+    "target_piece": "BS",
+    "candidate_id": 16680,
+    "candidate_piece": "SB",
+    "candidate_rank_at_position": 2,
+    "clean_fast_gap": 7.0625,
+    "content_priority": 1,
+    "fast_gradient_l1": 15491.0478515625,
+    "fast_gradient_l2": 54.539371490478516,
+    "estimated_fast_flip_linf": 0.0004559084748607011,
+    "full_clean_hard_min": 0.25,
+    "full_probe_hard_min": 0.375,
+    "full_local_capacity_linf": 0.06666666666666667,
+    "full_local_margin_available": true,
+    "reachability_ratio": 146.2281803097345,
+    "estimated_feasible_at_eps": true,
+    "clean_keep_hash": "9ee935326eac4dc0687e3d8153e3eb074db87628e98294c48aa4768cc2f3ffdc",
+    "clean_k": 2774,
+    "forced_continuation": {
+      "tokens": [
+        4406,
+        16680,
+        151645
+      ],
+      "text": "PPSB",
+      "keep_hash": "590cf5588688d38c59544d79560e614be45735f77a5bfb3165fd33c5544f0c0a",
+      "k": 2774
+    },
+    "forced_continuation_anls_diagnostic": 0.0,
+    "continuation_lexically_equivalent_to_clean": false,
+    "selection_uses_anls": false
+  },
+  "freeze_rule": "first accepted post-update state with fixed selected-pair gap <= 0.0 and two-call exact Full guard",
+  "freeze_rule_uses_natural_fastv_output": false,
+  "post_freeze_rule": "do not update pixels or Adam; continue recording state steps through 25",
+  "guard": "all pre-freeze updates use the existing two-call real Full exact guard; rejected updates restore delta and Adam state",
+  "endpoint": "unforced saved/reloaded PNG; Full text/token/replay exact plus FastV natural output recorded separately",
+  "stop_rule": "if no legal threshold crossing occurs, record NO_FREEZE_EVENT; if step-25 endpoint is not retained after fresh replay, stop this innovation branch"
+}

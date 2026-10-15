@@ -1,0 +1,7 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.32s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.14it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  2.10it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.59it/s]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "1025", "answer_len_with_eos": 8, "ends_with_eos": true, "k": 2774, "clean_full_match": true, "clean_fastv_match": true, "pred_full": "Dr. C. Baur MD", "pred_fastv": "Dr. C. Baur", "output_valid": true, "keep_match_len": true, "fastv_score_max_abs_diff": 0.0, "aux_grad_comp": 9.458656311035156, "aux_grad_seq": 0.0, "aux_grad_sel": 0.0, "losses_finite": true, "grads_finite": true, "evidence_pixel_grad_l2": 0.0, "aux_embed_grad_l2": 810070.625, "uint8_reload_linf": 0.0}

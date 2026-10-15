@@ -1,0 +1,195 @@
+{
+  "sample_id": "2008",
+  "full_text": "March 1968",
+  "full_tokens": [
+    27523,
+    220,
+    16,
+    24,
+    21,
+    23,
+    151645
+  ],
+  "page_sha256": [
+    "fe5a6c3c88a77ef33b42e1c45d0fe2b28b39f37be8983db7e6d753ceef12f8f4",
+    "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+  ],
+  "rows": [
+    {
+      "family": "SpatialStridedDrop",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.25,
+      "offset": 568826924,
+      "page_in": 3699,
+      "page_out": [
+        965,
+        965
+      ],
+      "page_boundaries": 2,
+      "rule_hash": "38ccc7db3fe291ae8bc0f30359fa10efe156e9b16b2a590c86086d4e8c4cb2b0",
+      "hidden_shape": [
+        1,
+        1961,
+        152128
+      ],
+      "text": "January 1968",
+      "replay_text": "January 1968",
+      "anls": 0.0,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": false
+    },
+    {
+      "family": "SpatialStridedDrop",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.35,
+      "offset": 568826924,
+      "page_in": 3699,
+      "page_out": [
+        1330,
+        1330
+      ],
+      "page_boundaries": 2,
+      "rule_hash": "a6f1c223a4901b86b96adf5b5d7c18a3add8ecaf32f6f5543e128daf60dca6f4",
+      "hidden_shape": [
+        1,
+        2691,
+        152128
+      ],
+      "text": "March 1968",
+      "replay_text": "March 1968",
+      "anls": 1.0,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": true
+    },
+    {
+      "family": "SpatialStridedDrop",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.5,
+      "offset": 568826924,
+      "page_in": 3699,
+      "page_out": [
+        1876,
+        1876
+      ],
+      "page_boundaries": 2,
+      "rule_hash": "1e6b5205a00c64ca1d5f262c16a7b5860098b4c3b4534d4caed428491e439010",
+      "hidden_shape": [
+        1,
+        3783,
+        152128
+      ],
+      "text": "March 1958",
+      "replay_text": "March 1958",
+      "anls": 0.9,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": true
+    },
+    {
+      "family": "LocalSpatialMerge",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.25,
+      "offset": 568826924,
+      "page_in": 3699,
+      "page_out": [
+        999,
+        999
+      ],
+      "page_boundaries": 2,
+      "rule_hash": "85b71b9d588a87707b81ac82a523e7ec32bc33a22dde51bc1ed3fece2552d6cc",
+      "hidden_shape": [
+        1,
+        2029,
+        152128
+      ],
+      "text": "February 23, 1968",
+      "replay_text": "February 23, 1968",
+      "anls": 0.0,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": false
+    },
+    {
+      "family": "LocalSpatialMerge",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.35,
+      "offset": 568826924,
+      "page_in": 3699,
+      "page_out": [
+        1269,
+        1269
+      ],
+      "page_boundaries": 2,
+      "rule_hash": "10b52b3154696d426693c9b64c036d977f099567f157652d106c2d9c19689bab",
+      "hidden_shape": [
+        1,
+        2569,
+        152128
+      ],
+      "text": "March 1968",
+      "replay_text": "March 1968",
+      "anls": 1.0,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": true
+    },
+    {
+      "family": "LocalSpatialMerge",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.5,
+      "offset": 568826924,
+      "page_in": 3699,
+      "page_out": [
+        1890,
+        1890
+      ],
+      "page_boundaries": 2,
+      "rule_hash": "acc30d8162f4512f079d27243668088982324c9bda923b0633518df07f8cdff3",
+      "hidden_shape": [
+        1,
+        3811,
+        152128
+      ],
+      "text": "March 1968",
+      "replay_text": "March 1968",
+      "anls": 1.0,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": true
+    }
+  ],
+  "fastv_access_count": 0,
+  "fastv_modules": []
+}

@@ -1,0 +1,203 @@
+{
+  "sample_id": "1025",
+  "full_text": "Dr. C. Baur MD",
+  "full_tokens": [
+    8847,
+    13,
+    356,
+    13,
+    425,
+    4110,
+    13979,
+    151645
+  ],
+  "page_sha256": [
+    "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+    "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+    "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+  ],
+  "rows": [
+    {
+      "family": "SpatialStridedDrop",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.25,
+      "offset": 3529037869,
+      "page_in": 3699,
+      "page_out": [
+        965,
+        965,
+        965
+      ],
+      "page_boundaries": 3,
+      "rule_hash": "989a8a66ca18293c325afa2a569a9232a99373444cee7020916fb68f12781516",
+      "hidden_shape": [
+        1,
+        2923,
+        152128
+      ],
+      "text": "Dr. MD",
+      "replay_text": "Dr. MD",
+      "anls": 0.0,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": false
+    },
+    {
+      "family": "SpatialStridedDrop",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.35,
+      "offset": 3529037869,
+      "page_in": 3699,
+      "page_out": [
+        1330,
+        1330,
+        1330
+      ],
+      "page_boundaries": 3,
+      "rule_hash": "26a2c53310a86f311e11d723f2d24562de0d136ff696d3909fe390a9aacabc99",
+      "hidden_shape": [
+        1,
+        4018,
+        152128
+      ],
+      "text": "Dr. M.D.",
+      "replay_text": "Dr. M.D.",
+      "anls": 0.0,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": false
+    },
+    {
+      "family": "SpatialStridedDrop",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.5,
+      "offset": 3529037869,
+      "page_in": 3699,
+      "page_out": [
+        1876,
+        1876,
+        1876
+      ],
+      "page_boundaries": 3,
+      "rule_hash": "85d20129146dcbbfcd1391b5ce35b7efb50204d3e5fe24f94f2331410f218100",
+      "hidden_shape": [
+        1,
+        5656,
+        152128
+      ],
+      "text": "Dr. C. Bauernfeind",
+      "replay_text": "Dr. C. Bauernfeind",
+      "anls": 0.5625,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": true
+    },
+    {
+      "family": "LocalSpatialMerge",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.25,
+      "offset": 3529037869,
+      "page_in": 3699,
+      "page_out": [
+        999,
+        999,
+        999
+      ],
+      "page_boundaries": 3,
+      "rule_hash": "2b6b2da0ad024083eac37e6dd2e80b877a36a3422ff113ce36a9907488471896",
+      "hidden_shape": [
+        1,
+        3025,
+        152128
+      ],
+      "text": "Dr. BMD",
+      "replay_text": "Dr. BMD",
+      "anls": 0.0,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": false
+    },
+    {
+      "family": "LocalSpatialMerge",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.35,
+      "offset": 3529037869,
+      "page_in": 3699,
+      "page_out": [
+        1269,
+        1269,
+        1269
+      ],
+      "page_boundaries": 3,
+      "rule_hash": "87bc29c701a05b254cb99f7242809e5e42b8bf9c0d9585af4f636b233651ab29",
+      "hidden_shape": [
+        1,
+        3835,
+        152128
+      ],
+      "text": "Dr. C. Baur",
+      "replay_text": "Dr. C. Baur",
+      "anls": 0.6666666666666667,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": true
+    },
+    {
+      "family": "LocalSpatialMerge",
+      "seed": 2026101115,
+      "step": 0,
+      "retention_ratio": 0.5,
+      "offset": 3529037869,
+      "page_in": 3699,
+      "page_out": [
+        1890,
+        1890,
+        1890
+      ],
+      "page_boundaries": 3,
+      "rule_hash": "6f26945e3700f06d52ba5693f0d72c6432ef63df9e3ec7478cb7cd92f3ed16fc",
+      "hidden_shape": [
+        1,
+        5698,
+        152128
+      ],
+      "text": "Dr. C. Baur MD",
+      "replay_text": "Dr. C. Baur MD",
+      "anls": 0.9166666666666666,
+      "token_count_changed": true,
+      "nonempty": true,
+      "finite": true,
+      "replay_match": true,
+      "full_exact": true,
+      "full_replay_tokens": true,
+      "pass": true
+    }
+  ],
+  "fastv_access_count": 0,
+  "fastv_modules": []
+}

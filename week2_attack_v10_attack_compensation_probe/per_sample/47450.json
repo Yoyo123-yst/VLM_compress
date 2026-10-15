@@ -1,0 +1,802 @@
+{
+  "sample_id": "47450",
+  "clean_text": "Dr. or Mrs. William J. Darby",
+  "attack_chosen": {
+    "step": 75,
+    "nonzero": 1,
+    "output_valid": 1,
+    "linf_ok": 1,
+    "pixel_linf_uint8": 0.03137254901960784,
+    "margin": -0.6244987845420837,
+    "replay": 1
+  },
+  "status": "OK",
+  "comp_chosen": {
+    "step": 0,
+    "nonzero": 1,
+    "output_valid": 1,
+    "linf_ok": 1,
+    "pixel_linf_uint8": 0.03137254901960784,
+    "full_exact": 1,
+    "margin": -0.6244987845420837,
+    "replay": 1
+  },
+  "comp_accepted": 100,
+  "comp_rejected": 0,
+  "attack_ref_margin": -0.6244987845420837,
+  "endpoints": {
+    "CLEAN": {
+      "full_text": "Dr. or Mrs. William J. Darby",
+      "full_tokens": [
+        8847,
+        13,
+        476,
+        17618,
+        13,
+        12375,
+        619,
+        13,
+        15017,
+        1694,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 4.954545497894287,
+      "full_soft": 4.40658712387085,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "tokens": [
+            8847,
+            13,
+            476,
+            17618,
+            13,
+            12375,
+            619,
+            13,
+            15017,
+            1694,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 7398,
+          "keep_hash": "00b4ddfbeb35dc77bce04a72ab19bec2f3edb4e9e8ea9da8ddcacddeae1928f5",
+          "hook_match": 1,
+          "hard": 5.005681991577148,
+          "soft": 4.451128959655762,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "tokens": [
+            8847,
+            13,
+            476,
+            17618,
+            13,
+            12375,
+            619,
+            13,
+            15017,
+            1694,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 5179,
+          "keep_hash": "b2ecfdbd4d10c62b812330e4d10e9b9d5ae04ff427476c9ea44e8dba03608cde",
+          "hook_match": 1,
+          "hard": 4.948863983154297,
+          "soft": 4.419193744659424,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "tokens": [
+            8847,
+            13,
+            476,
+            17618,
+            13,
+            12375,
+            619,
+            13,
+            15017,
+            1694,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 3699,
+          "keep_hash": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+          "hook_match": 1,
+          "hard": 4.977272987365723,
+          "soft": 4.389217376708984,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.15": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "tokens": [
+            8847,
+            13,
+            476,
+            17618,
+            13,
+            12375,
+            619,
+            13,
+            15017,
+            1694,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 2219,
+          "keep_hash": "86ec916f60c3dca5dbf500488cc575fc238749e31bd42aa15ec710cec5f04867",
+          "hook_match": 1,
+          "hard": 4.636363983154297,
+          "soft": 4.018673896789551,
+          "replay": true,
+          "endpoint_failure": false
+        }
+      },
+      "aux_sha256": "7bab8be8ede326621c16376d55769d696a6a969772ab2116685a1628eba55f8d",
+      "other_page_sha256": [
+        "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+        "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+        "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+      ],
+      "norms": {
+        "linf_uint8": 0,
+        "linf": 0.0,
+        "l1": 0.0,
+        "l2": 0.0
+      }
+    },
+    "ATTACK_ONLY": {
+      "full_text": "Dr. or Mrs. William J. Darby",
+      "full_tokens": [
+        8847,
+        13,
+        476,
+        17618,
+        13,
+        12375,
+        619,
+        13,
+        15017,
+        1694,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 2.534090995788574,
+      "full_soft": 1.8443454504013062,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "Dr. or Mrs. C. W. J. Darby",
+          "tokens": [
+            8847,
+            13,
+            476,
+            17618,
+            13,
+            356,
+            13,
+            467,
+            13,
+            619,
+            13,
+            15017,
+            1694,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.72,
+          "k": 7398,
+          "keep_hash": "e6e53f1fbedaa58f8ea53009c8747b8887c84858cd59dae74bfd7eba54634c7b",
+          "hook_match": 1,
+          "hard": 1.5178571939468384,
+          "soft": 0.6299876570701599,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "Walmart",
+          "tokens": [
+            54,
+            26952,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 5179,
+          "keep_hash": "50006dc8f7b54e6aaee16dbe10cd62d55bf072858dbae8f0b26ad2fe446c90cd",
+          "hook_match": 1,
+          "hard": 0.9583333730697632,
+          "soft": -1.3305318355560303,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.25": {
+          "text": "TREASURER",
+          "tokens": [
+            51,
+            787,
+            1911,
+            1511,
+            640,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 3699,
+          "keep_hash": "d4f73727aa488fe91e37f2fdbdc48a78377621c62decac042ea4492c31cc08d0",
+          "hook_match": 1,
+          "hard": 1.7291667461395264,
+          "soft": 0.1655411720275879,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.15": {
+          "text": "Dr. Or Ms. William J Darerey",
+          "tokens": [
+            8847,
+            13,
+            2521,
+            16064,
+            13,
+            12375,
+            619,
+            15017,
+            485,
+            88,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.8461538461538461,
+          "k": 2219,
+          "keep_hash": "56ba8f57fffd8f52021ebb097a0a26a1a97dd168d05f15b179bf0f587557c51e",
+          "hook_match": 1,
+          "hard": 2.954545497894287,
+          "soft": 1.9040594100952148,
+          "replay": true,
+          "endpoint_failure": false
+        }
+      },
+      "aux_sha256": "3bc9142c8e7086a0331de565e17ea68edfcb06a36004635ecca0a0a86e1f5c7d",
+      "other_page_sha256": [
+        "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+        "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+        "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 10376678.0,
+        "l2": 8584.832904605657
+      }
+    },
+    "COMPENSATION_ONLY": {
+      "full_text": "Dr. or Mrs. William J. Darby",
+      "full_tokens": [
+        8847,
+        13,
+        476,
+        17618,
+        13,
+        12375,
+        619,
+        13,
+        15017,
+        1694,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 4.954545497894287,
+      "full_soft": 4.40658712387085,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "tokens": [
+            8847,
+            13,
+            476,
+            17618,
+            13,
+            12375,
+            619,
+            13,
+            15017,
+            1694,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 7398,
+          "keep_hash": "00b4ddfbeb35dc77bce04a72ab19bec2f3edb4e9e8ea9da8ddcacddeae1928f5",
+          "hook_match": 1,
+          "hard": 5.005681991577148,
+          "soft": 4.451128959655762,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "tokens": [
+            8847,
+            13,
+            476,
+            17618,
+            13,
+            12375,
+            619,
+            13,
+            15017,
+            1694,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 5179,
+          "keep_hash": "b2ecfdbd4d10c62b812330e4d10e9b9d5ae04ff427476c9ea44e8dba03608cde",
+          "hook_match": 1,
+          "hard": 4.948863983154297,
+          "soft": 4.419193744659424,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "tokens": [
+            8847,
+            13,
+            476,
+            17618,
+            13,
+            12375,
+            619,
+            13,
+            15017,
+            1694,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 3699,
+          "keep_hash": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+          "hook_match": 1,
+          "hard": 4.977272987365723,
+          "soft": 4.389217376708984,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.15": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "tokens": [
+            8847,
+            13,
+            476,
+            17618,
+            13,
+            12375,
+            619,
+            13,
+            15017,
+            1694,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 2219,
+          "keep_hash": "86ec916f60c3dca5dbf500488cc575fc238749e31bd42aa15ec710cec5f04867",
+          "hook_match": 1,
+          "hard": 4.636363983154297,
+          "soft": 4.018673896789551,
+          "replay": true,
+          "endpoint_failure": false
+        }
+      },
+      "aux_sha256": "7bab8be8ede326621c16376d55769d696a6a969772ab2116685a1628eba55f8d",
+      "other_page_sha256": [
+        "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+        "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+        "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+      ],
+      "norms": {
+        "linf_uint8": 0,
+        "linf": 0.0,
+        "l1": 0.0,
+        "l2": 0.0
+      }
+    },
+    "ATTACK_PLUS_COMPENSATION": {
+      "full_text": "Dr. or Mrs. William J. Darby",
+      "full_tokens": [
+        8847,
+        13,
+        476,
+        17618,
+        13,
+        12375,
+        619,
+        13,
+        15017,
+        1694,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 2.534090995788574,
+      "full_soft": 1.8443454504013062,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "Dr. or Mrs. C. W. J. Darby",
+          "tokens": [
+            8847,
+            13,
+            476,
+            17618,
+            13,
+            356,
+            13,
+            467,
+            13,
+            619,
+            13,
+            15017,
+            1694,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.72,
+          "k": 7398,
+          "keep_hash": "e6e53f1fbedaa58f8ea53009c8747b8887c84858cd59dae74bfd7eba54634c7b",
+          "hook_match": 1,
+          "hard": 1.5178571939468384,
+          "soft": 0.6299876570701599,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "Walmart",
+          "tokens": [
+            54,
+            26952,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 5179,
+          "keep_hash": "50006dc8f7b54e6aaee16dbe10cd62d55bf072858dbae8f0b26ad2fe446c90cd",
+          "hook_match": 1,
+          "hard": 0.9583333730697632,
+          "soft": -1.3305318355560303,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.25": {
+          "text": "TREASURER",
+          "tokens": [
+            51,
+            787,
+            1911,
+            1511,
+            640,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 3699,
+          "keep_hash": "d4f73727aa488fe91e37f2fdbdc48a78377621c62decac042ea4492c31cc08d0",
+          "hook_match": 1,
+          "hard": 1.7291667461395264,
+          "soft": 0.1655411720275879,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.15": {
+          "text": "Dr. Or Ms. William J Darerey",
+          "tokens": [
+            8847,
+            13,
+            2521,
+            16064,
+            13,
+            12375,
+            619,
+            15017,
+            485,
+            88,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.8461538461538461,
+          "k": 2219,
+          "keep_hash": "56ba8f57fffd8f52021ebb097a0a26a1a97dd168d05f15b179bf0f587557c51e",
+          "hook_match": 1,
+          "hard": 2.954545497894287,
+          "soft": 1.9040594100952148,
+          "replay": true,
+          "endpoint_failure": false
+        }
+      },
+      "aux_sha256": "3bc9142c8e7086a0331de565e17ea68edfcb06a36004635ecca0a0a86e1f5c7d",
+      "other_page_sha256": [
+        "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+        "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+        "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 10376678.0,
+        "l2": 8584.832904605657
+      }
+    },
+    "SIGN_FLIP_CONTROL": {
+      "full_text": "Dr. or Mrs. William J. Darby",
+      "full_tokens": [
+        8847,
+        13,
+        476,
+        17618,
+        13,
+        12375,
+        619,
+        13,
+        15017,
+        1694,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 2.534090995788574,
+      "full_soft": 1.8443454504013062,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "Dr. or Mrs. C. W. J. Darby",
+          "tokens": [
+            8847,
+            13,
+            476,
+            17618,
+            13,
+            356,
+            13,
+            467,
+            13,
+            619,
+            13,
+            15017,
+            1694,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.72,
+          "k": 7398,
+          "keep_hash": "e6e53f1fbedaa58f8ea53009c8747b8887c84858cd59dae74bfd7eba54634c7b",
+          "hook_match": 1,
+          "hard": 1.5178571939468384,
+          "soft": 0.6299876570701599,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "Walmart",
+          "tokens": [
+            54,
+            26952,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 5179,
+          "keep_hash": "50006dc8f7b54e6aaee16dbe10cd62d55bf072858dbae8f0b26ad2fe446c90cd",
+          "hook_match": 1,
+          "hard": 0.9583333730697632,
+          "soft": -1.3305318355560303,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.25": {
+          "text": "TREASURER",
+          "tokens": [
+            51,
+            787,
+            1911,
+            1511,
+            640,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 3699,
+          "keep_hash": "d4f73727aa488fe91e37f2fdbdc48a78377621c62decac042ea4492c31cc08d0",
+          "hook_match": 1,
+          "hard": 1.7291667461395264,
+          "soft": 0.1655411720275879,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.15": {
+          "text": "Dr. Or Ms. William J Darerey",
+          "tokens": [
+            8847,
+            13,
+            2521,
+            16064,
+            13,
+            12375,
+            619,
+            15017,
+            485,
+            88,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.8461538461538461,
+          "k": 2219,
+          "keep_hash": "56ba8f57fffd8f52021ebb097a0a26a1a97dd168d05f15b179bf0f587557c51e",
+          "hook_match": 1,
+          "hard": 2.954545497894287,
+          "soft": 1.9040594100952148,
+          "replay": true,
+          "endpoint_failure": false
+        }
+      },
+      "aux_sha256": "3bc9142c8e7086a0331de565e17ea68edfcb06a36004635ecca0a0a86e1f5c7d",
+      "other_page_sha256": [
+        "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+        "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+        "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 10376678.0,
+        "l2": 8584.832904605657
+      }
+    },
+    "ROLL_CONTROL": {
+      "full_text": "Dr. or Mrs. William J. Darby",
+      "full_tokens": [
+        8847,
+        13,
+        476,
+        17618,
+        13,
+        12375,
+        619,
+        13,
+        15017,
+        1694,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 2.534090995788574,
+      "full_soft": 1.8443454504013062,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "Dr. or Mrs. C. W. J. Darby",
+          "tokens": [
+            8847,
+            13,
+            476,
+            17618,
+            13,
+            356,
+            13,
+            467,
+            13,
+            619,
+            13,
+            15017,
+            1694,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.72,
+          "k": 7398,
+          "keep_hash": "e6e53f1fbedaa58f8ea53009c8747b8887c84858cd59dae74bfd7eba54634c7b",
+          "hook_match": 1,
+          "hard": 1.5178571939468384,
+          "soft": 0.6299876570701599,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "Walmart",
+          "tokens": [
+            54,
+            26952,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 5179,
+          "keep_hash": "50006dc8f7b54e6aaee16dbe10cd62d55bf072858dbae8f0b26ad2fe446c90cd",
+          "hook_match": 1,
+          "hard": 0.9583333730697632,
+          "soft": -1.3305318355560303,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.25": {
+          "text": "TREASURER",
+          "tokens": [
+            51,
+            787,
+            1911,
+            1511,
+            640,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 3699,
+          "keep_hash": "d4f73727aa488fe91e37f2fdbdc48a78377621c62decac042ea4492c31cc08d0",
+          "hook_match": 1,
+          "hard": 1.7291667461395264,
+          "soft": 0.1655411720275879,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.15": {
+          "text": "Dr. Or Ms. William J Darerey",
+          "tokens": [
+            8847,
+            13,
+            2521,
+            16064,
+            13,
+            12375,
+            619,
+            15017,
+            485,
+            88,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.8461538461538461,
+          "k": 2219,
+          "keep_hash": "56ba8f57fffd8f52021ebb097a0a26a1a97dd168d05f15b179bf0f587557c51e",
+          "hook_match": 1,
+          "hard": 2.954545497894287,
+          "soft": 1.9040594100952148,
+          "replay": true,
+          "endpoint_failure": false
+        }
+      },
+      "aux_sha256": "3bc9142c8e7086a0331de565e17ea68edfcb06a36004635ecca0a0a86e1f5c7d",
+      "other_page_sha256": [
+        "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+        "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+        "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 10376678.0,
+        "l2": 8584.832904605657
+      }
+    }
+  },
+  "control_norms_not_equalized": true,
+  "counters": {
+    "forward": 11908,
+    "backward": 300,
+    "generate": 1110,
+    "fastv": 1072
+  },
+  "elapsed_sec": 3770.3707216219045,
+  "peak_memory_mib": 30420.60986328125
+}

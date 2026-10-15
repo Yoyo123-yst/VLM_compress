@@ -1,0 +1,29 @@
+{
+  "status": "NO_GO_TARGET_COVERAGE_INSUFFICIENT_FOR_METHOD_VALIDATION",
+  "development_only": true,
+  "ratio": 0.25,
+  "target_generation_complete": true,
+  "valid_target_n": 1,
+  "cohort_n": 6,
+  "minimum_for_comparative_attack_run": 4,
+  "valid_targets": {
+    "52191": {
+      "correct_aliases": ["None", "none"],
+      "clean_fastv_text": "None",
+      "wrong_target_text": "Solar energy",
+      "candidate_index": 3,
+      "semantic_status": "VALID_COMPLETE_WRONG_PRODUCT_LINE",
+      "semantic_review": "The question asks for a product line; the dataset answer is None. Solar energy is a complete product-line-style answer and is clearly distinct.",
+      "candidate_manifest": "candidate_manifest/52191.json",
+      "attack_outcomes_used": false
+    }
+  },
+  "target_unavailable": {
+    "56839": "No candidate is a clearly distinct voucher type; reimbursement and travel-expense wording may be semantically equivalent, while other strings are malformed or incomplete.",
+    "5786": "All numeric candidates fail the generator's frozen Full-feasibility precondition.",
+    "60793": "Feasible candidates are malformed abbreviations; complete alternative titles fail the Full-feasibility precondition.",
+    "234": "Candidates are either semantically equivalent communication types, generic incomplete answers, or spelling variants.",
+    "5525": "Candidates are aliases, abbreviations, or spelling variants of Coca-Cola rather than a clearly different company."
+  },
+  "decision": "Do not launch the three-method attack comparison. One target-valid sample cannot establish a comparative development result. Do not replace target-unavailable samples after candidate review."
+}

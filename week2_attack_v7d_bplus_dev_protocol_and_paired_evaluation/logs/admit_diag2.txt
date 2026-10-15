@@ -1,0 +1,61 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.33it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.51it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  2.29it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.91it/s]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ckpt True
+g0 61.3353271484375
+Traceback (most recent call last):
+  File "<stdin>", line 28, in <module>
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/native_grad.py", line 131, in full_rows
+    return native_rows_from_full_ids(model, inputs, token_ids, pixel_values)
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v7b_native_cache_margin_admission/native_cache_margin.py", line 165, in native_rows_from_full_ids
+    output = model(
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/models/llava_onevision/modeling_llava_onevision.py", line 812, in forward
+    outputs = self.model(
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/models/llava_onevision/modeling_llava_onevision.py", line 575, in forward
+    outputs = self.language_model(
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/utils/generic.py", line 1064, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 384, in forward
+    hidden_states = decoder_layer(
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 249, in forward
+    hidden_states = self.mlp(hidden_states)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 46, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/activations.py", line 99, in forward
+    return nn.functional.silu(input)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/torch/nn/functional.py", line 2380, in silu
+    return torch._C._nn.silu(input)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 404.00 MiB. GPU 0 has a total capacity of 39.49 GiB of which 63.56 MiB is free. Including non-PyTorch memory, this process has 39.42 GiB memory in use. Of the allocated memory 38.84 GiB is allocated by PyTorch, and 81.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

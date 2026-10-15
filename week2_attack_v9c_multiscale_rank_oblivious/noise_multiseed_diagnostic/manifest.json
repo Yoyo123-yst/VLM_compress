@@ -1,0 +1,129 @@
+{
+  "scope": "5-sample development multi-seed noise diagnostic",
+  "model": "/home/yuesiting/autodl-tmp/models/llava-onevision-qwen2-7b-ov-hf",
+  "prompt_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week1_mechanism/run_eval.py",
+  "prompt_sha256": "2ad4c18c09ceda7dcd32f50f48c4b6f39b5436ad88e8a6d5f4fa03716b306ebf",
+  "prompt_wrapper": "historical build_prompt template A, executed from source",
+  "generation": {
+    "do_sample": false,
+    "max_new_tokens": 16,
+    "use_cache": true,
+    "pinpoints": [
+      [
+        768,
+        768
+      ]
+    ],
+    "dtype": "bfloat16",
+    "attn_implementation": "sdpa"
+  },
+  "samples": [
+    "1025",
+    "2008",
+    "7006",
+    "47450",
+    "39204"
+  ],
+  "ratios": [
+    0.15,
+    0.25,
+    0.35,
+    0.5
+  ],
+  "seeds_per_sample": 32,
+  "seed_rule": "BASE_SEED + int(sample_id) * 1000 + seed_index + attempt * 10000000",
+  "base_seed": 2026101122,
+  "noise": "independent uint8 uniform integers in [-8, 8] on the auxiliary page only",
+  "resample_rule": "redraw with the next attempt until max abs uint8 delta is exactly 8 and the delta is nonzero; record attempt count; cap 20",
+  "decision_rule": {
+    "endpoint_failure": "valid and ANLS < 0.5",
+    "induced_random_failure": "clean is not an endpoint failure, Full gate passed, and the random output is an endpoint failure",
+    "wilson": "95 percent Wilson score interval",
+    "supported_only_if": "consistency checks pass and sample 1025 at r=0.25 is an attack induced failure and 0 of 32 Full-gated seeds are induced random failures",
+    "single_attack_is_not_a_significance_test": true,
+    "otherwise_if_consistent": "GRAYBOX_SIGNAL_NOT_ESTABLISHED_ABOVE_RANDOM",
+    "if_inconsistent": "DIAGNOSTIC_INVALID_OR_REPLAY_DIVERGED"
+  },
+  "inputs": {
+    "1025": {
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "M": 3,
+      "clean_full_text": "Dr. C. Baur MD",
+      "baseline_page_sha256": [
+        "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+        "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+        "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+      ],
+      "attack_png_sha256": "60e2e48a9b255721bd7ab78b18bc05fc6cd4f5aed6a1c5a6b7a67293988b4daa",
+      "attack_status": "OK"
+    },
+    "2008": {
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "M": 2,
+      "clean_full_text": "March 1968",
+      "baseline_page_sha256": [
+        "fe5a6c3c88a77ef33b42e1c45d0fe2b28b39f37be8983db7e6d753ceef12f8f4",
+        "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+      ],
+      "attack_png_sha256": "6f8070150d450656ec4b123b60ede8b59b6b3fdca34d36290bba0d92cf811a9b",
+      "attack_status": "OK"
+    },
+    "7006": {
+      "aux_idx": 0,
+      "evidence_idx": 3,
+      "M": 4,
+      "clean_full_text": "RJ Reynolds Tobacco Company",
+      "baseline_page_sha256": [
+        "c3c0eabac78241156d37bd11f9c5c72c8b5a3a13060c3f0ce4f6ad36d4d7fa16",
+        "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+        "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+        "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+      ],
+      "attack_png_sha256": "1af6a0f9581600d4c8f073024a764cb68f8007451ea607f58adeaab8fce5167e",
+      "attack_status": "OK"
+    },
+    "47450": {
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "M": 4,
+      "clean_full_text": "Dr. or Mrs. William J. Darby",
+      "baseline_page_sha256": [
+        "7bab8be8ede326621c16376d55769d696a6a969772ab2116685a1628eba55f8d",
+        "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+        "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+        "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+      ],
+      "attack_png_sha256": "fef49d7ae22ce8a9b8e9143fa108d558add04ae0b0cafb41c3fd68e6eaace7d0",
+      "attack_status": "OK"
+    },
+    "39204": {
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "M": 4,
+      "clean_full_text": "FOOD TECHNOLOGY",
+      "baseline_page_sha256": [
+        "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a",
+        "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+        "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+        "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+      ],
+      "attack_png_sha256": null,
+      "attack_status": "NO_VALID_SEALED_CANDIDATE"
+    }
+  },
+  "full_gate_pass": 160,
+  "full_gate_total": 160,
+  "prepare_script_sha256": "98ba43acc8e2274ca5d79b6e1c4374ece203c19b12df1a71d019bd7097f341d0",
+  "fastv_access_count": 660,
+  "consistency": [],
+  "output_sha256": {
+    "full_gate.jsonl": "67bc22820e61003f92d520434a35e40527763e90ea1b88ec9682ba81b9aafdf8",
+    "clean_baseline.json": "25a3c99f99c238e9f6178ddab66e8d3f068a9b2f8ad1904021a5bb85f4615ff1",
+    "random_records.jsonl": "9fc5f70921e8e12b9478f55caa3c0ae4d3b30b26750faee706a67a657e64242e",
+    "summary.json": "b6be8c33c60be144df4ed95d7567e1d9e6a47f3f195e7757ca8c9c846ef6db11",
+    "final_decision.json": "c83c3f4a055ba644362fd6474cbf814ea5c6c36e518e4fa3509d2b4709989a4e"
+  },
+  "evaluate_script_sha256": "ec65ac44598bb18513d40d05d6e89abcae3d73210fcf199efedfac3f316d5dc5"
+}

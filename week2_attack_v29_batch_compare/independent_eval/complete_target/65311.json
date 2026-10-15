@@ -1,0 +1,28 @@
+{
+  "status": "EVALUATED_INDEPENDENT_PROCESS",
+  "sample_id": "65311",
+  "method": "complete_target",
+  "independent_process": true,
+  "png_path": "week2_attack_v29_batch_compare/attacks/complete_target/65311/accepted_013.png",
+  "png_sha256": "130a9f1142f0bf8bbad1fcbf35e663f6024b4c93485f083905856b871c4c5ecc",
+  "uint8_linf": 8,
+  "clean_full_text": "Barranquilla",
+  "full_text": "Barranquilla",
+  "full_text_exact": true,
+  "full_token_exact": true,
+  "same_evaluator_process_repeat_exact": true,
+  "fastv_text": "Barrqueros",
+  "fastv_anls": 0.0,
+  "fastv_valid": true,
+  "k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "8b6d56ce542c8f60ef768e1386c2876c2d753681e3b7fb8b3a6f50a2f6e32e58",
+  "dataset_answers": [
+    "BARRANQUILLA",
+    "Barranquilla"
+  ],
+  "target_text": "Barquisimeto, Venezuela",
+  "target_hit_normalized_exact": false,
+  "content_status": "PENDING_QUESTION_SPECIFIC_REVIEW",
+  "semantic_review_required": true
+}

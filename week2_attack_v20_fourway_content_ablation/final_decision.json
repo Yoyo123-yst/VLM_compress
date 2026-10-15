@@ -1,0 +1,38 @@
+{
+  "status": "PILOT_SIGNAL_NOT_SUPPORTED",
+  "admitted": [
+    "7006",
+    "39204",
+    "47450",
+    "60700"
+  ],
+  "rates": {
+    "A": {
+      "success": 1,
+      "denominator": 4
+    },
+    "B": {
+      "success": 1,
+      "denominator": 4
+    },
+    "C": {
+      "success": 1,
+      "denominator": 4
+    },
+    "D": {
+      "success": 0,
+      "denominator": 4
+    }
+  },
+  "noise_mean_content_failure": 0.0,
+  "contrasts": {
+    "B_gt_A": false,
+    "C_gt_B": false,
+    "D_gt_C_on_proper_subset": false,
+    "proper_subset_samples": [
+      "47450"
+    ]
+  },
+  "unseen": "NOT_OPENED",
+  "generalization": "NOT_SUPPORTED"
+}

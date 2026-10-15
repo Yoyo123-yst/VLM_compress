@@ -1,0 +1,18 @@
+{
+  "decision": "NO_GO_NO_COMPRESSION_CONDITIONAL_EFFECT",
+  "reason": "Stage I gate D failed: teacher-forced Full hard-margin records disagree with greedy Full text on 8 image conditions. Gates A, B, and C passed. B+ was not built and no new PGD was started.",
+  "cohort": "existing pristine60 Variant B and matched single-noise PNGs",
+  "stages": {
+    "fdp_cpu": "PASS",
+    "fdp_health_1025": "PASS",
+    "stage1": "NO_GO",
+    "stage2_calibration": "NOT_RUN",
+    "stage3_dev12": "NOT_RUN",
+    "stage4_new_pristine": "NOT_RUN",
+    "stage5_attack": "NOT_RUN",
+    "stage6_mechanism": "NOT_RUN"
+  },
+  "raw_immutability": "PASS",
+  "active_R": [0.5, 0.35, 0.25, 0.15],
+  "removed_r": []
+}

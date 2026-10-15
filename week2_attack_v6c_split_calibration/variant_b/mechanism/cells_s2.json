@@ -1,0 +1,122 @@
+{
+  "rows": [
+    {
+      "sample_id": "50779",
+      "step": "150",
+      "pred_CC": "Dr. Darby",
+      "pred_CA": "Dr. Darby",
+      "pred_AC": "Dr Donkey",
+      "pred_AA": "Dr Donkey",
+      "full_clean": "Dr. Darby",
+      "full_selected": "Dr. Darby",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 0.5555555555555556,
+      "anls_AA": 0.5555555555555556,
+      "mechanism": "UNEXPLAINED_OR_INVALID",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 6.04
+    },
+    {
+      "sample_id": "7006",
+      "step": "150",
+      "pred_CC": "RJ Reynolds Tobacco Company",
+      "pred_CA": "RJ Reynolds Tobacco Company",
+      "pred_AC": "Terry Reese, Mary Ann Urey",
+      "pred_AA": "Terry Reese, Mary Ann Urey",
+      "full_clean": "RJ Reynolds Tobacco Company",
+      "full_selected": "RJ Reynolds Tobacco Company",
+      "anls_CC": 0.962962962962963,
+      "anls_CA": 0.962962962962963,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 7.3
+    },
+    {
+      "sample_id": "47567",
+      "step": "200",
+      "pred_CC": "600",
+      "pred_CA": "2006",
+      "pred_AC": "26",
+      "pred_AA": "246",
+      "full_clean": "600",
+      "full_selected": "600",
+      "anls_CC": 1.0,
+      "anls_CA": 0.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "BOTH_INDEPENDENTLY_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 3.58
+    },
+    {
+      "sample_id": "64506",
+      "step": "200",
+      "pred_CC": "E",
+      "pred_CA": "E",
+      "pred_AC": "T2",
+      "pred_AA": "TCLT 2",
+      "full_clean": "E",
+      "full_selected": "E",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 6.57
+    }
+  ],
+  "keeps": [
+    {
+      "sample_id": "50779",
+      "K": 2774,
+      "keep_hash_clean": "3f70ff102105e1aad5366e038afcbd666862dea7e6829801287c57526d56693e",
+      "keep_hash_adv": "c65f9b7d03bdfcec07b4ab3da347baa791ce0fd69e3df76cd1845f458be4b340",
+      "jaccard": 0.869902258173239,
+      "evidence_share_clean": 0.25522710886806055,
+      "evidence_share_adv": 0.2595529920692141,
+      "aux_share_clean": 0.2761355443403028,
+      "aux_share_adv": 0.27000720980533527
+    },
+    {
+      "sample_id": "7006",
+      "K": 3699,
+      "keep_hash_clean": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+      "keep_hash_adv": "7ec023aac0a2fb3419bd642d8848c2f0145c5efe199d0af7e9ec5d95bf747955",
+      "jaccard": 0.8743349379275399,
+      "evidence_share_clean": 0.2865639361989727,
+      "evidence_share_adv": 0.28683427953500945,
+      "aux_share_clean": 0.28602324952689917,
+      "aux_share_adv": 0.2865639361989727
+    },
+    {
+      "sample_id": "47567",
+      "K": 1850,
+      "keep_hash_clean": "14d825573c3f0d3040500bd91d4d529a5fa51ba4b7d9a21c54f296dcf1f5b7db",
+      "keep_hash_adv": "a6b87a8163aba752d30ef600d172cf9a21ffe2d394e91988a0682002f63d3e1a",
+      "jaccard": 0.7209302325581395,
+      "evidence_share_clean": 0.5994594594594594,
+      "evidence_share_adv": 0.5572972972972973,
+      "aux_share_clean": 0.40054054054054056,
+      "aux_share_adv": 0.4427027027027027
+    },
+    {
+      "sample_id": "64506",
+      "K": 3699,
+      "keep_hash_clean": "d555629f324c97af573633ab6e4c3790248b36c0c3f9fb8ade1f5c2fe9c536c1",
+      "keep_hash_adv": "0603107d6a51eab69133fa5de19c1b8f7482be48bcdd7fab740eb1c131f75279",
+      "jaccard": 0.869598180439727,
+      "evidence_share_clean": 0.2725060827250608,
+      "evidence_share_adv": 0.2708840227088402,
+      "aux_share_clean": 0.1924844552581779,
+      "aux_share_adv": 0.1978913219789132
+    }
+  ]
+}

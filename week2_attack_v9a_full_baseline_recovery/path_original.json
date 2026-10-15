@@ -1,0 +1,361 @@
+{
+  "path": "original",
+  "started_utc": "2026-10-11T07:14:05.462745+00:00",
+  "seconds": 52.339,
+  "command": [
+    "/home/yuesiting/autodl-tmp/conda/envs/vattack/bin/python",
+    "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v9a_full_baseline_recovery/audit_one.py",
+    "original"
+  ],
+  "gpu": "CUDA_VISIBLE_DEVICES=0",
+  "versions": {
+    "python": "3.10.21",
+    "torch": "2.6.0+cu124",
+    "transformers": "4.57.0",
+    "cuda": "12.4"
+  },
+  "git": {
+    "commit": "1abc9289f9764573cf70bb9338ecb4bbbb7b1ec6",
+    "status": "M CG-VSF/CGVSF_P0_FROZEN.json\n M CG-VSF/README.md\n M CG-VSF/out/p0a/RUN_LOG.md\n M CG-VSF/scripts/night_watch.py\n M CG-VSF/scripts/run_p0a.py\n M CG-VSF/scripts/run_p0b.py\n M CG-VSF/src/cgvsf/protocol.py\n M CG-VSF/tests/test_cgvsf_cpu.py\n M MSC/scripts/advance_stage.py\n M MSC/scripts/check_g0.py\n M MSC/scripts/night_watch.py\n M MSC/scripts/render_report.py\n M MSC/scripts/run_p00.py\n M MSC/scripts/run_p01.py\n M MSC/tests/test_msc_cpu.py\n M TraceFlip/HANDOFF.md\n M TraceFlip/README.md\n M TraceFlip/TRACEFLIP_FROZEN.json\n M TraceFlip/diag_inmodel_vs_decode.py\n M TraceFlip/out/final_alignment_check.py\n M TraceFlip/out/forensic_paths.py\n M TraceFlip/out/forensic_tpos.py\n M TraceFlip/run_gateflip_probe.py\n M TraceFlip/run_traceflip_persample.py\n M TraceFlip/run_traceflip_pilot.py\n M TraceFlip/run_traceflip_smoke.py\n M V-CachePoll/configs/coco_plus_p0.yaml\n M V-CachePoll/configs/coco_plus_p2.yaml\n M V-CachePoll/configs/coco_plus_p3.yaml\n M V-CachePoll/configs/p0.yaml\n M V-CachePoll/configs/p1.yaml\n M V-CachePoll/configs/p10.yaml\n M V-CachePoll/configs/p11.yaml\n M V-CachePoll/configs/p2.yaml\n M V-CachePoll/configs/p3.yaml\n M V-CachePoll/configs/p4.yaml\n M V-CachePoll/configs/p5.yaml\n M V-CachePoll/configs/p6.yaml\n M V-CachePoll/configs/p7.yaml\n M V-CachePoll/configs/p9.yaml\n M V-CachePoll/out/extend/inventory.json\n M V-CachePoll/out/llava_attack.json\n M V-CachePoll/out/llava_capability.json\n M V-CachePoll/out/llava_probe.json\n M V-CachePoll/out/p2_screen.json\n M V-CachePoll/out/p5/pairs_m1.json\n M V-CachePoll/out/p5/pairs_m1_dupB.json\n M V-CachePoll/out/p5/pairs_m2.json\n M V-CachePoll/out/p5/pairs_m2_dupB.json\n M V-CachePoll/out/p5/pairs_m4.json\n M V-CachePoll/out/p5/pairs_m4_dupB.json\n M V-CachePoll/out/p5/pairs_m8.json\n M V-CachePoll/out/p5/pairs_m8_dupB.json\n M V-CachePoll/scripts/run_extend.py\n M outputs/p0_5/mini/A_to_B.json\n M outputs/p0_5/mini/P0_5_RESULTS.md\n D outputs/p0_5/mini/stage_A.json\n M outputs/p0_5/mini/stage_B.json\n D outputs/p0_5/mini/stage_C.json\n M outputs/p0_qwen/P0_FREEZE.json\n M outputs/p0_qwen/P0_QWEN_CLOSEOUT.md\n M outputs/p0_qwen/full/native/FAIL_DIAGNOSIS.md\n M outputs/p0_qwen/full/native/P0_QWEN_RESULTS.md\n M outputs/p0_qwen/full/native/P0_S_RESULTS.md\n M outputs/p0_qwen/full/native/attack.json\n M outputs/p0_qwen/full/native/attack_ckpt_smoke.json\n M outputs/p0_qwen/full/native/integrity.json\n M outputs/p0_qwen/full/native/p0s_splits.json\n M outputs/p0_qwen/full/native/provenance.json\n M outputs/p0_qwen/full/native/u_stability.json\n M scripts/n0_after_boot.sh\n M scripts/p0_qwen_attack_after_boot.sh\n M scripts/p0_qwen_fail_diag_after_boot.sh\n M scripts/p0_qwen_p0s_after_boot.sh\n M scripts/run_p0_qwen_fail_diag.py\n M scripts/run_p0_qwen_safety_axes.py\n M scripts/smoke_qwen.py\n?? .worktrees/\n?? CAGE-main/\n?? CG-VSF/out/SUCCESSOR.md\n?? HSSC/\n?? MSC/out/HOSTED.md\n?? MSC/out/NIGHT_WATCH.log\n?? MSC/out/NIGHT_WATCH_P1.log\n?? MSC/out/WATCHDOG.log\n?? MSC/out/WATCHDOG_P1.log\n?? V-CachePoll/data/\n?? ccfa-workfiles/\n?? clash-for-linux-install/\n?? data/chartqa\n?? data/docvqa\n?? data/infographicvqa\n?? data/nlvr2/\n?? data/textvqa\n?? data/vstar_bench/\n?? environment.yml\n?? gate_experiment/\n?? models/\n?? ref_paper/\n?? requirements.txt\n?? research_budget_hijacking/.gitignore\n?? research_budget_hijacking/README.md\n?? research_budget_hijacking/analysis/\n?? research_budget_hijacking/artifacts/\n?? research_budget_hijacking/configs/\n?? research_budget_hijacking/experiments/\n?? research_budget_hijacking/pyproject.toml\n?? research_budget_hijacking/reports/\n?? research_budget_hijacking/requirements.txt\n?? research_budget_hijacking/scripts/\n?? research_budget_hijacking/src/__init__.py\n?? research_budget_hijacking/src/attacks/__init__.py\n?? research_budget_hijacking/src/attacks/cage.py\n?? research_budget_hijacking/src/attacks/encoder_attack.py\n?? research_budget_hijacking/src/attacks/optional_contagion.py\n?? research_budget_hijacking/src/attacks/random_noise.py\n?? research_budget_hijacking/src/attacks/set_cage.py\n?? research_budget_hijacking/src/attacks/setplan_attack.py\n?? research_budget_hijacking/src/compressors/__init__.py\n?? research_budget_hijacking/src/compressors/dynamic_allocation.py\n?? research_budget_hijacking/src/compressors/global_topk.py\n?? research_budget_hijacking/src/compressors/independent_topk.py\n?? research_budget_hijacking/src/compressors/merging.py\n?? research_budget_hijacking/src/compressors/soft_topk.py\n?? research_budget_hijacking/src/evidence/__init__.py\n?? research_budget_hijacking/src/evidence/annotation.py\n?? research_budget_hijacking/src/evidence/attention.py\n?? research_budget_hijacking/src/evidence/gradient_attribution.py\n?? research_budget_hijacking/src/evidence/leave_one_image_out.py\n?? research_budget_hijacking/src/metrics/__init__.py\n?? research_budget_hijacking/src/metrics/mechanism.py\n?? research_budget_hijacking/src/metrics/statistics.py\n?? research_budget_hijacking/src/metrics/task.py\n?? research_budget_hijacking/src/models/__init__.py\n?? research_budget_hijacking/src/models/base.py\n?? research_budget_hijacking/src/models/llava_onevision.py\n?? research_budget_hijacking/src/models/toy_model.py\n?? research_budget_hijacking/src/rbh/\n?? research_budget_hijacking/src/runners/__init__.py\n?? research_budget_hijacking/src/runners/analyze_shared_boundary_content_selection_nlvr2.py\n?? research_budget_hijacking/src/runners/analyze_shared_boundary_replacement_nlvr2.py\n?? research_budget_hijacking/src/runners/attack.py\n?? research_budget_hijacking/src/runners/audit_topology.py\n?? research_budget_hijacking/src/runners/counterfactual_shared_boundary_nlvr2.py\n?? research_budget_hijacking/src/runners/evaluate.py\n?? research_budget_hijacking/src/runners/evaluate_20.py\n?? research_budget_hijacking/src/runners/evaluate_boundary_hidden_nlvr2_5img.py\n?? research_budget_hijacking/src/runners/evaluate_critical_eviction_nlvr2_5img.py\n?? research_budget_hijacking/src/runners/evaluate_evidence_boundary_nlvr2_5img.py\n?? research_budget_hijacking/src/runners/evaluate_postcompress_target_nlvr2_5img.py\n?? research_budget_hijacking/src/runners/evaluate_set_cage_nlvr2.py\n?? research_budget_hijacking/src/runners/evaluate_shared_boundary_nlvr2_5img.py\n?? research_budget_hijacking/src/runners/evaluate_survivor_poison_nlvr2_5img.py\n?? research_budget_hijacking/src/runners/nlvr2_smoke.py\n?? research_budget_hijacking/src/runners/pilot_cross_image_budget_dos_textvqa.py\n?? research_budget_hijacking/src/runners/pilot_setplan_nlvr2_5img.py\n?? research_budget_hijacking/src/runners/scan.py\n?? research_budget_hijacking/src/runners/validate_partitioned_budget_nlvr2_5img.py\n?? research_budget_hijacking/src/runners/visionzip_smoke.py\n?? research_budget_hijacking/src/tokenization/__init__.py\n?? research_budget_hijacking/src/tokenization/compression_hook.py\n?? research_budget_hijacking/src/tokenization/hooks.py\n?? research_budget_hijacking/tests/__init__.py\n?? research_budget_hijacking/tests/test_metrics.py\n?? research_budget_hijacking/tests/test_relation_integrity.py\n?? research_budget_hijacking/tests/test_token_provenance.py\n?? research_budget_hijacking/tests/test_toy_causal_chain.py\n?? research_entity_binding/\n?? results/\n?? risk_refusal/\n?? risk_refusal_disentanglement/\n?? scripts/env.sh\n?? third_party/\n?? twi_attack/\n?? week1_mechanism/\n?? week2_attack_v2/\n?? week2_attack_v3/\n?? week2_attack_v3_quick/\n?? week2_attack_v4_answer_aligned/\n?? week2_attack_v4_relaxed_full/\n?? week2_attack_v5_pristine40/\n?? week2_attack_v5b_expanded_pristine40/\n?? week2_attack_v6_survivor_upgrade/\n?? week2_attack_v6b_soft_full_anchor/\n?? week2_attack_v6c_split_calibration/\n?? week2_attack_v7_budget_conditioned/\n?? week2_attack_v7_pristine60/\n?? week2_attack_v7a_fdp_alignment_audit/\n?? week2_attack_v7b_native_cache_margin_admission/\n?? week2_attack_v7c_native60_readonly_remeasurement/\n?? week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/\n?? week2_attack_v8_graybox_admission/\n?? week2_attack_v9_target_independent_surrogate_runtime/\n?? week2_attack_v9a_full_baseline_recovery/\n?? week2_pilot/\n?? \"\\346\\226\\271\\346\\241\\210\\344\\270\\216\\347\\273\\223\\346\\236\\234\\346\\200\\273\\350\\247\\210.md\"",
+    "diff_stat": "CG-VSF/CGVSF_P0_FROZEN.json                        |   2 +-\n CG-VSF/README.md                                   |   2 +\n CG-VSF/out/p0a/RUN_LOG.md                          |   8 +-\n CG-VSF/scripts/night_watch.py                      |   8 +-\n CG-VSF/scripts/run_p0a.py                          |   2 +-\n CG-VSF/scripts/run_p0b.py                          |   2 +-\n CG-VSF/src/cgvsf/protocol.py                       |   2 +-\n CG-VSF/tests/test_cgvsf_cpu.py                     |   2 +-\n MSC/scripts/advance_stage.py                       |   0\n MSC/scripts/check_g0.py                            |   0\n MSC/scripts/night_watch.py                         |   0\n MSC/scripts/render_report.py                       |   0\n MSC/scripts/run_p00.py                             |   0\n MSC/scripts/run_p01.py                             |   0\n MSC/tests/test_msc_cpu.py                          |   0\n TraceFlip/HANDOFF.md                               |  16 +-\n TraceFlip/README.md                                |   6 +-\n TraceFlip/TRACEFLIP_FROZEN.json                    |   2 +-\n TraceFlip/diag_inmodel_vs_decode.py                |   2 +-\n TraceFlip/out/final_alignment_check.py             |   2 +-\n TraceFlip/out/forensic_paths.py                    |   2 +-\n TraceFlip/out/forensic_tpos.py                     |   2 +-\n TraceFlip/run_gateflip_probe.py                    |   2 +-\n TraceFlip/run_traceflip_persample.py               |   2 +-\n TraceFlip/run_traceflip_pilot.py                   |   2 +-\n TraceFlip/run_traceflip_smoke.py                   |   2 +-\n V-CachePoll/configs/coco_plus_p0.yaml              |  10 +-\n V-CachePoll/configs/coco_plus_p2.yaml              |  20 +-\n V-CachePoll/configs/coco_plus_p3.yaml              |  20 +-\n V-CachePoll/configs/p0.yaml                        |  10 +-\n V-CachePoll/configs/p1.yaml                        |  14 +-\n V-CachePoll/configs/p10.yaml                       |  10 +-\n V-CachePoll/configs/p11.yaml                       |  16 +-\n V-CachePoll/configs/p2.yaml                        |  20 +-\n V-CachePoll/configs/p3.yaml                        |  20 +-\n V-CachePoll/configs/p4.yaml                        |  20 +-\n V-CachePoll/configs/p5.yaml                        |  20 +-\n V-CachePoll/configs/p6.yaml                        |  20 +-\n V-CachePoll/configs/p7.yaml                        |  20 +-\n V-CachePoll/configs/p9.yaml                        |  20 +-\n V-CachePoll/out/extend/inventory.json              |  26 +-\n V-CachePoll/out/llava_attack.json                  |   2 +-\n V-CachePoll/out/llava_capability.json              |   2 +-\n V-CachePoll/out/llava_probe.json                   |   2 +-\n V-CachePoll/out/p2_screen.json                     | 128 ++---\n V-CachePoll/out/p5/pairs_m1.json                   |  48 +-\n V-CachePoll/out/p5/pairs_m1_dupB.json              |   8 +-\n V-CachePoll/out/p5/pairs_m2.json                   |  64 +--\n V-CachePoll/out/p5/pairs_m2_dupB.json              |   8 +-\n V-CachePoll/out/p5/pairs_m4.json                   |  96 ++--\n V-CachePoll/out/p5/pairs_m4_dupB.json              |  12 +-\n V-CachePoll/out/p5/pairs_m8.json                   | 160 +++---\n V-CachePoll/out/p5/pairs_m8_dupB.json              |  20 +-\n V-CachePoll/scripts/run_extend.py                  |   0\n outputs/p0_5/mini/A_to_B.json                      |  50 --\n outputs/p0_5/mini/P0_5_RESULTS.md                  |  77 ---\n outputs/p0_5/mini/stage_A.json                     | 231 ---------\n outputs/p0_5/mini/stage_B.json                     |  68 ---\n outputs/p0_5/mini/stage_C.json                     | 563 ---------------------\n outputs/p0_qwen/P0_FREEZE.json                     |  79 ---\n outputs/p0_qwen/P0_QWEN_CLOSEOUT.md                |  53 --\n outputs/p0_qwen/full/native/FAIL_DIAGNOSIS.md      |  66 ---\n outputs/p0_qwen/full/native/P0_QWEN_RESULTS.md     |  80 ---\n outputs/p0_qwen/full/native/P0_S_RESULTS.md        |  62 ---\n outputs/p0_qwen/full/native/attack.json            |  40 --\n outputs/p0_qwen/full/native/attack_ckpt_smoke.json |  23 -\n outputs/p0_qwen/full/native/integrity.json         |  37 --\n outputs/p0_qwen/full/native/p0s_splits.json        |  64 ---\n outputs/p0_qwen/full/native/provenance.json        |  18 -\n outputs/p0_qwen/full/native/u_stability.json       |  43 --\n scripts/n0_after_boot.sh                           |   0\n scripts/p0_qwen_attack_after_boot.sh               |   0\n scripts/p0_qwen_fail_diag_after_boot.sh            |   0\n scripts/p0_qwen_p0s_after_boot.sh                  |   0\n scripts/run_p0_qwen_fail_diag.py                   |   0\n scripts/run_p0_qwen_safety_axes.py                 |   0\n scripts/smoke_qwen.py                              |   6 +-\n 77 files changed, 446 insertions(+), 1998 deletions(-)"
+  },
+  "prompt": "<|im_start|>user\n<image><image><image>\nQuestion: Who is the European Medical Director?\nAnswer the question using a single word or phrase.<|im_end|>\n<|im_start|>assistant\n",
+  "prompt_sha256": "c7e65c022e99b8463483353df212e47b8a97e22f31dbc561cb63a074d40ae0b5",
+  "input_ids_shape": [
+    1,
+    11125
+  ],
+  "input_ids_sha256": "72451bc29011243fa9a8f75e6c957cd35a0277389598479d4a34cece63c9bed6",
+  "attention_mask_shape": [
+    1,
+    11125
+  ],
+  "attention_mask_sha256": "da22d2351960f5867abbb35587b2a0b9a808af56b8309f916efa40bf5558eff0",
+  "pixel_values_shape": [
+    3,
+    5,
+    3,
+    384,
+    384
+  ],
+  "pixel_values_dtype": "torch.float32",
+  "pixel_values_sha256": "6930bd265495e2a8097564469125cc4124c67f14b55a50111c020ff824566004",
+  "image_sizes": [
+    [
+      768,
+      768
+    ],
+    [
+      768,
+      768
+    ],
+    [
+      768,
+      768
+    ]
+  ],
+  "image_sizes_sha256": "863be6808bc364ccb8b1e3318b99198b0e843493a273ebc2f1abe137b9c783d9",
+  "batch_num_images": [
+    1,
+    1,
+    1
+  ],
+  "image_token_count": 11097,
+  "page_sha256": [
+    "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+    "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+    "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+  ],
+  "special_tokens": {
+    "image_token_id": 151646,
+    "eos_token_id": null,
+    "pad_token_id": null,
+    "bos_token_id": null,
+    "generation_eos_token_id": 151645,
+    "generation_pad_token_id": null
+  },
+  "generation_config": {
+    "max_new_tokens_call": 16,
+    "do_sample_call": false,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "num_beams": 1,
+    "use_cache_call": true,
+    "cache_implementation": null
+  },
+  "model": {
+    "dtype": "torch.bfloat16",
+    "device": "cuda:0",
+    "training": false
+  },
+  "top50": [
+    {
+      "id": 8847,
+      "token": "Dr",
+      "logit": 19.0
+    },
+    {
+      "id": 34,
+      "token": "C",
+      "logit": 15.75
+    },
+    {
+      "id": 7687,
+      "token": "DR",
+      "logit": 15.0
+    },
+    {
+      "id": 51,
+      "token": "T",
+      "logit": 13.9375
+    },
+    {
+      "id": 3612,
+      "token": "dr",
+      "logit": 13.9375
+    },
+    {
+      "id": 1143,
+      "token": "Ch",
+      "logit": 12.5625
+    },
+    {
+      "id": 53467,
+      "token": "Charles",
+      "logit": 12.5
+    },
+    {
+      "id": 66,
+      "token": "c",
+      "logit": 12.375
+    },
+    {
+      "id": 15237,
+      "token": "CHAR",
+      "logit": 12.1875
+    },
+    {
+      "id": 2149,
+      "token": "CH",
+      "logit": 12.125
+    },
+    {
+      "id": 67196,
+      "token": "CHR",
+      "logit": 11.5
+    },
+    {
+      "id": 83,
+      "token": "t",
+      "logit": 10.9375
+    },
+    {
+      "id": 4768,
+      "token": "Char",
+      "logit": 10.8125
+    },
+    {
+      "id": 36787,
+      "token": "CHA",
+      "logit": 10.8125
+    },
+    {
+      "id": 35,
+      "token": "D",
+      "logit": 10.625
+    },
+    {
+      "id": 1762,
+      "token": "char",
+      "logit": 10.1875
+    },
+    {
+      "id": 47,
+      "token": "P",
+      "logit": 9.9375
+    },
+    {
+      "id": 73966,
+      "token": "Christopher",
+      "logit": 9.9375
+    },
+    {
+      "id": 331,
+      "token": "ch",
+      "logit": 9.75
+    },
+    {
+      "id": 22286,
+      "token": "David",
+      "logit": 9.6875
+    },
+    {
+      "id": 15778,
+      "token": "TK",
+      "logit": 9.5625
+    },
+    {
+      "id": 36,
+      "token": "E",
+      "logit": 9.5
+    },
+    {
+      "id": 6184,
+      "token": "Dir",
+      "logit": 9.375
+    },
+    {
+      "id": 15204,
+      "token": "TA",
+      "logit": 9.375
+    },
+    {
+      "id": 41393,
+      "token": "Thomas",
+      "logit": 9.3125
+    },
+    {
+      "id": 8973,
+      "token": "CR",
+      "logit": 9.1875
+    },
+    {
+      "id": 11391,
+      "token": "DER",
+      "logit": 9.125
+    },
+    {
+      "id": 49,
+      "token": "R",
+      "logit": 9.0625
+    },
+    {
+      "id": 1150,
+      "token": "DE",
+      "logit": 9.0625
+    },
+    {
+      "id": 43793,
+      "token": "CHE",
+      "logit": 9.0
+    },
+    {
+      "id": 77994,
+      "token": "Tai",
+      "logit": 9.0
+    },
+    {
+      "id": 17229,
+      "token": "THE",
+      "logit": 8.9375
+    },
+    {
+      "id": 40942,
+      "token": "Christian",
+      "logit": 8.875
+    },
+    {
+      "id": 89272,
+      "token": "Jak",
+      "logit": 8.875
+    },
+    {
+      "id": 93526,
+      "token": "Chuck",
+      "logit": 8.875
+    },
+    {
+      "id": 40586,
+      "token": "Daniel",
+      "logit": 8.75
+    },
+    {
+      "id": 18643,
+      "token": "-dr",
+      "logit": 8.6875
+    },
+    {
+      "id": 3021,
+      "token": "CK",
+      "logit": 8.625
+    },
+    {
+      "id": 87225,
+      "token": "Chr",
+      "logit": 8.625
+    },
+    {
+      "id": 1353,
+      "token": " dr",
+      "logit": 8.5625
+    },
+    {
+      "id": 18592,
+      "token": "Prof",
+      "logit": 8.5625
+    },
+    {
+      "id": 95971,
+      "token": "Cha",
+      "logit": 8.5625
+    },
+    {
+      "id": 36938,
+      "token": ".dr",
+      "logit": 8.5
+    },
+    {
+      "id": 37194,
+      "token": "Director",
+      "logit": 8.5
+    },
+    {
+      "id": 55730,
+      "token": "Dave",
+      "logit": 8.5
+    },
+    {
+      "id": 42,
+      "token": "K",
+      "logit": 8.4375
+    },
+    {
+      "id": 53824,
+      "token": "Stephen",
+      "logit": 8.4375
+    },
+    {
+      "id": 72628,
+      "token": "Charlie",
+      "logit": 8.4375
+    },
+    {
+      "id": 17906,
+      "token": "Drag",
+      "logit": 8.375
+    },
+    {
+      "id": 25300,
+      "token": "Paul",
+      "logit": 8.375
+    }
+  ],
+  "eos_logit": -4.0625,
+  "eos_rank": 146683,
+  "dr_id": 8847,
+  "dr_logit": 19.0,
+  "dr_rank": 0,
+  "generated_ids": [
+    8847,
+    13,
+    356,
+    13,
+    425,
+    4110,
+    13979,
+    151645
+  ],
+  "generated_text": "Dr. C. Baur MD",
+  "matches_frozen": true,
+  "fastv_modules": []
+}

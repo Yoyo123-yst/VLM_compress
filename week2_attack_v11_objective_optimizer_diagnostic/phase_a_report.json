@@ -1,0 +1,112 @@
+{
+  "status": "FAIL",
+  "checks": [
+    {
+      "name": "60700_clean_fixed_equals_dyn",
+      "pass": true
+    },
+    {
+      "name": "60700_r0.25_prefix_aligned_on_clean",
+      "pass": true,
+      "keep_source": "current_clean_fastv_generate",
+      "k": 2774
+    },
+    {
+      "name": "60700_r0.35_prefix_aligned_on_clean",
+      "pass": true,
+      "keep_source": "current_clean_fastv_generate",
+      "k": 3884
+    },
+    {
+      "name": "60700_aux_grad_only",
+      "pass": false,
+      "aux_l1": 4982.84619140625,
+      "other_l1": [
+        6091.275390625,
+        8095.439453125
+      ]
+    },
+    {
+      "name": "60700_png_linf",
+      "pass": true,
+      "linf_uint8": 2
+    },
+    {
+      "name": "60700_keep_from_current_input",
+      "pass": true,
+      "perturbed": {
+        "0.25": {
+          "k": 2774,
+          "keep_hash": "884e4dd8ce1429f943e36491ad605074f02d1c1cfa3bee0f4942003656bc72f2",
+          "same_as_clean": false,
+          "generated_len": 3,
+          "reference_len": 3
+        },
+        "0.35": {
+          "k": 3884,
+          "keep_hash": "35cf5f195e4a369a575d35659813e963949ec2d554847411bcfea13f75af032c",
+          "same_as_clean": false,
+          "generated_len": 3,
+          "reference_len": 3
+        }
+      },
+      "full_violated": false,
+      "attack_l2": 16.582435607910156,
+      "full_l2": 123.21736907958984
+    },
+    {
+      "name": "7006_clean_fixed_equals_dyn",
+      "pass": true
+    },
+    {
+      "name": "7006_r0.25_prefix_aligned_on_clean",
+      "pass": true,
+      "keep_source": "current_clean_fastv_generate",
+      "k": 3699
+    },
+    {
+      "name": "7006_r0.35_prefix_aligned_on_clean",
+      "pass": true,
+      "keep_source": "current_clean_fastv_generate",
+      "k": 5179
+    },
+    {
+      "name": "7006_aux_grad_only",
+      "pass": false,
+      "aux_l1": 3355.24072265625,
+      "other_l1": [
+        1323.017822265625,
+        798.8340454101562,
+        2136.139892578125
+      ]
+    },
+    {
+      "name": "7006_png_linf",
+      "pass": true,
+      "linf_uint8": 2
+    },
+    {
+      "name": "7006_keep_from_current_input",
+      "pass": true,
+      "perturbed": {
+        "0.25": {
+          "k": 3699,
+          "keep_hash": "db03e41d95e63c5963a2dad0634f288b408d73038fe7e19a60ac800ec6a41bba",
+          "same_as_clean": false,
+          "generated_len": 6,
+          "reference_len": 6
+        },
+        "0.35": {
+          "k": 5179,
+          "keep_hash": "fe5913e0f3bb59b921e71fb4d308ab5f8cee7c8eb5cc614e3c0079a16e82ad16",
+          "same_as_clean": false,
+          "generated_len": 6,
+          "reference_len": 6
+        }
+      },
+      "full_violated": false,
+      "attack_l2": 9.740942001342773,
+      "full_l2": 23.35617446899414
+    }
+  ]
+}

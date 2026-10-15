@@ -1,0 +1,36 @@
+{
+  "rows": [
+    {
+      "sample_id": "60700",
+      "prepared_shape": [
+        5,
+        3,
+        384,
+        384
+      ],
+      "surrogate_shape": [
+        5,
+        3,
+        384,
+        384
+      ],
+      "base_max_abs": 1.1920928955078125e-07,
+      "base_mean_abs": 8.50397796625657e-09,
+      "base_cos": 1.0000000000008267,
+      "seed0_delta_cos": 0.0,
+      "seed0_delta_norm_ratio": 0.0,
+      "seed0_delta_max_abs": 0.0,
+      "seed0_sur_delta_max_abs": 3.218650817871094e-05,
+      "seed1_delta_cos": 0.0,
+      "seed1_delta_norm_ratio": 0.0,
+      "seed1_delta_max_abs": 0.0,
+      "seed1_sur_delta_max_abs": 3.0040740966796875e-05,
+      "seed2_delta_cos": 0.0,
+      "seed2_delta_norm_ratio": 0.0,
+      "seed2_delta_max_abs": 0.0,
+      "seed2_sur_delta_max_abs": 2.944469451904297e-05
+    }
+  ],
+  "used_model_forward": false,
+  "used_model_backward": false
+}

@@ -1,0 +1,241 @@
+[
+  {
+    "sample_id": "62650",
+    "step": 0,
+    "seed": 592401488,
+    "pred_full": "Biochemistry",
+    "pred_fastv": "Biochemistry",
+    "anls_full": 0.75,
+    "anls_fastv": 0.75,
+    "output_valid": true,
+    "margin": 2.2083334922790527,
+    "L_comp": 2.1875,
+    "L_soft_full": 0.69140625,
+    "keep_hash": "db45303a8ff39a55fd1caf922e2c8f36c10e1ca3fb4e7d0e14b2a17f736482cc",
+    "k": 1850,
+    "aux_share": 0.4410810810810811,
+    "evidence_share": 0.5589189189189189,
+    "page_keep_counts": [
+      816,
+      1034
+    ],
+    "page_shares": [
+      0.4410810810810811,
+      0.5589189189189189
+    ],
+    "linf": 0.0,
+    "png": "checkpoints/step_000.png",
+    "png_sha256": "38e06760bb28ca1b78d57eebf479381edf531d9734185c55c618d4dbd1f9dae6",
+    "protected_ok": true,
+    "grad_norm": 60.66978073120117
+  },
+  {
+    "sample_id": "62650",
+    "step": 10,
+    "seed": 592401488,
+    "pred_full": "Biochemistry",
+    "pred_fastv": "Nutrition",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -0.9375,
+    "L_comp": -0.9166666865348816,
+    "L_soft_full": 0.1728515625,
+    "keep_hash": "e4f7ec6ed3bc5df89f2283555a1d7699dfec876a29d78c1385fdb9fd1a3f31e0",
+    "k": 1850,
+    "aux_share": 0.4427027027027027,
+    "evidence_share": 0.5572972972972973,
+    "page_keep_counts": [
+      819,
+      1031
+    ],
+    "page_shares": [
+      0.4427027027027027,
+      0.5572972972972973
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_010.png",
+    "png_sha256": "149c06808e7002eecd33df3021287b7c2c666cf436e8713fcff29b21feb9be84",
+    "protected_ok": true,
+    "grad_norm": 11.971334457397461
+  },
+  {
+    "sample_id": "62650",
+    "step": 25,
+    "seed": 592401488,
+    "pred_full": "Biochemistry",
+    "pred_fastv": "Thermodynamics",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -7.875,
+    "L_comp": -7.6354169845581055,
+    "L_soft_full": 0.0732421875,
+    "keep_hash": "af80cec6266cc10ad2e5624bc61819c1ebdc13d8f0bb9ec087d3a076ef304c19",
+    "k": 1850,
+    "aux_share": 0.432972972972973,
+    "evidence_share": 0.567027027027027,
+    "page_keep_counts": [
+      801,
+      1049
+    ],
+    "page_shares": [
+      0.432972972972973,
+      0.567027027027027
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_025.png",
+    "png_sha256": "183bfd92fe218616de89b610a1ccf374e19ff6a6eafbd115bce55fc81bb0459c",
+    "protected_ok": true,
+    "grad_norm": 47.887001037597656
+  },
+  {
+    "sample_id": "62650",
+    "step": 50,
+    "seed": 592401488,
+    "pred_full": "Biochemistry",
+    "pred_fastv": "Thermodynamics",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -13.151041984558105,
+    "L_comp": -13.192708969116211,
+    "L_soft_full": 0.1162109375,
+    "keep_hash": "69af93eaac6b797d70650efb81b64929402f8d7d603722997aae24c5ddb024ee",
+    "k": 1850,
+    "aux_share": 0.4362162162162162,
+    "evidence_share": 0.5637837837837838,
+    "page_keep_counts": [
+      807,
+      1043
+    ],
+    "page_shares": [
+      0.4362162162162162,
+      0.5637837837837838
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_050.png",
+    "png_sha256": "143d11998ed052a3f5bfbb9bf2fa4eaff4990d637fabc7e9e19f8f0c2244bc6a",
+    "protected_ok": true,
+    "grad_norm": 245.59654235839844
+  },
+  {
+    "sample_id": "62650",
+    "step": 75,
+    "seed": 592401488,
+    "pred_full": "Biochemistry",
+    "pred_fastv": "Thermodynamics of the Solid State",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -22.246807098388672,
+    "L_comp": -22.25911521911621,
+    "L_soft_full": 0.03564453125,
+    "keep_hash": "a10b681505730fbabaedaaa4b889af69ad813b7e31fa043eab1cc9bbb6a59274",
+    "k": 1850,
+    "aux_share": 0.4416216216216216,
+    "evidence_share": 0.5583783783783783,
+    "page_keep_counts": [
+      817,
+      1033
+    ],
+    "page_shares": [
+      0.4416216216216216,
+      0.5583783783783783
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_075.png",
+    "png_sha256": "d99b1251d417fbe8e8d205a82adde33e18f959e7807bfc1197ef590690be3b32",
+    "protected_ok": true,
+    "grad_norm": 20.786624908447266
+  },
+  {
+    "sample_id": "62650",
+    "step": 100,
+    "seed": 592401488,
+    "pred_full": "Biochemistry",
+    "pred_fastv": "Thermodynamics of Denaturation of Hemoglobin",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -21.88020896911621,
+    "L_comp": -22.125,
+    "L_soft_full": 0.072265625,
+    "keep_hash": "5241191266f374c670759f04ac1652a5f830a74ab9cc0994ecc85867b25bb4b1",
+    "k": 1850,
+    "aux_share": 0.4362162162162162,
+    "evidence_share": 0.5637837837837838,
+    "page_keep_counts": [
+      807,
+      1043
+    ],
+    "page_shares": [
+      0.4362162162162162,
+      0.5637837837837838
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_100.png",
+    "png_sha256": "1164e163d9dc8ee9e7fb72d7cb23c99208fa368578d296b18b367962c19daaa1",
+    "protected_ok": true,
+    "grad_norm": 29.994516372680664
+  },
+  {
+    "sample_id": "62650",
+    "step": 150,
+    "seed": 592401488,
+    "pred_full": "Biochemistry",
+    "pred_fastv": "Thermodynamics, Kinetics, and Mechanisms of Chemical Reactions",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -34.19791793823242,
+    "L_comp": -34.26041793823242,
+    "L_soft_full": 0.05126953125,
+    "keep_hash": "218e2c7c0cdbaaf3654eeaaa1058260a58a427cd4cae93cc67411dbc98e6d245",
+    "k": 1850,
+    "aux_share": 0.42864864864864866,
+    "evidence_share": 0.5713513513513514,
+    "page_keep_counts": [
+      793,
+      1057
+    ],
+    "page_shares": [
+      0.42864864864864866,
+      0.5713513513513514
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_150.png",
+    "png_sha256": "cbf3338475a2db8d76dfccf7abd3e95decce84cf5d061fe33e60d0293f4290c2",
+    "protected_ok": true,
+    "grad_norm": 40.80412292480469
+  },
+  {
+    "sample_id": "62650",
+    "step": 200,
+    "seed": 592401488,
+    "pred_full": "Biochemistry",
+    "pred_fastv": "Threatened Turbulence in the Transition Region of the Sun",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -41.020835876464844,
+    "L_comp": -41.364585876464844,
+    "L_soft_full": 0.033447265625,
+    "keep_hash": "c7d7412e35849d04f115a834af03762871f4bcbd4f6239951df03abe9296219a",
+    "k": 1850,
+    "aux_share": 0.4345945945945946,
+    "evidence_share": 0.5654054054054054,
+    "page_keep_counts": [
+      804,
+      1046
+    ],
+    "page_shares": [
+      0.4345945945945946,
+      0.5654054054054054
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_200.png",
+    "png_sha256": "647c1d7e165646568ca96da3f308e9ffd64fdd5b4f37e78f38b08ef8762270fa",
+    "protected_ok": true
+  }
+]

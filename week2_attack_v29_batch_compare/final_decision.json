@@ -1,0 +1,16 @@
+{
+  "status": "DEVELOPMENT_SEMANTIC_SIGNAL_REQUIRES_FROZEN_VALIDATION",
+  "unseen_run": "NOT_RUN",
+  "queue_n": 120,
+  "clean_eligible_n": 56,
+  "selected_n": 30,
+  "valid_complete_wrong_target_n": 15,
+  "target_unavailable_n": 15,
+  "independent_evaluations": 45,
+  "full_exact": {"native_fdp": "15/15", "complete_target": "15/15", "complete_front": "15/15"},
+  "fastv_anls_strict_failures": {"native_fdp": "7/15", "complete_target": "6/15", "complete_front": "6/15"},
+  "target_hits": {"complete_target": "7/15", "complete_front": "6/15"},
+  "semantic_content_failures": {"native_fdp": "6/15", "complete_target": "8/15", "complete_front": "9/15"},
+  "semantic_audit": "semantic_endpoint_audit.md",
+  "conclusion": "ANLS alone understated semantic errors. Under the frozen question-specific semantic audit, complete-front has a development signal over Native-FDP and complete-target. It requires validation on a newly frozen cohort; unseen remains closed."
+}

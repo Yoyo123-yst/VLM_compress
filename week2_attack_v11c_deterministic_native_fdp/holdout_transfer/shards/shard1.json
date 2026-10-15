@@ -1,0 +1,637 @@
+{
+  "status": "TRANSFER_EVALUATED",
+  "protocol": "independent disk-reloaded clean/attack/matched-noise holdout FastV replay",
+  "gpu": "1",
+  "samples": {
+    "15282": {
+      "status": "OK",
+      "clean_text": "LuxSE",
+      "full": {
+        "clean": "LuxSE",
+        "attack": "LuxSE",
+        "noise": "LuxSE"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "LuxSE",
+            "valid": true,
+            "anls": 0.6,
+            "k": 2219,
+            "keep_hash": "2e242c0328b86e21fa37a418f928340b05b0cb38d2ba7f853f888c1da36dbed4"
+          },
+          "attack": {
+            "text": "LuxSE",
+            "valid": true,
+            "anls": 0.6,
+            "k": 2219,
+            "keep_hash": "7b34450484a57aa23628d5c314428653b932458395c3be1780c4e5439dd92264"
+          },
+          "noise": {
+            "text": "LuxSE",
+            "valid": true,
+            "anls": 0.6,
+            "k": 2219,
+            "keep_hash": "02c404301e624b1b6ca8b4b1c5b9ff40f1ba2c5b353b5f76a9586aebc0b1a7bd"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.25": {
+          "clean": {
+            "text": "LuxSE",
+            "valid": true,
+            "anls": 0.6,
+            "k": 3699,
+            "keep_hash": "13b22cf86c3214d597e460724d60971af2e604c4eac1cd4311863119c031c095"
+          },
+          "attack": {
+            "text": "BSE",
+            "valid": true,
+            "anls": 0.6666666666666667,
+            "k": 3699,
+            "keep_hash": "0a287684984b38b56820d7a1e74e4febef61720d416d5f4c1520f6528bfa2873"
+          },
+          "noise": {
+            "text": "LuxSE",
+            "valid": true,
+            "anls": 0.6,
+            "k": 3699,
+            "keep_hash": "8cfbb376d8cca8545a824c401ae1eda788f6799d259e7802e9916ecb23bc3770"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.35": {
+          "clean": {
+            "text": "LuxSE",
+            "valid": true,
+            "anls": 0.6,
+            "k": 5179,
+            "keep_hash": "e674f9db90267c0de17f3f1a6d8b7cb3c5c2785651a618ed262ae008b7277cb1"
+          },
+          "attack": {
+            "text": "BSE",
+            "valid": true,
+            "anls": 0.6666666666666667,
+            "k": 5179,
+            "keep_hash": "eca2995271f857a3dd7997eae514e57f38fd81c858171c2798cbc09638510520"
+          },
+          "noise": {
+            "text": "LuxSE",
+            "valid": true,
+            "anls": 0.6,
+            "k": 5179,
+            "keep_hash": "ed599138697b462250505075067d26464dd590248e532f382e9cf9dfc1775076"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.50": {
+          "clean": {
+            "text": "LuxSE",
+            "valid": true,
+            "anls": 0.6,
+            "k": 7398,
+            "keep_hash": "0ac9dfde06e81c9159386d7c12a50020e3a34e598987a66d175d1b3674c3f844"
+          },
+          "attack": {
+            "text": "Euronext",
+            "valid": true,
+            "anls": 0.0,
+            "k": 7398,
+            "keep_hash": "b4a1f69a37ef600c17df581f65c7eaf68910fd6d3626a59e71d09ddc9fca2218"
+          },
+          "noise": {
+            "text": "LuxSE",
+            "valid": true,
+            "anls": 0.6,
+            "k": 7398,
+            "keep_hash": "fe0350251da657b9be4ae00edcaedc790b029cb91bfd86b9fc61bb1e970bd9bc"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "51702": {
+      "status": "OK",
+      "clean_text": "February 13, 1977",
+      "full": {
+        "clean": "February 13, 1977",
+        "attack": "February 13, 1977",
+        "noise": "February 13, 1977"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "February 11, 1977",
+            "valid": true,
+            "anls": 0.9375,
+            "k": 1110,
+            "keep_hash": "124708795dcc83e9fa06aee2125441ba39e0a08ebe4af55083566f8a56a9caa2"
+          },
+          "attack": {
+            "text": "January 18",
+            "valid": true,
+            "anls": 0.5454545454545454,
+            "k": 1110,
+            "keep_hash": "d412f4399b16d95255aa952acf4dad46e27714344864e72b970bc05ae6fd177d"
+          },
+          "noise": {
+            "text": "February 11, 1977",
+            "valid": true,
+            "anls": 0.9375,
+            "k": 1110,
+            "keep_hash": "d630fb3f5348544171a90ae9e0c6761ac1beb41daa4275ccf5ff6bb86d94280d"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": true
+        },
+        "0.25": {
+          "clean": {
+            "text": "February 11, 1977",
+            "valid": true,
+            "anls": 0.9375,
+            "k": 1850,
+            "keep_hash": "6dfca0dbad48e4c217bf6363c67d616dd5ac6b33af66b1fb70b92b1589690c29"
+          },
+          "attack": {
+            "text": "Monday",
+            "valid": true,
+            "anls": 0.0,
+            "k": 1850,
+            "keep_hash": "5e0d799c04e4a8589cd38433a1cfae55ffd2b3e2ac1470f723823b889c147901"
+          },
+          "noise": {
+            "text": "February 11, 1977",
+            "valid": true,
+            "anls": 0.9375,
+            "k": 1850,
+            "keep_hash": "306894fe7933963145def7129ed051f9ad6b60c47964d7647196da12d617c64a"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "February 11, 1977",
+            "valid": true,
+            "anls": 0.9375,
+            "k": 2589,
+            "keep_hash": "1b97405682acecef134ff719346feb01e5c25694ef89f460f8977dc80d11f6a2"
+          },
+          "attack": {
+            "text": "Wednesday",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2589,
+            "keep_hash": "c269d50f7ecee71485df01285e6216b7ab624834ee02de9fe36ba2f17ca3ce61"
+          },
+          "noise": {
+            "text": "February 11, 1977",
+            "valid": true,
+            "anls": 0.9375,
+            "k": 2589,
+            "keep_hash": "dd94f0208d60f17bc4585f58197be6cecaf9de98cd6c451ae40b4298b290f6d3"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "February 11, 1977",
+            "valid": true,
+            "anls": 0.9375,
+            "k": 3699,
+            "keep_hash": "ac6df50ec9cefb498f044e87e33e962c1329545bd20bba4983a33493e378fb67"
+          },
+          "attack": {
+            "text": "February 13, 1977",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "712ad078cade741620cb8454b76b8f52c8723c9766c727f28b6f87f55f26a2ad"
+          },
+          "noise": {
+            "text": "February 11, 1977",
+            "valid": true,
+            "anls": 0.9375,
+            "k": 3699,
+            "keep_hash": "1922840ee121d1443016a4b16ccb09d54977f1a73accf4f64065e1e32eecdaa2"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "1170": {
+      "status": "OK",
+      "clean_text": "with calcu/cit/microcalcu/cit",
+      "full": {
+        "clean": "with calcu/cit/microcalcu/cit",
+        "attack": "with calcu/cit/microcalcu/cit",
+        "noise": "with calcu/c/microcalcu/c"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "with catalytic cation",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2219,
+            "keep_hash": "66adfebf9d9edfd34a33e2f1bdeef00d8dea13fa1b78530f7c5dc1af80c453b6"
+          },
+          "attack": {
+            "text": "with catalytic microcatalyticul",
+            "valid": true,
+            "anls": 0.5161290322580645,
+            "k": 2219,
+            "keep_hash": "2ec9cb87a6922610285756293371e2b17b68582abfd245560e00f487eeec9b40"
+          },
+          "noise": {
+            "text": "with catalytic microcatalyticuli",
+            "valid": true,
+            "anls": 0.5625,
+            "k": 2219,
+            "keep_hash": "7ef3c01fc467dba8a09d8d19e5f9eefb21fac7fc4f5f11516b89dbdfb9f048ed"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": true
+        },
+        "0.25": {
+          "clean": {
+            "text": "with calcitri/microcalcitriuli",
+            "valid": true,
+            "anls": 0.5862068965517242,
+            "k": 3699,
+            "keep_hash": "bac1a8e52f17319044a852c10eecddbd37ab145e69463aa87fbf182d2590a677"
+          },
+          "attack": {
+            "text": "1",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3699,
+            "keep_hash": "9b555e295b391a5ff7f0852b45ec0f2b43729c6f69965a7e49114f9c6f602a82"
+          },
+          "noise": {
+            "text": "with calcitri/microcalcitriuli",
+            "valid": true,
+            "anls": 0.5862068965517242,
+            "k": 3699,
+            "keep_hash": "d8938f94a3c39b6d45d14529a0c5a3f933b9761df73d675de8529165396ec5a6"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "with calcifi/microcalcificuli",
+            "valid": true,
+            "anls": 0.6428571428571428,
+            "k": 5179,
+            "keep_hash": "bc839bfa9be08c8d78ed9126374b12b381d244789d298731e8336647a429fa50"
+          },
+          "attack": {
+            "text": "1",
+            "valid": true,
+            "anls": 0.0,
+            "k": 5179,
+            "keep_hash": "39327425043295beda0f526eb0e6df33ab0532cd6e36f29fcd2259d4d1e3c6d4"
+          },
+          "noise": {
+            "text": "with calcitri/microcalcitriuli",
+            "valid": true,
+            "anls": 0.5862068965517242,
+            "k": 5179,
+            "keep_hash": "1daac55f644634598028aca46ad6a068c47522513a2b8c4d951bf007dc009023"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "with calcuuli",
+            "valid": true,
+            "anls": 0.6111111111111112,
+            "k": 7398,
+            "keep_hash": "3ccc6fb7d19ebfe9ee10f6c9642dab1358fcaf7940f2da9c4f77b23fff35fe91"
+          },
+          "attack": {
+            "text": "with calcu/cit",
+            "valid": true,
+            "anls": 0.5555555555555556,
+            "k": 7398,
+            "keep_hash": "945a9979590d9e74fdcfa0b2814823b5ea6ab836c279025d88e54308d4924eb6"
+          },
+          "noise": {
+            "text": "with calcu/c/microcalcu/ci",
+            "valid": true,
+            "anls": 0.6521739130434783,
+            "k": 7398,
+            "keep_hash": "c3ef5320a4b8bd82fb591d324e215a288719d41ac34e96bd2348b9fa52c2285d"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": true
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "790": {
+      "status": "OK",
+      "clean_text": "Michael F. Jacobson, Ph.D.",
+      "full": {
+        "clean": "Michael F. Jacobson, Ph.D.",
+        "attack": "Michael F. Jacobson, Ph.D.",
+        "noise": "Michael F. Jacobson, Ph.D."
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "Michael F. J. Bacchus",
+            "valid": true,
+            "anls": 0.631578947368421,
+            "k": 1665,
+            "keep_hash": "e960906e4085bdb6c3686456018474c19a089056d11db5253543f12d782cc903"
+          },
+          "attack": {
+            "text": "J. Michael F. J. Alexander",
+            "valid": true,
+            "anls": 0.5217391304347826,
+            "k": 1665,
+            "keep_hash": "e84d9ec406ed5fd97af536f6921bf8efe7e88622a48b9ba16c49d26592ee7ab0"
+          },
+          "noise": {
+            "text": "J. Michael F. Jacobson, Jr.",
+            "valid": true,
+            "anls": 0.782608695652174,
+            "k": 1665,
+            "keep_hash": "965ae1cc5d7f7df90b5879fa75294520b0e64b90953089d44e2aa223de9a3409"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": true
+        },
+        "0.25": {
+          "clean": {
+            "text": "Michael F. Jacobson, Ph.D.",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2774,
+            "keep_hash": "c3d6801408faec5fa78d8b6fd5203d17e6fb94b941dfc9596c9b3edb327c0469"
+          },
+          "attack": {
+            "text": "J. Alexander Mc Donough",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2774,
+            "keep_hash": "f174a7c3ca4acb8cf8562565766abdc5bb1683047771dbc0922798d8da7d04b2"
+          },
+          "noise": {
+            "text": "Michael F. Jacobson, Ph.D.",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2774,
+            "keep_hash": "a8e4ea819da4669a0c0d88d44e498b364c5b47217d1b0a1caf1b1ea8eec82860"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "Michael F. Jacobson, Ph.D.",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3884,
+            "keep_hash": "a170dc27ce275edb58b38c784bc0ebcf5292f20a960c0fd5cf18272db027c8d3"
+          },
+          "attack": {
+            "text": "J. Alexander M. Douglas, Jr.",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3884,
+            "keep_hash": "3f30719c1ab8b3b9df95e3a6c1a6858d03f2ff3285e189f222abbbf7eb3436ec"
+          },
+          "noise": {
+            "text": "Michael F. Jacobson, Ph.D.",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3884,
+            "keep_hash": "681e5992672cd433d5d6c5b8e9345c6ffca74408cc66dd6dbe14458082b51fdd"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "Michael F. Jacobson, Ph.D.",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "c285eccc76fe0835bfa4e4f3c1cec90bd5ccd06b128ecc22035f054a223b853f"
+          },
+          "attack": {
+            "text": "Michael F. Jacobson, Ph.D.",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "446ec736efea8a164ce50c530ca02f0a44c0d6ea41267d048ea77437aaa1f07a"
+          },
+          "noise": {
+            "text": "Michael F. Jacobson, Ph.D.",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "338476e72654f60a431facaefb8fa9a5ffa48f2d4a18982b1cbed4faa9ef9578"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "49432": {
+      "status": "OK",
+      "clean_text": "Laboratory research division",
+      "full": {
+        "clean": "Laboratory research division",
+        "attack": "Laboratory research division",
+        "noise": "Laboratory research division"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "Research Service Department",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2219,
+            "keep_hash": "c30e60073602bcb39b0cdd89b7f4d0ec38e10bbd7d95a0b3aee8725b9b2aad35"
+          },
+          "attack": {
+            "text": "WEIGHT",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2219,
+            "keep_hash": "64ee3d99cf0fd0edee2674baffef1daada5b87e4bf721af6f5f17451df6206c9"
+          },
+          "noise": {
+            "text": "Research Service Department",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2219,
+            "keep_hash": "9322448f301df94e563536c080e1f48efa22013ddbfb0fdd505d7ae78e4d7cdc"
+          },
+          "attack_strict": true,
+          "noise_strict": true,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.25": {
+          "clean": {
+            "text": "Laboratory research division",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "ba54afe6396c2fd9875f4f5c0f3ac3186296134e59755b5bca07c499bbee9248"
+          },
+          "attack": {
+            "text": "Research Service Department",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3699,
+            "keep_hash": "7315334c6ecc559a40ac00ff5bcc7537b051531563eba2120f2ada9e62ea6851"
+          },
+          "noise": {
+            "text": "Laboratory research division",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "3e28b01aa7bb07e2fd89fd91169ce5632587bc30b3b2a48732840ad7941b27da"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "Laboratory research division",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "ad1d6c55ec97a41fd3166479642b745ef691fc176450b1547a38dd543826bf6a"
+          },
+          "attack": {
+            "text": "THE SAMUEL ROBBETT INC",
+            "valid": true,
+            "anls": 0.0,
+            "k": 5179,
+            "keep_hash": "f82321643d2861b4a19c1592de5a751879358ba3635d782a4d968edf30889872"
+          },
+          "noise": {
+            "text": "Laboratory research division",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "dbb77bc0c675c133063025f24377cb36cf4e66214474e8d632648b708b83b695"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "Laboratory research division",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "ccb5aa3cd71b994a290f77be6450ca6d26ddd8a81ae1bdb43391d92cc7d44f41"
+          },
+          "attack": {
+            "text": "Laboratory research division",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "fb35b6dda48aac583e96e41a4694d3146eb6fc52c2077f29aa3904980f61af8a"
+          },
+          "noise": {
+            "text": "Laboratory research division",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "bf795cbe212401d7a55143c1b457b49ab90e5b0eddf6be94a34c8f2f6d05f2ed"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    }
+  }
+}

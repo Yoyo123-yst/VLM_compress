@@ -1,0 +1,258 @@
+[
+  {
+    "step": 0,
+    "png_sha256": "45eb9dbbbf750eac77178acd898379b91b06714f1e95cc17800884eddb2219c4",
+    "texts": {
+      "full": "0107-XX-XX-XX",
+      "fastv_0.25": "0107-XX-XX-XX",
+      "fastv_0.35": "0107-XX-XX-XX"
+    },
+    "margins": {
+      "0.25": 3.29353666305542,
+      "0.35": 3.8848073482513428
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "83e36129664ec9b891fd1666751adfea06ec90adf58d0e83461dbe10b44c6340"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "a4a87eb587d1dd32969cc3694e3802c33a7c86a65042f2c54575072de12c3548"
+      }
+    },
+    "selector": {
+      "step": 0,
+      "nonzero": 0,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 0,
+      "pixel_linf_uint8": 0.0,
+      "margin": 3.5891720056533813
+    }
+  },
+  {
+    "step": 10,
+    "png_sha256": "e1f232ed484bb5056b6749b3084a9f38928e2946cf110730d8f3fdcfa041bb3c",
+    "texts": {
+      "full": "0107-XX-XX-XX",
+      "fastv_0.25": "0107-XX-XX-XX",
+      "fastv_0.35": "0107-XX-XX"
+    },
+    "margins": {
+      "0.25": 2.3081774711608887,
+      "0.35": 2.759631395339966
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "a0bc1c9edd6ff2c752c547f136cc9359980b465507dc31e4ccdd2532e24e004e"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "31c8a96b1ace219e64477ee4027963d17a50bb0d2993a8442dd0f2acc2c9adfd"
+      }
+    },
+    "selector": {
+      "step": 10,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 2.5339044332504272
+    }
+  },
+  {
+    "step": 25,
+    "png_sha256": "be9e4aa6f6b43983e5740b6570d2001aea3235a20e9a882a64cbe0464bc05df8",
+    "texts": {
+      "full": "0107-XX-XX-XX",
+      "fastv_0.25": "010186-XX-XX-XX-XX-XX",
+      "fastv_0.35": "0107-XX-XX-XX"
+    },
+    "margins": {
+      "0.25": 1.0503833293914795,
+      "0.35": 1.8039121627807617
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "9dbb1c7e286db593ebaa4157f20d61eea689219af27f52950f33ade63f6e2676"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "da6ea82e5d74f9ff882987e040c8db03cc3cea1d01f94ac912809c198245bce2"
+      }
+    },
+    "selector": {
+      "step": 25,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 1.4271477460861206
+    }
+  },
+  {
+    "step": 50,
+    "png_sha256": "7cdb7216b6d34a5a401c665a364e669e9061b22e4b7c83b950004165c82727ee",
+    "texts": {
+      "full": "0107-XX-XX-XX",
+      "fastv_0.25": "0107XX0090",
+      "fastv_0.35": "00107-XX-X"
+    },
+    "margins": {
+      "0.25": 0.3378152847290039,
+      "0.35": 0.13593335449695587
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "ad7b1f20e5b9957100ef7cbe05120d4d23e83a4fdf726e6f23be4215fdf6d89e"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "eef1208dcbb0dc5d9bfc52f8086130d89939647fc916c50587387eca8e38be11"
+      }
+    },
+    "selector": {
+      "step": 50,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.2368743196129799
+    }
+  },
+  {
+    "step": 75,
+    "png_sha256": "18590832b831fa7dfae28ee65f238e9b5eba1590e1f908df771cb16ccb0110e8",
+    "texts": {
+      "full": "0107-XX-XX-XX",
+      "fastv_0.25": "0107-XXV000",
+      "fastv_0.35": "726984"
+    },
+    "margins": {
+      "0.25": 0.22998151183128357,
+      "0.35": -0.982480525970459
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "0cf1612e6f3451c700fdaad1ae3f6f0d6f5854310ddf65251cbb29aae987326c"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "8c7f8c4306d103b67a4420307e9ab1b48b36cf5e2f50fe1034d826e8fb814da4"
+      }
+    },
+    "selector": {
+      "step": 75,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.3762495070695877
+    }
+  },
+  {
+    "step": 100,
+    "png_sha256": "278e247f5fce418374354fdc9b3cc7d893ac7b30b85fa38a908af934e333b026",
+    "texts": {
+      "full": "0107-XX-XX-XX",
+      "fastv_0.25": "1234567890",
+      "fastv_0.35": "1234567890"
+    },
+    "margins": {
+      "0.25": 0.5200715661048889,
+      "0.35": 0.558516263961792
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "3fa0eadfd09f2054107da83d5c64a4b76ed15818c193e88a82d0faa0c18cbf96"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "0cdc366c43205f4e358feb4419cbfcdb619ed975efb7caf408d0230377090c2d"
+      }
+    },
+    "selector": {
+      "step": 100,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.5392939150333405
+    }
+  },
+  {
+    "step": 150,
+    "png_sha256": "fab5ea80541e165916ed16af52d0afc9a2d2c0f3fa413287ffcaa25f0d5f3206",
+    "texts": {
+      "full": "0107-XX-XX-XX",
+      "fastv_0.25": "Z73658",
+      "fastv_0.35": "Z832272"
+    },
+    "margins": {
+      "0.25": -1.6672453880310059,
+      "0.35": -1.976115107536316
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "4ed2acbd84bb142b0409aa14628682add15270af64d3aa2a15e3938bf93aaea4"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "61893e6841e641e1fa172cb5c7d0f85eba5c7f13d5f8aaf6cbcebf3034f140e3"
+      }
+    },
+    "selector": {
+      "step": 150,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -1.8216802477836609
+    }
+  },
+  {
+    "step": 200,
+    "png_sha256": "04552f0e0cbbe1117678b76611f8e2c6cc063cd0c859da6523e6eb062f52ca6d",
+    "texts": {
+      "full": "0107-XX-XX-XX",
+      "fastv_0.25": "0107-XX-XX-XX",
+      "fastv_0.35": "02629722"
+    },
+    "margins": {
+      "0.25": 2.502835750579834,
+      "0.35": -1.2041659355163574
+    },
+    "keeps": {
+      "0.25": {
+        "k": 3699,
+        "keep_hash": "0710f975da30eb6bd96f6ac318e05ebe66eb4e37e22d42a7129f25329fa569d9"
+      },
+      "0.35": {
+        "k": 5179,
+        "keep_hash": "6f74b2f844064dff4b0684ee397bd80b3fd7710e3cbc6b4bcb29fd6bca73d344"
+      }
+    },
+    "selector": {
+      "step": 200,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.6493349075317383
+    }
+  }
+]

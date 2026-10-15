@@ -1,0 +1,21 @@
+{
+  "directory": "week2_attack_v4_relaxed_full",
+  "model": "/home/yuesiting/autodl-tmp/models/llava-onevision-qwen2-7b-ov-hf",
+  "python": "/home/yuesiting/autodl-tmp/conda/envs/vattack/bin/python",
+  "v4_results_overwritten": false,
+  "gpus_used": {
+    "stage_a": [4],
+    "lambda025": [4, 6],
+    "holdout_lambda025": [4, 6],
+    "holdout_lambda1": [0, 1]
+  },
+  "gpus_left_alone": [2, 3, 5, 7],
+  "decisions": [
+    "STAGE_A_PASS",
+    "RELAXED_GO_TO_HOLDOUT",
+    "HOLDOUT_SUPPORTS_STRICT_COMP_ONLY"
+  ],
+  "stage_c_run": false,
+  "only_change_from_v4": "lambda_full 1.0 -> 0.25, same frozen scales",
+  "logs": "week2_attack_v4_relaxed_full/logs"
+}

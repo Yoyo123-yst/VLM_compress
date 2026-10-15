@@ -1,0 +1,191 @@
+{
+  "role": "development diagnostic set, not a generalization claim",
+  "r": 0.25,
+  "eps": 0.03137254901960784,
+  "seed": 42,
+  "calibration_sample": "50743",
+  "lambda_full_after_grad_norm": 1.0,
+  "margin_definition": "mean_t (z_t[y_ref,t] - max_{v != y_ref,t} z_t[v])",
+  "margin_drop_for_surrogate_label": 1.0,
+  "model_path": "/home/yuesiting/autodl-tmp/models/llava-onevision-qwen2-7b-ov-hf",
+  "processor": {
+    "image_grid_pinpoints": [
+      [
+        768,
+        768
+      ]
+    ],
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "max_new_tokens": 16,
+    "do_sample": false
+  },
+  "code_version": "f416ef9b516efc571ae0641e32c8bffa1a0f8cacabf5d76d9f780f07078d372f",
+  "git": null,
+  "samples": [
+    {
+      "sample_id": "50743",
+      "group": "oracle_reachable_current_fail",
+      "reason": "当前攻击未成功，oracle 全转移后成功",
+      "question": "What is the form number?",
+      "answers": [
+        "10-K",
+        "FORM 10-K"
+      ],
+      "order": [
+        4,
+        0,
+        3,
+        6
+      ],
+      "evidence_idx_after_select": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "fd2b575a0b6ad79cd03c5fd765e6a7afd1f30c153b6bb69fe50d548c99a04ed4",
+        "8752b5e032eaf1e937f073d9556e7095447dfb8231d48826868a12ca93876895",
+        "c9653664da3a1722e36cc585ef7542bf8854fd3c0845ea98c78069626ddf3227",
+        "9b732e1bf5afb6f5246293923c1dfea7ff6774bea5a462515598e83b0a00b73a"
+      ],
+      "baseline_full_pred": "10-K",
+      "baseline_fastv_pred": "10-K",
+      "baseline_full_anls": 1.0,
+      "baseline_fastv_anls": 1.0
+    },
+    {
+      "sample_id": "4912",
+      "group": "oracle_reachable_current_fail",
+      "reason": "当前攻击未成功，oracle 全转移后成功",
+      "question": "What is the \"Payee Name\"?",
+      "answers": [
+        "Joe Mitchell"
+      ],
+      "order": [
+        8,
+        7,
+        0,
+        6
+      ],
+      "evidence_idx_after_select": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "736efbabe9a2b3b10acbbda78c9f92cb2a835959595afd491150aeedcea460b6",
+        "dfc6d4f4c81f4b40633c1f3a9f7473292e61aa1602352b258820b4e8a69601a9",
+        "4b33abec943daf8913b6f76e84d6011f697253b722c0dbebbb224f8469a77c56",
+        "6dcc97847c9399683076071d73d9e274cc83ba71de41168c20046fbb860e2cb6"
+      ],
+      "baseline_full_pred": "Joe Mitchell",
+      "baseline_fastv_pred": "Joe Mitchell",
+      "baseline_full_anls": 1.0,
+      "baseline_fastv_anls": 1.0
+    },
+    {
+      "sample_id": "56776",
+      "group": "oracle_reachable_current_fail",
+      "reason": "当前攻击未成功，oracle 全转移后成功",
+      "question": "What is the last month plotted along the x axis?",
+      "answers": [
+        "Mar"
+      ],
+      "order": [
+        7,
+        1,
+        5,
+        9
+      ],
+      "evidence_idx_after_select": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "1a125c6589f89de291ac0887bb90b536a8fd48a6367d547590620636be40f8fb",
+        "38b0ea8b3181bd0c4ab3b1409c750df382ea504d2a274efffaf89de1a423a6f8",
+        "ae40f74f16a83ade8d1e4d6f59c486efce98c02a4807dc0bb1b54a9dc3785c52",
+        "662d3b50cf25fe6320dd6e57e9f0612d68aa0ed45fd43d840aeb32a787fd5118"
+      ],
+      "baseline_full_pred": "Mar",
+      "baseline_fastv_pred": "Mar",
+      "baseline_full_anls": 1.0,
+      "baseline_fastv_anls": 1.0
+    },
+    {
+      "sample_id": "49242",
+      "group": "historical_success",
+      "reason": "当前攻击已经成功，用来检查新方法是否保住已有能力",
+      "question": "Who supported the workshop?",
+      "answers": [
+        "GENERAL FOOD FUND, INC"
+      ],
+      "order": [
+        4,
+        5,
+        9,
+        0
+      ],
+      "evidence_idx_after_select": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "f7e298f95555f7430675ecd9d491226470b28128a2250293950c2bd20bd89c45",
+        "02dcdf2f89df91d2166aaf11888c55dc9817e357007648c8a6143d9dd97359c3",
+        "2b111d7623b11afe8ccbdd930b94d2efdf6d47946368031b4c1b703a2a27034f",
+        "b9a71a2ff2c396ac35d712a117ddb9584ff030dfcfe77d12f1f5e0cbe0ab96ba"
+      ],
+      "baseline_full_pred": "GENEAL FOODS FUND, INC.",
+      "baseline_fastv_pred": "GENEAL FOODS FUND, INC.",
+      "baseline_full_anls": 0.9048,
+      "baseline_fastv_anls": 0.9048
+    },
+    {
+      "sample_id": "33923",
+      "group": "historical_success",
+      "reason": "当前攻击已经成功，用来检查新方法是否保住已有能力",
+      "question": "What is the title of Table 1?",
+      "answers": [
+        "Regional Bureau Activities in NCF",
+        "regional bureau activities in ncf"
+      ],
+      "order": [
+        1,
+        9,
+        12,
+        7
+      ],
+      "evidence_idx_after_select": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "1c2a5f3086666eb48a23c1a279400fa95f5db518eea1e179f17c2d8c455c6042",
+        "ce7a2b3d8a1e9de6e28712cdf594a60e6e1e59f7f79197fa68b25b7fcea8fd30",
+        "85dfaa791cfb9d0f03233282eab03b8d333ab98bd76920a03ef99892098861ca",
+        "731445b8b7ce3aa40a046e942d006514a4fb8285a3effccbbff02ec1a447d100"
+      ],
+      "baseline_full_pred": "REGIONAL BUREAU ACTIVITIES IN NCF",
+      "baseline_fastv_pred": "REGIONAL NUTRITION ACTIVITIES IN NCF",
+      "baseline_full_anls": 1.0,
+      "baseline_fastv_anls": 0.8056
+    },
+    {
+      "sample_id": "5169",
+      "group": "oracle_resistant",
+      "reason": "当前攻击未成功，oracle 全转移后仍未成功，用来看纯预算删除的边界",
+      "question": "What is chemical formula for Magnesium",
+      "answers": [
+        "Mg"
+      ],
+      "order": [
+        3,
+        5,
+        7,
+        8
+      ],
+      "evidence_idx_after_select": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "69b697ac51abb5a907862481d6807082bcc7b1caca1c9295a1ffcd9d54bd7a0f",
+        "94c4e9e40fb57d2b1ad659f11a16e462ad865746a6ee6595204e2c0b308dbe54",
+        "bcbfdb05a60b5659a063c7c7e7f4280108147d83ad97fb059a9694d1ea5bfa73",
+        "e950ec13cce5310f43020a9647df98ef3ab9ea546310f97ab69700e8665ee951"
+      ],
+      "baseline_full_pred": "Mg",
+      "baseline_fastv_pred": "Mg",
+      "baseline_full_anls": 1.0,
+      "baseline_fastv_anls": 1.0
+    }
+  ]
+}

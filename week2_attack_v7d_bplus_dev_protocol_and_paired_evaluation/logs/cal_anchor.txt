@@ -1,0 +1,7 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:09,  3.31s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.21s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:02,  2.93s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  1.98s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:09<00:00,  2.39s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"term": "L_native_soft_anchor", "probe": "delta0", "grad_l2": 8.235486030578613}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"term": "L_native_soft_anchor", "probe": "plus", "grad_l2": 7.690011978149414}

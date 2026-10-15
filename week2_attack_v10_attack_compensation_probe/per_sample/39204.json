@@ -1,0 +1,230 @@
+{
+  "sample_id": "39204",
+  "clean_text": "FOOD TECHNOLOGY",
+  "attack_chosen": {
+    "step": 75,
+    "nonzero": 1,
+    "output_valid": 1,
+    "linf_ok": 1,
+    "pixel_linf_uint8": 0.03137254901960784,
+    "margin": -0.5925970003008842,
+    "replay": 1
+  },
+  "status": "NO_VALID_COMPENSATED_CANDIDATE",
+  "comp_chosen": null,
+  "comp_accepted": 100,
+  "comp_rejected": 0,
+  "attack_ref_margin": -0.5925970003008842,
+  "endpoints": {
+    "CLEAN": {
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 6.450000286102295,
+      "full_soft": 5.985802173614502,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 7398,
+          "keep_hash": "de6a8bc0fd6716061f25e0b8dec889849ef321f783065f8ca07a03d9fe5f3afc",
+          "hook_match": 1,
+          "hard": 6.487500190734863,
+          "soft": 5.999279975891113,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 5179,
+          "keep_hash": "3c9b77cad13aef3a48de1d67ec6602bc374e46642c135657d49022b6d06df560",
+          "hook_match": 1,
+          "hard": 6.550000190734863,
+          "soft": 6.174749374389648,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 3699,
+          "keep_hash": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+          "hook_match": 1,
+          "hard": 6.400000095367432,
+          "soft": 6.0717387199401855,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 2219,
+          "keep_hash": "7145daa03b4ab725f43b05c25b61d7b7e285177aa1aa6e0bcfb026640f4f5b5a",
+          "hook_match": 1,
+          "hard": 2.3333334922790527,
+          "soft": 1.9742095470428467,
+          "replay": true,
+          "endpoint_failure": false
+        }
+      },
+      "aux_sha256": "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a",
+      "other_page_sha256": [
+        "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+        "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+        "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+      ],
+      "norms": {
+        "linf_uint8": 0,
+        "linf": 0.0,
+        "l1": 0.0,
+        "l2": 0.0
+      }
+    },
+    "ATTACK_ONLY": {
+      "full_text": "Food Technology",
+      "full_tokens": [
+        26746,
+        11791,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 0.6666666865348816,
+      "full_soft": 0.12683424353599548,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 7398,
+          "keep_hash": "afb164c489c31edd77329d2f7c4224a4800ec81f0df9fade310f94804a18ce35",
+          "hook_match": 1,
+          "hard": 2.3375000953674316,
+          "soft": 1.880584955215454,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "food technology q000",
+          "tokens": [
+            13915,
+            5440,
+            2804,
+            15,
+            15,
+            15,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.75,
+          "k": 5179,
+          "keep_hash": "298d704e0950a957d3fee91fe23ae1b9a18fbc366ac4fe959275e24ccc51b6a2",
+          "hook_match": 1,
+          "hard": 0.4821428656578064,
+          "soft": -1.017595887184143,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "Food Technology",
+          "tokens": [
+            26746,
+            11791,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 3699,
+          "keep_hash": "e260f453a02616b3741b1118e5cb1380cf2fd47b48ca4d8b30175db91ced0823",
+          "hook_match": 1,
+          "hard": 1.0625,
+          "soft": -0.2192119061946869,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 2219,
+          "keep_hash": "f06fe4e00c580a51bffbcfab144ccc12cfa0a246406dfc1af64938a824c3cab5",
+          "hook_match": 1,
+          "hard": 1.8125,
+          "soft": 1.0036265850067139,
+          "replay": true,
+          "endpoint_failure": false
+        }
+      },
+      "aux_sha256": "2f597d72b9c83f280710c29d0828bd0dd0b6debf9a6b555fa7cd4d78106a61a6",
+      "other_page_sha256": [
+        "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+        "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+        "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 10307191.0,
+        "l2": 8539.043564709105
+      }
+    }
+  },
+  "counters": {
+    "forward": 5913,
+    "backward": 300,
+    "generate": 1070,
+    "fastv": 1040
+  },
+  "elapsed_sec": 3280.666820114013,
+  "peak_memory_mib": 30766.55859375
+}

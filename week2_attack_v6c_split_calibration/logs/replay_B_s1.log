@@ -1,0 +1,19 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:18,  6.04s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.19s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.41s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  4.76s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  5.02s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "47450", "ok": true, "status": "REPLAY_OK", "pred_full": "Dr. or Mrs. William J. Darby", "pred_fastv": "HILLBORG BIANCH"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "62941", "ok": true, "status": "REPLAY_OK", "pred_full": "October 13-31, 1979", "pred_fastv": "11/30/99"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "39204", "ok": true, "status": "REPLAY_OK", "pred_full": "FOOD TECHNOLOGY", "pred_fastv": "Food"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "6194", "ok": true, "status": "REPLAY_OK", "pred_full": "0107-XX-XX-XX", "pred_fastv": "771688"}

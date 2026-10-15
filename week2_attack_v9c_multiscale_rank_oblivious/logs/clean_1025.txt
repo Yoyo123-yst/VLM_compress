@@ -1,0 +1,41 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  1.60it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.51it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  1.61it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  2.34it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.99it/s]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "1025", "family": "BasePreservingAdaptivePool", "ratio": 0.25, "offset": 0, "pass": true, "anls": 0.75, "text": "Dr. C. B. B. MD"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "1025", "family": "BasePreservingAdaptivePool", "ratio": 0.35, "offset": 0, "pass": true, "anls": 0.75, "text": "Dr. C. B. B. MD"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "1025", "family": "BasePreservingAdaptivePool", "ratio": 0.5, "offset": 0, "pass": true, "anls": 0.6666666666666667, "text": "Dr. C. Baur"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "1025", "family": "BasePreservingJitteredPool", "ratio": 0.25, "offset": 0, "pass": true, "anls": 0.75, "text": "Dr. C. B. B. MD"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "1025", "family": "BasePreservingJitteredPool", "ratio": 0.25, "offset": 1, "pass": true, "anls": 0.75, "text": "Dr. C. B. B. MD"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "1025", "family": "BasePreservingJitteredPool", "ratio": 0.25, "offset": 2, "pass": false, "anls": 0.0, "text": "Dr. C. B. BROWN"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "1025", "family": "BasePreservingJitteredPool", "ratio": 0.35, "offset": 0, "pass": true, "anls": 0.75, "text": "Dr. C. B. M.D."}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "1025", "family": "BasePreservingJitteredPool", "ratio": 0.35, "offset": 1, "pass": true, "anls": 0.75, "text": "Dr. C. B. M.D."}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "1025", "family": "BasePreservingJitteredPool", "ratio": 0.35, "offset": 2, "pass": true, "anls": 0.75, "text": "Dr. C. B. B. MD"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "1025", "family": "BasePreservingJitteredPool", "ratio": 0.5, "offset": 0, "pass": false, "anls": 0.0, "text": "Dr. C. B. Baur"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "1025", "family": "BasePreservingJitteredPool", "ratio": 0.5, "offset": 1, "pass": false, "anls": 0.0, "text": "Dr. C. B. Baur"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample": "1025", "family": "BasePreservingJitteredPool", "ratio": 0.5, "offset": 2, "pass": true, "anls": 0.7857142857142857, "text": "Dr. C. B. Baur MD"}

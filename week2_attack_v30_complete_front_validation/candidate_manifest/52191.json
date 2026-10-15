@@ -1,0 +1,320 @@
+{
+  "sample_id": "52191",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "0ee3f183a12ed5b2cfcee4480d3888f98b108b656ecd49477eb6533ef7dd429c",
+  "full_clean": {
+    "text_a": "none",
+    "text_b": "none",
+    "tokens_a": [
+      6697,
+      151645
+    ],
+    "tokens_b": [
+      6697,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      4064,
+      151645
+    ],
+    "text": "None",
+    "anls": 1.0,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "3112d4f9cfc6c77bb865a59dbd9a85591df76266defc8c86b485999beff4c24b",
+    "k": 3699,
+    "second_keep_hash": "3112d4f9cfc6c77bb865a59dbd9a85591df76266defc8c86b485999beff4c24b",
+    "second_k": 3699
+  },
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "3112d4f9cfc6c77bb865a59dbd9a85591df76266defc8c86b485999beff4c24b",
+    "reference_keep_hash": "3112d4f9cfc6c77bb865a59dbd9a85591df76266defc8c86b485999beff4c24b",
+    "fast_keep_exact": true,
+    "k": 3699,
+    "reference_k": 3699
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 0,
+      "target_id": 4064,
+      "target_piece": "None",
+      "candidate_id": 9117,
+      "candidate_piece": "PRO",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 2.25,
+      "content_priority": 1,
+      "fast_gradient_l1": 12413.90625,
+      "fast_gradient_l2": 45.96223449707031,
+      "estimated_fast_flip_linf": 0.00018124834799682814,
+      "full_clean_hard_min": 0.0625,
+      "full_probe_hard_min": 0.0625,
+      "full_local_capacity_linf": 0.16176470588235295,
+      "full_local_margin_available": true,
+      "reachability_ratio": 892.5030637254903,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "3112d4f9cfc6c77bb865a59dbd9a85591df76266defc8c86b485999beff4c24b",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          9117,
+          35,
+          30851,
+          151645
+        ],
+        "text": "PROD LINE",
+        "keep_hash": "cccb17263d01c770a4f5addfcd5d7461e9838fc9cae0ffffc108cb1bfdc24b1d",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "prodline",
+      "complete_lexical_similarity_to_clean": 0.5,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          9117,
+          35,
+          30851,
+          151645
+        ],
+        "text": "PROD LINE",
+        "keep_hash": "cccb17263d01c770a4f5addfcd5d7461e9838fc9cae0ffffc108cb1bfdc24b1d",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 4064,
+      "target_piece": "None",
+      "candidate_id": 17,
+      "candidate_piece": "2",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 2.625,
+      "content_priority": 1,
+      "fast_gradient_l1": 13381.5625,
+      "fast_gradient_l2": 43.26897048950195,
+      "estimated_fast_flip_linf": 0.0001961654328483688,
+      "full_clean_hard_min": 0.0625,
+      "full_probe_hard_min": 0.0,
+      "full_local_capacity_linf": 0.00392156862745098,
+      "full_local_margin_available": true,
+      "reachability_ratio": 19.99112978524743,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "3112d4f9cfc6c77bb865a59dbd9a85591df76266defc8c86b485999beff4c24b",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          17,
+          15,
+          15,
+          151645
+        ],
+        "text": "200",
+        "keep_hash": "3854eb9a4929e6f21db06de1f34a32f1d04169474e9bb70f983a7fe8c2cb90d8",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "200",
+      "complete_lexical_similarity_to_clean": 0.0,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          17,
+          15,
+          15,
+          151645
+        ],
+        "text": "200",
+        "keep_hash": "3854eb9a4929e6f21db06de1f34a32f1d04169474e9bb70f983a7fe8c2cb90d8",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 4064,
+      "target_piece": "None",
+      "candidate_id": 1336,
+      "candidate_piece": "Pro",
+      "candidate_rank_at_position": 8,
+      "clean_fast_gap": 3.8125,
+      "content_priority": 1,
+      "fast_gradient_l1": 14313.1083984375,
+      "fast_gradient_l2": 48.82042694091797,
+      "estimated_fast_flip_linf": 0.000266364223191113,
+      "full_clean_hard_min": 0.0625,
+      "full_probe_hard_min": 0.0,
+      "full_local_capacity_linf": 0.00392156862745098,
+      "full_local_margin_available": true,
+      "reachability_ratio": 14.722580159112825,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "3112d4f9cfc6c77bb865a59dbd9a85591df76266defc8c86b485999beff4c24b",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          1336,
+          2074,
+          151645
+        ],
+        "text": "Procol",
+        "keep_hash": "c2e9acf6955c8d7668c1ea13c1e01b65289b89fb6f6ef39d2df6bb90df5ef697",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "procol",
+      "complete_lexical_similarity_to_clean": 0.2,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          1336,
+          2074,
+          151645
+        ],
+        "text": "Procol",
+        "keep_hash": "c2e9acf6955c8d7668c1ea13c1e01b65289b89fb6f6ef39d2df6bb90df5ef697",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 4064,
+      "target_piece": "None",
+      "candidate_id": 70941,
+      "candidate_piece": "Solar",
+      "candidate_rank_at_position": 9,
+      "clean_fast_gap": 3.9375,
+      "content_priority": 1,
+      "fast_gradient_l1": 22072.53125,
+      "fast_gradient_l2": 145.46810913085938,
+      "estimated_fast_flip_linf": 0.00017838914601151602,
+      "full_clean_hard_min": 0.0625,
+      "full_probe_hard_min": -0.0625,
+      "full_local_capacity_linf": 0.00196078431372549,
+      "full_local_margin_available": true,
+      "reachability_ratio": 10.991612200435728,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "3112d4f9cfc6c77bb865a59dbd9a85591df76266defc8c86b485999beff4c24b",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          70941,
+          4802,
+          151645
+        ],
+        "text": "Solar energy",
+        "keep_hash": "92cac21b6ea516d0a26f06c4b3ae86db9129aa8c991e559ebe0d676f89f1ab6f",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "solarenergy",
+      "complete_lexical_similarity_to_clean": 0.4,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          70941,
+          4802,
+          151645
+        ],
+        "text": "Solar energy",
+        "keep_hash": "92cac21b6ea516d0a26f06c4b3ae86db9129aa8c991e559ebe0d676f89f1ab6f",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 6,
+    "screen_admitted_after_limit": 4,
+    "screen_rejected": 2,
+    "estimated": 4
+  },
+  "rejected_proposals": [
+    {
+      "position": 0,
+      "target_id": 4064,
+      "target_piece": "None",
+      "candidate_id": 2753,
+      "candidate_piece": "No",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 2.125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          2753,
+          151645
+        ],
+        "text": "No",
+        "keep_hash": "4c742c31a3c158ae0a39144ba327c03ef831550e4aa521e60f89f869b263343f",
+        "k": 3699
+      },
+      "complete_lexical_key": "no",
+      "complete_lexical_similarity_to_clean": 0.6666666666666666,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 4064,
+      "target_piece": "None",
+      "candidate_id": 16,
+      "candidate_piece": "1",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 3.25,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          16,
+          151645
+        ],
+        "text": "1",
+        "keep_hash": "548116d41d3b8942575edc0d1a08edf9601430c6501cf65336cdf2aaae902785",
+        "k": 3699
+      },
+      "complete_lexical_key": "1",
+      "complete_lexical_similarity_to_clean": 0.0,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    }
+  ],
+  "candidate_generation_wall_seconds": 57.92,
+  "candidate_generation_protocol": "v29 clean-only cap: at most 24 raw branches and 6 complete continuations"
+}

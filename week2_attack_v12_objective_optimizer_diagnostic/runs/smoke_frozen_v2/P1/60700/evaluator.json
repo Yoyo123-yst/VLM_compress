@@ -1,0 +1,70 @@
+{
+  "status": "DONE",
+  "sample_id": "60700",
+  "group": "P1",
+  "tag": "smoke_frozen_v2",
+  "step": 3,
+  "png": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v12_objective_optimizer_diagnostic/runs/smoke_frozen_v2/P1/60700/step_003.png",
+  "png_sha256": "2aeea118497978b3bce05b0a46f7d30c5507f0169f54044539377d66bfbf2767",
+  "full_text": "PPBS",
+  "full_text_replay": "PPBS",
+  "full_text_exact": 1,
+  "full_token_exact": 1,
+  "full_replay": 1,
+  "linf_uint8": 3,
+  "ratios": {
+    "0.15": {
+      "text": "PPBS",
+      "tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "anls": 1.0,
+      "valid": true,
+      "k": 1665,
+      "keep_hash": "41c31b2ecd4278d64de684aece4c613c6425f18345a9a80444394c8dba318569",
+      "endpoint_failure": false
+    },
+    "0.25": {
+      "text": "Ppbs",
+      "tokens": [
+        47,
+        79,
+        1279,
+        151645
+      ],
+      "anls": 1.0,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "6b50b2c334456224cf8b6e82f5a00b1cd3bfe08e2f297e239d33c25f10acde6e",
+      "endpoint_failure": false
+    },
+    "0.35": {
+      "text": "PPBS",
+      "tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "anls": 1.0,
+      "valid": true,
+      "k": 3884,
+      "keep_hash": "bbd118f6e3b3f340db9e234292c20e50718bd233122e0cbc1de0b04aa761332a",
+      "endpoint_failure": false
+    },
+    "0.50": {
+      "text": "PPBS",
+      "tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "anls": 1.0,
+      "valid": true,
+      "k": 5548,
+      "keep_hash": "4f9f394b24eef91609ef5f0951b9fd611ddcb08fb201ee61439a4373c97e7eec",
+      "endpoint_failure": false
+    }
+  }
+}

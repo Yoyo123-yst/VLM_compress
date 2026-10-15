@@ -1,0 +1,78 @@
+CG-VSF/CGVSF_P0_FROZEN.json                        |   2 +-
+ CG-VSF/README.md                                   |   2 +
+ CG-VSF/out/p0a/RUN_LOG.md                          |   8 +-
+ CG-VSF/scripts/night_watch.py                      |   8 +-
+ CG-VSF/scripts/run_p0a.py                          |   2 +-
+ CG-VSF/scripts/run_p0b.py                          |   2 +-
+ CG-VSF/src/cgvsf/protocol.py                       |   2 +-
+ CG-VSF/tests/test_cgvsf_cpu.py                     |   2 +-
+ MSC/scripts/advance_stage.py                       |   0
+ MSC/scripts/check_g0.py                            |   0
+ MSC/scripts/night_watch.py                         |   0
+ MSC/scripts/render_report.py                       |   0
+ MSC/scripts/run_p00.py                             |   0
+ MSC/scripts/run_p01.py                             |   0
+ MSC/tests/test_msc_cpu.py                          |   0
+ TraceFlip/HANDOFF.md                               |  16 +-
+ TraceFlip/README.md                                |   6 +-
+ TraceFlip/TRACEFLIP_FROZEN.json                    |   2 +-
+ TraceFlip/diag_inmodel_vs_decode.py                |   2 +-
+ TraceFlip/out/final_alignment_check.py             |   2 +-
+ TraceFlip/out/forensic_paths.py                    |   2 +-
+ TraceFlip/out/forensic_tpos.py                     |   2 +-
+ TraceFlip/run_gateflip_probe.py                    |   2 +-
+ TraceFlip/run_traceflip_persample.py               |   2 +-
+ TraceFlip/run_traceflip_pilot.py                   |   2 +-
+ TraceFlip/run_traceflip_smoke.py                   |   2 +-
+ V-CachePoll/configs/coco_plus_p0.yaml              |  10 +-
+ V-CachePoll/configs/coco_plus_p2.yaml              |  20 +-
+ V-CachePoll/configs/coco_plus_p3.yaml              |  20 +-
+ V-CachePoll/configs/p0.yaml                        |  10 +-
+ V-CachePoll/configs/p1.yaml                        |  14 +-
+ V-CachePoll/configs/p10.yaml                       |  10 +-
+ V-CachePoll/configs/p11.yaml                       |  16 +-
+ V-CachePoll/configs/p2.yaml                        |  20 +-
+ V-CachePoll/configs/p3.yaml                        |  20 +-
+ V-CachePoll/configs/p4.yaml                        |  20 +-
+ V-CachePoll/configs/p5.yaml                        |  20 +-
+ V-CachePoll/configs/p6.yaml                        |  20 +-
+ V-CachePoll/configs/p7.yaml                        |  20 +-
+ V-CachePoll/configs/p9.yaml                        |  20 +-
+ V-CachePoll/out/extend/inventory.json              |  26 +-
+ V-CachePoll/out/llava_attack.json                  |   2 +-
+ V-CachePoll/out/llava_capability.json              |   2 +-
+ V-CachePoll/out/llava_probe.json                   |   2 +-
+ V-CachePoll/out/p2_screen.json                     | 128 ++---
+ V-CachePoll/out/p5/pairs_m1.json                   |  48 +-
+ V-CachePoll/out/p5/pairs_m1_dupB.json              |   8 +-
+ V-CachePoll/out/p5/pairs_m2.json                   |  64 +--
+ V-CachePoll/out/p5/pairs_m2_dupB.json              |   8 +-
+ V-CachePoll/out/p5/pairs_m4.json                   |  96 ++--
+ V-CachePoll/out/p5/pairs_m4_dupB.json              |  12 +-
+ V-CachePoll/out/p5/pairs_m8.json                   | 160 +++---
+ V-CachePoll/out/p5/pairs_m8_dupB.json              |  20 +-
+ V-CachePoll/scripts/run_extend.py                  |   0
+ outputs/p0_5/mini/A_to_B.json                      |  50 --
+ outputs/p0_5/mini/P0_5_RESULTS.md                  |  77 ---
+ outputs/p0_5/mini/stage_A.json                     | 231 ---------
+ outputs/p0_5/mini/stage_B.json                     |  68 ---
+ outputs/p0_5/mini/stage_C.json                     | 563 ---------------------
+ outputs/p0_qwen/P0_FREEZE.json                     |  79 ---
+ outputs/p0_qwen/P0_QWEN_CLOSEOUT.md                |  53 --
+ outputs/p0_qwen/full/native/FAIL_DIAGNOSIS.md      |  66 ---
+ outputs/p0_qwen/full/native/P0_QWEN_RESULTS.md     |  80 ---
+ outputs/p0_qwen/full/native/P0_S_RESULTS.md        |  62 ---
+ outputs/p0_qwen/full/native/attack.json            |  40 --
+ outputs/p0_qwen/full/native/attack_ckpt_smoke.json |  23 -
+ outputs/p0_qwen/full/native/integrity.json         |  37 --
+ outputs/p0_qwen/full/native/p0s_splits.json        |  64 ---
+ outputs/p0_qwen/full/native/provenance.json        |  18 -
+ outputs/p0_qwen/full/native/u_stability.json       |  43 --
+ scripts/n0_after_boot.sh                           |   0
+ scripts/p0_qwen_attack_after_boot.sh               |   0
+ scripts/p0_qwen_fail_diag_after_boot.sh            |   0
+ scripts/p0_qwen_p0s_after_boot.sh                  |   0
+ scripts/run_p0_qwen_fail_diag.py                   |   0
+ scripts/run_p0_qwen_safety_axes.py                 |   0
+ scripts/smoke_qwen.py                              |   6 +-
+ 77 files changed, 446 insertions(+), 1998 deletions(-)

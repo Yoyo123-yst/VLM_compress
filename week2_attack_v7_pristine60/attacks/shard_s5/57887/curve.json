@@ -1,0 +1,241 @@
+[
+  {
+    "sample_id": "57887",
+    "step": 0,
+    "seed": 2980268805,
+    "pred_full": "1 mg",
+    "pred_fastv": "1mg",
+    "anls_full": 0.75,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": 3.375,
+    "L_comp": 3.3541667461395264,
+    "L_soft_full": 0.69140625,
+    "keep_hash": "8549b3764d0451ce1bc7b89fc3afba497c67f87f5ced85cf705e540f4e21f68b",
+    "k": 1850,
+    "aux_share": 0.3605405405405405,
+    "evidence_share": 0.6394594594594595,
+    "page_keep_counts": [
+      667,
+      1183
+    ],
+    "page_shares": [
+      0.3605405405405405,
+      0.6394594594594595
+    ],
+    "linf": 0.0,
+    "png": "checkpoints/step_000.png",
+    "png_sha256": "da240007d20abbe34b4430970decb0a7406269bf193940d09e4e70cc166df537",
+    "protected_ok": true,
+    "grad_norm": 45.99186706542969
+  },
+  {
+    "sample_id": "57887",
+    "step": 10,
+    "seed": 2980268805,
+    "pred_full": "1 mg",
+    "pred_fastv": "1 mg",
+    "anls_full": 0.75,
+    "anls_fastv": 0.75,
+    "output_valid": true,
+    "margin": 3.1666667461395264,
+    "L_comp": 3.0416667461395264,
+    "L_soft_full": 0.419921875,
+    "keep_hash": "66aee8c6b65c3e34b13866f50662261bb84d710d0725c4558ffdf28d6526f7b6",
+    "k": 1850,
+    "aux_share": 0.3535135135135135,
+    "evidence_share": 0.6464864864864864,
+    "page_keep_counts": [
+      654,
+      1196
+    ],
+    "page_shares": [
+      0.3535135135135135,
+      0.6464864864864864
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_010.png",
+    "png_sha256": "7d381734df0cb6b9c0c3c5983e21a1a214f4f66ed08b3f389a507dca8cad9469",
+    "protected_ok": true,
+    "grad_norm": 9.723736763000488
+  },
+  {
+    "sample_id": "57887",
+    "step": 25,
+    "seed": 2980268805,
+    "pred_full": "1 mg",
+    "pred_fastv": "1mg",
+    "anls_full": 0.75,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": 2.2916667461395264,
+    "L_comp": 2.3125,
+    "L_soft_full": 0.296875,
+    "keep_hash": "b54ae6cc1e070e766dd9d5dce176ba36ac6379c70b8b4780d4c666246d7045c2",
+    "k": 1850,
+    "aux_share": 0.3567567567567568,
+    "evidence_share": 0.6432432432432432,
+    "page_keep_counts": [
+      660,
+      1190
+    ],
+    "page_shares": [
+      0.3567567567567568,
+      0.6432432432432432
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_025.png",
+    "png_sha256": "1a05492710d1a59e734dc1607db4035a42e69fa3e5e9b81275bdd79d7a1c2860",
+    "protected_ok": true,
+    "grad_norm": 4.895197868347168
+  },
+  {
+    "sample_id": "57887",
+    "step": 50,
+    "seed": 2980268805,
+    "pred_full": "1 mg",
+    "pred_fastv": "Trimegestone (1mg)",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": 0.7083333730697632,
+    "L_comp": 0.5625,
+    "L_soft_full": 0.140625,
+    "keep_hash": "87dbffba2109169e6a3fc84d97d981da460a90e56e83131f04c6120784485e9d",
+    "k": 1850,
+    "aux_share": 0.35621621621621624,
+    "evidence_share": 0.6437837837837838,
+    "page_keep_counts": [
+      659,
+      1191
+    ],
+    "page_shares": [
+      0.35621621621621624,
+      0.6437837837837838
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_050.png",
+    "png_sha256": "e752adeb9795e85f2e75a5036db152d1f5dad3120be1bdc09206c5d23b9d7b43",
+    "protected_ok": true,
+    "grad_norm": 12.295462608337402
+  },
+  {
+    "sample_id": "57887",
+    "step": 75,
+    "seed": 2980268805,
+    "pred_full": "1 mg",
+    "pred_fastv": "Trimegestone (1mg)",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -1.4583333730697632,
+    "L_comp": -1.4791667461395264,
+    "L_soft_full": 0.07080078125,
+    "keep_hash": "ce94f78802d8a03ae36216bcc599c7a556b15fd789ceca2dd06839ffe1de21c9",
+    "k": 1850,
+    "aux_share": 0.3627027027027027,
+    "evidence_share": 0.6372972972972973,
+    "page_keep_counts": [
+      671,
+      1179
+    ],
+    "page_shares": [
+      0.3627027027027027,
+      0.6372972972972973
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_075.png",
+    "png_sha256": "bbec2a22917bfdd41f316b2e857164fb1a937863a74006ce6e09c0031b355f0d",
+    "protected_ok": true,
+    "grad_norm": 11.276016235351562
+  },
+  {
+    "sample_id": "57887",
+    "step": 100,
+    "seed": 2980268805,
+    "pred_full": "1 mg",
+    "pred_fastv": "Trimegestone (1mg)",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -2.4791667461395264,
+    "L_comp": -2.4791667461395264,
+    "L_soft_full": 0.0830078125,
+    "keep_hash": "bb87d86e8d6a298c48ddcfaff03061469fe3312d095e4709d9cfa643dc4a9309",
+    "k": 1850,
+    "aux_share": 0.3654054054054054,
+    "evidence_share": 0.6345945945945946,
+    "page_keep_counts": [
+      676,
+      1174
+    ],
+    "page_shares": [
+      0.3654054054054054,
+      0.6345945945945946
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_100.png",
+    "png_sha256": "8720b7258393786cfd1642a4fac0c73ccc5cf552d9710e4c1e74282e0a0595d5",
+    "protected_ok": true,
+    "grad_norm": 14.593295097351074
+  },
+  {
+    "sample_id": "57887",
+    "step": 150,
+    "seed": 2980268805,
+    "pred_full": "1 mg",
+    "pred_fastv": "Trimegestone (1mg)",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -3.7083334922790527,
+    "L_comp": -3.8125,
+    "L_soft_full": 0.134765625,
+    "keep_hash": "7a6401d36e1796e373fd2f50cdde44a199b077305d5f6fb618dd5556f8c50a8a",
+    "k": 1850,
+    "aux_share": 0.3589189189189189,
+    "evidence_share": 0.6410810810810811,
+    "page_keep_counts": [
+      664,
+      1186
+    ],
+    "page_shares": [
+      0.3589189189189189,
+      0.6410810810810811
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_150.png",
+    "png_sha256": "41645b7def5addf29b9941ddf444c507f0815372edac57bc9d384c1380754432",
+    "protected_ok": true,
+    "grad_norm": 10.310172080993652
+  },
+  {
+    "sample_id": "57887",
+    "step": 200,
+    "seed": 2980268805,
+    "pred_full": "1 mg",
+    "pred_fastv": "Trimegestone (1mg)",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -5.020833492279053,
+    "L_comp": -5.083333492279053,
+    "L_soft_full": 0.1513671875,
+    "keep_hash": "fa472beb53f20b5d4a6ac32583f943e92f40284d70b9daf64d1e35cd17b6cd7a",
+    "k": 1850,
+    "aux_share": 0.3643243243243243,
+    "evidence_share": 0.6356756756756756,
+    "page_keep_counts": [
+      674,
+      1176
+    ],
+    "page_shares": [
+      0.3643243243243243,
+      0.6356756756756756
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_200.png",
+    "png_sha256": "0a8c8cf9ac0080586c8cfed204f8e1ac609be6b662d5a1874cedf752d508b8b4",
+    "protected_ok": true
+  }
+]

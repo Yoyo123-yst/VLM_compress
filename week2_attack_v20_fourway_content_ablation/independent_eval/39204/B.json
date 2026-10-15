@@ -1,0 +1,2354 @@
+{
+  "sample_id": "39204",
+  "method": "B",
+  "checkpoints": [
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_000.png",
+      "png_sha256": "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a",
+      "uint8_linf": 0,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "7145daa03b4ab725f43b05c25b61d7b7e285177aa1aa6e0bcfb026640f4f5b5a",
+          "keep_jaccard_vs_clean": 0.5998918626655853,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+          "keep_jaccard_vs_clean": 1.0,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "3c9b77cad13aef3a48de1d67ec6602bc374e46642c135657d49022b6d06df560",
+          "keep_jaccard_vs_clean": 0.7142305464375363,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "de6a8bc0fd6716061f25e0b8dec889849ef321f783065f8ca07a03d9fe5f3afc",
+          "keep_jaccard_vs_clean": 0.5,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 0
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_001.png",
+      "png_sha256": "661e81709092b05339c76fc736a09d076f4d6fb48aa728ba3af314411b44c6d9",
+      "uint8_linf": 1,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "3608e246413e2df38ac8b5f37306f25f76ee8df4098d7b3dba0cb1aede633e74",
+          "keep_jaccard_vs_clean": 0.567682119205298,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "e4ac7e80f2731f74037f8befa5ea40f8d59f4123b619c20b5773be422d45c4b4",
+          "keep_jaccard_vs_clean": 0.8795731707317073,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "af20e212b056a635bd6a7a4983474798710c956cc9ab9dc8f0f90e4abce83525",
+          "keep_jaccard_vs_clean": 0.6713102409638554,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "d867fc15c6adeffd4ba6b9478e16bb6532f339172c454825c3168601ad188eef",
+          "keep_jaccard_vs_clean": 0.4885311871227364,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 1
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_002.png",
+      "png_sha256": "864226947a77864aa2d4ed587f4f6b13df1f39179d7fd99a4e7f40112dcd36a7",
+      "uint8_linf": 2,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "f10837ee54799f4adc37656405842497f81ed774fd36a6e12501ec233e021a91",
+          "keep_jaccard_vs_clean": 0.5635402906208719,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "dd8a8b9fc2bd5cf9805e3247871e357b0fc6bf3e4e6a8b084bf98eb03493e401",
+          "keep_jaccard_vs_clean": 0.8700707785642062,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "d205eebfcfbb91008145059d6fcfb5c4a60a99467d886fac4653c4e00c638515",
+          "keep_jaccard_vs_clean": 0.6681698609545283,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "6d91b25c6a26d5ed0fe38b4fea77ecd94627470df1f8e9edac6d473cb5727b3f",
+          "keep_jaccard_vs_clean": 0.48474712336098474,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 2
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_003.png",
+      "png_sha256": "b1055cb0fdae0c24e635b448bf29aa4f70102c93e3915f179a5cce0610b2178a",
+      "uint8_linf": 3,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "eae42d04ef111357371e96d3c02b763f5e099202ac7ce06d4789da29f3101108",
+          "keep_jaccard_vs_clean": 0.5643669045730901,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "c997d612514a78ba2086dd442be041af396a350288881822d12a2fd26168da9f",
+          "keep_jaccard_vs_clean": 0.8681818181818182,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "8749e18ddab0f33f9ff4d29aeb3db668aa27bb6581e89afa5ecfde73d30bc8c7",
+          "keep_jaccard_vs_clean": 0.6675432006010519,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "e3e5c6a04c01051d6005eadc790ac1447a63adcccb83e6a863ce0954ef607642",
+          "keep_jaccard_vs_clean": 0.48415139761936604,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 3
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_004.png",
+      "png_sha256": "e56254ce33509cdbe8ec77a15bcd42e3d082ff484260d79915d059cb20dc187a",
+      "uint8_linf": 4,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "97765c68637693d7b2cd54743ae49f745512e181e0c91d4298e0b7429da2850c",
+          "keep_jaccard_vs_clean": 0.5536886321869257,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "779d4427a4338929aaa23b288b1b2a35cfbe34ad60fbdeedb902783932272558",
+          "keep_jaccard_vs_clean": 0.8587939698492463,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "62d2e4d5d9ad11d74024b40e27a8f1a93d1ad816890d3016ab3cd145bd791de0",
+          "keep_jaccard_vs_clean": 0.6609915809167446,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "c70525253da81c599345d8a0dc6e7062841cefde9eb45117b953eab147485961",
+          "keep_jaccard_vs_clean": 0.48415139761936604,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 4
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_005.png",
+      "png_sha256": "9aba3576da37d569285ca3497bcae09d159b5dc87a13ea6150743b1518afb641",
+      "uint8_linf": 5,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "d54ac76889286446f98bf3d02ca12a8256395b5d512ac402efa51906a90be9b4",
+          "keep_jaccard_vs_clean": 0.5557308096740273,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "e038d7344e946822ec36d24e3be8e55071d2e8da55ac89a5d49dda7c1e677060",
+          "keep_jaccard_vs_clean": 0.8527422990232908,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "990612fd94a408fe415e6ab270674fa71c03e1ae95c6fdf1e1b8aa81fdcd86f7",
+          "keep_jaccard_vs_clean": 0.6637931034482759,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "75bdd04d928c1690a9dae98384ce67ca425e70484fab1d4fa919ade8f79a57b3",
+          "keep_jaccard_vs_clean": 0.4827632282202031,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 5
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_006.png",
+      "png_sha256": "aae3b0ebcfb805177c1f6ec6374465b22dc64bcfc2803a2862d2719cf2a30eec",
+      "uint8_linf": 6,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "eb97d4e10d19a15c16b13e2cdee9a146bbdd10b407c97f499cab828a3d98f01f",
+          "keep_jaccard_vs_clean": 0.5549132947976878,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "3e30d39de1169e21a3ff81b166fc6ab7beca7f4a91d4fe0a17c1acbc2142e7ea",
+          "keep_jaccard_vs_clean": 0.8476523476523476,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "a1ad77d0fa186ae07d277b8e514b4df8fc393912374aca15f49bd2454c54ab8a",
+          "keep_jaccard_vs_clean": 0.6547996272134203,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "f7efdbee01fff02a22edc466bd60a113187db9c1af8a5f70e25402cb00b33ac2",
+          "keep_jaccard_vs_clean": 0.4796,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 6
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_007.png",
+      "png_sha256": "ad0f6066d81322aa1ec57274d2a4839a111d7523a4fce8da5222c9cb3007502d",
+      "uint8_linf": 7,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "243041d2e162d14710bb6c65cf217f1a46db66396090f2d906295cb457f524b0",
+          "keep_jaccard_vs_clean": 0.5492146596858639,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "751ecfc06a254985e9ecd61d921c94232487840ef937130697b20fcba8cebe72",
+          "keep_jaccard_vs_clean": 0.8375558867362146,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "6eece07591edf83b36130977ab7c7c3b5999fc528c3e18ccfd5e52700e9fa35e",
+          "keep_jaccard_vs_clean": 0.6523357528382654,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "d7f812d4196da44a170d080ccf97612a854039b0c49c9453af1d3beae1055006",
+          "keep_jaccard_vs_clean": 0.4786142571618921,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 7
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_008.png",
+      "png_sha256": "7106761f49cb815fb084f5d552b7b18020a14a96b2e0d2953048af3ce7f978c1",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "77f6dbd497d396a2a69129105575817d31addf369da1b47e0291f3917fd66abc",
+          "keep_jaccard_vs_clean": 0.5419489317352788,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "52b9be1928f4817f3d553f0ca57cfc744b5cf016607d03d4eb899c46ad5bd81a",
+          "keep_jaccard_vs_clean": 0.8289245982694685,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "829ee05c8cc003c34a57b1a0c403f9e4cd5d64227e02a781b2e4df800ae84cba",
+          "keep_jaccard_vs_clean": 0.6507995537374489,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "2b37e08a927046e146fb5357f266c7131eb6363ae656f22865f9f1c64f3fcc16",
+          "keep_jaccard_vs_clean": 0.47507643227435864,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 8
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_009.png",
+      "png_sha256": "db696e90629d72b01b9086b01e4f00956cd2616c5588d85753ea665e81171bc3",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "e377a4c0ec06271dfa35818ca815ba911084ca19c9decfde8bdd192d4c986332",
+          "keep_jaccard_vs_clean": 0.5419489317352788,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "food technology",
+          "tokens": [
+            13915,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "b369b9567716c91bcc16668b01ad96e5d44169bc9b001e0a824acb37a6bf8539",
+          "keep_jaccard_vs_clean": 0.8361876396128072,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "e226f1877cc212cef5553eaad22140e62d01885a7601c9f04388bdd7570fb843",
+          "keep_jaccard_vs_clean": 0.6541829700018632,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "c831d1130b211e477f7026b27b2180d9867ba857d722ede91a92d121c6d6b4f9",
+          "keep_jaccard_vs_clean": 0.47782660807031563,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 9
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_010.png",
+      "png_sha256": "ad63e6f2e3dcb4d4a1e664dcdb9522ba6287f02a1a4ffa2cb44e0cbba87e57f7",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "1373e2dd7f924bc9db68c7f63f78d04e08ca362388042e4bafa8c279f370d519",
+          "keep_jaccard_vs_clean": 0.5391417425227568,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "food technology",
+          "tokens": [
+            13915,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "aa5d7668fc0fc087b3f2e0e61cfd6161cd02881b25f33e9bcec4bd2b57fe07aa",
+          "keep_jaccard_vs_clean": 0.8280207561156412,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "b6c234ae29f9727c106a67ea3ef526db6995478e314a8693f94203483ae864f9",
+          "keep_jaccard_vs_clean": 0.6523357528382654,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "b9aa7141e7d5acd6453982eec62c159c6cd324e753fdf23cf14ef7320eebda54",
+          "keep_jaccard_vs_clean": 0.4782203276941521,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 10
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_011.png",
+      "png_sha256": "ae12481aa8ad636539c2104a5307cbb6fd249c5a49a95dfa46e23fe0ccab60fe",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "04788c1f55451b039eb1704bc137fb00ac1b90a8e8f44b7e7206baae886d1fa9",
+          "keep_jaccard_vs_clean": 0.5403435710567412,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "cce5cf593d232d56530a66723e33ce1fefae38531216c15b28b10c22d5ddd6b0",
+          "keep_jaccard_vs_clean": 0.8311881188118811,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "fbe8566dcbd04c38c3f95500a12d03c8fbadddd93b6e26c2dfff75ec86948eb8",
+          "keep_jaccard_vs_clean": 0.6551081282624907,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "c7ce43e816e4cfbcd6007e2662ec4696896e7318787d00e3313dc21675f58763",
+          "keep_jaccard_vs_clean": 0.4770397976840144,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 11
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_012.png",
+      "png_sha256": "fec4987ffb81fccffbcc46dc5ba552d514e97f1e84ea27748ce0c88d6c0715c7",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "5a747cf8c0d88750257df868b473c10f150ebdb6873f7d7b85b70cd3df6104cd",
+          "keep_jaccard_vs_clean": 0.5415472779369628,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Food Technology",
+          "tokens": [
+            26746,
+            11791,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "cfca8210655f081adb4f622353e2fe5e99646bececdd9d86a08e1d5ad6c29db5",
+          "keep_jaccard_vs_clean": 0.8280207561156412,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "06b541a939552606e5bec836d8b4630b34549c30dd7b549bbad83f87b9f627fd",
+          "keep_jaccard_vs_clean": 0.6529510333271271,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "bac80b0fd6ba28afcd2bb7fdb1ae876924829e55c068b453885e12d9f3c08745",
+          "keep_jaccard_vs_clean": 0.4762538246640947,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 12
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_013.png",
+      "png_sha256": "e28836e75271ef0e5f2c44b1dd721b5b746bb9aa939f521065b5b7ad55c841b0",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "6b15e97decab9610f060a70cf58b66f7094897697d1fdc516c1a5e58a734e583",
+          "keep_jaccard_vs_clean": 0.5363447559709242,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "157168a63aeb9185cc19ebede4e6443e6e21c0f9783aefdf92af98c8a7abc625",
+          "keep_jaccard_vs_clean": 0.8253145817912657,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "a94008b15e5eccd465b0ffd4c46bdfd31c6579f6b1b612a882a595941d6e9516",
+          "keep_jaccard_vs_clean": 0.6517209302325582,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "6b72357f080b8f1417221ae4f03bc83a43e7748749d93104e502a83941240be7",
+          "keep_jaccard_vs_clean": 0.4754686876745114,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 13
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_014.png",
+      "png_sha256": "3c00f0b18f4f04004dbab321715b263366ae5cfb326ab8b510e7dd465127a232",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "5ca1466406c32cf74f3a241f032fce41d871704ec58cd9a7391812e537500d41",
+          "keep_jaccard_vs_clean": 0.5403435710567412,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "food technology",
+          "tokens": [
+            13915,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "4790999cbb11d49e10c97b38ff2eecd5896e64274466799c0ca986fe79df4723",
+          "keep_jaccard_vs_clean": 0.8280207561156412,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "6aebcebcac1e7bcd9b8784588e33cd284a953696b923e3397457b9b35c76e530",
+          "keep_jaccard_vs_clean": 0.6504926566276259,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "57b7ce68cd0b0d40e54d4708b12ef916ee4a26e96c3a83dbb1832ee530a7b1b2",
+          "keep_jaccard_vs_clean": 0.47527253390055835,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 14
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_015.png",
+      "png_sha256": "d77ec32d88d3f4fada44039617c1f649c6e2bd3d2d8065759b45519ad3034d08",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "7205b0c4c5e306be5c8243051bbecf5387da86e4b772892569f0bb8d7ab3ca70",
+          "keep_jaccard_vs_clean": 0.5415472779369628,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "food technology",
+          "tokens": [
+            13915,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "914bca98652920a8a34c02f2920d367c5411284339f528643ad97ddeeb6d62b8",
+          "keep_jaccard_vs_clean": 0.8280207561156412,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "80ca407878b47e8a92fa76392ebb25a1c09d0be14c0293450c8caf423a77cee2",
+          "keep_jaccard_vs_clean": 0.6507995537374489,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "d68dd8e3e14f6a7a23791e51c01cbbb5e4545164a82ddeb3c86998adca7f528e",
+          "keep_jaccard_vs_clean": 0.4768432259781741,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 15
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_016.png",
+      "png_sha256": "6a43c1ec1ba233d10556d6e2d4b37cbfe256e7ea3b1558f6e8c2342aa920528a",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "f98477964b8cde39149edaf23b2e3b6b6aad7266be19c3e3ec71b1845a7b12a7",
+          "keep_jaccard_vs_clean": 0.5359460160913574,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "92f03f32f48bffc7b4b4a4c2f9d88e309ef3132ffe92312558020a5eb91e1a83",
+          "keep_jaccard_vs_clean": 0.8217187884757449,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "food technology",
+          "tokens": [
+            13915,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "a13d1bc8ecbcc5e7faf07915b88a3c87b86e26011863279cd99180a3ca0f1bc9",
+          "keep_jaccard_vs_clean": 0.6504926566276259,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "f6cb2c0d571311ee450c70f5112279f253e83b82be8b2c79a2fd52abad7a2987",
+          "keep_jaccard_vs_clean": 0.47782660807031563,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 16
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_017.png",
+      "png_sha256": "b4a22ea892cff49b58de52822c75413c23779905e10df6642c889cf737d3f89f",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "b8e8bb327384cf69ef571d10556b8aded410cd3a43aa5f9840d58d704c52ef4c",
+          "keep_jaccard_vs_clean": 0.5379417879417879,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "145f8095c0084c01a5877d188c3d91a5e79ba0aea6492d3b16d6739511616b6e",
+          "keep_jaccard_vs_clean": 0.8145695364238411,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "ea6a1880f305fcd8d31fb160a4566f4605f05922ababe10b13ea85bc2809a449",
+          "keep_jaccard_vs_clean": 0.6455977757182576,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "5715bbc313e9dcb70c681cdf592c004725fe9a06fd21f69609f9368453a2c0bd",
+          "keep_jaccard_vs_clean": 0.4746843853820598,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 17
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_018.png",
+      "png_sha256": "bcb1f620a910b0735969f19cb73a10932f406f91ef3a891d7e995446bd5716f5",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "1a1fcdafa270eb5b4bd89974b274e69efaeecf99a26cd0181e9019a8361a1167",
+          "keep_jaccard_vs_clean": 0.5383415648557317,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "dfcd107bd0344650fa0ce8c74364dd2b7e7d4bf4d4f9f7f57a47250e2a108f1c",
+          "keep_jaccard_vs_clean": 0.8154601226993865,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "bf9407787a3ed4936600effd30e049925bf3f80a599849da4dbe56730179aa52",
+          "keep_jaccard_vs_clean": 0.6446832160059282,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "2180c0fc343b045dbd8a7dcf5dbab7eeb948fdfc15885fee4f1199c56204f786",
+          "keep_jaccard_vs_clean": 0.4733138608603293,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 18
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_019.png",
+      "png_sha256": "f14ce67cf4cf609d5673a32cb720d8cb41aab3d00a528c4f1687b49f6670de2d",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "990d00943465aa026d0ec529b008a357d4a57fb4c43ea31dc7523f107a4254fd",
+          "keep_jaccard_vs_clean": 0.5387415496619865,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "156bfeef8b1ad72449a208363a08fd552a36836498f95104e0335b3cf6a6f17a",
+          "keep_jaccard_vs_clean": 0.8217187884757449,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "df8eabf15cc9b39a63116a7f7b92e1fb71d7d008e1399a65c02a0352fe9fefeb",
+          "keep_jaccard_vs_clean": 0.6483475677682882,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "af71a0f18c674ec37f649a5fd93b6a407d56215ae2b11e6d45202f2927d6f2fc",
+          "keep_jaccard_vs_clean": 0.47645023948908993,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 19
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_020.png",
+      "png_sha256": "09233a8b4e9791d5ae0e0a96cba00630e94e4910741dc6d9afd3fae09a7c7c59",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "a23da3adb83cca623dbd22e36d8d02a7822ce595ba2c7f06ece5515ae6337f9c",
+          "keep_jaccard_vs_clean": 0.5403435710567412,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "82447bb9174a087bd82322391925e1bd39c722f08842c8404ef2dcd5db115952",
+          "keep_jaccard_vs_clean": 0.822167487684729,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "2083a14b0a34bdd1c5ebf35722d1127f558a56be669e072eae47068ef3822bfa",
+          "keep_jaccard_vs_clean": 0.6474299498979402,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "01889927f8176e49840b481b7d2928bf797c62dce7e1a48a5041ac9e43743968",
+          "keep_jaccard_vs_clean": 0.4774330981227533,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 20
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_021.png",
+      "png_sha256": "930587111ba18f4a8a32cadb4492a8ddf0ea6ea8e2115a90761e3893b0d8c8fb",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "f70e6cfa2b92065ee9b046f71a1928e70fc811bec81f6a4f1fff07db77b91b72",
+          "keep_jaccard_vs_clean": 0.5323666494044537,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "food technology",
+          "tokens": [
+            13915,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "784e8c0f3e0a68519e3603ebe0473428c033708d3392aeb8c4f56b6a77bb88b2",
+          "keep_jaccard_vs_clean": 0.8163515835993126,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "food technology",
+          "tokens": [
+            13915,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "53bb96bb20fd91d3997016389d0dc9659c88c989d20a4a1e8f92c1713ed50934",
+          "keep_jaccard_vs_clean": 0.6443785886275236,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "fd8345fb60492ce7dca53d255fff72b94f027b557ea6949635827053ccb8896c",
+          "keep_jaccard_vs_clean": 0.4754686876745114,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 21
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_022.png",
+      "png_sha256": "4535b37a38d418cb1ff3bcdc8cfa84c4c570708eb7b7aaa9eca33997b651dcaa",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "29a6f713a657ed9833d1907d55e31de57e078ab1f70286a01a649bf27dc455d5",
+          "keep_jaccard_vs_clean": 0.5387415496619865,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "0f5068726db55de3d287320370c136e3636040f28961374629cb6cc0349c5d58",
+          "keep_jaccard_vs_clean": 0.8141245708680726,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "food technology",
+          "tokens": [
+            13915,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "c3d09e3ae7f426b4bad0fc3ec713314d663227948311b09e390f8119ba2d590d",
+          "keep_jaccard_vs_clean": 0.6398226819357222,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "e05150d6fe544bb9d8920afb20bc6d6fba06d50e467e59264c4deb73e8d40f11",
+          "keep_jaccard_vs_clean": 0.47370517928286854,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 22
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_023.png",
+      "png_sha256": "1e3ff7a707c9afc34b05f3dc8c46a4d5ba812d9e24fd691986dd8e82c74310e2",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "d4013fb1af4fcfca320701aec148638455eb8ae56f5e19edf7f5ede93a96e906",
+          "keep_jaccard_vs_clean": 0.5371428571428571,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "food technology",
+          "tokens": [
+            13915,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "1245361854e1b30f469c67cdef58186951e4c945ca6aed6e5e611926680122d2",
+          "keep_jaccard_vs_clean": 0.8181371344310642,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "da24536ba5e64b827fa31d90a3878ecf8e0eb122f7b29ead2beba9c8d3ee3d80",
+          "keep_jaccard_vs_clean": 0.6410351201478743,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "a4e988b9d14230c016e88e1019716b283d5402a10d59b02829fe354fed556af8",
+          "keep_jaccard_vs_clean": 0.4727272727272727,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 23
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_024.png",
+      "png_sha256": "a35372c9315575c65da166b76ff7561571d04785dcea5fcdddf4df3d496c3eea",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "tokens": [
+            26746,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "4feb4291f75b4c4aaee5efe3565ec3bb15cbc0a12bed4f7b05701f4a5ad6859e",
+          "keep_jaccard_vs_clean": 0.5371428571428571,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "food technology",
+          "tokens": [
+            13915,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "124385d8a2c4e28d546b797de646b64e2bca24c24a6b2b96b7e4eafc45dad20a",
+          "keep_jaccard_vs_clean": 0.8154601226993865,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "food technology",
+          "tokens": [
+            13915,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "67c4f4135e5be0a442be691e067886246d4dae2ee93bfdb4f9ba7e61b8541b7c",
+          "keep_jaccard_vs_clean": 0.6389145283367177,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "b245b7d15a3e713408ea4ef076c8c61e578aef00d565e70d542e7905fbc2c923",
+          "keep_jaccard_vs_clean": 0.4733138608603293,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 24
+    },
+    {
+      "png": "week2_attack_v20_fourway_content_ablation/full_dev_fourway_v1/per_run/39204/B/checkpoints/accepted_025.png",
+      "png_sha256": "25baf8140ac364ec3f1f11ad77051f628bd5b5efe9e5ea0321829a8f7b6f0bb5",
+      "uint8_linf": 8,
+      "linf_ok": true,
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_text_exact": true,
+      "full_token_exact": true,
+      "full_replay": true,
+      "output_valid": true,
+      "png_reloadable": true,
+      "ratios": {
+        "0.15": {
+          "text": "food technology",
+          "tokens": [
+            13915,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 2219,
+          "keep_hash": "913dad71c7e489a947e53bdc7928c4055ee1d52396bea36860273b2c5062f136",
+          "keep_jaccard_vs_clean": 0.5379417879417879,
+          "role": "transfer_diagnostic"
+        },
+        "0.25": {
+          "text": "food technology",
+          "tokens": [
+            13915,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 3699,
+          "keep_hash": "7ba2ebc6236f429d9a963d9347352099a50ea8986007a1dc7a4db995281d6a3e",
+          "keep_jaccard_vs_clean": 0.8159057437407953,
+          "role": "train"
+        },
+        "0.35": {
+          "text": "food technology",
+          "tokens": [
+            13915,
+            5440,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 5179,
+          "keep_hash": "0f3004d51e7050d64c06b2adc9aac243ca1a65961a3423ebaa026a67a6cde07b",
+          "keep_jaccard_vs_clean": 0.6395198522622345,
+          "role": "transfer_diagnostic"
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "semantic_status": "ANSWER_PRESERVED",
+          "semantic_reason": "short_answer_exact",
+          "k": 7398,
+          "keep_hash": "315364333f205d7edb8783c13df34f1641f84185bae235050906d827e89a8ce2",
+          "keep_jaccard_vs_clean": 0.4731182795698925,
+          "role": "transfer_diagnostic"
+        }
+      },
+      "checkpoint": 25
+    }
+  ]
+}

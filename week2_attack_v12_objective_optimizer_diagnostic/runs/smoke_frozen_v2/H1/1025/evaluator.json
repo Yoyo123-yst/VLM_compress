@@ -1,0 +1,88 @@
+{
+  "status": "DONE",
+  "sample_id": "1025",
+  "group": "H1",
+  "tag": "smoke_frozen_v2",
+  "step": 3,
+  "png": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v12_objective_optimizer_diagnostic/runs/smoke_frozen_v2/H1/1025/step_003.png",
+  "png_sha256": "5dbc729b2892c418cfe642697efe52ba26b1b7ad8a45d955b4029b53e746d32d",
+  "full_text": "Dr. C. Baur MD",
+  "full_text_replay": "Dr. C. Baur MD",
+  "full_text_exact": 1,
+  "full_token_exact": 1,
+  "full_replay": 1,
+  "linf_uint8": 6,
+  "ratios": {
+    "0.15": {
+      "text": "TAKEDA",
+      "tokens": [
+        51,
+        11907,
+        86761,
+        151645
+      ],
+      "anls": 0.0,
+      "valid": true,
+      "k": 1665,
+      "keep_hash": "78a25fbfe9aece1978b9978cf6b5cb0e7ac1123b76d391b32369a21de56da9b7",
+      "endpoint_failure": true
+    },
+    "0.25": {
+      "text": "Dr. Bach Bauer MD",
+      "tokens": [
+        8847,
+        13,
+        41158,
+        78601,
+        13979,
+        151645
+      ],
+      "anls": 0.6875,
+      "valid": true,
+      "k": 2774,
+      "keep_hash": "72eec3e5e5f87a940240ffc16e114feb372c570668a458b27e425d954a3d64f0",
+      "endpoint_failure": false
+    },
+    "0.35": {
+      "text": "Dr. C. B. B. M. D.",
+      "tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        13,
+        425,
+        13,
+        386,
+        13,
+        422,
+        13,
+        151645
+      ],
+      "anls": 0.6666666666666667,
+      "valid": true,
+      "k": 3884,
+      "keep_hash": "82e96aa075b629ea65aa86b983036bb60167f3fd11eebf8f5cf57973e5383e6e",
+      "endpoint_failure": false
+    },
+    "0.50": {
+      "text": "Dr. C. Baur MD",
+      "tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        4110,
+        13979,
+        151645
+      ],
+      "anls": 0.9166666666666666,
+      "valid": true,
+      "k": 5548,
+      "keep_hash": "5350d2e6e1f85f9ecd61695169d8e061a3878115512c12a48f82b54a3142d7f3",
+      "endpoint_failure": false
+    }
+  }
+}

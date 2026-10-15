@@ -1,0 +1,480 @@
+{
+  "status": "PASS",
+  "mismatches": [],
+  "rows": [
+    {
+      "sample_id": "1025",
+      "full_text": "Dr. C. Baur MD",
+      "full_tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        4110,
+        13979,
+        151645
+      ],
+      "full_replay": true,
+      "historical_full_text": "Dr. C. Baur MD",
+      "prompt_sha256": "c7e65c022e99b8463483353df212e47b8a97e22f31dbc561cb63a074d40ae0b5",
+      "pixel_values_sha256": "6930bd265495e2a8097564469125cc4124c67f14b55a50111c020ff824566004",
+      "input_ids_sha256": "72451bc29011243fa9a8f75e6c957cd35a0277389598479d4a34cece63c9bed6",
+      "v9c_token_match": true,
+      "v9c_pixel_match": true,
+      "v9c_prompt_match": true,
+      "clean_fastv": {
+        "0.25": {
+          "text": "Dr. C. Baur",
+          "tokens": [
+            8847,
+            13,
+            356,
+            13,
+            425,
+            4110,
+            151645
+          ],
+          "k": 2774,
+          "keep_hash": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5",
+          "hook_match": 1,
+          "historical_text": "Dr. C. Baur",
+          "historical_k": 2774,
+          "historical_keep_hash": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5",
+          "match": true
+        },
+        "0.35": {
+          "text": "Dr. C. B. B. M.D.",
+          "tokens": [
+            8847,
+            13,
+            356,
+            13,
+            425,
+            13,
+            425,
+            13,
+            386,
+            909,
+            13,
+            151645
+          ],
+          "k": 3884,
+          "keep_hash": "ecefcd69ddc95ba41453e8f3d0107d0549d98a02f357965c7e98f8d24698c95e",
+          "hook_match": 1,
+          "historical_text": "Dr. C. B. B. M.D.",
+          "historical_k": 3884,
+          "historical_keep_hash": "ecefcd69ddc95ba41453e8f3d0107d0549d98a02f357965c7e98f8d24698c95e",
+          "match": true
+        }
+      },
+      "native_fdp_replay": {
+        "full_text": "Dr. C. Baur MD",
+        "full_match": true,
+        "ratios": {
+          "0.25": {
+            "text": "Prof. Dr. Ch. U. H. H. H. H.",
+            "k": 2774,
+            "keep_hash": "91c5a9fbf753ef86e341a21192533bfccf200b4ee51d044c7e02bb396a363cc5",
+            "match": true
+          },
+          "0.35": {
+            "text": "Hines, O.",
+            "k": 3884,
+            "keep_hash": "f9bcbe14d289a9f2a04651b041033d600e6b3169359735a8886d2568b52f32c0",
+            "match": true
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "2008",
+      "full_text": "March 1968",
+      "full_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        23,
+        151645
+      ],
+      "full_replay": true,
+      "historical_full_text": "March 1968",
+      "prompt_sha256": "51ee4a1e0f42a2e4d2e237fd6013b5a059eb46cc5703792ddb61474560bbd4f4",
+      "pixel_values_sha256": "121a52b2df0bf3edf6472e8742445749ebba6d46ed69fe07dbc8d659ceb66aa2",
+      "input_ids_sha256": "8d6da011b9f1740a85f6f00451a421549cbdec1444c328e57db82fd7a01d37c7",
+      "v9c_token_match": true,
+      "v9c_pixel_match": true,
+      "v9c_prompt_match": true,
+      "clean_fastv": {
+        "0.25": {
+          "text": "March 1956",
+          "tokens": [
+            27523,
+            220,
+            16,
+            24,
+            20,
+            21,
+            151645
+          ],
+          "k": 1850,
+          "keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+          "hook_match": 1,
+          "historical_text": "March 1956",
+          "historical_k": 1850,
+          "historical_keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+          "match": true
+        },
+        "0.35": {
+          "text": "March 1956",
+          "tokens": [
+            27523,
+            220,
+            16,
+            24,
+            20,
+            21,
+            151645
+          ],
+          "k": 2589,
+          "keep_hash": "83204a20618bee809000a0265c2bccdf9597fb274ab9de01dc9c69fd602453b0",
+          "hook_match": 1,
+          "historical_text": "March 1956",
+          "historical_k": 2589,
+          "historical_keep_hash": "83204a20618bee809000a0265c2bccdf9597fb274ab9de01dc9c69fd602453b0",
+          "match": true
+        }
+      },
+      "native_fdp_replay": {
+        "full_text": "March 1968",
+        "full_match": true,
+        "ratios": {
+          "0.25": {
+            "text": "February/23, issue/22",
+            "k": 1850,
+            "keep_hash": "b01acdd405039b4d4514c06d9c846c89fa3b08453b09109af2e6ee98dd4ef1ab",
+            "match": true
+          },
+          "0.35": {
+            "text": "March 1956, Yr.26, No.2",
+            "k": 2589,
+            "keep_hash": "23f7eac9d672c5b63ba19ef5856241c645f464496f197791c18a2e7ffc3c2ab1",
+            "match": true
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "47450",
+      "full_text": "Dr. or Mrs. William J. Darby",
+      "full_tokens": [
+        8847,
+        13,
+        476,
+        17618,
+        13,
+        12375,
+        619,
+        13,
+        15017,
+        1694,
+        151645
+      ],
+      "full_replay": true,
+      "historical_full_text": "Dr. or Mrs. William J. Darby",
+      "prompt_sha256": "c9157a1362449389001a0ad2734931231f70e24207be98b5c44163e33b4a858e",
+      "pixel_values_sha256": "cdd75778873ba0244f573d82c3402891d615ca25cba92a244b7b5d2befa2c628",
+      "input_ids_sha256": "4c588171a809c60fc5a43f788aa763fd189854dbf55ecab525ed88a5c95df2ad",
+      "v9c_token_match": true,
+      "v9c_pixel_match": true,
+      "v9c_prompt_match": true,
+      "clean_fastv": {
+        "0.25": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "tokens": [
+            8847,
+            13,
+            476,
+            17618,
+            13,
+            12375,
+            619,
+            13,
+            15017,
+            1694,
+            151645
+          ],
+          "k": 3699,
+          "keep_hash": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+          "hook_match": 1,
+          "historical_text": "Dr. or Mrs. William J. Darby",
+          "historical_k": 3699,
+          "historical_keep_hash": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+          "match": true
+        },
+        "0.35": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "tokens": [
+            8847,
+            13,
+            476,
+            17618,
+            13,
+            12375,
+            619,
+            13,
+            15017,
+            1694,
+            151645
+          ],
+          "k": 5179,
+          "keep_hash": "b2ecfdbd4d10c62b812330e4d10e9b9d5ae04ff427476c9ea44e8dba03608cde",
+          "hook_match": 1,
+          "historical_text": "Dr. or Mrs. William J. Darby",
+          "historical_k": 5179,
+          "historical_keep_hash": "b2ecfdbd4d10c62b812330e4d10e9b9d5ae04ff427476c9ea44e8dba03608cde",
+          "match": true
+        }
+      },
+      "native_fdp_replay": {
+        "full_text": "Dr. or Mrs. William J. Darby",
+        "full_match": true,
+        "ratios": {
+          "0.25": {
+            "text": "Chase",
+            "k": 3699,
+            "keep_hash": "0d284cb207a0073298a32e1e0ad6b45f9f33a323c4a019edb6516fa147c2702c",
+            "match": true
+          },
+          "0.35": {
+            "text": "NUTRITION FOUNDATION INC.",
+            "k": 5179,
+            "keep_hash": "85e45707abb97c4a4dd6922e75464a1b7db6234eb50d012831ee80d9354605ad",
+            "match": true
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "60700",
+      "full_text": "PPBS",
+      "full_tokens": [
+        4406,
+        7347,
+        151645
+      ],
+      "full_replay": true,
+      "historical_full_text": "PPBS",
+      "prompt_sha256": "afc41fcb5203d064438f9e5085ef8fa9aa130a649bb968d07f551f15134d9df6",
+      "pixel_values_sha256": "2bae9dddf130398078c90808ee4393d6c9d03f324c2033ce85ae3d58b5fe6a6b",
+      "input_ids_sha256": "da64c43e08582b757b9b46d2afbf0e9ff0cce31d80b1a125ebb2f7050fa8c4c2",
+      "clean_fastv": {
+        "0.25": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "k": 2774,
+          "keep_hash": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca",
+          "hook_match": 1,
+          "historical_text": "PPBS",
+          "historical_k": 2774,
+          "historical_keep_hash": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca",
+          "match": true
+        },
+        "0.35": {
+          "text": "PPBS",
+          "tokens": [
+            4406,
+            7347,
+            151645
+          ],
+          "k": 3884,
+          "keep_hash": "8cbb13cbbf41286c5c9df264088743c40cdfbe138a54d5057c581915326f6d71",
+          "hook_match": 1,
+          "historical_text": "PPBS",
+          "historical_k": 3884,
+          "historical_keep_hash": "8cbb13cbbf41286c5c9df264088743c40cdfbe138a54d5057c581915326f6d71",
+          "match": true
+        }
+      },
+      "native_fdp_replay": {
+        "full_text": "PPBS",
+        "full_match": true,
+        "ratios": {
+          "0.25": {
+            "text": "PPBS 143 CAUTION! BOALDING, HEALTH",
+            "k": 2774,
+            "keep_hash": "e015c3d6b86dde848a63dbb88ec1837fdc9a24686d334731ac08174885c5cb43",
+            "match": true
+          },
+          "0.35": {
+            "text": "PPBS #54422",
+            "k": 3884,
+            "keep_hash": "9a15c5fa3c7e31edd599828379ec1299d60d6c51f96c4895c325d852a91d2f19",
+            "match": true
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "7006",
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "full_replay": true,
+      "historical_full_text": "RJ Reynolds Tobacco Company",
+      "prompt_sha256": "03f9bd019d6b5b3fb28cfb0c507838ce4caac6d5482335962579b2d890212885",
+      "pixel_values_sha256": "c6802c92b97fc486364ead0fd3b80346b504e829030b3da5bb6e1f53ceabda3a",
+      "input_ids_sha256": "4e53c181c8190025e55ea3616505a2c6815cdea7945341d9275ad57d98aa1934",
+      "v9c_token_match": true,
+      "v9c_pixel_match": true,
+      "v9c_prompt_match": true,
+      "clean_fastv": {
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "k": 3699,
+          "keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+          "hook_match": 1,
+          "historical_text": "RJ Reynolds Tobacco Company",
+          "historical_k": 3699,
+          "historical_keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+          "match": true
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "tokens": [
+            49,
+            41,
+            45072,
+            65110,
+            8188,
+            151645
+          ],
+          "k": 5179,
+          "keep_hash": "88e3f77de0bf0783e16c9700bc1c23f613e367ae9b8f7cf67a305321abe38c89",
+          "hook_match": 1,
+          "historical_text": "RJ Reynolds Tobacco Company",
+          "historical_k": 5179,
+          "historical_keep_hash": "88e3f77de0bf0783e16c9700bc1c23f613e367ae9b8f7cf67a305321abe38c89",
+          "match": true
+        }
+      },
+      "native_fdp_replay": {
+        "full_text": "RJ Reynolds Tobacco Company",
+        "full_match": true,
+        "ratios": {
+          "0.25": {
+            "text": "RJ Reynolds Tobacco Co.",
+            "k": 3699,
+            "keep_hash": "531046350a7a9bafcabd53b5e63e465160610ef521bf6ed11b8022f229032949",
+            "match": true
+          },
+          "0.35": {
+            "text": "RJ Reynolds Tobacco Company",
+            "k": 5179,
+            "keep_hash": "cb47c0444be573151d7470e91dc13efb5641a02f4b1c20fada73fe67b43856a1",
+            "match": true
+          }
+        }
+      }
+    },
+    {
+      "sample_id": "39204",
+      "full_text": "FOOD TECHNOLOGY",
+      "full_tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "full_replay": true,
+      "historical_full_text": "FOOD TECHNOLOGY",
+      "prompt_sha256": "a10c1292f3253836597881b55763864fe4325a206c4d0c9c030754e862fe283c",
+      "pixel_values_sha256": "56322089ea87fab83660a912df56b9cad0d30ba018685d1d4ffba9924e4cbec6",
+      "input_ids_sha256": "9ec5c33c07a5413e0bd36501184ce46fbe6667ae584210b2761a6aa30cfe59c8",
+      "v9c_token_match": true,
+      "v9c_pixel_match": true,
+      "v9c_prompt_match": true,
+      "clean_fastv": {
+        "0.25": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "k": 3699,
+          "keep_hash": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+          "hook_match": 1,
+          "historical_text": "FOOD TECHNOLOGY",
+          "historical_k": 3699,
+          "historical_keep_hash": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+          "match": true
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "tokens": [
+            3788,
+            2069,
+            87534,
+            51432,
+            151645
+          ],
+          "k": 5179,
+          "keep_hash": "3c9b77cad13aef3a48de1d67ec6602bc374e46642c135657d49022b6d06df560",
+          "hook_match": 1,
+          "historical_text": "FOOD TECHNOLOGY",
+          "historical_k": 5179,
+          "historical_keep_hash": "3c9b77cad13aef3a48de1d67ec6602bc374e46642c135657d49022b6d06df560",
+          "match": true
+        }
+      },
+      "native_fdp_replay": {
+        "full_text": "FOOD TECHNOLOGY",
+        "full_match": true,
+        "ratios": {
+          "0.25": {
+            "text": "Food science",
+            "k": 3699,
+            "keep_hash": "f2f3eec2d962b773c9537701eeb4d0c6bcab4532672c429e53019184991516a8",
+            "match": true
+          },
+          "0.35": {
+            "text": "FOOD TECHNOLOGY",
+            "k": 5179,
+            "keep_hash": "9cdd69cad18ed12f43c0866ea6044ab268d831f96412ba26fe35e4d7ce20d74c",
+            "match": true
+          }
+        }
+      }
+    }
+  ],
+  "counters": {
+    "forward": 498,
+    "backward": 0,
+    "generate": 42,
+    "fastv": 24
+  }
+}

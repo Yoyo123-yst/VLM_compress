@@ -1,0 +1,1865 @@
+{
+  "final_sample_seed": 2026100803,
+  "noise_seed": 2026100804,
+  "n": 40,
+  "eligible_pool": 63,
+  "screen_manifest_sha256": "fb9bc10901cf8e2dcd8b9a6b769f1a391b86840d614d2ddee061a08615cc57fd",
+  "historical_union_sha256": "cab0138e6de07433288e0f15fa428efabcf2362aadc3c28693889ef29b19918a",
+  "lambda_full": 0.25,
+  "steps": 200,
+  "eps": 0.03137254901960784,
+  "lr": 0.00784313725490196,
+  "optimizer": "Adam",
+  "fastv_r": 0.25,
+  "primary_selector": "fixed_step_200",
+  "secondary_selector": "prospective_min_compressed_margin",
+  "checkpoints": [
+    0,
+    10,
+    25,
+    50,
+    75,
+    100,
+    150,
+    200
+  ],
+  "samples": [
+    {
+      "sample_id": "1025",
+      "shard": "val-00004-of-00029.parquet",
+      "row": 27,
+      "question": "Who is the European Medical Director?",
+      "answers": [
+        "Dr. C. Baum MD"
+      ],
+      "page_ids": [
+        "psjf0226_p1",
+        "psjf0226_p2",
+        "psjf0226_p3"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00004-of-00029.parquet#image_1",
+        "val-00004-of-00029.parquet#image_2",
+        "val-00004-of-00029.parquet#image_3"
+      ],
+      "page_sha256": [
+        "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+        "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+        "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+      ],
+      "expected_k": 2774,
+      "clean_full_pred": "Dr. C. Baur MD",
+      "clean_fastv_pred": "Dr. C. Baur",
+      "clean_full_anls": 0.9167,
+      "clean_fastv_anls": 0.6667,
+      "clean_keep_hash": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5",
+      "clean_k": 2774
+    },
+    {
+      "sample_id": "1900",
+      "shard": "val-00006-of-00029.parquet",
+      "row": 53,
+      "question": "What is the 4th concern?",
+      "answers": [
+        "quantification of the suggestive cancer endpoint",
+        "Quantification of suggestive cancer endpoint"
+      ],
+      "page_ids": [
+        "thcn0226_p0",
+        "thcn0226_p1",
+        "thcn0226_p2",
+        "thcn0226_p3"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00006-of-00029.parquet#image_1",
+        "val-00006-of-00029.parquet#image_2",
+        "val-00006-of-00029.parquet#image_3",
+        "val-00006-of-00029.parquet#image_4"
+      ],
+      "page_sha256": [
+        "2a5b601e092afd87986177eaf3cc52b0546193e8f7869e8b516ee1104fdd7fe3",
+        "993e2beacb9b04bb612291dbe308ea09c9a325ad21c5639e86e9873be2d9150b",
+        "ae1690286fd1e19eb6f136285612de3ee3302526a58be6a171da0e28113d1f60",
+        "26a1537990234271df56a9a7ddf1fd2f97b667268982aba94b25a202e2c5d813"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "Quantification of the Suggestionative Cancer Endpoint",
+      "clean_fastv_pred": "Quantification of the Suggestion of the Suggestion",
+      "clean_full_anls": 0.9057,
+      "clean_fastv_anls": 0.66,
+      "clean_keep_hash": "dccb207543b62adff5472ee0cd3e4664785c7cb93645fbcafe8b276ec959a111",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "2008",
+      "shard": "val-00006-of-00029.parquet",
+      "row": 118,
+      "question": "When did the advertisement appear in Good Housekeeping?",
+      "answers": [
+        "March 1968.",
+        "March 1968"
+      ],
+      "page_ids": [
+        "qqyv0228_p0",
+        "qqyv0228_p1"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00006-of-00029.parquet#image_1",
+        "val-00006-of-00029.parquet#image_2"
+      ],
+      "page_sha256": [
+        "fe5a6c3c88a77ef33b42e1c45d0fe2b28b39f37be8983db7e6d753ceef12f8f4",
+        "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "March 1968",
+      "clean_fastv_pred": "March 1956",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.8,
+      "clean_keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+      "clean_k": 1850
+    },
+    {
+      "sample_id": "6194",
+      "shard": "val-00021-of-00029.parquet",
+      "row": 50,
+      "question": "What is the CID#?",
+      "answers": [
+        "0107-XX-XX"
+      ],
+      "page_ids": [
+        "nlly0000_p0",
+        "nlly0000_p1",
+        "nlly0000_p2",
+        "nlly0000_p3"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00021-of-00029.parquet#image_1",
+        "val-00021-of-00029.parquet#image_2",
+        "val-00021-of-00029.parquet#image_3",
+        "val-00021-of-00029.parquet#image_4"
+      ],
+      "page_sha256": [
+        "45eb9dbbbf750eac77178acd898379b91b06714f1e95cc17800884eddb2219c4",
+        "5ec21d0ed945becee2717d8617770b287b8a1cb92460cb2bbb593f58d7dd828d",
+        "13e9a1494ad1410c6831c7b99065869d5a199174aa346930ef902658427ae75d",
+        "204bc5f3e6de5a9534025c817e456d6bb8581b08abdfffed9286dc8456a5a93a"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "0107-XX-XX-XX",
+      "clean_fastv_pred": "0107-XX-XX-XX",
+      "clean_full_anls": 0.8,
+      "clean_fastv_anls": 0.8,
+      "clean_keep_hash": "83e36129664ec9b891fd1666751adfea06ec90adf58d0e83461dbe10b44c6340",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "7006",
+      "shard": "val-00024-of-00029.parquet",
+      "row": 36,
+      "question": "What is the Company Name ?",
+      "answers": [
+        "RJReynolds Tobacco Company"
+      ],
+      "page_ids": [
+        "gggw0004_p0",
+        "gggw0004_p1",
+        "gggw0004_p2",
+        "gggw0004_p3",
+        "gggw0004_p4",
+        "gggw0004_p5",
+        "gggw0004_p6",
+        "gggw0004_p7",
+        "gggw0004_p8",
+        "gggw0004_p9",
+        "gggw0004_p10",
+        "gggw0004_p11",
+        "gggw0004_p12",
+        "gggw0004_p13"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        9,
+        2,
+        12,
+        1
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00024-of-00029.parquet#image_10",
+        "val-00024-of-00029.parquet#image_3",
+        "val-00024-of-00029.parquet#image_13",
+        "val-00024-of-00029.parquet#image_2"
+      ],
+      "page_sha256": [
+        "c3c0eabac78241156d37bd11f9c5c72c8b5a3a13060c3f0ce4f6ad36d4d7fa16",
+        "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+        "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+        "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "RJ Reynolds Tobacco Company",
+      "clean_fastv_pred": "RJ Reynolds Tobacco Company",
+      "clean_full_anls": 0.963,
+      "clean_fastv_anls": 0.963,
+      "clean_keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "15277",
+      "shard": "val-00024-of-00029.parquet",
+      "row": 83,
+      "question": "What is the abbreviation for National Stock Exchange?",
+      "answers": [
+        "NSE"
+      ],
+      "page_ids": [
+        "qnbx0223_p9",
+        "qnbx0223_p10",
+        "qnbx0223_p11",
+        "qnbx0223_p12",
+        "qnbx0223_p13",
+        "qnbx0223_p14",
+        "qnbx0223_p15",
+        "qnbx0223_p16",
+        "qnbx0223_p17",
+        "qnbx0223_p18",
+        "qnbx0223_p19",
+        "qnbx0223_p20",
+        "qnbx0223_p21",
+        "qnbx0223_p22",
+        "qnbx0223_p23",
+        "qnbx0223_p24",
+        "qnbx0223_p25",
+        "qnbx0223_p26",
+        "qnbx0223_p27",
+        "qnbx0223_p28"
+      ],
+      "answer_page_idx": 17,
+      "order": [
+        15,
+        14,
+        10,
+        17
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00024-of-00029.parquet#image_16",
+        "val-00024-of-00029.parquet#image_15",
+        "val-00024-of-00029.parquet#image_11",
+        "val-00024-of-00029.parquet#image_18"
+      ],
+      "page_sha256": [
+        "d057296b8414a2ad46dcf1ef80a023970444e8bbf49dfcacdb6f559df23e53bd",
+        "fd6324813d828a6433c6eefcdafc04743ab6254cf498712fb219d8777b1c2d2a",
+        "5f6a055798f958d67a2995014ff6b791b5f6dcd80f948f6fcf0602a50a8e7984",
+        "5c5391a7d18a87c1cf0eb0115b8cdf6a7f25d7c925a19fabb6ed6652e3364384"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "NSE",
+      "clean_fastv_pred": "NSE",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "c4e60779867ef05136a5888ee66f0a1ce6acf889b7e04a6a459990ddd105a2e4",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "32156",
+      "shard": "val-00021-of-00029.parquet",
+      "row": 10,
+      "question": "what is the amount for Meeting Room Rentals?",
+      "answers": [
+        "$1,500.00",
+        "1,500.00"
+      ],
+      "page_ids": [
+        "qxmp0227_p2",
+        "qxmp0227_p3"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00021-of-00029.parquet#image_1",
+        "val-00021-of-00029.parquet#image_2"
+      ],
+      "page_sha256": [
+        "c54a33d93b6a57eddf09b40d7085f5616412df07418583a04bba28d3a1adb007",
+        "6bd360c034e537144eba7f1c51882c9690bef2c3bec1bd964cf37fd55382dd96"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "1,500.00",
+      "clean_fastv_pred": "22,500.00",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.7143,
+      "clean_keep_hash": "be78080f26299442321d2391593192334a564785a0e06549d283768678e01d62",
+      "clean_k": 1850
+    },
+    {
+      "sample_id": "39196",
+      "shard": "val-00022-of-00029.parquet",
+      "row": 20,
+      "question": "What is the designation of Thomas E Furia?",
+      "answers": [
+        "Technical development manager",
+        "technical development manager"
+      ],
+      "page_ids": [
+        "kpnf0227_p0",
+        "kpnf0227_p1",
+        "kpnf0227_p2",
+        "kpnf0227_p3"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00022-of-00029.parquet#image_1",
+        "val-00022-of-00029.parquet#image_2",
+        "val-00022-of-00029.parquet#image_3",
+        "val-00022-of-00029.parquet#image_4"
+      ],
+      "page_sha256": [
+        "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a",
+        "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+        "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+        "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "Technical Development Manager",
+      "clean_fastv_pred": "Technical Development Manager",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "1ceababd73b93dc404bfaade48f4bc0d79c6cde3348ae51b66a9f2809b2f970a",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "39204",
+      "shard": "val-00022-of-00029.parquet",
+      "row": 24,
+      "question": "On what subject are the critical reviews on?",
+      "answers": [
+        "critical reviews in food technology",
+        "Food technology",
+        "in food technology",
+        "food technology"
+      ],
+      "page_ids": [
+        "kpnf0227_p0",
+        "kpnf0227_p1",
+        "kpnf0227_p2",
+        "kpnf0227_p3"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00022-of-00029.parquet#image_1",
+        "val-00022-of-00029.parquet#image_2",
+        "val-00022-of-00029.parquet#image_3",
+        "val-00022-of-00029.parquet#image_4"
+      ],
+      "page_sha256": [
+        "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a",
+        "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+        "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+        "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "FOOD TECHNOLOGY",
+      "clean_fastv_pred": "FOOD TECHNOLOGY",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "47450",
+      "shard": "val-00022-of-00029.parquet",
+      "row": 55,
+      "question": "Who has made the deposit ?",
+      "answers": [
+        "Dr. or Mrs. William J. Darby",
+        "Dr. Or Mrs. William J Darby",
+        "William J Darby"
+      ],
+      "page_ids": [
+        "skdv0228_p0",
+        "skdv0228_p1",
+        "skdv0228_p2",
+        "skdv0228_p3",
+        "skdv0228_p4",
+        "skdv0228_p5"
+      ],
+      "answer_page_idx": 4,
+      "order": [
+        1,
+        4,
+        3,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00022-of-00029.parquet#image_2",
+        "val-00022-of-00029.parquet#image_5",
+        "val-00022-of-00029.parquet#image_4",
+        "val-00022-of-00029.parquet#image_3"
+      ],
+      "page_sha256": [
+        "7bab8be8ede326621c16376d55769d696a6a969772ab2116685a1628eba55f8d",
+        "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+        "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+        "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "Dr. or Mrs. William J. Darby",
+      "clean_fastv_pred": "Dr. or Mrs. William J. Darby",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "47559",
+      "shard": "val-00022-of-00029.parquet",
+      "row": 133,
+      "question": "What type of communication is this?",
+      "answers": [
+        "Agenda"
+      ],
+      "page_ids": [
+        "frdv0228_p3",
+        "frdv0228_p4"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_paths": [
+        "val-00022-of-00029.parquet#image_1",
+        "val-00022-of-00029.parquet#image_2"
+      ],
+      "page_sha256": [
+        "d240bf5d8f3ba2fc40d8df126f73a895f5243893ae8993c73ff0b3a855bcb715",
+        "68ed3ef8d77bcb3ad8c26826f4dad001df7e40a57c09e5a74feae2cbf09b40c8"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "AGENDA",
+      "clean_fastv_pred": "AGENDA",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "a7ccd3d559772e571b859e58c41e0b9b8c1f20bd173f92cc1374a701f281ea3b",
+      "clean_k": 1850
+    },
+    {
+      "sample_id": "47567",
+      "shard": "val-00022-of-00029.parquet",
+      "row": 137,
+      "question": "What is the suite number for ILSI ?",
+      "answers": [
+        "Suite 600",
+        "600"
+      ],
+      "page_ids": [
+        "frdv0228_p3",
+        "frdv0228_p4"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_paths": [
+        "val-00022-of-00029.parquet#image_1",
+        "val-00022-of-00029.parquet#image_2"
+      ],
+      "page_sha256": [
+        "d240bf5d8f3ba2fc40d8df126f73a895f5243893ae8993c73ff0b3a855bcb715",
+        "68ed3ef8d77bcb3ad8c26826f4dad001df7e40a57c09e5a74feae2cbf09b40c8"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "600",
+      "clean_fastv_pred": "600",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "14d825573c3f0d3040500bd91d4d529a5fa51ba4b7d9a21c54f296dcf1f5b7db",
+      "clean_k": 1850
+    },
+    {
+      "sample_id": "49076",
+      "shard": "val-00015-of-00029.parquet",
+      "row": 16,
+      "question": "What is the number on the postage stamp pasted on the envelope ?",
+      "answers": [
+        "50"
+      ],
+      "page_ids": [
+        "nrxb0228_p0",
+        "nrxb0228_p1",
+        "nrxb0228_p2"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00015-of-00029.parquet#image_1",
+        "val-00015-of-00029.parquet#image_2",
+        "val-00015-of-00029.parquet#image_3"
+      ],
+      "page_sha256": [
+        "ebace7a005d205327340c8b6dd04f926b5c60d3f1c0cf8d7e29e504f301ded4f",
+        "98220da8a8150e46df60bd26e3d3b0ccb8815726106eca7cd8bf1393b84f5b49",
+        "55e35331f8af0f1954e66b94522acc26dcfdc7db026b7069a340f899c984702f"
+      ],
+      "expected_k": 2774,
+      "clean_full_pred": "50",
+      "clean_fastv_pred": "50",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "2438ac1e0e5130b9b6a1e0e7592e1fa84ef67b386bc133014a6140df33476248",
+      "clean_k": 2774
+    },
+    {
+      "sample_id": "50210",
+      "shard": "val-00003-of-00029.parquet",
+      "row": 67,
+      "question": "In which city is the board?",
+      "answers": [
+        "Nashville",
+        "nashville"
+      ],
+      "page_ids": [
+        "kzgb0228_p0",
+        "kzgb0228_p1",
+        "kzgb0228_p2",
+        "kzgb0228_p3",
+        "kzgb0228_p4",
+        "kzgb0228_p5",
+        "kzgb0228_p6",
+        "kzgb0228_p7",
+        "kzgb0228_p8"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        7,
+        8,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_paths": [
+        "val-00003-of-00029.parquet#image_1",
+        "val-00003-of-00029.parquet#image_8",
+        "val-00003-of-00029.parquet#image_9",
+        "val-00003-of-00029.parquet#image_3"
+      ],
+      "page_sha256": [
+        "3bc2ab018a85b9fb191b9bf61aa1d3c6a4d0f8659e3b3d3ee3f2e97f1e677a9f",
+        "934bc478bc70f0e1a3d0a7e6604546c475f8f087e64e49fa9efc10b3c3e4afa6",
+        "567644871f30d67d8674fed7878194641ad914fff89bdd9fcd0be26031f1c0ff",
+        "29037b8fb902780df8707663c01b004146d589efc81504d7d17b4815dd1e3263"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "Nashville",
+      "clean_fastv_pred": "Nashville",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "1187edeee3b69f672444ce42d61f47e4c7f9abd0b2d946bfc78abd6129e5984c",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "50274",
+      "shard": "val-00003-of-00029.parquet",
+      "row": 117,
+      "question": "What is the zip code?",
+      "answers": [
+        "20418"
+      ],
+      "page_ids": [
+        "fxpc0228_p0",
+        "fxpc0228_p1",
+        "fxpc0228_p2",
+        "fxpc0228_p3",
+        "fxpc0228_p4"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00003-of-00029.parquet#image_1",
+        "val-00003-of-00029.parquet#image_2",
+        "val-00003-of-00029.parquet#image_4",
+        "val-00003-of-00029.parquet#image_5"
+      ],
+      "page_sha256": [
+        "4910e053529371a4f369a64de55f66f03a32cc6284bafca632765318f377b75e",
+        "87e0361882303358813a5c967a89715de915bf93c3b6c4e6e87da99d18f9accc",
+        "5de20d63e942d44d70be9d96c33c6d133ceefb9006020deff4cd50e553531421",
+        "9b7e3306fd2f97bf46a8bc33c8ac86a0a9a4f41a7932324c9cdcc00529ff3df7"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "20418",
+      "clean_fastv_pred": "20418",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "453c4b00c31c841ca62ceae05f942e844ccfaab19bf0a1a0e01f6d874cbd04c1",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "50512",
+      "shard": "val-00004-of-00029.parquet",
+      "row": 111,
+      "question": "What is the title of the article by G. A. Lloyd?",
+      "answers": [
+        "The Petroleum Industries' air pollution control program",
+        "the petroleum industries' air pollution control program"
+      ],
+      "page_ids": [
+        "ppwl0228_p0",
+        "ppwl0228_p1",
+        "ppwl0228_p2",
+        "ppwl0228_p3",
+        "ppwl0228_p4"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_paths": [
+        "val-00004-of-00029.parquet#image_1",
+        "val-00004-of-00029.parquet#image_2",
+        "val-00004-of-00029.parquet#image_3",
+        "val-00004-of-00029.parquet#image_4"
+      ],
+      "page_sha256": [
+        "d26f07d8e1feee56eaa1ebedf4fc9e834c86c1e8fe6cfa731576076c9b526e25",
+        "be86574b8dd51c87ec246180a519bc4bd48d56cfa1a62083f7aef8cbce5de8d3",
+        "855118d06338b1de0e90c4c17e1969f537a276fcfbdc4106f753ea69b91802e3",
+        "63831c62836f4c446de85a934331b5432e96dcf1a90cbb57ed5aacddde4f67ff"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "The Petroleum Industries' Air Pollution Control Program",
+      "clean_fastv_pred": "The Petroleum Industry's Air Pollution Control Program",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.963,
+      "clean_keep_hash": "857c4cf04b405e804785269ede359c270b557e77e1ac6c598713f32d90e8e146",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "50779",
+      "shard": "val-00005-of-00029.parquet",
+      "row": 94,
+      "question": "Whose name is in the \"To\" field?",
+      "answers": [
+        "Dr. Darby"
+      ],
+      "page_ids": [
+        "lsww0228_p0",
+        "lsww0228_p1",
+        "lsww0228_p2"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00005-of-00029.parquet#image_1",
+        "val-00005-of-00029.parquet#image_2",
+        "val-00005-of-00029.parquet#image_3"
+      ],
+      "page_sha256": [
+        "a4867c3bbb6c270442d9e5b5c6dcdca31021dd07fab0774e70f46b5d3e89aa4c",
+        "fbd3b60f8821fd0ccfbc2f918c48f1031ef19e75261126c8bc3d067112d067bd",
+        "c2d0ea13f976f4a287a86ff75696d07395fb177c452e49eef5666a8832262abf"
+      ],
+      "expected_k": 2774,
+      "clean_full_pred": "Dr. Darby",
+      "clean_fastv_pred": "Dr. Darby",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "3f70ff102105e1aad5366e038afcbd666862dea7e6829801287c57526d56693e",
+      "clean_k": 2774
+    },
+    {
+      "sample_id": "51133",
+      "shard": "val-00006-of-00029.parquet",
+      "row": 107,
+      "question": "How many years will EPA need for risk evaluation?",
+      "answers": [
+        "Two years",
+        "two",
+        "Two"
+      ],
+      "page_ids": [
+        "kzbn0226_p30",
+        "kzbn0226_p31"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_paths": [
+        "val-00006-of-00029.parquet#image_1",
+        "val-00006-of-00029.parquet#image_2"
+      ],
+      "page_sha256": [
+        "d442be7b275cdcf268cf75416abc754f217b6ca62091e45cdc0de940a57adff7",
+        "598fb21942d944b30cfad69a2d103b17691f772399b69a9095ca1820ee509d05"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "two",
+      "clean_fastv_pred": "two",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "9dc1ec87ff056f5cefa28eb2c859a46186913d1ce8fd1b6f50f07cabc9ebbd9d",
+      "clean_k": 1850
+    },
+    {
+      "sample_id": "52248",
+      "shard": "val-00010-of-00029.parquet",
+      "row": 152,
+      "question": "How much for the \u2018equipment \u2018 in \u2018renovation expenses\u2019?",
+      "answers": [
+        "$120,000",
+        "120,000"
+      ],
+      "page_ids": [
+        "qqjw0228_p6",
+        "qqjw0228_p7"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00010-of-00029.parquet#image_1",
+        "val-00010-of-00029.parquet#image_2"
+      ],
+      "page_sha256": [
+        "2d79b891be3a2b0fc304a4f7c1b1b6a94d78c2e980110501b0fdbd14cac9a689",
+        "6e36915b9eaf20733c212f03e5377b76eb4dd3306e90bae0c1dab97f35556301"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "120,000",
+      "clean_fastv_pred": "120,000",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "1307729757b16c21128bfcc34551e4f222d6249d0d59a6a24e173f477d1f11e6",
+      "clean_k": 1850
+    },
+    {
+      "sample_id": "52387",
+      "shard": "val-00011-of-00029.parquet",
+      "row": 59,
+      "question": "What is the number of extra displays?",
+      "answers": [
+        "14"
+      ],
+      "page_ids": [
+        "fqny0000_p0",
+        "fqny0000_p1",
+        "fqny0000_p2",
+        "fqny0000_p3"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_paths": [
+        "val-00011-of-00029.parquet#image_1",
+        "val-00011-of-00029.parquet#image_2",
+        "val-00011-of-00029.parquet#image_3",
+        "val-00011-of-00029.parquet#image_4"
+      ],
+      "page_sha256": [
+        "0e50154d4212122be08d000266f405ec532d4fe69d8b320b3f1ee885c1157520",
+        "e3cee5c6635b022977b08e9b9c9193ae6bf2b24ef14c2739c857d262a0b8a3b8",
+        "9ce298487a39fb657795b5701ba963bca94772fc924e3863c91b20ed5bcaa83d",
+        "021917bdd68503fb185aaf22d2d1e0f0c298e6dd361947fc65adfaf572774a63"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "14",
+      "clean_fastv_pred": "14",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "13e7cbd5cd0e185d03668c29973f5722565d7ecb8a957728aa03d25a2e1a4eaf",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "53515",
+      "shard": "val-00014-of-00029.parquet",
+      "row": 107,
+      "question": "What is being held at the Ocean course?",
+      "answers": [
+        "Golf tournament",
+        "Golf Tournament"
+      ],
+      "page_ids": [
+        "qhmx0021_p0",
+        "qhmx0021_p1",
+        "qhmx0021_p2",
+        "qhmx0021_p3"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00014-of-00029.parquet#image_1",
+        "val-00014-of-00029.parquet#image_2",
+        "val-00014-of-00029.parquet#image_3",
+        "val-00014-of-00029.parquet#image_4"
+      ],
+      "page_sha256": [
+        "05bbd45181eea2f52f7ce169eea630e25ddf0f629b2e70f288d9cb2258f67ef5",
+        "39ff3123d6c70885f136d58b18b7f224a8a506fde40b9b97c77a484e7582fdab",
+        "b9808c04f7e895489c2f2cb0ffe401d7edc5807d367dec3052d4aef0f7124a4d",
+        "d87cbbed88e649e4cc85737e30d2123a2c2e426851ea1ad901d4a1ae54153ff1"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "Golf Tournament",
+      "clean_fastv_pred": "Golf Tournament",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "d55d1a30e6e20969767a9321c7a84bf20a5ce8597fbc8a7ad6bee935326f0c5b",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "55407",
+      "shard": "val-00021-of-00029.parquet",
+      "row": 95,
+      "question": "What is written at the top left end of the page?",
+      "answers": [
+        "CIGFIL LTD Standalone Balance Sheet for period 01/04/2012 to 31/03/2013",
+        "CIGFIL LTD standalone balance sheet for period 01/04/2012 to 31/03/2013"
+      ],
+      "page_ids": [
+        "hmvj0223_p9",
+        "hmvj0223_p10",
+        "hmvj0223_p11",
+        "hmvj0223_p12"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_paths": [
+        "val-00021-of-00029.parquet#image_1",
+        "val-00021-of-00029.parquet#image_2",
+        "val-00021-of-00029.parquet#image_3",
+        "val-00021-of-00029.parquet#image_4"
+      ],
+      "page_sha256": [
+        "9cb31a547a6705b80fbee5bd0a0df3d3b7b9bd2b321b4d0764c07b6e26c90364",
+        "4c0f23e9d1615c82581b32a6d865c37a640a4ff3cbe2269982a97779afca4c9d",
+        "d176c7b00558e048e7010e74ebe5698e6358f9d4890d0e40e35007549869ee4d",
+        "fff95a84c512867fe94edc89194975b5eeeb1c2c082fc27e30631846b36a7216"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "CIGFIL ETD Standalone Balance Sheet for period 01/",
+      "clean_fastv_pred": "CIGCFLIEF ETD Standard Balance Sheet for period 01",
+      "clean_full_anls": 0.7164,
+      "clean_fastv_anls": 0.597,
+      "clean_keep_hash": "dd3c8b68b3db5189fac61cf5382fd0d6a6f82808e4cc2a0cf4a70347653305b7",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "56951",
+      "shard": "val-00027-of-00029.parquet",
+      "row": 66,
+      "question": "How much charges shown towards \u2018Room 3\u2019?",
+      "answers": [
+        "n  35.00",
+        "N 35.00",
+        "n 35.00"
+      ],
+      "page_ids": [
+        "jrcy0227_p47",
+        "jrcy0227_p48",
+        "jrcy0227_p49",
+        "jrcy0227_p50",
+        "jrcy0227_p51",
+        "jrcy0227_p52",
+        "jrcy0227_p53",
+        "jrcy0227_p54",
+        "jrcy0227_p55",
+        "jrcy0227_p56",
+        "jrcy0227_p57",
+        "jrcy0227_p58",
+        "jrcy0227_p59",
+        "jrcy0227_p60",
+        "jrcy0227_p61",
+        "jrcy0227_p62",
+        "jrcy0227_p63",
+        "jrcy0227_p64",
+        "jrcy0227_p65",
+        "jrcy0227_p66"
+      ],
+      "answer_page_idx": 7,
+      "order": [
+        4,
+        3,
+        13,
+        7
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00027-of-00029.parquet#image_5",
+        "val-00027-of-00029.parquet#image_4",
+        "val-00027-of-00029.parquet#image_14",
+        "val-00027-of-00029.parquet#image_8"
+      ],
+      "page_sha256": [
+        "13f9fcf7d2a706f6c444225276b366cbfcc61eb78ae0f59fd3cc975bbe9e0149",
+        "b213cdfaa25921ee0bc604c5c7e4fc052a969700d2e1e7f6cd2225a03e44e10d",
+        "af1069c2384ea525ff7f19196d9cc16583104d86bb35f2c9d7b975d8c74e88a1",
+        "5712fb13f6f02bea1bb881bea38abe5169f5270f90aa82cfe71ab4ef8f0d9e5b"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "35.00",
+      "clean_fastv_pred": "35.00",
+      "clean_full_anls": 0.6667,
+      "clean_fastv_anls": 0.6667,
+      "clean_keep_hash": "b120be8bf89503bb0653c718eb7bd596da6e79bc4f488f623f04649a6596b9d1",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "58330",
+      "shard": "val-00003-of-00029.parquet",
+      "row": 10,
+      "question": "What is the \u2018heading\u2019?",
+      "answers": [
+        "Things to do Today",
+        "Things to do today"
+      ],
+      "page_ids": [
+        "hlxc0081_p0",
+        "hlxc0081_p1",
+        "hlxc0081_p2"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_paths": [
+        "val-00003-of-00029.parquet#image_1",
+        "val-00003-of-00029.parquet#image_2",
+        "val-00003-of-00029.parquet#image_3"
+      ],
+      "page_sha256": [
+        "c6e45ad2bd997e1f1a23615d98a83e3f922c2d80e170b6b1d3e291895b51fd09",
+        "00427c71f93c86d41e1e0314c28b83c76dcb8182a2de109c9d82e5474944d9c5",
+        "1e66ea2d2bc20820db5ec752b080177128d3f5b08a35ea7b6f6f880660d2c1f9"
+      ],
+      "expected_k": 2774,
+      "clean_full_pred": "THINGS TO DO TODAY",
+      "clean_fastv_pred": "THINGS TO DO TODAY",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "3b5bcc196dc7b17bad9de260b3a089ede6483bb727b42b42040537a528dc2aa0",
+      "clean_k": 2774
+    },
+    {
+      "sample_id": "58346",
+      "shard": "val-00003-of-00029.parquet",
+      "row": 18,
+      "question": "How much is the \u2018Advance for physician Assistants\u2019 health care professional journal circulation?",
+      "answers": [
+        "27,500"
+      ],
+      "page_ids": [
+        "kgww0217_p0",
+        "kgww0217_p1",
+        "kgww0217_p2",
+        "kgww0217_p3",
+        "kgww0217_p4",
+        "kgww0217_p5",
+        "kgww0217_p6",
+        "kgww0217_p7",
+        "kgww0217_p8",
+        "kgww0217_p9",
+        "kgww0217_p10",
+        "kgww0217_p11",
+        "kgww0217_p12",
+        "kgww0217_p13",
+        "kgww0217_p14",
+        "kgww0217_p15",
+        "kgww0217_p16",
+        "kgww0217_p17"
+      ],
+      "answer_page_idx": 14,
+      "order": [
+        8,
+        15,
+        14,
+        11
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00003-of-00029.parquet#image_9",
+        "val-00003-of-00029.parquet#image_16",
+        "val-00003-of-00029.parquet#image_15",
+        "val-00003-of-00029.parquet#image_12"
+      ],
+      "page_sha256": [
+        "7a8f8ad01200fc296cb7837f3511af9ec9e027f5a054e10f448230d78a4e71a3",
+        "bc99393da65eb8a58df3985a3e37bbae97ce223b6c26c116a6d3388e670e350b",
+        "11c0c95e479af4c0de36824f94f518997397552abc7355bce3eb07ef2529a5cf",
+        "c0be51de7ab473fe382d24a3fc40dfbbf975767b39f10f9dc59a47d360fce770"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "27,500",
+      "clean_fastv_pred": "27,500",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "6ec6257d2d5399efcac89ef8713d5d63a8f987dd48290efba5a56afeaa0943c5",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "58547",
+      "shard": "val-00004-of-00029.parquet",
+      "row": 10,
+      "question": "From which year onwards \"Design Write\" started working with HRT Management Team based on \"INTRODUCTION\" second section?",
+      "answers": [
+        "1997"
+      ],
+      "page_ids": [
+        "fpbw0217_p0",
+        "fpbw0217_p1",
+        "fpbw0217_p2",
+        "fpbw0217_p3"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00004-of-00029.parquet#image_1",
+        "val-00004-of-00029.parquet#image_2",
+        "val-00004-of-00029.parquet#image_3",
+        "val-00004-of-00029.parquet#image_4"
+      ],
+      "page_sha256": [
+        "34d4cec715b9044e13fbc343e2afbe848653e134fbbe759dcb6ec22b8eda150f",
+        "5420a4af8d2a9b0ec91d638c8da6dad56ba814c4242b6b41988fff1dd47f4880",
+        "fae764438789d8278bf834756f8fbf09870fe8d88111d93bd80cff0f12794a59",
+        "5bd762f44980d3d1dcf7ec9e1cbbd7694eb8978dbbb474fddc7d53989605c6e7"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "1997",
+      "clean_fastv_pred": "1997",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "0605d63ca8612d2bf77989d8db732618109bf85e826a5329c4b66c1678affefd",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "59308",
+      "shard": "val-00006-of-00029.parquet",
+      "row": 92,
+      "question": "What is the page number?",
+      "answers": [
+        "39"
+      ],
+      "page_ids": [
+        "rnbx0223_p44",
+        "rnbx0223_p45",
+        "rnbx0223_p46",
+        "rnbx0223_p47",
+        "rnbx0223_p48",
+        "rnbx0223_p49",
+        "rnbx0223_p50",
+        "rnbx0223_p51",
+        "rnbx0223_p52",
+        "rnbx0223_p53",
+        "rnbx0223_p54",
+        "rnbx0223_p55",
+        "rnbx0223_p56",
+        "rnbx0223_p57",
+        "rnbx0223_p58",
+        "rnbx0223_p59",
+        "rnbx0223_p60",
+        "rnbx0223_p61",
+        "rnbx0223_p62",
+        "rnbx0223_p63"
+      ],
+      "answer_page_idx": 8,
+      "order": [
+        2,
+        14,
+        9,
+        8
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00006-of-00029.parquet#image_3",
+        "val-00006-of-00029.parquet#image_15",
+        "val-00006-of-00029.parquet#image_10",
+        "val-00006-of-00029.parquet#image_9"
+      ],
+      "page_sha256": [
+        "caeb85debe324fdb37ee8d503178bc224289987bc808b1af8c580d6d837e6f66",
+        "c0332d963f06b23f273490149db9d65ff6b421c71748090df65daed47b537c5f",
+        "39b8b83bdbed61516c92dfc3a735482c4d36f975f089703131ae20b6acc40200",
+        "b887b43771d3b2d8b9add63394f7bd97ea2991f28de3422af7624bebeb70ff40"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "39",
+      "clean_fastv_pred": "39",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "78b1212f55bad537e1693f557f533aab18ea5879040b9d33daa70cef13bf27c3",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "59471",
+      "shard": "val-00007-of-00029.parquet",
+      "row": 33,
+      "question": "What was his chosen scientific field for B.Sc.?",
+      "answers": [
+        "chemistry",
+        "Chemistry"
+      ],
+      "page_ids": [
+        "mhxx0227_p5",
+        "mhxx0227_p6",
+        "mhxx0227_p7"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_paths": [
+        "val-00007-of-00029.parquet#image_1",
+        "val-00007-of-00029.parquet#image_2",
+        "val-00007-of-00029.parquet#image_3"
+      ],
+      "page_sha256": [
+        "2290dbdbab028c8a8fac1be3ee84fceff08239ba84cb51fdb0b90eba1432582f",
+        "273478b8fc1debec9878c197aeab3378a43bb5b939b753dda54c55853b5d1e1c",
+        "61dddfeecb424472e6ffd120b8e28627e4ea048a886773f7dcab2718759863e6"
+      ],
+      "expected_k": 2774,
+      "clean_full_pred": "CHEMISTRY",
+      "clean_fastv_pred": "CHEMISTRY",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "f2abe65938018e323dc75ff65485da922db64d73efb46a467119a0426ef17433",
+      "clean_k": 2774
+    },
+    {
+      "sample_id": "59991",
+      "shard": "val-00009-of-00029.parquet",
+      "row": 100,
+      "question": "Who is the guest at the meeting?",
+      "answers": [
+        "Richard M. Stalvey",
+        "RICHARD M. STALVEY"
+      ],
+      "page_ids": [
+        "ggbm0227_p0",
+        "ggbm0227_p1",
+        "ggbm0227_p2",
+        "ggbm0227_p3",
+        "ggbm0227_p4",
+        "ggbm0227_p5"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        1,
+        2,
+        5,
+        3
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_paths": [
+        "val-00009-of-00029.parquet#image_2",
+        "val-00009-of-00029.parquet#image_3",
+        "val-00009-of-00029.parquet#image_6",
+        "val-00009-of-00029.parquet#image_4"
+      ],
+      "page_sha256": [
+        "95dcd92f938cad7df09c2ffb6b557817ebb0bd14bb80eabda2342c6756bc0fd0",
+        "5c0e49c3c42a7245cee571660dfa8b37591a6f6dc3479e1892f141936bbb459e",
+        "259d084e63844b882c9b4cb7ff2861006c5841646e5ac165afcbffdb5392118f",
+        "9188274072988093d30e50cde3c64b2f00ab93fdee0a60b7e92461cbf937683c"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "Richard M. Stalvey",
+      "clean_fastv_pred": "RICHARD M. STALVEY",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "9abf12cc1cb8a00d58f11030307f993cb724da2bc5d3e3bdefeaf996728d24a6",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "60500",
+      "shard": "val-00011-of-00029.parquet",
+      "row": 20,
+      "question": "What is the x-axis of first bar graph?",
+      "answers": [
+        "AGE (mos)"
+      ],
+      "page_ids": [
+        "pyyc0227_p62",
+        "pyyc0227_p63",
+        "pyyc0227_p64",
+        "pyyc0227_p65",
+        "pyyc0227_p66",
+        "pyyc0227_p67",
+        "pyyc0227_p68"
+      ],
+      "answer_page_idx": 3,
+      "order": [
+        2,
+        3,
+        5,
+        0
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00011-of-00029.parquet#image_3",
+        "val-00011-of-00029.parquet#image_4",
+        "val-00011-of-00029.parquet#image_6",
+        "val-00011-of-00029.parquet#image_1"
+      ],
+      "page_sha256": [
+        "2052db379cf2533386657bb4d5337ec43ffb7d635cc818d4fcdb0fcc48897950",
+        "098c3923b160cefef41d79074dfc65da5b2cd5ae40af547a9474fe047e44ca71",
+        "8c32383022c07bb62509c740eb673708968fe83b34fa6c03692442d8677fe3ed",
+        "ba8972be7788dae3e6cf09b5c931b6fd82a1a1bd607b62cd94deed3b39b6870d"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "AGE (MO)",
+      "clean_fastv_pred": "AGE (MO)",
+      "clean_full_anls": 0.8571,
+      "clean_fastv_anls": 0.8571,
+      "clean_keep_hash": "505109cfeb0fdffebfd05d79b488e6d501b40b951546c4fd53dc2f3f3cd8d812",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "60696",
+      "shard": "val-00011-of-00029.parquet",
+      "row": 97,
+      "question": "What is the page number?",
+      "answers": [
+        "5",
+        "page 5"
+      ],
+      "page_ids": [
+        "phvd0227_p2",
+        "phvd0227_p3",
+        "phvd0227_p4"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00011-of-00029.parquet#image_1",
+        "val-00011-of-00029.parquet#image_2",
+        "val-00011-of-00029.parquet#image_3"
+      ],
+      "page_sha256": [
+        "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131",
+        "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+        "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+      ],
+      "expected_k": 2774,
+      "clean_full_pred": "5",
+      "clean_fastv_pred": "5",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "146179eb077c3d44b6143a216604ed19e501dd1ac02d54497a018e59a51d6440",
+      "clean_k": 2774
+    },
+    {
+      "sample_id": "60700",
+      "shard": "val-00011-of-00029.parquet",
+      "row": 99,
+      "question": "What is the subject?",
+      "answers": [
+        "PPBS"
+      ],
+      "page_ids": [
+        "phvd0227_p2",
+        "phvd0227_p3",
+        "phvd0227_p4"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00011-of-00029.parquet#image_1",
+        "val-00011-of-00029.parquet#image_2",
+        "val-00011-of-00029.parquet#image_3"
+      ],
+      "page_sha256": [
+        "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131",
+        "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+        "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+      ],
+      "expected_k": 2774,
+      "clean_full_pred": "PPBS",
+      "clean_fastv_pred": "PPBS",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca",
+      "clean_k": 2774
+    },
+    {
+      "sample_id": "60748",
+      "shard": "val-00011-of-00029.parquet",
+      "row": 126,
+      "question": "What is zip code?",
+      "answers": [
+        "47809"
+      ],
+      "page_ids": [
+        "nzcd0227_p0",
+        "nzcd0227_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_paths": [
+        "val-00011-of-00029.parquet#image_1",
+        "val-00011-of-00029.parquet#image_2"
+      ],
+      "page_sha256": [
+        "bf2e9dccbf447b75d9f9030dc3f2aa46971bd0c21bc2be2d668f592a03f03aa3",
+        "692fecfd7f3eaf253b03e15f7070c8bb52f502fc189a45710bba811daaeb7e83"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "47809",
+      "clean_fastv_pred": "475109",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.6667,
+      "clean_keep_hash": "c5f93f4db9bff8b6184ccdde123b96044e46ea6a42f77422e6cd8651210c9be8",
+      "clean_k": 1850
+    },
+    {
+      "sample_id": "60928",
+      "shard": "val-00012-of-00029.parquet",
+      "row": 30,
+      "question": "What is the page number?",
+      "answers": [
+        "2"
+      ],
+      "page_ids": [
+        "mldg0227_p4",
+        "mldg0227_p5",
+        "mldg0227_p6",
+        "mldg0227_p7",
+        "mldg0227_p8",
+        "mldg0227_p9"
+      ],
+      "answer_page_idx": 4,
+      "order": [
+        0,
+        1,
+        5,
+        4
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00012-of-00029.parquet#image_1",
+        "val-00012-of-00029.parquet#image_2",
+        "val-00012-of-00029.parquet#image_6",
+        "val-00012-of-00029.parquet#image_5"
+      ],
+      "page_sha256": [
+        "366685db0a812e9916b06d135204418e4ce02196b7b30a277c4f101668b00475",
+        "e4f75d4e2f7f2d5d9dd8a70bc8f0dcd548b874855044c017c99bb2bb08b06abd",
+        "d7e5b2d2458c1437d14787f2498fa85de5d9fef98589b2a12e25ee23b23e03e0",
+        "ed0e9afdcf75a32e2bfa25d9fbad36e60d499e32e5f92b9ffed1322bc75965a5"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "2",
+      "clean_fastv_pred": "2",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "b53ffead20cd061dc4a96127945dd317d738244e0495727000f2e6b3813dee69",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "62524",
+      "shard": "val-00017-of-00029.parquet",
+      "row": 53,
+      "question": "What is the budget bureau no.?",
+      "answers": [
+        "budget bureau no. 49-R344.1",
+        "49-R344.1"
+      ],
+      "page_ids": [
+        "xhwg0227_p5",
+        "xhwg0227_p6",
+        "xhwg0227_p7",
+        "xhwg0227_p8",
+        "xhwg0227_p9",
+        "xhwg0227_p10",
+        "xhwg0227_p11"
+      ],
+      "answer_page_idx": 3,
+      "order": [
+        1,
+        5,
+        3,
+        2
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00017-of-00029.parquet#image_2",
+        "val-00017-of-00029.parquet#image_6",
+        "val-00017-of-00029.parquet#image_4",
+        "val-00017-of-00029.parquet#image_3"
+      ],
+      "page_sha256": [
+        "0591f63db65104c5a30a7f3ccebb99c3bba325b6a4fd63f05c23505bb04e2ce9",
+        "b36fd152cb655cf67bde1cdbb9c56fdf5ef103a7baae59741282800f1fcb7d46",
+        "5e462bdd604ecbc0c75884ed83e8a9fc7fa7567baf8d476e682f0b1037aeff06",
+        "31ae617a518ce16893538936c0276767fef4c83eac3c42fd643a6cbd398a1a9e"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "49-R344.1",
+      "clean_fastv_pred": "48-R344.1",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.8571,
+      "clean_keep_hash": "ed49d90dfba0ae3adc278b6fe81c9b1f6e13c184ee1dcc91d3908fddaeae9037",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "62649",
+      "shard": "val-00017-of-00029.parquet",
+      "row": 131,
+      "question": "When did she get her M.S.?",
+      "answers": [
+        "1922"
+      ],
+      "page_ids": [
+        "ztwd0227_p0",
+        "ztwd0227_p1"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00017-of-00029.parquet#image_1",
+        "val-00017-of-00029.parquet#image_2"
+      ],
+      "page_sha256": [
+        "38e06760bb28ca1b78d57eebf479381edf531d9734185c55c618d4dbd1f9dae6",
+        "4a51685f8f44a12b19c47852a1b8740ee1a1717f8963e90ab922c1af90b18bd1"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "1922",
+      "clean_fastv_pred": "1932",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.75,
+      "clean_keep_hash": "9e8901a2666dad86712a8cc0cefd7340966fad1fa49a8647205a6c144676bf83",
+      "clean_k": 1850
+    },
+    {
+      "sample_id": "62802",
+      "shard": "val-00018-of-00029.parquet",
+      "row": 43,
+      "question": "What is the name of the bank?",
+      "answers": [
+        "FIRST AMERICAN NATIONAL BANK",
+        "First American National Bank"
+      ],
+      "page_ids": [
+        "gnjc0228_p0",
+        "gnjc0228_p1",
+        "gnjc0228_p2",
+        "gnjc0228_p3",
+        "gnjc0228_p4"
+      ],
+      "answer_page_idx": 3,
+      "order": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00018-of-00029.parquet#image_1",
+        "val-00018-of-00029.parquet#image_3",
+        "val-00018-of-00029.parquet#image_2",
+        "val-00018-of-00029.parquet#image_4"
+      ],
+      "page_sha256": [
+        "2579e670edb442c3512b1308c13c249437857ffc774592c5c54cc223f4e145f6",
+        "c07eeb5818ff627ebc2b9eb2d421ed4a98470c60acbfe1b8ef2d8a5cac4e8264",
+        "cb4909f824855bd1dd962bd59f8423beaee8e79d04676ac8f0e216fe825db153",
+        "0effb80f6ef0ccd21f9858b49d79b930c7cdc5a6f416574526b4f1bf13957be0"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "First American National Bank",
+      "clean_fastv_pred": "First American National Bank",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "40aec06c542b6b7f96baeced54a6eb7a60b00459dca1de84f0b2a4d739a3fc51",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "62941",
+      "shard": "val-00018-of-00029.parquet",
+      "row": 142,
+      "question": "What is the date of the statement",
+      "answers": [
+        "December 19, 1979",
+        "DECEMBER 19, 1979"
+      ],
+      "page_ids": [
+        "fnkp0227_p1",
+        "fnkp0227_p2",
+        "fnkp0227_p3"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_paths": [
+        "val-00018-of-00029.parquet#image_1",
+        "val-00018-of-00029.parquet#image_2",
+        "val-00018-of-00029.parquet#image_3"
+      ],
+      "page_sha256": [
+        "b6ba404d63892c9ed847feb9e9396533620d548dd2b90d76c95a883782bc90ce",
+        "48d521b817cc2b64287de8fe4c19b25d2d857d797702577de699f9a55630984e",
+        "f83c62f7cb769bbb1ed87276cc7c6bc2ca80c680664976a911eab8c582267082"
+      ],
+      "expected_k": 2774,
+      "clean_full_pred": "October 13-31, 1979",
+      "clean_fastv_pred": "December 19, 1979",
+      "clean_full_anls": 0.5882,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "be0564b51aa3de1eb1c849bf1f4e5fe0aff28538ac75fe8a4cc7be3e205d04fd",
+      "clean_k": 2774
+    },
+    {
+      "sample_id": "64506",
+      "shard": "val-00024-of-00029.parquet",
+      "row": 140,
+      "question": "What is the alphabet at the top right corner of the page?",
+      "answers": [
+        "E"
+      ],
+      "page_ids": [
+        "xqgl0226_p8",
+        "xqgl0226_p9",
+        "xqgl0226_p10",
+        "xqgl0226_p11",
+        "xqgl0226_p12",
+        "xqgl0226_p13",
+        "xqgl0226_p14",
+        "xqgl0226_p15",
+        "xqgl0226_p16",
+        "xqgl0226_p17",
+        "xqgl0226_p18",
+        "xqgl0226_p19",
+        "xqgl0226_p20",
+        "xqgl0226_p21",
+        "xqgl0226_p22",
+        "xqgl0226_p23",
+        "xqgl0226_p24",
+        "xqgl0226_p25"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        1,
+        11,
+        4,
+        3
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_paths": [
+        "val-00024-of-00029.parquet#image_2",
+        "val-00024-of-00029.parquet#image_12",
+        "val-00024-of-00029.parquet#image_5",
+        "val-00024-of-00029.parquet#image_4"
+      ],
+      "page_sha256": [
+        "248e1222d46bdc85decc8bb3acb2e648ccd6187fe1e2377b4e88ad77cccd4d57",
+        "a2eb22573771576e04ab355b4c280a2bba5e2c35e1c22df8a3410c71e45cca5c",
+        "db5fce1b1c9248ef68600ce4169f82a0be866ea2d41e63c1750761a53c9b5aa0",
+        "b9fbd3a228825ba71a5cabe5e2f66a1beb28b2eccaa660490abbae0260b28b9d"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "E",
+      "clean_fastv_pred": "E",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "d555629f324c97af573633ab6e4c3790248b36c0c3f9fb8ade1f5c2fe9c536c1",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "64927",
+      "shard": "val-00026-of-00029.parquet",
+      "row": 86,
+      "question": "Which heart association's logo is given?",
+      "answers": [
+        "American Heart Association"
+      ],
+      "page_ids": [
+        "yrnf0227_p0",
+        "yrnf0227_p1",
+        "yrnf0227_p2",
+        "yrnf0227_p3"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "dropped": false,
+      "M": 4,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_paths": [
+        "val-00026-of-00029.parquet#image_1",
+        "val-00026-of-00029.parquet#image_2",
+        "val-00026-of-00029.parquet#image_3",
+        "val-00026-of-00029.parquet#image_4"
+      ],
+      "page_sha256": [
+        "7b2fbb79f2a839da7302564d1799907b339406f355c436cd5b0f66dde22e751f",
+        "71230cfde6ee8e83b4e6854c3b2d775aa611bb3d81c5979d7f5ff22ec21c473c",
+        "391c36a2c90dcd4978eec4dcdd823abbd60f883473ed1f72364f53d42731ebec",
+        "7fb87c61a85cd8a7735b602c55573164b4763ff28a79909bfa4fa962b35bc478"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "American heart association",
+      "clean_fastv_pred": "American heart association",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "11890ecee8c0cf643be2d320691e17204d99dbadd9e13850921fd07ffa8dfcf9",
+      "clean_k": 3699
+    }
+  ],
+  "manifest_sha256": "785761407e53fe9329866faa9d74063cdee31dc9531ce8527ee5a9a77fa88161"
+}

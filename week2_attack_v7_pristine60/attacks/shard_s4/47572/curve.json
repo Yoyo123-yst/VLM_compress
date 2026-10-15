@@ -1,0 +1,241 @@
+[
+  {
+    "sample_id": "47572",
+    "step": 0,
+    "seed": 3142148005,
+    "pred_full": "VIII",
+    "pred_fastv": "VIII",
+    "anls_full": 0.75,
+    "anls_fastv": 0.75,
+    "output_valid": true,
+    "margin": 2.3125,
+    "L_comp": 2.3541667461395264,
+    "L_soft_full": 0.69140625,
+    "keep_hash": "a1e6738c4bcca158953eb5e8912cea3b2c8db49c0d259af979de9b3b3181d7ab",
+    "k": 1850,
+    "aux_share": 0.4010810810810811,
+    "evidence_share": 0.5989189189189189,
+    "page_keep_counts": [
+      1108,
+      742
+    ],
+    "page_shares": [
+      0.5989189189189189,
+      0.4010810810810811
+    ],
+    "linf": 0.0,
+    "png": "checkpoints/step_000.png",
+    "png_sha256": "68ed3ef8d77bcb3ad8c26826f4dad001df7e40a57c09e5a74feae2cbf09b40c8",
+    "protected_ok": true,
+    "grad_norm": 58.34487533569336
+  },
+  {
+    "sample_id": "47572",
+    "step": 10,
+    "seed": 3142148005,
+    "pred_full": "VIII",
+    "pred_fastv": "X",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": 0.25,
+    "L_comp": 0.2708333432674408,
+    "L_soft_full": 0.390625,
+    "keep_hash": "ebc07f43a5b05f9a3f1861fb3e30b074fc29f05f995a37be59036c761e5ca8af",
+    "k": 1850,
+    "aux_share": 0.4427027027027027,
+    "evidence_share": 0.5572972972972973,
+    "page_keep_counts": [
+      1031,
+      819
+    ],
+    "page_shares": [
+      0.5572972972972973,
+      0.4427027027027027
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_010.png",
+    "png_sha256": "e49c0875d8c3cf3d7b9213ac22a7ac9e6870f86e29bbdef76ab78ba1bfef7819",
+    "protected_ok": true,
+    "grad_norm": 68.01815795898438
+  },
+  {
+    "sample_id": "47572",
+    "step": 25,
+    "seed": 3142148005,
+    "pred_full": "VIII",
+    "pred_fastv": "X",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -3.0208334922790527,
+    "L_comp": -2.7291667461395264,
+    "L_soft_full": 0.34375,
+    "keep_hash": "38d6e3e38101acf3f9adfaf033996c7cdce359ac71c66864e0bb1cbd6da0373a",
+    "k": 1850,
+    "aux_share": 0.4556756756756757,
+    "evidence_share": 0.5443243243243243,
+    "page_keep_counts": [
+      1007,
+      843
+    ],
+    "page_shares": [
+      0.5443243243243243,
+      0.4556756756756757
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_025.png",
+    "png_sha256": "f12710e637abfbf90bf0479a73ab61c34f2fdb9a26b4b8e8a9340a88488020fd",
+    "protected_ok": true,
+    "grad_norm": 35.403804779052734
+  },
+  {
+    "sample_id": "47572",
+    "step": 50,
+    "seed": 3142148005,
+    "pred_full": "VIII",
+    "pred_fastv": "X",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -5.708333492279053,
+    "L_comp": -5.458333492279053,
+    "L_soft_full": 0.27734375,
+    "keep_hash": "fc91ca84da3037379d6b0d9e300381effbed8abbf49608bbbb2f3b083c374505",
+    "k": 1850,
+    "aux_share": 0.45135135135135135,
+    "evidence_share": 0.5486486486486486,
+    "page_keep_counts": [
+      1015,
+      835
+    ],
+    "page_shares": [
+      0.5486486486486486,
+      0.45135135135135135
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_050.png",
+    "png_sha256": "75b5b12f8916afd93655b0e37468a291d95b6d8bef43ec093b441b43da501f74",
+    "protected_ok": true,
+    "grad_norm": 81.97824096679688
+  },
+  {
+    "sample_id": "47572",
+    "step": 75,
+    "seed": 3142148005,
+    "pred_full": "VIII",
+    "pred_fastv": "XVII.",
+    "anls_full": 0.75,
+    "anls_fastv": 0.75,
+    "output_valid": true,
+    "margin": -7.6666669845581055,
+    "L_comp": -7.583333492279053,
+    "L_soft_full": 0.134765625,
+    "keep_hash": "95a47227ef972fd695bd79758146d8e32b16deeb015b3ebe7d5c0bcfbe87bf13",
+    "k": 1850,
+    "aux_share": 0.4535135135135135,
+    "evidence_share": 0.5464864864864865,
+    "page_keep_counts": [
+      1011,
+      839
+    ],
+    "page_shares": [
+      0.5464864864864865,
+      0.4535135135135135
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_075.png",
+    "png_sha256": "fdc98a100280837692f02d87c8dc8cb48882810e64f77dbd871da9589d6d2f75",
+    "protected_ok": true,
+    "grad_norm": 49.24061584472656
+  },
+  {
+    "sample_id": "47572",
+    "step": 100,
+    "seed": 3142148005,
+    "pred_full": "VIII",
+    "pred_fastv": "X",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -7.78125,
+    "L_comp": -7.96875,
+    "L_soft_full": 0.11279296875,
+    "keep_hash": "b7783cc1f43ee56c328024cb3052009888a82cd64b9c9315b437359e11213f5d",
+    "k": 1850,
+    "aux_share": 0.46216216216216216,
+    "evidence_share": 0.5378378378378378,
+    "page_keep_counts": [
+      995,
+      855
+    ],
+    "page_shares": [
+      0.5378378378378378,
+      0.46216216216216216
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_100.png",
+    "png_sha256": "b11cfa9583cf4ac71de9abeb0b5795a2452789b72a9d583d91980bade1cb5d22",
+    "protected_ok": true,
+    "grad_norm": 977.3970336914062
+  },
+  {
+    "sample_id": "47572",
+    "step": 150,
+    "seed": 3142148005,
+    "pred_full": "VIII",
+    "pred_fastv": "XIV",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -10.0,
+    "L_comp": -10.0,
+    "L_soft_full": 0.06591796875,
+    "keep_hash": "9dfa0c6eb87fee777b924458592ed37e1437677d4552257d42106c8941678b0d",
+    "k": 1850,
+    "aux_share": 0.46054054054054056,
+    "evidence_share": 0.5394594594594595,
+    "page_keep_counts": [
+      998,
+      852
+    ],
+    "page_shares": [
+      0.5394594594594595,
+      0.46054054054054056
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_150.png",
+    "png_sha256": "5bc0a7f9e1b4fcbc03c22cc11ce0da56e0d90c8d14a0fc8e29cae773f078f112",
+    "protected_ok": true,
+    "grad_norm": 14.86125659942627
+  },
+  {
+    "sample_id": "47572",
+    "step": 200,
+    "seed": 3142148005,
+    "pred_full": "VIII",
+    "pred_fastv": "XV",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -13.838541984558105,
+    "L_comp": -13.651041984558105,
+    "L_soft_full": 0.080078125,
+    "keep_hash": "59daadbb45932c39f0d976b1b9aa03070ebb2e1d93c6808ce6ef414df0e9da2e",
+    "k": 1850,
+    "aux_share": 0.46054054054054056,
+    "evidence_share": 0.5394594594594595,
+    "page_keep_counts": [
+      998,
+      852
+    ],
+    "page_shares": [
+      0.5394594594594595,
+      0.46054054054054056
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_200.png",
+    "png_sha256": "1a0f18e69ccf9ffc7857e91844b161348efa60b7cdabcea3ed184d2328d07bb7",
+    "protected_ok": true
+  }
+]

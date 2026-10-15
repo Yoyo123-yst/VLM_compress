@@ -1,0 +1,68 @@
+{
+  "sample_id": "39204",
+  "chosen_step": 75,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "FOOD TECHNOLOGY",
+  "clean_text": "FOOD TECHNOLOGY",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 7.956248760223389,
+  "pollution": 0,
+  "strict_train": 0,
+  "by_ratio": {
+    "0.50": {
+      "text": "FOOD TECHNOLOGY",
+      "anls": 1.0,
+      "margin": 4.787437438964844,
+      "keep": {
+        "k": 7398,
+        "keep_hash": "aeba8cded62c24681dfe1c2f5e807746e72351666277cee31daf0d2b71bae16d",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 3.168811321258545
+    },
+    "0.35": {
+      "text": "food technology",
+      "anls": 1.0,
+      "margin": -0.10406303405761719,
+      "keep": {
+        "k": 5179,
+        "keep_hash": "f43cae4148f26fe0599700d8e843f10a370f306406d135def127542aa82aa72b",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 8.060311794281006
+    },
+    "0.25": {
+      "text": "Food Technology",
+      "anls": 1.0,
+      "margin": -0.2235088348388672,
+      "keep": {
+        "k": 3699,
+        "keep_hash": "edc422beb2ab11c5bc36257c04e8541f1303537492ccf4e0a6b9d86ed1577463",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 8.179757595062256
+    },
+    "0.15": {
+      "text": "food technology",
+      "anls": 1.0,
+      "margin": 1.211064100265503,
+      "keep": {
+        "k": 2219,
+        "keep_hash": "b00505a9f6dd421ce5e0644c316dbf7ad7c00f15e121ae5591f2d726402e3a01",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 6.745184659957886
+    }
+  },
+  "selector_margin": -0.1637859344482422
+}

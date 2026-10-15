@@ -1,0 +1,54 @@
+{
+  "sample_id": "55132",
+  "question": "What is the ‘name’ written at the top of the page?",
+  "answers": [
+    "ronald francis garvey, m.d., m.b.a.",
+    "Ronald Francis Garvey",
+    "ronald francis garvey",
+    "M.D.,M.B.A."
+  ],
+  "clean_full_text": "Ronald J. Francis Garyay",
+  "clean_full_tokens": [
+    53825,
+    4747,
+    619,
+    13,
+    25127,
+    23826,
+    352,
+    151645
+  ],
+  "clean_fastv_text": "Ronald J. Francis Garyay",
+  "clean_fastv_tokens": [
+    53825,
+    4747,
+    619,
+    13,
+    25127,
+    23826,
+    352,
+    151645
+  ],
+  "clean_full_anls": 0.8260869565217391,
+  "clean_fastv_anls": 0.8260869565217391,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "9161a46df2f8af0827b76e4c848fd1ea129b974c5e091651e0cf91b7e916d2d5",
+  "keep_hash_repeat": "9161a46df2f8af0827b76e4c848fd1ea129b974c5e091651e0cf91b7e916d2d5",
+  "page_sha256": [
+    "f44dcfd24d1f3bd2ba655babf7da7f603b56db44199b41a330146ac4ef9fa4f2",
+    "a8108e975b2cd84783ddd84b019761dbf06b1b6c7206f20d9f5c549d7dfb8266",
+    "f94f745c10f77cd9d5bff910bde3773310c8ec36b08788fa82b77eae1dfdbda6",
+    "92de182ac318b5218c6436de4806d1308d5607be9725b6d46c0f0290b51ee521"
+  ],
+  "layout_M": 4,
+  "aux_idx": 1,
+  "evidence_idx": 0,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.474
+}

@@ -1,0 +1,637 @@
+{
+  "status": "TRANSFER_EVALUATED",
+  "protocol": "independent disk-reloaded clean/attack/matched-noise holdout FastV replay",
+  "gpu": "6",
+  "samples": {
+    "55463": {
+      "status": "OK",
+      "clean_text": "Cigarette Smoke Contains Carbon Monoxide",
+      "full": {
+        "clean": "Cigarette Smoke Contains Carbon Monoxide",
+        "attack": "Cigarette Smoke Contains Carbon Monoxide",
+        "noise": "Cigarette Smoke Contains Carbon Monoxide"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "Cigarette Smoke Monoxide Carbon Monoxide",
+            "valid": true,
+            "anls": 0.875,
+            "k": 1110,
+            "keep_hash": "f19324fbea2fbc3a68508c797a05772a82fa48ef31ba12a8348036a3a9c7e5b2"
+          },
+          "attack": {
+            "text": "Bored. lonely? nestles",
+            "valid": true,
+            "anls": 0.0,
+            "k": 1110,
+            "keep_hash": "9f1e4801bee41bd0e9e831d77d980d87b15427cf0d247952d972dbe8d5d9fb44"
+          },
+          "noise": {
+            "text": "Cigarette Smoke Monoxide Carbon Monoxide",
+            "valid": true,
+            "anls": 0.875,
+            "k": 1110,
+            "keep_hash": "07482f71d7b2dbf5c5f1a27792736356391e42ac96b08df8ac7402f4b873557c"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.25": {
+          "clean": {
+            "text": "Cigarette Smoke Contains Carbon Monoxide",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1850,
+            "keep_hash": "5d02358318f7b2d08aeffe4b89cb137c2c5b300b1b3f920e9aa18fa80e94eb4c"
+          },
+          "attack": {
+            "text": "Bored. Lonely.",
+            "valid": true,
+            "anls": 0.0,
+            "k": 1850,
+            "keep_hash": "644248d3bf091e35bb0af6c798ef46ea1642f1ac9cf95aedbe456dec3e78a39a"
+          },
+          "noise": {
+            "text": "Cigarette Smoke Contains Carbon Monoxide",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1850,
+            "keep_hash": "775f22714aab9e9b4e49255e1cdc9d89c2a2bc33cc8212379f287308b454ebdc"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "Cigarette Smoke Contains Carbon Monoxide",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2589,
+            "keep_hash": "9278ae94b48224549de1bc29e582efa9e5dfcdb1a19c7f5faa75113ff923bc14"
+          },
+          "attack": {
+            "text": "Smoketooth character",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2589,
+            "keep_hash": "6652bb4095edb6f8b4eb4db3caaff26e97ab5a0e35d2201784dc5a70a62880ff"
+          },
+          "noise": {
+            "text": "Cigarette Smoke Contains Carbon Monoxide",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2589,
+            "keep_hash": "8abe803128d5659c09fa16b841f85afd34437c8c11388be2f37a0a2c750850ff"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "Cigarette Smoke Contains Carbon Monoxide",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "5a767ecf82e342d3928173521d20ba12aa005c6f0db32c59a9c252e4b83b8221"
+          },
+          "attack": {
+            "text": "Cigarette Smoke Contains Carbon Monoxide",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "21bb6b5ef73f4cc90dadad6a3091aebcd15e5d906c2bd46288c9b9021d1f2492"
+          },
+          "noise": {
+            "text": "Cigarette Smoke Contains Carbon Monoxide",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "b085c1830e8c7d413a15b00a84a2b7a612b8d664cf97cc908f3dfc0f63c52720"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "64689": {
+      "status": "OK",
+      "clean_text": "500 mg",
+      "full": {
+        "clean": "500 mg",
+        "attack": "500 mg",
+        "noise": "500 mg"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "750 mg",
+            "valid": true,
+            "anls": 0.6666666666666667,
+            "k": 2219,
+            "keep_hash": "2e156e9504ea5ed028b87350dda6cc5b3627d980cb65171158661a023e604454"
+          },
+          "attack": {
+            "text": "720 mg",
+            "valid": true,
+            "anls": 0.6666666666666667,
+            "k": 2219,
+            "keep_hash": "8944984317a84fc549cad1ac38a142c7b593a53c43130e7515cbfb72d53bda72"
+          },
+          "noise": {
+            "text": "750 mg",
+            "valid": true,
+            "anls": 0.6666666666666667,
+            "k": 2219,
+            "keep_hash": "35a543c66f64f8bbe7c9174b18756ddf14f71655ba0c4e7b5c302dc24e59554d"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.25": {
+          "clean": {
+            "text": "500 mg",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "374e81b4835f9724887bc073fd02bbf4baa06d7d2c59db8d41848a38388cef3a"
+          },
+          "attack": {
+            "text": "N O INTAKE N U G",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3699,
+            "keep_hash": "638cb5c97e7c86cf6800bc77ce52a80129f032a267dc6191c5e11f57ea7c5d51"
+          },
+          "noise": {
+            "text": "500 mg",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "45ad2d79262f3c5c895017a63239a8fc9309dc0569e5ed081234de7e981a5e9f"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "500 mg",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "1e97c441dbde5115d0a61087994ef4eb007e6eccbef6fb9a51f3d230c9fa626e"
+          },
+          "attack": {
+            "text": "O.552",
+            "valid": true,
+            "anls": 0.0,
+            "k": 5179,
+            "keep_hash": "9defa960c0716eb5d610629c34577725a68f71f393b656b84d6f6bab4aa14e1e"
+          },
+          "noise": {
+            "text": "500 mg",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "6f105295d2d5e2894a7eaab1f69ae2911b6b518edecd772b6aab009f26b83e7c"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "500 mg",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "c18dd9a8c46a442d74d1aee23481ae0ff4a8171beafb0f561df312299b967c08"
+          },
+          "attack": {
+            "text": "512.5 mg",
+            "valid": true,
+            "anls": 0.5714285714285714,
+            "k": 7398,
+            "keep_hash": "920df5204c2f4c4ef3492c20147f02e99f6228e52f86b210c086d6700ac50b25"
+          },
+          "noise": {
+            "text": "500 mg",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "832c561690a4046c62f2f677e5fe3475ae3e93998cff94acffe1e1d9acdde82d"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": true
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "50312": {
+      "status": "OK",
+      "clean_text": "604",
+      "full": {
+        "clean": "604",
+        "attack": "604",
+        "noise": "604"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "604",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1665,
+            "keep_hash": "69f42f83e749fad0aa7a0ffcb0f3095590a92f5bf3b3abcfd5e6e4c553a5943b"
+          },
+          "attack": {
+            "text": "674",
+            "valid": true,
+            "anls": 0.6666666666666667,
+            "k": 1665,
+            "keep_hash": "7227cfd5bc1c27013754862d7f5ae598690ce2efb7e6e5fee30c4130ba32523a"
+          },
+          "noise": {
+            "text": "604",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1665,
+            "keep_hash": "926c2e274965d8e72c476356989a65533d271154928626136d674deb1f16ec75"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": true
+        },
+        "0.25": {
+          "clean": {
+            "text": "604",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2774,
+            "keep_hash": "0fddd8ca5703c80af6e11745bacf04a85491cf6e547b7af03d734a032e0313b5"
+          },
+          "attack": {
+            "text": "1",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2774,
+            "keep_hash": "19c834940616f986b761a772ff570d359c91ba00146076e7511cac8870194082"
+          },
+          "noise": {
+            "text": "604",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2774,
+            "keep_hash": "d5b18775c51af7e7f3cdd9e9cd1f05fd24dcc24a270a44fa9ed06620bca31820"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "604",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3884,
+            "keep_hash": "bf96f037988e8fc57ff266571b42563792994f61d016f726af9c626b9cabc114"
+          },
+          "attack": {
+            "text": "1",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3884,
+            "keep_hash": "20b6e1241fe95854da229020d081bcbaec2b74ab9fff1350a40bcecbaa4b62c4"
+          },
+          "noise": {
+            "text": "604",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3884,
+            "keep_hash": "2b7e6a7044085fa545b986ddf8091cc20c6751af3e1ca44e7ddd176812733e44"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "604",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "0a0a603e8a0ba079c710bad55582ffb9584d60d3c97477c44fef6c8b2c9eac76"
+          },
+          "attack": {
+            "text": "604",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "f70e61654d7a1873642592f5ce084e46d4a446100528e47237da7bba627d4a24"
+          },
+          "noise": {
+            "text": "604",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5548,
+            "keep_hash": "8a522a28900f0ae5e692cb015faf754235092b1218fb061aca66f67831d2bb80"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "47572": {
+      "status": "OK",
+      "clean_text": "VIII",
+      "full": {
+        "clean": "VIII",
+        "attack": "VIII",
+        "noise": "VII"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "VIII",
+            "valid": true,
+            "anls": 0.75,
+            "k": 1110,
+            "keep_hash": "79e6b0c2264cc4b1b11e4c79fdbbab66f3546cc74e7682788b64b10732aca785"
+          },
+          "attack": {
+            "text": "V",
+            "valid": true,
+            "anls": 0.0,
+            "k": 1110,
+            "keep_hash": "701806070bb798c4b2f6d9276ed9dde0441e2d179db8abd6ad431e1e6303d5bd"
+          },
+          "noise": {
+            "text": "VIII",
+            "valid": true,
+            "anls": 0.75,
+            "k": 1110,
+            "keep_hash": "f209bf8fca711bf1dc1375437b030f5e27cb15ca36330a4ff4d9b5bd7e34a82a"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.25": {
+          "clean": {
+            "text": "VIII",
+            "valid": true,
+            "anls": 0.75,
+            "k": 1850,
+            "keep_hash": "a1e6738c4bcca158953eb5e8912cea3b2c8db49c0d259af979de9b3b3181d7ab"
+          },
+          "attack": {
+            "text": "V",
+            "valid": true,
+            "anls": 0.0,
+            "k": 1850,
+            "keep_hash": "4d3b466034741950f93250cf790b8385ce61a7f58f80d1537b86dc776431a780"
+          },
+          "noise": {
+            "text": "VIII",
+            "valid": true,
+            "anls": 0.75,
+            "k": 1850,
+            "keep_hash": "c101693e347eebc06f69a5ea87bcec48f5e79e4ef862ab648a2d60a181fb5056"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "VIII",
+            "valid": true,
+            "anls": 0.75,
+            "k": 2589,
+            "keep_hash": "dab16035490c45fa87eda3c06b283655f5f5a6aa8bd7408aef77d958b68cb3e9"
+          },
+          "attack": {
+            "text": "V",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2589,
+            "keep_hash": "003a1bf50f5488cbea1d611935a38821ab1433d4b4e49a0e84b79804edca7533"
+          },
+          "noise": {
+            "text": "VIII",
+            "valid": true,
+            "anls": 0.75,
+            "k": 2589,
+            "keep_hash": "f73721947aae72be1e65887a2855c620b32926ce48a86d91276382341911d3f2"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "VIII",
+            "valid": true,
+            "anls": 0.75,
+            "k": 3699,
+            "keep_hash": "445c4894c5544a6ffd482cf99f4eb2351425e2b99f4d50f3c64bd6d745e682b4"
+          },
+          "attack": {
+            "text": "VII",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "b6e82c7d0ae70f5daf7505069fa669343683c16e2f29c6611bc79976f54b3b1d"
+          },
+          "noise": {
+            "text": "VII",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "eb53a38e8a0037886cc443686e67808a96583814d564eb24cac3400df5f19073"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "49123": {
+      "status": "OK",
+      "clean_text": "3150",
+      "full": {
+        "clean": "3150",
+        "attack": "3150",
+        "noise": "3150"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "3100",
+            "valid": true,
+            "anls": 0.75,
+            "k": 2219,
+            "keep_hash": "bb075f6b7d393abbe9ce3ad6aa53fd5a1b4f6eb5041c4967ca4c8490e370e6d5"
+          },
+          "attack": {
+            "text": "WHA.0000000000000",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2219,
+            "keep_hash": "458dd00b0f3f03847751f253b4487ddc67f73d8d78bc90fa6ebcae3f0c7c3b3b"
+          },
+          "noise": {
+            "text": "3100",
+            "valid": true,
+            "anls": 0.75,
+            "k": 2219,
+            "keep_hash": "14a8529f7b0a96578d950aa3ca179e26bac7ad739be353041b1ebda752ca32d2"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.25": {
+          "clean": {
+            "text": "3100",
+            "valid": true,
+            "anls": 0.75,
+            "k": 3699,
+            "keep_hash": "494de3c48e931da8e73b50edeb591d9181cbcf750b86bbd67cbac1ce98d42009"
+          },
+          "attack": {
+            "text": "WU858674687",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3699,
+            "keep_hash": "ab70d11c6798a38763a9776f2c9707551734f27f8884b3f3cb5d9c717ad7bb31"
+          },
+          "noise": {
+            "text": "3100",
+            "valid": true,
+            "anls": 0.75,
+            "k": 3699,
+            "keep_hash": "0b62ddae5fe23e7cea0a038f17581cd920fabdfefbc06f693f5696e59ac2eac3"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "3140",
+            "valid": true,
+            "anls": 0.75,
+            "k": 5179,
+            "keep_hash": "e4d252107173274500c419a9a86e5761befce2af58f598379639840c2b4d73f6"
+          },
+          "attack": {
+            "text": "BQH8BQYH8BQOBBQ8H",
+            "valid": true,
+            "anls": 0.0,
+            "k": 5179,
+            "keep_hash": "a59dc72058cf4450f0888597c3e3626b291a1ae8e2fce70bad5313d881f8a2cb"
+          },
+          "noise": {
+            "text": "3140",
+            "valid": true,
+            "anls": 0.75,
+            "k": 5179,
+            "keep_hash": "a6b9f4c16a154eb6caf5882a55e67faa81d123df95001fe090eb275cfdba7a98"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "3150",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "92bc73d1bc39ac7b1ee886493316bf93e4a48d49a43abe20e7e2ac36e4f1fca5"
+          },
+          "attack": {
+            "text": "3150",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "ec7079f0fd7d07d5f736e154eaa34eec4228f76439e6965d18e01c1145d1d8f6"
+          },
+          "noise": {
+            "text": "3150",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "d2eed351a09432d47eae850997efd803e98efd36a2f34d3a542a91e23dca331f"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "sample_id": "47450",
+  "status": "PASS_SCORE_DIRECTION_SMOKE",
+  "development_only": true,
+  "ratio": 0.25,
+  "alpha": 0.00392156862745098,
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+    "reference_keep_hash": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+    "fast_keep_exact": true,
+    "k": 3699,
+    "reference_k": 3699
+  },
+  "clean_fast": {
+    "tokens": [
+      8847,
+      13,
+      476,
+      17618,
+      13,
+      12375,
+      619,
+      13,
+      15017,
+      1694,
+      151645
+    ],
+    "text": "Dr. or Mrs. William J. Darby",
+    "anls": 1.0,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+    "k": 3699,
+    "second_keep_hash": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+    "second_k": 3699
+  },
+  "correct_sequences": [
+    {
+      "tokens": [
+        8847,
+        13,
+        476,
+        17618,
+        13,
+        12375,
+        619,
+        13,
+        15017,
+        1694,
+        151645
+      ],
+      "text": "Dr. or Mrs. William J. Darby"
+    },
+    {
+      "tokens": [
+        8847,
+        13,
+        2521,
+        17618,
+        13,
+        12375,
+        619,
+        15017,
+        1694,
+        151645
+      ],
+      "text": "Dr. Or Mrs. William J Darby"
+    },
+    {
+      "tokens": [
+        44787,
+        619,
+        15017,
+        1694,
+        151645
+      ],
+      "text": "William J Darby"
+    }
+  ],
+  "wrong_sequence": {
+    "tokens": [
+      17229,
+      451,
+      1381,
+      49,
+      7092,
+      52559,
+      3495,
+      11,
+      18118,
+      13,
+      151645
+    ],
+    "text": "THE NUTRITION FOUNDATION, INC."
+  },
+  "before": {
+    "correct_scores": [
+      -0.07359596341848373,
+      -0.5899936556816101,
+      -0.9850651621818542
+    ],
+    "correct_softmax_weights": [
+      0.5003504138647719,
+      0.2985421080635962,
+      0.2011074780716318
+    ],
+    "correct_logsumexp": 0.6188506348769919,
+    "wrong_score": -0.3663610517978668,
+    "objective": 0.9852116866748587,
+    "wrong_advantage_vs_best_correct": -0.2927650883793831,
+    "gradient_l1": 6333.646484375,
+    "gradient_l2": 25.296939849853516,
+    "gradient_linf": 2.0598673820495605
+  },
+  "predicted_objective_after_sign_step": -23.852617663815337,
+  "after_anchored_fixed_keep": {
+    "correct_scores": [
+      -0.0796523466706276,
+      -0.6578680872917175,
+      -1.1552118062973022
+    ],
+    "correct_logsumexp": 0.5632563138932386,
+    "wrong_score": -0.2934194803237915,
+    "objective": 0.8566757942170301,
+    "wrong_advantage_vs_best_correct": -0.2137671336531639
+  },
+  "finite_nonzero_gradient": true,
+  "anchored_natural_after_step": {
+    "full_tokens": [
+      8847,
+      13,
+      476,
+      17618,
+      13,
+      12375,
+      619,
+      13,
+      15017,
+      1694,
+      151645
+    ],
+    "full_text": "Dr. or Mrs. William J. Darby",
+    "full_exact": true,
+    "fast_tokens": [
+      8847,
+      13,
+      476,
+      17618,
+      13,
+      12375,
+      619,
+      13,
+      15017,
+      1694,
+      151645
+    ],
+    "fast_text": "Dr. or Mrs. William J. Darby",
+    "keep_hash": "287988004f3642a3cfc85ceebbd8a2a8f0ae731c0cba5e46a22b7b5e37d7bebe",
+    "k": 3699
+  },
+  "png_replay_after_step": {
+    "full_tokens": [
+      8847,
+      13,
+      476,
+      17618,
+      13,
+      12375,
+      619,
+      13,
+      15017,
+      1694,
+      151645
+    ],
+    "full_text": "Dr. or Mrs. William J. Darby",
+    "full_exact": true,
+    "fast_tokens": [
+      8847,
+      13,
+      476,
+      17618,
+      13,
+      12375,
+      619,
+      13,
+      15017,
+      1694,
+      151645
+    ],
+    "fast_text": "Dr. or Mrs. William J. Darby",
+    "keep_hash": "afd429a4ffac551c3e5ee53392465c5c318f7e682a0cfc13a9e68f3f9893145b",
+    "k": 3699
+  },
+  "png_path": "week2_attack_v25_full_answer_competition_pilot/score_smoke/47450.png",
+  "png_rgb_sha256": "34cab2fd2c1b43cd3c6b71c928f4d6f8b4db3da1f3b6751f5fbdf84ec1fa01db",
+  "uint8_linf": 1,
+  "pass_gate": true
+}

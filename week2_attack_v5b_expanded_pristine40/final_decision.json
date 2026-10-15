@@ -1,0 +1,43 @@
+{
+  "decision": "NOT_COMPLETE_PASS_FULL_TEXT_CHANGED",
+  "registered_complete_pass": "HOLDOUT_SUPPORTS_STRICT_COMP_ONLY_ON_EXPANDED_PRISTINE40",
+  "complete_pass_met": false,
+  "failed_clause": "primary Full decoded text identical to clean Full is 39/40, not 40/40",
+  "text_change_sample": {
+    "sample_id": "60700",
+    "M": 3,
+    "clean_full": "PPBS",
+    "attacked_full": "Ppds",
+    "anls_full": 0.75,
+    "anls_fastv": 0.0,
+    "quadrant": "fastv_wrong_full_right"
+  },
+  "primary_selector": "fixed_step_200",
+  "primary_strict_csfr": "33/40",
+  "primary_wilson_95": [0.6804970794560755, 0.9125469700311694],
+  "primary_full_error": "0/40",
+  "primary_full_text_unchanged": "39/40",
+  "primary_both_wrong": "0/40",
+  "primary_replay": "40/40",
+  "primary_invalid_output": "0/40",
+  "primary_linf_pass": "40/40",
+  "postregistered_min_margin": "34/40",
+  "oracle_upper_bound": "36/40",
+  "oracle_status": "GROUND_TRUTH_ORACLE_UPPER_BOUND",
+  "random_noise_strict_csfr": "3/40",
+  "attack_vs_noise_mcnemar_p": 1.862645149230957e-09,
+  "attack_only_strict": 30,
+  "noise_only_strict": 0,
+  "mean_G_difference": 0.760960205079608,
+  "bootstrap_ci95_G_diff": [0.6339010882704913, 0.8857470386164416],
+  "signflip_p_exact": null,
+  "signflip_note": "exact enumeration skipped because more than 20 nonzero G pairs; McNemar and bootstrap agree",
+  "frozen_input_integrity": "PASS",
+  "raw_immutability": "PASS",
+  "gpus": {
+    "shard0": "GPU 0",
+    "shard1": "GPU 1",
+    "shard2": "GPU 4",
+    "shard3": "GPU 6"
+  }
+}

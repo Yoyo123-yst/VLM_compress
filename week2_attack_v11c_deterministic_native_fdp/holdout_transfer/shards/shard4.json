@@ -1,0 +1,637 @@
+{
+  "status": "TRANSFER_EVALUATED",
+  "protocol": "independent disk-reloaded clean/attack/matched-noise holdout FastV replay",
+  "gpu": "4",
+  "samples": {
+    "58827": {
+      "status": "OK",
+      "clean_text": "OFFICERS OF THE INSTITUTE",
+      "full": {
+        "clean": "OFFICERS OF THE INSTITUTE",
+        "attack": "OFFICERS OF THE INSTITUTE",
+        "noise": "OFFICERS OF THE INSTITUTE"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "OFFICERS",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2219,
+            "keep_hash": "5238cfbb29b0a5586e616cad8fcc1b0e238c810e37a9cf70b675b075e36abf55"
+          },
+          "attack": {
+            "text": "OFFICERS",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2219,
+            "keep_hash": "bffa6645f13374f11e009f7c786e41a602ead9d5075830a0289b91c543440d82"
+          },
+          "noise": {
+            "text": "OFFICERS",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2219,
+            "keep_hash": "6ae1d2e19a95ae3670ef5b7d813f8a5c48ec66370db6e33d56e74c954faf3f34"
+          },
+          "attack_strict": true,
+          "noise_strict": true,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.25": {
+          "clean": {
+            "text": "OFFICERS OF THE INSTITUTE",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "cf837a993a64007ffa45452222a3ea8df88894c54138766279190e0be5efba5b"
+          },
+          "attack": {
+            "text": "Chairs, Comship, and Research",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3699,
+            "keep_hash": "8b19bf402996edf038a1ce34477e7db7a11cc17cf76b4bc786a29a7186f496e9"
+          },
+          "noise": {
+            "text": "OFFICERS OF THE INSTITUTE",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "50f35a4a9533de84e98bccae44cab475e265705cbb48b19d62589e4b9fdf0398"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "OFFICERS OF THE INSTITUTE",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "e92d01fd8084165831d1816251e99a1d224af378616c23efc6b8b7cd594c9b50"
+          },
+          "attack": {
+            "text": "MEMBER SHIPS",
+            "valid": true,
+            "anls": 0.0,
+            "k": 5179,
+            "keep_hash": "e64adb4c3b8bada9177bcbe42a9247160440b90ec23f6e99fdf46b894be0d01f"
+          },
+          "noise": {
+            "text": "OFFICERS OF THE INSTITUTE",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "b45d2f72ab63aa569cb783b141278fa554f017b04d90b5a612f42d362c9bc3b6"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "OFFICERS OF THE INSTITUTE",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "7556a2179452699080263a34c161c96c1ecc3954dd4aa55e62d565b0f0abb612"
+          },
+          "attack": {
+            "text": "OFFICERS OF THE INSTITUTE",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "7e284b188907758789f51df04f320cd9ae544f5b26cd18b08434bb54b7a55652"
+          },
+          "noise": {
+            "text": "OFFICERS OF THE INSTITUTE",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "07c9496af85b52bdfe97e33830cb874d84b3be97ecbb36cf319822118099c79a"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "58421": {
+      "status": "OK",
+      "clean_text": "Heating in open air",
+      "full": {
+        "clean": "Heating in open air",
+        "attack": "Heating in open air",
+        "noise": "Heating in open air"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "HEATING IN OPEN AIR",
+            "valid": true,
+            "anls": 0.5909090909090908,
+            "k": 2219,
+            "keep_hash": "c454ec3a3b26b79cbceea1a7a489a6c62d2fdb82ab3dc8ae828b801e711e5691"
+          },
+          "attack": {
+            "text": "Figure 3",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2219,
+            "keep_hash": "84245885609ba59624be6b9711bc139ad8a598d62a787d09fdcf6226a312f7a9"
+          },
+          "noise": {
+            "text": "HEATING IN OPEN AIR",
+            "valid": true,
+            "anls": 0.5909090909090908,
+            "k": 2219,
+            "keep_hash": "b65a885557186b85e7639a75d3666ffd0eb2df7ca1ac8c972caae265d040e67d"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.25": {
+          "clean": {
+            "text": "HEATING IN OPEN AIR",
+            "valid": true,
+            "anls": 0.5909090909090908,
+            "k": 3699,
+            "keep_hash": "f2d8cb81edb2c06763a80158f3cf356b26e6950869c2a158adda927d12eaa76b"
+          },
+          "attack": {
+            "text": "THERMOMETER",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3699,
+            "keep_hash": "2d3a301a873b70cda1679a3b303e0d55cc673fce4ee413b1768c9d581b2a4a9b"
+          },
+          "noise": {
+            "text": "Heating in open air",
+            "valid": true,
+            "anls": 0.5909090909090908,
+            "k": 3699,
+            "keep_hash": "e174b8ce51c267f5ccbec375f3bcf1ab9d1b3c71810e1aad5cd17d02ecf6136d"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "Heating in open air",
+            "valid": true,
+            "anls": 0.5909090909090908,
+            "k": 5179,
+            "keep_hash": "fbad5a4240ce21b813972a9fd7d94d5a33c14e997c3e58995290255e1eec34f6"
+          },
+          "attack": {
+            "text": "Thiamine",
+            "valid": true,
+            "anls": 0.0,
+            "k": 5179,
+            "keep_hash": "8fec6da0fd27ad4c2689000c45b6bcabf0871f60188b2b4ed3c7d193234e49e1"
+          },
+          "noise": {
+            "text": "Heating in open air",
+            "valid": true,
+            "anls": 0.5909090909090908,
+            "k": 5179,
+            "keep_hash": "7ff7c860e3994774f80bc3b2836a22424ca5a833fae5bf4d5d408f904ff45b97"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "Heating in open air",
+            "valid": true,
+            "anls": 0.5909090909090908,
+            "k": 7398,
+            "keep_hash": "5510de50dca35ad7f6956fb961dc58cda6743ad56860edb43efba6c973d08e80"
+          },
+          "attack": {
+            "text": "Heating in nitrogen sulfoxide",
+            "valid": true,
+            "anls": 0.5172413793103448,
+            "k": 7398,
+            "keep_hash": "26babc0d793381d3e8230513c24a3aa31f1b0bc66a576d43cf1a1dd5682ca2c8"
+          },
+          "noise": {
+            "text": "Heating in open air",
+            "valid": true,
+            "anls": 0.5909090909090908,
+            "k": 7398,
+            "keep_hash": "b8f9150a93c4ae3e7516448a32c43636724a5ae72bef6f5a9c22425d679ec0ab"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": true
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "57887": {
+      "status": "OK",
+      "clean_text": "1 mg",
+      "full": {
+        "clean": "1 mg",
+        "attack": "1 mg",
+        "noise": "1 mg"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "1mg",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1110,
+            "keep_hash": "1e0ebc682032f180d8048860d7e00d4c248da4f75e0eaa48a8d98d16567218ac"
+          },
+          "attack": {
+            "text": "1 mg",
+            "valid": true,
+            "anls": 0.75,
+            "k": 1110,
+            "keep_hash": "df0bf5c9d5b87729a16f0c79c5dabf0702725b63c011137f4dfdc3806625c15f"
+          },
+          "noise": {
+            "text": "1mg",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1110,
+            "keep_hash": "e9ae68837fb99c73c9a3b862fa9c59231ad7c5a70cef3718eedf4552e851f8c2"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": true
+        },
+        "0.25": {
+          "clean": {
+            "text": "1mg",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1850,
+            "keep_hash": "8549b3764d0451ce1bc7b89fc3afba497c67f87f5ced85cf705e540f4e21f68b"
+          },
+          "attack": {
+            "text": "9013",
+            "valid": true,
+            "anls": 0.0,
+            "k": 1850,
+            "keep_hash": "8a361271fc5da826655605752431d6cb5189bd4bc53e80abcc16f76a647f6b43"
+          },
+          "noise": {
+            "text": "1mg",
+            "valid": true,
+            "anls": 1.0,
+            "k": 1850,
+            "keep_hash": "adb9975ab895e8e7d618ea4de64d3b48de66279c4a7c3e9fd00dea88a36abff0"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "1 mg",
+            "valid": true,
+            "anls": 0.75,
+            "k": 2589,
+            "keep_hash": "a754e9279048a172cece246cec353df5d039b12017df72c863e950ab90e53130"
+          },
+          "attack": {
+            "text": "8",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2589,
+            "keep_hash": "5dde0bd839317b31b0228d38942d84876db42ecc1d7d1f7e72058b512e4356f5"
+          },
+          "noise": {
+            "text": "1 mg",
+            "valid": true,
+            "anls": 0.75,
+            "k": 2589,
+            "keep_hash": "a69135cd977b0f9ebfeb1b5d57970670566b7a45fc2517a77d27b873b910cbc9"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "1 mg",
+            "valid": true,
+            "anls": 0.75,
+            "k": 3699,
+            "keep_hash": "40052686b393cf97df7bfaaa119dc662fae9f0dc45bec3d4dd6dd9bd83314479"
+          },
+          "attack": {
+            "text": "1 mg",
+            "valid": true,
+            "anls": 0.75,
+            "k": 3699,
+            "keep_hash": "0155f1da39430202c1e1ac2081d0ad6b53544978c16f3b6e18d354774cf9f930"
+          },
+          "noise": {
+            "text": "1 mg",
+            "valid": true,
+            "anls": 0.75,
+            "k": 3699,
+            "keep_hash": "4bfc20faded7d160703e351be2f90bb1d8a4ad1c69fb4dccf07d8305fbb22a6d"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "62321": {
+      "status": "OK",
+      "clean_text": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES",
+      "full": {
+        "clean": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES",
+        "attack": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES",
+        "noise": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES"
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2219,
+            "keep_hash": "55dba62c5933e3a5bd217f2a3e25aa2342e98d13add509b6cbd7486452ab8b53"
+          },
+          "attack": {
+            "text": "THE NEW YORK STATE BOARD OF SOCIAL WELFARE",
+            "valid": true,
+            "anls": 0.7083333333333333,
+            "k": 2219,
+            "keep_hash": "fbd52fa55d943dcf56431e10aff235d4bbc1c06cb30a9dc4f2664f00dfaafade"
+          },
+          "noise": {
+            "text": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES",
+            "valid": true,
+            "anls": 1.0,
+            "k": 2219,
+            "keep_hash": "c0457c684fc1fddf7ca846980a5ec4d39948f6efbfcb955949669f17b3a0dbec"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": true
+        },
+        "0.25": {
+          "clean": {
+            "text": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "7ba5be41b2c49ebf0608b5c6a5fe524c020640d782b5c7f44a6fa7897884e1ef"
+          },
+          "attack": {
+            "text": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SECURITY",
+            "valid": true,
+            "anls": 0.875,
+            "k": 3699,
+            "keep_hash": "4015535525eae73236679c5e0273c38d260eb2101aed0f7a672e9713350e7636"
+          },
+          "noise": {
+            "text": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "2232aa0276e83a30c4c2e36d0c75f33b0efee6796e9c965eceac4d462650ed25"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "4cca41b76f66748f9c588130ea87ccef53205868b6747f27ab599f13bd1e9f82"
+          },
+          "attack": {
+            "text": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "857eb90828f56234c4081f97813d37734deec256ae1c65d28ea4f145f1209a09"
+          },
+          "noise": {
+            "text": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "044c0f0f3e5feb53bf8fe4b0ebabb68fc234c2ecc212363e348e037fa9786fbf"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.50": {
+          "clean": {
+            "text": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "89ada7684b832986d1be26e9e57494cf52b37322cb0832dacc961aa41112b7de"
+          },
+          "attack": {
+            "text": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "fa91b3b33bf8ab13cdc0be14d8f6e76ec5500bd17e9a1c20f1678a7714bef8c7"
+          },
+          "noise": {
+            "text": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "17981593f224e61580ca776e6b6746270b8f4c09c1b1d9a3c6c24922193d1b5c"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    },
+    "25716": {
+      "status": "OK",
+      "clean_text": "12:30 p.m.",
+      "full": {
+        "clean": "12:30 p.m.",
+        "attack": "12:30 p.m.",
+        "noise": "12:30 p.m."
+      },
+      "replay": {
+        "clean": true,
+        "attack": true,
+        "noise": true
+      },
+      "ratios": {
+        "0.15": {
+          "clean": {
+            "text": "12:00 noon",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2219,
+            "keep_hash": "7a03aadc9ed2781218994ec2e0a355dff79361aa4bf109b31adc020c1ba0f3ab"
+          },
+          "attack": {
+            "text": "12:00 noon",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2219,
+            "keep_hash": "7c7fa850be5a00448b843ed1f0f692c3a0cd7a897586f4a454580f6f72574b9e"
+          },
+          "noise": {
+            "text": "12:00 noon",
+            "valid": true,
+            "anls": 0.0,
+            "k": 2219,
+            "keep_hash": "d3da407aeeaffbc33f5096f332b416a388804e6f4c6a91df1d064451b7570692"
+          },
+          "attack_strict": true,
+          "noise_strict": true,
+          "induced": false,
+          "beats_noise": false
+        },
+        "0.25": {
+          "clean": {
+            "text": "12:30 p.m.",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "5a8b928d2d6cfe642057a4f5ffcba667c94aa7d819fc0d7c79b8f1385d4b0a9e"
+          },
+          "attack": {
+            "text": "1 hour",
+            "valid": true,
+            "anls": 0.0,
+            "k": 3699,
+            "keep_hash": "ffec3a5b82a749441bd82134b355d0de4bf97d182da1e89ba089b69ff0a45dc3"
+          },
+          "noise": {
+            "text": "12:30 p.m.",
+            "valid": true,
+            "anls": 1.0,
+            "k": 3699,
+            "keep_hash": "144dc530ee04d36ab2b9bf488e61e979c769f9dee20a7c934621347a04b8615c"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.35": {
+          "clean": {
+            "text": "12:30 p.m.",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "fc799d0a2be6c92ed7f9f456f4f3413047e543a919e9a1f95b5ba8e9d5d1c1c7"
+          },
+          "attack": {
+            "text": "Under-separation",
+            "valid": true,
+            "anls": 0.0,
+            "k": 5179,
+            "keep_hash": "885ce3deb40a3e16e5a86bbd24117ea225bf4b7a377ce8087f371803d21d0fd1"
+          },
+          "noise": {
+            "text": "12:30 p.m.",
+            "valid": true,
+            "anls": 1.0,
+            "k": 5179,
+            "keep_hash": "7dbe691042ce05a5f8ca17b5799e4891b124600a11f03a8915b9928849df7ae5"
+          },
+          "attack_strict": true,
+          "noise_strict": false,
+          "induced": true,
+          "beats_noise": true
+        },
+        "0.50": {
+          "clean": {
+            "text": "12:30 p.m.",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "365216fb504bf22598f6cd9eae41ec55a252b2e23769dfe48055386125351cf8"
+          },
+          "attack": {
+            "text": "12:30 p.m.",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "303d83a0abb29c947810d44346ab144f76f9b0e03a02313d8b99d3c2d65717fb"
+          },
+          "noise": {
+            "text": "12:30 p.m.",
+            "valid": true,
+            "anls": 1.0,
+            "k": 7398,
+            "keep_hash": "8ed7ad3e7467eab2e297e632f76e46c89340815203f76560d564083fdf46d3d4"
+          },
+          "attack_strict": false,
+          "noise_strict": false,
+          "induced": false,
+          "beats_noise": false
+        }
+      },
+      "attack_nonzero": true,
+      "noise_nonzero": true
+    }
+  }
+}

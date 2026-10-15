@@ -1,0 +1,238 @@
+[
+  {
+    "sample_id": "1025",
+    "elapsed_sec": 2101.8,
+    "peak_memory_mib": 26898.4,
+    "counters": {
+      "forward": 3694,
+      "backward": 600,
+      "generate": 425,
+      "fastv": 416,
+      "generated_tokens": 3356
+    },
+    "question": "Who is the European Medical Director?",
+    "page_sha256": [
+      "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+      "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+      "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+    ],
+    "aux_idx": 0,
+    "step0_png_match": true,
+    "step10": {
+      "historical_png": "e88ee42ddf330a215432a8500eb609f8eedb2ab661ec823c9e89a67d3ce7ed9e",
+      "h0_png": "be3490715ae9cd5e8d283a0eb7499f737728cc9724093a04e9e0229450208a16",
+      "historical_full": "Dr. C. Baur MD",
+      "h0_full": "Dr. C. Baur MD",
+      "historical_fastv_0.25": "Dr. Bacharach",
+      "h0_fastv_0.25": "TAKEDA",
+      "historical_fastv_0.35": "Dr. C. B. B. MD",
+      "h0_fastv_0.35": "Dr. C. B. Baur MD",
+      "historical_keep_0.25": "71de5407c1b17debfdce943a87ed51deaba32c51b6511128fb7d1fc28ce1781c",
+      "h0_keep_0.25": "6a3faaaf415924d3927ca79bcd07a4541a7c68f435ac95e93e5e42f96d771ad7",
+      "historical_keep_0.35": "a9bfc6bb3b543c7f47e25140b6e64a0cb4a80614754766e6337451d9e15e741f",
+      "h0_keep_0.35": "49a107c10e6d609ccc8bfa863b28c220906745d41add81bad241266178c8d636",
+      "historical_margin": 0.31210900843143463,
+      "h0_margin": 1.8150593638420105,
+      "token_ids": "未测"
+    },
+    "historical_selector_step": 75,
+    "h0_historical_selector_step": 200
+  },
+  {
+    "sample_id": "2008",
+    "elapsed_sec": 1625.6,
+    "peak_memory_mib": 22903.3,
+    "counters": {
+      "forward": 4043,
+      "backward": 600,
+      "generate": 425,
+      "fastv": 416,
+      "generated_tokens": 3702
+    },
+    "question": "When did the advertisement appear in Good Housekeeping?",
+    "page_sha256": [
+      "fe5a6c3c88a77ef33b42e1c45d0fe2b28b39f37be8983db7e6d753ceef12f8f4",
+      "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+    ],
+    "aux_idx": 0,
+    "step0_png_match": true,
+    "step10": {
+      "historical_png": "82a3328266539030790cea543253748992352a91a7e9f5e899097f98de3e42a3",
+      "h0_png": "4748693319ea1d6ebc0c68f824a1e48cd9df88c95dda47e2d5144c5c9beefe9d",
+      "historical_full": "March 1968",
+      "h0_full": "March 1968",
+      "historical_fastv_0.25": "March 1968",
+      "h0_fastv_0.25": "March 1956",
+      "historical_fastv_0.35": "March 1968",
+      "h0_fastv_0.35": "March 1968",
+      "historical_keep_0.25": "7c7d0e4c5d20ce561d908f3b006c961bc9beec3b159a1f0c0ee2ea7aef760997",
+      "h0_keep_0.25": "e7343da703ac9f314e55d27ce5e2f9efc7cac14849a444178f2e13085ab941a1",
+      "historical_keep_0.35": "653b06a310eeb0e3636f11de562b2b7237a605a17d8a97743207d7da093851c1",
+      "h0_keep_0.35": "13d9ad2579e7f9bcc0e980942876441ee773a4acff87f64820fc5b307de2ad46",
+      "historical_margin": 3.509836792945862,
+      "h0_margin": 3.311114549636841,
+      "token_ids": "未测"
+    },
+    "historical_selector_step": 200,
+    "h0_historical_selector_step": 200
+  },
+  {
+    "sample_id": "47450",
+    "elapsed_sec": 2794.9,
+    "peak_memory_mib": 30722.5,
+    "counters": {
+      "forward": 4111,
+      "backward": 600,
+      "generate": 425,
+      "fastv": 416,
+      "generated_tokens": 3762
+    },
+    "question": "Who has made the deposit ?",
+    "page_sha256": [
+      "7bab8be8ede326621c16376d55769d696a6a969772ab2116685a1628eba55f8d",
+      "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+      "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+      "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+    ],
+    "aux_idx": 0,
+    "step0_png_match": true,
+    "step10": {
+      "historical_png": "0a2cbbd9ceb601fa985c179eec3b612dd4a799bd3f4bfeb6ccd8ed61ca3280ed",
+      "h0_png": "3ca294ed4cc0605c5521ff0f5a607ed5079c7ae48abd80cd4dc1bfd0708157c6",
+      "historical_full": "Dr. or Mrs. William J. Darby",
+      "h0_full": "Dr. or Mrs. William J. Darby",
+      "historical_fastv_0.25": "Dr. or Mrs. William J. Darby",
+      "h0_fastv_0.25": "Dr. or Mrs. William J. Darby",
+      "historical_fastv_0.35": "Dr. or Mrs. William J. Darby",
+      "h0_fastv_0.35": "Dr. or Mrs. William J. Darby",
+      "historical_keep_0.25": "3ecaa35b872e175930248bf97dacf4c32c82103b7765edaf2954438aa29f3d43",
+      "h0_keep_0.25": "54df2b11ff135cbacf71b879bb002b86592873a67424cd214749ac16c0412911",
+      "historical_keep_0.35": "cf8f785a43ec025c633d5191217a4defdb7032cb82a0f3be94677171d5f2d887",
+      "h0_keep_0.35": "62a05c6b32df05a5480a8865ecfa76ad0781b5b74c6aa4900a28f914d261747b",
+      "historical_margin": 3.7983964681625366,
+      "h0_margin": 3.673202157020569,
+      "token_ids": "未测"
+    },
+    "historical_selector_step": 200,
+    "h0_historical_selector_step": 50
+  },
+  {
+    "sample_id": "60700",
+    "elapsed_sec": 2196.7,
+    "peak_memory_mib": 26896.2,
+    "counters": {
+      "forward": 3924,
+      "backward": 600,
+      "generate": 425,
+      "fastv": 416,
+      "generated_tokens": 3566
+    },
+    "question": "What is the subject?",
+    "page_sha256": [
+      "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131",
+      "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+      "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+    ],
+    "aux_idx": 0,
+    "step0_png_match": true,
+    "step10": {
+      "historical_png": "588ef799cb006422d9369c4ce884d3eb8d486b372fee7277cdeecdecf89d0c77",
+      "h0_png": "d996289f611b53e9ef128a43d26ac0bbfab75d99dca853223169fbaaa84577e7",
+      "historical_full": "PPBS",
+      "h0_full": "PPBS",
+      "historical_fastv_0.25": "PPBS 14, 1967",
+      "h0_fastv_0.25": "PPBS 14, 1567",
+      "historical_fastv_0.35": "PPBS #14, 1967",
+      "h0_fastv_0.35": "PPBS",
+      "historical_keep_0.25": "5ae2440c7c2eb0e9d45623220e105679fc25b87d5f5daca1d9d296499548d621",
+      "h0_keep_0.25": "9d554e940cba54589eb8458d465996e4d990399ac095c81171874698d6495ff0",
+      "historical_keep_0.35": "0551a46f49dba40c27cb86cd548dfc759e7c395142c409b106b086a99dc5cbe1",
+      "h0_keep_0.35": "2d4f76f61c3e4f1f3feb13cf1b2fc3c0415f7cfaf3d2254a524018ec7f713ffb",
+      "historical_margin": 3.1558797359466553,
+      "h0_margin": 2.2040621042251587,
+      "token_ids": "未测"
+    },
+    "historical_selector_step": 50,
+    "h0_historical_selector_step": 200
+  },
+  {
+    "sample_id": "7006",
+    "elapsed_sec": 2680.5,
+    "peak_memory_mib": 30722.5,
+    "counters": {
+      "forward": 3447,
+      "backward": 600,
+      "generate": 425,
+      "fastv": 416,
+      "generated_tokens": 3128
+    },
+    "question": "What is the Company Name ?",
+    "page_sha256": [
+      "c3c0eabac78241156d37bd11f9c5c72c8b5a3a13060c3f0ce4f6ad36d4d7fa16",
+      "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+      "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+      "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+    ],
+    "aux_idx": 0,
+    "step0_png_match": true,
+    "step10": {
+      "historical_png": "99a7267b69d67b430bdc5b2be730e9b41c442b3b499c904b0deacb1fc3afb54f",
+      "h0_png": "5264086d770303a25a4aa13671e313ea7ef4a13c03648e7885f87379396c9bdc",
+      "historical_full": "RJ Reynolds Tobacco Company",
+      "h0_full": "RJ Reynolds Tobacco Company",
+      "historical_fastv_0.25": "RJ Reynolds Tobacco Company",
+      "h0_fastv_0.25": "RJ Reynolds Tobacco Company",
+      "historical_fastv_0.35": "RJ Reynolds Tobacco Company",
+      "h0_fastv_0.35": "RJ Reynolds Tobacco Company",
+      "historical_keep_0.25": "edc6fecfe3285fe3db90acbe0aecf240be84bf1aba0f22b1e207f3b5f105efb6",
+      "h0_keep_0.25": "17974cde276c75ca5b9c6b9cd9ccb21e8ee27e7504bfe5b5406da95f9fbb4d01",
+      "historical_keep_0.35": "35a75b8d929a0abf97377c27ab7b8d12da0c3300cf0d8e7b893f4daa1173a1cb",
+      "h0_keep_0.35": "50ebc2299a889114f09ee54e943d2ab210332245484a60599a31a906242bcaa8",
+      "historical_margin": 2.6831183433532715,
+      "h0_margin": 2.889931797981262,
+      "token_ids": "未测"
+    },
+    "historical_selector_step": 150,
+    "h0_historical_selector_step": 75
+  },
+  {
+    "sample_id": "39204",
+    "elapsed_sec": 2579.4,
+    "peak_memory_mib": 30725.8,
+    "counters": {
+      "forward": 2705,
+      "backward": 600,
+      "generate": 425,
+      "fastv": 416,
+      "generated_tokens": 2410
+    },
+    "question": "On what subject are the critical reviews on?",
+    "page_sha256": [
+      "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a",
+      "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+      "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+      "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+    ],
+    "aux_idx": 0,
+    "step0_png_match": true,
+    "step10": {
+      "historical_png": "3724e56f15b6c00f705782b0eec900eff5e84e1568fbb57d45cb9fc6a2cacf27",
+      "h0_png": "6a2cc0e0ed69c4b11b900675aacb4bc9f52219f718b46ce6b0f22cb1a4d1b2b4",
+      "historical_full": "FOOD TECHNOLOGY",
+      "h0_full": "FOOD TECHNOLOGY",
+      "historical_fastv_0.25": "FOOD TECHNOLOGY",
+      "h0_fastv_0.25": "Food technology",
+      "historical_fastv_0.35": "FOOD TECHNOLOGY",
+      "h0_fastv_0.35": "FOOD TECHNOLOGY",
+      "historical_keep_0.25": "d052e1a86535010cd5b78db3b43cef27100c554c2381933401e65796dae10b56",
+      "h0_keep_0.25": "fb2999151000c9ff51fcf60d7cce5a0fdc3b5b695c7b58738baa15abcdfbc080",
+      "historical_keep_0.35": "ca4e03486128d70e962e0f16a84d509d0edf94207a767a88652f0f0a9c8d3022",
+      "h0_keep_0.35": "ba821004d56e6940b83b40b70b29dc9a1b3b351866aa56b189957d37cf339df7",
+      "historical_margin": 5.4968085289001465,
+      "h0_margin": 3.8733975887298584,
+      "token_ids": "未测"
+    },
+    "historical_selector_step": 100,
+    "h0_historical_selector_step": 100
+  }
+]

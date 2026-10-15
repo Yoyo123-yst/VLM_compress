@@ -1,0 +1,127 @@
+{
+  "index": 8,
+  "sample_id": "7029",
+  "image_kind": "B",
+  "ratio": 0.25,
+  "full_argmax_match": true,
+  "full_text": "3-27-96",
+  "fast_argmax_match": true,
+  "fast_text": "3-27-1995",
+  "k": 1850,
+  "keep_hash": "e4300b011deb66a520916caba6e62ec866a3468e0f687f10c1d02133bbaa6e55",
+  "termination": "EOS_GENERATED",
+  "appended_eos": false,
+  "steps": [
+    {
+      "step": 0,
+      "cache_len_layer0": 7426,
+      "cache_len_layer3": 1878,
+      "position_id": 7425,
+      "token_id": 18,
+      "argmax": 18,
+      "soft_margin": 5.201581954956055
+    },
+    {
+      "step": 1,
+      "cache_len_layer0": 7427,
+      "cache_len_layer3": 1879,
+      "position_id": 7426,
+      "token_id": 12,
+      "argmax": 12,
+      "soft_margin": 4.142374038696289
+    },
+    {
+      "step": 2,
+      "cache_len_layer0": 7428,
+      "cache_len_layer3": 1880,
+      "position_id": 7427,
+      "token_id": 17,
+      "argmax": 17,
+      "soft_margin": 3.0267581939697266
+    },
+    {
+      "step": 3,
+      "cache_len_layer0": 7429,
+      "cache_len_layer3": 1881,
+      "position_id": 7428,
+      "token_id": 22,
+      "argmax": 22,
+      "soft_margin": 4.637502670288086
+    },
+    {
+      "step": 4,
+      "cache_len_layer0": 7430,
+      "cache_len_layer3": 1882,
+      "position_id": 7429,
+      "token_id": 12,
+      "argmax": 12,
+      "soft_margin": 0.17014122009277344
+    },
+    {
+      "step": 5,
+      "cache_len_layer0": 7431,
+      "cache_len_layer3": 1883,
+      "position_id": 7430,
+      "token_id": 16,
+      "argmax": 16,
+      "soft_margin": 1.3658027648925781
+    },
+    {
+      "step": 6,
+      "cache_len_layer0": 7432,
+      "cache_len_layer3": 1884,
+      "position_id": 7431,
+      "token_id": 24,
+      "argmax": 24,
+      "soft_margin": 2.584747314453125
+    },
+    {
+      "step": 7,
+      "cache_len_layer0": 7433,
+      "cache_len_layer3": 1885,
+      "position_id": 7432,
+      "token_id": 24,
+      "argmax": 24,
+      "soft_margin": 2.0311832427978516
+    },
+    {
+      "step": 8,
+      "cache_len_layer0": 7434,
+      "cache_len_layer3": 1886,
+      "position_id": 7433,
+      "token_id": 20,
+      "argmax": 20,
+      "soft_margin": 0.5285568237304688
+    },
+    {
+      "step": 9,
+      "cache_len_layer0": 7435,
+      "cache_len_layer3": 1887,
+      "position_id": 7434,
+      "token_id": 151645,
+      "argmax": 151645,
+      "soft_margin": 5.2969512939453125
+    }
+  ],
+  "grad_l2": {
+    "full_soft": 3.027536153793335,
+    "fast_0.25": 7.725155353546143,
+    "fast_0.35": 15.97823429107666,
+    "fdp": 0.910883903503418,
+    "conditional_gap": 11.268539428710938
+  },
+  "per_token_aux_grad_l2": [
+    1.8110325336456299,
+    3.3318281173706055,
+    7.331564426422119,
+    11.76742935180664,
+    24.47231674194336,
+    37.479644775390625,
+    72.56763458251953,
+    6.634692192077637,
+    12.34383487701416,
+    11.56291389465332
+  ],
+  "evidence_grad_l2": 0.0,
+  "pass": true
+}

@@ -1,0 +1,42 @@
+{
+  "sample_id": "1025",
+  "loss_finite": true,
+  "includes_eos": true,
+  "generate_ends_with_eos": true,
+  "teacher_forced_argmax_matches_tokens": true,
+  "generate_text_matches_session_text": true,
+  "certificate": "FULL_CONE_CERTIFICATE_AVAILABLE",
+  "evidence_grad_l2": 0.0,
+  "aux_grad_l2": 2.281505823135376,
+  "aux_grad_finite": true,
+  "ratio_rows": [
+    {
+      "r": 0.5,
+      "k": 5548,
+      "expected_k": 5548,
+      "ok": true
+    },
+    {
+      "r": 0.35,
+      "k": 3884,
+      "expected_k": 3884,
+      "ok": true
+    },
+    {
+      "r": 0.25,
+      "k": 2774,
+      "expected_k": 2774,
+      "ok": true
+    },
+    {
+      "r": 0.15,
+      "k": 1665,
+      "expected_k": 1665,
+      "ok": true
+    }
+  ],
+  "removed_r": [],
+  "keep_hash_r025": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5",
+  "k_r025": 2774,
+  "pass": true
+}

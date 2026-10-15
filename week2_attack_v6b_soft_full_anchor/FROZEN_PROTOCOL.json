@@ -1,0 +1,57 @@
+{
+  "written_at": "2026-10-08T18:22:00+08:00",
+  "identity": "Independent protocol. Not a rerun or patch of week2_attack_v6_survivor_upgrade.",
+  "v6_decision_left_unchanged": "BLOCKED_BC_IMPLEMENTATION_PREREQUISITE",
+  "model": "/home/yuesiting/autodl-tmp/models/llava-onevision-qwen2-7b-ov-hf",
+  "compressor": "FastV r=0.25, pruning_loc=3, real last-query hook",
+  "dev_ids": ["1025", "2008", "7006", "39204", "47450", "47567", "50779", "51133", "60700", "6194", "62941", "64506"],
+  "health_ids": ["1025", "6194", "7006"],
+  "smoke_sample": "1025",
+  "eps": 0.03137254901960784,
+  "steps": 200,
+  "optimizer": "Adam",
+  "lr": 0.00784313725490196,
+  "checkpoints": [0, 10, 25, 50, 75, 100, 150, 200],
+  "permission": "auxiliary page only; evidence pages detached",
+  "removed_v6_term": "relu(kappa_t - m_adv_t) with kappa_t = min(max(m_clean_t, 0), 1)",
+  "variant_b": "L = L_comp + lambda_soft * L_soft_full",
+  "variant_c": "L = L_comp + lambda_soft * L_soft_full + beta * L_selection",
+  "L_soft_full": "mean_t softplus((m_clean_t - m_adv_t) / 1.0)",
+  "m_t": "logit(clean_full_token_t) - max logit of any other token, including EOS",
+  "tokens": "all clean Full greedy answer tokens plus exactly one EOS",
+  "L_selection": "L1 distance between page-level sums of the real FastV last-query attention and the clean page masses",
+  "forbidden_additions": ["handwritten scorer", "token rank inversion", "second auxiliary image", "EOT", "second compressor"],
+  "calibration": {
+    "sample": "1025",
+    "state": "delta=0",
+    "lambda_soft": "L2(grad L_comp) / L2(grad L_soft_full)",
+    "beta": "L2(grad L_comp) / L2(grad L_selection)",
+    "probes": 0,
+    "block_if_any_grad_nonfinite_or_le": 1e-6,
+    "blocked_decision": "BLOCKED_V6B_CALIBRATION"
+  },
+  "selector": "step>0, uint8 nonzero, output_valid, Full text exact, uint8 Linf<=8/255; rank by ascending compressed margin then earlier step; replay after selection; no repick",
+  "a_baseline_readonly": {
+    "source": "week2_attack_v6_survivor_upgrade/variant_a_audit",
+    "strict": "7/12",
+    "pollution_among_strict": 1,
+    "median_keep_jaccard": 0.8355726620046946
+  },
+  "common_gates": {
+    "full_exact": "12/12",
+    "replay": "12/12",
+    "nonzero": "12/12",
+    "linf": "12/12",
+    "invalid": 0,
+    "strict_at_least": "7/12",
+    "pollution_not_above_A": true
+  },
+  "c_extra_gates": {
+    "median_abs_evidence_share_delta_max": 0.01,
+    "median_abs_aux_share_delta_max": 0.01,
+    "p90_abs_share_delta_max": 0.03,
+    "median_jaccard_at_least_A": true,
+    "content_count_gt_selection_plus_interaction": true
+  },
+  "training_not_started_at_freeze": true
+}

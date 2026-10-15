@@ -1,0 +1,663 @@
+{
+  "sample_id": "39204",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "947f583b6ca3745be62f4b42e898fc9538681bd835dd848a7d8d60b10514387c",
+  "full_clean": {
+    "text_a": "FOOD TECHNOLOGY",
+    "text_b": "FOOD TECHNOLOGY",
+    "tokens_a": [
+      3788,
+      2069,
+      87534,
+      51432,
+      151645
+    ],
+    "tokens_b": [
+      3788,
+      2069,
+      87534,
+      51432,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      3788,
+      2069,
+      87534,
+      51432,
+      151645
+    ],
+    "text": "FOOD TECHNOLOGY",
+    "anls": 1.0,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+    "k": 3699,
+    "second_keep_hash": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+    "second_k": 3699
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 2,
+      "target_id": 87534,
+      "target_piece": " TECHNO",
+      "candidate_id": 53428,
+      "candidate_piece": " TECH",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 3.625,
+      "content_priority": 1,
+      "fast_gradient_l1": 11384.48828125,
+      "fast_gradient_l2": 30.34029197692871,
+      "estimated_fast_flip_linf": 0.0003184157171095951,
+      "full_clean_hard_min": 0.25,
+      "full_probe_hard_min": 0.125,
+      "full_local_capacity_linf": 0.00784313725490196,
+      "full_local_margin_available": true,
+      "reachability_ratio": 24.631752873563215,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "f24d02d4e363776dd3553803301f2dcbbfaf89ad23acde73e270835faeffae73",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          3788,
+          2069,
+          53428,
+          45,
+          51432,
+          151645
+        ],
+        "text": "FOOD TECHNLOGY",
+        "keep_hash": "63434414f034d8cbde417cabf2be93ed81473f8456077ea7994cd91d099fe06a",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.9333333333333333,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "complete_lexical_key": "foodtechnlogy",
+      "complete_lexical_similarity_to_clean": 0.9629629629629629,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          3788,
+          2069,
+          53428,
+          45,
+          51432,
+          151645
+        ],
+        "text": "FOOD TECHNLOGY",
+        "keep_hash": "63434414f034d8cbde417cabf2be93ed81473f8456077ea7994cd91d099fe06a",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 3788,
+      "target_piece": "FO",
+      "candidate_id": 2446,
+      "candidate_piece": "TE",
+      "candidate_rank_at_position": 9,
+      "clean_fast_gap": 6.5,
+      "content_priority": 1,
+      "fast_gradient_l1": 26656.615234375,
+      "fast_gradient_l2": 91.73489379882812,
+      "estimated_fast_flip_linf": 0.00024384191101719225,
+      "full_clean_hard_min": 0.25,
+      "full_probe_hard_min": 0.125,
+      "full_local_capacity_linf": 0.00784313725490196,
+      "full_local_margin_available": true,
+      "reachability_ratio": 32.164844928355954,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "f24d02d4e363776dd3553803301f2dcbbfaf89ad23acde73e270835faeffae73",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          2446,
+          2149,
+          8996,
+          51432,
+          151645
+        ],
+        "text": "TECHNOLOGY",
+        "keep_hash": "22c834c8b4c1e92bd6f76cbd3b912e5543e09a8b1695b8acc5494c2653ae1099",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.6666666666666667,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "complete_lexical_key": "technology",
+      "complete_lexical_similarity_to_clean": 0.8333333333333334,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          2446,
+          2149,
+          8996,
+          51432,
+          151645
+        ],
+        "text": "TECHNOLOGY",
+        "keep_hash": "22c834c8b4c1e92bd6f76cbd3b912e5543e09a8b1695b8acc5494c2653ae1099",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 87534,
+      "target_piece": " TECHNO",
+      "candidate_id": 89240,
+      "candidate_piece": " TELE",
+      "candidate_rank_at_position": 9,
+      "clean_fast_gap": 9.8125,
+      "content_priority": 1,
+      "fast_gradient_l1": 10670.1435546875,
+      "fast_gradient_l2": 32.772010803222656,
+      "estimated_fast_flip_linf": 0.0009196221165824214,
+      "full_clean_hard_min": 0.25,
+      "full_probe_hard_min": 0.0,
+      "full_local_capacity_linf": 0.00392156862745098,
+      "full_local_margin_available": true,
+      "reachability_ratio": 4.264326136505558,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "f24d02d4e363776dd3553803301f2dcbbfaf89ad23acde73e270835faeffae73",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          3788,
+          2069,
+          89240,
+          2149,
+          8996,
+          51432,
+          151645
+        ],
+        "text": "FOOD TELECHNOLOGY",
+        "keep_hash": "31f96bb514102d4cf67c96d72f159a79ab0ac54ce07035b96dbc5007ce73cb5a",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.8823529411764706,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "complete_lexical_key": "foodtelechnology",
+      "complete_lexical_similarity_to_clean": 0.9333333333333333,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          3788,
+          2069,
+          89240,
+          2149,
+          8996,
+          51432,
+          151645
+        ],
+        "text": "FOOD TELECHNOLOGY",
+        "keep_hash": "31f96bb514102d4cf67c96d72f159a79ab0ac54ce07035b96dbc5007ce73cb5a",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 3,
+      "target_id": 51432,
+      "target_piece": "LOGY",
+      "candidate_id": 7243,
+      "candidate_piece": "LOG",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 12.125,
+      "content_priority": 1,
+      "fast_gradient_l1": 16845.498046875,
+      "fast_gradient_l2": 50.81760787963867,
+      "estimated_fast_flip_linf": 0.0007197768784431578,
+      "full_clean_hard_min": 0.25,
+      "full_probe_hard_min": 0.125,
+      "full_local_capacity_linf": 0.00784313725490196,
+      "full_local_margin_available": true,
+      "reachability_ratio": 10.896622953305034,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "f24d02d4e363776dd3553803301f2dcbbfaf89ad23acde73e270835faeffae73",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          3788,
+          2069,
+          87534,
+          7243,
+          15571,
+          151645
+        ],
+        "text": "FOOD TECHNOLOGICAL",
+        "keep_hash": "524bb96446e3b73f591c20194a24c3773742abe736a988ca713d0052677e20f7",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.7777777777777778,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "complete_lexical_key": "foodtechnological",
+      "complete_lexical_similarity_to_clean": 0.8387096774193549,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          3788,
+          2069,
+          87534,
+          7243,
+          15571,
+          151645
+        ],
+        "text": "FOOD TECHNOLOGICAL",
+        "keep_hash": "524bb96446e3b73f591c20194a24c3773742abe736a988ca713d0052677e20f7",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 1,
+      "target_id": 2069,
+      "target_piece": "OD",
+      "candidate_id": 12483,
+      "candidate_piece": "OF",
+      "candidate_rank_at_position": 8,
+      "clean_fast_gap": 12.1875,
+      "content_priority": 1,
+      "fast_gradient_l1": 12944.9560546875,
+      "fast_gradient_l2": 35.18158721923828,
+      "estimated_fast_flip_linf": 0.0009414863942768491,
+      "full_clean_hard_min": 0.25,
+      "full_probe_hard_min": 0.125,
+      "full_local_capacity_linf": 0.00784313725490196,
+      "full_local_margin_available": true,
+      "reachability_ratio": 8.33059012066365,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "f24d02d4e363776dd3553803301f2dcbbfaf89ad23acde73e270835faeffae73",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          3788,
+          12483,
+          87534,
+          51432,
+          151645
+        ],
+        "text": "FOOF TECHNOLOGY",
+        "keep_hash": "ca8d8cc12379ddcf5f14bb8b6f5232ca52e7ffe0be5015e167067694cda71b0d",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.9333333333333333,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "complete_lexical_key": "fooftechnology",
+      "complete_lexical_similarity_to_clean": 0.9285714285714286,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          3788,
+          12483,
+          87534,
+          51432,
+          151645
+        ],
+        "text": "FOOF TECHNOLOGY",
+        "keep_hash": "ca8d8cc12379ddcf5f14bb8b6f5232ca52e7ffe0be5015e167067694cda71b0d",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 1,
+      "target_id": 2069,
+      "target_piece": "OD",
+      "candidate_id": 1076,
+      "candidate_piece": "ody",
+      "candidate_rank_at_position": 9,
+      "clean_fast_gap": 12.375,
+      "content_priority": 1,
+      "fast_gradient_l1": 12682.4853515625,
+      "fast_gradient_l2": 35.38068771362305,
+      "estimated_fast_flip_linf": 0.000975755118729578,
+      "full_clean_hard_min": 0.25,
+      "full_probe_hard_min": 0.125,
+      "full_local_capacity_linf": 0.00784313725490196,
+      "full_local_margin_available": true,
+      "reachability_ratio": 8.038018048128341,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "f24d02d4e363776dd3553803301f2dcbbfaf89ad23acde73e270835faeffae73",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          3788,
+          1076,
+          5440,
+          151645
+        ],
+        "text": "FOody technology",
+        "keep_hash": "a511f1d7129fc226478c977cd1854a71bbbe4beb9229ff8d5e4106b107bb12ef",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.9375,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "complete_lexical_key": "foodytechnology",
+      "complete_lexical_similarity_to_clean": 0.9655172413793104,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          3788,
+          1076,
+          5440,
+          151645
+        ],
+        "text": "FOody technology",
+        "keep_hash": "a511f1d7129fc226478c977cd1854a71bbbe4beb9229ff8d5e4106b107bb12ef",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 24,
+    "screen_admitted_before_limit": 6,
+    "screen_rejected": 11,
+    "estimated": 6
+  },
+  "rejected_proposals": [
+    {
+      "position": 0,
+      "target_id": 3788,
+      "target_piece": "FO",
+      "candidate_id": 13915,
+      "candidate_piece": "food",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 0.5,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          13915,
+          5440,
+          151645
+        ],
+        "text": "food technology",
+        "keep_hash": "7c986be3c4ae1ee63e21c9a891ebe2adca72cb2996e99bbcd4e3db462b4c03dd",
+        "k": 3699
+      },
+      "complete_lexical_key": "foodtechnology",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 0,
+      "target_id": 3788,
+      "target_piece": "FO",
+      "candidate_id": 26746,
+      "candidate_piece": "Food",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 0.625,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          26746,
+          5440,
+          151645
+        ],
+        "text": "Food technology",
+        "keep_hash": "01d34ef77024f028c9d9298b28534acd1c66b04bc002d236abe8f809a6c9a1e5",
+        "k": 3699
+      },
+      "complete_lexical_key": "foodtechnology",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 0,
+      "target_id": 3788,
+      "target_piece": "FO",
+      "candidate_id": 63467,
+      "candidate_piece": "-food",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 5.375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          63467,
+          5440,
+          151645
+        ],
+        "text": "-food technology",
+        "keep_hash": "289ef2170f260e2404b46bd8f9b8a8383512916800601a0b5dc44027544c100f",
+        "k": 3699
+      },
+      "complete_lexical_key": "foodtechnology",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 0,
+      "target_id": 3788,
+      "target_piece": "FO",
+      "candidate_id": 40923,
+      "candidate_piece": "Foo",
+      "candidate_rank_at_position": 10,
+      "clean_fast_gap": 6.5625,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          40923,
+          35,
+          11791,
+          151645
+        ],
+        "text": "FooD Technology",
+        "keep_hash": "735aa68fc5a9239e3964c2277128066110df34ce972847ffee57908eda0a5a53",
+        "k": 3699
+      },
+      "complete_lexical_key": "foodtechnology",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 0,
+      "target_id": 3788,
+      "target_piece": "FO",
+      "candidate_id": 8973,
+      "candidate_piece": "CR",
+      "candidate_rank_at_position": 12,
+      "clean_fast_gap": 6.6875,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          8973,
+          7380,
+          151645
+        ],
+        "text": "CRRC",
+        "keep_hash": "d4db335ec75c6fcb4fdd2c46396d0fd123359ae0c665e92d38b385029e4f9818",
+        "k": 3699
+      },
+      "complete_lexical_key": "crrc",
+      "complete_lexical_similarity_to_clean": 0.1111111111111111,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 2,
+      "target_id": 87534,
+      "target_piece": " TECHNO",
+      "candidate_id": 18289,
+      "candidate_piece": " TE",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 7.0,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          3788,
+          2069,
+          18289,
+          2149,
+          8996,
+          51432,
+          151645
+        ],
+        "text": "FOOD TECHNOLOGY",
+        "keep_hash": "4da1b3fdbe9a46871ba90a48324038a6698eb221112b20b93857b69bc92fde7c",
+        "k": 3699
+      },
+      "complete_lexical_key": "foodtechnology",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 2,
+      "target_id": 87534,
+      "target_piece": " TECHNO",
+      "candidate_id": 5440,
+      "candidate_piece": " technology",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 8.875,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          3788,
+          2069,
+          5440,
+          151645
+        ],
+        "text": "FOOD technology",
+        "keep_hash": "cd39c6a62529405b78e93b9379937c544136b8e96086782fdbd5984f985312ce",
+        "k": 3699
+      },
+      "complete_lexical_key": "foodtechnology",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 2,
+      "target_id": 87534,
+      "target_piece": " TECHNO",
+      "candidate_id": 11791,
+      "candidate_piece": " Technology",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 9.3125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          3788,
+          2069,
+          11791,
+          151645
+        ],
+        "text": "FOOD Technology",
+        "keep_hash": "1511db794b4daffd1018b617bc7f3b9fa790dbf1200c9d91fccaca77ed62b006",
+        "k": 3699
+      },
+      "complete_lexical_key": "foodtechnology",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 2,
+      "target_id": 87534,
+      "target_piece": " TECHNO",
+      "candidate_id": 2446,
+      "candidate_piece": "TE",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 9.375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          3788,
+          2069,
+          2446,
+          2149,
+          8996,
+          51432,
+          151645
+        ],
+        "text": "FOODTECHNOLOGY",
+        "keep_hash": "633723eab86edabe27e6d074053ff6f577d0b3867702e5b249b3806cf680cf39",
+        "k": 3699
+      },
+      "complete_lexical_key": "foodtechnology",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 1,
+      "target_id": 2069,
+      "target_piece": "OD",
+      "candidate_id": 29697,
+      "candidate_piece": "ods",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 11.875,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          3788,
+          29697,
+          151645
+        ],
+        "text": "FOods",
+        "keep_hash": "5a4cef6a872ef9c75c9d5251f9cab836f12c051b7770f4f4fa4c41268aff5f1a",
+        "k": 3699
+      },
+      "complete_lexical_key": "foods",
+      "complete_lexical_similarity_to_clean": 0.42105263157894735,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 3,
+      "target_id": 51432,
+      "target_piece": "LOGY",
+      "candidate_id": 8081,
+      "candidate_piece": " LOG",
+      "candidate_rank_at_position": 8,
+      "clean_fast_gap": 20.8125,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          3788,
+          2069,
+          87534,
+          8081,
+          56,
+          151645
+        ],
+        "text": "FOOD TECHNO LOGY",
+        "keep_hash": "558b63ef0db56e405465195ca9af7860ae2de736ffdaecd40d1b45976710ebae",
+        "k": 3699
+      },
+      "complete_lexical_key": "foodtechnology",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    }
+  ]
+}

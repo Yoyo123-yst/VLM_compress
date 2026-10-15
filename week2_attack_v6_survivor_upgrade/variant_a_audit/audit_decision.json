@@ -1,0 +1,32 @@
+{
+  "decision": "PASS_VARIANT_A_AUDIT",
+  "written_at": "2026-10-08T17:52:00+08:00",
+  "dev12": {
+    "full_exact": "12/12",
+    "replay": "12/12",
+    "nonzero": "12/12",
+    "uint8_linf": "12/12",
+    "invalid_output": 0,
+    "strict": "7/12"
+  },
+  "all40": {
+    "selected": 40,
+    "replay_ok": 40,
+    "strict_success": 35,
+    "no_feasible": 0,
+    "selected_candidate_replay_failed": 0
+  },
+  "v5b_raw_immutability": "PASS",
+  "v5b_raw_files": 212,
+  "v5b_raw_changed": 0,
+  "strict_ids": ["1025", "2008", "47567", "51133", "60700", "6194", "64506"],
+  "strict_mechanisms": {
+    "CONTENT_SUFFICIENT": 4,
+    "BOTH_INDEPENDENTLY_SUFFICIENT": 2,
+    "INTERACTION_REQUIRED": 1,
+    "SELECTION_SUFFICIENT": 0
+  },
+  "pollution_among_strict": 1,
+  "pollution_definition": "EXTRA_TEXT, TRUNCATION, or AMBIGUOUS among strict successes",
+  "bc_still_not_run": true
+}

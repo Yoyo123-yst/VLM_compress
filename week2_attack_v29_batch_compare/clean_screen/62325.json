@@ -1,0 +1,42 @@
+{
+  "sample_id": "62325",
+  "question": "What is the name of the program?",
+  "answers": [
+    "WIC",
+    "WIC Program"
+  ],
+  "clean_full_text": "WIC",
+  "clean_full_tokens": [
+    54,
+    1317,
+    151645
+  ],
+  "clean_fastv_text": "WIC",
+  "clean_fastv_tokens": [
+    54,
+    1317,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "95c0cf8c4a1d55536ea40acbbeda7654d55ddb2eaf8d21f8fc0acbfc314ccb3b",
+  "keep_hash_repeat": "95c0cf8c4a1d55536ea40acbbeda7654d55ddb2eaf8d21f8fc0acbfc314ccb3b",
+  "page_sha256": [
+    "f514245ad22edcd4251f245a607efb8a5f94d7148eddf3d5340ae91adaf4eb01",
+    "45e530bf3ac98a768c568f1c0a3b0e993f24200f5087cb17621bd219b9f4c4b6",
+    "2311e43c041bb04af8a4e0f7d0747f58e0b8fb7614ae5e0b27841115eab0404f",
+    "74d32c47676beff97ec6348504f1179ff05eed8b05984e0e856a3ba756183864"
+  ],
+  "layout_M": 4,
+  "aux_idx": 1,
+  "evidence_idx": 0,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 7.902
+}

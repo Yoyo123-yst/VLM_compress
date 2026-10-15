@@ -1,0 +1,49 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:18,  6.04s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:09,  4.78s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:13<00:04,  4.11s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  2.80s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:14<00:00,  3.51s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"start": "60744", "image": "clean"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "60744", "image": "clean", "termination": "MODEL_EOS", "token_exact": true, "text_exact": true, "repeat_stable": true, "g_t": true, "t_m": true, "min_t": 0.125}
+{"start": "60744", "image": "B"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "60744", "image": "B", "termination": "MODEL_EOS", "token_exact": true, "text_exact": true, "repeat_stable": true, "g_t": true, "t_m": true, "min_t": 1.375}
+{"start": "60744", "image": "random_noise"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "60744", "image": "random_noise", "termination": "MODEL_EOS", "token_exact": false, "text_exact": false, "repeat_stable": true, "g_t": true, "t_m": false, "min_t": 0.0}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"start": "22317", "image": "clean"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "22317", "image": "clean", "termination": "MAX_LENGTH_TERMINATION", "token_exact": true, "text_exact": true, "repeat_stable": true, "g_t": true, "t_m": true, "min_t": 0.5}
+{"start": "22317", "image": "B"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "22317", "image": "B", "termination": "MAX_LENGTH_TERMINATION", "token_exact": true, "text_exact": true, "repeat_stable": true, "g_t": true, "t_m": true, "min_t": 1.1875}
+{"start": "22317", "image": "random_noise"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "22317", "image": "random_noise", "termination": "MAX_LENGTH_TERMINATION", "token_exact": true, "text_exact": true, "repeat_stable": true, "g_t": true, "t_m": true, "min_t": 0.625}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"start": "5615", "image": "clean"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5615", "image": "clean", "termination": "MODEL_EOS", "token_exact": true, "text_exact": true, "repeat_stable": true, "g_t": true, "t_m": true, "min_t": 0.25}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"start": "1023", "image": "clean"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "1023", "image": "clean", "termination": "MODEL_EOS", "token_exact": true, "text_exact": true, "repeat_stable": true, "g_t": true, "t_m": false, "min_t": 0.125}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"start": "51140", "image": "random_noise"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "51140", "image": "random_noise", "termination": "MODEL_EOS", "token_exact": true, "text_exact": true, "repeat_stable": true, "g_t": true, "t_m": false, "min_t": 0.125}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"start": "56084", "image": "clean"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56084", "image": "clean", "termination": "MODEL_EOS", "token_exact": true, "text_exact": true, "repeat_stable": true, "g_t": true, "t_m": true, "min_t": 0.0}

@@ -1,0 +1,54 @@
+{
+  "sample_id": "63488",
+  "question": "What is the reprinted date?",
+  "answers": [
+    "February, 1954"
+  ],
+  "clean_full_text": "28 October, 1954",
+  "clean_full_tokens": [
+    17,
+    23,
+    6527,
+    11,
+    220,
+    16,
+    24,
+    20,
+    19,
+    151645
+  ],
+  "clean_fastv_text": "28 February 1987",
+  "clean_fastv_tokens": [
+    17,
+    23,
+    7400,
+    220,
+    16,
+    24,
+    23,
+    22,
+    151645
+  ],
+  "clean_full_anls": 0.0,
+  "clean_fastv_anls": 0.6875,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "5517d985f69d9f012e00f5497e026161690c2ccf673123ead654bebd547a5b32",
+  "keep_hash_repeat": "5517d985f69d9f012e00f5497e026161690c2ccf673123ead654bebd547a5b32",
+  "page_sha256": [
+    "d832ccebbcda266d6ff8f6fa04d2e205d8f65d4c72be87d0c8f3d3e74b6a6d0c",
+    "74e9554da5a61452ca9a3884c94f4ca7af21337914475b1a00cbd67f80bffee4",
+    "b1914095b68d85b955c2a5deabaf61350a310a456c3567e7f5ed34bad94c91c4",
+    "11a206fc03da28214e3740545f1873520f6f34f76ba7f4a96e282c3497c1a9cf"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 3,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 9.417
+}

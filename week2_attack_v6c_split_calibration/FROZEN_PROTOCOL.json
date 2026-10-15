@@ -1,0 +1,45 @@
+{
+  "written_at": "2026-10-08T18:33:00+08:00",
+  "identity": "Independent protocol. Does not reopen v6 or v6b.",
+  "preserved_decisions": {
+    "v6": "BLOCKED_BC_IMPLEMENTATION_PREREQUISITE",
+    "v6b": "BLOCKED_V6B_CALIBRATION"
+  },
+  "dev_ids": ["1025", "2008", "7006", "39204", "47450", "47567", "50779", "51133", "60700", "6194", "62941", "64506"],
+  "health_ids": ["1025", "6194", "7006"],
+  "smoke_sample": "1025",
+  "probe_sample": "1025",
+  "probe_delta": 0.00392156862745098,
+  "lambda_soft": 2.049824826423478,
+  "eps": 0.03137254901960784,
+  "steps": 200,
+  "optimizer": "Adam",
+  "lr": 0.00784313725490196,
+  "checkpoints": [0, 10, 25, 50, 75, 100, 150, 200],
+  "fastv_ratio": 0.25,
+  "variant_b": "L_comp + lambda_soft * mean softplus((m_clean - m_adv) / 1), tokens include one EOS",
+  "variant_c": "B plus beta * L1(real FastV page soft mass, clean page soft mass)",
+  "selector": "step>0, uint8 nonzero, valid, Full exact, uint8 Linf<=8/255; ascending margin then earlier step; replay after pick; no repick",
+  "a_baseline": {
+    "strict": "7/12",
+    "full_exact": "12/12",
+    "replay": "12/12",
+    "nonzero": "12/12",
+    "linf": "12/12",
+    "invalid": 0,
+    "pollution": 1,
+    "median_jaccard": 0.8355726620046946
+  },
+  "pollution_rule": "Among strict successes, count a sample when the normalized clean FastV text and the attacked FastV text are different and one is a substring of the other.",
+  "noise_control": "Read-only v5b results/random_noise.csv strict column, paired by sample_id. Significant if attack strict count exceeds noise and exact McNemar two-sided p < 0.05.",
+  "full40_gates": {
+    "strict_at_least": "33/40",
+    "full_exact": "40/40",
+    "replay": "40/40",
+    "nonzero": "40/40",
+    "linf": "40/40",
+    "invalid": 0,
+    "beats_matched_noise": true
+  },
+  "training_not_started_at_freeze": true
+}

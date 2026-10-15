@@ -1,0 +1,40 @@
+{"limit": 20, "mine": ["47543", "65331", "32157", "49242", "5276", "4912", "47561", "59628", "56776", "55100"]}
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.22s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:05<00:05,  2.81s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:08<00:02,  2.81s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  1.97s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:08<00:00,  2.23s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "65331", "M": 2, "steps": 1, "reason": "reached_q", "opt_sec": 2.6, "wall_sec": 6.8, "soft": 0.9967914819717407, "aux": 0.5654054054054054, "keep": 0.21735604217356042, "anls_c": 1.0, "anls_f": 1.0, "csf": 0, "q": 0.95}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "32157", "M": 2, "steps": 1, "reason": "reached_q", "opt_sec": 3.0, "wall_sec": 5.8, "soft": 0.9766026139259338, "aux": 0.4681081081081081, "keep": 0.2660178426601784, "anls_c": 1.0, "anls_f": 1.0, "csf": 0, "q": 0.95}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "49242", "M": 4, "steps": 114, "reason": "plateau_30", "opt_sec": 596.1, "wall_sec": 601.6, "soft": 0.557804524898529, "aux": 0.5168964585022979, "keep": 0.21086780210867803, "anls_c": 0.0, "anls_f": 0.9047619047619048, "csf": 1, "q": 0.95}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "5276", "M": 3, "steps": 105, "reason": "plateau_30", "opt_sec": 391.1, "wall_sec": 395.2, "soft": 0.6848907470703125, "aux": 0.4953136265320836, "keep": 0.2419572857529062, "anls_c": 0.0, "anls_f": 1.0, "csf": 1, "q": 0.95}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "4912", "M": 4, "steps": 136, "reason": "plateau_30", "opt_sec": 708.4, "wall_sec": 713.3, "soft": 0.5102598667144775, "aux": 0.331440929981076, "keep": 0.24763449580967828, "anls_c": 1.0, "anls_f": 1.0, "csf": 0, "q": 0.95}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "47561", "M": 2, "steps": 1, "reason": "reached_q", "opt_sec": 3.1, "wall_sec": 5.9, "soft": 0.9820482730865479, "aux": 0.40756756756756757, "keep": 0.2962962962962963, "anls_c": 0.6818181818181819, "anls_f": 0.9130434782608696, "csf": 0, "q": 0.95}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "59628", "M": 4, "steps": 98, "reason": "plateau_30", "opt_sec": 511.0, "wall_sec": 516.2, "soft": 0.5829429626464844, "aux": 0.5258177885915112, "keep": 0.23141389564747228, "anls_c": 0.0, "anls_f": 0.8421052631578947, "csf": 1, "q": 0.95}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "56776", "M": 4, "steps": 116, "reason": "plateau_30", "opt_sec": 604.3, "wall_sec": 609.1, "soft": 0.5649101138114929, "aux": 0.5590700189240335, "keep": 0.16599080832657476, "anls_c": 1.0, "anls_f": 1.0, "csf": 0, "q": 0.95}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"id": "55100", "M": 4, "steps": 145, "reason": "plateau_30", "opt_sec": 755.7, "wall_sec": 761.5, "soft": 0.5731421113014221, "aux": 0.4595836712625034, "keep": 0.2570965125709651, "anls_c": 0.7272727272727273, "anls_f": 1.0, "csf": 0, "q": 0.95}

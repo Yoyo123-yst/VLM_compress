@@ -1,0 +1,241 @@
+[
+  {
+    "sample_id": "51298",
+    "step": 0,
+    "seed": 2975938251,
+    "pred_full": "2015-2016",
+    "pred_fastv": "2015-2016",
+    "anls_full": 1.0,
+    "anls_fastv": 1.0,
+    "output_valid": true,
+    "margin": 6.162499904632568,
+    "L_comp": 6.150000095367432,
+    "L_soft_full": 0.69140625,
+    "keep_hash": "363e827adf7c0804d59b54ba36a8697038218626ff1f1e88ea2e4d69542eaad2",
+    "k": 1850,
+    "aux_share": 0.5297297297297298,
+    "evidence_share": 0.4702702702702703,
+    "page_keep_counts": [
+      980,
+      870
+    ],
+    "page_shares": [
+      0.5297297297297298,
+      0.4702702702702703
+    ],
+    "linf": 0.0,
+    "png": "checkpoints/step_000.png",
+    "png_sha256": "3fe9d3251c77ca609edc09fea9f1b800621b9c31447004e4d22771a060366edf",
+    "protected_ok": true,
+    "grad_norm": 23.85407257080078
+  },
+  {
+    "sample_id": "51298",
+    "step": 10,
+    "seed": 2975938251,
+    "pred_full": "2015-2016",
+    "pred_fastv": "2022",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": 3.6000001430511475,
+    "L_comp": 3.5625,
+    "L_soft_full": 0.5546875,
+    "keep_hash": "2acfd73a1e5a3bc786917ba0cdcdf2b4a5e7f016f0c76a9a125fe90961c03b85",
+    "k": 1850,
+    "aux_share": 0.5259459459459459,
+    "evidence_share": 0.47405405405405404,
+    "page_keep_counts": [
+      973,
+      877
+    ],
+    "page_shares": [
+      0.5259459459459459,
+      0.47405405405405404
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_010.png",
+    "png_sha256": "1b21b2aa2a5a3d365fd060b4903c202cf85cc422f13c1461009b135c5486babe",
+    "protected_ok": true,
+    "grad_norm": 6.957025051116943
+  },
+  {
+    "sample_id": "51298",
+    "step": 25,
+    "seed": 2975938251,
+    "pred_full": "2015-2016",
+    "pred_fastv": "O222",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": 0.03750000149011612,
+    "L_comp": 0.05000000074505806,
+    "L_soft_full": 0.4453125,
+    "keep_hash": "b19089cf015127501b6dc59ed8c0cb0f962070107a8dbcdd2452abdbf453a158",
+    "k": 1850,
+    "aux_share": 0.5275675675675676,
+    "evidence_share": 0.47243243243243244,
+    "page_keep_counts": [
+      976,
+      874
+    ],
+    "page_shares": [
+      0.5275675675675676,
+      0.47243243243243244
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_025.png",
+    "png_sha256": "1f1a84fcda40677b7a799059f2cf169e4b873a66164eac6aba4f096787a587aa",
+    "protected_ok": true,
+    "grad_norm": 8.904548645019531
+  },
+  {
+    "sample_id": "51298",
+    "step": 50,
+    "seed": 2975938251,
+    "pred_full": "2015-2016",
+    "pred_fastv": "O22022",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -0.637499988079071,
+    "L_comp": -0.643750011920929,
+    "L_soft_full": 0.376953125,
+    "keep_hash": "c6955a1e99249e6f5b8cef8efd20b4f979aecfcb46d0436d958a5d8a4894a1f5",
+    "k": 1850,
+    "aux_share": 0.5367567567567567,
+    "evidence_share": 0.46324324324324323,
+    "page_keep_counts": [
+      993,
+      857
+    ],
+    "page_shares": [
+      0.5367567567567567,
+      0.46324324324324323
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_050.png",
+    "png_sha256": "7f115f400be5921bfc13d391b28727a0b33ff3546162c0cc0f88ca1876d3b635",
+    "protected_ok": true,
+    "grad_norm": 57.300758361816406
+  },
+  {
+    "sample_id": "51298",
+    "step": 75,
+    "seed": 2975938251,
+    "pred_full": "2015-2016",
+    "pred_fastv": "Oc22",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -3.1187500953674316,
+    "L_comp": -2.6812500953674316,
+    "L_soft_full": 0.302734375,
+    "keep_hash": "70ffc0ab6e0c60f8d062acad250d980d97a9af15e5d515edecf66c42f32f5cbb",
+    "k": 1850,
+    "aux_share": 0.5356756756756756,
+    "evidence_share": 0.4643243243243243,
+    "page_keep_counts": [
+      991,
+      859
+    ],
+    "page_shares": [
+      0.5356756756756756,
+      0.4643243243243243
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_075.png",
+    "png_sha256": "301443fd68395f1819303b2f1f4b2b50a21d53203f20ed0e64ab51d97074ff8d",
+    "protected_ok": true,
+    "grad_norm": 9.060566902160645
+  },
+  {
+    "sample_id": "51298",
+    "step": 100,
+    "seed": 2975938251,
+    "pred_full": "2015-2016",
+    "pred_fastv": "OcT 22",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -4.081250190734863,
+    "L_comp": -4.131249904632568,
+    "L_soft_full": 0.3046875,
+    "keep_hash": "ff24bc303a62c54a6ccbd1fe5d466da12a61cc8b230bd037ae083fc4d1b34625",
+    "k": 1850,
+    "aux_share": 0.5318918918918919,
+    "evidence_share": 0.4681081081081081,
+    "page_keep_counts": [
+      984,
+      866
+    ],
+    "page_shares": [
+      0.5318918918918919,
+      0.4681081081081081
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_100.png",
+    "png_sha256": "fec293cdc3a03ad7e88dbc162cce83827767036ebd92a868bc950e44a5f90ec5",
+    "protected_ok": true,
+    "grad_norm": 12.074748039245605
+  },
+  {
+    "sample_id": "51298",
+    "step": 150,
+    "seed": 2975938251,
+    "pred_full": "2015-2016",
+    "pred_fastv": "OcT 22",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -5.943749904632568,
+    "L_comp": -5.912499904632568,
+    "L_soft_full": 0.265625,
+    "keep_hash": "c7a4c41f05fc8c21a9fae3123b0f42db97d098d834d583f61ab537e64bb4262b",
+    "k": 1850,
+    "aux_share": 0.5351351351351351,
+    "evidence_share": 0.4648648648648649,
+    "page_keep_counts": [
+      990,
+      860
+    ],
+    "page_shares": [
+      0.5351351351351351,
+      0.4648648648648649
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_150.png",
+    "png_sha256": "6e80903bd3350a608aa07212d3491b38cf58a688d334b714af9571f307f92dda",
+    "protected_ok": true,
+    "grad_norm": 16.5701904296875
+  },
+  {
+    "sample_id": "51298",
+    "step": 200,
+    "seed": 2975938251,
+    "pred_full": "2015-2016",
+    "pred_fastv": "OcT 22",
+    "anls_full": 1.0,
+    "anls_fastv": 0.0,
+    "output_valid": true,
+    "margin": -7.115624904632568,
+    "L_comp": -6.659375190734863,
+    "L_soft_full": 0.36328125,
+    "keep_hash": "43d2aa5d363f2584b04d7d035b5b0568a279f43b87741f9a08f812445da040c2",
+    "k": 1850,
+    "aux_share": 0.54,
+    "evidence_share": 0.46,
+    "page_keep_counts": [
+      999,
+      851
+    ],
+    "page_shares": [
+      0.54,
+      0.46
+    ],
+    "linf": 0.03137257695198059,
+    "png": "checkpoints/step_200.png",
+    "png_sha256": "603801891ece22cf44fc25d0870068ff746bc8bd5c6b567191115cd22e022d19",
+    "protected_ok": true
+  }
+]

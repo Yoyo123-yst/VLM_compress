@@ -1,0 +1,43 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:09,  3.10s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:07<00:07,  3.82s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:10<00:03,  3.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.15s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.64s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "39204", "ok": true, "status": "REPLAY_OK", "pred_full": "FOOD TECHNOLOGY", "pred_fastv": "Crc"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "58346", "ok": true, "status": "REPLAY_OK", "pred_full": "27,500", "pred_fastv": "N/A"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "7006", "ok": true, "status": "REPLAY_OK", "pred_full": "RJ Reynolds Tobacco Company", "pred_fastv": "Terry Reese, Mary Ann Urey"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "50210", "ok": true, "status": "REPLAY_OK", "pred_full": "Nashville", "pred_fastv": "Chengdu, China"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "60500", "ok": true, "status": "REPLAY_OK", "pred_full": "AGE (MO)", "pred_fastv": "Age"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "32156", "ok": true, "status": "REPLAY_OK", "pred_full": "1,500.00", "pred_fastv": "$8.5"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "56951", "ok": true, "status": "REPLAY_OK", "pred_full": "35.00", "pred_fastv": "2\u00a2"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "64506", "ok": true, "status": "REPLAY_OK", "pred_full": "E", "pred_fastv": "AGQJ28"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "52387", "ok": true, "status": "REPLAY_OK", "pred_full": "14", "pred_fastv": "2"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "6194", "ok": true, "status": "REPLAY_OK", "pred_full": "0107-XX-XX-XX", "pred_fastv": "7168688988"}

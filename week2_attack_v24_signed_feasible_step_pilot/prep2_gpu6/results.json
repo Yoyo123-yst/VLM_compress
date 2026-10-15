@@ -1,0 +1,36 @@
+{
+  "rows": [
+    {
+      "sample_id": "60700",
+      "prepared_shape": [
+        5,
+        3,
+        384,
+        384
+      ],
+      "surrogate_shape": [
+        5,
+        3,
+        384,
+        384
+      ],
+      "base_max_abs": 1.1920928955078125e-07,
+      "base_mean_abs": 8.50397796625657e-09,
+      "base_cos": 1.0000000000008267,
+      "seed0_delta_cos": 0.9999999999857712,
+      "seed0_delta_norm_ratio": 1.0,
+      "seed0_delta_max_abs": 0.015686333179473877,
+      "seed0_sur_delta_max_abs": 0.015686511993408203,
+      "seed1_delta_cos": 0.9999999999858601,
+      "seed1_delta_norm_ratio": 0.9999999403953552,
+      "seed1_delta_max_abs": 0.015686333179473877,
+      "seed1_sur_delta_max_abs": 0.015686511993408203,
+      "seed2_delta_cos": 0.9999999999858472,
+      "seed2_delta_norm_ratio": 1.0,
+      "seed2_delta_max_abs": 0.015686333179473877,
+      "seed2_sur_delta_max_abs": 0.015686511993408203
+    }
+  ],
+  "used_model_forward": false,
+  "used_model_backward": false
+}

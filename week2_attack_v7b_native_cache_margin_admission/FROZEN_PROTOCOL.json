@@ -1,0 +1,233 @@
+{
+  "purpose": "NATIVE_CACHE_MARGIN_ALIGNMENT_ADMISSION",
+  "manual_full_answer_logits": "DISALLOWED_FOR_CERTIFICATION_AND_NEW_OBJECTIVES",
+  "no_pgd": true,
+  "no_bplus_training": true,
+  "no_full60_reanalysis": true,
+  "no_new_manifest": true,
+  "existing_b_strict_generate": "52/60",
+  "existing_b_not_recomputed": true,
+  "retrospective_certificate_for_b": false,
+  "parent_directories": {
+    "week2_attack_v5b_expanded_pristine40": {
+      "n_files": 745,
+      "manifest_sha256": "fb1e26de6d4e9009760322c473b2eaac63577227618ad65d68ec77295bbe4de7"
+    },
+    "week2_attack_v6_survivor_upgrade": {
+      "n_files": 62,
+      "manifest_sha256": "b87cf1678318fe5a766e2ecdce618735ddb0afdfd4557886ce43875869949adc"
+    },
+    "week2_attack_v6b_soft_full_anchor": {
+      "n_files": 14,
+      "manifest_sha256": "d04adb7ecf36400738129c3e4c88addc6dcfdefb3bcaf7f1a4451e27457bd4e8"
+    },
+    "week2_attack_v6c_split_calibration": {
+      "n_files": 820,
+      "manifest_sha256": "997d80d0e75594c0a40fc431707619b0fc162418b63d669f0494256e20f90e1b"
+    },
+    "week2_attack_v7_pristine60": {
+      "n_files": 1514,
+      "manifest_sha256": "020b1a50d5f239408840298dc0daeb1e5f173b69a921ea694fbd6aed6d28df35"
+    },
+    "week2_attack_v7_budget_conditioned": {
+      "n_files": 82,
+      "manifest_sha256": "26b007e2b92879fea0ea98ccd9ec10c7c7bba2100a941300e4323f123a9c30dd"
+    },
+    "week2_attack_v7a_fdp_alignment_audit": {
+      "n_files": 18,
+      "manifest_sha256": "560df482b098ed2001afad9720e60ae6a76ba45f86a61e075ada6e90773bc05b"
+    }
+  },
+  "parent_protocol_files": {
+    "week2_attack_v5b_expanded_pristine40/FROZEN.json": "5f7d49b376bb8acf9f1fb9a90cbe085f5fd1d002b66eac628eb52f0c3a949d5e",
+    "week2_attack_v6_survivor_upgrade/FROZEN_DEV_PROTOCOL.json": "2e9a05f5d1be778de6321f783a99c790d85f75eae37e17e1370805fb66de0c87",
+    "week2_attack_v6b_soft_full_anchor/FROZEN_PROTOCOL.json": "78d3d3a6d5129b9af34ecf5236682968fe07c3b0be3da1c89691ed2d22152b51",
+    "week2_attack_v6c_split_calibration/FROZEN_PROTOCOL.json": "2ef9473eb0f656aa9908762b355ecd28fb94c380092cedc2792da82b0d4820c3",
+    "week2_attack_v7_pristine60/FROZEN.json": "884aa0117847b2b24373a8d101a545664b048119f51b4148b9e870e1027c5e15",
+    "week2_attack_v7_pristine60/frozen_manifest.json": "544d56e097a1dd497cce4812fe21bd5047d927bb73e03c6521ad002eeba4495e",
+    "week2_attack_v7_pristine60/frozen_manifest.json:manifest_sha256": "62043dbdfb69c2de82fd9a149e8b260496c7f6571ec930bf7dcf6b9c4a86f327",
+    "week2_attack_v7_budget_conditioned/FROZEN_V7_PROTOCOL.json": "014035555cf41c868fbfdec334577613aaf1058fd4d7dac1e8304aa47e4351ad",
+    "week2_attack_v7a_fdp_alignment_audit/final_decision.json": "436485e8dde0c3ec9980851fcb0e65433311b2dd52fc421f71e1e8cc332995d7"
+  },
+  "selection_rule_for_conditions_8_to_10": {
+    "strict_source": "week2_attack_v7_pristine60/all_samples.csv field strict; not recomputed",
+    "exclude_ids": [
+      "1023",
+      "5615",
+      "22317",
+      "51140",
+      "56084",
+      "60744"
+    ],
+    "order": "remaining sample_id ascending as integers",
+    "condition_8": "first strict==1, image B",
+    "condition_9": "first strict==0, image B",
+    "condition_10": "first remaining id not chosen as 8 or 9, image random_noise"
+  },
+  "conditions": [
+    {
+      "sample_id": "60744",
+      "image_kind": "random_noise",
+      "source": "week2_attack_v7_pristine60/controls/single/shard_s1/60744/noise.png",
+      "sha256": "67da767f30062b44e3cded92458892d70d620cdbd9ee77db8b8db265bec59133",
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "note": "specified"
+    },
+    {
+      "sample_id": "60744",
+      "image_kind": "clean",
+      "source": "frozen_manifest.page_sha256[aux_idx]",
+      "sha256": "7e6a933eb6015513229f2344fb27b3a4b45bd06ce676e14c6fb9e1ff380209b9",
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "note": "specified; no attack png"
+    },
+    {
+      "sample_id": "1023",
+      "image_kind": "clean",
+      "source": "frozen_manifest.page_sha256[aux_idx]",
+      "sha256": "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "note": "specified; no attack png"
+    },
+    {
+      "sample_id": "51140",
+      "image_kind": "random_noise",
+      "source": "week2_attack_v7_pristine60/controls/single/shard_s1/51140/noise.png",
+      "sha256": "6ea381ce827236a405302b685d6a64f7cf0eb1e7cca078d7d3ed0362d573204e",
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "note": "specified"
+    },
+    {
+      "sample_id": "22317",
+      "image_kind": "clean",
+      "source": "frozen_manifest.page_sha256[aux_idx]",
+      "sha256": "6b6191650d0efa09628faf498b06a4a306a04d92665712cac99524acde8d22fa",
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "note": "specified; no attack png"
+    },
+    {
+      "sample_id": "22317",
+      "image_kind": "B",
+      "source": "week2_attack_v7_pristine60/attacks/shard_s4/22317/checkpoints/step_200.png",
+      "sha256": "102863986a3c5492a2bae9e807228c0500d39cb57869c09a5d54968faa03a0b1",
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "note": "specified"
+    },
+    {
+      "sample_id": "22317",
+      "image_kind": "random_noise",
+      "source": "week2_attack_v7_pristine60/controls/single/shard_s1/22317/noise.png",
+      "sha256": "143e30a92e15cb15293ed93f40925dcd4b82ba165ffe8b25e3c1c6a600a43764",
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "note": "specified"
+    },
+    {
+      "sample_id": "790",
+      "image_kind": "B",
+      "source": "week2_attack_v7_pristine60/attacks/shard_s4/790/checkpoints/step_200.png",
+      "sha256": "c3ee0599ca96d554b1d41a3a9edcc79709cb326557837dc6ea962037168833f8",
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "note": "first remaining id with published strict==1"
+    },
+    {
+      "sample_id": "7029",
+      "image_kind": "B",
+      "source": "week2_attack_v7_pristine60/attacks/shard_s5/7029/checkpoints/step_150.png",
+      "sha256": "eeee560fe6c6d6ba0a5fbf6d95ff5fd4cf9a7db330fe65f21d5916cf2d6cf797",
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "note": "first remaining id with published strict==0"
+    },
+    {
+      "sample_id": "1170",
+      "image_kind": "random_noise",
+      "source": "week2_attack_v7_pristine60/controls/single/shard_s0/1170/noise.png",
+      "sha256": "604910929eba1b3bd448d2d91ef5b96e418fe537a2d146a394ccba99ba3f600c",
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "note": "first remaining id other than 790 and 7029"
+    }
+  ],
+  "gradient_conditions": [
+    {
+      "sample_id": "60744",
+      "image_kind": "random_noise",
+      "source": "week2_attack_v7_pristine60/controls/single/shard_s1/60744/noise.png",
+      "sha256": "67da767f30062b44e3cded92458892d70d620cdbd9ee77db8b8db265bec59133",
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "note": "specified"
+    },
+    {
+      "sample_id": "60744",
+      "image_kind": "clean",
+      "source": "frozen_manifest.page_sha256[aux_idx]",
+      "sha256": "7e6a933eb6015513229f2344fb27b3a4b45bd06ce676e14c6fb9e1ff380209b9",
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "note": "specified; no attack png"
+    },
+    {
+      "sample_id": "1023",
+      "image_kind": "clean",
+      "source": "frozen_manifest.page_sha256[aux_idx]",
+      "sha256": "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "note": "specified; no attack png"
+    }
+  ],
+  "decode": {
+    "source": "gate_experiment/run_causal_v2.py generate",
+    "call": "model.generate(**inputs, do_sample=False, max_new_tokens=16, use_cache=True)",
+    "do_sample": false,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 50,
+    "repetition_penalty": 1.0,
+    "num_beams": 1,
+    "logits_processors": "none passed by the production call; GenerationConfig repetition_penalty is 1.0 so the repetition processor is not constructed; temperature/top_p/top_k are inactive because do_sample is false",
+    "max_new_tokens": 16,
+    "use_cache": true,
+    "attention_mask": "the mask returned by prepare(); replay extends it with ones, the same way generate grows it",
+    "position_ids": "not supplied by prepare(); the model sets them from cache_position, which is past_key_values.get_seq_length() on decode",
+    "dtype": "whatever prepare() and the loaded model parameters already use; this audit does not cast them",
+    "device": "cuda, from prepare()",
+    "eos_token_id": 151645,
+    "bos_token_id": 151643,
+    "pad_token_id_in_generation_config": null,
+    "generation_config_max_length": 20,
+    "audit_only_return_flags": [
+      "return_dict_in_generate=True",
+      "output_scores=True"
+    ],
+    "transformers": "4.57.0",
+    "fastv_keep_ratio": 0.25
+  },
+  "termination": [
+    "EOS_GENERATED",
+    "MAX_NEW_TOKENS_TRUNCATED",
+    "OTHER_STOPPING_CRITERION"
+  ],
+  "artificial_eos": false,
+  "admission_checks": {
+    "full_argmax_every_step": true,
+    "fastv_argmax_every_step": true,
+    "logit_max_abs_diff": "report only; no numeric threshold",
+    "tensors_finite": true,
+    "aux_soft_margin_grad_l2": "finite and > 0",
+    "evidence_grad_l2": 0.0,
+    "fastv_k_and_keep_hash": "must match the keep set recorded by the real FastV hook on generate and on the hooked replay"
+  },
+  "cone_holds": "all real generated tokens have hard_margin > 0; one-way sufficient condition only",
+  "full_exact": "byte-for-byte equality of decoded real generate texts",
+  "certificate_when_full_exact_and_not_cone": "FULL_EXACT_CERTIFICATE_UNAVAILABLE"
+}

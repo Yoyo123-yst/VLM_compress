@@ -1,0 +1,93 @@
+{
+  "rows": [
+    {
+      "sample_id": "47450",
+      "step": "200",
+      "pred_CC": "Dr. or Mrs. William J. Darby",
+      "pred_CA": "Dr. or Mrs. William J. Darby",
+      "pred_AC": "DR ORB,MS WILCILLIAM J DARABBY",
+      "pred_AA": "DR ORB, MRs WILCILLIAM J DARABBU",
+      "full_clean": "Dr. or Mrs. William J. Darby",
+      "full_selected": "Dr. or Mrs. William J. Darby",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 0.7586206896551724,
+      "anls_AA": 0.7741935483870968,
+      "mechanism": "UNEXPLAINED_OR_INVALID",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 8.9
+    },
+    {
+      "sample_id": "7006",
+      "step": "200",
+      "pred_CC": "RJ Reynolds Tobacco Company",
+      "pred_CA": "RJ Reynolds Tobacco Company",
+      "pred_AC": "Terry Reese, Mary Ann Urey",
+      "pred_AA": "Teresa Wood",
+      "full_clean": "RJ Reynolds Tobacco Company",
+      "full_selected": "RJ Reynolds Tobacco Company",
+      "anls_CC": 0.962962962962963,
+      "anls_CA": 0.962962962962963,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 7.03
+    },
+    {
+      "sample_id": "51133",
+      "step": "200",
+      "pred_CC": "two",
+      "pred_CA": "2",
+      "pred_AC": "30",
+      "pred_AA": "30 days",
+      "full_clean": "two",
+      "full_selected": "two",
+      "anls_CC": 1.0,
+      "anls_CA": 0.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "BOTH_INDEPENDENTLY_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 3.22
+    }
+  ],
+  "keeps": [
+    {
+      "sample_id": "47450",
+      "K": 3699,
+      "keep_hash_clean": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+      "keep_hash_adv": "aff4ed0ec3ed44cf910bf1ae324a832726cef7eeeb6e940417ff2b991e8b1ffd",
+      "jaccard": 0.8092443140132062,
+      "evidence_share_clean": 0.2278994322789943,
+      "evidence_share_adv": 0.22330359556636928,
+      "aux_share_clean": 0.3236009732360097,
+      "aux_share_adv": 0.33495539334955393
+    },
+    {
+      "sample_id": "7006",
+      "K": 3699,
+      "keep_hash_clean": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+      "keep_hash_adv": "46e2cc4aa98c29695441f469875fb11409a7d8c29858daa7458eee38dde26803",
+      "jaccard": 0.8724373576309795,
+      "evidence_share_clean": 0.2865639361989727,
+      "evidence_share_adv": 0.28683427953500945,
+      "aux_share_clean": 0.28602324952689917,
+      "aux_share_adv": 0.2865639361989727
+    },
+    {
+      "sample_id": "51133",
+      "K": 1850,
+      "keep_hash_clean": "9dc1ec87ff056f5cefa28eb2c859a46186913d1ce8fd1b6f50f07cabc9ebbd9d",
+      "keep_hash_adv": "0dc11e1c55fedd8959e68aaf26e91d97eda8a350a884ec9ff83fd6d71ceadae4",
+      "jaccard": 0.7797017797017797,
+      "evidence_share_clean": 0.4221621621621622,
+      "evidence_share_adv": 0.4237837837837838,
+      "aux_share_clean": 0.5778378378378378,
+      "aux_share_adv": 0.5762162162162162
+    }
+  ]
+}

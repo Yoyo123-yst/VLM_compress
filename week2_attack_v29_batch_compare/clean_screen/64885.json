@@ -1,0 +1,43 @@
+{
+  "sample_id": "64885",
+  "question": "In Atlanta, what is the no. of stepped cases, whose living status is known?",
+  "answers": [
+    "560"
+  ],
+  "clean_full_text": "560",
+  "clean_full_tokens": [
+    20,
+    21,
+    15,
+    151645
+  ],
+  "clean_fastv_text": "540",
+  "clean_fastv_tokens": [
+    20,
+    19,
+    15,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 0.6666666666666667,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "00d3c4bd6ed1c7a7031b4828a79f321597641becf3db9a10105f44ec69c0545f",
+  "keep_hash_repeat": "00d3c4bd6ed1c7a7031b4828a79f321597641becf3db9a10105f44ec69c0545f",
+  "page_sha256": [
+    "75ba90005fda8180b78cf2106cfdbbc194d81036a30fd659d955875a0e3dbff6",
+    "44f07f09d99dfe3322b3eb6f838b5a0254393cba1a6c0e833df4bfc7ecaf5c5b",
+    "800df474f06824a4839f049db2bc6ef5fb99124a041dce1b955bc6fdc118f50c",
+    "8b356a7d978b9560e29d799776cfcb8ae3cf389b730e1a276318ba3d6ac9b7c0"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 3,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.176
+}

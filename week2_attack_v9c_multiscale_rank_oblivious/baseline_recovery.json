@@ -1,0 +1,312 @@
+{
+  "status": "BASELINE_RECOVERED",
+  "generate_rows": [
+    {
+      "sample_id": "1025",
+      "frozen_text": "Dr. C. Baur MD",
+      "text": "Dr. C. Baur MD",
+      "tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        4110,
+        13979,
+        151645
+      ],
+      "text_match": true,
+      "prompt": "<|im_start|>user\n<image><image><image>\nQuestion: Who is the European Medical Director?\nAnswer the question using a single word or phrase.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "c7e65c022e99b8463483353df212e47b8a97e22f31dbc561cb63a074d40ae0b5",
+      "build_prompt_sha256": "2ad4c18c09ceda7dcd32f50f48c4b6f39b5436ad88e8a6d5f4fa03716b306ebf",
+      "build_prompt_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week1_mechanism/run_eval.py",
+      "input_ids_shape": [
+        1,
+        11125
+      ],
+      "input_ids_sha256": "72451bc29011243fa9a8f75e6c957cd35a0277389598479d4a34cece63c9bed6",
+      "pixel_values_shape": [
+        3,
+        5,
+        3,
+        384,
+        384
+      ],
+      "pixel_values_sha256": "6930bd265495e2a8097564469125cc4124c67f14b55a50111c020ff824566004",
+      "image_tokens": 11097,
+      "tokens_per_page": 3699,
+      "page_token_count_ok": true,
+      "page_sha256": [
+        "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+        "2f454101c9f836ea8e6294e95448fadde8eafaaf12d44ed462d41b0a6180808e",
+        "dbf90e9c4f0a8a1b912d245465321b8b401d38f52123d3e3c286ffc1bfc5a60f"
+      ],
+      "first_token": 8847,
+      "token_match": true,
+      "text_is_frozen_1025": true,
+      "image_tokens_ok": true
+    },
+    {
+      "sample_id": "2008",
+      "frozen_text": "March 1968",
+      "text": "March 1968",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        23,
+        151645
+      ],
+      "text_match": true,
+      "prompt": "<|im_start|>user\n<image><image>\nQuestion: When did the advertisement appear in Good Housekeeping?\nAnswer the question using a single word or phrase.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "51ee4a1e0f42a2e4d2e237fd6013b5a059eb46cc5703792ddb61474560bbd4f4",
+      "build_prompt_sha256": "2ad4c18c09ceda7dcd32f50f48c4b6f39b5436ad88e8a6d5f4fa03716b306ebf",
+      "build_prompt_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week1_mechanism/run_eval.py",
+      "input_ids_shape": [
+        1,
+        7429
+      ],
+      "input_ids_sha256": "8d6da011b9f1740a85f6f00451a421549cbdec1444c328e57db82fd7a01d37c7",
+      "pixel_values_shape": [
+        2,
+        5,
+        3,
+        384,
+        384
+      ],
+      "pixel_values_sha256": "121a52b2df0bf3edf6472e8742445749ebba6d46ed69fe07dbc8d659ceb66aa2",
+      "image_tokens": 7398,
+      "tokens_per_page": 3699,
+      "page_token_count_ok": true,
+      "page_sha256": [
+        "fe5a6c3c88a77ef33b42e1c45d0fe2b28b39f37be8983db7e6d753ceef12f8f4",
+        "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+      ],
+      "first_token": 27523
+    },
+    {
+      "sample_id": "7006",
+      "frozen_text": "RJ Reynolds Tobacco Company",
+      "text": "RJ Reynolds Tobacco Company",
+      "tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "text_match": true,
+      "prompt": "<|im_start|>user\n<image><image><image><image>\nQuestion: What is the Company Name ?\nAnswer the question using a single word or phrase.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "03f9bd019d6b5b3fb28cfb0c507838ce4caac6d5482335962579b2d890212885",
+      "build_prompt_sha256": "2ad4c18c09ceda7dcd32f50f48c4b6f39b5436ad88e8a6d5f4fa03716b306ebf",
+      "build_prompt_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week1_mechanism/run_eval.py",
+      "input_ids_shape": [
+        1,
+        14823
+      ],
+      "input_ids_sha256": "4e53c181c8190025e55ea3616505a2c6815cdea7945341d9275ad57d98aa1934",
+      "pixel_values_shape": [
+        4,
+        5,
+        3,
+        384,
+        384
+      ],
+      "pixel_values_sha256": "c6802c92b97fc486364ead0fd3b80346b504e829030b3da5bb6e1f53ceabda3a",
+      "image_tokens": 14796,
+      "tokens_per_page": 3699,
+      "page_token_count_ok": true,
+      "page_sha256": [
+        "c3c0eabac78241156d37bd11f9c5c72c8b5a3a13060c3f0ce4f6ad36d4d7fa16",
+        "588a4879fcc01df153168b39b7ee671362e3dd65477f34cc45b6c3da3c5e9aec",
+        "88a7ad5ec1328716f9edfd5e473d6656a6bea188a9ed643296852d8442bc61b8",
+        "21a1a6a7de789f93f5552b4c7a52496ec68c0cd97ba28d2b7e58aab8ab76c284"
+      ],
+      "first_token": 49
+    },
+    {
+      "sample_id": "39204",
+      "frozen_text": "FOOD TECHNOLOGY",
+      "text": "FOOD TECHNOLOGY",
+      "tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "text_match": true,
+      "prompt": "<|im_start|>user\n<image><image><image><image>\nQuestion: On what subject are the critical reviews on?\nAnswer the question using a single word or phrase.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "a10c1292f3253836597881b55763864fe4325a206c4d0c9c030754e862fe283c",
+      "build_prompt_sha256": "2ad4c18c09ceda7dcd32f50f48c4b6f39b5436ad88e8a6d5f4fa03716b306ebf",
+      "build_prompt_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week1_mechanism/run_eval.py",
+      "input_ids_shape": [
+        1,
+        14826
+      ],
+      "input_ids_sha256": "9ec5c33c07a5413e0bd36501184ce46fbe6667ae584210b2761a6aa30cfe59c8",
+      "pixel_values_shape": [
+        4,
+        5,
+        3,
+        384,
+        384
+      ],
+      "pixel_values_sha256": "56322089ea87fab83660a912df56b9cad0d30ba018685d1d4ffba9924e4cbec6",
+      "image_tokens": 14796,
+      "tokens_per_page": 3699,
+      "page_token_count_ok": true,
+      "page_sha256": [
+        "e1fd7ec8e62bd78e718346a29fe6710364fbee652ef4373f7085c8ceb69cdc4a",
+        "391c0ecfe2ac759b11b7e81928b0c1e97e131e302ced2f016597b9440c915e2a",
+        "cd3b6225c0bea7e1461ff4a06738c868fcc300303254aa0af4a5c2f11a6f2610",
+        "3633db8195a9345439c491e6e0ffd60254d96b61268b213d6bdff2d9f27836b0"
+      ],
+      "first_token": 3788
+    },
+    {
+      "sample_id": "47450",
+      "frozen_text": "Dr. or Mrs. William J. Darby",
+      "text": "Dr. or Mrs. William J. Darby",
+      "tokens": [
+        8847,
+        13,
+        476,
+        17618,
+        13,
+        12375,
+        619,
+        13,
+        15017,
+        1694,
+        151645
+      ],
+      "text_match": true,
+      "prompt": "<|im_start|>user\n<image><image><image><image>\nQuestion: Who has made the deposit ?\nAnswer the question using a single word or phrase.<|im_end|>\n<|im_start|>assistant\n",
+      "prompt_sha256": "c9157a1362449389001a0ad2734931231f70e24207be98b5c44163e33b4a858e",
+      "build_prompt_sha256": "2ad4c18c09ceda7dcd32f50f48c4b6f39b5436ad88e8a6d5f4fa03716b306ebf",
+      "build_prompt_path": "/home/yuesiting/autodl-tmp/multimodal_attack_project/week1_mechanism/run_eval.py",
+      "input_ids_shape": [
+        1,
+        14823
+      ],
+      "input_ids_sha256": "4c588171a809c60fc5a43f788aa763fd189854dbf55ecab525ed88a5c95df2ad",
+      "pixel_values_shape": [
+        4,
+        5,
+        3,
+        384,
+        384
+      ],
+      "pixel_values_sha256": "cdd75778873ba0244f573d82c3402891d615ca25cba92a244b7b5d2befa2c628",
+      "image_tokens": 14796,
+      "tokens_per_page": 3699,
+      "page_token_count_ok": true,
+      "page_sha256": [
+        "7bab8be8ede326621c16376d55769d696a6a969772ab2116685a1628eba55f8d",
+        "9a4f262cec891622cffb8e49206ffdc50db18b590212ce9b3ab899bf7ed3d4fa",
+        "83cf7134d6a7154e89c7eedeea1d296b5fa8202317e6987525660ebd8d0d6b90",
+        "a1987bafb5f2dc8ad96553b47b3c9dd86e8ca2fecefd8022a6ba0ffefa096517"
+      ],
+      "first_token": 8847
+    }
+  ],
+  "replay_rows": [
+    {
+      "sample_id": "1025",
+      "text": "Dr. C. Baur MD",
+      "tokens": [
+        8847,
+        13,
+        356,
+        13,
+        425,
+        4110,
+        13979,
+        151645
+      ],
+      "matches_first": true,
+      "matches_frozen_text": true,
+      "prompt_sha256": "c7e65c022e99b8463483353df212e47b8a97e22f31dbc561cb63a074d40ae0b5",
+      "input_ids_sha256": "72451bc29011243fa9a8f75e6c957cd35a0277389598479d4a34cece63c9bed6",
+      "pixel_values_sha256": "6930bd265495e2a8097564469125cc4124c67f14b55a50111c020ff824566004"
+    },
+    {
+      "sample_id": "2008",
+      "text": "March 1968",
+      "tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        23,
+        151645
+      ],
+      "matches_first": true,
+      "matches_frozen_text": true,
+      "prompt_sha256": "51ee4a1e0f42a2e4d2e237fd6013b5a059eb46cc5703792ddb61474560bbd4f4",
+      "input_ids_sha256": "8d6da011b9f1740a85f6f00451a421549cbdec1444c328e57db82fd7a01d37c7",
+      "pixel_values_sha256": "121a52b2df0bf3edf6472e8742445749ebba6d46ed69fe07dbc8d659ceb66aa2"
+    },
+    {
+      "sample_id": "7006",
+      "text": "RJ Reynolds Tobacco Company",
+      "tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "matches_first": true,
+      "matches_frozen_text": true,
+      "prompt_sha256": "03f9bd019d6b5b3fb28cfb0c507838ce4caac6d5482335962579b2d890212885",
+      "input_ids_sha256": "4e53c181c8190025e55ea3616505a2c6815cdea7945341d9275ad57d98aa1934",
+      "pixel_values_sha256": "c6802c92b97fc486364ead0fd3b80346b504e829030b3da5bb6e1f53ceabda3a"
+    },
+    {
+      "sample_id": "39204",
+      "text": "FOOD TECHNOLOGY",
+      "tokens": [
+        3788,
+        2069,
+        87534,
+        51432,
+        151645
+      ],
+      "matches_first": true,
+      "matches_frozen_text": true,
+      "prompt_sha256": "a10c1292f3253836597881b55763864fe4325a206c4d0c9c030754e862fe283c",
+      "input_ids_sha256": "9ec5c33c07a5413e0bd36501184ce46fbe6667ae584210b2761a6aa30cfe59c8",
+      "pixel_values_sha256": "56322089ea87fab83660a912df56b9cad0d30ba018685d1d4ffba9924e4cbec6"
+    },
+    {
+      "sample_id": "47450",
+      "text": "Dr. or Mrs. William J. Darby",
+      "tokens": [
+        8847,
+        13,
+        476,
+        17618,
+        13,
+        12375,
+        619,
+        13,
+        15017,
+        1694,
+        151645
+      ],
+      "matches_first": true,
+      "matches_frozen_text": true,
+      "prompt_sha256": "c9157a1362449389001a0ad2734931231f70e24207be98b5c44163e33b4a858e",
+      "input_ids_sha256": "4c588171a809c60fc5a43f788aa763fd189854dbf55ecab525ed88a5c95df2ad",
+      "pixel_values_sha256": "cdd75778873ba0244f573d82c3402891d615ca25cba92a244b7b5d2befa2c628"
+    }
+  ],
+  "fastv_modules": []
+}

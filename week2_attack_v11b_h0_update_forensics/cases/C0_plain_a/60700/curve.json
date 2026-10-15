@@ -1,0 +1,66 @@
+[
+  {
+    "step": 0,
+    "png_sha256": "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131",
+    "texts": {
+      "full": "PPBS",
+      "fastv_0.25": "PPBS",
+      "fastv_0.35": "PPBS"
+    },
+    "margins": {
+      "0.25": 2.138645887374878,
+      "0.35": 2.236715078353882
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "8cbb13cbbf41286c5c9df264088743c40cdfbe138a54d5057c581915326f6d71"
+      }
+    },
+    "selector": {
+      "step": 0,
+      "nonzero": 0,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 0,
+      "pixel_linf_uint8": 0.0,
+      "margin": 2.18768048286438
+    }
+  },
+  {
+    "step": 10,
+    "png_sha256": "3935478f77c326b847d94a55dcdd4c5c7df7353ffae560968558b7e67c60d51e",
+    "texts": {
+      "full": "PPBS",
+      "fastv_0.25": "PPBS",
+      "fastv_0.35": "PPBS 14, 1967"
+    },
+    "margins": {
+      "0.25": 1.5810741186141968,
+      "0.35": 3.5325706005096436
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "e3cc26cb39ed72b19fa4be81dc455e8f9237028588eaf06bbfff52fc8c53e26a"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "f928a9ca2a0a0a32ea900973e50df6325ad641cc9fbaf327addc96eadcecb734"
+      }
+    },
+    "selector": {
+      "step": 10,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 2.55682235956192
+    }
+  }
+]

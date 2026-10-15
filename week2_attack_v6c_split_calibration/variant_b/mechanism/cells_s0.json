@@ -1,0 +1,122 @@
+{
+  "rows": [
+    {
+      "sample_id": "1025",
+      "step": "200",
+      "pred_CC": "Dr. C. Baur",
+      "pred_CA": "Dr. C. B. M. D.",
+      "pred_AC": "TanDEMtx",
+      "pred_AA": "Tanzevadur",
+      "full_clean": "Dr. C. Baur MD",
+      "full_selected": "Dr. C. Baur MD",
+      "anls_CC": 0.6666666666666667,
+      "anls_CA": 0.75,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 6.27
+    },
+    {
+      "sample_id": "60700",
+      "step": "200",
+      "pred_CC": "PPBS",
+      "pred_CA": "PPBS",
+      "pred_AC": "Ppdc 2021, 2021",
+      "pred_AA": "Pd 202,202,202",
+      "full_clean": "PPBS",
+      "full_selected": "PPBS",
+      "anls_CC": 1.0,
+      "anls_CA": 1.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 5.4
+    },
+    {
+      "sample_id": "2008",
+      "step": "200",
+      "pred_CC": "March 1956",
+      "pred_CA": "March 1956",
+      "pred_AC": "February 23, 1956",
+      "pred_AA": "February, 23, 1966",
+      "full_clean": "March 1968",
+      "full_selected": "March 1968",
+      "anls_CC": 0.8,
+      "anls_CA": 0.8,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "CONTENT_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 4.17
+    },
+    {
+      "sample_id": "51133",
+      "step": "200",
+      "pred_CC": "two",
+      "pred_CA": "2",
+      "pred_AC": "30",
+      "pred_AA": "360 working days",
+      "full_clean": "two",
+      "full_selected": "two",
+      "anls_CC": 1.0,
+      "anls_CA": 0.0,
+      "anls_AC": 0.0,
+      "anls_AA": 0.0,
+      "mechanism": "BOTH_INDEPENDENTLY_SUFFICIENT",
+      "output_valid": 1,
+      "pollution": 0,
+      "seconds": 3.21
+    }
+  ],
+  "keeps": [
+    {
+      "sample_id": "1025",
+      "K": 2774,
+      "keep_hash_clean": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5",
+      "keep_hash_adv": "dc0603b06a9d3a2fc37fc80410ac626a46a50a24175f41086118af4d53b99fce",
+      "jaccard": 0.8401326699834163,
+      "evidence_share_clean": 0.24116798846431145,
+      "evidence_share_adv": 0.247296322999279,
+      "aux_share_clean": 0.31002162941600575,
+      "aux_share_adv": 0.2966834895457823
+    },
+    {
+      "sample_id": "60700",
+      "K": 2774,
+      "keep_hash_clean": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca",
+      "keep_hash_adv": "a8aee37c2ab8ce285a2db8aea39e36ba7268059ee22cdc9fa5b70a01618d8604",
+      "jaccard": 0.8419654714475432,
+      "evidence_share_clean": 0.3795962509012257,
+      "evidence_share_adv": 0.38248017303532805,
+      "aux_share_clean": 0.2732516222062004,
+      "aux_share_adv": 0.2649603460706561
+    },
+    {
+      "sample_id": "2008",
+      "K": 1850,
+      "keep_hash_clean": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+      "keep_hash_adv": "fac69cbc7f4c71be958b6a8974312ddca39da725579c15c97e3a982ea71a5e43",
+      "jaccard": 0.7952450266860748,
+      "evidence_share_clean": 0.6097297297297297,
+      "evidence_share_adv": 0.6167567567567568,
+      "aux_share_clean": 0.3902702702702703,
+      "aux_share_adv": 0.38324324324324327
+    },
+    {
+      "sample_id": "51133",
+      "K": 1850,
+      "keep_hash_clean": "9dc1ec87ff056f5cefa28eb2c859a46186913d1ce8fd1b6f50f07cabc9ebbd9d",
+      "keep_hash_adv": "f9afa1bf3f97b49d87d65bce876112c320f450c4bea635bd990ffc2ca3db91e9",
+      "jaccard": 0.7737296260786194,
+      "evidence_share_clean": 0.4221621621621622,
+      "evidence_share_adv": 0.4243243243243243,
+      "aux_share_clean": 0.5778378378378378,
+      "aux_share_adv": 0.5756756756756757
+    }
+  ]
+}

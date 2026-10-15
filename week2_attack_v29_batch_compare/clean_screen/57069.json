@@ -1,0 +1,40 @@
+{
+  "sample_id": "57069",
+  "question": "What is the page number?",
+  "answers": [
+    "32"
+  ],
+  "clean_full_text": "32",
+  "clean_full_tokens": [
+    18,
+    17,
+    151645
+  ],
+  "clean_fastv_text": "32",
+  "clean_fastv_tokens": [
+    18,
+    17,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 2774,
+  "expected_k": 2774,
+  "keep_hash": "79295b2b017e54a91e2d5ba1c68c90b23286636f15a8831a05b4890ef1bed995",
+  "keep_hash_repeat": "79295b2b017e54a91e2d5ba1c68c90b23286636f15a8831a05b4890ef1bed995",
+  "page_sha256": [
+    "238b70a735c9ba57015ed374284ec8e4b6b04e61eb935e4ee754bf2c1bacf5a6",
+    "a7208efeae6d75e8e1edaf2250ca6b4bedd37e582c5b6a2422cd6d83eb481882",
+    "d0bfc75650da49e877a661e6295cf6a1d0927ba5f9c9c188adf43ef197f150be"
+  ],
+  "layout_M": 3,
+  "aux_idx": 0,
+  "evidence_idx": 2,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 5.73
+}

@@ -1,0 +1,43 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:19,  6.54s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:10,  5.50s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:15<00:05,  5.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.01s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.57s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "49076", "ok": true, "status": "REPLAY_OK", "pred_full": "50", "pred_fastv": "11cc 1c 4c 1c 1c"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "59991", "ok": true, "status": "REPLAY_OK", "pred_full": "Richard M. Stalvey", "pred_fastv": "RICHARD E. COBB, J.D., Ph.D."}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "15277", "ok": true, "status": "REPLAY_OK", "pred_full": "NSE", "pred_fastv": "N.S.E., NSE, N.A., N.A."}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "51133", "ok": true, "status": "REPLAY_OK", "pred_full": "two", "pred_fastv": "30 days"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "60928", "ok": true, "status": "REPLAY_OK", "pred_full": "2", "pred_fastv": "Page 2"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "47559", "ok": true, "status": "REPLAY_OK", "pred_full": "AGENDA", "pred_fastv": "Fax"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "59308", "ok": true, "status": "REPLAY_OK", "pred_full": "39", "pred_fastv": "120"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "39196", "ok": true, "status": "REPLAY_OK", "pred_full": "Technical Development Manager", "pred_fastv": "Chemistry Researcher"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "58330", "ok": true, "status": "REPLAY_OK", "pred_full": "THINGS TO DO TODAY", "pred_fastv": "300R"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "62649", "ok": true, "status": "REPLAY_OK", "pred_full": "1922", "pred_fastv": "May 6, 1960"}

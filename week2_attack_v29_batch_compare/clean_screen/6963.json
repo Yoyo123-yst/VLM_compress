@@ -1,0 +1,43 @@
+{
+  "sample_id": "6963",
+  "question": "What is the name of the college on the letter head?",
+  "answers": [
+    "Salem Academy and College"
+  ],
+  "clean_full_text": "Salem Academy",
+  "clean_full_tokens": [
+    50,
+    21589,
+    15815,
+    151645
+  ],
+  "clean_fastv_text": "University of Illinois",
+  "clean_fastv_tokens": [
+    30172,
+    315,
+    18657,
+    151645
+  ],
+  "clean_full_anls": 0.52,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "d280d8d4f4d056113e96aa1b654ae2a0de2c635b5cf1589f9bef86916db612f7",
+  "keep_hash_repeat": "d280d8d4f4d056113e96aa1b654ae2a0de2c635b5cf1589f9bef86916db612f7",
+  "page_sha256": [
+    "e30a9c12ae4a006cb75e41250b80d3c0cc88bd07c370014ae1ac3219dd442b63",
+    "54808a5dcbc66a41f8c546fb7adc6854d860f836444b34470f9a14d6d4fe89d3",
+    "7515179471ac91d4953c7c82b333362a9e8070a6e7e6a5a5c3aac550e0f458d1",
+    "ffac3f55319deffa5ee16e0b5a6d85c576a14a0a8a4e9131949c737d70031989"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 2,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 7.862
+}

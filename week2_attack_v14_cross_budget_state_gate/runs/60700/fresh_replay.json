@@ -1,0 +1,237 @@
+{
+  "png": "week2_attack_v14_cross_budget_state_gate/runs/60700/state_gate.png",
+  "png_sha256": "9fa86ee802bd22064f6503ceed9b512b5fd0464022da66be3df73d3189f0a367",
+  "first": {
+    "full": {
+      "full_text_exact": 1,
+      "full_token_exact": 1,
+      "full_replay": 1,
+      "full_text": "PPBS"
+    },
+    "ratios": {
+      "0.15": {
+        "tokens": [
+          4406,
+          7347,
+          151645
+        ],
+        "text": "PPBS",
+        "anls": 1.0,
+        "valid": true,
+        "endpoint_failure": false,
+        "k": 1665,
+        "keep_hash": "c9020daee87b234f56042bc368dd3871b83203659c6dea1e43fc9dff91d6a5b3",
+        "pair": {
+          "ratio": 0.15,
+          "pair_gap": 3.9375,
+          "threshold_met": false,
+          "keep_hash": "00c495669206bf283c4c90d40f49251ed099a2f2ecb468f81b8df77806a3a7d1",
+          "k": 1665,
+          "generated_tokens": [
+            4406,
+            7347,
+            151645
+          ]
+        },
+        "branch_aligned": true
+      },
+      "0.25": {
+        "tokens": [
+          4406,
+          16680,
+          151645
+        ],
+        "text": "PPSB",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "k": 2774,
+        "keep_hash": "94ff151373a7c919c6b8f008d043d8ee925a3eb9ea680aef2e55c61f01d70508",
+        "pair": {
+          "ratio": 0.25,
+          "pair_gap": -0.125,
+          "threshold_met": true,
+          "keep_hash": "a2ee6ca36a51cd728865e8d9ea24b80bd8db205354103905c8e0ddc20debb66d",
+          "k": 2774,
+          "generated_tokens": [
+            4406,
+            16680,
+            151645
+          ]
+        },
+        "branch_aligned": true
+      },
+      "0.35": {
+        "tokens": [
+          4406,
+          7347,
+          151645
+        ],
+        "text": "PPBS",
+        "anls": 1.0,
+        "valid": true,
+        "endpoint_failure": false,
+        "k": 3884,
+        "keep_hash": "da7ec23273633131da72a8fb10921fb36f6f34f66146cc4434f895c2f56a331f",
+        "pair": {
+          "ratio": 0.35,
+          "pair_gap": 4.3125,
+          "threshold_met": false,
+          "keep_hash": "9837342bc078da4e2960d9033c6dae454a71ebc48132835a4c6a7dd9ca092580",
+          "k": 3884,
+          "generated_tokens": [
+            4406,
+            7347,
+            151645
+          ]
+        },
+        "branch_aligned": true
+      },
+      "0.50": {
+        "tokens": [
+          4406,
+          7347,
+          151645
+        ],
+        "text": "PPBS",
+        "anls": 1.0,
+        "valid": true,
+        "endpoint_failure": false,
+        "k": 5548,
+        "keep_hash": "19a3a8b15b395d502291de23db5dd490ef56e4cfd2a7a46c8b74e27bc4b8b95c",
+        "pair": {
+          "ratio": 0.5,
+          "pair_gap": 5.3125,
+          "threshold_met": false,
+          "keep_hash": "f1a330d11af57c6633c042b365a75ea77dd6145aa8da1634ab283f6df07c35b9",
+          "k": 5548,
+          "generated_tokens": [
+            4406,
+            7347,
+            151645
+          ]
+        },
+        "branch_aligned": true
+      }
+    },
+    "linf_uint8": 8,
+    "linf_ok": true
+  },
+  "second": {
+    "full": {
+      "full_text_exact": 1,
+      "full_token_exact": 1,
+      "full_replay": 1,
+      "full_text": "PPBS"
+    },
+    "ratios": {
+      "0.15": {
+        "tokens": [
+          4406,
+          7347,
+          151645
+        ],
+        "text": "PPBS",
+        "anls": 1.0,
+        "valid": true,
+        "endpoint_failure": false,
+        "k": 1665,
+        "keep_hash": "c9020daee87b234f56042bc368dd3871b83203659c6dea1e43fc9dff91d6a5b3",
+        "pair": {
+          "ratio": 0.15,
+          "pair_gap": 3.9375,
+          "threshold_met": false,
+          "keep_hash": "00c495669206bf283c4c90d40f49251ed099a2f2ecb468f81b8df77806a3a7d1",
+          "k": 1665,
+          "generated_tokens": [
+            4406,
+            7347,
+            151645
+          ]
+        },
+        "branch_aligned": true
+      },
+      "0.25": {
+        "tokens": [
+          4406,
+          16680,
+          151645
+        ],
+        "text": "PPSB",
+        "anls": 0.0,
+        "valid": true,
+        "endpoint_failure": true,
+        "k": 2774,
+        "keep_hash": "94ff151373a7c919c6b8f008d043d8ee925a3eb9ea680aef2e55c61f01d70508",
+        "pair": {
+          "ratio": 0.25,
+          "pair_gap": -0.125,
+          "threshold_met": true,
+          "keep_hash": "a2ee6ca36a51cd728865e8d9ea24b80bd8db205354103905c8e0ddc20debb66d",
+          "k": 2774,
+          "generated_tokens": [
+            4406,
+            16680,
+            151645
+          ]
+        },
+        "branch_aligned": true
+      },
+      "0.35": {
+        "tokens": [
+          4406,
+          7347,
+          151645
+        ],
+        "text": "PPBS",
+        "anls": 1.0,
+        "valid": true,
+        "endpoint_failure": false,
+        "k": 3884,
+        "keep_hash": "da7ec23273633131da72a8fb10921fb36f6f34f66146cc4434f895c2f56a331f",
+        "pair": {
+          "ratio": 0.35,
+          "pair_gap": 4.3125,
+          "threshold_met": false,
+          "keep_hash": "9837342bc078da4e2960d9033c6dae454a71ebc48132835a4c6a7dd9ca092580",
+          "k": 3884,
+          "generated_tokens": [
+            4406,
+            7347,
+            151645
+          ]
+        },
+        "branch_aligned": true
+      },
+      "0.50": {
+        "tokens": [
+          4406,
+          7347,
+          151645
+        ],
+        "text": "PPBS",
+        "anls": 1.0,
+        "valid": true,
+        "endpoint_failure": false,
+        "k": 5548,
+        "keep_hash": "19a3a8b15b395d502291de23db5dd490ef56e4cfd2a7a46c8b74e27bc4b8b95c",
+        "pair": {
+          "ratio": 0.5,
+          "pair_gap": 5.3125,
+          "threshold_met": false,
+          "keep_hash": "f1a330d11af57c6633c042b365a75ea77dd6145aa8da1634ab283f6df07c35b9",
+          "k": 5548,
+          "generated_tokens": [
+            4406,
+            7347,
+            151645
+          ]
+        },
+        "branch_aligned": true
+      }
+    },
+    "linf_uint8": 8,
+    "linf_ok": true
+  },
+  "replay_match": true
+}

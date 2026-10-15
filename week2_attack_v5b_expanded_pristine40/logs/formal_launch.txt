@@ -1,0 +1,4 @@
+shard=0 gpu=0 pid=4042775 start=2026-10-08T11:15:06+08:00 cmd=CUDA_VISIBLE_DEVICES=0 formal --shard 0
+shard=1 gpu=1 pid=4042777 start=2026-10-08T11:15:06+08:00 cmd=CUDA_VISIBLE_DEVICES=1 formal --shard 1
+shard=2 gpu=4 pid=4042779 start=2026-10-08T11:15:06+08:00 cmd=CUDA_VISIBLE_DEVICES=4 formal --shard 2
+shard=3 gpu=6 pid=4042781 start=2026-10-08T11:15:06+08:00 cmd=CUDA_VISIBLE_DEVICES=6 formal --shard 3

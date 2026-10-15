@@ -1,0 +1,20 @@
+{
+  "case": "C0_plain_b",
+  "sample": "60700",
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "platform": "Linux-5.15.0-185-generic-x86_64-with-glibc2.35",
+  "torch": "2.6.0+cu124",
+  "cuda": "12.4",
+  "cudnn": 90100,
+  "transformers": "4.57.0",
+  "cuda_visible_devices": "0",
+  "gpu_name": "NVIDIA A100-PCIE-40GB",
+  "gpu_id": 0,
+  "deterministic_algorithms": false,
+  "cudnn_deterministic": false,
+  "cudnn_benchmark": false,
+  "matmul_tf32": false,
+  "cudnn_tf32": true,
+  "cublas_workspace": null,
+  "process_id": 3924358
+}

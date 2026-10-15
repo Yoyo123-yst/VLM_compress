@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v12_objective_optimizer_diagnostic/run_deterministic.py", line 14, in <module>
+    import week2_attack_v11_objective_optimizer_diagnostic.run_v11 as base
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v11_objective_optimizer_diagnostic/run_v11.py", line 33, in <module>
+    from week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation import run_v7d as v7d  # noqa: E402
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/run_v7d.py", line 46, in <module>
+    from week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation.native_grad import (  # noqa: E402
+  File "/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/native_grad.py", line 12, in <module>
+    from transformers.cache_utils import DynamicCache
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/__init__.py", line 27, in <module>
+    from . import dependency_versions_check
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/dependency_versions_check.py", line 57, in <module>
+    require_version_core(deps[pkg])
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/utils/versions.py", line 117, in require_version_core
+    return require_version(requirement, hint)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/utils/versions.py", line 111, in require_version
+    _compare_versions(op, got_ver, want_ver, requirement, pkg, hint)
+  File "/home/yuesiting/autodl-tmp/conda/envs/vattack/lib/python3.10/site-packages/transformers/utils/versions.py", line 44, in _compare_versions
+    raise ImportError(
+ImportError: huggingface-hub>=0.34.0,<1.0 is required for a normal functioning of this module, but found huggingface-hub==2.1.1.
+Try: `pip install transformers -U` or `pip install -e '.[dev]'` if you're working with git main

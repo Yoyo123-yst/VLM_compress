@@ -1,0 +1,19 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:20,  6.70s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:10<00:10,  5.04s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:16<00:05,  5.34s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  4.75s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  5.03s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "50779", "ok": true, "status": "REPLAY_OK", "pred_full": "Dr. Darby", "pred_fastv": "Dr Donkey"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "7006", "ok": true, "status": "REPLAY_OK", "pred_full": "RJ Reynolds Tobacco Company", "pred_fastv": "Terry Reese, Mary Ann Urey"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "47567", "ok": true, "status": "REPLAY_OK", "pred_full": "600", "pred_fastv": "246"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"sample_id": "64506", "ok": true, "status": "REPLAY_OK", "pred_full": "E", "pred_fastv": "TCLT 2"}

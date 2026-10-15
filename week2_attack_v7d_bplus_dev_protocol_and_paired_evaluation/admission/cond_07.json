@@ -1,0 +1,87 @@
+{
+  "index": 7,
+  "sample_id": "790",
+  "image_kind": "B",
+  "ratio": 0.25,
+  "full_argmax_match": true,
+  "full_text": "Michael F. Jacobson, Ph.D.",
+  "fast_argmax_match": true,
+  "fast_text": "J. Alexander Downer",
+  "k": 2774,
+  "keep_hash": "60bdd95ae0955c2b3bfbf1573315bf479c879b0675bd6e0e52a458c93c39a776",
+  "termination": "EOS_GENERATED",
+  "appended_eos": false,
+  "steps": [
+    {
+      "step": 0,
+      "cache_len_layer0": 11123,
+      "cache_len_layer3": 2800,
+      "position_id": 11122,
+      "token_id": 41,
+      "argmax": 41,
+      "soft_margin": 1.2582578659057617
+    },
+    {
+      "step": 1,
+      "cache_len_layer0": 11124,
+      "cache_len_layer3": 2801,
+      "position_id": 11123,
+      "token_id": 13,
+      "argmax": 13,
+      "soft_margin": 0.38520145416259766
+    },
+    {
+      "step": 2,
+      "cache_len_layer0": 11125,
+      "cache_len_layer3": 2802,
+      "position_id": 11124,
+      "token_id": 20042,
+      "argmax": 20042,
+      "soft_margin": -2.0653953552246094
+    },
+    {
+      "step": 3,
+      "cache_len_layer0": 11126,
+      "cache_len_layer3": 2803,
+      "position_id": 11125,
+      "token_id": 6285,
+      "argmax": 6285,
+      "soft_margin": -1.6215009689331055
+    },
+    {
+      "step": 4,
+      "cache_len_layer0": 11127,
+      "cache_len_layer3": 2804,
+      "position_id": 11126,
+      "token_id": 261,
+      "argmax": 261,
+      "soft_margin": 0.9862022399902344
+    },
+    {
+      "step": 5,
+      "cache_len_layer0": 11128,
+      "cache_len_layer3": 2805,
+      "position_id": 11127,
+      "token_id": 151645,
+      "argmax": 151645,
+      "soft_margin": 0.3305091857910156
+    }
+  ],
+  "grad_l2": {
+    "full_soft": 6.577462673187256,
+    "fast_0.25": 68.3641357421875,
+    "fast_0.35": 31.369060516357422,
+    "fdp": 1.9459753036499023,
+    "conditional_gap": 39.9715576171875
+  },
+  "per_token_aux_grad_l2": [
+    37.625789642333984,
+    19.0025691986084,
+    53.99874496459961,
+    258.3756408691406,
+    149.4884033203125,
+    75.38263702392578
+  ],
+  "evidence_grad_l2": 0.0,
+  "pass": true
+}

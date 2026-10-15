@@ -1,0 +1,11 @@
+{
+  "status": "PNG_DIRECTIONAL_RESPONSE_PASS_NO_CONTENT_FAILURE",
+  "samples": ["47450", "60700"],
+  "continuous_steps": [0.001, 0.005, 0.01, 0.025, 0.05, 0.125],
+  "preprocess_consistency": "PASS",
+  "decision": "The directional gate passed. A small real-PNG backtracking trust-region pilot is admissible; no unseen evaluation or large run.",
+  "evidence": {
+    "47450_step_0.001": {"predicted_change": -0.02085813507437706, "surrogate_change": -0.02019004821777326, "central_fd_change": -0.006428718566894531},
+    "60700_step_0.001": {"predicted_change": -0.017659835517406464, "surrogate_change": -0.04509115219116211, "central_fd_change": -0.01932358741760254}
+  }
+}

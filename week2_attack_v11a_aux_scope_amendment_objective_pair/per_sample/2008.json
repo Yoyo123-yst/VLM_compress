@@ -1,0 +1,47 @@
+{
+  "sample_id": "2008",
+  "h0_replay": "BLOCKED_H0_REPLAY_DIVERGED",
+  "earliest_mismatch_step": 10,
+  "step0_png_match": true,
+  "question": "When did the advertisement appear in Good Housekeeping?",
+  "aux_idx": 0,
+  "page_sha256": [
+    "fe5a6c3c88a77ef33b42e1c45d0fe2b28b39f37be8983db7e6d753ceef12f8f4",
+    "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+  ],
+  "step10": {
+    "historical_png": "82a3328266539030790cea543253748992352a91a7e9f5e899097f98de3e42a3",
+    "h0_png": "4748693319ea1d6ebc0c68f824a1e48cd9df88c95dda47e2d5144c5c9beefe9d",
+    "historical_full": "March 1968",
+    "h0_full": "March 1968",
+    "historical_fastv_0.25": "March 1968",
+    "h0_fastv_0.25": "March 1956",
+    "historical_fastv_0.35": "March 1968",
+    "h0_fastv_0.35": "March 1968",
+    "historical_keep_0.25": "7c7d0e4c5d20ce561d908f3b006c961bc9beec3b159a1f0c0ee2ea7aef760997",
+    "h0_keep_0.25": "e7343da703ac9f314e55d27ce5e2f9efc7cac14849a444178f2e13085ab941a1",
+    "historical_keep_0.35": "653b06a310eeb0e3636f11de562b2b7237a605a17d8a97743207d7da093851c1",
+    "h0_keep_0.35": "13d9ad2579e7f9bcc0e980942876441ee773a4acff87f64820fc5b307de2ad46",
+    "historical_margin": 3.509836792945862,
+    "h0_margin": 3.311114549636841,
+    "token_ids": "未测"
+  },
+  "historical_selector_step": 200,
+  "h0_selector_step": 200,
+  "train_counters": {
+    "forward": 4043,
+    "backward": 600,
+    "generate": 425,
+    "fastv": 416,
+    "generated_tokens": 3702
+  },
+  "elapsed_sec": 1625.6,
+  "peak_memory_mib": 22903.3,
+  "h1": "NOT_RUN",
+  "sealed_selector_result": "NOT_RUN",
+  "trajectory_oracle_result": "NOT_RUN",
+  "ratios_0.15_and_0.50": "NOT_RUN",
+  "noise": "NOT_RUN",
+  "pgd": "NOT_RUN",
+  "opgd": "NOT_RUN"
+}

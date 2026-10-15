@@ -1,0 +1,522 @@
+{
+  "comparison_stopped_after_step": 0,
+  "reason": "first decode logits differ",
+  "original": {
+    "top50": [
+      {
+        "id": 8847,
+        "token": "Dr",
+        "logit": 19.0
+      },
+      {
+        "id": 34,
+        "token": "C",
+        "logit": 15.75
+      },
+      {
+        "id": 7687,
+        "token": "DR",
+        "logit": 15.0
+      },
+      {
+        "id": 51,
+        "token": "T",
+        "logit": 13.9375
+      },
+      {
+        "id": 3612,
+        "token": "dr",
+        "logit": 13.9375
+      },
+      {
+        "id": 1143,
+        "token": "Ch",
+        "logit": 12.5625
+      },
+      {
+        "id": 53467,
+        "token": "Charles",
+        "logit": 12.5
+      },
+      {
+        "id": 66,
+        "token": "c",
+        "logit": 12.375
+      },
+      {
+        "id": 15237,
+        "token": "CHAR",
+        "logit": 12.1875
+      },
+      {
+        "id": 2149,
+        "token": "CH",
+        "logit": 12.125
+      },
+      {
+        "id": 67196,
+        "token": "CHR",
+        "logit": 11.5
+      },
+      {
+        "id": 83,
+        "token": "t",
+        "logit": 10.9375
+      },
+      {
+        "id": 4768,
+        "token": "Char",
+        "logit": 10.8125
+      },
+      {
+        "id": 36787,
+        "token": "CHA",
+        "logit": 10.8125
+      },
+      {
+        "id": 35,
+        "token": "D",
+        "logit": 10.625
+      },
+      {
+        "id": 1762,
+        "token": "char",
+        "logit": 10.1875
+      },
+      {
+        "id": 47,
+        "token": "P",
+        "logit": 9.9375
+      },
+      {
+        "id": 73966,
+        "token": "Christopher",
+        "logit": 9.9375
+      },
+      {
+        "id": 331,
+        "token": "ch",
+        "logit": 9.75
+      },
+      {
+        "id": 22286,
+        "token": "David",
+        "logit": 9.6875
+      },
+      {
+        "id": 15778,
+        "token": "TK",
+        "logit": 9.5625
+      },
+      {
+        "id": 36,
+        "token": "E",
+        "logit": 9.5
+      },
+      {
+        "id": 6184,
+        "token": "Dir",
+        "logit": 9.375
+      },
+      {
+        "id": 15204,
+        "token": "TA",
+        "logit": 9.375
+      },
+      {
+        "id": 41393,
+        "token": "Thomas",
+        "logit": 9.3125
+      },
+      {
+        "id": 8973,
+        "token": "CR",
+        "logit": 9.1875
+      },
+      {
+        "id": 11391,
+        "token": "DER",
+        "logit": 9.125
+      },
+      {
+        "id": 49,
+        "token": "R",
+        "logit": 9.0625
+      },
+      {
+        "id": 1150,
+        "token": "DE",
+        "logit": 9.0625
+      },
+      {
+        "id": 43793,
+        "token": "CHE",
+        "logit": 9.0
+      },
+      {
+        "id": 77994,
+        "token": "Tai",
+        "logit": 9.0
+      },
+      {
+        "id": 17229,
+        "token": "THE",
+        "logit": 8.9375
+      },
+      {
+        "id": 40942,
+        "token": "Christian",
+        "logit": 8.875
+      },
+      {
+        "id": 89272,
+        "token": "Jak",
+        "logit": 8.875
+      },
+      {
+        "id": 93526,
+        "token": "Chuck",
+        "logit": 8.875
+      },
+      {
+        "id": 40586,
+        "token": "Daniel",
+        "logit": 8.75
+      },
+      {
+        "id": 18643,
+        "token": "-dr",
+        "logit": 8.6875
+      },
+      {
+        "id": 3021,
+        "token": "CK",
+        "logit": 8.625
+      },
+      {
+        "id": 87225,
+        "token": "Chr",
+        "logit": 8.625
+      },
+      {
+        "id": 1353,
+        "token": " dr",
+        "logit": 8.5625
+      },
+      {
+        "id": 18592,
+        "token": "Prof",
+        "logit": 8.5625
+      },
+      {
+        "id": 95971,
+        "token": "Cha",
+        "logit": 8.5625
+      },
+      {
+        "id": 36938,
+        "token": ".dr",
+        "logit": 8.5
+      },
+      {
+        "id": 37194,
+        "token": "Director",
+        "logit": 8.5
+      },
+      {
+        "id": 55730,
+        "token": "Dave",
+        "logit": 8.5
+      },
+      {
+        "id": 42,
+        "token": "K",
+        "logit": 8.4375
+      },
+      {
+        "id": 53824,
+        "token": "Stephen",
+        "logit": 8.4375
+      },
+      {
+        "id": 72628,
+        "token": "Charlie",
+        "logit": 8.4375
+      },
+      {
+        "id": 17906,
+        "token": "Drag",
+        "logit": 8.375
+      },
+      {
+        "id": 25300,
+        "token": "Paul",
+        "logit": 8.375
+      }
+    ],
+    "eos_logit": -4.0625,
+    "eos_rank": 146683,
+    "dr_id": 8847,
+    "dr_logit": 19.0,
+    "dr_rank": 0
+  },
+  "v9": {
+    "top50": [
+      {
+        "id": 151645,
+        "token": "<|im_end|>",
+        "logit": 28.875
+      },
+      {
+        "id": 1416,
+        "token": " If",
+        "logit": 18.125
+      },
+      {
+        "id": 421,
+        "token": " if",
+        "logit": 14.625
+      },
+      {
+        "id": 320,
+        "token": " (",
+        "logit": 14.125
+      },
+      {
+        "id": 20205,
+        "token": " Based",
+        "logit": 14.0625
+      },
+      {
+        "id": 576,
+        "token": " The",
+        "logit": 13.875
+      },
+      {
+        "id": 220,
+        "token": " ",
+        "logit": 13.6875
+      },
+      {
+        "id": 2308,
+        "token": " No",
+        "logit": 13.375
+      },
+      {
+        "id": 8278,
+        "token": " Only",
+        "logit": 13.0625
+      },
+      {
+        "id": 5209,
+        "token": " Please",
+        "logit": 12.875
+      },
+      {
+        "id": 2521,
+        "token": " Or",
+        "logit": 12.5
+      },
+      {
+        "id": 758,
+        "token": " In",
+        "logit": 12.4375
+      },
+      {
+        "id": 9608,
+        "token": " Context",
+        "logit": 12.4375
+      },
+      {
+        "id": 1752,
+        "token": " For",
+        "logit": 12.3125
+      },
+      {
+        "id": 22826,
+        "token": " Extract",
+        "logit": 12.25
+      },
+      {
+        "id": 5542,
+        "token": " From",
+        "logit": 12.1875
+      },
+      {
+        "id": 476,
+        "token": " or",
+        "logit": 12.0625
+      },
+      {
+        "id": 28634,
+        "token": " Refer",
+        "logit": 11.9375
+      },
+      {
+        "id": 508,
+        "token": " [",
+        "logit": 11.8125
+      },
+      {
+        "id": 1084,
+        "token": " It",
+        "logit": 11.8125
+      },
+      {
+        "id": 1096,
+        "token": " This",
+        "logit": 11.6875
+      },
+      {
+        "id": 16246,
+        "token": " Given",
+        "logit": 11.625
+      },
+      {
+        "id": 38478,
+        "token": " Alternatively",
+        "logit": 11.625
+      },
+      {
+        "id": 2014,
+        "token": " To",
+        "logit": 11.4375
+      },
+      {
+        "id": 715,
+        "token": " \n",
+        "logit": 11.375
+      },
+      {
+        "id": 1597,
+        "token": " And",
+        "logit": 11.375
+      },
+      {
+        "id": 504,
+        "token": " from",
+        "logit": 11.3125
+      },
+      {
+        "id": 27432,
+        "token": " extracted",
+        "logit": 11.25
+      },
+      {
+        "id": 10548,
+        "token": " According",
+        "logit": 11.125
+      },
+      {
+        "id": 8649,
+        "token": " extract",
+        "logit": 11.0
+      },
+      {
+        "id": 34006,
+        "token": " Avoid",
+        "logit": 11.0
+      },
+      {
+        "id": 1172,
+        "token": " only",
+        "logit": 10.9375
+      },
+      {
+        "id": 3118,
+        "token": " based",
+        "logit": 10.9375
+      },
+      {
+        "id": 3539,
+        "token": " Co",
+        "logit": 10.9375
+      },
+      {
+        "id": 358,
+        "token": " I",
+        "logit": 10.75
+      },
+      {
+        "id": 4968,
+        "token": " Pre",
+        "logit": 10.75
+      },
+      {
+        "id": 7036,
+        "token": " Note",
+        "logit": 10.75
+      },
+      {
+        "id": 12260,
+        "token": " Should",
+        "logit": 10.6875
+      },
+      {
+        "id": 2009,
+        "token": " All",
+        "logit": 10.625
+      },
+      {
+        "id": 2619,
+        "token": " There",
+        "logit": 10.5625
+      },
+      {
+        "id": 3411,
+        "token": " Return",
+        "logit": 10.5625
+      },
+      {
+        "id": 1634,
+        "token": " As",
+        "logit": 10.5
+      },
+      {
+        "id": 4599,
+        "token": " Just",
+        "logit": 10.5
+      },
+      {
+        "id": 87416,
+        "token": " Relevant",
+        "logit": 10.4375
+      },
+      {
+        "id": 96195,
+        "token": " Optionally",
+        "logit": 10.4375
+      },
+      {
+        "id": 330,
+        "token": " \"",
+        "logit": 10.375
+      },
+      {
+        "id": 8427,
+        "token": " Select",
+        "logit": 10.375
+      },
+      {
+        "id": 151644,
+        "token": "<|im_start|>",
+        "logit": 10.375
+      },
+      {
+        "id": 350,
+        "token": " T",
+        "logit": 10.3125
+      },
+      {
+        "id": 1446,
+        "token": " You",
+        "logit": 10.3125
+      }
+    ],
+    "eos_logit": 28.875,
+    "eos_rank": 0,
+    "dr_id": 8847,
+    "dr_logit": 0.12158203125,
+    "dr_rank": 66272
+  }
+}

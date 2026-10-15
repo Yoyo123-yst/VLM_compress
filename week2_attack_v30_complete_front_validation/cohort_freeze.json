@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN_NEW_DEVELOPMENT_VALIDATION_COHORT",
+  "development_only": true,
+  "purpose": "Validate the v29 complete-front semantic signal on a document-disjoint, method-result-unseen cohort before opening any reserved test sample.",
+  "selection_rule": "Starting after the 30 v29 clean-eligible selections, take the first clean-exact candidates in original frozen queue order while retaining distinct document IDs. No target candidate, attack output, or semantic endpoint result was used.",
+  "source": {
+    "v29_sample_selection_freeze": "week2_attack_v29_batch_compare/sample_selection_freeze.json",
+    "v29_sample_selection_freeze_sha256": "f4f7dc7d4e9442b64319688fb932952f9196ae0c933f38744844a88e1a30e4a5",
+    "v29_sample_specs": "week2_attack_v29_batch_compare/sample_specs.json",
+    "v29_sample_specs_sha256": "9d497d410f33551711658629bfe7fe5f7bc1b64455ab9af7ee0c7a2582caf892"
+  },
+  "samples": [
+    {"queue_index": 74, "sample_id": "56839", "document_id": "rkbd0228", "clean_full_anls": 1.0, "clean_fastv_anls": 1.0},
+    {"queue_index": 75, "sample_id": "5786", "document_id": "zqdj0224", "clean_full_anls": 1.0, "clean_fastv_anls": 1.0},
+    {"queue_index": 77, "sample_id": "60793", "document_id": "nlcf0227", "clean_full_anls": 1.0, "clean_fastv_anls": 1.0},
+    {"queue_index": 84, "sample_id": "234", "document_id": "ljxj0037", "clean_full_anls": 1.0, "clean_fastv_anls": 1.0},
+    {"queue_index": 87, "sample_id": "5525", "document_id": "jxpj0226", "clean_full_anls": 1.0, "clean_fastv_anls": 1.0},
+    {"queue_index": 88, "sample_id": "52191", "document_id": "ypgl0228", "clean_full_anls": 1.0, "clean_fastv_anls": 1.0}
+  ],
+  "document_ids_unique": true,
+  "reserved_unseen_access": "NOT_RUN",
+  "next_gate": "Fresh-process clean replay, semantic clean-answer review, and clean-only complete-wrong-target generation. A sample without a valid target remains in the denominator as target-unavailable and is not replaced."
+}

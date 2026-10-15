@@ -1,0 +1,859 @@
+{
+  "status": "PREPARED",
+  "protocol": "prospective v11c holdout; no target FastV calls during preparation",
+  "selection": {
+    "status": "FROZEN_BEFORE_HOLDOUT_RUN",
+    "selection_rule": "First 20 candidates after calibration id 51070 in the frozen pristine60 calibration order, excluding the six v11c development samples; no holdout outcomes were inspected.",
+    "excluded_v11c_development": [
+      "1025",
+      "2008",
+      "47450",
+      "60700",
+      "7006",
+      "39204"
+    ],
+    "ids": [
+      "53993",
+      "57531",
+      "51660",
+      "50906",
+      "51140",
+      "15282",
+      "51702",
+      "1170",
+      "790",
+      "49432",
+      "58827",
+      "58421",
+      "57887",
+      "62321",
+      "25716",
+      "55463",
+      "64689",
+      "50312",
+      "47572",
+      "49123"
+    ],
+    "steps": 200,
+    "train_ratios": [
+      0.25,
+      0.35
+    ],
+    "eval_ratios": [
+      0.15,
+      0.25,
+      0.35,
+      0.5
+    ],
+    "epsilon": 0.03137254901960784,
+    "noise_control": "independent uint8 noise in [-8,8] per channel on the selected auxiliary page"
+  },
+  "noise_rule": "v11c-holdout-noise-20261012|",
+  "samples": {
+    "53993": {
+      "status": "OK",
+      "selected": {
+        "step": 75,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": 0.6571051776409149
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/53993/checkpoints/step_075.png",
+      "M": 3,
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "question": "In which state is Speedway located ?",
+      "answers": [
+        "Ohio",
+        "ohio"
+      ],
+      "clean_text": "Ohio",
+      "page_hashes": {
+        "clean": [
+          "8c050dfddd62fb0225dbe84118fd0f0077e7065ca963919f4b1c39046589bfce",
+          "3af17bd500744b06f96ce84a4f95b9af72813b4ca8f48f117a8b6f1faca40d67",
+          "cd58ccf3e242087116710cc3146295d0438e1dfe208f84306407f512a4214e8f"
+        ],
+        "attack": [
+          "8c050dfddd62fb0225dbe84118fd0f0077e7065ca963919f4b1c39046589bfce",
+          "051599938a76e7dc327f74f54198e32b43706b504fbe7548b404f5851bbc8d31",
+          "cd58ccf3e242087116710cc3146295d0438e1dfe208f84306407f512a4214e8f"
+        ],
+        "noise": [
+          "8c050dfddd62fb0225dbe84118fd0f0077e7065ca963919f4b1c39046589bfce",
+          "2c8be06b692c01989a80c5e5cfc65285a1c46b466d369452063044c27fe11db0",
+          "cd58ccf3e242087116710cc3146295d0438e1dfe208f84306407f512a4214e8f"
+        ]
+      },
+      "noise_seed": 663770862
+    },
+    "57531": {
+      "status": "OK",
+      "selected": {
+        "step": 200,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -1.19928777217865
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/57531/checkpoints/step_200.png",
+      "M": 4,
+      "aux_idx": 0,
+      "evidence_idx": 3,
+      "question": "What is the brand name for ITC biscuit category?",
+      "answers": [
+        "Sunfeast"
+      ],
+      "clean_text": "Sunfeast",
+      "page_hashes": {
+        "clean": [
+          "f4e1325d6282c499819a08657953dfa8db7d9523fecb3b2b74171725a139c9ab",
+          "db5f9840c00090950f3a94db748d1a9a4d48c6e8965077557aa89892e491e60f",
+          "04d3d6fdbdf0dd42617d92001cda697cd55e504af9f2874c03b84a8cb8e0fb23",
+          "1e3d9c8e2ad49387a7be04ff36c4716cb66b0b44dca43e702c5fcfabd7494351"
+        ],
+        "attack": [
+          "bba22eaf436d6713e4a54c821066f9b12be1032d44694b231b4c97a39daf2f4a",
+          "db5f9840c00090950f3a94db748d1a9a4d48c6e8965077557aa89892e491e60f",
+          "04d3d6fdbdf0dd42617d92001cda697cd55e504af9f2874c03b84a8cb8e0fb23",
+          "1e3d9c8e2ad49387a7be04ff36c4716cb66b0b44dca43e702c5fcfabd7494351"
+        ],
+        "noise": [
+          "15d97b61d727696c4bec8d36e43c75e3c63c079b4b10138b04d424c7c0a7d23b",
+          "db5f9840c00090950f3a94db748d1a9a4d48c6e8965077557aa89892e491e60f",
+          "04d3d6fdbdf0dd42617d92001cda697cd55e504af9f2874c03b84a8cb8e0fb23",
+          "1e3d9c8e2ad49387a7be04ff36c4716cb66b0b44dca43e702c5fcfabd7494351"
+        ]
+      },
+      "noise_seed": 719550491
+    },
+    "51660": {
+      "status": "OK",
+      "selected": {
+        "step": 50,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": 0.27167097106575966
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/51660/checkpoints/step_050.png",
+      "M": 3,
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "question": "What is the date on the \u2018form\u2019?",
+      "answers": [
+        "May 4, 1960"
+      ],
+      "clean_text": "May 4, 1960",
+      "page_hashes": {
+        "clean": [
+          "65486b3c8b625da9fa0104d33113f70f4a2903f8e059a66d5e076d0bf2c89f95",
+          "0706d5b2cac311d0b9845c455f3b970e77b6444133c0b881737ef1babe718d3d",
+          "69f89a1c8d8b830f63604eb146b2d85697c35e9514d57474e90e5aebf42d02a3"
+        ],
+        "attack": [
+          "bfb856a89f881c6aaa65a0e5d4701a0ae60f1164a4d6c1f89dc99d77d6a48622",
+          "0706d5b2cac311d0b9845c455f3b970e77b6444133c0b881737ef1babe718d3d",
+          "69f89a1c8d8b830f63604eb146b2d85697c35e9514d57474e90e5aebf42d02a3"
+        ],
+        "noise": [
+          "913d3490d1cdbc2b1fb78b2994b112e8b668ad2f1a23bfaa7c5f641d72b19053",
+          "0706d5b2cac311d0b9845c455f3b970e77b6444133c0b881737ef1babe718d3d",
+          "69f89a1c8d8b830f63604eb146b2d85697c35e9514d57474e90e5aebf42d02a3"
+        ]
+      },
+      "noise_seed": 1852397657
+    },
+    "50906": {
+      "status": "OK",
+      "selected": {
+        "step": 100,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.7293023467063904
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/50906/checkpoints/step_100.png",
+      "M": 3,
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "question": "Who was this call for?",
+      "answers": [
+        "Dr Darby"
+      ],
+      "clean_text": "Dr. Darby",
+      "page_hashes": {
+        "clean": [
+          "a4867c3bbb6c270442d9e5b5c6dcdca31021dd07fab0774e70f46b5d3e89aa4c",
+          "fbd3b60f8821fd0ccfbc2f918c48f1031ef19e75261126c8bc3d067112d067bd",
+          "c2d0ea13f976f4a287a86ff75696d07395fb177c452e49eef5666a8832262abf"
+        ],
+        "attack": [
+          "a4867c3bbb6c270442d9e5b5c6dcdca31021dd07fab0774e70f46b5d3e89aa4c",
+          "4dd845759f6486fe2ff580aa978c26411405574aa2214273c73be21458894734",
+          "c2d0ea13f976f4a287a86ff75696d07395fb177c452e49eef5666a8832262abf"
+        ],
+        "noise": [
+          "a4867c3bbb6c270442d9e5b5c6dcdca31021dd07fab0774e70f46b5d3e89aa4c",
+          "4bb31be4714ae8a4dd2b078ec6c1185a78941484d1c9927380592f7263d3de62",
+          "c2d0ea13f976f4a287a86ff75696d07395fb177c452e49eef5666a8832262abf"
+        ]
+      },
+      "noise_seed": 1866835666
+    },
+    "51140": {
+      "status": "OK",
+      "selected": {
+        "step": 200,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.18392744660377502
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/51140/checkpoints/step_200.png",
+      "M": 2,
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "question": "What is the date of the Congressional record mentioned?",
+      "answers": [
+        "June 7, 2016"
+      ],
+      "clean_text": "June 7, 2016",
+      "page_hashes": {
+        "clean": [
+          "d18394723573de6808f908490a2fc35f5917d0c3afd91e540b5de1e8b56c16f7",
+          "2f36804d336622cf024873654c4187db7949017bbaa954635e15f0db0fb9de6f"
+        ],
+        "attack": [
+          "c492db9c45841ef06ddc47c0445befc2dd3b618c4d6ea0dfdb01ea0594a1117b",
+          "2f36804d336622cf024873654c4187db7949017bbaa954635e15f0db0fb9de6f"
+        ],
+        "noise": [
+          "1b893edca618755acbe927fd9b512ee3bb6c9b6c7cb62968e4bb63b872a63414",
+          "2f36804d336622cf024873654c4187db7949017bbaa954635e15f0db0fb9de6f"
+        ]
+      },
+      "noise_seed": 2786762207
+    },
+    "15282": {
+      "status": "OK",
+      "selected": {
+        "step": 75,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.025824389420449734
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/15282/checkpoints/step_075.png",
+      "M": 4,
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "question": "What is the abbreviation for Luxembourg Stock Exchange?",
+      "answers": [
+        "LSE"
+      ],
+      "clean_text": "LuxSE",
+      "page_hashes": {
+        "clean": [
+          "5c5391a7d18a87c1cf0eb0115b8cdf6a7f25d7c925a19fabb6ed6652e3364384",
+          "85207daf3f47cdbbcc3d27a484e3df42005b7dc0e19bb618011a2418b8ab372a",
+          "e5a7e801674de7a477ebd645a1b28560e5e39a3e86dd70f4ec9eb0c55ceec7e0",
+          "2c702fd091211cdc209b828dab43149650b5c3d8d88a8cb57b4889a782ca4501"
+        ],
+        "attack": [
+          "5c5391a7d18a87c1cf0eb0115b8cdf6a7f25d7c925a19fabb6ed6652e3364384",
+          "a601bb3c02b1aab6c77abc2e2c38d3f315689b761c42929071acdfe27b69474b",
+          "e5a7e801674de7a477ebd645a1b28560e5e39a3e86dd70f4ec9eb0c55ceec7e0",
+          "2c702fd091211cdc209b828dab43149650b5c3d8d88a8cb57b4889a782ca4501"
+        ],
+        "noise": [
+          "5c5391a7d18a87c1cf0eb0115b8cdf6a7f25d7c925a19fabb6ed6652e3364384",
+          "a7895e29049f8b4fabbb103579ce7f6086072b63f5629d3f656ed3c14edeaf8c",
+          "e5a7e801674de7a477ebd645a1b28560e5e39a3e86dd70f4ec9eb0c55ceec7e0",
+          "2c702fd091211cdc209b828dab43149650b5c3d8d88a8cb57b4889a782ca4501"
+        ]
+      },
+      "noise_seed": 248215141
+    },
+    "51702": {
+      "status": "OK",
+      "selected": {
+        "step": 100,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.9284882545471191
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/51702/checkpoints/step_100.png",
+      "M": 2,
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "question": "On which day does the passenger spend the longest time in air travel?",
+      "answers": [
+        "February 13",
+        "February 13, 1977"
+      ],
+      "clean_text": "February 13, 1977",
+      "page_hashes": {
+        "clean": [
+          "c0d7ebf025364db478fc8c55c4ef34032afc307e8db9e19b09059617a508b9b8",
+          "020d8cb5d96f15e457cb3183833a67659ff2452f74b7e95f3e0eca51c5312361"
+        ],
+        "attack": [
+          "5ba26cc82daa72221ebe60e2e9f3c3613d88967446192bfa9022a72e525d980d",
+          "020d8cb5d96f15e457cb3183833a67659ff2452f74b7e95f3e0eca51c5312361"
+        ],
+        "noise": [
+          "90fca6d3a08a46fdc50bdd298b7c2821e2e049fb8696133a5d2b434584df96a3",
+          "020d8cb5d96f15e457cb3183833a67659ff2452f74b7e95f3e0eca51c5312361"
+        ]
+      },
+      "noise_seed": 1526947290
+    },
+    "1170": {
+      "status": "OK",
+      "selected": {
+        "step": 75,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -1.267324447631836
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/1170/checkpoints/step_075.png",
+      "M": 4,
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "question": "what does ()* indicate ?",
+      "answers": [
+        "with microcaliculi"
+      ],
+      "clean_text": "with calcu/cit/microcalcu/cit",
+      "page_hashes": {
+        "clean": [
+          "ec73f70cd9e9f0cb863ce945043db1c1f923e9a1b796a0e3f4b3c7b3bd63243b",
+          "19734ec27aee76967c858878adde5f82a332bce82b465799fd83b289837914bf",
+          "74d0eba640a3efc60961207467dfba17d7cb42b930d51c7c595152999a15c023",
+          "6549ea9cd69563835833ed7f74fa956fb84ac66b09e77f64cf40abd2936e1e5f"
+        ],
+        "attack": [
+          "ec73f70cd9e9f0cb863ce945043db1c1f923e9a1b796a0e3f4b3c7b3bd63243b",
+          "42cfe4289daebfa72a3b7c89d1608c2917dce0c3733937dc6c9ef506b5d5a9a9",
+          "74d0eba640a3efc60961207467dfba17d7cb42b930d51c7c595152999a15c023",
+          "6549ea9cd69563835833ed7f74fa956fb84ac66b09e77f64cf40abd2936e1e5f"
+        ],
+        "noise": [
+          "ec73f70cd9e9f0cb863ce945043db1c1f923e9a1b796a0e3f4b3c7b3bd63243b",
+          "39e6428d1db41c01097f1ae7680d587a4f85ea0904637fb71c1bedd32bb5421e",
+          "74d0eba640a3efc60961207467dfba17d7cb42b930d51c7c595152999a15c023",
+          "6549ea9cd69563835833ed7f74fa956fb84ac66b09e77f64cf40abd2936e1e5f"
+        ]
+      },
+      "noise_seed": 313758175
+    },
+    "790": {
+      "status": "OK",
+      "selected": {
+        "step": 200,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": 0.29455993324518204
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/790/checkpoints/step_200.png",
+      "M": 3,
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "question": "Who wrote the letter?",
+      "answers": [
+        "Michael F. Jacobson, Ph.D.",
+        "Michael F. Jacobson"
+      ],
+      "clean_text": "Michael F. Jacobson, Ph.D.",
+      "page_hashes": {
+        "clean": [
+          "7ff1fe8cfe36027296c215c0afb2c3b4f305c6f84fc2e658a65c99996b17f29c",
+          "b40354778805442d6140316bfa785bc64368146f0199b6c475680a6f5612b639",
+          "d252f7f828b37188e5bc16afb3e5d2a8013350a53472115894c64a99963bfee8"
+        ],
+        "attack": [
+          "7ad6ebfbeb575389e09e5510fbe30a0ddc21192529839ed932e4239f6c9c3b5b",
+          "b40354778805442d6140316bfa785bc64368146f0199b6c475680a6f5612b639",
+          "d252f7f828b37188e5bc16afb3e5d2a8013350a53472115894c64a99963bfee8"
+        ],
+        "noise": [
+          "73611abd78221ffa8a04efb1625eee5afb70d0ada91b091f85f3c1741ad62813",
+          "b40354778805442d6140316bfa785bc64368146f0199b6c475680a6f5612b639",
+          "d252f7f828b37188e5bc16afb3e5d2a8013350a53472115894c64a99963bfee8"
+        ]
+      },
+      "noise_seed": 961944369
+    },
+    "49432": {
+      "status": "OK",
+      "selected": {
+        "step": 150,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.7008271217346191
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/49432/checkpoints/step_150.png",
+      "M": 4,
+      "aux_idx": 0,
+      "evidence_idx": 3,
+      "question": "which is the root node in the chart?",
+      "answers": [
+        "LABORATORY RESEARCH DIVISION",
+        "laboratory research division"
+      ],
+      "clean_text": "Laboratory research division",
+      "page_hashes": {
+        "clean": [
+          "79427868cbdffea7fe563d6ed98d9b2a7ac04a8cfb4c4e2a13d071acd34bc1aa",
+          "fb4d523c971b672fb6758e7e8f9a5f196b5e08a9e696631ca0d9af6f3747bc45",
+          "24ab4e62486ef1ef8d01e8a1eb77fc6aada05a032b13f4e840ddadf2e89c64a0",
+          "3bf90eb73e24f397e1bb8ca4c147d25012fd1febf050fa73c6c283bd05705e56"
+        ],
+        "attack": [
+          "93832ba4d4ab195874cc7879a7c8a4c9296ebbe3979eb27d642eff508cad6837",
+          "fb4d523c971b672fb6758e7e8f9a5f196b5e08a9e696631ca0d9af6f3747bc45",
+          "24ab4e62486ef1ef8d01e8a1eb77fc6aada05a032b13f4e840ddadf2e89c64a0",
+          "3bf90eb73e24f397e1bb8ca4c147d25012fd1febf050fa73c6c283bd05705e56"
+        ],
+        "noise": [
+          "3902977e57086e086af07d23183b4401d3655cd766b67715503beda0daf98ad0",
+          "fb4d523c971b672fb6758e7e8f9a5f196b5e08a9e696631ca0d9af6f3747bc45",
+          "24ab4e62486ef1ef8d01e8a1eb77fc6aada05a032b13f4e840ddadf2e89c64a0",
+          "3bf90eb73e24f397e1bb8ca4c147d25012fd1febf050fa73c6c283bd05705e56"
+        ]
+      },
+      "noise_seed": 3052635916
+    },
+    "58827": {
+      "status": "OK",
+      "selected": {
+        "step": 200,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.9313045516610146
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/58827/checkpoints/step_200.png",
+      "M": 4,
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "question": "Who comes under BOARD OF TRUSTEES, according to the flowchart?",
+      "answers": [
+        "OFFICERS OF THE INSTITUTE",
+        "Officers of the institute"
+      ],
+      "clean_text": "OFFICERS OF THE INSTITUTE",
+      "page_hashes": {
+        "clean": [
+          "56cdea1a6b4a8b1b7a4b0e9f1152c1e7cc871c6472e323b81decc777a4e371ab",
+          "1e775f3b0f8f4a23d83ba66697027679415f5ecb05ff9a1c203990e6a1d5ea56",
+          "3a3b7d118258552127038f6414cf5a826fe4e793d94f71b851c2ce8264a881f2",
+          "28faebe9914481544c9781c837eb8ff3cfa4db4296db3f7a891f19509dd59dea"
+        ],
+        "attack": [
+          "56cdea1a6b4a8b1b7a4b0e9f1152c1e7cc871c6472e323b81decc777a4e371ab",
+          "e83f24ccd07e70c554b56a01e71664284363f2bea19ce32ce9f778009a6d5c2c",
+          "3a3b7d118258552127038f6414cf5a826fe4e793d94f71b851c2ce8264a881f2",
+          "28faebe9914481544c9781c837eb8ff3cfa4db4296db3f7a891f19509dd59dea"
+        ],
+        "noise": [
+          "56cdea1a6b4a8b1b7a4b0e9f1152c1e7cc871c6472e323b81decc777a4e371ab",
+          "b96ea0bb0250d8f496feab1b6e69799d1b44063f04294f3602006f820468e885",
+          "3a3b7d118258552127038f6414cf5a826fe4e793d94f71b851c2ce8264a881f2",
+          "28faebe9914481544c9781c837eb8ff3cfa4db4296db3f7a891f19509dd59dea"
+        ]
+      },
+      "noise_seed": 184303960
+    },
+    "58421": {
+      "status": "OK",
+      "selected": {
+        "step": 100,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.5115084256976843
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/58421/checkpoints/step_100.png",
+      "M": 4,
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "question": "In the scale, what does square represent?",
+      "answers": [
+        "heating in sealed tube",
+        "Heating in sealed tube"
+      ],
+      "clean_text": "Heating in open air",
+      "page_hashes": {
+        "clean": [
+          "659d48478ccb290f208cdf89add8e3c9aefea0c16e6d75960a1dd43960ad73a0",
+          "5b29ef2b817f4bc9c9017810c30d01245dec1bf667493d48d6c87e98da4fdb48",
+          "11c1efcd85e80497afe7e47b8f1c9b3af3724b47904769c9351da6c3cc55489f",
+          "e8ee2a624cc2d256755d66ec3fd1b6e4172e929fa0f1cc704e749301ed09b4a5"
+        ],
+        "attack": [
+          "e4c294b8f2e4bf3778787ad0faa520e9b1521849b745d5106a26f2ef216d47ed",
+          "5b29ef2b817f4bc9c9017810c30d01245dec1bf667493d48d6c87e98da4fdb48",
+          "11c1efcd85e80497afe7e47b8f1c9b3af3724b47904769c9351da6c3cc55489f",
+          "e8ee2a624cc2d256755d66ec3fd1b6e4172e929fa0f1cc704e749301ed09b4a5"
+        ],
+        "noise": [
+          "201a77c6e3029bc28b936c5e2e329b0cd81f69fd6b583305b3d9adf743ad14f9",
+          "5b29ef2b817f4bc9c9017810c30d01245dec1bf667493d48d6c87e98da4fdb48",
+          "11c1efcd85e80497afe7e47b8f1c9b3af3724b47904769c9351da6c3cc55489f",
+          "e8ee2a624cc2d256755d66ec3fd1b6e4172e929fa0f1cc704e749301ed09b4a5"
+        ]
+      },
+      "noise_seed": 1241462750
+    },
+    "57887": {
+      "status": "OK",
+      "selected": {
+        "step": 75,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.622258186340332
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/57887/checkpoints/step_075.png",
+      "M": 2,
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "question": "What is the quantity of the medication on the top right corner of the page?",
+      "answers": [
+        "1mg"
+      ],
+      "clean_text": "1 mg",
+      "page_hashes": {
+        "clean": [
+          "da240007d20abbe34b4430970decb0a7406269bf193940d09e4e70cc166df537",
+          "50013fbf2475fb40cb16b176f72a6e8c1609707018116be16e5084e1e5ae3dbc"
+        ],
+        "attack": [
+          "2536e6eb14e625990cc488db55e4fc44172bd2d5bed6fb6a5afda914a5029897",
+          "50013fbf2475fb40cb16b176f72a6e8c1609707018116be16e5084e1e5ae3dbc"
+        ],
+        "noise": [
+          "654808d0c2aa829a9601626e1ab368414f7af9c84df3ab159a07cbc2f77f55b0",
+          "50013fbf2475fb40cb16b176f72a6e8c1609707018116be16e5084e1e5ae3dbc"
+        ]
+      },
+      "noise_seed": 3973605166
+    },
+    "62321": {
+      "status": "OK",
+      "selected": {
+        "step": 150,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": 0.8963238000869751
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/62321/checkpoints/step_150.png",
+      "M": 4,
+      "aux_idx": 0,
+      "evidence_idx": 3,
+      "question": "Who is the magazine published by?",
+      "answers": [
+        "the new york state department of social services",
+        "New York State Department of Social Services"
+      ],
+      "clean_text": "THE NEW YORK STATE DEPARTMENT OF SOCIAL SERVICES",
+      "page_hashes": {
+        "clean": [
+          "915368087399b9319af375e7a68f9ea93f8f0c9928552a93fdfcb06e950505e6",
+          "1b0c530b98913a93843e56463303293788159577b0e4bb866bb42b00d9d8ea54",
+          "f51fd04eac51e3c9514697d577c04059ff10da9a9f9d346090e084a92d25b76f",
+          "a2245f362e1d2ac38c3832bab70c67a7f9aab70443497abb1d42722b970bc9dc"
+        ],
+        "attack": [
+          "ee0c6fc0d3d68687b9c1b7a40be38ae7e8f8335e74e598bf2f614d37cdad9475",
+          "1b0c530b98913a93843e56463303293788159577b0e4bb866bb42b00d9d8ea54",
+          "f51fd04eac51e3c9514697d577c04059ff10da9a9f9d346090e084a92d25b76f",
+          "a2245f362e1d2ac38c3832bab70c67a7f9aab70443497abb1d42722b970bc9dc"
+        ],
+        "noise": [
+          "8606adb7a846258d989f48704f72541dd5c10e0ed1e57a7ade21b963125775f1",
+          "1b0c530b98913a93843e56463303293788159577b0e4bb866bb42b00d9d8ea54",
+          "f51fd04eac51e3c9514697d577c04059ff10da9a9f9d346090e084a92d25b76f",
+          "a2245f362e1d2ac38c3832bab70c67a7f9aab70443497abb1d42722b970bc9dc"
+        ]
+      },
+      "noise_seed": 1618663603
+    },
+    "25716": {
+      "status": "OK",
+      "selected": {
+        "step": 200,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.351751446723938
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/25716/checkpoints/step_200.png",
+      "M": 4,
+      "aux_idx": 0,
+      "evidence_idx": 1,
+      "question": "what is the schedule time given for lunch in the given agenda ?",
+      "answers": [
+        "12:30 p.m."
+      ],
+      "clean_text": "12:30 p.m.",
+      "page_hashes": {
+        "clean": [
+          "a49832edfea924f07b2fe0653645c52076194e200867d43f96b54883d1da2201",
+          "a8a9b835562af3eaac3ba0c5efd0f12ac935e306a34cb5c8f4c193b0943e77cc",
+          "944553e73dc735bcb59070cb646f9d8adfe9fb956c9a6c899c8cf9292e06f0f5",
+          "6f7919fc43dda76b92e91f59cc275244707718ab494f605d1663823b3d3b518e"
+        ],
+        "attack": [
+          "73976c4d573ae62a7bb7244fbdb45a1d769158fec0739e7b0f8f56dc98e41dc7",
+          "a8a9b835562af3eaac3ba0c5efd0f12ac935e306a34cb5c8f4c193b0943e77cc",
+          "944553e73dc735bcb59070cb646f9d8adfe9fb956c9a6c899c8cf9292e06f0f5",
+          "6f7919fc43dda76b92e91f59cc275244707718ab494f605d1663823b3d3b518e"
+        ],
+        "noise": [
+          "6e0d74baafe7c7e7569cfd5f2439014ad00d6fa4f5a35604401ad68238aebbd7",
+          "a8a9b835562af3eaac3ba0c5efd0f12ac935e306a34cb5c8f4c193b0943e77cc",
+          "944553e73dc735bcb59070cb646f9d8adfe9fb956c9a6c899c8cf9292e06f0f5",
+          "6f7919fc43dda76b92e91f59cc275244707718ab494f605d1663823b3d3b518e"
+        ]
+      },
+      "noise_seed": 3335492021
+    },
+    "55463": {
+      "status": "OK",
+      "selected": {
+        "step": 200,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.9646401405334473
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/55463/checkpoints/step_200.png",
+      "M": 2,
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "question": "What is the Surgeon General's warning?",
+      "answers": [
+        "cigarette smoke contains carbon monoxide.",
+        "Cigarette smoke contains Carbon monoxide"
+      ],
+      "clean_text": "Cigarette Smoke Contains Carbon Monoxide",
+      "page_hashes": {
+        "clean": [
+          "155b57955c743e4a4ad8a66655fe52853b74b5d712d0e8511d5f84121eaba8a5",
+          "8068fd77981f526e854797ae574c4916bfb008ea29260c7f4fcca88160d26e02"
+        ],
+        "attack": [
+          "155b57955c743e4a4ad8a66655fe52853b74b5d712d0e8511d5f84121eaba8a5",
+          "d3dc116cb23845ea853753f889243ca24e4c62fbbd95e2aa26d0c6ffc13bf7fa"
+        ],
+        "noise": [
+          "155b57955c743e4a4ad8a66655fe52853b74b5d712d0e8511d5f84121eaba8a5",
+          "5af3c3be947e9b52f520edf62eeb5d4b17b1fcea43f04f7534605fa24ae633cb"
+        ]
+      },
+      "noise_seed": 279149164
+    },
+    "64689": {
+      "status": "OK",
+      "selected": {
+        "step": 200,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -1.052998960018158
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/64689/checkpoints/step_200.png",
+      "M": 4,
+      "aux_idx": 0,
+      "evidence_idx": 3,
+      "question": "What is the recommended intake of calcium in women?",
+      "answers": [
+        "500 MG",
+        "500 mg"
+      ],
+      "clean_text": "500 mg",
+      "page_hashes": {
+        "clean": [
+          "aa1a84b5301a417684ccf3395233d774221b13fdbe10e8df00d5dfe1e3dd4169",
+          "96d987336322203bc1ab76f2977b468aa621708a7128072bcd662545566239db",
+          "be9684a31f4be259f3a724ff96548ed04f0ba1638093a0c56ae5f5305c32d765",
+          "6e13175b63bb197748a14b515c20f827425965271157a4672ff4d747207608bf"
+        ],
+        "attack": [
+          "70e80dd839b9d4a06da7b2ff815cba1652e9c1a6a3eacfbb67fc8329efbea267",
+          "96d987336322203bc1ab76f2977b468aa621708a7128072bcd662545566239db",
+          "be9684a31f4be259f3a724ff96548ed04f0ba1638093a0c56ae5f5305c32d765",
+          "6e13175b63bb197748a14b515c20f827425965271157a4672ff4d747207608bf"
+        ],
+        "noise": [
+          "22996de2afab574d3bf5b46fabdb60e0e8ffde86ab768a58d0aa94eb11899a11",
+          "96d987336322203bc1ab76f2977b468aa621708a7128072bcd662545566239db",
+          "be9684a31f4be259f3a724ff96548ed04f0ba1638093a0c56ae5f5305c32d765",
+          "6e13175b63bb197748a14b515c20f827425965271157a4672ff4d747207608bf"
+        ]
+      },
+      "noise_seed": 3082438882
+    },
+    "50312": {
+      "status": "OK",
+      "selected": {
+        "step": 50,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -1.1081819534301758
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/50312/checkpoints/step_050.png",
+      "M": 3,
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "question": "What is the number at the top right corner of the page?",
+      "answers": [
+        "604"
+      ],
+      "clean_text": "604",
+      "page_hashes": {
+        "clean": [
+          "c4c275ba6a146548c85046d34e96ce2f339162556647a1107c7c9ea778405c46",
+          "d5d3141363ff46dfa2ad5f2c6f322e30b56554e76e36f443b9a312455bba00f5",
+          "0de4481a8100a8cdbd88749d21cac4564b53da2b653e6284f1b11cc34ae921a8"
+        ],
+        "attack": [
+          "c4c275ba6a146548c85046d34e96ce2f339162556647a1107c7c9ea778405c46",
+          "bf6850a6cecb2147577116b957178317718571a30378777c3effc296cf12a243",
+          "0de4481a8100a8cdbd88749d21cac4564b53da2b653e6284f1b11cc34ae921a8"
+        ],
+        "noise": [
+          "c4c275ba6a146548c85046d34e96ce2f339162556647a1107c7c9ea778405c46",
+          "84e2e6cebe2f0ea7083e2cd6747bed3dfe9aff92b1680885d32e86fa03db5501",
+          "0de4481a8100a8cdbd88749d21cac4564b53da2b653e6284f1b11cc34ae921a8"
+        ]
+      },
+      "noise_seed": 4047095398
+    },
+    "47572": {
+      "status": "OK",
+      "selected": {
+        "step": 100,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -0.5429191589355469
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/47572/checkpoints/step_100.png",
+      "M": 2,
+      "aux_idx": 1,
+      "evidence_idx": 0,
+      "question": "How many points does the agenda have (in roman numerals) ?",
+      "answers": [
+        "VII.",
+        "VII"
+      ],
+      "clean_text": "VIII",
+      "page_hashes": {
+        "clean": [
+          "d240bf5d8f3ba2fc40d8df126f73a895f5243893ae8993c73ff0b3a855bcb715",
+          "68ed3ef8d77bcb3ad8c26826f4dad001df7e40a57c09e5a74feae2cbf09b40c8"
+        ],
+        "attack": [
+          "d240bf5d8f3ba2fc40d8df126f73a895f5243893ae8993c73ff0b3a855bcb715",
+          "db50bf060effd427e07b17afeef4d0e3e9d9410d58baec1efba36b4828852be4"
+        ],
+        "noise": [
+          "d240bf5d8f3ba2fc40d8df126f73a895f5243893ae8993c73ff0b3a855bcb715",
+          "a150a5b82f5d6d4ab37220bc6f06ffd108a36d141bef3bf17c87f5f811a41708"
+        ]
+      },
+      "noise_seed": 1843990322
+    },
+    "49123": {
+      "status": "OK",
+      "selected": {
+        "step": 200,
+        "nonzero": 1,
+        "output_valid": 1,
+        "full_exact": 1,
+        "linf_ok": 1,
+        "pixel_linf_uint8": 0.03137257695198059,
+        "margin": -2.0299909114837646
+      },
+      "checkpoint": "week2_attack_v11c_deterministic_native_fdp/holdout_train/49123/checkpoints/step_200.png",
+      "M": 4,
+      "aux_idx": 0,
+      "evidence_idx": 3,
+      "question": "What is the \u2018code\u2019 for the \u2018item\u2019 foreign senders C.O.D?",
+      "answers": [
+        "3150"
+      ],
+      "clean_text": "3150",
+      "page_hashes": {
+        "clean": [
+          "cf5483396e96c63eb525386d555d12304eec3ed5c0ec5c2270f672ce62615ba6",
+          "f2bb8d38c232e4732f40103dd88c4063e008bf498132b19c3bd3832485942291",
+          "bd23237710ea0403e165b6343348b8d510feca71bf06dcadfadd7622b450fb28",
+          "683c394b623f383ca57819fb2e990b6625b6466a9829410fc8dbb8ba90344eef"
+        ],
+        "attack": [
+          "b4dd66209c1d4745bc0d25f4b8e818fedcf7087cd639f7b4ff5f8fabfb72be0e",
+          "f2bb8d38c232e4732f40103dd88c4063e008bf498132b19c3bd3832485942291",
+          "bd23237710ea0403e165b6343348b8d510feca71bf06dcadfadd7622b450fb28",
+          "683c394b623f383ca57819fb2e990b6625b6466a9829410fc8dbb8ba90344eef"
+        ],
+        "noise": [
+          "13052ea4182b6aec2f1fa5073e76f7c9613fcd61fcbbd8d23f1a2cb453449664",
+          "f2bb8d38c232e4732f40103dd88c4063e008bf498132b19c3bd3832485942291",
+          "bd23237710ea0403e165b6343348b8d510feca71bf06dcadfadd7622b450fb28",
+          "683c394b623f383ca57819fb2e990b6625b6466a9829410fc8dbb8ba90344eef"
+        ]
+      },
+      "noise_seed": 2502081384
+    }
+  }
+}

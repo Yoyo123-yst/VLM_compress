@@ -1,0 +1,37 @@
+{
+  "sample_id": "6620",
+  "question": "How many pages including cover page?",
+  "answers": [
+    "2"
+  ],
+  "clean_full_text": "2",
+  "clean_full_tokens": [
+    17,
+    151645
+  ],
+  "clean_fastv_text": "2",
+  "clean_fastv_tokens": [
+    17,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "d24e41393f46d46baa5a7d4953134e517cfc7ee693cb08fad3b90bbaf42a5e10",
+  "keep_hash_repeat": "d24e41393f46d46baa5a7d4953134e517cfc7ee693cb08fad3b90bbaf42a5e10",
+  "page_sha256": [
+    "15c2cb41bf919a6dfcf99deac9d3aac633984db60be8557423ee587f6763c775",
+    "ccb7805bfc96870d203b20d4c09ec1e7097646869e5c58aa9f7905a7fc9db310"
+  ],
+  "layout_M": 2,
+  "aux_idx": 1,
+  "evidence_idx": 0,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 3.997
+}

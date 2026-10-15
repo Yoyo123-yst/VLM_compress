@@ -1,0 +1,258 @@
+[
+  {
+    "step": 0,
+    "png_sha256": "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131",
+    "texts": {
+      "full": "PPBS",
+      "fastv_0.25": "PPBS",
+      "fastv_0.35": "PPBS"
+    },
+    "margins": {
+      "0.25": 2.138645887374878,
+      "0.35": 2.236715078353882
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "5bde88b0c696b5bf773163a13accd5dcf033b31b297862790ef5ddd8c87b2aca"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "8cbb13cbbf41286c5c9df264088743c40cdfbe138a54d5057c581915326f6d71"
+      }
+    },
+    "selector": {
+      "step": 0,
+      "nonzero": 0,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 0,
+      "pixel_linf_uint8": 0.0,
+      "margin": 2.18768048286438
+    }
+  },
+  {
+    "step": 10,
+    "png_sha256": "a259ab5dc3981c08532e94a1e1ed7b94686caf922dde0d97f3d2eb78bce136bf",
+    "texts": {
+      "full": "PPBS",
+      "fastv_0.25": "PPBS 14, 15, 16",
+      "fastv_0.35": "PPBS 14, 1957"
+    },
+    "margins": {
+      "0.25": 2.8307840824127197,
+      "0.35": 3.451742172241211
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "aaea6ed58e2c9d50e698bff07bd5469b28f5d5aa8ebbd185f942f2048d1f440a"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "f09ab6dd0321c9fadba5b14c00d2c0c6768ef6d1650601f08633639f98fbf3ec"
+      }
+    },
+    "selector": {
+      "step": 10,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 3.1412631273269653
+    }
+  },
+  {
+    "step": 25,
+    "png_sha256": "bfa5c79a23f664db1b24cf9bb49f5761f1b85ca30cfd5e07a7f4e7bf4aa9f766",
+    "texts": {
+      "full": "PPBS",
+      "fastv_0.25": "Ppjs 14, 1967",
+      "fastv_0.35": "PPBS 14, 15, 16"
+    },
+    "margins": {
+      "0.25": 2.325887441635132,
+      "0.35": 2.022397041320801
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "e43a68a995b514f4086db927f8d60daba35ee8c8d2edc58298331c8cfde23942"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "e690041ca46983f2eb394fd5e1caa1b82178c36404a212cf27e5d00fccc55832"
+      }
+    },
+    "selector": {
+      "step": 25,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 2.1741422414779663
+    }
+  },
+  {
+    "step": 50,
+    "png_sha256": "1f7ad9faf3481021c7e261480752ad770deb78b9c147e680763f928e1ffee17b",
+    "texts": {
+      "full": "PPBS",
+      "fastv_0.25": "Ppjs 14, 15, 16",
+      "fastv_0.35": "PPBS 14, 15, 16"
+    },
+    "margins": {
+      "0.25": 1.910611629486084,
+      "0.35": 1.8120932579040527
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "067d8674fd3e4aa0bf6bedc56a5ac263530ae8c4502138afef3ffee26660abbf"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "779b04cfcfd5cdb9870812405a2ce5d250a57c373a7b963025e80140fa63bf23"
+      }
+    },
+    "selector": {
+      "step": 50,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 1.8613524436950684
+    }
+  },
+  {
+    "step": 75,
+    "png_sha256": "1c22051e7994a00213208c6f0c9826f32e977035612368bdc696c8f95c329f3c",
+    "texts": {
+      "full": "PPBS",
+      "fastv_0.25": "Ppbs 140277",
+      "fastv_0.35": "PPBS 17607 PA"
+    },
+    "margins": {
+      "0.25": -1.0329443216323853,
+      "0.35": -0.6215630769729614
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "f556c9046d806cf142dfd7678a1114006fa59fefac4b9d6f6bfa4eed48541929"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "d1b3bef0053ecdb1ee9c0362bec7251216a4507c1f9142fe6cea661c62458e88"
+      }
+    },
+    "selector": {
+      "step": 75,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.8272536993026733
+    }
+  },
+  {
+    "step": 100,
+    "png_sha256": "26204e589072af188725df3d92d6bd0a3b05b38995d4698df6a9d231fd7faa73",
+    "texts": {
+      "full": "PPBS",
+      "fastv_0.25": "Pp. 14, 15, 16",
+      "fastv_0.35": "PBP5"
+    },
+    "margins": {
+      "0.25": 0.27146556973457336,
+      "0.35": -1.160801887512207
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "1af561246aeeabfc64eeaeb6a9ee3b6fdb5479d6e6dd464bd62117e6a7fce037"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "f752d991df908938e25f3adb611d2cadf9ab946bd3059e6ae21dfc30c5c66fef"
+      }
+    },
+    "selector": {
+      "step": 100,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.44466815888881683
+    }
+  },
+  {
+    "step": 150,
+    "png_sha256": "c956fe156f81cbae8fc6cac53e8a48a287e380a21d2144aac27da5f0639fe171",
+    "texts": {
+      "full": "PPBS",
+      "fastv_0.25": "Reduction of incidence of tuberculosis in all districts",
+      "fastv_0.35": "DISTRIBUTION OF HEALTH OBJECTIVES"
+    },
+    "margins": {
+      "0.25": 0.16606512665748596,
+      "0.35": -0.7218677997589111
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "788527960bdd737238788a8422e180745f5fa66738bdc06dd3dc646249d15776"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "19d6b11d8e0e255d2d661a9f3b306308d26c312f69bce5d72a4b1315dbc80ff4"
+      }
+    },
+    "selector": {
+      "step": 150,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.2779013365507126
+    }
+  },
+  {
+    "step": 200,
+    "png_sha256": "546c6335c1c937b3e5036ddc919633aa097b08703326ee75ff19069a6f91ebc3",
+    "texts": {
+      "full": "PPBS",
+      "fastv_0.25": "SUSPENSEFUL BULLDOGS",
+      "fastv_0.35": "HPBS"
+    },
+    "margins": {
+      "0.25": -0.31026268005371094,
+      "0.35": -2.0094971656799316
+    },
+    "keeps": {
+      "0.25": {
+        "k": 2774,
+        "keep_hash": "686d3c4faa87d8b2235b4bd771f623caf1332d76f66f18bb8b681fde820f8904"
+      },
+      "0.35": {
+        "k": 3884,
+        "keep_hash": "8e9ae9345720a78b56622f51b17894b72f352881aad31d2c3825b82e53bea851"
+      }
+    },
+    "selector": {
+      "step": 200,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -1.1598799228668213
+    }
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "sample_id": "60700",
+  "chosen_step": 50,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "PPBS",
+  "clean_text": "PPBS",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 3.9716851711273193,
+  "pollution": 0,
+  "strict_train": 1,
+  "by_ratio": {
+    "0.50": {
+      "text": "PPBS",
+      "anls": 1.0,
+      "margin": 2.7914299964904785,
+      "keep": {
+        "k": 5548,
+        "keep_hash": "62b976916f2883a11c09ed38b6ebca7b15c4050ab8d156d67a8f041b414cd0d3",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 1.1802551746368408
+    },
+    "0.35": {
+      "text": "PPBS #54422",
+      "anls": 0.0,
+      "margin": -0.7288889288902283,
+      "keep": {
+        "k": 3884,
+        "keep_hash": "9a15c5fa3c7e31edd599828379ec1299d60d6c51f96c4895c325d852a91d2f19",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 4.700574100017548
+    },
+    "0.25": {
+      "text": "PPBS 143 CAUTION! BOALDING, HEALTH",
+      "anls": 0.0,
+      "margin": -1.073300838470459,
+      "keep": {
+        "k": 2774,
+        "keep_hash": "e015c3d6b86dde848a63dbb88ec1837fdc9a24686d334731ac08174885c5cb43",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.044986009597778
+    },
+    "0.15": {
+      "text": "PPBS 14, 1967",
+      "anls": 0.0,
+      "margin": 3.207648992538452,
+      "keep": {
+        "k": 1665,
+        "keep_hash": "85914250821430900799987084417bf7b11068066ccf6898d5d599842db5c621",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 0.7640361785888672
+    }
+  },
+  "selector_margin": -0.9010948836803436
+}

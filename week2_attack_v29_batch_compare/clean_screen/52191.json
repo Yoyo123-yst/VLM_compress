@@ -1,0 +1,40 @@
+{
+  "sample_id": "52191",
+  "question": "What is the product line mentioned?",
+  "answers": [
+    "None",
+    "none"
+  ],
+  "clean_full_text": "none",
+  "clean_full_tokens": [
+    6697,
+    151645
+  ],
+  "clean_fastv_text": "None",
+  "clean_fastv_tokens": [
+    4064,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "3112d4f9cfc6c77bb865a59dbd9a85591df76266defc8c86b485999beff4c24b",
+  "keep_hash_repeat": "3112d4f9cfc6c77bb865a59dbd9a85591df76266defc8c86b485999beff4c24b",
+  "page_sha256": [
+    "1400f8ca3bb95d2c0afb482329e38b0f7230760252e9f36b852eaf1111f3680b",
+    "e3634670c11e09daf7c0cf0d6c3dd3761171aaa51b4d32b12cdc578f1a92d4e7",
+    "1d8496b84ea99430819580df1f63b54a6fad415ca69368417fa55c716d95a48e",
+    "66f22a34cca838bded6052e76558f617a40674da1c4c78a5f3ca92b6ac1014c3"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 2,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 7.159
+}

@@ -1,0 +1,245 @@
+{
+  "rows": [
+    {
+      "sample_id": "1025",
+      "status": "OK",
+      "full_text": "Dr. C. Baur MD",
+      "full_replay": true,
+      "ratios": {
+        "0.15": {
+          "text": "TAKEDA",
+          "anls": 0.0,
+          "valid": true,
+          "endpoint_failure": true,
+          "k": 1665,
+          "keep_sha256": "bb02409869b495f342461077cacff2a4fcefc459f4bd5cb9b12a74e6dfff8735",
+          "historical_text": "TAKEDA",
+          "historical_match": true
+        },
+        "0.25": {
+          "text": "Dr. C. Baur",
+          "anls": 0.6666666666666667,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 2774,
+          "keep_sha256": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5",
+          "historical_text": "Dr. C. Baur",
+          "historical_match": true
+        },
+        "0.35": {
+          "text": "Dr. C. B. B. M.D.",
+          "anls": 0.75,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 3884,
+          "keep_sha256": "ecefcd69ddc95ba41453e8f3d0107d0549d98a02f357965c7e98f8d24698c95e",
+          "historical_text": "Dr. C. B. B. M.D.",
+          "historical_match": true
+        },
+        "0.50": {
+          "text": "Dr. C. B. M.D.",
+          "anls": 0.75,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 5548,
+          "keep_sha256": "681f35604119683283817a48e38a8ec0c87aaacb864107dac0ba96c1d7e955a4",
+          "historical_text": "Dr. C. B. M.D.",
+          "historical_match": true
+        }
+      }
+    },
+    {
+      "sample_id": "2008",
+      "status": "OK",
+      "full_text": "March 1968",
+      "full_replay": true,
+      "ratios": {
+        "0.15": {
+          "text": "March 1956",
+          "anls": 0.8,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 1110,
+          "keep_sha256": "6e7739c0a695daf17ecdfb87ef17a62e14b447af240b2b5a349b83025bb33825",
+          "historical_text": "March 1956",
+          "historical_match": true
+        },
+        "0.25": {
+          "text": "March 1956",
+          "anls": 0.8,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 1850,
+          "keep_sha256": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+          "historical_text": "March 1956",
+          "historical_match": true
+        },
+        "0.35": {
+          "text": "March 1956",
+          "anls": 0.8,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 2589,
+          "keep_sha256": "83204a20618bee809000a0265c2bccdf9597fb274ab9de01dc9c69fd602453b0",
+          "historical_text": "March 1956",
+          "historical_match": true
+        },
+        "0.50": {
+          "text": "March 1968",
+          "anls": 1.0,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 3699,
+          "keep_sha256": "b3801ea0907e520af7f41e295783f92dc937f5d711c95a60b39fa5779c5d15f3",
+          "historical_text": "March 1968",
+          "historical_match": true
+        }
+      }
+    },
+    {
+      "sample_id": "7006",
+      "status": "OK",
+      "full_text": "RJ Reynolds Tobacco Company",
+      "full_replay": true,
+      "ratios": {
+        "0.15": {
+          "text": "RJ Reynolds Tobacco Company",
+          "anls": 0.962962962962963,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 2219,
+          "keep_sha256": "d841bc6ceb64c43490d8e7cd487b74cf2ba14c824c21f5806e16c26677a6aea6",
+          "historical_text": "RJ Reynolds Tobacco Company",
+          "historical_match": true
+        },
+        "0.25": {
+          "text": "RJ Reynolds Tobacco Company",
+          "anls": 0.962962962962963,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 3699,
+          "keep_sha256": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+          "historical_text": "RJ Reynolds Tobacco Company",
+          "historical_match": true
+        },
+        "0.35": {
+          "text": "RJ Reynolds Tobacco Company",
+          "anls": 0.962962962962963,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 5179,
+          "keep_sha256": "88e3f77de0bf0783e16c9700bc1c23f613e367ae9b8f7cf67a305321abe38c89",
+          "historical_text": "RJ Reynolds Tobacco Company",
+          "historical_match": true
+        },
+        "0.50": {
+          "text": "RJ Reynolds Tobacco Company",
+          "anls": 0.962962962962963,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 7398,
+          "keep_sha256": "745f8756ce8ee5d56b41d6fa3a2ca4179d5bd7e1eeabcbabe60fe1441f7f2ab6",
+          "historical_text": "RJ Reynolds Tobacco Company",
+          "historical_match": true
+        }
+      }
+    },
+    {
+      "sample_id": "47450",
+      "status": "OK",
+      "full_text": "Dr. or Mrs. William J. Darby",
+      "full_replay": true,
+      "ratios": {
+        "0.15": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "anls": 1.0,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 2219,
+          "keep_sha256": "86ec916f60c3dca5dbf500488cc575fc238749e31bd42aa15ec710cec5f04867",
+          "historical_text": "Dr. or Mrs. William J. Darby",
+          "historical_match": true
+        },
+        "0.25": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "anls": 1.0,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 3699,
+          "keep_sha256": "4cdba19ca679fa03b6713894463fa303ce07866e41bab92265aaeae62995bfe2",
+          "historical_text": "Dr. or Mrs. William J. Darby",
+          "historical_match": true
+        },
+        "0.35": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "anls": 1.0,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 5179,
+          "keep_sha256": "b2ecfdbd4d10c62b812330e4d10e9b9d5ae04ff427476c9ea44e8dba03608cde",
+          "historical_text": "Dr. or Mrs. William J. Darby",
+          "historical_match": true
+        },
+        "0.50": {
+          "text": "Dr. or Mrs. William J. Darby",
+          "anls": 1.0,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 7398,
+          "keep_sha256": "00b4ddfbeb35dc77bce04a72ab19bec2f3edb4e9e8ea9da8ddcacddeae1928f5",
+          "historical_text": "Dr. or Mrs. William J. Darby",
+          "historical_match": true
+        }
+      }
+    },
+    {
+      "sample_id": "39204",
+      "status": "OK",
+      "full_text": "FOOD TECHNOLOGY",
+      "full_replay": true,
+      "ratios": {
+        "0.15": {
+          "text": "Food technology",
+          "anls": 1.0,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 2219,
+          "keep_sha256": "7145daa03b4ab725f43b05c25b61d7b7e285177aa1aa6e0bcfb026640f4f5b5a",
+          "historical_text": "Food technology",
+          "historical_match": true
+        },
+        "0.25": {
+          "text": "FOOD TECHNOLOGY",
+          "anls": 1.0,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 3699,
+          "keep_sha256": "905cbfae950d7c9cfb2e729575d5d154fce656a2c025898d8ba1b3977799c338",
+          "historical_text": "FOOD TECHNOLOGY",
+          "historical_match": true
+        },
+        "0.35": {
+          "text": "FOOD TECHNOLOGY",
+          "anls": 1.0,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 5179,
+          "keep_sha256": "3c9b77cad13aef3a48de1d67ec6602bc374e46642c135657d49022b6d06df560",
+          "historical_text": "FOOD TECHNOLOGY",
+          "historical_match": true
+        },
+        "0.50": {
+          "text": "FOOD TECHNOLOGY",
+          "anls": 1.0,
+          "valid": true,
+          "endpoint_failure": false,
+          "k": 7398,
+          "keep_sha256": "de6a8bc0fd6716061f25e0b8dec889849ef321f783065f8ca07a03d9fe5f3afc",
+          "historical_text": "FOOD TECHNOLOGY",
+          "historical_match": true
+        }
+      }
+    }
+  ],
+  "fastv_access_count": 20
+}

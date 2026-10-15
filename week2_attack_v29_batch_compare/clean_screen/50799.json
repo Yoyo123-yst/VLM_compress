@@ -1,0 +1,58 @@
+{
+  "sample_id": "50799",
+  "question": "What is the date on this check?",
+  "answers": [
+    "june 3, 1974",
+    "June 3, 1974"
+  ],
+  "clean_full_text": "May 24, 1974",
+  "clean_full_tokens": [
+    11109,
+    220,
+    17,
+    19,
+    11,
+    220,
+    16,
+    24,
+    22,
+    19,
+    151645
+  ],
+  "clean_fastv_text": "May 24, 1974",
+  "clean_fastv_tokens": [
+    11109,
+    220,
+    17,
+    19,
+    11,
+    220,
+    16,
+    24,
+    22,
+    19,
+    151645
+  ],
+  "clean_full_anls": 0.0,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "2d6271dee4103fd1700cefe883b63e5f066c0710720e5184b8fef4067282cd3f",
+  "keep_hash_repeat": "2d6271dee4103fd1700cefe883b63e5f066c0710720e5184b8fef4067282cd3f",
+  "page_sha256": [
+    "eeba49f07b0efd67456621bc51aec06b360728c8aff7264d8b5643dc090a3480",
+    "297b54734808b827a03414a73f9e27affc0957b930d531a7ab47f232bb7b652c",
+    "284823dd23729b0847e5cccb98fdc25dac5ae125268278fb1ad819cbcb947429",
+    "68af02b5334d2113bdaaf4aeda15d8eb5c9ecef4e5b3815595f3ebbf4dd45e4f"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 2,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 9.816
+}

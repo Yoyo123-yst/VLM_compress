@@ -1,0 +1,60 @@
+{
+  "status": "FROZEN_DEVELOPMENT_TARGETS_FOR_SCORE_SMOKE",
+  "development_only": true,
+  "ratio": 0.25,
+  "candidate_protocol": "clean_fastv_expanded_branch_complete_continuation_v3",
+  "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+  "candidate_selection_uses_ground_truth": false,
+  "semantic_review_uses_ground_truth": true,
+  "attack_training_run": false,
+  "unseen_opened": false,
+  "samples": {
+    "60700": {
+      "question": "What is the subject?",
+      "correct_aliases": ["PPBS"],
+      "clean_fastv_text": "PPBS",
+      "wrong_target_text": "Dr. H. S. SORBS",
+      "wrong_target_tokens": [8847, 13, 472, 13, 328, 13, 328, 868, 7347, 151645],
+      "branch_position": 0,
+      "branch_candidate_id": 8847,
+      "branch_rank_at_position": 8,
+      "semantic_status": "VALID_COMPLETE_WRONG_ENTITY",
+      "target_freeze_rule": "first clean-only candidate reviewed as complete, non-truncated, non-spelling-variant, semantically distinct entity phrase",
+      "manifest": "candidate_manifest_v4/60700.json",
+      "provenance_correction": "Corrected from 0 to the actual first-divergence token id 8847 (Dr), matching candidate_manifest_v4/60700.json."
+    },
+    "47450": {
+      "question": "Who has made the deposit ?",
+      "correct_aliases": [
+        "Dr. or Mrs. William J. Darby",
+        "Dr. Or Mrs. William J Darby",
+        "William J Darby"
+      ],
+      "clean_fastv_text": "Dr. or Mrs. William J. Darby",
+      "wrong_target_text": "THE NUTRITION FOUNDATION, INC.",
+      "wrong_target_tokens": [17229, 451, 1381, 49, 7092, 52559, 3495, 11, 18118, 13, 151645],
+      "branch_position": 0,
+      "branch_candidate_id": 17229,
+      "branch_rank_at_position": 3,
+      "semantic_status": "VALID_COMPLETE_WRONG_ENTITY",
+      "manifest": "candidate_manifest_v3/47450.json",
+      "manifest_sha256": "be315e5a25f0e12f17460fcb7e19b9e4a8d03c023d8014bccdf70bacc5cabbc2"
+    },
+    "7006": {
+      "question": "What is the Company Name ?",
+      "correct_aliases": [
+        "RJReynolds Tobacco Company",
+        "RJ Reynolds Tobacco Company"
+      ],
+      "clean_fastv_text": "RJ Reynolds Tobacco Company",
+      "wrong_target_text": "Public Relations Dept.",
+      "wrong_target_tokens": [12676, 31367, 50221, 13, 151645],
+      "branch_position": 0,
+      "branch_candidate_id": 12676,
+      "branch_rank_at_position": 3,
+      "semantic_status": "VALID_COMPLETE_WRONG_ENTITY",
+      "manifest": "candidate_manifest_v3/7006.json",
+      "manifest_sha256": "bf770a24667591776e5d2486cd6fb657dd62135476157f9bebbeb4d904459929"
+    }
+  }
+}

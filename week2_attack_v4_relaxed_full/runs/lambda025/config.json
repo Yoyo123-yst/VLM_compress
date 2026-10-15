@@ -1,0 +1,43 @@
+{
+  "lambda_full": 0.25,
+  "steps": 200,
+  "scales": {
+    "sample_id": "50743",
+    "lambda_full": 1.0,
+    "scale_comp_l2": 20.854320526123047,
+    "scale_full_l2": 0.028150565922260284,
+    "scale_full_source": "shift_1_over_255",
+    "delta0_comp_loss": 5.734375,
+    "delta0_full_loss": 0.0,
+    "delta0_margin": 5.734375,
+    "delta0_grad": {
+      "comp": {
+        "l1": 4929.1015625,
+        "l2": 20.854320526123047,
+        "linf": 2.5157270431518555
+      },
+      "full": {
+        "l1": 0.00143390242010355,
+        "l2": 1.6582263924647123e-05,
+        "linf": 2.8312103950156597e-06
+      },
+      "cosine": -0.722684919834137,
+      "combined": {
+        "l1": 4929.1005859375,
+        "l2": 20.85430908203125,
+        "linf": 2.5157241821289062
+      }
+    },
+    "rule": "Divide each term by its L2 pixel-gradient norm, then set lambda_full=1. L_full is flat at δ=0, so its norm is taken from a fixed +1/255 shift when the δ=0 norm is below 0.1% of the compression gradient. Scales are frozen from sample 50743."
+  },
+  "changed_from_v4": [
+    "lambda_full"
+  ],
+  "shard": 1,
+  "nshards": 2,
+  "ids": [
+    "4912",
+    "49242",
+    "5169"
+  ]
+}

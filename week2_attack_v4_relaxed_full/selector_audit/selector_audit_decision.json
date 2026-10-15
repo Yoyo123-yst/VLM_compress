@@ -1,0 +1,33 @@
+{
+  "stage": "selector_audit",
+  "raw_integrity": "PASS",
+  "raw_immutability": "PASS",
+  "k_audit": "PASS",
+  "n": 20,
+  "primary_selector": "fixed_step_200",
+  "primary_lambda025_strict_csfr": 0.75,
+  "primary_lambda025_full_error_rate": 0.0,
+  "primary_lambda025_full_text_unchanged": "20/20",
+  "primary_lambda025_wilson_strict_csfr": [
+    0.5312949900419365,
+    0.888139947210597
+  ],
+  "posthoc_min_margin_strict_csfr": 0.8,
+  "oracle_best_strict_csfr": 0.85,
+  "primary_signflip": {
+    "nonzero_pair_count": 6,
+    "exact_signflip_p_two_sided": 0.125
+  },
+  "lambda_comparison_conclusion": "NOT_ESTABLISHED",
+  "reporting_conclusion": "Use fixed step 200 as primary (15/20); 16/20 post-hoc; 17/20 oracle upper bound only.",
+  "next_action": "formal final_report updated if gates pass",
+  "formal_update_gates": {
+    "passed": true,
+    "integrity": "PASS",
+    "immutability": "PASS",
+    "k_audit": "PASS",
+    "strict_15_of_20": true,
+    "full_error_zero": true,
+    "full_text_20_of_20": true
+  }
+}

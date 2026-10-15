@@ -1,0 +1,31 @@
+{
+  "status": "DETERMINISTIC_ADMISSION_PASSED",
+  "runner": "v11c_deterministic_native_fdp",
+  "comparison": "two fresh processes, cross-GPU; process_id/gpu_id excluded only from update-state equality",
+  "config": {
+    "attn_implementation": "sdpa",
+    "resize_mode": "bilinear",
+    "deterministic_resize": "1",
+    "deterministic_algorithms": true
+  },
+  "samples": {
+    "1025": {
+      "paths": [
+        "week2_attack_v11c_deterministic_native_fdp/admission_trace/1025/repeat_0",
+        "week2_attack_v11c_deterministic_native_fdp/admission_trace/1025/repeat_1"
+      ],
+      "curve_equal": true,
+      "update_state_equal": true,
+      "repeatable": true
+    },
+    "60700": {
+      "paths": [
+        "week2_attack_v11c_deterministic_native_fdp/admission_trace/60700/repeat_0",
+        "week2_attack_v11c_deterministic_native_fdp/admission_trace/60700/repeat_1"
+      ],
+      "curve_equal": true,
+      "update_state_equal": true,
+      "repeatable": true
+    }
+  }
+}

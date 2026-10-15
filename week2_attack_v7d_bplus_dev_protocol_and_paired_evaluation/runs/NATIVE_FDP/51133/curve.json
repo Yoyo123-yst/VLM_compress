@@ -1,0 +1,258 @@
+[
+  {
+    "step": 0,
+    "png_sha256": "598fb21942d944b30cfad69a2d103b17691f772399b69a9095ca1820ee509d05",
+    "texts": {
+      "full": "two",
+      "fastv_0.25": "two",
+      "fastv_0.35": "two"
+    },
+    "margins": {
+      "0.25": 0.008683204650878906,
+      "0.35": 0.13662433624267578
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "9dc1ec87ff056f5cefa28eb2c859a46186913d1ce8fd1b6f50f07cabc9ebbd9d"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "99436546de1f11c6880668188757e9c18d3730a961dc0f6024a50ce830aeb7df"
+      }
+    },
+    "selector": {
+      "step": 0,
+      "nonzero": 0,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 0,
+      "pixel_linf_uint8": 0.0,
+      "margin": 0.07265377044677734
+    }
+  },
+  {
+    "step": 10,
+    "png_sha256": "6ba7e06c0b468a9fdbc79209d5ed0c29a35b5b76692efdfd3db985bcfe08e496",
+    "texts": {
+      "full": "two",
+      "fastv_0.25": "60 days",
+      "fastv_0.35": "two"
+    },
+    "margins": {
+      "0.25": 1.0729084014892578,
+      "0.35": 0.09282779693603516
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "5c3aaeb57020efc9c546048b5affb1a31b4ce914eacfe3df4b1c7a66d508aa22"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "eab1ba14e5c1195ea5e7e99a6e02aa249251117cc3b7dbb58d5381d33c101976"
+      }
+    },
+    "selector": {
+      "step": 10,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.5828680992126465
+    }
+  },
+  {
+    "step": 25,
+    "png_sha256": "ed8f37c3671fabd70f900eaf9a1bf482f434f9f2c253c31dd8afcbb8bbeb5af4",
+    "texts": {
+      "full": "two",
+      "fastv_0.25": "2",
+      "fastv_0.35": "two"
+    },
+    "margins": {
+      "0.25": -0.9457855224609375,
+      "0.35": -0.0009908676147460938
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "9184bb6c301f986f578fecc6f17d1e3c86867301629f3f55b8cf92a5adcfd9d2"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "6330ee83f2131de2978d110fabcdb9b897fd5f09586a836d492f5941cdc7bdce"
+      }
+    },
+    "selector": {
+      "step": 25,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.4733881950378418
+    }
+  },
+  {
+    "step": 50,
+    "png_sha256": "68b81609a6a72ca8a234035a9d47093f7e5a45c9b06a5a95a532fdc0614cc341",
+    "texts": {
+      "full": "two",
+      "fastv_0.25": "6",
+      "fastv_0.35": "6"
+    },
+    "margins": {
+      "0.25": -0.930757999420166,
+      "0.35": -1.0641298294067383
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "4865bc7f3c72ca30a7b816a9656bf8b4bf3fbb3617094e9d8a43ac62d465e9e6"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "1690aa6e037f7a94c007fff1ccc7aea072f7b3f35dea07f592784baa5bfebdec"
+      }
+    },
+    "selector": {
+      "step": 50,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.9974439144134521
+    }
+  },
+  {
+    "step": 75,
+    "png_sha256": "ac6b2247a1f9620a54d6a6298a47aac3c2124cad90e7bac1c1062745a68d2cc5",
+    "texts": {
+      "full": "two",
+      "fastv_0.25": "1 year",
+      "fastv_0.35": "180 days"
+    },
+    "margins": {
+      "0.25": 0.44547462463378906,
+      "0.35": 0.494607537984848
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "43789b3795b6dae77e49778f7a937a0ce8b5d4ff22e7e04538357399d369e039"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "30fbe0fdb7f5f3f1f44f388f470d739a5023401cb0ce5f873b2d90e559bf0482"
+      }
+    },
+    "selector": {
+      "step": 75,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": 0.47004108130931854
+    }
+  },
+  {
+    "step": 100,
+    "png_sha256": "528e88d0b472aae21ebad323d33f56d676d5d858ca5f242bc46a459be3e042a1",
+    "texts": {
+      "full": "two",
+      "fastv_0.25": "10",
+      "fastv_0.35": "6"
+    },
+    "margins": {
+      "0.25": -1.2106521129608154,
+      "0.35": -1.4273014068603516
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "70e5f6dbc03966e993590c0bc5777539952a1028d9481eeacd29cc7d0a728c48"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "5657e88281b269e6e81945acfdaa21a80c595f192cd6af17142ce24be77efbeb"
+      }
+    },
+    "selector": {
+      "step": 100,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -1.3189767599105835
+    }
+  },
+  {
+    "step": 150,
+    "png_sha256": "f3a5eb34900e09f6089efc5de4148b7fddfc283afa0bb0344e5ca6bceae6ed4b",
+    "texts": {
+      "full": "two",
+      "fastv_0.25": "6",
+      "fastv_0.35": "36 months"
+    },
+    "margins": {
+      "0.25": -1.3340601921081543,
+      "0.35": 0.2881491184234619
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "0fabf04f2874c3d104a65c02ec8da88c9a6f185dff5fc5322048e91b8ab032fc"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "2e4c467e479cbf5e0a342dcdc4ea867db9b791dcfa5a713f46a526959b42e8ff"
+      }
+    },
+    "selector": {
+      "step": 150,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.5229555368423462
+    }
+  },
+  {
+    "step": 200,
+    "png_sha256": "4528b7c48ef9b5da5802c9b0fa36abc01bc950ee3d391e4fa9fa9a8d26f8ce8d",
+    "texts": {
+      "full": "two",
+      "fastv_0.25": "10 years",
+      "fastv_0.35": "10 years"
+    },
+    "margins": {
+      "0.25": -0.28155517578125,
+      "0.35": -0.47951436042785645
+    },
+    "keeps": {
+      "0.25": {
+        "k": 1850,
+        "keep_hash": "6e4443505bc0cc95deb7d5733e3e42eeae117492883d5e6f296aa053d6665a15"
+      },
+      "0.35": {
+        "k": 2589,
+        "keep_hash": "8019a6a0280758b51295e50af214a91d76e54260c1cebe6757d9fbc38259456e"
+      }
+    },
+    "selector": {
+      "step": 200,
+      "nonzero": 1,
+      "output_valid": 1,
+      "full_exact": 1,
+      "linf_ok": 1,
+      "pixel_linf_uint8": 0.03137257695198059,
+      "margin": -0.3805347681045532
+    }
+  }
+]

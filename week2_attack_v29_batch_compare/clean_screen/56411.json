@@ -1,0 +1,42 @@
+{
+  "sample_id": "56411",
+  "question": "What is the highest value on the Y axis?",
+  "answers": [
+    "300.00"
+  ],
+  "clean_full_text": "300",
+  "clean_full_tokens": [
+    18,
+    15,
+    15,
+    151645
+  ],
+  "clean_fastv_text": "79",
+  "clean_fastv_tokens": [
+    22,
+    24,
+    151645
+  ],
+  "clean_full_anls": 0.6,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "eccfed8b628b08d28bd905b26a671d18984bf7c3c3aed19cde09c7e792e14e60",
+  "keep_hash_repeat": "eccfed8b628b08d28bd905b26a671d18984bf7c3c3aed19cde09c7e792e14e60",
+  "page_sha256": [
+    "76bc649751c5c0811f7c249bddc84c36c2040a99c56bb573e630404ce48ad659",
+    "0f7ea751adb9e904652be66f963f40f1a68a1584c6dbdc8f414f29d4077d3945",
+    "7b28b3ccda3b2d2bdf4d5dae1ca400bb6a377f997140943127bd9a9f172b1ffb",
+    "bb9ef1bb960bd85213c2e44ab7b904897ad35107f81777623032a1709b337110"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 2,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.682
+}

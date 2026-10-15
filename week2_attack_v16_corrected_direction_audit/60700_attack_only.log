@@ -1,0 +1,29 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.28s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.24s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.23s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.14it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.01s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"step": 0, "fast_text": "PPSB", "fast_tokens": [4406, 16680, 151645], "fast_anls": 0.0, "full_exact": true, "keep_hash": "94ff151373a7c919c6b8f008d043d8ee925a3eb9ea680aef2e55c61f01d70508", "png_sha256": "9fa86ee802bd22064f6503ceed9b512b5fd0464022da66be3df73d3189f0a367", "linf_uint8": 8}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"step": 1, "fast_text": "PPBS", "fast_tokens": [4406, 7347, 151645], "fast_anls": 1.0, "full_exact": true, "keep_hash": "0b13da85570bbbd09508ee73ac2015e1790f40bbf399449e2af9d49ae868b297", "png_sha256": "2a46bc659495661664b07b628c91544fe14c6bcc713e43c4a49da492e819f32f", "linf_uint8": 8}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"step": 2, "fast_text": "PPSB", "fast_tokens": [4406, 16680, 151645], "fast_anls": 0.0, "full_exact": true, "keep_hash": "ab600b581a1dd5c41587e9a08507a422d7e935dbcf6fdedfccb889e35f62c66c", "png_sha256": "189ec29c77c083d5774f82bede40c2635a96c910c0deedbb05d8daae004ce29b", "linf_uint8": 8}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"step": 3, "fast_text": "PPSB", "fast_tokens": [4406, 16680, 151645], "fast_anls": 0.0, "full_exact": true, "keep_hash": "122c0a96b854077822dd91f677b424ca89265ea4be1233c7e498ee9ddb091b7b", "png_sha256": "cc6373c27c3211a3d3cce48625b9ad2af63f90447caac6fde8e29fda23995dcc", "linf_uint8": 8}

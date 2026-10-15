@@ -1,0 +1,30 @@
+{
+  "stage": "v9c_multiscale_rank_oblivious",
+  "scope": "five-question development admission; not unseen and not generalization",
+  "admission_ids": ["1025", "2008", "7006", "39204", "47450"],
+  "prompt": "week1_mechanism/run_eval.py build_prompt template A, executed from that file",
+  "not_an_official_compressor": true,
+  "families": ["BasePreservingAdaptivePool", "BasePreservingJitteredPool"],
+  "rejected_v9b_families": ["SpatialStridedDrop", "LocalSpatialMerge"],
+  "ratios": [0.25, 0.35, 0.5],
+  "grids": {
+    "0.25": {"height": 14, "width": 13, "tokens": 925},
+    "0.35": {"height": 21, "width": 26, "tokens": 1296},
+    "0.5": {"height": 33, "width": 33, "tokens": 1851}
+  },
+  "grid_rule": "minimize |729+H*(W+1)-round(r*3699)|, then aspect closest to 1, then smaller H, then smaller W; ratio error at most 1%",
+  "jitter_offsets": [0, 1, 2],
+  "jitter_hash": "sha256(seed|sample_id|step|offset_id|page_index)",
+  "clean_step": 0,
+  "clean_anls_minimum": 0.5,
+  "seed": 2026101117,
+  "loss": "L_gray = -E[CE_surrogate(y_clean)] + lambda_fdp*L_NativeFDP + lambda_reg*L_pixel",
+  "training_sample": "admitted families and ratios {0.25, 0.35, 0.50} only; jitter offset_id uniform in {0,1,2}",
+  "optimizer": {"name": "Adam", "lr": 0.00784313725490196, "steps": 200, "eps": 0.03137254901960784},
+  "checkpoints": [0, 10, 25, 50, 75, 100, 150, 200],
+  "checkpoint_rule": ["full text exact", "full token exact", "valid output", "nonzero uint8", "linf <= 8/255+1e-6", "disk replay", "smallest surrogate objective"],
+  "gpus": [0, 1, 4, 6],
+  "lambda_fdp": 0.2486486700704209,
+  "lambda_reg": 2062.940181825187,
+  "lambda_source": "+1/255 on 1025 with BasePreservingAdaptivePool at ratio 0.35; frozen before training and before FastV"
+}

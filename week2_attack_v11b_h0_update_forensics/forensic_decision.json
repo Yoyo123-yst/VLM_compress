@@ -1,0 +1,37 @@
+{
+  "sample_primary": "1025",
+  "gpu": "0",
+  "cases": {
+    "C0_plain_a": {
+      "0": {
+        "png_sha256": "1db6ed59b1bc8c5a14910f3edefbee1c2c5924393689411601c481bd8eb7fa50",
+        "full": "Dr. C. Baur MD",
+        "fastv_0.25": "Dr. C. Baur",
+        "fastv_0.35": "Dr. C. B. B. M.D.",
+        "keep_0.25": "a53951890bfb30461424f891fcd4cf7bfbf4b04edaaa4c8cdb2b43524a7e30f5",
+        "keep_0.35": "ecefcd69ddc95ba41453e8f3d0107d0549d98a02f357965c7e98f8d24698c95e",
+        "margin": 1.1749106049537659
+      },
+      "10": {
+        "png_sha256": "24659afbc9cd84e041e907bcd4feee900e061aed7420e8859f183e27c099cd21",
+        "full": "Dr. C. Baur MD",
+        "fastv_0.25": "Dr. C. Baur",
+        "fastv_0.35": "Dr. C. B. Baur MD",
+        "keep_0.25": "79923150e344207e14538bde680c364577ebaf2eebc1d422695bc331c6a8c325",
+        "keep_0.35": "2ff0d90289f631dd9475c7c467b3be4ffea8af5fca060776745359cbf2bda0f9",
+        "margin": 0.7542470954358578
+      }
+    }
+  },
+  "plain_repeatable": false,
+  "plain_vs_historical": false,
+  "status": "RUNTIME_NONREPEATABLE",
+  "step0_matches_across_plain_and_history": true,
+  "confirmation_60700": {
+    "step0_plain_a_equals_plain_b_and_history": true,
+    "step10_plain_a_equals_plain_b": false,
+    "step10_plain_a_equals_history": false
+  },
+  "not_run": ["C0_trace", "C_all_v11a", "C1_model_generate", "C2_plus_tensor_backward", "C3_plus_forward_hook", "C4_plus_generate_tokens_wrapper", "C5_plus_phase_a_prerun", "H1", "P0", "P1", "O0", "O1"],
+  "reason": "Two wrapper-free Native-FDP processes diverge by step 10 on both 1025 and 60700. Step 0 matches history. The v11a wrappers were not present, so they are not the located cause."
+}

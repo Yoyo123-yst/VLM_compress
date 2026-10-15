@@ -1,0 +1,598 @@
+{
+  "sample_id": "55335",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "92e3c9ae4db190f6057a5e8227bb886defb78fa819bb7d25f61fe30671761ceb",
+  "full_clean": {
+    "text_a": "0.00022",
+    "text_b": "0.00022",
+    "tokens_a": [
+      15,
+      13,
+      15,
+      15,
+      15,
+      17,
+      17,
+      151645
+    ],
+    "tokens_b": [
+      15,
+      13,
+      15,
+      15,
+      15,
+      17,
+      17,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      15,
+      13,
+      15,
+      15,
+      17,
+      17,
+      17,
+      151645
+    ],
+    "text": "0.00222",
+    "anls": 0.8333333333333334,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "d2c243d41cca7a102aab2a9bd7625a50592f724e1890749cf4c472f67bb04fe6",
+    "k": 3699,
+    "second_keep_hash": "d2c243d41cca7a102aab2a9bd7625a50592f724e1890749cf4c472f67bb04fe6",
+    "second_k": 3699
+  },
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "d2c243d41cca7a102aab2a9bd7625a50592f724e1890749cf4c472f67bb04fe6",
+    "reference_keep_hash": "d2c243d41cca7a102aab2a9bd7625a50592f724e1890749cf4c472f67bb04fe6",
+    "fast_keep_exact": true,
+    "k": 3699,
+    "reference_k": 3699
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 6,
+      "target_id": 17,
+      "target_piece": "2",
+      "candidate_id": 21,
+      "candidate_piece": "6",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 0.125,
+      "content_priority": 2,
+      "fast_gradient_l1": 21113.91015625,
+      "fast_gradient_l2": 53.92301940917969,
+      "estimated_fast_flip_linf": 5.920267684903373e-06,
+      "full_clean_hard_min": 1.5,
+      "full_probe_hard_min": 1.5,
+      "full_local_capacity_linf": 0.20392156862745098,
+      "full_local_margin_available": true,
+      "reachability_ratio": 34444.65343137255,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "d2c243d41cca7a102aab2a9bd7625a50592f724e1890749cf4c472f67bb04fe6",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          15,
+          13,
+          15,
+          15,
+          17,
+          17,
+          21,
+          151645
+        ],
+        "text": "0.00226",
+        "keep_hash": "9817200fc60a2b8fb5d8f7ef09c229b1766249bd562a243dda78333fd3c9e608",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.6666666666666667,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "000226",
+      "complete_lexical_similarity_to_clean": 0.8333333333333334,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          15,
+          13,
+          15,
+          15,
+          17,
+          17,
+          21,
+          151645
+        ],
+        "text": "0.00226",
+        "keep_hash": "9817200fc60a2b8fb5d8f7ef09c229b1766249bd562a243dda78333fd3c9e608",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 6,
+      "target_id": 17,
+      "target_piece": "2",
+      "candidate_id": 18,
+      "candidate_piece": "3",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 0.25,
+      "content_priority": 2,
+      "fast_gradient_l1": 14208.5703125,
+      "fast_gradient_l2": 34.79859161376953,
+      "estimated_fast_flip_linf": 1.759501445265484e-05,
+      "full_clean_hard_min": 1.5,
+      "full_probe_hard_min": 1.5,
+      "full_local_capacity_linf": 0.0196078431372549,
+      "full_local_margin_available": true,
+      "reachability_ratio": 1114.3976715686274,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "d2c243d41cca7a102aab2a9bd7625a50592f724e1890749cf4c472f67bb04fe6",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          15,
+          13,
+          15,
+          15,
+          17,
+          17,
+          18,
+          151645
+        ],
+        "text": "0.00223",
+        "keep_hash": "40a40cee1537fc03383742a8952125e9039c2ce58429c07d15744437948c1ee5",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.6666666666666667,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "000223",
+      "complete_lexical_similarity_to_clean": 0.8333333333333334,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          15,
+          13,
+          15,
+          15,
+          17,
+          17,
+          18,
+          151645
+        ],
+        "text": "0.00223",
+        "keep_hash": "40a40cee1537fc03383742a8952125e9039c2ce58429c07d15744437948c1ee5",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 4,
+      "target_id": 17,
+      "target_piece": "2",
+      "candidate_id": 15,
+      "candidate_piece": "0",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 1.125,
+      "content_priority": 2,
+      "fast_gradient_l1": 8615.54296875,
+      "fast_gradient_l2": 21.561861038208008,
+      "estimated_fast_flip_linf": 0.00013057795708065772,
+      "full_clean_hard_min": 1.5,
+      "full_probe_hard_min": 1.375,
+      "full_local_capacity_linf": 0.029411764705882353,
+      "full_local_margin_available": true,
+      "reachability_ratio": 225.24295343137257,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "d2c243d41cca7a102aab2a9bd7625a50592f724e1890749cf4c472f67bb04fe6",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          15,
+          13,
+          15,
+          15,
+          15,
+          17,
+          17,
+          17,
+          151645
+        ],
+        "text": "0.000222",
+        "keep_hash": "c25be89af69d6b56d875fbb70e2135ad5188d71b9967dd2242898134cde7a0c7",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.8571428571428572,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "0000222",
+      "complete_lexical_similarity_to_clean": 0.9230769230769231,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          15,
+          13,
+          15,
+          15,
+          15,
+          17,
+          17,
+          17,
+          151645
+        ],
+        "text": "0.000222",
+        "keep_hash": "c25be89af69d6b56d875fbb70e2135ad5188d71b9967dd2242898134cde7a0c7",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 6,
+      "target_id": 17,
+      "target_piece": "2",
+      "candidate_id": 23,
+      "candidate_piece": "8",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 1.5,
+      "content_priority": 2,
+      "fast_gradient_l1": 12146.9794921875,
+      "fast_gradient_l2": 29.86894416809082,
+      "estimated_fast_flip_linf": 0.0001234874892943341,
+      "full_clean_hard_min": 1.5,
+      "full_probe_hard_min": 1.625,
+      "full_local_capacity_linf": 0.029411764705882353,
+      "full_local_margin_available": true,
+      "reachability_ratio": 238.17606847426472,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "d2c243d41cca7a102aab2a9bd7625a50592f724e1890749cf4c472f67bb04fe6",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          15,
+          13,
+          15,
+          15,
+          17,
+          17,
+          23,
+          151645
+        ],
+        "text": "0.00228",
+        "keep_hash": "d409699d7fde7cec370e4b50756fa14d17f51338c35a696300f23f59cd09960f",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.6666666666666667,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "000228",
+      "complete_lexical_similarity_to_clean": 0.8333333333333334,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          15,
+          13,
+          15,
+          15,
+          17,
+          17,
+          23,
+          151645
+        ],
+        "text": "0.00228",
+        "keep_hash": "d409699d7fde7cec370e4b50756fa14d17f51338c35a696300f23f59cd09960f",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 6,
+      "target_id": 17,
+      "target_piece": "2",
+      "candidate_id": 20,
+      "candidate_piece": "5",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 1.625,
+      "content_priority": 2,
+      "fast_gradient_l1": 15023.349609375,
+      "fast_gradient_l2": 39.9398307800293,
+      "estimated_fast_flip_linf": 0.00010816495936338682,
+      "full_clean_hard_min": 1.5,
+      "full_probe_hard_min": 1.625,
+      "full_local_capacity_linf": 0.029411764705882353,
+      "full_local_margin_available": true,
+      "reachability_ratio": 271.91583003393663,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "d2c243d41cca7a102aab2a9bd7625a50592f724e1890749cf4c472f67bb04fe6",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          15,
+          13,
+          15,
+          15,
+          17,
+          17,
+          20,
+          151645
+        ],
+        "text": "0.00225",
+        "keep_hash": "3439c9e53e192de09f42552478d36021c5307d2e69f56f12e37a2afceec9959e",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.6666666666666667,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "000225",
+      "complete_lexical_similarity_to_clean": 0.8333333333333334,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          15,
+          13,
+          15,
+          15,
+          17,
+          17,
+          20,
+          151645
+        ],
+        "text": "0.00225",
+        "keep_hash": "3439c9e53e192de09f42552478d36021c5307d2e69f56f12e37a2afceec9959e",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 5,
+      "target_id": 17,
+      "target_piece": "2",
+      "candidate_id": 21,
+      "candidate_piece": "6",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 2.0,
+      "content_priority": 2,
+      "fast_gradient_l1": 18211.3125,
+      "fast_gradient_l2": 57.435420989990234,
+      "estimated_fast_flip_linf": 0.00010982184837034673,
+      "full_clean_hard_min": 1.5,
+      "full_probe_hard_min": 1.5,
+      "full_local_capacity_linf": 0.0196078431372549,
+      "full_local_margin_available": true,
+      "reachability_ratio": 178.5422794117647,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "d2c243d41cca7a102aab2a9bd7625a50592f724e1890749cf4c472f67bb04fe6",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          15,
+          13,
+          15,
+          15,
+          17,
+          21,
+          17,
+          151645
+        ],
+        "text": "0.00262",
+        "keep_hash": "b9db2b30cd1afa6a40bffb25a5401e7757a68b89329dc72506fa3eb26664854c",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.6666666666666667,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "000262",
+      "complete_lexical_similarity_to_clean": 0.8333333333333334,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          15,
+          13,
+          15,
+          15,
+          17,
+          21,
+          17,
+          151645
+        ],
+        "text": "0.00262",
+        "keep_hash": "b9db2b30cd1afa6a40bffb25a5401e7757a68b89329dc72506fa3eb26664854c",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 24,
+    "screen_admitted_after_limit": 6,
+    "screen_rejected": 6,
+    "estimated": 6
+  },
+  "rejected_proposals": [
+    {
+      "position": 0,
+      "target_id": 15,
+      "target_piece": "0",
+      "candidate_id": 21,
+      "candidate_piece": "6",
+      "candidate_rank_at_position": 1,
+      "clean_fast_gap": 2.25,
+      "content_priority": 2,
+      "forced_continuation": {
+        "tokens": [
+          21,
+          13,
+          17,
+          151645
+        ],
+        "text": "6.2",
+        "keep_hash": "f1d5d5f82db90060db318c1a494abf9d68f17d4d3989fd23fdb47f68af7ace1c",
+        "k": 3699
+      },
+      "complete_lexical_key": "62",
+      "complete_lexical_similarity_to_clean": 0.25,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 15,
+      "target_piece": "0",
+      "candidate_id": 16,
+      "candidate_piece": "1",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 2.375,
+      "content_priority": 2,
+      "forced_continuation": {
+        "tokens": [
+          16,
+          13,
+          15,
+          151645
+        ],
+        "text": "1.0",
+        "keep_hash": "6e10557a9a0a3b07f154bf398895cfb8a9f30b0f3aab4a1716295cf052775409",
+        "k": 3699
+      },
+      "complete_lexical_key": "10",
+      "complete_lexical_similarity_to_clean": 0.25,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 15,
+      "target_piece": "0",
+      "candidate_id": 18,
+      "candidate_piece": "3",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 2.625,
+      "content_priority": 2,
+      "forced_continuation": {
+        "tokens": [
+          18,
+          13,
+          18,
+          151645
+        ],
+        "text": "3.3",
+        "keep_hash": "065920cc85dbf6dbeb39a69ec716e302e023db3e1dc57e554ec6ff6a4d1846d0",
+        "k": 3699
+      },
+      "complete_lexical_key": "33",
+      "complete_lexical_similarity_to_clean": 0.0,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 15,
+      "target_piece": "0",
+      "candidate_id": 20,
+      "candidate_piece": "5",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 3.125,
+      "content_priority": 2,
+      "forced_continuation": {
+        "tokens": [
+          20,
+          13,
+          15,
+          151645
+        ],
+        "text": "5.0",
+        "keep_hash": "4e3abbcba688af95b4cc86ea9a749f885ed1137f4c2d566c10828e8118ccabe5",
+        "k": 3699
+      },
+      "complete_lexical_key": "50",
+      "complete_lexical_similarity_to_clean": 0.25,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 15,
+      "target_piece": "0",
+      "candidate_id": 17,
+      "candidate_piece": "2",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 3.25,
+      "content_priority": 2,
+      "forced_continuation": {
+        "tokens": [
+          17,
+          13,
+          15,
+          151645
+        ],
+        "text": "2.0",
+        "keep_hash": "163b97db4b8c9bf081e53f8661b158b4950b1c730caadbf00e24ea33ad0cb497",
+        "k": 3699
+      },
+      "complete_lexical_key": "20",
+      "complete_lexical_similarity_to_clean": 0.25,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 0,
+      "target_id": 15,
+      "target_piece": "0",
+      "candidate_id": 19,
+      "candidate_piece": "4",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 4.375,
+      "content_priority": 2,
+      "forced_continuation": {
+        "tokens": [
+          19,
+          13,
+          15,
+          151645
+        ],
+        "text": "4.0",
+        "keep_hash": "411252e9f23bb4711ff24d5e019c430ce22827a86410d9ee74549193d6a64357",
+        "k": 3699
+      },
+      "complete_lexical_key": "40",
+      "complete_lexical_similarity_to_clean": 0.25,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    }
+  ],
+  "candidate_generation_wall_seconds": 108.582,
+  "candidate_generation_compute_accounting": "wall time recorded; attack-phase forward/backward/generate counters do not include this clean-only stage"
+}

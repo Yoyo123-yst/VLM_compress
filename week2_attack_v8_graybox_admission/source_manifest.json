@@ -1,0 +1,49 @@
+{
+  "stage": "week2_attack_v8_graybox_admission",
+  "pixel_optimization_run": false,
+  "target_fastv_generate_run": false,
+  "identity_verdict": "MATERIALLY_DIFFERENT",
+  "admitted_surrogate_count": 0,
+  "evidence": [
+    {
+      "path": "week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/run_v7d.py",
+      "role": "executed backward_method, anchor_grad, fdp_grad, fast_grad, attack loop"
+    },
+    {
+      "path": "week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/losses.py",
+      "role": "decision_floor, soft_anchor, decision_preservation, compressed_loss"
+    },
+    {
+      "path": "week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/FROZEN_COEFFICIENTS.json",
+      "role": "frozen lambda_full, xi, eta"
+    },
+    {
+      "path": "week2_attack_v7d_bplus_dev_protocol_and_paired_evaluation/native_grad.py",
+      "role": "target FastV differentiable replay"
+    },
+    {
+      "path": "week2_attack_v7b_native_cache_margin_admission/native_cache_margin.py",
+      "role": "hard and soft margins, generate token slice, native_rows_from_full_ids"
+    },
+    {
+      "path": "week1_mechanism/adapters/runtime.py",
+      "role": "local compressor hooks: fastv, avtp, pdrop, dart, sparsevlm"
+    },
+    {
+      "path": "week1_mechanism/adapters/DIFF.md",
+      "role": "PyramidDrop, DART, and SparseVLM failure notes"
+    },
+    {
+      "path": "week1_mechanism/compressor_audit.md",
+      "role": "topology and multi-page assumptions"
+    },
+    {
+      "path": "research_budget_hijacking/src/compressors",
+      "role": "token-batch surrogates with no LLaVA-OneVision generate path"
+    },
+    {
+      "path": "research_budget_hijacking/experiments/cage_native_visionzip_multimage_clean_baseline_v2/final_report/cage_native_visionzip_multimage_clean_baseline_v2_report.md",
+      "role": "VisionZip clean cohort stopped; replay not run"
+    }
+  ]
+}

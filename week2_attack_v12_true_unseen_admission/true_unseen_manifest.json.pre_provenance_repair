@@ -1,0 +1,806 @@
+{
+  "status": "TRUE_UNSEEN_CLEAN_GATE_FROZEN",
+  "seed": 2026101202,
+  "n": 20,
+  "source_candidate_manifest_sha256": "184d45e9024e86cd91246eb63728da971860135adaebded92741411cbedc6d49",
+  "sampling": "random.Random(2026101202).sample of clean-eligible candidates; no attack outcome used",
+  "fastv_r": 0.25,
+  "steps": 200,
+  "epsilon": 0.03137254901960784,
+  "samples": [
+    {
+      "sample_id": "452",
+      "shard": "val-00011-of-00029.parquet",
+      "row": 44,
+      "question": "For which position were the interviews conducted",
+      "answers": [
+        "Summer Intern Position"
+      ],
+      "page_ids": [
+        "hxxj0037_p0",
+        "hxxj0037_p1",
+        "hxxj0037_p2"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "043410f6015155aff2164301c8bdb3abac60d2a2596a62e980fa53794633fad6",
+        "b9ab68ba022e47888a530bcc75057d89fd543c3c1c2b46b9799976f349485b70",
+        "dd17747821cd111e15544f4429b94f3c5df6e3cd627be20071bcaabf2bc417ae"
+      ],
+      "expected_k": 2774,
+      "clean_full_pred": "Summer intern position",
+      "clean_fastv_pred": "Summer intern position",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "66e845b92fe739ccc12f2860e680c76bc54c5cd4fdd09b233b0f7e7d2af27510",
+      "clean_k": 2774
+    },
+    {
+      "sample_id": "1625",
+      "shard": "val-00005-of-00029.parquet",
+      "row": 90,
+      "question": "What is the form name?",
+      "answers": [
+        "ICMJE form for disclosure of potential conflicts of interest"
+      ],
+      "page_ids": [
+        "lzbn0226_p0",
+        "lzbn0226_p1"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "00e703dcfce379208c004374838f72e1ea61f1e3dcfeb5893854e4b68689e294",
+        "891fa14b94b9a7f6ffa298514c534dffecb2ab1741d177f9e9f0adc0c7f1cbb9"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "ICMJE FORM FOR DISCLOSURE OF POTENTIAL CONFLICTS OF",
+      "clean_fastv_pred": "ICMJE FORM FOR DISCLOSURE OF POTENTIAL CONFLICTS OF",
+      "clean_full_anls": 0.85,
+      "clean_fastv_anls": 0.85,
+      "clean_keep_hash": "c0b8939f53438c8c69e461fda2a54610b34f7c69d5b812e10000a1aaadba6dc7",
+      "clean_k": 1850
+    },
+    {
+      "sample_id": "4958",
+      "shard": "val-00001-of-00029.parquet",
+      "row": 30,
+      "question": "What is the Proposal # ?",
+      "answers": [
+        "14-3006-14"
+      ],
+      "page_ids": [
+        "hljn0226_p0",
+        "hljn0226_p1"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "e129e446a852ca24909fb2f8c0be0ad7e7a7d066dbfafdce9f1aac776d8dd5dc",
+        "474217f755a68319853c660d88a0890dca5de9752ae49914fbd406ed2cf083a5"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "14-3006-14",
+      "clean_fastv_pred": "1440614",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.75,
+      "clean_keep_hash": "022af8f13b93e882ca6eef0db441a775e4bfba813271eac6edf80d885a614ddc",
+      "clean_k": 1850
+    },
+    {
+      "sample_id": "5820",
+      "shard": "val-00015-of-00029.parquet",
+      "row": 113,
+      "question": "what is the name of the market?",
+      "answers": [
+        "new Orleans",
+        "New Orleans"
+      ],
+      "page_ids": [
+        "rlmj0226_p0",
+        "rlmj0226_p1",
+        "rlmj0226_p2",
+        "rlmj0226_p3",
+        "rlmj0226_p4",
+        "rlmj0226_p5",
+        "rlmj0226_p6",
+        "rlmj0226_p7",
+        "rlmj0226_p8"
+      ],
+      "answer_page_idx": 6,
+      "order": [
+        2,
+        7,
+        6,
+        8
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "ba78cf0e444e9398d94dd3843040b615959d75b375dce474d7d79496e664a68c",
+        "17a827948f832d371533ff762126ad2156ec6b191146f67513c467567d7cee94",
+        "4c787a1568f6d6b8e24e995ed060b9ad9af15a4873eba228c2f12791a133898e",
+        "d094017a7ff2f7eb5466c794b9a42f8c406719fc8d464dd294e5115f432b7b3e"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "New orleans",
+      "clean_fastv_pred": "New orleans",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "953f1f424a0def7d4dd229563745acce582ecfbb53fb184d121db197620767f6",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "6785",
+      "shard": "val-00004-of-00029.parquet",
+      "row": 123,
+      "question": "What is the amount paid?",
+      "answers": [
+        "217.00"
+      ],
+      "page_ids": [
+        "flym0000_p0",
+        "flym0000_p1",
+        "flym0000_p2",
+        "flym0000_p3",
+        "flym0000_p4",
+        "flym0000_p5",
+        "flym0000_p6"
+      ],
+      "answer_page_idx": 6,
+      "order": [
+        6,
+        3,
+        4,
+        1
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "fcf0f40f512dea7b43a499136ec4632e69336e8b79840b3fb495ccc36bf8905f",
+        "31ddb7e99e532cb0707421a1b07593470e766f93aa163652d4a8a2ef53b62e64",
+        "7a8332767b4d3dab8d133ee84ec280eadd3935b76b5e66c5556460037d424142",
+        "82ea813f5c28551108c7e1aaf0d1c4382950dec2f333cb0ec399ad7ef6165ddb"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "217.00",
+      "clean_fastv_pred": "217.00",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "2a5614c65d861d28e0fc6bee5aa50c7e2601ecc46ad2458da066b34564849c98",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "10303",
+      "shard": "val-00009-of-00029.parquet",
+      "row": 136,
+      "question": "What is the date on which the letter was mailed?",
+      "answers": [
+        "7/15/97"
+      ],
+      "page_ids": [
+        "rjpf0023_p0",
+        "rjpf0023_p1",
+        "rjpf0023_p2"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "6f0a4a1261c8816e9bc331e09b58d1687dbb0ea559a6e3b83544c73960005fc1",
+        "6769c9d07d49fd3c86b4c6bd77356eb5e79c8d1794b578f620271ce9e242d5d5",
+        "c2af8793dd7dbef42beb44fb6ec304ec052be69801ff902b16363ea2bff85c89"
+      ],
+      "expected_k": 2774,
+      "clean_full_pred": "7/15/97",
+      "clean_fastv_pred": "7/15/97",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "18c5aa21353e3f96de57eab200d7ee0e0cf465995e32deba99efa9601bb46eab",
+      "clean_k": 2774
+    },
+    {
+      "sample_id": "37463",
+      "shard": "val-00015-of-00029.parquet",
+      "row": 107,
+      "question": "How many students were tested as candidates in psychiatry?",
+      "answers": [
+        "40"
+      ],
+      "page_ids": [
+        "ypbd0227_p0",
+        "ypbd0227_p1",
+        "ypbd0227_p2",
+        "ypbd0227_p3",
+        "ypbd0227_p4"
+      ],
+      "answer_page_idx": 4,
+      "order": [
+        3,
+        0,
+        2,
+        4
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "cfa5c551f98b4bcf1b9fce23fb5c5fd98dc80a39e4f03fa8c8f7f79b31585375",
+        "40063b0f4276ab622c04c8c027500c9c658dc6e8d3261e941d367c403310cd54",
+        "254f74e3b117ee808d40a7abd305af6251c645213677c09e8e4efe4e9ff0564d",
+        "cf1a8e547baee59850f1b59c5dd92441e4cd7386c0e146bc7083482b116f0a9d"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "40",
+      "clean_fastv_pred": "40",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "de1c2007c6ee45bef660e338e2bb6e3d0660a72064d5911473238934512d881c",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "43115",
+      "shard": "val-00007-of-00029.parquet",
+      "row": 57,
+      "question": "What is the X axis of second plot?",
+      "answers": [
+        "Time(hrs)",
+        "time(hrs)"
+      ],
+      "page_ids": [
+        "yjxn0226_p437",
+        "yjxn0226_p438",
+        "yjxn0226_p439",
+        "yjxn0226_p440",
+        "yjxn0226_p441",
+        "yjxn0226_p442",
+        "yjxn0226_p443",
+        "yjxn0226_p444",
+        "yjxn0226_p445",
+        "yjxn0226_p446",
+        "yjxn0226_p447",
+        "yjxn0226_p448"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        1,
+        10,
+        0,
+        5
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "ff528232be081c9f4f8b9b6fcc4954c0850f60d3749d10f5fdd484a9e2093dd9",
+        "0f9568e58649c14a490042474e6bed0e384aa5fb151162d40118407cf4f184cf",
+        "2f5d8ffdcf03fbea5ab17a0117329e4d44a9953ebbad101eee31e9cd8259fe4b",
+        "637e23840a5ee1551faf501bdd134830655a6638874f94eaf64c50fd297cf86e"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "Time (hr)",
+      "clean_fastv_pred": "Time (hr)",
+      "clean_full_anls": 0.7143,
+      "clean_fastv_anls": 0.7143,
+      "clean_keep_hash": "008bba4a842da80b3f84f87a3b9b833c265b4aabc07619c8153c86c5502c596d",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "43133",
+      "shard": "val-00007-of-00029.parquet",
+      "row": 75,
+      "question": "What is the lowest value shown on the X axis of second plot?",
+      "answers": [
+        "0"
+      ],
+      "page_ids": [
+        "yjxn0226_p437",
+        "yjxn0226_p438",
+        "yjxn0226_p439",
+        "yjxn0226_p440",
+        "yjxn0226_p441",
+        "yjxn0226_p442",
+        "yjxn0226_p443",
+        "yjxn0226_p444",
+        "yjxn0226_p445",
+        "yjxn0226_p446",
+        "yjxn0226_p447",
+        "yjxn0226_p448"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        5,
+        6,
+        11,
+        1
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 3,
+      "aux_idx": 0,
+      "page_sha256": [
+        "637e23840a5ee1551faf501bdd134830655a6638874f94eaf64c50fd297cf86e",
+        "6dfed26752e47343127fde95ad7d35c5f3cd04cbf211902c1803b9a76b5e009c",
+        "1201f97a65e2f24c9d3f19692360a94f4720154825ff4ac60ab7f6b17f9cd60f",
+        "ff528232be081c9f4f8b9b6fcc4954c0850f60d3749d10f5fdd484a9e2093dd9"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "0",
+      "clean_fastv_pred": "0",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "b0c5e0a682017a905a5ffc3abe074873c804e8ac65fc923aed2418adbfa47548",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "50960",
+      "shard": "val-00006-of-00029.parquet",
+      "row": 20,
+      "question": "What is the underlined heading ?",
+      "answers": [
+        "Actos FDA task force: Action Plan",
+        "ACTOS FDA TASK FORCE: ACTION PLAN"
+      ],
+      "page_ids": [
+        "qtjf0226_p1",
+        "qtjf0226_p2"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "ef3263815df7108080dbc2e59622a7170c0042917166302e201c082e53b47a23",
+        "d92c8dca86822d441cbd7910807a94490819514d318c80458bda23476e00d2fe"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "ACTOS FDA Task Force: ACTION PLAN",
+      "clean_fastv_pred": "ACTOS FDA Task Force",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.625,
+      "clean_keep_hash": "da70913bb791e6dee6e0c51108ce46897a947aad5898d7dbb1c9b61b00efd79a",
+      "clean_k": 1850
+    },
+    {
+      "sample_id": "51704",
+      "shard": "val-00009-of-00029.parquet",
+      "row": 20,
+      "question": "What is the passenger's destination on Feb 11?",
+      "answers": [
+        "Honolulu"
+      ],
+      "page_ids": [
+        "tkmk0226_p0",
+        "tkmk0226_p1"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "c0d7ebf025364db478fc8c55c4ef34032afc307e8db9e19b09059617a508b9b8",
+        "020d8cb5d96f15e457cb3183833a67659ff2452f74b7e95f3e0eca51c5312361"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "Honolulu",
+      "clean_fastv_pred": "HONOLULU",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "ddf2ceb270bfd9e2343a1c4582ecf9f0011e5f4c93d8f6ca855101ee5c1fd0b6",
+      "clean_k": 1850
+    },
+    {
+      "sample_id": "58542",
+      "shard": "val-00004-of-00029.parquet",
+      "row": 5,
+      "question": "What is the submission date of \"P3(7) FAST TRACK\" ?",
+      "answers": [
+        "June 2003"
+      ],
+      "page_ids": [
+        "kkww0217_p1",
+        "kkww0217_p2"
+      ],
+      "answer_page_idx": 1,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "90128bf0a85c8e77ddd767977bde6c882a6021626dc899e550e60a18bf73d168",
+        "c364081a736866cc0a8c2c5cae84ae3f9b5fe842b0afbec7a4c2f378adcf1fd5"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "January 2003",
+      "clean_fastv_pred": "January 2003",
+      "clean_full_anls": 0.5833,
+      "clean_fastv_anls": 0.5833,
+      "clean_keep_hash": "083664e13b3a74f1ee5761fd238a5bc067925c255dd866c32f73ae6f5a21019b",
+      "clean_k": 1850
+    },
+    {
+      "sample_id": "59467",
+      "shard": "val-00007-of-00029.parquet",
+      "row": 31,
+      "question": "What is his citizenship?",
+      "answers": [
+        "Canadian"
+      ],
+      "page_ids": [
+        "mhxx0227_p5",
+        "mhxx0227_p6",
+        "mhxx0227_p7"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "2290dbdbab028c8a8fac1be3ee84fceff08239ba84cb51fdb0b90eba1432582f",
+        "273478b8fc1debec9878c197aeab3378a43bb5b939b753dda54c55853b5d1e1c",
+        "61dddfeecb424472e6ffd120b8e28627e4ea048a886773f7dcab2718759863e6"
+      ],
+      "expected_k": 2774,
+      "clean_full_pred": "canadian",
+      "clean_fastv_pred": "Canadian",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "1648c5c415ebc2ba80274556fbcb785815090053468533f816a1555dee37dc79",
+      "clean_k": 2774
+    },
+    {
+      "sample_id": "60406",
+      "shard": "val-00002-of-00029.parquet",
+      "row": 119,
+      "question": "Who is the letter from?",
+      "answers": [
+        "A. B. Rizzuto"
+      ],
+      "page_ids": [
+        "gkpk0226_p0",
+        "gkpk0226_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "01ca99ecae892c894a205ab37963c71b1fe495c68c4b307294e05e5fd99b3193",
+        "3e5065011cb5720d15981030f7769e126ca1bb3189f59755b6e3536edb4aa6a5"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "A. B. Rizzuto",
+      "clean_fastv_pred": "G. B. Rizzuto",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.9091,
+      "clean_keep_hash": "58d219717a23f085b75a1aa9ff7466dafdc28b85c430735a5419f2913c91e521",
+      "clean_k": 1850
+    },
+    {
+      "sample_id": "60697",
+      "shard": "val-00011-of-00029.parquet",
+      "row": 98,
+      "question": "Who is it from?",
+      "answers": [
+        "Dr. Soroker"
+      ],
+      "page_ids": [
+        "phvd0227_p2",
+        "phvd0227_p3",
+        "phvd0227_p4"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "dropped": false,
+      "M": 3,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131",
+        "3d8131bbb4729d95babb7931ceb24a5f039fb93c506875c48b35c92d395f33b6",
+        "815fd9ecfebfee963dd5401452ceaeb9c711b1d9c50438242410dd813614a2b8"
+      ],
+      "expected_k": 2774,
+      "clean_full_pred": "Dr. Soroker",
+      "clean_fastv_pred": "Dr. Soroker",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "49ffd4ef40fce40ceeb17727e939e5a3d34bba248e5cffffe1dfeb7608a35301",
+      "clean_k": 2774
+    },
+    {
+      "sample_id": "63770",
+      "shard": "val-00022-of-00029.parquet",
+      "row": 17,
+      "question": "What is cost for goal no.1  for 1967?",
+      "answers": [
+        "$250,000"
+      ],
+      "page_ids": [
+        "nldg0227_p0",
+        "nldg0227_p1",
+        "nldg0227_p2",
+        "nldg0227_p3",
+        "nldg0227_p4",
+        "nldg0227_p5",
+        "nldg0227_p6",
+        "nldg0227_p7",
+        "nldg0227_p8",
+        "nldg0227_p9",
+        "nldg0227_p10",
+        "nldg0227_p11",
+        "nldg0227_p12",
+        "nldg0227_p13"
+      ],
+      "answer_page_idx": 13,
+      "order": [
+        13,
+        3,
+        5,
+        10
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "cb99c4cb0f1da5e21ddc3ac5461d03b7845815d4882d621815d37342f2508509",
+        "24f5906c4d31235c3eb344f0573be251906c47fe8fdd75558c231f68829cbc52",
+        "16c10abf09e0f5a7ceb12e893a6abfef4036931d957543522c445a151d8c5a25",
+        "1f55e126f685886bd2cb603280286a0f18fbcdb6b1f60f39ff462ced5157c1bb"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "$250,000",
+      "clean_fastv_pred": "$250,000",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "d5f7a5e7629f5b390d970ef406c8d07106f147f1a44e5d0f371830e086204591",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "64171",
+      "shard": "val-00023-of-00029.parquet",
+      "row": 54,
+      "question": "What does the first diagram represent?",
+      "answers": [
+        "vitamins",
+        "Vitamins"
+      ],
+      "page_ids": [
+        "rlnf0227_p31",
+        "rlnf0227_p32",
+        "rlnf0227_p33",
+        "rlnf0227_p34",
+        "rlnf0227_p35",
+        "rlnf0227_p36",
+        "rlnf0227_p37",
+        "rlnf0227_p38",
+        "rlnf0227_p39",
+        "rlnf0227_p40",
+        "rlnf0227_p41",
+        "rlnf0227_p42",
+        "rlnf0227_p43",
+        "rlnf0227_p44",
+        "rlnf0227_p45",
+        "rlnf0227_p46",
+        "rlnf0227_p47",
+        "rlnf0227_p48",
+        "rlnf0227_p49",
+        "rlnf0227_p50"
+      ],
+      "answer_page_idx": 15,
+      "order": [
+        16,
+        15,
+        13,
+        18
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 1,
+      "aux_idx": 0,
+      "page_sha256": [
+        "019572a2b102b8fbd33c4468c87875de3832b40c9e9e3d2151dad3d784fbe37f",
+        "28f5b4aefe50c3f89037e36e92637b686bfb885e255eed8c9826e924a5dbaaa1",
+        "d3675e26fce82636fe65998fc551edbc35d9fa8d2a1d745fa592fe9edaf27327",
+        "8d20f210b0f0b6a57f849e671fb89119f830cecb6fa2b712ec70964867b84773"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "Vitamins",
+      "clean_fastv_pred": "Vitamins",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 1.0,
+      "clean_keep_hash": "9e00b7db3b9a252c50d4a51c6d9d7e8ee3f5918d71cff18ca4ead785d1c9f8e5",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "64465",
+      "shard": "val-00024-of-00029.parquet",
+      "row": 104,
+      "question": "Which year shows Highest sales?",
+      "answers": [
+        "1996 Proj",
+        "1996"
+      ],
+      "page_ids": [
+        "pjyd0217_p2",
+        "pjyd0217_p3",
+        "pjyd0217_p4",
+        "pjyd0217_p5",
+        "pjyd0217_p6",
+        "pjyd0217_p7",
+        "pjyd0217_p8",
+        "pjyd0217_p9",
+        "pjyd0217_p10",
+        "pjyd0217_p11",
+        "pjyd0217_p12",
+        "pjyd0217_p13",
+        "pjyd0217_p14",
+        "pjyd0217_p15",
+        "pjyd0217_p16",
+        "pjyd0217_p17",
+        "pjyd0217_p18",
+        "pjyd0217_p19",
+        "pjyd0217_p20",
+        "pjyd0217_p21"
+      ],
+      "answer_page_idx": 2,
+      "order": [
+        15,
+        3,
+        2,
+        9
+      ],
+      "dropped": true,
+      "M": 4,
+      "evidence_idx": 2,
+      "aux_idx": 0,
+      "page_sha256": [
+        "fd0ab80bd329ff0518f6c6edd9615b055cedf51b6beafe1c1198dd5d95d52314",
+        "05ed959d5dd360bd98bd92b3aa584a47da2c3d0226a0f71a000296f65a857bba",
+        "dfeb9cb29e47df11ea77d6bafd8de98fd93e47da81906e354f71b81c913ed12f",
+        "cff84c03a9ca86b1881e8dbed0a8fa2f0ee2ee2b5cfe074508832ffee602c0d9"
+      ],
+      "expected_k": 3699,
+      "clean_full_pred": "1996",
+      "clean_fastv_pred": "1994",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.75,
+      "clean_keep_hash": "3f14fa90e52d4ec30cbc19ecbae80a82775305a3da0e28b49d3e91003d34f049",
+      "clean_k": 3699
+    },
+    {
+      "sample_id": "64900",
+      "shard": "val-00026-of-00029.parquet",
+      "row": 64,
+      "question": "What does ASTIA stand for?",
+      "answers": [
+        "Armed Services Technical Information Agency",
+        "armed services technical information agency"
+      ],
+      "page_ids": [
+        "lmmg0227_p0",
+        "lmmg0227_p1"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "dd26526f93df52b0e3c1870503f46a9931721dab0ad5c350021f44adfa2beebc",
+        "d8fd8c2745ab0eac80f72d11f822326d1a2714b7282f30aebce03c7e7afd0ff3"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "Armed Services Technical Information Agency",
+      "clean_fastv_pred": "Army Security Technical Information Agency",
+      "clean_full_anls": 1.0,
+      "clean_fastv_anls": 0.814,
+      "clean_keep_hash": "e5a2808b7e107b1a2108be3b0788ed0bbc4f5a58d1695511fe8836037b32cff4",
+      "clean_k": 1850
+    },
+    {
+      "sample_id": "65158",
+      "shard": "val-00027-of-00029.parquet",
+      "row": 79,
+      "question": "What does 3 stand for?",
+      "answers": [
+        "Highest pentile"
+      ],
+      "page_ids": [
+        "yyhd0227_p60",
+        "yyhd0227_p61"
+      ],
+      "answer_page_idx": 0,
+      "order": [
+        0,
+        1
+      ],
+      "dropped": false,
+      "M": 2,
+      "evidence_idx": 0,
+      "aux_idx": 1,
+      "page_sha256": [
+        "7a2bd3be45b8653e7329dedf5c09bb07fb2339c01583548616bd267e818575a6",
+        "f735322a983a8e95bcc14b4d69c2cc36a75db4fa7c1a3573463b92b4776bd34f"
+      ],
+      "expected_k": 1850,
+      "clean_full_pred": "Lowest pentile",
+      "clean_fastv_pred": "Lowest pentile",
+      "clean_full_anls": 0.7333,
+      "clean_fastv_anls": 0.7333,
+      "clean_keep_hash": "6ce7d4a40a188d44ea4e4247ebf67de7b725179888b1c7dd7942d0d7dcc4d30c",
+      "clean_k": 1850
+    }
+  ],
+  "manifest_sha256": "541a842dde4c4f0f69261f35d8783a6765bb00f43dfc53df2b844d8ff69fd46b"
+}

@@ -1,0 +1,100 @@
+{
+  "sample_id": "60700",
+  "rows": [
+    {
+      "sample_id": "60700",
+      "pixels": 0.125,
+      "predicted_change": -2.207479476928711,
+      "clean_soft_mean": 2.6554880142211914,
+      "surrogate_soft_mean": 2.676586627960205,
+      "surrogate_hard_mean": 3.5,
+      "surrogate_margins": [
+        {
+          "hard": 0.125,
+          "soft": -0.17309188842773438
+        },
+        {
+          "hard": 6.875,
+          "soft": 5.5262651443481445
+        }
+      ],
+      "surrogate_soft_change": 0.021098613739013672
+    },
+    {
+      "sample_id": "60700",
+      "pixels": 0.25,
+      "predicted_change": -4.414958953857422,
+      "clean_soft_mean": 2.6554880142211914,
+      "surrogate_soft_mean": 2.537385940551758,
+      "surrogate_hard_mean": 3.40625,
+      "surrogate_margins": [
+        {
+          "hard": 0.0,
+          "soft": -0.31394004821777344
+        },
+        {
+          "hard": 6.8125,
+          "soft": 5.388711929321289
+        }
+      ],
+      "surrogate_soft_change": -0.1181020736694336
+    },
+    {
+      "sample_id": "60700",
+      "pixels": 0.5,
+      "predicted_change": -8.829917907714844,
+      "clean_soft_mean": 2.6554880142211914,
+      "surrogate_soft_mean": 2.1995620727539062,
+      "surrogate_hard_mean": 3.0625,
+      "surrogate_margins": [
+        {
+          "hard": -0.5,
+          "soft": -0.7657699584960938
+        },
+        {
+          "hard": 6.625,
+          "soft": 5.164894104003906
+        }
+      ],
+      "surrogate_soft_change": -0.45592594146728516
+    },
+    {
+      "sample_id": "60700",
+      "pixels": 1.0,
+      "predicted_change": -17.659835815429688,
+      "clean_soft_mean": 2.6554880142211914,
+      "surrogate_soft_mean": 2.19711971282959,
+      "surrogate_hard_mean": 3.0625,
+      "surrogate_margins": [
+        {
+          "hard": -0.5,
+          "soft": -0.7757797241210938
+        },
+        {
+          "hard": 6.625,
+          "soft": 5.170019149780273
+        }
+      ],
+      "surrogate_soft_change": -0.45836830139160156
+    },
+    {
+      "sample_id": "60700",
+      "pixels": 2.0,
+      "predicted_change": -35.319671630859375,
+      "clean_soft_mean": 2.6554880142211914,
+      "surrogate_soft_mean": 2.0749526023864746,
+      "surrogate_hard_mean": 3.0,
+      "surrogate_margins": [
+        {
+          "hard": -0.6875,
+          "soft": -0.9913253784179688
+        },
+        {
+          "hard": 6.6875,
+          "soft": 5.141230583190918
+        }
+      ],
+      "surrogate_soft_change": -0.5805354118347168
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "purpose": "BPLUS_DEV_PROTOCOL_AND_PAIRED_EVALUATION",
+  "stage0_decision": "PASS_R015_RECONCILED_DIFFERENT_ENDPOINT_OR_ARTIFACT_SOURCE",
+  "r015_counts_must_not_be_mixed": {
+    "stage1_predicate": "31/60",
+    "v7c_predicate": "45/60"
+  },
+  "dev_ids": [
+    "1025",
+    "2008",
+    "7006",
+    "39204",
+    "47450",
+    "47567",
+    "50779",
+    "51133",
+    "60700",
+    "6194",
+    "62941",
+    "64506"
+  ],
+  "dev_is_not_a_generalization_set": true,
+  "epsilon": 0.03137254901960784,
+  "steps": 200,
+  "seed": 2026101102,
+  "init": "zero delta",
+  "optimizer": {
+    "name": "Adam",
+    "lr": 0.00784313725490196
+  },
+  "quantization": "uint8 projection inside the Linf ball, same page_uint8/project helpers as the frozen runners",
+  "generate": "greedy model.generate do_sample=False max_new_tokens=16 use_cache=True",
+  "selector": {
+    "name": "prospective_feasible",
+    "may_read": [
+      "step",
+      "nonzero",
+      "output_valid",
+      "uint8_linf",
+      "full_exact",
+      "native_compressed_margin"
+    ],
+    "must_not_read": [
+      "anls",
+      "reference_answer",
+      "fastv_text_semantics",
+      "strict"
+    ]
+  },
+  "disk_replay_after_selector": true,
+  "r_train": [
+    0.25,
+    0.35
+  ],
+  "r_eval": [
+    0.5,
+    0.35,
+    0.25,
+    0.15
+  ],
+  "xi": 1.0,
+  "eta": 0.001,
+  "a_bar": "min(a_clean_hard, max(a_clean_hard - xi, eta)); never above the clean native hard margin",
+  "clean_prefix": "tokens from one clean Full generate, no appended EOS",
+  "L_compressed": "mean soft margin of each train-ratio FastV path on that path's own greedy tokens",
+  "L_native_soft_anchor": "mean softplus(a_bar - soft_margin of the fixed clean prefix under the attack Full forward)",
+  "L_FDP": "mean softplus(clean_hard_margin - attack hard margin) on the fixed clean prefix; one-sided decision floor, not the soft-anchor",
+  "methods_are_not_renames": "B-Native uses the soft anchor. native-FDP replaces only that term with the hard-margin floor. B+ adds lambda_gap * (-D) on r_train only.",
+  "L_B_native": "L_compressed + lambda_full * L_native_soft_anchor",
+  "L_native_fdp": "L_compressed + lambda_full * L_FDP",
+  "L_Bplus": "L_compressed + lambda_full * L_FDP + lambda_gap * (-D)",
+  "D": "m_full - 0.5*(m_fast_0.25+m_fast_0.35), each m is the mean soft margin of that path's own greedy tokens",
+  "lambda_rule": "Record gradient L2 at delta=0 and at one fixed +1/255 probe. Freeze coefficients from the +1/255 probe only: lambda_full = grad_norm(L_compressed)/max(grad_norm(L_FDP),1e-12); lambda_gap = grad_norm(L_compressed)/max(grad_norm(L_conditional_gap),1e-12). delta=0 is recorded and does not set a second coefficient. No sweep and no retune after strict results.",
+  "calibration_order": "sha256(sample_id) over pristine60; first id outside the dev12 whose native aux gradient is finite and nonzero",
+  "calibration_candidates_in_order": [
+    "51070",
+    "53993",
+    "57531",
+    "51660",
+    "50906",
+    "51140",
+    "15282",
+    "51702",
+    "1170",
+    "790",
+    "49432",
+    "58827",
+    "58421",
+    "57887",
+    "62321",
+    "25716",
+    "55463",
+    "64689",
+    "50312",
+    "47572",
+    "49123",
+    "1023",
+    "2288",
+    "8122",
+    "65118",
+    "51298",
+    "46737",
+    "5412",
+    "6942",
+    "41828",
+    "7029",
+    "56403",
+    "58371",
+    "50803",
+    "53463",
+    "5497",
+    "57258",
+    "60744",
+    "8072",
+    "59379",
+    "5615",
+    "18736",
+    "55363",
+    "57221",
+    "5159",
+    "58434",
+    "58449",
+    "5586",
+    "22317",
+    "56808",
+    "18831",
+    "49530",
+    "56084",
+    "43150",
+    "44779",
+    "55160",
+    "45827",
+    "7937",
+    "62650",
+    "41800"
+  ],
+  "health_rule": "the next three candidates in that order after the calibration id, none of them in the dev12",
+  "smoke_sample": "1025",
+  "smoke_steps": [
+    2,
+    25
+  ],
+  "gpus": {
+    "0": "0",
+    "1": "2",
+    "2": "4",
+    "3": "6"
+  },
+  "shard_rule": "sorted dev ids by the frozen dev list order, shard i gets ids[i::4]",
+  "native_module": "week2_attack_v7b_native_cache_margin_admission/native_cache_margin.py",
+  "manual_full_answer_logits": "DISALLOWED",
+  "no_new_holdout": true,
+  "historical_b_52_of_60_unchanged": true,
+  "gpu_ids": [
+    0,
+    2,
+    4,
+    6
+  ],
+  "dev_ids_sorted": [
+    "1025",
+    "2008",
+    "6194",
+    "7006",
+    "39204",
+    "47450",
+    "47567",
+    "50779",
+    "51133",
+    "60700",
+    "62941",
+    "64506"
+  ],
+  "shard_map": {
+    "0": [
+      "1025",
+      "39204",
+      "51133"
+    ],
+    "2": [
+      "2008",
+      "47450",
+      "60700"
+    ],
+    "4": [
+      "6194",
+      "47567",
+      "62941"
+    ],
+    "6": [
+      "7006",
+      "50779",
+      "64506"
+    ]
+  },
+  "canonical_strict": "valid_output AND nonzero AND uint8_linf<=8/255+1e-6 AND Full_text==clean_Full_text AND FastV_ANLS<0.5 AND disk_replay_matches",
+  "stage1_decision": "PASS_R015_RECONCILED_STRICT_DEFINITION_DRIFT",
+  "stage2_decision": "PASS_DIFFERENTIABLE_FASTV_FULL_SEQUENCE_ADMISSION",
+  "method_order": [
+    "B-Native",
+    "native-FDP",
+    "B+"
+  ],
+  "public_names": {
+    "B-Native": "B_NATIVE",
+    "native-FDP": "NATIVE_FDP",
+    "B+": "B_PLUS"
+  }
+}

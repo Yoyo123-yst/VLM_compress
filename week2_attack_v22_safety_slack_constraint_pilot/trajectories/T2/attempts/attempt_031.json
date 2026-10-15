@@ -1,0 +1,78 @@
+{
+  "attempt": 31,
+  "l_core_before": 0.9518070220947266,
+  "l_core_graph": 0.9518070220947266,
+  "l_side": 0.0,
+  "grad_cosine": null,
+  "accepted": false,
+  "reason": "FULL_GUARD_REJECT",
+  "optimizer_before": "9e6a91a2615179468c6aa217f4eb01a178d5cc29afee00555876c6f52f8d01a1",
+  "uint8_linf": 8,
+  "full_text_exact": false,
+  "full_token_exact": false,
+  "full_text": "Dr. or Mrs. William J. Daraby",
+  "core_hard_mean": 0.1625,
+  "core_margins": [
+    {
+      "position": 5,
+      "token_id": 12375,
+      "piece": " William",
+      "hard_margin": -0.25,
+      "soft_margin": -0.32233619689941406
+    },
+    {
+      "position": 6,
+      "token_id": 619,
+      "piece": " J",
+      "hard_margin": 3.8125,
+      "soft_margin": 3.736440658569336
+    },
+    {
+      "position": 7,
+      "token_id": 13,
+      "piece": ".",
+      "hard_margin": -2.25,
+      "soft_margin": -2.3387317657470703
+    },
+    {
+      "position": 8,
+      "token_id": 15017,
+      "piece": " Dar",
+      "hard_margin": 4.125,
+      "soft_margin": 3.9397354125976562
+    },
+    {
+      "position": 9,
+      "token_id": 1694,
+      "piece": "by",
+      "hard_margin": -4.625,
+      "soft_margin": -4.707559585571289
+    }
+  ],
+  "full_hard_min": -0.875,
+  "weakest_full_token": {
+    "position": 9,
+    "token_id": 1694,
+    "piece": "by",
+    "hard_margin": -0.875,
+    "soft_margin": -0.905853271484375
+  },
+  "fast_text": "Dr. or Mrs. william J Daraby",
+  "fast_tokens": [
+    8847,
+    13,
+    476,
+    17618,
+    13,
+    686,
+    4932,
+    619,
+    15017,
+    6115,
+    151645
+  ],
+  "k": 3699,
+  "keep_hash": "591331d6686fb2d42fae4382956c10234d05be415f600aa0f1b2446a561306c0",
+  "optimizer_after_rollback": "9e6a91a2615179468c6aa217f4eb01a178d5cc29afee00555876c6f52f8d01a1",
+  "rollback_matches": true
+}

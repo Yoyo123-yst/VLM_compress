@@ -1,0 +1,263 @@
+{
+  "sample_id": "2008",
+  "clean_text": "March 1968",
+  "attack_chosen": {
+    "step": 100,
+    "nonzero": 1,
+    "output_valid": 1,
+    "linf_ok": 1,
+    "pixel_linf_uint8": 0.03137254901960784,
+    "margin": 0.34617412090301514,
+    "replay": 1
+  },
+  "status": "NO_VALID_COMPENSATED_CANDIDATE",
+  "comp_chosen": null,
+  "comp_accepted": 100,
+  "comp_rejected": 0,
+  "attack_ref_margin": 0.34617412090301514,
+  "endpoints": {
+    "CLEAN": {
+      "full_text": "March 1968",
+      "full_tokens": [
+        27523,
+        220,
+        16,
+        24,
+        21,
+        23,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 4.0089287757873535,
+      "full_soft": 3.532197952270508,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "March 1968",
+          "tokens": [
+            27523,
+            220,
+            16,
+            24,
+            21,
+            23,
+            151645
+          ],
+          "valid": true,
+          "anls": 1.0,
+          "k": 3699,
+          "keep_hash": "b3801ea0907e520af7f41e295783f92dc937f5d711c95a60b39fa5779c5d15f3",
+          "hook_match": 1,
+          "hard": 4.053571701049805,
+          "soft": 3.580799102783203,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.35": {
+          "text": "March 1956",
+          "tokens": [
+            27523,
+            220,
+            16,
+            24,
+            20,
+            21,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.8,
+          "k": 2589,
+          "keep_hash": "83204a20618bee809000a0265c2bccdf9597fb274ab9de01dc9c69fd602453b0",
+          "hook_match": 1,
+          "hard": 4.160714626312256,
+          "soft": 3.7519938945770264,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.25": {
+          "text": "March 1956",
+          "tokens": [
+            27523,
+            220,
+            16,
+            24,
+            20,
+            21,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.8,
+          "k": 1850,
+          "keep_hash": "12b60b3eaf3c916fb7986dcba0f09933d1e58fee8f6012afcc3d99a51724107c",
+          "hook_match": 1,
+          "hard": 3.9285717010498047,
+          "soft": 3.553571939468384,
+          "replay": true,
+          "endpoint_failure": false
+        },
+        "0.15": {
+          "text": "March 1956",
+          "tokens": [
+            27523,
+            220,
+            16,
+            24,
+            20,
+            21,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.8,
+          "k": 1110,
+          "keep_hash": "6e7739c0a695daf17ecdfb87ef17a62e14b447af240b2b5a349b83025bb33825",
+          "hook_match": 1,
+          "hard": 3.9732143878936768,
+          "soft": 3.6022729873657227,
+          "replay": true,
+          "endpoint_failure": false
+        }
+      },
+      "aux_sha256": "fe5a6c3c88a77ef33b42e1c45d0fe2b28b39f37be8983db7e6d753ceef12f8f4",
+      "other_page_sha256": [
+        "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+      ],
+      "norms": {
+        "linf_uint8": 0,
+        "linf": 0.0,
+        "l1": 0.0,
+        "l2": 0.0
+      }
+    },
+    "ATTACK_ONLY": {
+      "full_text": "EOR March 23, 1953",
+      "full_tokens": [
+        36,
+        868,
+        5470,
+        220,
+        17,
+        18,
+        11,
+        220,
+        16,
+        24,
+        20,
+        18,
+        151645
+      ],
+      "full_valid": true,
+      "full_hard": 2.399038553237915,
+      "full_soft": 1.8116354942321777,
+      "full_replay": true,
+      "ratios": {
+        "0.50": {
+          "text": "February 1, 1953",
+          "tokens": [
+            32777,
+            220,
+            16,
+            11,
+            220,
+            16,
+            24,
+            20,
+            18,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 3699,
+          "keep_hash": "4ad84e4927c5fb554e711f18bc50a094a473cbe82437491f3252f788c10cd4db",
+          "hook_match": 1,
+          "hard": 1.149999976158142,
+          "soft": 0.5949645042419434,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.35": {
+          "text": "January, 1923",
+          "tokens": [
+            32227,
+            11,
+            220,
+            16,
+            24,
+            17,
+            18,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 2589,
+          "keep_hash": "5d5d583e366da77c19d09251a9f8e13f32623674f5aeb54d94e4cc485d07238c",
+          "hook_match": 1,
+          "hard": 1.046875,
+          "soft": 0.39376628398895264,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.25": {
+          "text": "Dec. 1938",
+          "tokens": [
+            4900,
+            13,
+            220,
+            16,
+            24,
+            18,
+            23,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.0,
+          "k": 1850,
+          "keep_hash": "fc3fb75fdf81e2c70f31fc91d2910111eeaad10c54bcf401b96a3724bf27dd84",
+          "hook_match": 1,
+          "hard": 1.2109375,
+          "soft": 0.37904787063598633,
+          "replay": true,
+          "endpoint_failure": true
+        },
+        "0.15": {
+          "text": "March 1956",
+          "tokens": [
+            27523,
+            220,
+            16,
+            24,
+            20,
+            21,
+            151645
+          ],
+          "valid": true,
+          "anls": 0.8,
+          "k": 1110,
+          "keep_hash": "247b5f71c0803d47419819cb4fca75ec6132de8eaf7a36593911b31f8b8d62c2",
+          "hook_match": 1,
+          "hard": 3.1517858505249023,
+          "soft": 2.7293903827667236,
+          "replay": true,
+          "endpoint_failure": false
+        }
+      },
+      "aux_sha256": "c28abbb827c38f1344b03b99f663d3c86de19551e9e154454d39cc2778ab119a",
+      "other_page_sha256": [
+        "bf4af79625d814c291d01a7cd30f1a562b4af2d48ff9183d84c439706ae97e24"
+      ],
+      "norms": {
+        "linf_uint8": 8,
+        "linf": 0.03137254901960784,
+        "l1": 7124918.0,
+        "l2": 7139.001470794077
+      }
+    }
+  },
+  "counters": {
+    "forward": 8902,
+    "backward": 300,
+    "generate": 1070,
+    "fastv": 1040
+  },
+  "elapsed_sec": 2111.209100524895,
+  "peak_memory_mib": 23100.09619140625
+}

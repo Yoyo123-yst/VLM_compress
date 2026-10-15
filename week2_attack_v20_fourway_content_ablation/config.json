@@ -1,0 +1,55 @@
+{
+  "tag_full": "full_dev_fourway_v1",
+  "optimizer": "sign_pgd",
+  "step_alpha": 0.00392156862745098,
+  "step_alpha_note": "Frozen before smoke. Smoke does not retune alpha from content outcomes.",
+  "epsilon": 0.03137254901960784,
+  "epsilon_uint8": 8,
+  "lambda_full": 2.6371882367154997,
+  "train_ratio": 0.25,
+  "eval_ratios": [
+    0.15,
+    0.25,
+    0.35,
+    0.5
+  ],
+  "eval_ratio_note": "Only 0.25 trains. Other ratios are transfer diagnostics and cannot select a checkpoint.",
+  "max_accepted": 25,
+  "max_attempts": 40,
+  "checkpoints": [
+    0,
+    1,
+    5,
+    10,
+    15,
+    20,
+    25
+  ],
+  "seed": 2026101102,
+  "methods": {
+    "A": "dynamic_sequence",
+    "B": "fixed_all",
+    "C": "fixed_noeos",
+    "D": "core_content"
+  },
+  "gpu_by_method": {
+    "A": "0",
+    "B": "1",
+    "C": "4",
+    "D": "6"
+  },
+  "selector": "lowest attack surrogate among legal PNG checkpoints; earlier checkpoint wins ties",
+  "selector_forbidden_inputs": [
+    "ANLS",
+    "CONTENT_FAILURE",
+    "gold semantic label",
+    "attack success"
+  ],
+  "smoke_samples": [
+    "60700",
+    "47450"
+  ],
+  "smoke_max_accepted": 4,
+  "noise_replicates": 3,
+  "unseen": "NOT_OPENED"
+}

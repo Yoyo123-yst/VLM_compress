@@ -1,0 +1,28 @@
+{
+  "layout": {
+    "page_tokens": 3699,
+    "base": 729,
+    "base_side": 27,
+    "high_side": 54,
+    "high_stride": 55
+  },
+  "ratios": [0.25, 0.35],
+  "allocation": "per page, identical rule, no cross-page competition",
+  "policies": {
+    "SpatialStridedDrop": {
+      "mechanism": "delete",
+      "content_keep": "k = max(1, round(n * r)); indices (j * n) // k"
+    },
+    "LocalSpatialMerge": {
+      "mechanism": "merge",
+      "group_width": {"0.25": 4, "0.35": 3},
+      "reduction": "mean of the group; position is the first source index"
+    },
+    "SeededBlockDrop": {
+      "mechanism": "structured block delete",
+      "seed": 2026101109,
+      "block": "2x2 from the top-left",
+      "role": "structured surrogate augmentation, not an official compressor"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:11<00:34, 11.56s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:17<00:16,  8.42s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:26<00:08,  8.42s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  5.74s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:27<00:00,  6.96s/it]
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/home/yuesiting/autodl-tmp/multimodal_attack_project/week2_attack_v20_fourway_content_ablation/run_train.py:210: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  reloadable = list(reloaded.getdata()) == list(image.getdata())
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "60700", "method": "D", "checkpoint": 0, "nonzero": false, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 2.6415657997131348, "png_sha256": "cb570d562ce35409681b09506d68f4506d2ae4c8956c1efad3525b2ef184b131", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "D", "attempt": 1, "accepted": true, "accepted_after": 1, "attack_loss": 2.6415657997131348, "fdp_loss": 0.6729645133018494, "grad_hash": "9138da25e320f2699d165a2815e646737274c2a149d13ebdf87a588ed05beaf6", "keep_hash": "9ee935326eac4dc0687e3d8153e3eb074db87628e98294c48aa4768cc2f3ffdc", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "60700", "method": "D", "checkpoint": 1, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 2.586860179901123, "png_sha256": "0ad8ee198086bd14a63f357223a75506faa8b5f28d29fca03462f3f39e46a048", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "D", "attempt": 2, "accepted": true, "accepted_after": 2, "attack_loss": 2.6227164268493652, "fdp_loss": 0.48324140906333923, "grad_hash": "2c85cac0f9a84aa36154cad04e285eb67406b99fb4507997cc1b4f9448925645", "keep_hash": "71a15af210328645759fde78e1700825ab467cb6b73aa98095f45cb1827fdc5e", "fastv_text": "PPBS"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "D", "attempt": 3, "accepted": true, "accepted_after": 3, "attack_loss": 2.4761695861816406, "fdp_loss": 0.3015037477016449, "grad_hash": "16ac2cd3c4e91fafd81fc3c5b8efb4749e2ea75dba86df788192c1a33441bb5c", "keep_hash": "d634db15f6462c09dca6055e0091022e0e0927e0bef2a16a8d8a650c4b7ee02a", "fastv_text": "Ppbs"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "60700", "method": "D", "attempt": 4, "accepted": true, "accepted_after": 4, "attack_loss": 2.1897640228271484, "fdp_loss": 0.30705004930496216, "grad_hash": "7a5e2c52e2a34677c1b9da0a7504c19d759b0e07b777d1b8b084701e51dd00d8", "keep_hash": "a9b4b4dc0ae366911cc82f3bfa0d02339d09f0ea81c8059872d1af576b34df3d", "fastv_text": "Ppbs"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "60700", "method": "D", "checkpoint": 4, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 2.0555763244628906, "png_sha256": "061c242866d0ffda3e78e696ce3ee2a27827fd1807905618df8b28043a5bbe23", "fastv_text": "Ppbs"}
+{"event": "done", "sample": "60700", "method": "D", "accepted": 4, "selector": {"checkpoint": 4, "attack_surrogate": 2.0555763244628906}}
+{"sample": "60700", "method": "D", "status": "DONE"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "47450", "method": "D", "checkpoint": 0, "nonzero": false, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 6.058230876922607, "png_sha256": "7bab8be8ede326621c16376d55769d696a6a969772ab2116685a1628eba55f8d", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "D", "attempt": 1, "accepted": true, "accepted_after": 1, "attack_loss": 6.058230876922607, "fdp_loss": 0.6855561137199402, "grad_hash": "4d6bf700c03b4e80fd35f86b32c0b0e3e54a7668be0f5545c474d41caf319dbe", "keep_hash": "23d358e23fca3e121b80fbb02a1f878d92f580da8fd24f01375e8ddbde88c9bd", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "47450", "method": "D", "checkpoint": 1, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 6.08746862411499, "png_sha256": "deb092b376ea86e8d079e2dbbb4f96d54b6f309b2592f3af16abddeb998cd05d", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "D", "attempt": 2, "accepted": true, "accepted_after": 2, "attack_loss": 6.079333782196045, "fdp_loss": 0.5961122512817383, "grad_hash": "2c8eb34d8a7cc613b507a78aeaf30422f59259aeb219c89f469dc2d76de41e5e", "keep_hash": "98f7beae67d688f72cee8aea8902408227df96b68b29f973035de579690e5f15", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "D", "attempt": 3, "accepted": true, "accepted_after": 3, "attack_loss": 5.945549011230469, "fdp_loss": 0.5814145803451538, "grad_hash": "ce6900b3942ed9da3ea6c38417c58ceeb465dc98b0aba3f0688447bdd8dc43d2", "keep_hash": "b811677db3bf0fc909af1e7044291a30e2db4b04c0ee1b246163be4115a6f639", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "update", "sample": "47450", "method": "D", "attempt": 4, "accepted": true, "accepted_after": 4, "attack_loss": 5.817076683044434, "fdp_loss": 0.5422090888023376, "grad_hash": "9e91239ee22d1f8132cfcd6ff0013c8e6b7a2b31dfe8a702314b23f5dcf3b919", "keep_hash": "d5fd56d60210b9e2741a89db5ffe10d75bc32f02c273dfe7b121ce22c7987086", "fastv_text": "Dr. or Mrs. William J. Darby"}
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+{"event": "checkpoint", "sample": "47450", "method": "D", "checkpoint": 4, "nonzero": true, "output_valid": true, "full_text_exact": true, "full_token_exact": true, "full_replay": true, "linf_ok": true, "png_reloadable": true, "attack_surrogate": 5.540259838104248, "png_sha256": "2caa8f0cbf0b69a8b304aed684287bdc6fb5a480c918624ce7a05d03cedf29f7", "fastv_text": "Dr. or Mrs. William J. Darby"}
+{"event": "done", "sample": "47450", "method": "D", "accepted": 4, "selector": {"checkpoint": 4, "attack_surrogate": 5.540259838104248}}
+{"sample": "47450", "method": "D", "status": "DONE"}

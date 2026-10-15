@@ -1,0 +1,68 @@
+{
+  "sample_id": "1025",
+  "chosen_step": 75,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "Dr. C. Baur MD",
+  "clean_text": "Dr. C. Baur MD",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 4.82172966003418,
+  "pollution": 0,
+  "strict_train": 1,
+  "by_ratio": {
+    "0.50": {
+      "text": "Dr. C. Baur MD",
+      "anls": 0.9166666666666666,
+      "margin": 3.4916253089904785,
+      "keep": {
+        "k": 5548,
+        "keep_hash": "28756fdde9e69247a78f7d47e69efde08d40da8d218714ff6a381f2a60a13635",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 1.3301043510437012
+    },
+    "0.35": {
+      "text": "Hines, O.",
+      "anls": 0.0,
+      "margin": -1.160611867904663,
+      "keep": {
+        "k": 3884,
+        "keep_hash": "f9bcbe14d289a9f2a04651b041033d600e6b3169359735a8886d2568b52f32c0",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 5.982341527938843
+    },
+    "0.25": {
+      "text": "Prof. Dr. Ch. U. H. H. H. H.",
+      "anls": 0.0,
+      "margin": -1.2344132661819458,
+      "keep": {
+        "k": 2774,
+        "keep_hash": "91c5a9fbf753ef86e341a21192533bfccf200b4ee51d044c7e02bb396a363cc5",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 6.0561429262161255
+    },
+    "0.15": {
+      "text": "Takeda",
+      "anls": 0.0,
+      "margin": 1.6214356422424316,
+      "keep": {
+        "k": 1665,
+        "keep_hash": "8c065b611ac7313bd520459edf3c452faa2fabf4ecdd8c94d630fb6c9d16d258",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 1,
+      "delta": 3.200294017791748
+    }
+  },
+  "selector_margin": -1.1975125670433044
+}

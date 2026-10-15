@@ -1,0 +1,17 @@
+{
+  "decision": "FAIL_FULL_BASELINE_REPLAY",
+  "failed_sample": "1025",
+  "frozen_text": "Dr. C. Baur MD",
+  "generated_text": "",
+  "generated_token_ids": [151645],
+  "image_tokens": 11097,
+  "expected_image_tokens": 11097,
+  "first_token_eos_logit": 28.875,
+  "dr_token_rank": 66272,
+  "surrogate_generate_run": false,
+  "pixel_optimization_run": false,
+  "target_fastv_access_count": 0,
+  "target_fastv_modules_loaded": [],
+  "new_attack_success_rate": null,
+  "next_stage_allowed": false
+}

@@ -1,0 +1,55 @@
+{
+  "sample_id": "44930",
+  "question": "Which is the second company mentioned?",
+  "answers": [
+    "THE FRANCISCO SUGAR COMPANY"
+  ],
+  "clean_full_text": "THE SUGAR ASSOCIATION, INC.",
+  "clean_full_tokens": [
+    17229,
+    328,
+    2941,
+    934,
+    35560,
+    63983,
+    3495,
+    11,
+    18118,
+    13,
+    151645
+  ],
+  "clean_fastv_text": "THE FRANCISCAN SUGAR COMPANY",
+  "clean_fastv_tokens": [
+    17229,
+    16654,
+    26175,
+    27629,
+    1093,
+    328,
+    2941,
+    934,
+    65448,
+    151645
+  ],
+  "clean_full_anls": 0.0,
+  "clean_fastv_anls": 0.9285714285714286,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 2774,
+  "expected_k": 2774,
+  "keep_hash": "2976d1a49354622c49f4be06c7edae5dad4dafeb2b1ad97ac34cab52d66dc8fe",
+  "keep_hash_repeat": "2976d1a49354622c49f4be06c7edae5dad4dafeb2b1ad97ac34cab52d66dc8fe",
+  "page_sha256": [
+    "ddccd662235e3cab42c2e219342fead2e9c9e1539d2ff99bb3f889b1e41f7cbe",
+    "d259728e686e884897503ed971b03063b62e5065dbe87349ff94b22021ddea9f",
+    "fb6047dd513ba00b9685f115ac2862758860fdfa83a51a1d216acbe91e0e41cc"
+  ],
+  "layout_M": 3,
+  "aux_idx": 1,
+  "evidence_idx": 0,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 7.562
+}

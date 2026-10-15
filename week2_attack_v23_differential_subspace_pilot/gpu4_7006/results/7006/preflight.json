@@ -1,0 +1,43 @@
+{
+  "sample_id": "7006",
+  "reference_tokens": [
+    49,
+    41,
+    45072,
+    65110,
+    8188,
+    151645
+  ],
+  "reference_pieces": [
+    "R",
+    "J",
+    " Reynolds",
+    " Tobacco",
+    " Company",
+    "<|im_end|>"
+  ],
+  "core_positions": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "base_fast_text": "RJ Reynolds Tobacco Company",
+  "base_full_text": "RJ Reynolds Tobacco Company",
+  "base_keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+  "base_processor_hash": "c6802c92b97fc486364ead0fd3b80346b504e829030b3da5bb6e1f53ceabda3a",
+  "base_full_exact": true,
+  "gradient_prepared_hash": "c6802c92b97fc486364ead0fd3b80346b504e829030b3da5bb6e1f53ceabda3a",
+  "diff_meta": {
+    "eigenvalue": 814746.75,
+    "basis_rank": 11,
+    "core_response": 1425.6446533203125
+  },
+  "direction_hashes": {
+    "RAW": "93185587fabbc128eb58e3547b00209f55f94c0181fd8f78b7596374bfec5204",
+    "NATIVE": "c120ac4bf6bfde46439b3dc3838a8663beb6a0596e9db92a75b872f37a143eb2",
+    "DIFF": "5ba748ad9d57f1d43ebae40fff713ccdca14fb51a69f23b45cdae17c523843ee",
+    "RANDOM": "d5da34df2f73e62d8885a8d5d11ed2cb142c387648a7f2ecdbf500f472603860"
+  }
+}

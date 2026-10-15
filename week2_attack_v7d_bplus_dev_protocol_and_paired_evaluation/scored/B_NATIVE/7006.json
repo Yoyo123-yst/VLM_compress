@@ -1,0 +1,68 @@
+{
+  "sample_id": "7006",
+  "chosen_step": 75,
+  "selector_legal": true,
+  "hash_match": 1,
+  "full_text": "RJ Reynolds Tobacco Company",
+  "clean_text": "RJ Reynolds Tobacco Company",
+  "full_exact": 1,
+  "replay": 1,
+  "nonzero": 1,
+  "linf": 0.03137257695198059,
+  "linf_ok": 1,
+  "invalid": 0,
+  "m_full": 4.229887008666992,
+  "pollution": 0,
+  "strict_train": 0,
+  "by_ratio": {
+    "0.50": {
+      "text": "RJ Reynolds Tobacco Company",
+      "anls": 0.962962962962963,
+      "margin": 3.733989715576172,
+      "keep": {
+        "k": 7398,
+        "keep_hash": "5197cbedfe8ba3574dd62131f750588abbbaacbd1cff5cca9fb93948aed30c67",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 0.4958972930908203
+    },
+    "0.35": {
+      "text": "RJ Reynolds Tobacco Company",
+      "anls": 0.962962962962963,
+      "margin": 1.6244014501571655,
+      "keep": {
+        "k": 5179,
+        "keep_hash": "ec170567398b88684f624c8aab391cf39f64c214883a0516a3b67ee617158922",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 2.6054855585098267
+    },
+    "0.25": {
+      "text": "RJ Reynolds Tobacco Company",
+      "anls": 0.962962962962963,
+      "margin": 1.6042721271514893,
+      "keep": {
+        "k": 3699,
+        "keep_hash": "0d764d2f9af96cbbedbb7061136f53f02d308fe0dfaeadce8bb8dfcc4890e389",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 2.625614881515503
+    },
+    "0.15": {
+      "text": "Tobacco Company",
+      "anls": 0.5769230769230769,
+      "margin": 3.2284576892852783,
+      "keep": {
+        "k": 2219,
+        "keep_hash": "728397e1cac0c9e7ff20376c604ee8fc62249a49b1b12c8e6f37ae136ce0f8cb",
+        "hook_match": 1
+      },
+      "strict_at_ratio": 0,
+      "delta": 1.0014293193817139
+    }
+  },
+  "selector_margin": 1.6143367886543274
+}

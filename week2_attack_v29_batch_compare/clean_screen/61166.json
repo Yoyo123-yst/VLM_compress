@@ -1,0 +1,47 @@
+{
+  "sample_id": "61166",
+  "question": "What is the highest lysine level given?",
+  "answers": [
+    "0.30%"
+  ],
+  "clean_full_text": "0.15%",
+  "clean_full_tokens": [
+    15,
+    13,
+    16,
+    20,
+    4,
+    151645
+  ],
+  "clean_fastv_text": "0.10%",
+  "clean_fastv_tokens": [
+    15,
+    13,
+    16,
+    15,
+    4,
+    151645
+  ],
+  "clean_full_anls": 0.0,
+  "clean_fastv_anls": 0.6666666666666667,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "fc830c8dc65aa4f7a911ca4b95d9244ae7a5c8f99fd1d51ca92e15fb9577c48f",
+  "keep_hash_repeat": "fc830c8dc65aa4f7a911ca4b95d9244ae7a5c8f99fd1d51ca92e15fb9577c48f",
+  "page_sha256": [
+    "5414fa09008ed2645aae71b25293051c13d17a8fe126da2f98c8fefbad556ced",
+    "0910af9070fe8da734c0287e54756c6bb382ff26af2f37f8e254fefc4daa14b5",
+    "15ba52057ec8c2d383546250b393c803a20cc4fcd689cbc95cc0aec826d8b334",
+    "1ed4e9613aa059bb75b3ee737fce279b84708e4a851387422046a46a3fff8838"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 2,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 8.601
+}

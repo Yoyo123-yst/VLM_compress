@@ -1,0 +1,28 @@
+{
+  "status": "EVALUATED_INDEPENDENT_PROCESS",
+  "sample_id": "65311",
+  "method": "native_fdp",
+  "independent_process": true,
+  "png_path": "week2_attack_v29_batch_compare/attacks/native_fdp/65311/accepted_020.png",
+  "png_sha256": "c711d6e3cdd33ce9df8253e678a3d3789e46c17e2f3523cb77a9403dc1af6ab8",
+  "uint8_linf": 8,
+  "clean_full_text": "Barranquilla",
+  "full_text": "Barranquilla",
+  "full_text_exact": true,
+  "full_token_exact": true,
+  "same_evaluator_process_repeat_exact": true,
+  "fastv_text": "Barruqued",
+  "fastv_anls": 0.0,
+  "fastv_valid": true,
+  "k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "69e777ee2df2eb5752059b67da4291b0353f778add122ecb27eb26fe1adde0c8",
+  "dataset_answers": [
+    "BARRANQUILLA",
+    "Barranquilla"
+  ],
+  "target_text": null,
+  "target_hit_normalized_exact": false,
+  "content_status": "PENDING_QUESTION_SPECIFIC_REVIEW",
+  "semantic_review_required": true
+}

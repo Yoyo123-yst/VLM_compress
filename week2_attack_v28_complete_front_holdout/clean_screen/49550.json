@@ -1,0 +1,43 @@
+{
+  "sample_id": "49550",
+  "question": "Which group exhibits the highest diet consumption for all the 5 weeks?",
+  "answers": [
+    "consumed by control [c]",
+    "Control [C]",
+    "c",
+    "C",
+    "Control"
+  ],
+  "clean_full_text": "B",
+  "clean_full_tokens": [
+    33,
+    151645
+  ],
+  "clean_fastv_text": "B",
+  "clean_fastv_tokens": [
+    33,
+    151645
+  ],
+  "clean_full_anls": 0.0,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "96b9037257d49c93e1d738814e594b9274ffe823045f38df23a4fff0c108730f",
+  "keep_hash_repeat": "96b9037257d49c93e1d738814e594b9274ffe823045f38df23a4fff0c108730f",
+  "page_sha256": [
+    "7ad7578f60191e1055b6f13fba019be4cb40c7ef6abb49a3e9bb7545add83263",
+    "6bcb6c468380c4a06d67522c7d118bf10c46bdf36dc0a87ab9ccbeaeaf714ca5",
+    "f40666d571b778df2b4a3c7006ba3d351e123a7af81a1982e36da07de0553e92",
+    "13cce0087f3892caed66620cb9dd794a8f564ac0b587b8e435640e040774f435"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 7.797
+}

@@ -1,0 +1,169 @@
+{
+  "sample_id": "7006",
+  "status": "PASS_SCORE_DIRECTION_SMOKE",
+  "development_only": true,
+  "ratio": 0.25,
+  "alpha": 0.00392156862745098,
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+    "reference_keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+    "fast_keep_exact": true,
+    "k": 3699,
+    "reference_k": 3699
+  },
+  "clean_fast": {
+    "tokens": [
+      49,
+      41,
+      45072,
+      65110,
+      8188,
+      151645
+    ],
+    "text": "RJ Reynolds Tobacco Company",
+    "anls": 0.962962962962963,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+    "k": 3699,
+    "second_keep_hash": "3ad5a4c026352e3f25bb54a17e68032696db45d00b2189384bf54ca390e5a178",
+    "second_k": 3699
+  },
+  "correct_sequences": [
+    {
+      "tokens": [
+        49,
+        41,
+        45072,
+        65110,
+        8188,
+        151645
+      ],
+      "text": "RJ Reynolds Tobacco Company"
+    },
+    {
+      "tokens": [
+        49,
+        41,
+        693,
+        1872,
+        18431,
+        65110,
+        8188,
+        151645
+      ],
+      "text": "RJReynolds Tobacco Company"
+    }
+  ],
+  "wrong_sequence": {
+    "tokens": [
+      12676,
+      31367,
+      50221,
+      13,
+      151645
+    ],
+    "text": "Public Relations Dept."
+  },
+  "before": {
+    "correct_scores": [
+      -0.19715873897075653,
+      -0.700240433216095
+    ],
+    "correct_softmax_weights": [
+      0.6231832670159524,
+      0.37681673298404766
+    ],
+    "correct_logsumexp": 0.2757558959180847,
+    "wrong_score": -0.9320151209831238,
+    "objective": 1.2077710169012086,
+    "wrong_advantage_vs_best_correct": -0.7348563820123672,
+    "gradient_l1": 2651.693359375,
+    "gradient_l2": 8.729619026184082,
+    "gradient_linf": 0.5576103925704956
+  },
+  "predicted_objective_after_sign_step": -9.19102647084389,
+  "after_anchored_fixed_keep": {
+    "correct_scores": [
+      -0.2058713138103485,
+      -0.7125065326690674
+    ],
+    "correct_logsumexp": 0.2657057757460773,
+    "wrong_score": -0.7865698933601379,
+    "objective": 1.0522756691062152,
+    "wrong_advantage_vs_best_correct": -0.5806985795497894
+  },
+  "finite_nonzero_gradient": true,
+  "anchored_natural_after_step": {
+    "full_tokens": [
+      49,
+      41,
+      45072,
+      65110,
+      8188,
+      151645
+    ],
+    "full_text": "RJ Reynolds Tobacco Company",
+    "full_exact": true,
+    "fast_tokens": [
+      49,
+      41,
+      45072,
+      65110,
+      8188,
+      151645
+    ],
+    "fast_text": "RJ Reynolds Tobacco Company",
+    "keep_hash": "cfc581c19b0707d238b624986e9edca6ec8796ead008ebc479c94b4820b20ebf",
+    "k": 3699,
+    "natural_keep_sequence_scores": {
+      "correct_scores": [
+        -0.20507538318634033,
+        -0.7027341723442078
+      ],
+      "correct_logsumexp": 0.26988614748307255,
+      "wrong_score": -0.8076713681221008,
+      "objective": 1.0775575156051733,
+      "wrong_advantage_vs_best_correct": -0.6025959849357605
+    }
+  },
+  "png_replay_after_step": {
+    "full_tokens": [
+      49,
+      41,
+      45072,
+      65110,
+      8188,
+      151645
+    ],
+    "full_text": "RJ Reynolds Tobacco Company",
+    "full_exact": true,
+    "fast_tokens": [
+      49,
+      41,
+      45072,
+      65110,
+      8188,
+      151645
+    ],
+    "fast_text": "RJ Reynolds Tobacco Company",
+    "keep_hash": "2dee535ea8fa6ff378a24a9a3cd665f788558d372af58f2bc96180e1b2281438",
+    "k": 3699,
+    "natural_keep_sequence_scores": {
+      "correct_scores": [
+        -0.1926041841506958,
+        -0.6947122812271118
+      ],
+      "correct_logsumexp": 0.28067742974619914,
+      "wrong_score": -0.8139142394065857,
+      "objective": 1.0945916691527848,
+      "wrong_advantage_vs_best_correct": -0.6213100552558899
+    }
+  },
+  "png_path": "week2_attack_v25_full_answer_competition_pilot/score_smoke_v2/7006.png",
+  "png_rgb_sha256": "81f52fdd057a4213e72c94c7f15ae31e9bfb29d930f09f3d3b5d28d57774ac5e",
+  "uint8_linf": 1,
+  "pass_gate": true
+}

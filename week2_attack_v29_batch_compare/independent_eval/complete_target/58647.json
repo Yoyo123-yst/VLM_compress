@@ -1,0 +1,28 @@
+{
+  "status": "EVALUATED_INDEPENDENT_PROCESS",
+  "sample_id": "58647",
+  "method": "complete_target",
+  "independent_process": true,
+  "png_path": "week2_attack_v29_batch_compare/attacks/complete_target/58647/accepted_013.png",
+  "png_sha256": "3dfc82e06fe74f15c3652e6a3963a5fe2eb0c7e958c1de78d7fa9913f9d304ea",
+  "uint8_linf": 8,
+  "clean_full_text": "That cigarette smoking is dangerous to your health",
+  "full_text": "That cigarette smoking is dangerous to your health",
+  "full_text_exact": true,
+  "full_token_exact": true,
+  "same_evaluator_process_repeat_exact": true,
+  "fastv_text": "Smoking is dangerous to your health",
+  "fastv_anls": 0.7142857142857143,
+  "fastv_valid": true,
+  "k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "b1eba9236d7a8ad75f13019c580ed67bcd956ebdb9b33648fbcaa6da03791b44",
+  "dataset_answers": [
+    "The cigarette smoking is dangerous to your health",
+    "The Cigarette Smoking Is Dangerous to Your Health"
+  ],
+  "target_text": "Smoking causes lung cancer",
+  "target_hit_normalized_exact": false,
+  "content_status": "PENDING_QUESTION_SPECIFIC_REVIEW",
+  "semantic_review_required": true
+}

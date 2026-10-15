@@ -1,0 +1,46 @@
+{
+  "sample_id": "4953",
+  "question": "What is the Venue Owner Name?",
+  "answers": [
+    "B.B.& D. Inc."
+  ],
+  "clean_full_text": "B&B & D. Inc.",
+  "clean_full_tokens": [
+    33,
+    48239,
+    609,
+    422,
+    13,
+    4848,
+    13,
+    151645
+  ],
+  "clean_fastv_text": "KVA",
+  "clean_fastv_tokens": [
+    42,
+    12820,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 3699,
+  "expected_k": 3699,
+  "keep_hash": "337ff58ccf5dd363fd82187195ac0e9b2959aa9e37e3bd65396c433debe29e18",
+  "keep_hash_repeat": "337ff58ccf5dd363fd82187195ac0e9b2959aa9e37e3bd65396c433debe29e18",
+  "page_sha256": [
+    "9fa2fd87b4910f7d8982501fa8e763f18c5cd6cf6d0c93eccfa442603b06933c",
+    "60f9be4e266ffcaf9aab5f96a15f903ff8663411d10109b12084efc80ea43eb6",
+    "ed16b0086ed00af6635a096581418f17eabe073839ad316d0b810c6bd34c2414",
+    "fb45944ee8970474b39e2895658fe986b55218017fbfe2997a57970d455a07a7"
+  ],
+  "layout_M": 4,
+  "aux_idx": 0,
+  "evidence_idx": 2,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 7.967
+}

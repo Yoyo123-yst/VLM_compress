@@ -1,0 +1,455 @@
+{
+  "sample_id": "51024",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "0efbe07aefdd9d9164a02a055d9d3f36eb0f317a7cb7e30fb9e515fbb7d75637",
+  "full_clean": {
+    "text_a": "Dinner",
+    "text_b": "Dinner",
+    "tokens_a": [
+      35,
+      4382,
+      151645
+    ],
+    "tokens_b": [
+      35,
+      4382,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      35,
+      4382,
+      151645
+    ],
+    "text": "Dinner",
+    "anls": 1.0,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "fd3a2890258ae4f1715389f018b7e645d2d0d1d63b08ceb33fa63b17d6e0645e",
+    "k": 3699,
+    "second_keep_hash": "fd3a2890258ae4f1715389f018b7e645d2d0d1d63b08ceb33fa63b17d6e0645e",
+    "second_k": 3699
+  },
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "fd3a2890258ae4f1715389f018b7e645d2d0d1d63b08ceb33fa63b17d6e0645e",
+    "reference_keep_hash": "fd3a2890258ae4f1715389f018b7e645d2d0d1d63b08ceb33fa63b17d6e0645e",
+    "fast_keep_exact": true,
+    "k": 3699,
+    "reference_k": 3699
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 0,
+      "target_id": 35,
+      "target_piece": "D",
+      "candidate_id": 693,
+      "candidate_piece": "Re",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 6.875,
+      "content_priority": 1,
+      "fast_gradient_l1": 22726.50390625,
+      "fast_gradient_l2": 65.39102935791016,
+      "estimated_fast_flip_linf": 0.0003025102333539877,
+      "full_clean_hard_min": 3.25,
+      "full_probe_hard_min": 3.125,
+      "full_local_capacity_linf": 0.10196078431372549,
+      "full_local_margin_available": true,
+      "reachability_ratio": 337.049041889483,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "fd3a2890258ae4f1715389f018b7e645d2d0d1d63b08ceb33fa63b17d6e0645e",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          693,
+          995,
+          151645
+        ],
+        "text": "Reception",
+        "keep_hash": "a62d46bed9cadee41f0b521b39c2b06ff018c82a3945abbc771d8c38df80e8ea",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "reception",
+      "complete_lexical_similarity_to_clean": 0.26666666666666666,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          693,
+          995,
+          151645
+        ],
+        "text": "Reception",
+        "keep_hash": "a62d46bed9cadee41f0b521b39c2b06ff018c82a3945abbc771d8c38df80e8ea",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 35,
+      "target_piece": "D",
+      "candidate_id": 1150,
+      "candidate_piece": "DE",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 6.9375,
+      "content_priority": 1,
+      "fast_gradient_l1": 17983.7734375,
+      "fast_gradient_l2": 54.08818435668945,
+      "estimated_fast_flip_linf": 0.00038576442391861064,
+      "full_clean_hard_min": 3.25,
+      "full_probe_hard_min": 3.125,
+      "full_local_capacity_linf": 0.10196078431372549,
+      "full_local_margin_available": true,
+      "reachability_ratio": 264.3084172407702,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "fd3a2890258ae4f1715389f018b7e645d2d0d1d63b08ceb33fa63b17d6e0645e",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          1150,
+          1093,
+          11,
+          3385,
+          1093,
+          151645
+        ],
+        "text": "DEAN, DEAN",
+        "keep_hash": "999b73c401d4a292e53923caafe2703e6498b16f0ecbda1b4e1f80d4d925ffc5",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "deandean",
+      "complete_lexical_similarity_to_clean": 0.42857142857142855,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          1150,
+          1093,
+          11,
+          3385,
+          1093,
+          151645
+        ],
+        "text": "DEAN, DEAN",
+        "keep_hash": "999b73c401d4a292e53923caafe2703e6498b16f0ecbda1b4e1f80d4d925ffc5",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 1,
+      "target_id": 4382,
+      "target_piece": "inner",
+      "candidate_id": 687,
+      "candidate_piece": "IN",
+      "candidate_rank_at_position": 2,
+      "clean_fast_gap": 7.625,
+      "content_priority": 1,
+      "fast_gradient_l1": 8695.9755859375,
+      "fast_gradient_l2": 32.02387619018555,
+      "estimated_fast_flip_linf": 0.000876842388142234,
+      "full_clean_hard_min": 3.25,
+      "full_probe_hard_min": 3.125,
+      "full_local_capacity_linf": 0.10196078431372549,
+      "full_local_margin_available": true,
+      "reachability_ratio": 116.28176932658309,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "fd3a2890258ae4f1715389f018b7e645d2d0d1d63b08ceb33fa63b17d6e0645e",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          35,
+          687,
+          45,
+          4321,
+          151645
+        ],
+        "text": "DINNERS",
+        "keep_hash": "c901f6896cdb34573b3760bf653d023d6496794956c9c3fbd31ca179230099b9",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.8571428571428572,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "dinners",
+      "complete_lexical_similarity_to_clean": 0.9230769230769231,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          35,
+          687,
+          45,
+          4321,
+          151645
+        ],
+        "text": "DINNERS",
+        "keep_hash": "c901f6896cdb34573b3760bf653d023d6496794956c9c3fbd31ca179230099b9",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 35,
+      "target_piece": "D",
+      "candidate_id": 10048,
+      "candidate_piece": "Sup",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 8.4375,
+      "content_priority": 1,
+      "fast_gradient_l1": 14401.1328125,
+      "fast_gradient_l2": 41.390682220458984,
+      "estimated_fast_flip_linf": 0.0005858914093672101,
+      "full_clean_hard_min": 3.25,
+      "full_probe_hard_min": 3.25,
+      "full_local_capacity_linf": 0.24313725490196078,
+      "full_local_margin_available": true,
+      "reachability_ratio": 414.9868917937546,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "fd3a2890258ae4f1715389f018b7e645d2d0d1d63b08ceb33fa63b17d6e0645e",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          10048,
+          712,
+          151645
+        ],
+        "text": "Supper",
+        "keep_hash": "29a5ddb06395f18938ef85722b25cbbba297ab87dcf84b56c92513766c8c1750",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "supper",
+      "complete_lexical_similarity_to_clean": 0.3333333333333333,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          10048,
+          712,
+          151645
+        ],
+        "text": "Supper",
+        "keep_hash": "29a5ddb06395f18938ef85722b25cbbba297ab87dcf84b56c92513766c8c1750",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 35,
+      "target_piece": "D",
+      "candidate_id": 50241,
+      "candidate_piece": "Ban",
+      "candidate_rank_at_position": 8,
+      "clean_fast_gap": 8.5,
+      "content_priority": 1,
+      "fast_gradient_l1": 12666.576171875,
+      "fast_gradient_l2": 36.44729232788086,
+      "estimated_fast_flip_linf": 0.0006710574258317327,
+      "full_clean_hard_min": 3.25,
+      "full_probe_hard_min": 3.125,
+      "full_local_capacity_linf": 0.10196078431372549,
+      "full_local_margin_available": true,
+      "reachability_ratio": 151.9404754181084,
+      "estimated_feasible_at_eps": true,
+      "clean_keep_hash": "fd3a2890258ae4f1715389f018b7e645d2d0d1d63b08ceb33fa63b17d6e0645e",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          50241,
+          23300,
+          151645
+        ],
+        "text": "Banquet",
+        "keep_hash": "fb2dfa4b57059785583fcfd7379f1108b543bdc77ae6d6ec3f161b283f63a209",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "banquet",
+      "complete_lexical_similarity_to_clean": 0.3076923076923077,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          50241,
+          23300,
+          151645
+        ],
+        "text": "Banquet",
+        "keep_hash": "fb2dfa4b57059785583fcfd7379f1108b543bdc77ae6d6ec3f161b283f63a209",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 1,
+      "target_id": 4382,
+      "target_piece": "inner",
+      "candidate_id": 5740,
+      "candidate_piece": "ining",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 9.6875,
+      "content_priority": 1,
+      "fast_gradient_l1": 11465.6171875,
+      "fast_gradient_l2": 34.8206672668457,
+      "estimated_fast_flip_linf": 0.0008449174467957528,
+      "full_clean_hard_min": 3.25,
+      "full_probe_hard_min": 3.25,
+      "full_local_capacity_linf": 0.0,
+      "full_local_margin_available": false,
+      "reachability_ratio": 0.0,
+      "estimated_feasible_at_eps": false,
+      "clean_keep_hash": "fd3a2890258ae4f1715389f018b7e645d2d0d1d63b08ceb33fa63b17d6e0645e",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          35,
+          5740,
+          151645
+        ],
+        "text": "Dining",
+        "keep_hash": "b6747ef8746187f05bc5164ddb6e3eddf6d269460913c4254e2f0710ec9c54ef",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "dining",
+      "complete_lexical_similarity_to_clean": 0.6666666666666666,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          35,
+          5740,
+          151645
+        ],
+        "text": "Dining",
+        "keep_hash": "b6747ef8746187f05bc5164ddb6e3eddf6d269460913c4254e2f0710ec9c54ef",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 12,
+    "screen_admitted_after_limit": 6,
+    "screen_rejected": 3,
+    "estimated": 6
+  },
+  "rejected_proposals": [
+    {
+      "position": 0,
+      "target_id": 35,
+      "target_piece": "D",
+      "candidate_id": 48091,
+      "candidate_piece": " Dinner",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 6.9375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          48091,
+          151645
+        ],
+        "text": "Dinner",
+        "keep_hash": "1ac975d3dc7a180392919b05cd45e556ae15a05a962b20dd4830bec8a86c75d2",
+        "k": 3699
+      },
+      "complete_lexical_key": "dinner",
+      "complete_lexical_similarity_to_clean": 1.0,
+      "screen_rejection": "LEXICALLY_EQUIVALENT"
+    },
+    {
+      "position": 0,
+      "target_id": 35,
+      "target_piece": "D",
+      "candidate_id": 110653,
+      "candidate_piece": "晚餐",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 8.1875,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          110653,
+          151645
+        ],
+        "text": "晚餐",
+        "keep_hash": "7ec3019e2daaa398708105eae4537b27e5da3bc1b10a9c8bcd5b12a41a47e701",
+        "k": 3699
+      },
+      "complete_lexical_key": "晚餐",
+      "complete_lexical_similarity_to_clean": 0.0,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 1,
+      "target_id": 4382,
+      "target_piece": "inner",
+      "candidate_id": 258,
+      "candidate_piece": "in",
+      "candidate_rank_at_position": 3,
+      "clean_fast_gap": 8.4375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          35,
+          258,
+          4972,
+          151645
+        ],
+        "text": "Dinners",
+        "keep_hash": "988a50bc11e1922aac786912555aa937debd80d4611791857b56a9c7623f0a22",
+        "k": 3699
+      },
+      "complete_lexical_key": "dinners",
+      "complete_lexical_similarity_to_clean": 0.9230769230769231,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    }
+  ],
+  "candidate_generation_wall_seconds": 78.842,
+  "candidate_generation_compute_accounting": "wall time recorded; attack-phase forward/backward/generate counters do not include this clean-only stage"
+}

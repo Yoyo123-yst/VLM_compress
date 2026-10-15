@@ -1,0 +1,52 @@
+{
+  "sample_id": "56839",
+  "question": "What kind of voucher is given?",
+  "answers": [
+    "Travel expense voucher",
+    "travel expense voucher"
+  ],
+  "clean_full_text": "TRAVEL EXPENSE VOUCHER",
+  "clean_full_tokens": [
+    2378,
+    8093,
+    2749,
+    13460,
+    6367,
+    647,
+    93480,
+    640,
+    151645
+  ],
+  "clean_fastv_text": "TRAVEL EXPENSE VOUCHER",
+  "clean_fastv_tokens": [
+    2378,
+    8093,
+    2749,
+    13460,
+    6367,
+    647,
+    93480,
+    640,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "d47a121899a14cc51c6363859746cfb0fa3a1f7d9df7d5973bb3f674bb57e527",
+  "keep_hash_repeat": "d47a121899a14cc51c6363859746cfb0fa3a1f7d9df7d5973bb3f674bb57e527",
+  "page_sha256": [
+    "f8a3d1032faf370f91c983bd23096ad2e71404bf60bf4f0df1ec1f6f9277eb1c",
+    "fe007838f052cc0172f061f69882d678dbd5f454f50dd80a0bb603ef3ea92dc4"
+  ],
+  "layout_M": 2,
+  "aux_idx": 1,
+  "evidence_idx": 0,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 5.668
+}

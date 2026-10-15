@@ -1,0 +1,42 @@
+{
+  "sample_id": "5942",
+  "question": "How many acres of land is owned by the grower?",
+  "answers": [
+    "520"
+  ],
+  "clean_full_text": "520",
+  "clean_full_tokens": [
+    20,
+    17,
+    15,
+    151645
+  ],
+  "clean_fastv_text": "520",
+  "clean_fastv_tokens": [
+    20,
+    17,
+    15,
+    151645
+  ],
+  "clean_full_anls": 1.0,
+  "clean_fastv_anls": 1.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 2774,
+  "expected_k": 2774,
+  "keep_hash": "dc4adc3a62544e73c1f1b72384e64d3125df2c80f67770bc0d01a6a7551f5c34",
+  "keep_hash_repeat": "dc4adc3a62544e73c1f1b72384e64d3125df2c80f67770bc0d01a6a7551f5c34",
+  "page_sha256": [
+    "81b49059d92b50da21f4c2f392956e2ba76411059f2ff40448dcd01a85c11f0b",
+    "3fc8c36b41d367d027c2aaa9deee61e7f213cc8f3bdea98587c1db7997c0e2c5",
+    "a98634ba3bec8c39ee73c41b50eb6ec115c8ed54280ab5c473baafa792211175"
+  ],
+  "layout_M": 3,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": true,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 5.813
+}

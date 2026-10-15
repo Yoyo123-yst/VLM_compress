@@ -1,0 +1,54 @@
+{
+  "sample_id": "5529",
+  "question": "what is the ISBN code?",
+  "answers": [
+    "0-02-874010-6"
+  ],
+  "clean_full_text": "0-310-06401-6",
+  "clean_full_tokens": [
+    15,
+    12,
+    18,
+    16,
+    15,
+    12,
+    15,
+    21,
+    19,
+    15,
+    16,
+    12,
+    21,
+    151645
+  ],
+  "clean_fastv_text": "199905",
+  "clean_fastv_tokens": [
+    16,
+    24,
+    24,
+    24,
+    15,
+    20,
+    151645
+  ],
+  "clean_full_anls": 0.0,
+  "clean_fastv_anls": 0.0,
+  "full_valid": true,
+  "fastv_valid": true,
+  "full_same_process_repeat": true,
+  "fastv_same_process_repeat": true,
+  "fastv_k": 1850,
+  "expected_k": 1850,
+  "keep_hash": "01a5e7f71c930165519ab5c4116204220c9b73e1a3ba78291a675950163e9abc",
+  "keep_hash_repeat": "01a5e7f71c930165519ab5c4116204220c9b73e1a3ba78291a675950163e9abc",
+  "page_sha256": [
+    "1ccd91c6aa01362f6664301a958590e1999437dc7cc1e789b64df38ee149be78",
+    "582d2b2a3ef9fc18c8b43252c5b3776e32a6fe16100a01fcb0cf84e4c49dcaf8"
+  ],
+  "layout_M": 2,
+  "aux_idx": 0,
+  "evidence_idx": 1,
+  "clean_gate_eligible": false,
+  "replay_scope": "IN_PROCESS_REPEAT_ONLY; independent process reserved for final PNG evaluator",
+  "seconds": 5.963
+}

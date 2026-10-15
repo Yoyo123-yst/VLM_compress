@@ -1,0 +1,451 @@
+{
+  "sample_id": "4742",
+  "ratio": 0.25,
+  "device": 0,
+  "source": "clean_dataset_page_only",
+  "clean_aux_png_sha256": "2989c91cacab544e6d71c14a23b3128a3e1aedae6fc2eef733afdc262ba8e659",
+  "full_clean": {
+    "text_a": "Marehead Ky",
+    "text_b": "Marehead Ky",
+    "tokens_a": [
+      44,
+      546,
+      1983,
+      22878,
+      151645
+    ],
+    "tokens_b": [
+      44,
+      546,
+      1983,
+      22878,
+      151645
+    ],
+    "text_exact": true,
+    "token_exact": true,
+    "replay": true
+  },
+  "fast_clean": {
+    "tokens": [
+      7661,
+      1983,
+      22878,
+      151645
+    ],
+    "text": "Morehead Ky",
+    "anls": 1.0,
+    "valid": true,
+    "replay": true,
+    "keep_hash": "850f1ff068e8ea314669513e7f700e8c4467c3a1410727dcdea313bc035ce95f",
+    "k": 3699,
+    "second_keep_hash": "850f1ff068e8ea314669513e7f700e8c4467c3a1410727dcdea313bc035ce95f",
+    "second_k": 3699
+  },
+  "zero_injection_audit": {
+    "pixel_tensor_exact": true,
+    "fast_tokens_exact": true,
+    "fast_keep_hash": "850f1ff068e8ea314669513e7f700e8c4467c3a1410727dcdea313bc035ce95f",
+    "reference_keep_hash": "850f1ff068e8ea314669513e7f700e8c4467c3a1410727dcdea313bc035ce95f",
+    "fast_keep_exact": true,
+    "k": 3699,
+    "reference_k": 3699
+  },
+  "candidate_selector_uses_labels": false,
+  "status": "CLEAN_ADMITTED_CANDIDATES_PENDING_REVIEW",
+  "candidates": [
+    {
+      "position": 0,
+      "target_id": 7661,
+      "target_piece": "More",
+      "candidate_id": 10531,
+      "candidate_piece": "MO",
+      "candidate_rank_at_position": 4,
+      "clean_fast_gap": 3.3125,
+      "content_priority": 1,
+      "fast_gradient_l1": 2280.70703125,
+      "fast_gradient_l2": 7.941627502441406,
+      "estimated_fast_flip_linf": 0.0014524004857320492,
+      "full_clean_hard_min": 0.0,
+      "full_probe_hard_min": -0.125,
+      "full_local_capacity_linf": 0.0,
+      "full_local_margin_available": false,
+      "reachability_ratio": 0.0,
+      "estimated_feasible_at_eps": false,
+      "clean_keep_hash": "850f1ff068e8ea314669513e7f700e8c4467c3a1410727dcdea313bc035ce95f",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          10531,
+          5881,
+          35433,
+          49479,
+          151645
+        ],
+        "text": "MOOREHEAD KY",
+        "keep_hash": "092043373cf04abf07b6ccf01bdbdbb75c61aefba2918409ef2d00a07f50ec73",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.9166666666666666,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "mooreheadky",
+      "complete_lexical_similarity_to_clean": 0.9523809523809523,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          10531,
+          5881,
+          35433,
+          49479,
+          151645
+        ],
+        "text": "MOOREHEAD KY",
+        "keep_hash": "092043373cf04abf07b6ccf01bdbdbb75c61aefba2918409ef2d00a07f50ec73",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 2,
+      "target_id": 22878,
+      "target_piece": " Ky",
+      "candidate_id": 24987,
+      "candidate_piece": " Kentucky",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 3.625,
+      "content_priority": 1,
+      "fast_gradient_l1": 1530.779541015625,
+      "fast_gradient_l2": 5.93576192855835,
+      "estimated_fast_flip_linf": 0.002368074502481869,
+      "full_clean_hard_min": 0.0,
+      "full_probe_hard_min": 0.0,
+      "full_local_capacity_linf": 0.0,
+      "full_local_margin_available": false,
+      "reachability_ratio": 0.0,
+      "estimated_feasible_at_eps": false,
+      "clean_keep_hash": "850f1ff068e8ea314669513e7f700e8c4467c3a1410727dcdea313bc035ce95f",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          7661,
+          1983,
+          24987,
+          151645
+        ],
+        "text": "Morehead Kentucky",
+        "keep_hash": "af66d9430b43e73990661d40759e90b4f4775f3f9d127a1edd2ee86d85952563",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.6470588235294117,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "moreheadkentucky",
+      "complete_lexical_similarity_to_clean": 0.7692307692307693,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          7661,
+          1983,
+          24987,
+          151645
+        ],
+        "text": "Morehead Kentucky",
+        "keep_hash": "af66d9430b43e73990661d40759e90b4f4775f3f9d127a1edd2ee86d85952563",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 7661,
+      "target_piece": "More",
+      "candidate_id": 12061,
+      "candidate_piece": "Mar",
+      "candidate_rank_at_position": 6,
+      "clean_fast_gap": 4.6875,
+      "content_priority": 1,
+      "fast_gradient_l1": 1379.34375,
+      "fast_gradient_l2": 4.703104019165039,
+      "estimated_fast_flip_linf": 0.003398355196085095,
+      "full_clean_hard_min": 0.0,
+      "full_probe_hard_min": -0.125,
+      "full_local_capacity_linf": 0.0,
+      "full_local_margin_available": false,
+      "reachability_ratio": 0.0,
+      "estimated_feasible_at_eps": false,
+      "clean_keep_hash": "850f1ff068e8ea314669513e7f700e8c4467c3a1410727dcdea313bc035ce95f",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          12061,
+          19012,
+          11,
+          49479,
+          151645
+        ],
+        "text": "Marshall, KY",
+        "keep_hash": "32011bd01a80b7891d7c8d67f58df159b922fbaa484ccb8ef04248b4cf0aaef8",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.5454545454545454,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "marshallky",
+      "complete_lexical_similarity_to_clean": 0.6,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          12061,
+          19012,
+          11,
+          49479,
+          151645
+        ],
+        "text": "Marshall, KY",
+        "keep_hash": "32011bd01a80b7891d7c8d67f58df159b922fbaa484ccb8ef04248b4cf0aaef8",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 7661,
+      "target_piece": "More",
+      "candidate_id": 93863,
+      "candidate_piece": "Kansas",
+      "candidate_rank_at_position": 7,
+      "clean_fast_gap": 4.8125,
+      "content_priority": 1,
+      "fast_gradient_l1": 4185.9248046875,
+      "fast_gradient_l2": 13.87236499786377,
+      "estimated_fast_flip_linf": 0.001149686204255472,
+      "full_clean_hard_min": 0.0,
+      "full_probe_hard_min": 0.0,
+      "full_local_capacity_linf": 0.0,
+      "full_local_margin_available": false,
+      "reachability_ratio": 0.0,
+      "estimated_feasible_at_eps": false,
+      "clean_keep_hash": "850f1ff068e8ea314669513e7f700e8c4467c3a1410727dcdea313bc035ce95f",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          93863,
+          151645
+        ],
+        "text": "Kansas",
+        "keep_hash": "0afdfb7f87f7b327326b3c329192445a6701a41881eb98d25c3eb949343ef744",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "kansas",
+      "complete_lexical_similarity_to_clean": 0.125,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          93863,
+          151645
+        ],
+        "text": "Kansas",
+        "keep_hash": "0afdfb7f87f7b327326b3c329192445a6701a41881eb98d25c3eb949343ef744",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 7661,
+      "target_piece": "More",
+      "candidate_id": 19,
+      "candidate_piece": "4",
+      "candidate_rank_at_position": 8,
+      "clean_fast_gap": 4.875,
+      "content_priority": 1,
+      "fast_gradient_l1": 3171.5791015625,
+      "fast_gradient_l2": 9.342833518981934,
+      "estimated_fast_flip_linf": 0.0015370892050582305,
+      "full_clean_hard_min": 0.0,
+      "full_probe_hard_min": -0.125,
+      "full_local_capacity_linf": 0.0,
+      "full_local_margin_available": false,
+      "reachability_ratio": 0.0,
+      "estimated_feasible_at_eps": false,
+      "clean_keep_hash": "850f1ff068e8ea314669513e7f700e8c4467c3a1410727dcdea313bc035ce95f",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          19,
+          15,
+          18,
+          20,
+          18,
+          151645
+        ],
+        "text": "40353",
+        "keep_hash": "09e0e1387c79933c74351a06a7a4afb83b73fb037d2456731e731098128a67f4",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "40353",
+      "complete_lexical_similarity_to_clean": 0.0,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          19,
+          15,
+          18,
+          20,
+          18,
+          151645
+        ],
+        "text": "40353",
+        "keep_hash": "09e0e1387c79933c74351a06a7a4afb83b73fb037d2456731e731098128a67f4",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    },
+    {
+      "position": 0,
+      "target_id": 7661,
+      "target_piece": "More",
+      "candidate_id": 11109,
+      "candidate_piece": "May",
+      "candidate_rank_at_position": 9,
+      "clean_fast_gap": 4.875,
+      "content_priority": 1,
+      "fast_gradient_l1": 2427.40478515625,
+      "fast_gradient_l2": 8.92124080657959,
+      "estimated_fast_flip_linf": 0.002008317702021091,
+      "full_clean_hard_min": 0.0,
+      "full_probe_hard_min": 0.0,
+      "full_local_capacity_linf": 0.0,
+      "full_local_margin_available": false,
+      "reachability_ratio": 0.0,
+      "estimated_feasible_at_eps": false,
+      "clean_keep_hash": "850f1ff068e8ea314669513e7f700e8c4467c3a1410727dcdea313bc035ce95f",
+      "clean_k": 3699,
+      "forced_continuation": {
+        "tokens": [
+          11109,
+          78,
+          49,
+          558,
+          49,
+          75,
+          151645
+        ],
+        "text": "MayoRiceRl",
+        "keep_hash": "a01cf5ab7720766c40ae36d046793bf444cac5e6f2ec3865a91096b32a9731cd",
+        "k": 3699
+      },
+      "forced_continuation_anls_diagnostic": 0.0,
+      "continuation_lexically_equivalent_to_clean": false,
+      "selection_uses_anls": false,
+      "pixel_mapping": "processor_anchored_differentiable_tile_delta_v1",
+      "complete_lexical_key": "mayoricerl",
+      "complete_lexical_similarity_to_clean": 0.4,
+      "screen_rejection": null,
+      "screen_forced_continuation": {
+        "tokens": [
+          11109,
+          78,
+          49,
+          558,
+          49,
+          75,
+          151645
+        ],
+        "text": "MayoRiceRl",
+        "keep_hash": "a01cf5ab7720766c40ae36d046793bf444cac5e6f2ec3865a91096b32a9731cd",
+        "k": 3699
+      },
+      "candidate_source": "clean_fastv_expanded_branch_complete_continuation_v2",
+      "attack_png_used": false,
+      "semantic_review": "PENDING_MANUAL_REVIEW"
+    }
+  ],
+  "candidate_protocol": {
+    "version": 2,
+    "topk_per_position": 32,
+    "competitors_per_position": 6,
+    "max_raw_branches": 24,
+    "max_complete_candidates": 6,
+    "ground_truth_used_for_selection": false,
+    "anls_used_for_selection": false
+  },
+  "proposal_counts": {
+    "raw_branches": 18,
+    "screen_admitted_after_limit": 6,
+    "screen_rejected": 2,
+    "estimated": 6
+  },
+  "rejected_proposals": [
+    {
+      "position": 0,
+      "target_id": 7661,
+      "target_piece": "More",
+      "candidate_id": 16,
+      "candidate_piece": "1",
+      "candidate_rank_at_position": 5,
+      "clean_fast_gap": 3.4375,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          16,
+          15,
+          15,
+          151645
+        ],
+        "text": "100",
+        "keep_hash": "e5585c534a520940d0d746e4f691e2329f36f359253f9b00ffd2e1a4975665d8",
+        "k": 3699
+      },
+      "complete_lexical_key": "100",
+      "complete_lexical_similarity_to_clean": 0.0,
+      "screen_rejection": "LIKELY_TRUNCATED_OUTPUT"
+    },
+    {
+      "position": 2,
+      "target_id": 22878,
+      "target_piece": " Ky",
+      "candidate_id": 3283,
+      "candidate_piece": " city",
+      "candidate_rank_at_position": 21,
+      "clean_fast_gap": 8.625,
+      "content_priority": 1,
+      "forced_continuation": {
+        "tokens": [
+          7661,
+          1983,
+          3283,
+          22878,
+          151645
+        ],
+        "text": "Morehead city Ky",
+        "keep_hash": "84a1f91c13fc9831c7d4277e0c14d70d2664794edb5ea6dba56ddcb86d9aa718",
+        "k": 3699
+      },
+      "complete_lexical_key": "moreheadcityky",
+      "complete_lexical_similarity_to_clean": 0.8333333333333334,
+      "screen_rejection": "DUPLICATE_COMPLETE_TEXT"
+    }
+  ]
+}
